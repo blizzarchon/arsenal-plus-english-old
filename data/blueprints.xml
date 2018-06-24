@@ -2263,7 +2263,7 @@ Cannot be applied to weapons that use only 1 power.</desc>
 <!-- 1.26.2 -->
 <augBlueprint name="INJECTOR_UNI"> <!-- √ -->
 	<title>Universal Injector</title>
-	<desc>A one-time procedure that changes one weapon in some way (based on its type). Used at sector start.
+	<desc>A one-time procedure that upgrades one weapon in some way. Used at sector start.
 Can be applied to any weapon in the weapons bay.</desc>
 	<cost>50</cost>
 	<bp>15</bp>
@@ -4715,7 +4715,7 @@ Some other weapon must be powered in order for it to work.</desc>
 	<damage>0</damage>
 	<stun>5</stun><!-- 1.26.1 removed stunChance of 4 -->
 	<ion>4</ion>
-	<sysDamage>3</sysDamage><!-- 1.26.1 was 4-->
+	<sysDamage>3</sysDamage><!-- 1.26.1 was 4 -->
 	<speed>30</speed>
 	<shots>1</shots>
 	<sp>0</sp>
@@ -4847,7 +4847,7 @@ Some other weapon must be powered in order for it to work.</desc>
 	<missiles>0</missiles>
 	<shots>1</shots>
 	<sp>5</sp>
-	<fireChance>7</fireChance>
+	<fireChance>8</fireChance><!-- 1.26.2 was 7 -->
 	<breachChance>0</breachChance>
 	<cooldown>40</cooldown>
 	<power>1</power>
@@ -9071,6 +9071,92 @@ Some other weapon must be powered in order for it to work.</desc>
 		<sound>miss</sound>
 	</missSounds>
 	<weaponArt>laser_burst_6</weaponArt> <!-- 1.25 -->
+</weaponBlueprint>
+
+<weaponBlueprint name="LASER_AL_1"><!-- 1.26.2 -->
+	<type>LASER</type>
+	<title>Adaptive Laser Mark I</title>
+	<tip>tip_laser</tip>
+	<short>A-Laser I</short>
+	<desc>Fires off a special charge which increases in damage with each volley, capping at 3 damage.</desc>
+	<damage>1</damage>
+	<shots>1</shots>
+	<stunChance>1</stunChance>
+	<sp>0</sp>
+	<fireChance>2</fireChance>
+	<breachChance>2</breachChance>
+	<cooldown>8</cooldown>
+	<power>1</power>
+	<cost>50</cost>
+	<bp>10</bp>
+	<rarity>3</rarity>
+	<image>ba_la_projectile</image>
+	<boost>
+		<type>damage</type>
+		<amount>1</amount>
+		<count>2</count>
+	</boost>
+	<explosion>explosion_random</explosion>
+	<launchSounds>
+		<sound>heavyLaser1</sound>
+		<sound>heavyLaser2</sound>
+		<sound>heavyLaser3</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>hitHull1</sound>
+	</hitShipSounds>
+	<hitShieldSounds>
+		<sound>hitShield1</sound>
+		<sound>hitShield2</sound>
+		<sound>hitShield3</sound>
+	</hitShieldSounds>
+	<missSounds>
+		<sound>miss</sound>
+	</missSounds>
+	<weaponArt>ba_laser_al_1</weaponArt>  
+</weaponBlueprint>
+
+<weaponBlueprint name="LASER_AL_2"><!-- 1.26.2 -->
+	<type>LASER</type>
+	<title>Adaptive Laser Mark II</title>
+	<tip>tip_laser</tip>
+	<short>A-Laser II</short>
+	<desc>Fires off two special charges which increase in damage with each volley, capping at 3 damage each.</desc>
+	<damage>1</damage>
+	<shots>2</shots>
+	<stunChance>1</stunChance>
+	<sp>0</sp>
+	<fireChance>2</fireChance>
+	<breachChance>2</breachChance>
+	<cooldown>15</cooldown>
+	<power>2</power>
+	<cost>65</cost>
+	<bp>10</bp>
+	<rarity>4</rarity>
+	<image>ba_la_projectile</image>
+	<boost>
+		<type>damage</type>
+		<amount>1</amount>
+		<count>2</count>
+	</boost>
+	<explosion>explosion_random</explosion>
+	<launchSounds>
+		<sound>heavyLaser1</sound>
+		<sound>heavyLaser2</sound>
+		<sound>heavyLaser3</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>hitHull1</sound>
+	</hitShipSounds>
+	<hitShieldSounds>
+		<sound>hitShield1</sound>
+		<sound>hitShield2</sound>
+		<sound>hitShield3</sound>
+	</hitShieldSounds>
+	<missSounds>
+		<sound>miss</sound>
+	</missSounds>
+	<weaponArt>ba_laser_al_2</weaponArt> 
 </weaponBlueprint>
 
 <!-- to translate -->
@@ -14659,7 +14745,7 @@ This modified Pike Beam inflicts extra system damage.</desc>
 	<fireChance>0</fireChance>
 	<breachChance>5</breachChance>
 	<lockdown>1</lockdown>
-	<cooldown>15</cooldown>
+	<cooldown>10</cooldown><!-- 1.26.2 was 15 -->
 	<power>1</power>
 	<cost>50</cost>
 	<bp>4</bp>
@@ -14688,14 +14774,14 @@ This modified Pike Beam inflicts extra system damage.</desc>
 	<damage>0</damage>
 	<stun>10</stun>
 	<sysDamage>0</sysDamage>
-	<persDamage>3</persDamage><!-- 1.25, was 2 -->
+	<persDamage>3</persDamage><!-- 1.25 was 2 -->
 	<missiles>1</missiles>
 	<shots>1</shots>
 	<sp>0</sp>
 	<fireChance>0</fireChance>
 	<breachChance>10</breachChance>
 	<lockdown>1</lockdown>
-	<cooldown>18</cooldown>
+	<cooldown>13</cooldown><!-- 1.26.2 was 18 -->
 	<power>1</power>
 	<cost>70</cost> <!--was 60-->
 	<bp>4</bp>
