@@ -1,0 +1,166 @@
+
+<text name="version">FTL: Faster Than Light v\1</text>  <!-- \1: version number -->
+<text name="window_title">FTL: Arsenal+</text>  <!-- Title of the game window -->
+
+<text name="paused_text">Press \1 or Middle Mouse to resume</text>
+
+<!-- Credits -->
+
+<!-- mix of the two, Arsenal+ comes first otherwise everybody won't fit, and Mstislav Sokolov is a designer, not just the graphics guy -->
+<text name="game_from">'Arsenal+' created by:</text>
+<text name="subset_games">Alexander "bamalf" Alferov and Konstantin "KBA3u" Morozov</text>
+
+<text name="created_by">'Arsenal+' designed by:</text>
+<text name="matthew_justin">Mstislav "Al`Hazrad" Sokolov</text>
+
+<text name="music_by">Music and sound by:</text>
+<text name="ben_prunty">Ben Prunty, "Luminis Insigne", Mushroomer, and Kieve Svetnikov</text>
+
+<text name="writing_by">Various graphical assets created by:</text>
+<text name="tom_jubert">Sleeper Service, Tweevle, slowriderxcorps, Gencool, and many others</text>
+
+<text name="guest_writer">A game from Subset Games</text>
+<text name="chris_a">Created by Matthew Davis and Justin Ma</text>
+
+<text name="additional_art">With writing from:</text>
+<text name="bryan_ma">Tom Jubert and Chris Avellone</text>
+
+<text name="editing">Additional art, editing, and design by:</text>
+<text name="alison_w">Bryan Ma and Alison Waller</text>
+
+<!-- reserved 3 lines for this -->
+<text name="additional_testing">Additional testing, advice, and invaluable support:</text>
+<text name="family_friends">Alison, Maria, Bryan, Matthieu, Collin, Anton, Ethan, Andy, Xia Tai Yi, our parents, and many more</text>
+
+
+<text name="defense_friendly"    >Your Basic Defense Drone: \nShoots down missiles, mines and debris. Will function until destroyed or until you jump away.</text>
+<text name="defense_enemy"       >Enemy Basic Defense Drone: \nShoots down missiles, mines and debris. Can be shut down by damaging the enemy ship's drone system.</text>
+
+<text name="defense_2_friendly"  >Your Adv. Defense Drone: \nShoots down any projectiles. Will function until destroyed or until you jump away.</text>
+<text name="defense_2_enemy"     >Enemy Adv. Defense Drone: \nShoots down any projectiles. Can be shut down by damaging the enemy ship's drone system.</text>
+
+<text name="anti_combat_friendly">Your Anti-Combat Drone: \nShoots to stun and possibly destroy enemy combat drones. Will function until destroyed or until you jump away.</text>
+<text name="anti_combat_enemy"   >Enemy Anti-Combat Drone: \nShoots to stun and possibly destroy your combat drones. Can be shut down by damaging the enemy ship's drone system.</text>
+
+<!-- <text name="hack_no_system">None, must hack a system.</text> -->
+<text name="hack_no_system">\nNot a target for hacking.</text><!-- 1.25 -->
+
+<!-- Info Boxes -->
+
+<text name="requires_missiles">Uses Ammunition</text><!-- 1.24 -->
+
+<text name="chance_low"   >Low (10-30%)</text>
+<text name="chance_medium">Med (40-60%)</text>
+<text name="chance_high"  >High (70-100%)</text>
+
+<!-- <text name="free_drone">Purchase comes with free \1</text> | Additional info text for drone system. \1: drone type -->
+<text name="free_drone">Comes with a free random drone: \1</text><!-- 1.23 | 1.25 In English is already good -->
+
+<text name="artillery_off">OFF: Artillery not charging</text>
+
+<!-- upgrade related -->
+
+<text name="oxygen"    >Oxygen</text>
+<text name="doors"     >Door Control</text>
+<text name="shields"   >Shields</text>
+<text name="pilot"     >Piloting</text>
+<text name="engines"   >Engines</text>
+<text name="sensors"   >Sensors</text>
+<text name="medbay"    >Medbay</text>
+<text name="weapons"   >Weapon Control</text>
+<text name="drones"    >Drone Control</text>
+<text name="teleporter">Teleporter</text>
+<text name="cloaking"  >Cloaking</text>
+<text name="artillery" >Artillery</text>
+<text name="battery"   >Backup Battery</text>
+<text name="clonebay"  >Clonebay</text>
+<text name="mind"      >Mind Control</text>
+<text name="hacking"   >Hacking</text>
+<text name="reactor"   >The Reactor</text>
+
+<text name="upgrade_fail_max"    >\1 is already fully upgraded.</text>  <!-- \1: system name -->
+<text name="upgrade_fail_missing">\1 cannot be upgraded - it isn't even installed!</text>  <!-- \1: system name -->
+
+<text name="item_removed">Removed '\1'</text>  <!-- \1: item name -->
+
+<!-- Tips -->
+<text name="tip_crystal"             >Tip: Crystal weapons pierce shields but are vulnerable to basic defense drones.</text>
+<text name="tip_sys_beams"           >Tip: These beams are ideal for boarding because they don't deal damage to the ship's hull. Shields completely block all damage from these beams. The beam damages crew when it passes over the square on which they stand.</text><!-- 1.26 added second sentence -->
+<text name="tip_beams_bio"           >Tip: For beam weapons to deal damage to enemy crew members, the beam must strike targets directly. \nAs Bio-beams cannot get through shields, they need the support of other weapons or drones to effectively kill the crew.</text>
+<text name="tip_ion_fire"            >Tip: For every one point of ion damage, one power bar is removed from the target system and it is then locked it for 5 seconds, preventing re-powering. If an ion weapon hits shields, the damage is automatically applied to the shield. If the shield has been disabled, there is a 30% chance to start a fire in the room.</text>
+<text name="tip_ion_heavy"           >Tip: For every one point of ion damage, one power bar is removed from the target system and it is then locked it for 5 seconds, preventing re-powering. Heavy ion weapons not only ionize systems but also damage them. If an ion weapon hits shields, the damage is automatically applied to the Shield System.</text>
+<text name="tip_ion_heavy_fire"      >Tip: For every one point of ion damage, one power bar is removed from the target system and it is then locked it for 5 seconds, preventing re-powering. Heavy ion weapons not only ionize systems but also damage them. If an ion weapon hits shields, the damage is automatically applied to the Shield System. If the shield has been disabled, there is a 30% chance to start a fire in the room.</text>
+<text name="tip_photo"               >Tip: The Lanius found use for this ancient photon weapon even though it isn't that accurate.</text>
+<text name="tip_laser_art"           >Tip: Artillery Lasers cause tremendous damage and are able to pierce one shield bubble.</text>
+<text name="tip_rail"                >Tip: The Railgun is an analogue of a laser weapon, but in contrast, pierces two shield bubbles.</text>
+<text name="tip_chain_vulkan"        >Tip: Chain Vulcans take a long time to warm up, but then they reach an astounding rate of fire. Indicators on the weapon show how many times it has been fired.</text>
+<text name="tip_remkorp"             >Tip: The Hull Repair Drone disappears after the repair is finished, but to start it again you will need to use an another drone part.</text>
+<!-- 1.23 -->
+<text name="tip_chain_ion"           >Tip: The Chain Ion decreases its cooldown every time it fires. Check the green lights on the weapon to see how many times it has fired.</text> <!-- 1.23 -->
+<text name="tip_adaptive_ion"        >Tip: The Adaptive Ion increases its damage every time it fires. Check the green lights on the weapon to see how many times it has fired.</text> <!-- 1.23 -->
+<text name="tip_repair_combat"       >Tip: This drone is ideal for capturing enemy ships intact. Make sure to keep it away from your boarding party!</text>
+<text name="tip_combat_hal"          >Tip: Combat HAL Drones are approximately 20% faster than their conventional counterparts. In addition, the characteristics of their weapons are often superior.</text>
+<text name="tip_ham"                 >Tip: It is said that there is a way to change the drone's beam weapon...</text><!-- It is written... -->
+<text name="tip_crew"                >Tip: System Repair Drones require 1 drone part to deploy, but will not need to be deployed again until destroyed. They stay on your ship and help your crew as long as they are powered.</text>
+<text name="tip_crew_hal"            >Tip: HAL Repair Drones require 1 drone part to deploy, but will not need to be deployed again until destroyed. They stay on your ship and help your crew even if Drone Control is completely destroyed. Attention! A shutdown button is not provided!</text>
+<text name="tip_battle"              >Tip: Anti-personnel drones requires 1 drone part to deploy, but will not need to be deployed again until destroyed. They stay on your ship and help your crew as long as they are powered.</text>
+<!-- 1.2X? -->
+<text name="tip_slurmgun"            >Tip: These unique Slurm lasers pass through all shields to injure enemy crew and damage systems, but cannot deplete shields or deal hull damage.</text><!-- 1.25 -->
+<!-- 1.26 -->
+<text name="ce_tip_laser_light_small">Tip: Small anti-personnel lasers cannot pass through shields and super shields. They fire with a bit of a spread.</text>
+<text name="tip_uwb"                 >Tip: The weapon inside the universal weapon mount recharges 10% faster than its regular counterpart. The type of weapon can only be determined by its characteristics.</text>
+<text name="tip_beams_no_sp"         >Tip: These beams don't deal any damage if the enemy has at least one shield bubble up. The beam damages crew when it passes over the square on which they stand.</text>
+<text name="tip_ex_beams"            >Tip: Zolton beams are 50% longer than their regular counterparts, but they can't fire if there are less than 30 missiles in the hold. They also have an increased chance to start a fire or cause a breach.</text>
+<!-- CE tips. not 100% sure if these should be exactly like CE, or different. -->
+<text name="ce_tip_beams_focus"      >Tip: Point Beams can damage only one room, but the damage is higher than that of long beams of the same level. Each shield layer reduces the damage from the beams by 1.</text>
+<text name="ce_tip_beams_industrial" >Tip: Industrial beams are extremely long, but not particularly fast. Being extremely long, these beams only find their worth against larger ships.</text>
+<text name="ce_tip_missiles_swarm"   >Tip: Missile batteries inflict reduced damage to systems and crew. They ignore all the shields and require 1 missile to launch. Enemy advanced defense drones can shoot them down.</text><!-- 1.22.2, "reduced" -->
+<text name="ce_tip_mines"            >Tip: Mines move slowly to their targets and are unable to damage systems and crew. Ammunition-based, they ignore all shields, but any enemy defense drone can shoot them down.</text>
+<text name="ce_tip_chaff"            >Tip: Chaff launchers deal no damage, but their projectiles will be targeted by enemy defense drones, opening an attack window for missile strikes.</text>
+<text name="ce_tip_laser_light"      >Tip: Anti-personnel lasers can pass through weak shields and super shields to injure enemy crew, but cannot deplete shields or deal hull damage.</text><!-- 1.25 -->
+<text name="ce_tip_laser_auto"       >Tip: Auto lasers can continuously suppress enemy shields, similar to certain combat drones. Each laser shot will be blocked by a single shield bubble.</text>
+<text name="ce_tip_laser_scatter"    >Tip: Scatter lasers cannot damage systems or crew. Each laser shot is blocked by a shield layer, regardless of the damage.</text><!-- 1.25 -->
+<text name="ce_tip_heavy_scatter"    >Tip: Heavy scatter lasers inflict reduced damage to systems and crew. Each laser shot is blocked by a shield layer, regardless of the damage.</text>
+<text name="ce_tip_prism"            >Tip: Prismatic Avatar lasers inflict ion damage in addition to normal damage, with an added chance of causing a breach.</text>
+<text name="ce_tip_bombs_cluster"    >Tip: Cluster Bombs teleport several rounds through shields, ignoring defensive drones, appearing directly on the ship. They require one missile to launch and cannot harm the hull, but may be effective against crew and systems. When you use them on your own ship only one bomb will appear.</text> <!-- marked for unclarity-->
+<text name="ce_tip_effector"         >Tip: Effectors bypass shields and emit ion damage directly on the targeted system. For every one point of ion damage, one power bar is removed from the target system and it is then locked it for 5 seconds, preventing re-powering.</text>
+<text name="ce_tip_missiles_tech"    >Tip: Techno-missiles contain a stealth system that allows them to bypass basic defense drones. They ignore all enemy shields, but require 1 missile to launch. Advanced defense drones can still shoot them down.</text>
+<text name="ce_tip_mines_tech"       >Tip: Techno-mines contain a stealth system that allows them to bypass basic defense drones. They move slowly to their targets and are unable to damage systems and crew. Ammunition-based, they ignore all shields, but advanced defense drones can still shoot them down.</text>
+<text name="ce_tip_combat_stealth"   >Tip: Combat Stealth Drones evade nearly every if not all shots fired from enemy defensive drones. Like all combat drones, they require a drone part every time they are launched in a battle and attack the enemy as long as they are powered.</text>
+<text name="ce_tip_beam_adaptive"    >Tip: Adaptive Beams increase their damage each time they are fired. When the beam's indicator turns green, it means that a level of damage has been gained.</text>
+<text name="ce_tip_stungun"          >Tip: Stunners ignore shields and have a good chance to immobilize all the crew in a given radius.</text>
+<text name="ce_tip_plasma"           >Tip: Plasma Throwers fire over a wide area and have a high chance to start a fire in the affected rooms. They cannot bring down shields, but ignore 1 shield bubble and supershields.</text>
+<text name="ce_tip_ion_pierce"       >Tip: If a phase ion weapon comes in contact with shields, its ion damage is automatically applied to the shield system. The phasing projectile will then pass through the shields and deal additional ion damage to any system it hits afterwards.</text>
+<text name="tip_prototype"           >Tip: Prototypes are powerful and unique weapons, but they often need the support of other weaponry.</text>
+<text name="tip_prototype2"          >Tip: Prototypes are powerful and unique weapons, but they often need the support of other weaponry. This prototype has been damaged in combat, so its performance is reduced, but it also requires less power.</text>
+<text name="tip_blaster"             >Tip: Created by Hacker factions, pulse blasters stun crew and shields alike, and may also cause breaches or start fires. Various modifications of pulse blasters have unique properties.</text>
+<text name="tip_no_missiles"         >Tip: This weapon uses power from your reactor to replicate its own explosives, allowing you to fire it without consuming any ammo whatsoever.</text>
+<text name="tip_laser_orden"         >Tip: Order lasers differ from ordinary lasers because of their high chance of fire.</text>
+<text name="tip_speed_orden"         >Tip: This weapon's projectiles fly so fast that defense drones don't even get the chance to shoot them down.</text>
+<text name="tip_tahion"              >Tip: Projectiles from a tachyon cannon are impossible to intercept, set fire to rooms, and stun the crew.</text>
+<text name="tip_ozu"                 >Tip: Single-Charge Installations are ready to use right at the start of a battle. They don't require any power, but can only fire once per battle. Some other weapon must be powered in order for it to fire. Unable to reload if you jump away from combat.</text>
+<text name="tip_chargeLaser"         >Tip: Charge Lasers sacrifice cooldown for their ability to charge each of their shots separately, granting them versatility at the cost of handling.</text>
+<text name="ars_tip_beams_pierce"    >Tip: Pierce Beams are designed to pierce through shield bubbles, but their beams are shorter than those of beam weapons in the same damage class.</text>
+<text name="tip_heal_bomb"           >Tip: Remember, bombs can miss the enemy ship so don't count on this as a guaranteed heal for your boarders! \nIf used on board your own ship, then it will be a guaranteed heal as it cannot miss.</text>
+
+
+
+<!-- Miscellaneous tip stuff -->
+
+<!-- <text name="tip_crystal">Tip: Crystal weapons pierce a single layer of shields. Only level 2 shields and higher can stop them.</text> -->
+
+<!-- <text name="faded_description">Nicknamed "The 'Ole Standard", this laser used to be quite something back in its day. Unfortunately, its inscription is faded away beyond recognition, so nobody has any way of knowing what it was.</text> -->
+<!-- <text name="lore_oldLaser">An old laser from the depths of obsolescence...</text> -->
+
+<!-- unused apparently
+<text name="ce_tip_chain_laser_light">Tip: Light lasers can pass through weak shields and super shields to injure enemy crew, but cannot deplete shields or deal hull damage. Chain lasers decrease in cooldown each time they fire.</text> -->
+
+<!-- <text name="tip_no_missiles">Tip: This weapon is improved so that it no longer consumes ammo.</text> --><!-- potentially discuss where you got the replicator weapon from -->
+<!-- <text name="ce_tip_mines">Tip: Mines ignore all enemy shields, but require 1 missile to launch, and cannot damage systems or crew. Enemy defense drones can shoot them down.</text> -->
+<!-- <text name="ce_tip_mines_tech">Tip: Techno-mines contain a stealth system that allows them to bypass basic defense drones. They ignore all enemy shields, but require 1 missile to launch and don't deal any damage to systems and crew. Advanced defense drones can still shoot them down.</text> -->
+
+<!-- <text name="ce_tip_beams_industrial">Tip: Industrial beams charge and fire extremely slowly, but have tremendous length. Highly likely that enemy shields will recharge and block part of the beam damage.</text> -->
+<!-- Tip: Industrial beams are extremely long, but charge and fire extremely slowly. 
+While enemy shields will likely recharge and block part of the beam's span, 
+fast enough support weaponry can bring down shields to resume and unleash the rest of the beam, though only on large ships.</text> -->
+
