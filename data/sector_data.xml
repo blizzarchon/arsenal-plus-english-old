@@ -176,6 +176,7 @@ STRUCTURE SECTORS
 		<blueprint name="INJECTOR_BRC" rarity="0"/><!-- 1.26 -->
 		<blueprint name="INJECTOR_CLD" rarity="0"/><!-- 1.26 -->
 		<blueprint name="INJECTOR_POW" rarity="0"/><!-- 1.26 -->
+		<blueprint name="INJECTOR_UNI" rarity="0"/><!-- 1.26.4 -->
 	</rarityList>
 	<startEvent>BOSS_NEUTRAL</startEvent><!-- STUPID, since it's starting you at the "exit" -->
 	<event name="STORE" min="1" max="1"/>
@@ -296,6 +297,20 @@ CIVILIAN SECTORS
 		<blueprint name="slug" rarity="0"/>
 		<blueprint name="rock" rarity="0"/>
 		<blueprint name="human" rarity="3"/>
+		<!-- 1.26.4 -->
+		<blueprint name="SILV_BEAM_1" rarity="5"/>
+		<blueprint name="SILV_BOMB_BREACH_3" rarity="5"/>
+		<blueprint name="SILV_BOMB_FIRE_2" rarity="5"/>
+		<blueprint name="SILV_ION_BLAST_2" rarity="5"/>
+		<blueprint name="SILV_ION_HEAVY_2" rarity="5"/>
+		<blueprint name="SILV_ION_PIERCE_1" rarity="5"/>
+		<blueprint name="SILV_LASER_AUTO_1" rarity="5"/>
+		<blueprint name="SILV_LASER_BURST_SCATTER_1" rarity="5"/>
+		<blueprint name="SILV_LASER_BURST_2" rarity="5"/>
+		<blueprint name="SILV_MISSILES_ASTERIA" rarity="5"/>
+		<blueprint name="SILV_MISSILES_BURST" rarity="5"/>
+		<blueprint name="SILV_MISSILES_HYDRA" rarity="5"/>
+		<blueprint name="SILV_SHOTGUN" rarity="5"/>
 	</rarityList>
 	<startEvent>START_BEACON_ENGI</startEvent>
 	<event name="CIRCLE_PRO_EVENT" min="1" max="1"/>
@@ -351,6 +366,21 @@ HOSTILE SECTORS
 		<track>hacking</track>
 		<track>lostship</track>
 	</trackList>
+	<rarityList><!-- 1.26.4 -->		
+		<blueprint name="SILV_BEAM_1" rarity="5"/>
+		<blueprint name="SILV_BOMB_BREACH_3" rarity="5"/>
+		<blueprint name="SILV_BOMB_FIRE_2" rarity="5"/>
+		<blueprint name="SILV_ION_BLAST_2" rarity="5"/>
+		<blueprint name="SILV_ION_HEAVY_2" rarity="5"/>
+		<blueprint name="SILV_ION_PIERCE_1" rarity="5"/>
+		<blueprint name="SILV_LASER_AUTO_1" rarity="5"/>
+		<blueprint name="SILV_LASER_BURST_SCATTER_1" rarity="5"/>
+		<blueprint name="SILV_LASER_BURST_2" rarity="5"/>
+		<blueprint name="SILV_MISSILES_ASTERIA" rarity="5"/>
+		<blueprint name="SILV_MISSILES_BURST" rarity="5"/>
+		<blueprint name="SILV_MISSILES_HYDRA" rarity="5"/>
+		<blueprint name="SILV_SHOTGUN" rarity="5"/>
+	</rarityList>
 	<startEvent>START_BEACON_REBEL</startEvent>
 	<event name="FLAGSHIP_CONSTRUCTION" min="1" max="1"/>
 	<event name="REBEL_DREDNOUT_QUEST" min="1" max="1"/><!-- 1.25, removed NEBULA_ from start -->
@@ -458,6 +488,20 @@ HOSTILE SECTORS
 		<blueprint name="ION_BLAST_FIRE_1" rarity="1"/>
 		<blueprint name="ION_BLAST_FIRE_2" rarity="1"/>
 		<blueprint name="ION_BLAST_FIRE_3" rarity="1"/>
+		<!-- 1.26.4 -->
+		<blueprint name="SILV_BEAM_1" rarity="5"/>
+		<blueprint name="SILV_BOMB_BREACH_3" rarity="5"/>
+		<blueprint name="SILV_BOMB_FIRE_2" rarity="5"/>
+		<blueprint name="SILV_ION_BLAST_2" rarity="5"/>
+		<blueprint name="SILV_ION_HEAVY_2" rarity="5"/>
+		<blueprint name="SILV_ION_PIERCE_1" rarity="5"/>
+		<blueprint name="SILV_LASER_AUTO_1" rarity="5"/>
+		<blueprint name="SILV_LASER_BURST_SCATTER_1" rarity="5"/>
+		<blueprint name="SILV_LASER_BURST_2" rarity="5"/>
+		<blueprint name="SILV_MISSILES_ASTERIA" rarity="5"/>
+		<blueprint name="SILV_MISSILES_BURST" rarity="5"/>
+		<blueprint name="SILV_MISSILES_HYDRA" rarity="5"/>
+		<blueprint name="SILV_SHOTGUN" rarity="5"/>
 	</rarityList>
 	<startEvent>START_BEACON_ORDEN</startEvent>
 	<event name="ORDEN_DREDNOUT_QUEST" min="1" max="1"/>
@@ -548,6 +592,21 @@ HOSTILE SECTORS
 	<trackList>
 		<track>incursor</track>
 	</trackList>
+	<rarityList><!-- 1.26.4 -->
+		<blueprint name="SILV_BEAM_1" rarity="5"/>
+		<blueprint name="SILV_BOMB_BREACH_3" rarity="5"/>
+		<blueprint name="SILV_BOMB_FIRE_2" rarity="5"/>
+		<blueprint name="SILV_ION_BLAST_2" rarity="5"/>
+		<blueprint name="SILV_ION_HEAVY_2" rarity="5"/>
+		<blueprint name="SILV_ION_PIERCE_1" rarity="5"/>
+		<blueprint name="SILV_LASER_AUTO_1" rarity="5"/>
+		<blueprint name="SILV_LASER_BURST_SCATTER_1" rarity="5"/>
+		<blueprint name="SILV_LASER_BURST_2" rarity="5"/>
+		<blueprint name="SILV_MISSILES_ASTERIA" rarity="5"/>
+		<blueprint name="SILV_MISSILES_BURST" rarity="5"/>
+		<blueprint name="SILV_MISSILES_HYDRA" rarity="5"/>
+		<blueprint name="SILV_SHOTGUN" rarity="5"/>
+	</rarityList>
 	<startEvent>START_BEACON_HAL</startEvent>
 	<event name="HAL_BOSS_FIGHT" min="1" max="1"/>
 	<event name="MEGADEATH" min="1" max="1"/><!-- 1.22  -->
@@ -607,6 +666,20 @@ HOSTILE SECTORS
 		<blueprint name="slug" rarity="0"/>
 		<blueprint name="rock" rarity="4"/>
 		<blueprint name="human" rarity="2"/>
+		<!-- 1.26.4 -->
+		<blueprint name="SILV_BEAM_1" rarity="5"/>
+		<blueprint name="SILV_BOMB_BREACH_3" rarity="5"/>
+		<blueprint name="SILV_BOMB_FIRE_2" rarity="5"/>
+		<blueprint name="SILV_ION_BLAST_2" rarity="5"/>
+		<blueprint name="SILV_ION_HEAVY_2" rarity="5"/>
+		<blueprint name="SILV_ION_PIERCE_1" rarity="5"/>
+		<blueprint name="SILV_LASER_AUTO_1" rarity="5"/>
+		<blueprint name="SILV_LASER_BURST_SCATTER_1" rarity="5"/>
+		<blueprint name="SILV_LASER_BURST_2" rarity="5"/>
+		<blueprint name="SILV_MISSILES_ASTERIA" rarity="5"/>
+		<blueprint name="SILV_MISSILES_BURST" rarity="5"/>
+		<blueprint name="SILV_MISSILES_HYDRA" rarity="5"/>
+		<blueprint name="SILV_SHOTGUN" rarity="5"/>
 	</rarityList>
 	<startEvent>START_BEACON_MANTIS</startEvent>
 	<event name="MANTIS_PRO_EVENT" min="1" max="1"/>	
@@ -781,6 +854,20 @@ NEBULA SECTORS
 		<blueprint name="PREIGNITE_PLASMA_IMPULSE_1" rarity="2"/><!-- 1.23 -->
 		<blueprint name="PREIGNITE_PLASMA_IMPULSE_2" rarity="3"/><!-- 1.23 -->
 		<blueprint name="PREIGNITE_PLASMA_IMPULSE_3" rarity="4"/><!-- 1.23 -->
+		<!-- 1.26.4 -->
+		<blueprint name="SILV_BEAM_1" rarity="5"/>
+		<blueprint name="SILV_BOMB_BREACH_3" rarity="5"/>
+		<blueprint name="SILV_BOMB_FIRE_2" rarity="5"/>
+		<blueprint name="SILV_ION_BLAST_2" rarity="5"/>
+		<blueprint name="SILV_ION_HEAVY_2" rarity="5"/>
+		<blueprint name="SILV_ION_PIERCE_1" rarity="5"/>
+		<blueprint name="SILV_LASER_AUTO_1" rarity="5"/>
+		<blueprint name="SILV_LASER_BURST_SCATTER_1" rarity="5"/>
+		<blueprint name="SILV_LASER_BURST_2" rarity="5"/>
+		<blueprint name="SILV_MISSILES_ASTERIA" rarity="5"/>
+		<blueprint name="SILV_MISSILES_BURST" rarity="5"/>
+		<blueprint name="SILV_MISSILES_HYDRA" rarity="5"/>
+		<blueprint name="SILV_SHOTGUN" rarity="5"/>
 	</rarityList>
 	<startEvent>START_BEACON_AVATAR</startEvent>
 	<event name="NEBULA_AVATAR_PRO_EVENT" min="1" max="1"/>
@@ -824,6 +911,20 @@ NEBULA SECTORS
 		<blueprint name="PREIGNITE_PLASMA_IMPULSE_1" rarity="2"/><!-- 1.23 -->
 		<blueprint name="PREIGNITE_PLASMA_IMPULSE_2" rarity="3"/><!-- 1.23 -->
 		<blueprint name="PREIGNITE_PLASMA_IMPULSE_3" rarity="4"/><!-- 1.23 -->
+		<!-- 1.26.4 -->
+		<blueprint name="SILV_BEAM_1" rarity="5"/>
+		<blueprint name="SILV_BOMB_BREACH_3" rarity="5"/>
+		<blueprint name="SILV_BOMB_FIRE_2" rarity="5"/>
+		<blueprint name="SILV_ION_BLAST_2" rarity="5"/>
+		<blueprint name="SILV_ION_HEAVY_2" rarity="5"/>
+		<blueprint name="SILV_ION_PIERCE_1" rarity="5"/>
+		<blueprint name="SILV_LASER_AUTO_1" rarity="5"/>
+		<blueprint name="SILV_LASER_BURST_SCATTER_1" rarity="5"/>
+		<blueprint name="SILV_LASER_BURST_2" rarity="5"/>
+		<blueprint name="SILV_MISSILES_ASTERIA" rarity="5"/>
+		<blueprint name="SILV_MISSILES_BURST" rarity="5"/>
+		<blueprint name="SILV_MISSILES_HYDRA" rarity="5"/>
+		<blueprint name="SILV_SHOTGUN" rarity="5"/>
 	</rarityList>
 	<startEvent>START_BEACON_SLUG</startEvent>
 	<event name="NEBULA_JELLY_PRO_EVENT" min="1" max="1"/>
@@ -962,19 +1063,34 @@ NEBULA SECTORS
 		<blueprint name="PREIGNITE_PLASMA_IMPULSE_1" rarity="2"/><!-- 1.23 -->
 		<blueprint name="PREIGNITE_PLASMA_IMPULSE_2" rarity="3"/><!-- 1.23 -->
 		<blueprint name="PREIGNITE_PLASMA_IMPULSE_3" rarity="4"/><!-- 1.23 -->
+		<!-- 1.26.4 -->
+		<blueprint name="SILV_BEAM_1" rarity="5"/>
+		<blueprint name="SILV_BOMB_BREACH_3" rarity="5"/>
+		<blueprint name="SILV_BOMB_FIRE_2" rarity="5"/>
+		<blueprint name="SILV_ION_BLAST_2" rarity="5"/>
+		<blueprint name="SILV_ION_HEAVY_2" rarity="5"/>
+		<blueprint name="SILV_ION_PIERCE_1" rarity="5"/>
+		<blueprint name="SILV_LASER_AUTO_1" rarity="5"/>
+		<blueprint name="SILV_LASER_BURST_SCATTER_1" rarity="5"/>
+		<blueprint name="SILV_LASER_BURST_2" rarity="5"/>
+		<blueprint name="SILV_MISSILES_ASTERIA" rarity="5"/>
+		<blueprint name="SILV_MISSILES_BURST" rarity="5"/>
+		<blueprint name="SILV_MISSILES_HYDRA" rarity="5"/>
+		<blueprint name="SILV_SHOTGUN" rarity="5"/>
 	</rarityList>
 	<startEvent>START_BEACON_UNSTABLE</startEvent>
 	<event name="BATTLE_PIRATE_BOSS" min="1" max="1"/>
+	<event name="SILVER_SHAMAN_EVENT" min="1" max="1"/><!-- 1.26.4 -->
 	<event name="APLUS_BLACK_HOLE_START" min="1" max="1"/>
 	<event name="HALCYON_EVENT" min="1" max="1"/>
 	<event name="NEBULA_BOSS_HACKER" min="1" max="1"/><!-- 1.22.2 -->
 	<event name="STORM_STORE_UNSTABLE" min="1" max="3"/>
-	<event name="NEBULA_ITEMS_UNSTABLE" min="1" max="3"/><!-- 1.25, was 0-2 -->
+	<event name="NEBULA_ITEMS_UNSTABLE" min="1" max="3"/><!-- 1.25 was 0-2 -->
 	<event name="NOTHING_UNSTABLE_1" min="0" max="1"/>
 	<event name="NEBULA_EMPTY" min="1" max="2"/>
-	<event name="HOSTILE_UNSTABLE" min="3" max="6"/><!-- 1.25, was 4-7 -->
+	<event name="HOSTILE_UNSTABLE" min="2" max="5"/><!-- 1.26.4 was 3-6, see above | 1.25 was 4-7 -->
 	<event name="DISTRESS_BEACON_UNSTABLE" min="0" max="1"/>
-	<event name="NEBULA_UNSTABLE" min="4" max="6"/><!-- 1.25, was 5-7, see above | 1.22.2, was 6-8 -->
+	<event name="NEBULA_UNSTABLE" min="4" max="6"/><!-- 1.25 was 5-7, see above | 1.22.2, was 6-8 -->
 	<event name="NEUTRAL_UNSTABLE" min="1" max="3"/>
 	<event name="STORM_NEUTRAL_UNSTABLE" min="0" max="1"/>
 </sectorDescription>
@@ -1050,6 +1166,20 @@ make this have the unique map exploring (cant see all nodes, slow rebel movement
 		<blueprint name="slug" rarity="4"/>
 		<blueprint name="rock" rarity="4"/>
 		<blueprint name="human" rarity="3"/>
+		<!-- 1.26.4 -->
+		<blueprint name="SILV_BEAM_1" rarity="5"/>
+		<blueprint name="SILV_BOMB_BREACH_3" rarity="5"/>
+		<blueprint name="SILV_BOMB_FIRE_2" rarity="5"/>
+		<blueprint name="SILV_ION_BLAST_2" rarity="5"/>
+		<blueprint name="SILV_ION_HEAVY_2" rarity="5"/>
+		<blueprint name="SILV_ION_PIERCE_1" rarity="5"/>
+		<blueprint name="SILV_LASER_AUTO_1" rarity="5"/>
+		<blueprint name="SILV_LASER_BURST_SCATTER_1" rarity="5"/>
+		<blueprint name="SILV_LASER_BURST_2" rarity="5"/>
+		<blueprint name="SILV_MISSILES_ASTERIA" rarity="5"/>
+		<blueprint name="SILV_MISSILES_BURST" rarity="5"/>
+		<blueprint name="SILV_MISSILES_HYDRA" rarity="5"/>
+		<blueprint name="SILV_SHOTGUN" rarity="5"/>
 	</rarityList>
 	<startEvent>START_BEACON_ZOLTAN</startEvent>
 	<event name="ZOLTAN_PRO_EVENT" min="1" max="1"/>
@@ -1318,6 +1448,20 @@ make this have the unique map exploring (cant see all nodes, slow rebel movement
 		<blueprint name="UWB_ION_BLAST_2" rarity="3"/>
 		<blueprint name="UWB_ION_BLAST_3" rarity="4"/>
 		<blueprint name="UWB_JADE_CANNON_PLAYER" rarity="5"/>
+		<!-- 1.26.4 -->
+		<blueprint name="SILV_BEAM_1" rarity="5"/>
+		<blueprint name="SILV_BOMB_BREACH_3" rarity="5"/>
+		<blueprint name="SILV_BOMB_FIRE_2" rarity="5"/>
+		<blueprint name="SILV_ION_BLAST_2" rarity="5"/>
+		<blueprint name="SILV_ION_HEAVY_2" rarity="5"/>
+		<blueprint name="SILV_ION_PIERCE_1" rarity="5"/>
+		<blueprint name="SILV_LASER_AUTO_1" rarity="5"/>
+		<blueprint name="SILV_LASER_BURST_SCATTER_1" rarity="5"/>
+		<blueprint name="SILV_LASER_BURST_2" rarity="5"/>
+		<blueprint name="SILV_MISSILES_ASTERIA" rarity="5"/>
+		<blueprint name="SILV_MISSILES_BURST" rarity="5"/>
+		<blueprint name="SILV_MISSILES_HYDRA" rarity="5"/>
+		<blueprint name="SILV_SHOTGUN" rarity="5"/>
 	</rarityList>
 	<startEvent>START_BEACON_ZOLTON</startEvent>
 	<event name="ZOLTON_BOSS_EVENT" min="1" max="1"/>
@@ -1385,6 +1529,20 @@ make this have the unique map exploring (cant see all nodes, slow rebel movement
 		<blueprint name="rock" rarity="1"/>
 		<blueprint name="human" rarity="2"/>
 		<!-- <blueprint name="BOMB_LOCK" rarity="2"/> -->
+		<!-- 1.26.4 -->
+		<blueprint name="SILV_BEAM_1" rarity="5"/>
+		<blueprint name="SILV_BOMB_BREACH_3" rarity="5"/>
+		<blueprint name="SILV_BOMB_FIRE_2" rarity="5"/>
+		<blueprint name="SILV_ION_BLAST_2" rarity="5"/>
+		<blueprint name="SILV_ION_HEAVY_2" rarity="5"/>
+		<blueprint name="SILV_ION_PIERCE_1" rarity="5"/>
+		<blueprint name="SILV_LASER_AUTO_1" rarity="5"/>
+		<blueprint name="SILV_LASER_BURST_SCATTER_1" rarity="5"/>
+		<blueprint name="SILV_LASER_BURST_2" rarity="5"/>
+		<blueprint name="SILV_MISSILES_ASTERIA" rarity="5"/>
+		<blueprint name="SILV_MISSILES_BURST" rarity="5"/>
+		<blueprint name="SILV_MISSILES_HYDRA" rarity="5"/>
+		<blueprint name="SILV_SHOTGUN" rarity="5"/>
 	</rarityList>
 	<!-- <event name="STORE" min="2" max="4"/> -->
 	<startEvent>START_BEACON_ROCK</startEvent>
@@ -1674,6 +1832,20 @@ HIDDEN SECTORS
 		<blueprint name="DE_DRONE_CRYSTAL_LIGHT" rarity="2"/>
 		<blueprint name="DE_DRONE_DEFENSE_CRYSTAL_LIGHT" rarity="2"/>
 		<blueprint name="DE_DRONE_ANTI_CRYSTAL_HEAVY" rarity="3"/>
+		<!-- 1.26.4 -->
+		<blueprint name="SILV_BEAM_1" rarity="5"/>
+		<blueprint name="SILV_BOMB_BREACH_3" rarity="5"/>
+		<blueprint name="SILV_BOMB_FIRE_2" rarity="5"/>
+		<blueprint name="SILV_ION_BLAST_2" rarity="5"/>
+		<blueprint name="SILV_ION_HEAVY_2" rarity="5"/>
+		<blueprint name="SILV_ION_PIERCE_1" rarity="5"/>
+		<blueprint name="SILV_LASER_AUTO_1" rarity="5"/>
+		<blueprint name="SILV_LASER_BURST_SCATTER_1" rarity="5"/>
+		<blueprint name="SILV_LASER_BURST_2" rarity="5"/>
+		<blueprint name="SILV_MISSILES_ASTERIA" rarity="5"/>
+		<blueprint name="SILV_MISSILES_BURST" rarity="5"/>
+		<blueprint name="SILV_MISSILES_HYDRA" rarity="5"/>
+		<blueprint name="SILV_SHOTGUN" rarity="5"/>
 	</rarityList>
 	<startEvent>START_BEACON_CRYSTAL</startEvent>
 	<event name="STORE_CRYSTAL" min="2" max="3"/>
@@ -1748,6 +1920,20 @@ HIDDEN SECTORS
 		<blueprint name="PHOTO_HEAVY_1" rarity="2"/>
 		<blueprint name="PHOTO_HEAVY_2" rarity="2"/>
 		<blueprint name="PHOTO_CHAINGUN" rarity="3"/>
+		<!-- 1.26.4 -->
+		<blueprint name="SILV_BEAM_1" rarity="5"/>
+		<blueprint name="SILV_BOMB_BREACH_3" rarity="5"/>
+		<blueprint name="SILV_BOMB_FIRE_2" rarity="5"/>
+		<blueprint name="SILV_ION_BLAST_2" rarity="5"/>
+		<blueprint name="SILV_ION_HEAVY_2" rarity="5"/>
+		<blueprint name="SILV_ION_PIERCE_1" rarity="5"/>
+		<blueprint name="SILV_LASER_AUTO_1" rarity="5"/>
+		<blueprint name="SILV_LASER_BURST_SCATTER_1" rarity="5"/>
+		<blueprint name="SILV_LASER_BURST_2" rarity="5"/>
+		<blueprint name="SILV_MISSILES_ASTERIA" rarity="5"/>
+		<blueprint name="SILV_MISSILES_BURST" rarity="5"/>
+		<blueprint name="SILV_MISSILES_HYDRA" rarity="5"/>
+		<blueprint name="SILV_SHOTGUN" rarity="5"/>
 	</rarityList>
 	<startEvent>START_BEACON_LANIUS</startEvent>
 	<event name="ANAEROBIC_PRO_EVENT" min="1" max="1"/>

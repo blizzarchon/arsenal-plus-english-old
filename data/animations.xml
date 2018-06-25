@@ -8964,3 +8964,147 @@ ENGINEER ANIMATIONS
 	<chargeImage>weapons/beam_fchain_glow.png</chargeImage>
 	<boost>beam_fchain_charger</boost>
 </weaponAnim>
+
+<!-- bamalf -->
+<!-- SILVER PACK -->
+<animSheet name="silv_beam_1_strip8" w="192" h="33" fw="24" fh="33">weapons/silv_beam_1_strip8.png</animSheet>
+<weaponAnim name="silv_beam_1_strip8">
+	<sheet>silv_beam_1_strip8</sheet>
+	<desc length="8" x="0" y="0"/>
+	<chargedFrame>1</chargedFrame>
+	<fireFrame>2</fireFrame>
+	<firePoint  x="16" y="9"/>
+	<mountPoint x="5" y="24"/>
+	<chargeImage>weapons/beam_1_glow.png</chargeImage>
+</weaponAnim>
+
+<animSheet name="silv_bomblauncher_breach_3_strip17" w="595" h="50" fw="35" fh="50">weapons/silv_bomblauncher_breach_3_strip17.png</animSheet>
+<weaponAnim name="silv_bomblauncher_breach_3_strip17">
+	<sheet>silv_bomblauncher_breach_3_strip17</sheet>
+	<desc length="17" x="0" y="0"/>
+	<chargedFrame>5</chargedFrame>
+	<fireFrame>16</fireFrame>
+	<firePoint x="20" y="8" />
+	<mountPoint x="5" y="34" />
+	<delayChargeAnim>0.98</delayChargeAnim>
+	<chargeImage>weapons/bomblauncher_1_glow.png</chargeImage>
+</weaponAnim>
+
+<animSheet name="silv_bomblauncher_fire_2_strip17" w="595" h="50" fw="35" fh="50">weapons/silv_bomblauncher_fire_2_strip17.png</animSheet>
+<weaponAnim name="silv_bomblauncher_fire_2_strip17">
+	<sheet>silv_bomblauncher_fire_2_strip17</sheet>
+	<desc length="17" x="0" y="0"/>
+	<chargedFrame>5</chargedFrame>
+	<fireFrame>16</fireFrame>
+	<firePoint x="20" y="8" />
+	<mountPoint x="5" y="34" />
+	<delayChargeAnim>0.98</delayChargeAnim>
+	<chargeImage>weapons/bomblauncher_1_glow.png</chargeImage>
+</weaponAnim>
+
+<animSheet name="silv_ion_b_2_strip8" w="240" h="60" fw="30" fh="60">weapons/silv_ion_b_2_strip8.png</animSheet>
+<weaponAnim name="silv_ion_b_2_strip8">
+	<sheet>silv_ion_b_2_strip8</sheet>
+	<desc length="8" x="0" y="0"/>
+	<chargedFrame>1</chargedFrame>
+	<fireFrame>5</fireFrame>
+	<firePoint  x="17" y="3"/>
+	<mountPoint x="2" y="40"/>
+	<chargeImage>weapons/ion_b_2_glow.png</chargeImage>
+</weaponAnim>
+
+<animSheet name="silv_ion_heavy_2_strip8" w="216" h="66" fw="27" fh="66">weapons/silv_ion_heavy_2_strip8.png</animSheet>
+<weaponAnim name="silv_ion_heavy_2_strip8">
+	<sheet>silv_ion_heavy_2_strip8</sheet>
+	<desc length="8" x="0" y="0"/>
+	<chargedFrame>1</chargedFrame>
+	<fireFrame>5</fireFrame>
+	<firePoint  x="16" y="7"/>
+	<mountPoint x="2" y="45"/>
+	<chargeImage>weapons/ba_ion_heavy_2_glow.png</chargeImage>
+</weaponAnim>
+
+<animSheet name="silv_ion_phase_1_strip8" w="224" h="50" fw="28" fh="50">weapons/silv_ion_phase_1_strip8.png</animSheet>
+<weaponAnim name="silv_ion_phase_1_strip8">
+	<sheet>silv_ion_phase_1_strip8</sheet>
+	<desc length="8" x="0" y="0"/>
+	<chargedFrame>1</chargedFrame>
+	<fireFrame>5</fireFrame>
+	<firePoint  x="15" y="2"/>
+	<mountPoint x="4" y="39"/>
+	<chargeImage>weapons/ba_ion_phase_1_glow.png</chargeImage>
+</weaponAnim>
+
+<animSheet name="silv_laser_auto_1_strip12" w="276" h="64" fw="23" fh="64">weapons/silv_laser_auto_1_strip12.png</animSheet>
+<weaponAnim name="silv_laser_auto_1_strip12">
+	<sheet>silv_laser_auto_1_strip12</sheet>
+	<desc length="12" x="0" y="0"/>
+	<chargedFrame>5</chargedFrame>
+	<fireFrame>9</fireFrame>
+	<firePoint  x="13" y="7"/>
+	<mountPoint x="3" y="44"/>
+</weaponAnim>
+
+<animSheet name="silv_laser_burst_scatter_1_strip12" w="216" h="46" fw="18" fh="46">weapons/silv_laser_burst_scatter_1_strip12.png</animSheet>
+<weaponAnim name="silv_laser_burst_scatter_1_strip12">
+	<sheet>silv_laser_burst_scatter_1_strip12</sheet>
+	<desc length="12" x="0" y="0"/>
+	<chargedFrame>5</chargedFrame>
+	<fireFrame>8</fireFrame>
+	<firePoint  x="11" y="6"/>
+	<mountPoint x="3" y="32"/>
+</weaponAnim>
+
+<animSheet name="silv_laser3_strip12" w="276" h="64" fw="23" fh="64">weapons/silv_laser3_strip12.png</animSheet>
+<weaponAnim name="silv_laser3_strip12">
+	<sheet>silv_laser3_strip12</sheet>
+	<desc length="12" x="0" y="0"/>
+	<chargedFrame>5</chargedFrame>
+	<fireFrame>9</fireFrame>
+	<firePoint  x="13" y="7"/>
+	<mountPoint x="3" y="44"/>
+</weaponAnim>
+
+<animSheet name="silv_missiles_asteria_strip3" w="75" h="43" fw="25" fh="43">weapons/silv_missiles_asteria_strip3.png</animSheet>
+<weaponAnim name="silv_missiles_asteria_strip3">
+	<sheet>silv_missiles_asteria_strip3</sheet>
+	<desc length="3" x="0" y="0"/>
+	<chargedFrame>1</chargedFrame>
+	<fireFrame>2</fireFrame>
+	<firePoint  x="15" y="20"/>
+	<mountPoint x="7" y="30"/>
+	<chargeImage>weapons/ba_missiles_asteria_glow.png</chargeImage>
+</weaponAnim>
+
+<animSheet name="silv_missiles_burst_1_strip3" w="81" h="49" fw="27" fh="49">weapons/silv_missiles_burst_1_strip3.png</animSheet>
+<weaponAnim name="silv_missiles_burst_1_strip3">
+	<sheet>silv_missiles_burst_1_strip3</sheet>
+	<desc length="3" x="0" y="0"/>
+	<chargedFrame>1</chargedFrame>
+	<fireFrame>2</fireFrame>
+	<firePoint  x="16" y="20"/>
+	<mountPoint x="3" y="34"/>
+	<chargeImage>weapons/missiles_burst_1_glow.png</chargeImage>
+</weaponAnim>
+
+<animSheet name="silv_missiles_hydra_strip8" w="224" h="50" fw="28" fh="50">weapons/silv_missiles_hydra_strip8.png</animSheet>
+<weaponAnim name="silv_missiles_hydra_strip8">
+	<sheet>silv_missiles_hydra_strip8</sheet>
+	<desc length="8" x="0" y="0"/>
+	<chargedFrame>1</chargedFrame>
+	<fireFrame>2</fireFrame>
+	<firePoint  x="16" y="20"/>
+	<mountPoint x="4" y="32"/>
+	<chargeImage>weapons/missiles_hydra_glow.png</chargeImage>
+</weaponAnim>
+
+<animSheet name="silv_shotgun_strip8" w="296" h="51" fw="37" fh="51">weapons/silv_shotgun_strip8.png</animSheet>
+<weaponAnim name="silv_shotgun_strip8">
+	<sheet>silv_shotgun_strip8</sheet>
+	<desc length="8" x="0" y="0"/>
+	<chargedFrame>1</chargedFrame>
+	<fireFrame>3</fireFrame>
+	<firePoint  x="12" y="22"/>
+	<mountPoint x="3" y="33"/>
+	<chargeImage>weapons/shotgun_glow.png</chargeImage>
+</weaponAnim>

@@ -5159,10 +5159,6 @@
 	<name>INJECTOR_UNI</name>
 </blueprintList>
 
-<?xml version="1.0" encoding="utf-8"?>
-
-<!-- Copyright (c) 2012 by Subset Games. All rights reserved -->
-
 <!--            SHIP LISTS            -->
 
 <blueprintList name="SHIPS_FED">
@@ -14901,7 +14897,7 @@
 		<engines power="1" max="6" room="5" start="true" />
 		<oxygen power="1" max="3" room="3" start="true" />
 		<pilot power="1" max="3" room="1" start="true" />
-		<shields power="3" max="7" room="9" start="true" />
+		<shields power="3" max="9" room="9" start="true" /><!-- 1.26.4 max was 7 -->
 		<weapons power="2" max="10" room="4" start="true" />
 	</systemList>
 	<weaponSlots>4</weaponSlots>
@@ -14924,7 +14920,7 @@
 		<engines power="1" max="6" room="5" start="true" />
 		<oxygen power="1" max="3" room="3" start="true" />
 		<pilot power="1" max="3" room="1" start="true" />
-		<shields power="3" max="7" room="10" start="true" />
+		<shields power="3" max="9" room="10" start="true" /><!-- 1.26.4 max was 7 -->
 		<weapons power="2" max="10" room="4" start="true" />
 	</systemList>
 	<weaponSlots>4</weaponSlots>
@@ -14947,7 +14943,7 @@
 		<engines power="1" max="6" room="5" start="true" />
 		<oxygen power="1" max="3" room="8" start="true" />
 		<pilot power="1" max="3" room="1" start="true" />
-		<shields power="3" max="7" room="9" start="true" />
+		<shields power="3" max="9" room="9" start="true" /><!-- 1.26.4 max was 7 -->
 		<weapons power="2" max="10" room="4" start="true" />
 	</systemList>
 	<weaponSlots>4</weaponSlots>
@@ -14970,7 +14966,7 @@
 		<medbay power="1" max="3" room="8" start="false" />
 		<oxygen power="1" max="3" room="3" start="true" />
 		<pilot power="1" max="3" room="1" start="true" />
-		<shields power="3" max="3" room="9" start="true" />
+		<shields power="3" max="9" room="9" start="true" /><!-- 1.26.4 max was 3 -->
 		<weapons power="2" max="10" room="4" start="true" />
 	</systemList>
 	<weaponSlots>4</weaponSlots>
@@ -14993,7 +14989,7 @@
 		<engines power="2" max="7" room="5" start="true" />
 		<oxygen power="1" max="3" room="3" start="true" />
 		<pilot power="1" max="3" room="0" start="true" />
-		<shields power="3" max="5" room="8" start="true" />
+		<shields power="3" max="7" room="8" start="true" /><!-- 1.26.4 max was 5 -->
 		<weapons power="2" max="8" room="6" start="true" />
 	</systemList>
 	<weaponSlots>4</weaponSlots>
@@ -15015,7 +15011,7 @@
 		<engines power="2" max="7" room="5" start="true" />
 		<oxygen power="1" max="3" room="3" start="true" />
 		<pilot power="1" max="3" room="0" start="true" />
-		<shields power="3" max="5" room="8" start="true" />
+		<shields power="3" max="7" room="8" start="true" /><!-- 1.26.4 max was 5 -->
 		<weapons power="2" max="8" room="6" start="true" />
 	</systemList>
 	<weaponSlots>4</weaponSlots>
@@ -15037,7 +15033,7 @@
 		<medbay power="1" max="3" room="2" start="false" />
 		<oxygen power="1" max="3" room="6" start="true" />
 		<pilot power="1" max="3" room="0" start="true" />
-		<shields power="3" max="5" room="8" start="true" />
+		<shields power="3" max="7" room="8" start="true" /><!-- 1.26.4 max was 5 -->
 		<weapons power="2" max="8" room="3" start="true" />
 	</systemList>
 	<weaponSlots>4</weaponSlots>
@@ -15059,7 +15055,7 @@
 		<medbay power="1" max="3" room="2" start="false" />
 		<oxygen power="1" max="3" room="6" start="true" />
 		<pilot power="1" max="3" room="0" start="true" />
-		<shields power="3" max="5" room="8" start="true" />
+		<shields power="3" max="7" room="8" start="true" /><!-- 1.26.4 max was 5 -->
 		<weapons power="2" max="8" room="3" start="true" />
 	</systemList>
 	<weaponSlots>4</weaponSlots>
@@ -15082,7 +15078,7 @@
 		<medbay power="1" max="3" room="4" start="false" />
 		<oxygen power="1" max="3" room="2" start="true" />
 		<pilot power="1" max="1" room="0" start="true" />
-		<shields power="2" max="3" room="8" start="true" />
+		<shields power="2" max="5" room="8" start="true" /><!-- 1.26.4 max was 3 -->
 		<weapons power="2" max="8" room="3" start="true" />
 	</systemList>
 	<weaponSlots>4</weaponSlots>
@@ -15104,7 +15100,7 @@
 		<medbay power="1" max="3" room="4" start="false" />
 		<oxygen power="1" max="3" room="2" start="true" />
 		<pilot power="1" max="1" room="0" start="true" />
-		<shields power="2" max="3" room="8" start="true" />
+		<shields power="2" max="5" room="8" start="true" /><!-- 1.26.4 max was 3 -->
 		<weapons power="2" max="8" room="3" start="true" />
 	</systemList>
 	<weaponSlots>4</weaponSlots>
@@ -15126,7 +15122,7 @@
 		<engines power="2" max="8" room="3" start="true" />
 		<oxygen power="1" max="3" room="2" start="true" />
 		<pilot power="1" max="1" room="0" start="true" />
-		<shields power="2" max="3" room="8" start="true" />
+		<shields power="2" max="5" room="8" start="true" /><!-- 1.26.4 max was 3 -->
 		<weapons power="2" max="8" room="7" start="true" />
 	</systemList>
 	<weaponSlots>4</weaponSlots>
@@ -15148,7 +15144,7 @@
 		<engines power="2" max="8" room="3" start="true" />
 		<oxygen power="1" max="3" room="2" start="true" />
 		<pilot power="1" max="1" room="0" start="true" />
-		<shields power="2" max="3" room="8" start="true" />
+		<shields power="2" max="5" room="8" start="true" /><!-- 1.26.4 max was 3 -->
 		<weapons power="2" max="8" room="4" start="true" />
 	</systemList>
 	<weaponSlots>4</weaponSlots>
@@ -15176,7 +15172,7 @@
 		<medbay power="1" max="3" room="6" start="true" />
 		<oxygen power="1" max="3" room="10" start="true" />
 		<pilot power="1" max="3" room="1" start="true" />
-		<shields power="4" max="8" room="11" start="true" />
+		<shields power="4" max="10" room="11" start="true" /><!-- 1.26.4 max was 8 -->
 		<weapons power="4" max="10" room="3" start="true" />
 	</systemList>
 	<weaponList count="1" missiles="30">
@@ -15204,7 +15200,7 @@
 		<medbay power="1" max="3" room="6" start="true" />
 		<oxygen power="1" max="3" room="10" start="true" />
 		<pilot power="1" max="3" room="1" start="true" />
-		<shields power="4" max="8" room="11" start="true" />
+		<shields power="4" max="10" room="11" start="true" /><!-- 1.26.4 max was 8 -->
 		<weapons power="4" max="10" room="3" start="true" />
 	</systemList>
 	<weaponList count="1" missiles="0">
@@ -15235,7 +15231,7 @@
 		<battery power="2" max="2" room="3" start="true" />
 		<engines power="1" max="8" room="2" start="true" /> 
 		<pilot power="1" max="3" room="1" start="true" />
-		<shields power="2" max="2" room="5" start="true" />
+		<shields power="2" max="5" room="5" start="true" /><!-- 1.26.4 max was 2 -->
 		<weapons power="3" max="10" room="0" start="true" />
 	</systemList>
 	<weaponSlots>4</weaponSlots>
@@ -15253,7 +15249,7 @@
 		<battery power="2" max="2" room="3" start="true" />
 		<engines power="1" max="8" room="2" start="true" /> 
 		<pilot power="1" max="3" room="1" start="true" />
-		<shields power="2" max="2" room="5" start="true" />
+		<shields power="2" max="5" room="5" start="true" /><!-- 1.26.4 max was 2 -->
 		<weapons power="3" max="10" room="0" start="true" />
 	</systemList>
 	<weaponSlots>4</weaponSlots>
@@ -15271,7 +15267,7 @@
 		<battery power="2" max="2" room="3" start="true" />
 		<engines power="1" max="8" room="2" start="true" />
 		<pilot power="1" max="3" room="1" start="true" />
-		<shields power="2" max="2" room="5" start="true" />
+		<shields power="2" max="5" room="5" start="true" /><!-- 1.26.4 max was 2 -->
 		<weapons power="3" max="10" room="4" start="true" />
 	</systemList>
 	<weaponSlots>4</weaponSlots>
@@ -15290,7 +15286,7 @@
 		<battery power="2" max="2" room="0" start="true" />
 		<engines power="2" max="8" room="4" start="true" />
 		<pilot power="1" max="2" room="1" start="true" />
-		<shields power="2" max="4" room="5" start="true" />
+		<shields power="2" max="7" room="5" start="true" /><!-- 1.26.4 max was 4 -->
 		<weapons power="3" max="10" room="3" start="true" />
 	</systemList>
 	<weaponSlots>4</weaponSlots>
@@ -15308,7 +15304,7 @@
 		<battery power="2" max="2" room="0" start="true" />
 		<engines power="2" max="8" room="2" start="true" /> 
 		<pilot power="1" max="2" room="1" start="true" />
-		<shields power="2" max="4" room="5" start="true" />
+		<shields power="2" max="7" room="5" start="true" /><!-- 1.26.4 max was 4 -->
 		<weapons power="3" max="10" room="3" start="true" />
 	</systemList>
 	<weaponSlots>4</weaponSlots>
@@ -15326,7 +15322,7 @@
 		<battery power="2" max="2" room="0" start="true" />
 		<engines power="2" max="8" room="4" start="true" /> 
 		<pilot power="1" max="2" room="1" start="true" />
-		<shields power="2" max="4" room="5" start="true" />
+		<shields power="2" max="7" room="5" start="true" /><!-- 1.26.4 max was 4 -->
 		<weapons power="3" max="10" room="3" start="true" />
 	</systemList>
 	<weaponSlots>4</weaponSlots>
@@ -15343,10 +15339,10 @@
 	<class>Zolton Auto-Aggravator</class>
 	<systemList>
 		<battery power="2" max="2" room="3" start="true" />
-		<drones power="2" max="9" room="5" start="true" />
+		<drones power="1" max="1" room="5" start="true" /><!-- 1.26.4 was 2-9 -->
 		<engines power="1" max="7" room="2" start="true" />
 		<pilot power="1" max="3" room="0" start="true" />
-		<shields power="2" max="6" room="6" start="true" />
+		<shields power="2" max="9" room="6" start="true" /><!-- 1.26.4 max was 6 -->
 		<weapons power="2" max="9" room="4" start="true" />
 	</systemList>
 	<weaponSlots>4</weaponSlots>
@@ -15364,10 +15360,10 @@
 	<class>Zolton Auto-Aggravator</class>
 	<systemList>
 		<battery power="2" max="2" room="4" start="true" />
-		<drones power="2" max="9" room="5" start="true" />
+		<drones power="1" max="1" room="5" start="true" /><!-- 1.26.4 was 2-9 -->
 		<engines power="1" max="7" room="2" start="true" />
 		<pilot power="1" max="3" room="0" start="true" />
-		<shields power="2" max="6" room="6" start="true" />
+		<shields power="2" max="9" room="6" start="true" /><!-- 1.26.4 max was 6 -->
 		<weapons power="2" max="9" room="3" start="true" />
 	</systemList>
 	<weaponSlots>4</weaponSlots>
@@ -15385,10 +15381,10 @@
 	<class>Zolton Auto-Aggravator</class>
 	<systemList>
 		<battery power="2" max="2" room="4" start="true" />
-		<drones power="2" max="9" room="3" start="true" />
+		<drones power="1" max="1" room="3" start="true" /><!-- 1.26.4 was 2-9 -->
 		<engines power="1" max="7" room="2" start="true" />
 		<pilot power="1" max="3" room="0" start="true" />
-		<shields power="2" max="6" room="6" start="true" />
+		<shields power="2" max="9" room="6" start="true" /><!-- 1.26.4 max was 6 -->
 		<weapons power="2" max="9" room="5" start="true" />
 	</systemList>
 	<weaponSlots>4</weaponSlots>
@@ -15413,7 +15409,7 @@
 		<doors power="2" max="3" room="6" start="true" />
 		<medbay power="1" max="3" room="0" start="true" />
 		<oxygen power="1" max="3" room="4" start="true" />
-		<shields power="2" max="8" room="8" start="true" />
+		<shields power="2" max="10" room="8" start="true" /><!-- 1.26.4 max was 8 -->
 		<weapons power="3" max="10" room="3" start="true" />
 	</systemList>
 	<weaponSlots>4</weaponSlots>
@@ -15625,6 +15621,8 @@
 </blueprintList>
 <shipBlueprint name="MOTILEK_BLUE_1" layout="motilek_blue_1" img="motilek_blue">
 	<class>Insector</class>
+	<minSector>2</minSector><!-- 1.26.4 -->
+	<maxSector>3</maxSector><!-- 1.26.4 -->
 	<systemList>
 		<cloaking power="1" max="1" room="4" start="true" />
 		<doors power="1" max="3" room="3" start="false" />
@@ -15640,8 +15638,8 @@
 	<weaponList count="4" missiles="15">
 		<weapon name="WEAPONS_CLASS_PP_HIGH"/>
 		<weapon name="WEAPONS_CLASS_BOMB_HIGH"/>
-		<weapon name="WEAPONS_CLASS_BOMB_HIGH"/>
-		<weapon name="WEAPONS_CLASS_BOMB_HIGH"/>
+		<!-- <weapon name="WEAPONS_CLASS_BOMB_HIGH"/> --><!-- 1.26.4 -->
+		<!-- <weapon name="WEAPONS_CLASS_BOMB_HIGH"/> --><!-- 1.26.4 -->
 	</weaponList>
 	<droneList count="2" drones="5">
 		<drone name="REPAIR_OLD"/>
@@ -15656,6 +15654,8 @@
 </shipBlueprint>
 <shipBlueprint name="MOTILEK_BLUE_2" layout="motilek_blue_2" img="motilek_blue">
 	<class>Insector</class>
+	<minSector>4</minSector><!-- 1.26.4 -->
+	<maxSector>5</maxSector><!-- 1.26.4 -->
 	<systemList>
 		<cloaking power="1" max="1" room="4" start="true" />
 		<doors power="1" max="3" room="3" start="false" />
@@ -15672,7 +15672,7 @@
 		<weapon name="WEAPONS_CLASS_PP_HIGH"/>
 		<weapon name="WEAPONS_CLASS_BOMB_HIGH"/>
 		<weapon name="WEAPONS_CLASS_BOMB_HIGH"/>
-		<weapon name="WEAPONS_CLASS_BOMB_HIGH"/>
+		<!-- <weapon name="WEAPONS_CLASS_BOMB_HIGH"/> --><!-- 1.26.4 -->
 	</weaponList>
 	<droneList count="2" drones="5">
 		<drone name="REPAIR_OLD"/>
@@ -15687,6 +15687,7 @@
 </shipBlueprint>
 <shipBlueprint name="MOTILEK_BLUE_3" layout="motilek_blue_3" img="motilek_blue">
 	<class>Insector</class>
+	<minSector>6</minSector><!-- 1.26.4 -->
 	<systemList>
 		<cloaking power="1" max="1" room="4" start="true" />
 		<doors power="1" max="3" room="1" start="false" />
@@ -15718,6 +15719,8 @@
 </shipBlueprint>
 <shipBlueprint name="MOTILEK_GREEN_1" layout="motilek_green_1" img="motilek_green">
 	<class>Insector</class>
+	<minSector>2</minSector><!-- 1.26.4 -->
+	<maxSector>3</maxSector><!-- 1.26.4 -->
 	<systemList>
 		<cloaking power="1" max="1" room="4" start="true" />
 		<doors power="1" max="3" room="1" start="false" />
@@ -15733,8 +15736,8 @@
 	<weaponList count="4" missiles="15">
 		<weapon name="WEAPONS_CLASS_BEAM_HIGH"/>
 		<weapon name="WEAPONS_CLASS_BOMB_HIGH"/>
-		<weapon name="WEAPONS_CLASS_BOMB_HIGH"/>
-		<weapon name="WEAPONS_CLASS_BOMB_HIGH"/>
+		<!-- <weapon name="WEAPONS_CLASS_BOMB_HIGH"/> --><!-- 1.26.4 -->
+		<!-- <weapon name="WEAPONS_CLASS_BOMB_HIGH"/> --><!-- 1.26.4 -->
 	</weaponList>
 	<droneList count="2" drones="5">
 		<drone name="REPAIR_OLD"/>
@@ -15750,6 +15753,8 @@
 </shipBlueprint>
 <shipBlueprint name="MOTILEK_GREEN_2" layout="motilek_green_2" img="motilek_green">
 	<class>Insector</class>
+	<minSector>4</minSector><!-- 1.26.4 -->
+	<maxSector>5</maxSector><!-- 1.26.4 -->
 	<systemList>
 		<cloaking power="1" max="1" room="4" start="true" />
 		<doors power="1" max="3" room="1" start="false" />
@@ -15766,7 +15771,7 @@
 		<weapon name="WEAPONS_CLASS_BEAM_HIGH"/>
 		<weapon name="WEAPONS_CLASS_BOMB_HIGH"/>
 		<weapon name="WEAPONS_CLASS_BOMB_HIGH"/>
-		<weapon name="WEAPONS_CLASS_BOMB_HIGH"/>
+		<!-- <weapon name="WEAPONS_CLASS_BOMB_HIGH"/> --><!-- 1.26.4 -->
 	</weaponList>
 	<droneList count="2" drones="5">
 		<drone name="REPAIR_OLD"/>
@@ -15782,6 +15787,7 @@
 </shipBlueprint>
 <shipBlueprint name="MOTILEK_GREEN_3" layout="motilek_green_3" img="motilek_green">
 	<class>Insector</class>
+	<minSector>6</minSector><!-- 1.26.4 -->
 	<systemList>
 		<cloaking power="1" max="1" room="4" start="true" />
 		<doors power="1" max="3" room="1" start="false" />
@@ -15814,6 +15820,8 @@
 </shipBlueprint>
 <shipBlueprint name="MOTILEK_VIO_1" layout="motilek_vio_1" img="motilek_vio">
 	<class>Insector</class>
+	<minSector>2</minSector><!-- 1.26.4 -->
+	<maxSector>3</maxSector><!-- 1.26.4 -->
 	<systemList>
 		<cloaking power="1" max="1" room="4" start="true" />
 		<doors power="1" max="3" room="1" start="false" />
@@ -15829,8 +15837,8 @@
 	<weaponList count="4" missiles="15">
 		<weapon name="WEAPONS_CLASS_LASER_HIGH"/>
 		<weapon name="WEAPONS_CLASS_BOMB_HIGH"/>
-		<weapon name="WEAPONS_CLASS_BOMB_HIGH"/>
-		<weapon name="WEAPONS_CLASS_BOMB_HIGH"/>
+		<!-- <weapon name="WEAPONS_CLASS_BOMB_HIGH"/> --><!-- 1.26.4 -->
+		<!-- <weapon name="WEAPONS_CLASS_BOMB_HIGH"/> --><!-- 1.26.4 -->
 	</weaponList>
 	<droneList count="2" drones="5">
 		<drone name="REPAIR_OLD"/>
@@ -15845,6 +15853,8 @@
 </shipBlueprint>
 <shipBlueprint name="MOTILEK_VIO_2" layout="motilek_vio_2" img="motilek_vio">
 	<class>Insector</class>
+	<minSector>4</minSector><!-- 1.26.4 -->
+	<maxSector>5</maxSector><!-- 1.26.4 -->
 	<systemList>
 		<cloaking power="1" max="1" room="4" start="true" />
 		<doors power="1" max="3" room="1" start="false" />
@@ -15861,7 +15871,7 @@
 		<weapon name="WEAPONS_CLASS_LASER_HIGH"/>
 		<weapon name="WEAPONS_CLASS_BOMB_HIGH"/>
 		<weapon name="WEAPONS_CLASS_BOMB_HIGH"/>
-		<weapon name="WEAPONS_CLASS_BOMB_HIGH"/>
+		<!-- <weapon name="WEAPONS_CLASS_BOMB_HIGH"/> --><!-- 1.26.4 -->
 	</weaponList>
 	<droneList count="2" drones="5">
 		<drone name="REPAIR_OLD"/>
@@ -15876,6 +15886,7 @@
 </shipBlueprint>
 <shipBlueprint name="MOTILEK_VIO_3" layout="motilek_vio_3" img="motilek_vio">
 	<class>Insector</class>
+	<minSector>6</minSector><!-- 1.26.4 -->
 	<systemList>
 		<cloaking power="1" max="1" room="4" start="true" />
 		<doors power="1" max="3" room="1" start="false" />
@@ -16085,7 +16096,7 @@
 				<number>1</number> 
 			</slot>
 		</artillery>
-		<shields power="2" max="8" room="7" start="true" />
+		<shields power="2" max="10" room="7" start="true" /><!-- 1.26.4 max was 8 -->
 		<!-- <weapons power="2" max="9" room="1" start="true" /> -->
 	</systemList>
 	<weaponSlots>4</weaponSlots>
@@ -16115,7 +16126,7 @@
 		<engines power="3" max="6" room="5" start="true" /> <!-- here +2 -->
 		<oxygen power="1" max="3" room="3" start="true" />
 		<pilot power="3" max="3" room="1" start="true" /> <!-- here +2 -->
-		<shields power="2" max="6" room="9" start="true" />
+		<shields power="2" max="9" room="9" start="true" /><!-- 1.26.4 max was 6 -->
 		<weapons power="4" max="10" room="4" start="true" /> <!-- here +2 -->
 	</systemList>
 	<weaponSlots>4</weaponSlots>
@@ -16137,7 +16148,7 @@
 		<engines power="4" max="7" room="5" start="true" /> <!-- here +2 -->
 		<oxygen power="1" max="3" room="3" start="true" />
 		<pilot power="3" max="3" room="0" start="true" /> <!-- here +2 -->
-		<shields power="2" max="4" room="8" start="true" />
+		<shields power="2" max="7" room="8" start="true" /><!-- 1.26.4 max was 4 -->
 		<weapons power="4" max="8" room="6" start="true" /> <!-- here +2 -->
 	</systemList>
 	<weaponSlots>4</weaponSlots>
@@ -16159,7 +16170,7 @@
 		<medbay power="1" max="3" room="4" start="false" />
 		<oxygen power="1" max="3" room="2" start="true" />
 		<pilot power="3" max="3" room="0" start="true" /> <!-- here +2 -->
-		<shields power="2" max="2" room="8" start="true" />
+		<shields power="2" max="5" room="8" start="true" /><!-- 1.26.4 max was 2 -->
 		<weapons power="4" max="8" room="3" start="true" /> <!-- here +2 -->
 	</systemList>
 	<weaponSlots>4</weaponSlots>
@@ -16248,3 +16259,87 @@
 	<boardingAI>sabotage</boardingAI>
 </shipBlueprint>
 
+<!-- 1.26.4 -->
+<blueprintList name="OLD_PIRATE_SHIPS_SHAMANS">
+	<name>OLD_PIRATE_TRANSPORT_SS</name>
+</blueprintList>
+<shipBlueprint name="OLD_PIRATE_TRANSPORT_SS" layout="old_pirate_transport" img="old_pirate_transport_ss">
+	<class>Pirate Transport</class>
+	<systemList>
+		<cloaking power="1" max="1" room="6" start="false" />
+		<drones power="1" max="8" room="7" start="false" />
+		<engines power="1" max="8" room="5" start="true" />
+		<medbay power="1" max="3" room="3" start="false" />
+		<oxygen power="1" max="3" room="2" start="true" />
+		<pilot power="3" max="3" room="0" start="true" />
+		<shields power="2" max="9" room="1" start="true" />
+		<weapons power="3" max="7" room="4" start="true" />
+	</systemList>
+	<weaponSlots>4</weaponSlots>
+	<droneSlots>4</droneSlots>
+	<weaponList missiles="10" count="4" load="WEAPONS_CLASS_LASER_MED" />
+	<droneList drones="10" count="4" load="DRONES_COMBAT" />
+	<health amount="12" />
+	<maxPower amount="8" />
+	<crewCount amount="4" max="8" class="random" />
+	<boardingAI>sabotage</boardingAI>
+</shipBlueprint>
+<blueprintList name="LEGENDARY_WEAP_LIST">
+	<name>SILV_BEAM_1</name>
+	<name>SILV_BOMB_BREACH_3</name>
+	<name>SILV_BOMB_FIRE_2</name>
+	<name>SILV_ION_BLAST_2</name>
+	<name>SILV_ION_HEAVY_2</name>
+	<name>SILV_ION_PIERCE_1</name>
+	<name>SILV_LASER_AUTO_1</name>
+	<name>SILV_LASER_BURST_SCATTER_1</name>
+	<name>SILV_LASER_BURST_2</name>
+	<name>SILV_MISSILES_ASTERIA</name>
+	<name>SILV_MISSILES_BURST</name>
+	<name>SILV_MISSILES_HYDRA</name>
+	<name>SILV_SHOTGUN</name>
+</blueprintList>
+<blueprintList name="ANALOG_WEAP_LIST">
+	<name>BEAM_1</name>
+	<name>BOMB_BREACH_3</name>
+	<name>BOMB_FIRE_2</name>
+	<name>ION_BLAST_2</name>
+	<name>ION_HEAVY_2</name>
+	<name>ION_PIERCE_1</name>
+	<name>LASER_AUTO_1</name>
+	<name>LASER_BURST_SCATTER_1</name>
+	<name>LASER_BURST_2</name>
+	<name>MISSILES_ASTERIA</name>
+	<name>MISSILES_BURST</name>
+	<name>MISSILES_HYDRA</name>
+	<name>SHOTGUN</name>
+</blueprintList>
+<blueprintList name="MIX_WEAP_LIST">
+	<name>BEAM_1</name>
+	<name>BOMB_BREACH_3</name>
+	<name>BOMB_FIRE_2</name>
+	<name>ION_BLAST_2</name>
+	<name>ION_HEAVY_2</name>
+	<name>ION_PIERCE_1</name>
+	<name>LASER_AUTO_1</name>
+	<name>LASER_BURST_SCATTER_1</name>
+	<name>LASER_BURST_2</name>
+	<name>MISSILES_ASTERIA</name>
+	<name>MISSILES_BURST</name>
+	<name>MISSILES_HYDRA</name>
+	<name>SHOTGUN</name>
+	
+	<name>SILV_BEAM_1</name>
+	<name>SILV_BOMB_BREACH_3</name>
+	<name>SILV_BOMB_FIRE_2</name>
+	<name>SILV_ION_BLAST_2</name>
+	<name>SILV_ION_HEAVY_2</name>
+	<name>SILV_ION_PIERCE_1</name>
+	<name>SILV_LASER_AUTO_1</name>
+	<name>SILV_LASER_BURST_SCATTER_1</name>
+	<name>SILV_LASER_BURST_2</name>
+	<name>SILV_MISSILES_ASTERIA</name>
+	<name>SILV_MISSILES_BURST</name>
+	<name>SILV_MISSILES_HYDRA</name>
+	<name>SILV_SHOTGUN</name>
+</blueprintList>

@@ -381,6 +381,8 @@
 	AoE weapons: 30% smaller radius — less projectile spreading.
 	Long beams: 25% faster beam firing and 25% longer beam span.
 	Point beams: +1 system damage.</text>
+	<!-- 1.26.4 -->
+	<text>TIP: Legendary Weapons — Legendary weapons are very rare as they are found only in unique sectors (except for the Trade, Border, and Slig Abode sectors). These weapons are incredibly powerful.</text>
 </textList>
 
 <textList name="TIPS_LIST_PC">

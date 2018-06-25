@@ -2212,7 +2212,7 @@ TRAINING SHIPS
 <augBlueprint name="INJECTOR_PRC"> <!-- ™ -->
 	<title>Piercing Injector</title>
 	<desc>A one-time procedure that increases the shield piercing of one weapon by 1. Used at sector start.
-Can only be applied to a weapon in the weapons bay that will benefit from more shield piercing.</desc>
+Can only be applied to one weapon in the weapons bay that will benefit from more shield piercing.</desc>
 	<cost>50</cost>
 	<bp>15</bp>
 	<rarity>5</rarity>
@@ -2222,7 +2222,7 @@ Can only be applied to a weapon in the weapons bay that will benefit from more s
 <augBlueprint name="INJECTOR_FRC"> <!-- ‰ -->
 	<title>Flame Injector</title>
 	<desc>A one-time procedure that increases the fire chance of one weapon by 40%. Used at sector start.
-Can only be used on a weapon in the weapons bay with at least low fire chance.</desc>
+Can only be applied to one weapon in the weapons bay with at least low fire chance.</desc>
 	<cost>30</cost>
 	<bp>15</bp>
 	<rarity>5</rarity>
@@ -2232,7 +2232,7 @@ Can only be used on a weapon in the weapons bay with at least low fire chance.</
 <augBlueprint name="INJECTOR_BRC"> <!-- € -->
 	<title>Breach Injector</title>
 	<desc>A one-time procedure that increases the breach chance of one weapon by 40%. Used at sector start.
-Can only be applied to a weapon in the weapons bay with at least low breach chance.</desc>
+Can only be applied to one weapon in the weapons bay with at least low breach chance.</desc>
 	<cost>30</cost>
 	<bp>15</bp>
 	<rarity>5</rarity>
@@ -2242,7 +2242,7 @@ Can only be applied to a weapon in the weapons bay with at least low breach chan
 <augBlueprint name="INJECTOR_CLD"> <!-- ‡ -->
 	<title>Cooldown Injector</title>
 	<desc>A one-time procedure that reduces the cooldown of one weapon by 25%. Used at sector start.
-Can only be applied to a weapon in the weapons bay that will benefit from faster cooldown.</desc>
+Can only be applied to one weapon in the weapons bay that will benefit from faster cooldown.</desc>
 	<cost>40</cost>
 	<bp>15</bp>
 	<rarity>5</rarity>
@@ -2263,8 +2263,8 @@ Cannot be applied to weapons that use only 1 power.</desc>
 <!-- 1.26.2 -->
 <augBlueprint name="INJECTOR_UNI"> <!-- √ -->
 	<title>Universal Injector</title>
-	<desc>A one-time procedure that upgrades one weapon in some way. Used at sector start.
-Can be applied to any weapon in the weapons bay.</desc>
+	<desc>A one-time procedure that upgrades diffrent weapons in different ways. Used at sector start.
+Can be applied to one weapon in the weapons bay.</desc>
 	<cost>50</cost>
 	<bp>15</bp>
 	<rarity>5</rarity>
@@ -8429,6 +8429,7 @@ Some other weapon must be powered in order for it to work.</desc>
 <!-- Charge Heavy Lasers | needs their own <tip> -->
 <weaponBlueprint name="LASER_HEAVY_CHARGE_1">
 	<type>BURST</type>
+	<tip>tip_charge_f3_b3</tip> <!-- 1.26.4 -->
 	<flavorType>Charge-Based Laser</flavorType>
 	<title>Heavy Charge Laser Mark I</title>
 	<short>H-Laser I</short>
@@ -8470,6 +8471,7 @@ Some other weapon must be powered in order for it to work.</desc>
 
 <weaponBlueprint name="LASER_HEAVY_CHARGE_2">
 	<type>BURST</type>
+	<tip>tip_charge_f3_b3</tip> <!-- 1.26.4 -->
 	<flavorType>Charge-Based Laser</flavorType>
 	<title>Heavy Charge Laser Mark II</title>
 	<short>H-Laser II</short>
@@ -25222,6 +25224,524 @@ This modified Pike Beam inflicts extra system damage.</desc>
 	<weaponArt>uwb_weapon</weaponArt>
 </weaponBlueprint>
 
+<!-- 1.26.4 -->
+<!-- LEGENDARY WEAPONS -->
+
+<weaponBlueprint name="SILV_BEAM_1">
+	<type>BEAM</type>
+	<flavorType>Legendary Weapon</flavorType>
+	<tip>tip_beams_f2_b0</tip>
+	<title>'Sting'</title>
+	<short>Sting</short>
+	<desc>The Legendary Mini-Beam.</desc>
+	<damage>2</damage>
+	<sp>0</sp>
+	<fireChance>2</fireChance>
+	<breachChance>0</breachChance>
+	<cooldown>10</cooldown>
+	<speed>2.4</speed>
+	<power>1</power>
+	<cost>100</cost>
+	<bp>2</bp>
+	<rarity>0</rarity>
+	<image>beam_contact</image>
+	<length>45</length>
+	<launchSounds>
+		<sound>beam1_2</sound>
+	</launchSounds>
+	<weaponArt>silv_beam_1_strip8</weaponArt>
+	<iconImage>beam</iconImage>
+</weaponBlueprint>
+
+<weaponBlueprint name="SILV_BOMB_BREACH_3"> 
+	<type>BOMB</type>
+	<flavorType>Legendary Weapon</flavorType>
+	<tip>tip_bombs_f0_b10</tip>
+	<title>'Perforator'</title>
+	<short>Perforator</short>
+	<locked>1</locked>
+	<desc>The Legendary Breach Bomb.</desc>
+	<damage>0</damage>
+	<sysDamage>3</sysDamage>
+	<persDamage>3</persDamage>
+	<missiles>1</missiles>
+	<shots>1</shots>
+	<sp>0</sp>
+	<fireChance>0</fireChance>
+	<breachChance>10</breachChance>
+	<cooldown>8</cooldown>
+	<power>1</power>
+	<cost>100</cost>
+	<bp>4</bp>
+	<rarity>0</rarity>
+	<image>bomb_breach_shot</image>
+	<explosion>explosion_random</explosion>
+	<launchSounds>
+		<sound>bombTeleport</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>smallExplosion</sound>
+	</hitShipSounds>
+	<weaponArt>silv_bomblauncher_breach_3_strip17</weaponArt> 
+	<iconImage>bomb</iconImage>
+</weaponBlueprint>
+
+<weaponBlueprint name="SILV_BOMB_FIRE_2">
+	<type>BOMB</type>
+	<flavorType>Legendary Weapon</flavorType>
+	<tip>tip_bombs_f10_b0</tip>
+	<title>'Molotov Cocktail'</title>
+	<short>Molotov Cocktail</short>
+	<locked>1</locked>
+	<desc>The Legendary Fire Bomb.</desc>
+	<damage>0</damage>
+	<sysDamage>3</sysDamage>
+	<persDamage>3</persDamage>
+	<stun>5</stun>
+	<missiles>1</missiles>
+	<shots>1</shots>
+	<sp>0</sp>
+	<fireChance>10</fireChance>
+	<breachChance>0</breachChance>
+	<cooldown>8</cooldown>
+	<power>1</power>
+	<cost>100</cost>
+	<bp>5</bp>
+	<rarity>0</rarity>
+	<image>ba_bomb_fire_2</image>
+	<explosion>ba_explosion_fire</explosion>
+	<launchSounds>
+		<sound>bombTeleport</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>fireBomb</sound>
+	</hitShipSounds>
+	<weaponArt>silv_bomblauncher_fire_2_strip17</weaponArt>
+</weaponBlueprint>
+
+<weaponBlueprint name="SILV_ION_BLAST_2">
+	<type>LASER</type>
+	<flavorType>Legendary Weapon</flavorType>
+	<title>'Lightning Ball'</title>
+	<short>Lightning Ball</short>
+	<tip>tip_ion_f0_b0</tip>
+	<locked>1</locked>
+	<desc>The Legendary Ion Blaster.</desc>
+	<damage>0</damage>
+	<ion>1</ion>
+	<speed>30</speed>
+	<shots>1</shots>
+	<sp>0</sp>
+	<fireChance>0</fireChance>
+	<breachChance>0</breachChance>
+	<stunChance>1</stunChance>
+	<cooldown>3</cooldown>
+	<power>2</power>
+	<cost>100</cost>
+	<bp>6</bp>
+	<rarity>0</rarity>
+	<image>ion_blast_2_shot</image>
+	<explosion>ba_explosion_ion_medium</explosion>
+	<launchSounds>
+		<sound>ionShoot1</sound>
+		<sound>ionShoot2</sound>
+		<sound>ionShoot3</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>ionHit1</sound>
+		<sound>ionHit2</sound>
+		<sound>ionHit3</sound>
+	</hitShipSounds>
+	<hitShieldSounds>
+		<sound>ionShields1</sound>
+		<sound>ionShields2</sound>
+		<sound>ionShields3</sound>
+	</hitShieldSounds>
+	<missSounds>
+		<sound>miss</sound>
+	</missSounds>
+	<weaponArt>silv_ion_b_2_strip8</weaponArt> 
+	<iconImage>ion</iconImage>
+</weaponBlueprint>
+
+<weaponBlueprint name="SILV_ION_HEAVY_2">
+	<type>LASER</type>
+	<flavorType>Legendary Weapon</flavorType>
+	<tip>tip_ion_heavy_f0_b0</tip>
+	<title>'Tornado'</title>
+	<short>Tornado</short>
+	<locked>1</locked>
+	<desc>The Legendary Heavy Ion.</desc>
+	<damage>0</damage>
+	<stun>5</stun>
+	<ion>2</ion>
+	<sysDamage>2</sysDamage>
+	<speed>35</speed>
+	<shots>1</shots>
+	<sp>0</sp>
+	<spin>720</spin>
+	<fireChance>0</fireChance>
+	<breachChance>0</breachChance>
+	<cooldown>10</cooldown>
+	<power>2</power>
+	<cost>100</cost>
+	<bp>4</bp>
+	<rarity>0</rarity>
+	<image>ion_heavy_2_shot</image>
+	<explosion>ba_explosion_ion_hit_heavy</explosion>
+	<launchSounds>
+		<sound>ionShoot1</sound>
+		<sound>ionShoot2</sound>
+		<sound>ionShoot3</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>ionHit1</sound>
+		<sound>ionHit2</sound>
+		<sound>ionHit3</sound>
+	</hitShipSounds>
+	<hitShieldSounds>
+		<sound>ionHit1</sound>
+		<sound>ionHit1</sound>
+		<sound>ionHit1</sound>
+	</hitShieldSounds>
+	<missSounds>
+		<sound>miss</sound>
+	</missSounds>
+	<weaponArt>silv_ion_heavy_2_strip8</weaponArt> 
+</weaponBlueprint>
+
+<weaponBlueprint name="SILV_ION_PIERCE_1">
+	<type>LASER</type>
+	<flavorType>Legendary Weapon</flavorType>
+	<title>'Blizzard'</title>
+	<short>Blizzard</short>
+	<tip>ce_tip_ion_pierce_f0_b0</tip>
+	<locked>1</locked>
+	<desc>The Legendary Phase Ion.</desc>
+	<damage>0</damage>
+	<ion>2</ion>
+	<speed>30</speed>
+	<shots>1</shots>
+	<sp>5</sp>
+	<spin>180</spin>
+	<fireChance>0</fireChance>
+	<breachChance>0</breachChance>
+	<stunChance>1</stunChance>
+	<cooldown>12</cooldown>
+	<power>1</power>
+	<cost>100</cost>
+	<bp>3</bp>
+	<rarity>0</rarity>
+	<image>ba_ion_phase_shot</image>
+	<explosion>ba_explosion_ion_phase</explosion>
+	<launchSounds>
+		<sound>ionShoot1</sound>
+		<sound>ionShoot2</sound>
+		<sound>ionShoot3</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>ionHit1</sound>
+		<sound>ionHit2</sound>
+		<sound>ionHit3</sound>
+	</hitShipSounds>
+	<hitShieldSounds>
+		<sound>ionShields1</sound>
+		<sound>ionShields2</sound>
+		<sound>ionShields3</sound>
+	</hitShieldSounds>
+	<missSounds>
+		<sound>miss</sound>
+	</missSounds>
+	<weaponArt>silv_ion_phase_1_strip8</weaponArt> 
+	<iconImage>ion</iconImage>
+</weaponBlueprint>
+
+<weaponBlueprint name="SILV_LASER_AUTO_1">
+	<type>LASER</type>
+	<flavorType>Legendary Weapon</flavorType>
+	<tip>ce_tip_laser_auto_f1_b0</tip>
+	<title>'White Rabbit'</title>
+	<short>White Rabbit</short>
+	<desc>The Legendary Auto-Laser.</desc>
+	<damage>1</damage>
+	<shots>1</shots>
+	<sp>0</sp>
+	<fireChance>1</fireChance>
+	<breachChance>0</breachChance>
+	<cooldown>1.7</cooldown>
+	<power>1</power>
+	<cost>100</cost>
+	<bp>7</bp>
+	<rarity>0</rarity>
+	<image>laser_light2</image>
+	<launchSounds>
+		<sound>lightLaser1</sound>
+		<sound>lightLaser2</sound>
+		<sound>lightLaser3</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>hitHull2</sound>
+		<sound>hitHull3</sound>
+	</hitShipSounds>
+	<hitShieldSounds>
+		<sound>hitShield1</sound>
+		<sound>hitShield2</sound>
+		<sound>hitShield3</sound>
+	</hitShieldSounds>
+	<missSounds>
+		<sound>miss</sound>
+	</missSounds>
+	<weaponArt>silv_laser_auto_1_strip12</weaponArt> 
+</weaponBlueprint>
+
+<weaponBlueprint name="SILV_LASER_BURST_SCATTER_1">
+	<type>LASER</type>
+	<flavorType>Legendary Weapon</flavorType>
+	<tip>ce_tip_laser_scatter_f0_b0</tip>
+	<title>'Desert Cobra'</title>
+	<short>Desert Cobra</short>
+	<desc>The Legendary Scatter Laser.</desc>
+	<damage>1</damage>
+	<sysDamage>-1</sysDamage>
+	<persDamage>-1</persDamage>
+	<shots>5</shots>
+	<sp>0</sp>
+	<fireChance>0</fireChance>
+	<breachChance>0</breachChance>
+	<cooldown>9</cooldown>
+	<power>1</power>
+	<cost>100</cost>
+	<bp>4</bp>
+	<rarity>0</rarity>
+	<image>ba_laser_burst_scatter_shot</image>
+	<explosion>ba_explosion_laser_burst_scatter</explosion>
+	<launchSounds>
+		<sound>heavyLaserScatter1</sound>
+		<sound>heavyLaserScatter2</sound>
+		<sound>heavyLaserScatter3</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>hit_hull_scatter_1</sound>
+		<sound>hit_hull_scatter_2</sound>
+		<sound>hit_hull_scatter_3</sound>
+	</hitShipSounds>
+	<hitShieldSounds>
+		<sound>hit_shield_scatter_1</sound>
+		<sound>hit_shield_scatter_2</sound>
+		<sound>hit_shield_scatter_3</sound>
+	</hitShieldSounds>
+	<missSounds>
+		<sound>miss</sound>
+	</missSounds>
+	<weaponArt>silv_laser_burst_scatter_1_strip12</weaponArt> 
+</weaponBlueprint>
+
+
+<weaponBlueprint name="SILV_LASER_BURST_2">
+	<type>LASER</type>
+	<flavorType>Legendary Weapon</flavorType>
+	<tip>tip_laser_f2_b0</tip>
+	<title>'Starfall'</title>
+	<short>Starfall</short>
+	<desc>The Legendary Burst Laser.</desc>
+	<damage>1</damage>
+	<shots>6</shots>
+	<sp>0</sp>
+	<fireChance>2</fireChance>
+	<breachChance>0</breachChance>
+	<cooldown>13</cooldown>
+	<power>2</power>
+	<cost>100</cost>
+	<bp>7</bp>
+	<rarity>0</rarity>
+	<image>laser_light2</image>
+	<launchSounds>
+		<sound>lightLaser1</sound>
+		<sound>lightLaser2</sound>
+		<sound>lightLaser3</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>hitHull2</sound>
+		<sound>hitHull3</sound>
+	</hitShipSounds>
+	<hitShieldSounds>
+		<sound>hitShield1</sound>
+		<sound>hitShield2</sound>
+		<sound>hitShield3</sound>
+	</hitShieldSounds>
+	<missSounds>
+		<sound>miss</sound>
+	</missSounds>
+	<weaponArt>silv_laser3_strip12</weaponArt> 
+</weaponBlueprint>
+
+<weaponBlueprint name="SILV_MISSILES_ASTERIA">
+	<type>MISSILES</type>
+	<flavorType>Legendary Weapon</flavorType>
+	<tip>tip_missiles_f2_b2</tip>
+	<title>'Hornet'</title>
+	<short>Hornet</short>
+	<desc>The Legendary Asteria.</desc>
+	<damage>2</damage>
+	<stun>5</stun>
+	<missiles>1</missiles>
+	<shots>1</shots>
+	<sp>5</sp>
+	<fireChance>2</fireChance>
+	<breachChance>2</breachChance>
+	<cooldown>5</cooldown>
+	<power>1</power>
+	<cost>100</cost>
+	<bp>2</bp>
+	<rarity>0</rarity>
+	<image>missile_1</image>
+	<launchSounds>
+		<sound>engine_missile_launch1</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>smallExplosion</sound>
+	</hitShipSounds>
+	<hitShieldSounds>
+		<sound>hitShield1</sound>
+		<sound>hitShield2</sound>
+		<sound>hitShield3</sound>
+	</hitShieldSounds>
+	<missSounds>
+		<sound>miss</sound>
+	</missSounds>
+	<weaponArt>silv_missiles_asteria_strip3</weaponArt> 
+</weaponBlueprint>
+
+<weaponBlueprint name="SILV_MISSILES_BURST">
+	<type>MISSILES</type>
+	<flavorType>Legendary Weapon</flavorType>
+	<tip>tip_missiles_f6_b4</tip>
+	<title>'Omnigun'</title>
+	<short>Omnigun</short>
+	<desc>The Legendary Pegasus.</desc>
+	<damage>3</damage>
+	<stun>2</stun>
+	<missiles>1</missiles>
+	<shots>2</shots>
+	<sp>5</sp>
+	<fireChance>6</fireChance>
+	<breachChance>4</breachChance>
+	<cooldown>13</cooldown>
+	<power>2</power>
+	<cost>70</cost>
+	<bp>7</bp>
+	<rarity>0</rarity>
+	<image>missile_2</image>
+	<launchSounds>
+		<sound>engine_missile_launch1</sound>
+		<sound>engine_missile_launch2</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>smallExplosion</sound>
+	</hitShipSounds>
+	<hitShieldSounds>
+		<sound>hitShield1</sound>
+		<sound>hitShield2</sound>
+		<sound>hitShield3</sound>
+	</hitShieldSounds>
+	<missSounds>
+		<sound>miss</sound>
+	</missSounds>
+	<weaponArt>silv_missiles_burst_1_strip3</weaponArt> 
+</weaponBlueprint>
+
+
+<weaponBlueprint name="SILV_MISSILES_HYDRA">
+	<type>BURST</type>
+	<flavorType>Legendary Weapon</flavorType>
+	<drone_targetable>1</drone_targetable>
+	<title>'The Hand of Death'</title>
+	<short>The Hand of Death</short>
+	<tip>tip_missiles_f4_b4</tip>
+	<desc>The Legendary Hydra.</desc>
+	<radius>45</radius>
+	<damage>2</damage>
+	<missiles>1</missiles>
+	<shots>1</shots>
+	<sp>5</sp>
+	<fireChance>4</fireChance>
+	<breachChance>4</breachChance>
+	<stunChance>4</stunChance>
+	<cooldown>15</cooldown>
+	<power>2</power>
+	<cost>100</cost>
+	<bp>10</bp>
+	<speed>30</speed>
+	<rarity>0</rarity>
+	<explosion>explosion_random</explosion>
+	<projectiles>
+		<projectile count="5" fake="false">missile_hydra</projectile>
+	</projectiles>
+	<launchSounds>
+		<sound>smallMissile1</sound>
+		<sound>smallMissile2</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>smallExplosion</sound>
+	</hitShipSounds>
+	<hitShieldSounds>
+		<sound>hitShield1</sound>
+		<sound>hitShield2</sound>
+		<sound>hitShield3</sound>
+	</hitShieldSounds>
+	<missSounds>
+		<sound>miss</sound>
+	</missSounds>
+	<weaponArt>silv_missiles_hydra_strip8</weaponArt> 
+	<iconImage>flak</iconImage>
+</weaponBlueprint>
+
+<weaponBlueprint name="SILV_SHOTGUN">
+	<type>BURST</type>
+	<flavorType>Legendary Weapon</flavorType>
+	<drone_targetable>1</drone_targetable>
+	<title>'Garbage Rain'</title>
+	<tip>tip_flak_f0_b2</tip>
+	<short>Garbage Rain</short>
+	<desc>The Legendary Flak.</desc>
+	<radius>45</radius>
+	<damage>1</damage>
+	<shots>1</shots>
+	<sp>0</sp>
+	<spin>720</spin>
+	<fireChance>0</fireChance>
+	<breachChance>2</breachChance>
+	<cooldown>10</cooldown>
+	<power>2</power>
+	<cost>100</cost>
+	<bp>10</bp>
+	<speed>26</speed>
+	<rarity>0</rarity>
+	<projectiles>
+		<projectile count="2" fake="false">debris_large</projectile>
+		<projectile count="4" fake="false">debris_med</projectile>
+		<projectile count="6" fake="true">debris_small</projectile>
+	</projectiles>
+	<launchSounds>
+		<sound>flak</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>flakImpact1</sound>
+		<sound>flakImpact2</sound>
+		<sound>flakImpact3</sound>
+		<sound>flakImpact4</sound>
+	</hitShipSounds>
+	<hitShieldSounds>
+		<sound>hitShield1</sound>
+		<sound>hitShield2</sound>
+		<sound>hitShield3</sound>
+	</hitShieldSounds>
+	<missSounds>
+		<sound>miss</sound>
+	</missSounds>
+	<weaponArt>silv_shotgun_strip8</weaponArt> 
+	<iconImage>flak</iconImage>
+</weaponBlueprint>
 
 <!-- GUARDIAN WEAPONS -->
 

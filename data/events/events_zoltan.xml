@@ -1191,6 +1191,7 @@ shield research center — jams shields
 <event name="ZOLTON_FIGHT">
 	<text load="ZOLTON_FIGHT"/>
 	<ship load="ZOLTON_SHIP" hostile="true"/>
+	<status type="loss" target="enemy" system="reactor" amount="6"/> <!-- 1.26.4 -->
 </event>
 <textList name="ZOLTON_FIGHT">
 	<text>Вас встречает корабль золтонцев. Они что-то плетут о необходимости оплатить полёт через этот маяк. Кажется, они просто хотят нас ограбить, приготовиться к бою!</text>
@@ -1214,6 +1215,7 @@ shield research center — jams shields
 <event name="STORM_ZOLTON_FIGHT">
 	<text load="STORM_ZOLTON_FIGHT"/>
 	<ship load="ZOLTON_SHIP" hostile="true"/>
+	<status type="loss" target="enemy" system="reactor" amount="6"/> <!-- 1.26.4 -->
 	<environment type="storm"/>
 </event>
 <textList name="STORM_ZOLTON_FIGHT">
@@ -1226,6 +1228,7 @@ shield research center — jams shields
 <event name="NEBULA_AUTO_ZOLTON_FIGHT">
 	<text load="NEBULA_AUTO_ZOLTON_FIGHT"/>
 	<ship load="AUTO_ZOLTON_SHIP" hostile="true"/>
+	<status type="loss" target="enemy" system="reactor" amount="4"/> <!-- 1.26.4 -->
 	<environment type="nebula"/>
 </event>
 <textList name="NEBULA_AUTO_ZOLTON_FIGHT">
@@ -1237,7 +1240,7 @@ shield research center — jams shields
 	<!-- bamalf more -->
 </textList>
 
-<ship name="AUTO_ZOLTON_SHIP" auto_blueprint="SHIPS_ENERGYX_AUTO">
+<ship name="AUTO_ZOLTON_SHIP" auto_blueprint="SHIPS_ENERGYX_AUTO"> 
 	<destroyed load="DESTROYED_DEFAULT_AUTO_ZOLTON"/>
 	<weaponOverride count="1">
 		<name>WEAPONS_ZOLTON_OVRRD</name>
@@ -1380,6 +1383,7 @@ shield research center — jams shields
 <event name="ZOLTON_NEUTRAL"> 
 	<text load="ZOLTON_NEUTRAL_TEXT"/>
 	<ship load="ZOLTON_SHIP" hostile="false"/>
+	<status type="loss" target="enemy" system="reactor" amount="6"/> <!-- 1.26.4 -->
 	<choice hidden="true">
 		<text>Атаковать их.</text>
 		<event>
@@ -1416,6 +1420,7 @@ shield research center — jams shields
 <event name="ZOLTON_BOARDERS" unique="true">
 	<text>Патрульный корабль золтонцев на этом маяке настаивает на досмотре ваших трюмов. Вы пускаете на борт группу золтонцев, и в груде неучтённого лома они находят запрещённое оборудование! Вам некогда объяснять им, что такое ржавый холодильник... К бою!</text>
 	<ship load="ZOLTON_SHIP" hostile="true"/>
+	<status type="loss" target="enemy" system="reactor" amount="6"/> <!-- 1.26.4 -->
 	<boarders min="3" max="4" class="energy"/>
 	<autoReward level="LOW">scrap_only</autoReward>
 </event>
@@ -1444,6 +1449,7 @@ shield research center — jams shields
 <event name="ZOLTON_BOSS_EVENT_1">
 	<text load="ZOLTON_BOSS_TEXT"/>
 	<ship load="ENERGYX_BOSS_SHIP_1" hostile="true"/>
+	<status type="loss" target="enemy" system="reactor" amount="6"/> <!-- 1.26.4 -->
 </event>
 <ship name="ENERGYX_BOSS_SHIP_1" auto_blueprint="ENERGYX_BOSS_1_SHIP">
 	<destroyed>
@@ -1460,6 +1466,7 @@ shield research center — jams shields
 <event name="ZOLTON_BOSS_EVENT_2">
 	<text load="ZOLTON_BOSS_TEXT"/>
 	<ship load="ENERGYX_BOSS_SHIP_2" hostile="true"/>
+	<status type="loss" target="enemy" system="reactor" amount="6"/> <!-- 1.26.4 -->
 </event>
 <ship name="ENERGYX_BOSS_SHIP_2" auto_blueprint="ENERGYX_BOSS_2_SHIP">
 	<destroyed>
@@ -1513,6 +1520,13 @@ shield research center — jams shields
 									<weapon name="WEAPONS_CLASS_BEAM_L"/><item_modify><item type="scrap" min="-55" max="-30"/></item_modify>
 								</event>
 							</choice>
+							<choice hidden="true"><!-- 1.26.4 -->
+								<text>Напасть на них.</text>
+								<event>
+									<text>Вы отключаете связь и начинаете зарядку орудий...</text>
+									<ship hostile="true"/>
+								</event>
+							</choice>
 							<choice hidden="true">
 								<text>Отказаться от покупок.</text><event/>
 							</choice>
@@ -1543,6 +1557,13 @@ shield research center — jams shields
 									<weapon name="WEAPONS_CLASS_BEAM_M"/><item_modify><item type="scrap" min="-85" max="-45"/></item_modify>
 								</event>
 							</choice>
+							<choice hidden="true"><!-- 1.26.4 -->
+								<text>Напасть на них.</text>
+								<event>
+									<text>Вы отключаете связь и начинаете зарядку орудий...</text>
+									<ship hostile="true"/>
+								</event>
+							</choice>
 							<choice hidden="true">
 								<text>Отказаться от покупок.</text><event/>
 							</choice>
@@ -1571,6 +1592,13 @@ shield research center — jams shields
 								<event>
 									<text>Вы отдаёте оплату и забираете орудие.</text>
 									<weapon name="WEAPONS_CLASS_BEAM_H"/><item_modify><item type="scrap" min="-115" max="-60"/></item_modify>
+								</event>
+							</choice>
+							<choice hidden="true"><!-- 1.26.4 -->
+								<text>Напасть на них.</text>
+								<event>
+									<text>Вы отключаете связь и начинаете зарядку орудий...</text>
+									<ship hostile="true"/>
 								</event>
 							</choice>
 							<choice hidden="true">
@@ -1609,6 +1637,13 @@ shield research center — jams shields
 									<weapon name="WEAPONS_CLASS_MISSILE_L"/><item_modify><item type="scrap" min="-40" max="-15"/></item_modify>
 								</event>
 							</choice>
+							<choice hidden="true"><!-- 1.26.4 -->
+								<text>Напасть на них.</text>
+								<event>
+									<text>Вы отключаете связь и начинаете зарядку орудий...</text>
+									<ship hostile="true"/>
+								</event>
+							</choice>
 							<choice hidden="true">
 								<text>Отказаться от покупок.</text><event/>
 							</choice>
@@ -1639,6 +1674,13 @@ shield research center — jams shields
 									<weapon name="WEAPONS_CLASS_MISSILE_M"/><item_modify><item type="scrap" min="-75" max="-20"/></item_modify>
 								</event>
 							</choice>
+							<choice hidden="true"><!-- 1.26.4 -->
+								<text>Напасть на них.</text>
+								<event>
+									<text>Вы отключаете связь и начинаете зарядку орудий...</text>
+									<ship hostile="true"/>
+								</event>
+							</choice>
 							<choice hidden="true">
 								<text>Отказаться от покупок.</text><event/>
 							</choice>
@@ -1667,6 +1709,13 @@ shield research center — jams shields
 								<event>
 									<text>Вы отдаёте оплату и забираете орудие.</text>
 									<weapon name="WEAPONS_CLASS_MISSILE_H"/><item_modify><item type="scrap" min="-90" max="-25"/></item_modify>
+								</event>
+							</choice>
+							<choice hidden="true"><!-- 1.26.4 -->
+								<text>Напасть на них.</text>
+								<event>
+									<text>Вы отключаете связь и начинаете зарядку орудий...</text>
+									<ship hostile="true"/>
 								</event>
 							</choice>
 							<choice hidden="true">
@@ -1705,6 +1754,13 @@ shield research center — jams shields
 									<weapon name="WEAPONS_CLASS_LASER_L"/><item_modify><item type="scrap" min="-55" max="-15"/></item_modify>
 								</event>
 							</choice>
+							<choice hidden="true"><!-- 1.26.4 -->
+								<text>Напасть на них.</text>
+								<event>
+									<text>Вы отключаете связь и начинаете зарядку орудий...</text>
+									<ship hostile="true"/>
+								</event>
+							</choice>
 							<choice hidden="true">
 								<text>Отказаться от покупок.</text><event/>
 							</choice>
@@ -1735,6 +1791,13 @@ shield research center — jams shields
 									<weapon name="WEAPONS_CLASS_LASER_M"/><item_modify><item type="scrap" min="-80" max="-40"/></item_modify>
 								</event>
 							</choice>
+							<choice hidden="true"><!-- 1.26.4 -->
+								<text>Напасть на них.</text>
+								<event>
+									<text>Вы отключаете связь и начинаете зарядку орудий...</text>
+									<ship hostile="true"/>
+								</event>
+							</choice>
 							<choice hidden="true">
 								<text>Отказаться от покупок.</text><event/>
 							</choice>
@@ -1763,6 +1826,13 @@ shield research center — jams shields
 								<event>
 									<text>Вы отдаёте оплату и забираете орудие.</text>
 									<weapon name="WEAPONS_CLASS_LASER_H"/><item_modify><item type="scrap" min="-100" max="-65"/></item_modify>
+								</event>
+							</choice>
+							<choice hidden="true"><!-- 1.26.4 -->
+								<text>Напасть на них.</text>
+								<event>
+									<text>Вы отключаете связь и начинаете зарядку орудий...</text>
+									<ship hostile="true"/>
 								</event>
 							</choice>
 							<choice hidden="true">
@@ -1801,6 +1871,13 @@ shield research center — jams shields
 									<weapon name="WEAPONS_CLASS_BOMB_L"/><item_modify><item type="scrap" min="-45" max="-30"/></item_modify>
 								</event>
 							</choice>
+							<choice hidden="true"><!-- 1.26.4 -->
+								<text>Напасть на них.</text>
+								<event>
+									<text>Вы отключаете связь и начинаете зарядку орудий...</text>
+									<ship hostile="true"/>
+								</event>
+							</choice>
 							<choice hidden="true">
 								<text>Отказаться от покупок.</text><event/>
 							</choice>
@@ -1831,6 +1908,13 @@ shield research center — jams shields
 									<weapon name="WEAPONS_CLASS_BOMB_M"/><item_modify><item type="scrap" min="-55" max="-40"/></item_modify>
 								</event>
 							</choice>
+							<choice hidden="true"><!-- 1.26.4 -->
+								<text>Напасть на них.</text>
+								<event>
+									<text>Вы отключаете связь и начинаете зарядку орудий...</text>
+									<ship hostile="true"/>
+								</event>
+							</choice>
 							<choice hidden="true">
 								<text>Отказаться от покупок.</text><event/>
 							</choice>
@@ -1859,6 +1943,13 @@ shield research center — jams shields
 								<event>
 									<text>Вы отдаёте оплату и забираете орудие.</text>
 									<weapon name="WEAPONS_CLASS_BOMB_H"/><item_modify><item type="scrap" min="-65" max="-50"/></item_modify>
+								</event>
+							</choice>
+							<choice hidden="true"><!-- 1.26.4 -->
+								<text>Напасть на них.</text>
+								<event>
+									<text>Вы отключаете связь и начинаете зарядку орудий...</text>
+									<ship hostile="true"/>
 								</event>
 							</choice>
 							<choice hidden="true">
@@ -1897,6 +1988,13 @@ shield research center — jams shields
 									<weapon name="WEAPONS_CLASS_ION_L"/><item_modify><item type="scrap" min="-55" max="-35"/></item_modify>
 								</event>
 							</choice>
+							<choice hidden="true"><!-- 1.26.4 -->
+								<text>Напасть на них.</text>
+								<event>
+									<text>Вы отключаете связь и начинаете зарядку орудий...</text>
+									<ship hostile="true"/>
+								</event>
+							</choice>
 							<choice hidden="true">
 								<text>Отказаться от покупок.</text><event/>
 							</choice>
@@ -1927,6 +2025,13 @@ shield research center — jams shields
 									<weapon name="WEAPONS_CLASS_ION_M"/><item_modify><item type="scrap" min="-70" max="-45"/></item_modify>
 								</event>
 							</choice>
+							<choice hidden="true"><!-- 1.26.4 -->
+								<text>Напасть на них.</text>
+								<event>
+									<text>Вы отключаете связь и начинаете зарядку орудий...</text>
+									<ship hostile="true"/>
+								</event>
+							</choice>
 							<choice hidden="true">
 								<text>Отказаться от покупок.</text><event/>
 							</choice>
@@ -1955,6 +2060,13 @@ shield research center — jams shields
 								<event>
 									<text>Вы отдаёте оплату и забираете орудие.</text>
 									<weapon name="WEAPONS_CLASS_ION_H"/><item_modify><item type="scrap" min="-100" max="-65"/></item_modify>
+								</event>
+							</choice>
+							<choice hidden="true"><!-- 1.26.4 -->
+								<text>Напасть на них.</text>
+								<event>
+									<text>Вы отключаете связь и начинаете зарядку орудий...</text>
+									<ship hostile="true"/>
 								</event>
 							</choice>
 							<choice hidden="true">
@@ -1994,7 +2106,7 @@ shield research center — jams shields
 	<deadCrew>
 		<text>Экипаж корабля уничтожен, и вы обчищаете трюмы.</text>
 		<autoReward level="MED">standard</autoReward>
-		<choice hidden="true"><!-- 1.26.2 was false -->
+		<choice hidden="true"><!-- 1.26.2 -->
 			<text id="continue"/>
 			<event>
 				<text>В одном из отсеков вы находите пушку контрабандистов.</text>
@@ -3425,6 +3537,7 @@ shield research center — jams shields
 <event name="EVENT_ZOLTON_LIFE_RESEARCH" unique="true">
 	<text>Золтонское исследовательское судно вызывает вас с просьбой дать в аренду ваше жизнеобеспечивающее оборудование на корабле. Они обещают быстро провести несколько своих исследований и хорошо заплатить, если ваши медотсек и кислородный модуль достаточно улучшены.</text>
 	<ship load="SHIPS_ENERGYX_PARAMETR" hostile="false"/>
+	<status type="loss" target="enemy" system="reactor" amount="6"/> <!-- 1.26.4 -->
 	<choice hidden="true">
 		<text>Согласиться дать своё оборудование в аренду.</text>
 		<event load="EVENT_ZOLTON_RESEARCH_M1"/>
@@ -3945,6 +4058,7 @@ shield research center — jams shields
 
 <event name="EVENT_ANTENN_ZOLTON" unique="true">
 	<ship load="SHIPS_ENERGYX_STATION_M_PARAM" hostile="false"/>
+	<status type="loss" target="enemy" system="reactor" amount="6"/> <!-- 1.26.4 -->
 	<status type="limit" target="player" system="reactor" amount="1"/>
 	<text>Перед вами необычная станция золтонцев. Из-за её работы ваш реактор буквально захлёбывается от помех. Включается аварийная система защиты реактора, и его мощность падает до минимума.</text>
 	<choice hidden="true">
@@ -4301,45 +4415,46 @@ shield research center — jams shields
 <eventList name="EVENT_FED_DANGERSCAN_REPAIR">
 	<event>
 		<text>«Ах, да, конечно...» Они направляют к вам пару ремонтных дронов, пока вы тушите пожары и заделываете пробоины на корабле.</text>
-		<damage amount="-6"/>
+		<damage amount="-6"/><!-- 1.26.2 -->
 	</event>
 	<event>
 		<text>«Ах, да, конечно...» Они направляют к вам пару ремонтных дронов, пока вы тушите пожары и заделываете пробоины на корабле.</text>
-		<damage amount="-7"/>
+		<damage amount="-7"/><!-- 1.26.2 -->
 	</event>
 	<event>
 		<text>«Ах, да, конечно...» Они направляют к вам пару ремонтных дронов, пока вы тушите пожары и заделываете пробоины на корабле.</text>
-		<damage amount="-7"/>
+		<damage amount="-7"/><!-- 1.26.2 -->
 	</event>
 	<event>
 		<text>«Ах, да, конечно...» Они направляют к вам пару ремонтных дронов, пока вы тушите пожары и заделываете пробоины на корабле.</text>
-		<damage amount="-8"/>
+		<damage amount="-8"/><!-- 1.26.2 -->
 	</event>
 	<event>
 		<text>«Ах, да, конечно...» Они направляют к вам пару ремонтных дронов, пока вы тушите пожары и заделываете пробоины на корабле.</text>
-		<damage amount="-8"/>
+		<damage amount="-8"/><!-- 1.26.2 -->
 	</event>
 	<event>
 		<text>«Ах, да, конечно...» Они направляют к вам пару ремонтных дронов, пока вы тушите пожары и заделываете пробоины на корабле.</text>
-		<damage amount="-8"/>
+		<damage amount="-8"/><!-- 1.26.2 -->
 	</event>
 	<event>
 		<text>«Ах, да, конечно...» Они направляют к вам пару ремонтных дронов, пока вы тушите пожары и заделываете пробоины на корабле.</text>
-		<damage amount="-9"/>
+		<damage amount="-9"/><!-- 1.26.2 -->
 	</event>
 	<event>
 		<text>«Ах, да, конечно...» Они направляют к вам пару ремонтных дронов, пока вы тушите пожары и заделываете пробоины на корабле.</text>
-		<damage amount="-9"/>
+		<damage amount="-9"/><!-- 1.26.2 -->
 	</event>
 	<event>
 		<text>«Ах, да, конечно...» Они направляют к вам пару ремонтных дронов, пока вы тушите пожары и заделываете пробоины на корабле.</text>
-		<damage amount="-10"/>
+		<damage amount="-10"/><!-- 1.26.2 -->
 	</event>
 </eventList>
 
 
 <event name="EVENT_ENERGYX_BS" unique="true">
 	<ship load="ENERGYX_BS_PARAM" hostile="false"/>
+	<status type="loss" target="enemy" system="reactor" amount="6"/> <!-- 1.26.4 -->
 	<text>Исследовательская станция золтонцев выходит на связь с вами: «Капитан, мы знаем, почему вы находитесь в нашем секторе. Учитывая сложившиеся обстоятельства, золтонцы готовы сотрудничать с вами. Мы можем улучшить ваши щиты за умеренную цену».</text>
 	<choice hidden="true" req="STASIS_POD">
 		<text>(Сломанная стазис-капсула) Спросить, могут ли они починить эту капсулу.</text>
@@ -5421,7 +5536,7 @@ shield research center — jams shields
 </textList> 
  -->
 <textList name="ZOLTAN_BLINK_X2_RANDOM_TEXT_REACT"> <!-- lettershuffle text-->
-	<text>...«очт ыв тееаелд в машне иииеемзр? оенннедмел иючеттиок вша тарркое. но тжзррдеааа еанш трпсвиияео йоэт ннеелвсйо».</text>
+	<text>...«очт ыв тееаелд в машне иииеемзр? оенннедмел лючеттиок вша тарркое. но тжзррдеааа еанш трпсвиияео йоэт ннеелвсйо».</text>
 	<text>...«ееделмннно еюитыкчвл ашв рракеот. но невыносим ядл хиашн хонкти ептеровцро единияжв ьквосз сестрвнноонаптр-мрнойенев иктуумонн».</text>
 	<text>...«рар, льепятрок. теючилотк тоэт лкьоитерус нзряжхаены тиасцч. аемчз ыв гео боещво отспиезельу, луыегп ёрхтыермне аясдизон?»</text>
 	<text>...«тэо ноиевмосны. ючетлкито ашв тореарк лннемедоне, лии ым нтичужимо шева желаок номёхертер дуонс».</text>
@@ -5726,6 +5841,7 @@ shield research center — jams shields
 	<img back="BACKGROUND" planet="PLANET_POPULATED"/>
 	<text>Перед вами корабль золтонцев. Они связываются с вами и жалуются, что один из элитных кораблей повстанцев напал на их планету неподалёку. Они обещают предоплату, если вы согласитесь помочь.</text>
 	<ship load="SHIPS_ENERGYX_PARAMETR_RUN" hostile="false"/>
+	<status type="loss" target="enemy" system="reactor" amount="6"/> <!-- 1.26.4 -->
 	<choice hidden="false">
 		<text>Согласиться помочь им.</text>
 		<event load="ZOLTON_PLANET_IN_DANGER_R"/>
@@ -5838,13 +5954,13 @@ shield research center — jams shields
 	<event load="ZOLTON_SCAN_ASTEROID_OK"/>
 	<event load="ZOLTON_SCAN_ASTEROID_OK"/>
 	<event>
-		<text>Вы осторожно приближаетесь к астеродиному полю, но тут на вас нападает пиратский корабль!</text>
+		<text>Вы осторожно приближаетесь к астероидному полю, но тут на вас нападает пиратский корабль!</text>
 		<environment type="asteroid"/>
 		<ship load="ZOLTON_SCAN_ASTEROID_PIRATEP" hostile="true"/>
 	</event>
 </eventList>
 <event name="ZOLTON_SCAN_ASTEROID_OK">
-	<text>Вы осторожно приближаетесь к астеродиному полю.</text>
+	<text>Вы осторожно приближаетесь к астероидному полю.</text>
 	<environment type="asteroid"/>
 	<choice hidden="true">
 		<text>Провести визуальный осмотр астероидного поля.</text>
@@ -5905,7 +6021,7 @@ shield research center — jams shields
 	</event>
 	<event>
 		<text>Некоторое время вы кружите в астероидном поле и записываете любопытные наблюдения. Закончив работу, вы отправляете данные золтонцам. Они благодарят, но недвусмысленно намекают, что можно было собрать побольше данных...</text>
-		<autoReward level="LOW">standard</autoReward><!-- 1.26.3 was stuff -->
+		<autoReward level="LOW">standard</autoReward><!-- 1.26.3 -->
 	</event>
 	<event>
 		<text>Некоторое время вы кружите в астероидном поле и записываете любопытные наблюдения. Закончив работу, вы отправляете данные золтонцам. Они благодарят, но недвусмысленно намекают, что можно было собрать побольше данных...</text>
@@ -5915,29 +6031,29 @@ shield research center — jams shields
 <eventList name="ZOLTON_SCAN_ASTEROID_2">
 	<event>
 		<text>Некоторое время вы кружите в астероидном поле и тщательно записываете любопытные наблюдения. Закончив работу, вы отправляете данные золтонцам. Они благодарят вас полезными материалами и желают удачи.</text>
-		<autoReward level="MED">standard</autoReward><!-- 1.26.3 was stuff -->
+		<autoReward level="MED">standard</autoReward><!-- 1.26.3 -->
 	</event>
 	<event>
 		<text>Некоторое время вы кружите в астероидном поле и тщательно записываете любопытные наблюдения. Закончив работу, вы отправляете данные золтонцам. Они благодарят вас полезными материалами и желают удачи.</text>
-		<autoReward level="MED">standard</autoReward><!-- 1.26.3 was stuff -->
+		<autoReward level="MED">standard</autoReward><!-- 1.26.3 -->
 	</event>
 	<event>
 		<text>Некоторое время вы кружите в астероидном поле и тщательно записываете любопытные наблюдения. Закончив работу, вы отправляете данные золтонцам. Они благодарят вас, но сославшись на тяжёлое экономическое положение на планете, дают небольшую награду.</text>
-		<autoReward level="MED">stuff</autoReward><!-- 1.26.3 was LOW -->
+		<autoReward level="MED">stuff</autoReward><!-- 1.26.3 -->
 	</event>	
 </eventList>
 <eventList name="ZOLTON_SCAN_ASTEROID_3">
 	<event>
 		<text>Некоторое время вы кружите в астероидном поле, используя свои продвинутые сенсоры для анализа. Закончив работу, вы отправляете данные золтонцам. Они благодарят вас полезными материалами и желают удачи.</text>
-		<autoReward level="MED">standard</autoReward><!-- 1.26.3 was stuff -->
+		<autoReward level="MED">standard</autoReward><!-- 1.26.3 -->
 	</event>
 	<event>
 		<text>Некоторое время вы кружите в астероидном поле, используя свои продвинутые сенсоры для анализа. Закончив работу, вы отправляете данные золтонцам. Они благодарят вас полезными материалами и желают удачи.</text>
-		<autoReward level="HIGH">standard</autoReward><!-- 1.26.3 was stuff -->
+		<autoReward level="HIGH">standard</autoReward><!-- 1.26.3 -->
 	</event>
 	<event>
 		<text>Некоторое время вы кружите в астероидном поле, используя свои продвинутые сенсоры для анализа. Закончив работу, вы отправляете данные золтонцам. Они благодарят вас полезными материалами и желают удачи.</text>
-		<autoReward level="HIGH">standard</autoReward><!-- 1.26.3 was stuff -->
+		<autoReward level="HIGH">standard</autoReward><!-- 1.26.3 -->
 	</event>	
 </eventList>
 
@@ -5960,7 +6076,7 @@ shield research center — jams shields
 		<text>(Кислородный модуль) Состыковаться и заполнить их судно кислородом.</text>
 		<event>
 			<text>Вы зависаете возле их корабля, закачивая кислород из своего модуля на их борт. Когда уровень кислорода достигает 100% на их корабле, благодарные золтонцы скидывают вам контейнер с ресурсами и отправляются к своему поселению. К сожалению, из-за слабой системы процесс занял очень много времени, и флот повстанцев значительно приблизился.</text>
-			<autoReward level="MED">standard</autoReward><!-- 1.26.3 was stuff -->
+			<autoReward level="MED">standard</autoReward><!-- 1.26.3 -->
 			<modifyPursuit amount="1"/>
 		</event>
 	</choice>
@@ -5968,14 +6084,14 @@ shield research center — jams shields
 		<text>(Улучшенный кислородный модуль) Состыковаться и заполнить их судно кислородом.</text>
 		<event>
 			<text>Вы зависаете возле их корабля, закачивая кислород из своего модуля на их борт. Когда уровень кислорода достигает 100% на их корабле, благодарные золтонцы скидывают вам контейнер с ресурсами и отправляются к своему поселению.</text>
-			<autoReward level="MED">standard</autoReward><!-- 1.26.3 was stuff -->
+			<autoReward level="MED">standard</autoReward><!-- 1.26.3 -->
 		</event>
 	</choice>
 	<choice hidden="true" req="oxygen" lvl="3" max_group="0">
 		<text>(Продвинутый кислородный модуль) Состыковаться и заполнить их судно кислородом.</text>
 		<event>
 			<text>Вы зависаете возле их корабля, закачивая кислород из своего модуля на их борт. Когда уровень кислорода достигает 100% на их корабле, благодарные золтонцы скидывают вам большой контейнер с ресурсами и отправляются к своему поселению.</text>
-			<autoReward level="HIGH">standard</autoReward><!-- 1.26.3 was MED -->
+			<autoReward level="HIGH">standard</autoReward><!-- 1.26.3 -->
 		</event>
 	</choice>
 	<choice hidden="true" req="O2_MASKS"> 
@@ -5990,6 +6106,7 @@ shield research center — jams shields
 		<event>
 			<text>Задыхающиеся золтонцы — что может быть проще? Вы мчитесь в бой, смеясь как обезумевший.</text>
 			<ship hostile="true"/>
+			<status type="loss" target="enemy" system="reactor" amount="6"/> <!-- 1.26.4 -->
 		</event>
 	</choice>
 	<choice hidden="true">
@@ -6181,6 +6298,7 @@ shield research center — jams shields
 <event name="EVENT_CON_TRANSPORTTOPLANET_ZTR">
 	<img planet="PLANET_POPULATED"/>
 	<ship load="SHIPS_ENERGYX_PARAMETR22" hostile="false"/>
+	<status type="loss" target="enemy" system="reactor" amount="6"/> <!-- 1.26.4 -->
 	<text>Капитан золтонского корабля на орбите планеты выходит на связь: «У нас есть информация о незаконных поставках запрещённых товаров. Немедленно подготовьте ваш корабль к досмотру».</text>
 	<choice hidden="true">
 		<text>Пустить золтонцев на ваш корабль, ведь вы припрятали контрабанду.</text>
@@ -6223,6 +6341,7 @@ shield research center — jams shields
 <event name="EVENT_CON_TRANSPORTTOPLANET_GIP">
 	<img planet="PLANET_POPULATED"/>
 	<ship load="SHIPS_ENERGYX_PARAMETR22" hostile="false"/>
+	<status type="loss" target="enemy" system="reactor" amount="6"/> <!-- 1.26.4 -->
 	<text>Капитан золтонского корабля на орбите планеты выходит на связь: «У нас есть информация о незаконных поставках запрещённых товаров. Немедленно подготовьте ваш корабль к досмотру».</text>
 	<choice hidden="true">
 		<text>Пустить золтонцев на ваш корабль, ведь вы припрятали контрабанду.</text>
@@ -6269,6 +6388,7 @@ shield research center — jams shields
 <event name="EVENT_CON_TRANSPORTTOPLANET_RUS">
 	<img planet="PLANET_POPULATED"/>
 	<ship load="SHIPS_ENERGYX_PARAMETR22" hostile="false"/>
+	<status type="loss" target="enemy" system="reactor" amount="6"/> <!-- 1.26.4 -->
 	<text>Капитан золтонского корабля на орбите планеты выходит на связь: «У нас есть информация о незаконных поставках запрещённых товаров. Немедленно подготовьте ваш корабль к досмотру».</text>
 	<choice hidden="true">
 		<text>Пустить золтонцев на ваш корабль, ведь вы припрятали контрабанду.</text>
@@ -6360,6 +6480,7 @@ shield research center — jams shields
 		<event>
 			<text>...внезапно рядом выходит из прыжка золтонский корабль с явно враждебными намерениями! Без каких-либо объяснений они мчатся в атаку, а вы замечаете, что ваш отсек невидимости блокируется какими-то электромагнитными разрядами!</text>
 			<status type="limit" target="player" system="cloaking" amount="0" />
+			<status type="loss" target="enemy" system="reactor" amount="6"/> <!-- 1.26.4 -->
 			<ship load="SHIPS_ENERGYX_STANDART" hostile="true"/>
 		</event>		
 	</choice>
@@ -6427,6 +6548,7 @@ shield research center — jams shields
 	<event>
 		<text>Вы приближаетесь к Глазу и ждёте, но ничего не происходит. Внезапно из FTL-прыжка поблизости выходит корабль золтонцев: «За незаконное нахождение на данном маяке вы будете ликвидированы».</text>
 		<ship load="SHIPS_ENERGYX_PARAMETR" hostile="true"/>
+		<status type="loss" target="enemy" system="reactor" amount="6"/> <!-- 1.26.4 -->
 	</event>
 	<event>
 		<text>Вы осторожно приближаетесь к Глазу. И он, видимо, почувствовал ваши мысли, поскольку в вашем трюме неизвестно откуда появилась куча лома!</text>
@@ -6871,6 +6993,7 @@ shield research center — jams shields
 		<event>
 			<text>Вы мчитесь в атаку на беспилотник, и он, оценив угрозу, переключается на вас.</text>
 			<ship load="AUTOSHIP_PARAMS" hostile="true"/>
+			<status type="loss" target="enemy" system="reactor" amount="4"/> <!-- 1.26.4 -->
 		</event>
 	</choice>
 	<choice hidden="true">
@@ -6975,7 +7098,7 @@ shield research center — jams shields
 	<choice hidden="true">
 		<text>Вступить в спор на сторону золтонцев.</text>
 		<event>
-			<text>В ходе переговоров, у капитана контрабандистов сдают нервы, и он решает расстрелять вас за то, что всё испортили!</text>
+			<text>В ходе переговоров, у капитана контрабандистов сдают нервы, и он решает расстрелять вас за то, что вы всё испортили!</text>
 			<ship load="CON_PEREGOVORI_PARAMS" hostile="true"/>
 		</event>
 	</choice>
@@ -6984,6 +7107,7 @@ shield research center — jams shields
 		<event>
 			<text>В ходе переговоров, вы пытаетесь убедить золтонцев не трогать контрабандистов. Но они отключают связь и нацеливают на вас орудия.</text>
 			<ship load="ZOLTON_PEREGOVORI_PARAMS" hostile="true"/>
+			<status type="loss" target="enemy" system="reactor" amount="6"/> <!-- 1.26.4 -->
 		</event>
 	</choice>
 	<choice>	
@@ -7042,7 +7166,7 @@ shield research center — jams shields
 </ship>
 <eventList name="EVENT_ZOLTON_VS_CON_R1">
 	<event>
-		<text>Золтонцы присылают вам благодарственню грамоту и улетают прочь.</text>
+		<text>Золтонцы присылают вам благодарственную грамоту и улетают прочь.</text>
 	</event>
 	<event>
 		<text>Золтонцы благодарят вас за помощь и закрывают глаза на легальность провозимого вами оборудования.</text>
@@ -7119,11 +7243,13 @@ shield research center — jams shields
 <event name="ASTEROID_WITH_CONSTATION_OK"> 
 	<text>Просканировав астероиды, вы находите скрытую станцию контрабандистов...</text>
 	<ship load="ASTEROID_WITH_CONSTATION_PARAMS" hostile="false"/>
+	<status type="limit" target="enemy" system="teleporter" amount="0"/><!-- 1.26.4 -->
 	<choice hidden="true">
 		<text>Напасть на них.</text>
 		<event>
 			<text>Вы мчитесь в бой, а станция готовится к обороне.</text>
 			<ship hostile="true"/>
+			<status type="clear" target="enemy" system="teleporter" amount="100"/><!-- 1.26.4 -->
 		</event>
 	</choice>
 	<choice hidden="true">
@@ -8737,7 +8863,7 @@ shield research center — jams shields
 		<event load="EVENT_ITB_VEK_LAND"/>
 	</choice>
 	<choice hidden="true">
-		<text>Отправить им в помочь боеприпасы и дождаться окончания битвы на орбите. [ -10 } ]</text>
+		<text>Отправить им в помощь боеприпасы и дождаться окончания битвы на орбите. [ -10 } ]</text>
 		<event load="EVENT_ITB_VEK_RES"/>
 	</choice>
 	<choice hidden="true">
@@ -8828,6 +8954,7 @@ shield research center — jams shields
 		</choice>
 	</event>
 </eventList>
+
 
 <!-- 1.26.3 -->
 <eventList name="CAPSULE_EVENT"> 

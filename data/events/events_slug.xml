@@ -14469,17 +14469,20 @@ TJ - Fuel cell.					2
 		<item_modify>
 			<item type="fuel" min="2" max="6"/>
 		</item_modify>
+		<autoReward level="LOW">scrap_only</autoReward> <!-- 1.26.4 -->
 	</event>
 	<event>
 		<text>You cut the correct wire, and the bomb is rendered harmless. After cautiously opening the container, you take its contents.</text>
 		<item_modify>
 			<item type="drones" min="3" max="9"/>
 		</item_modify>
+		<autoReward level="LOW">scrap_only</autoReward> <!-- 1.26.4 -->
 	</event>
 	<event>
 		<text>You cut the correct wire, and the bomb is rendered harmless. After cautiously opening the container, you take its contents.</text>
 		<item_modify>
 			<item type="missiles" min="4" max="12"/>
+		<autoReward level="LOW">scrap_only</autoReward> <!-- 1.26.4 -->
 		</item_modify>
 	</event>
 	<event>
@@ -14493,10 +14496,12 @@ TJ - Fuel cell.					2
 	<event>
 		<text>You cut the correct wire, and the bomb is rendered harmless. After cautiously opening the container, you take its contents.</text>
 		<weapon name="RANDOM"/>
+		<autoReward level="LOW">scrap_only</autoReward> <!-- 1.26.4 -->
 	</event>
 	<event>
 		<text>You cut the correct wire, and the bomb is rendered harmless. After cautiously opening the container, you take its contents.</text>
 		<drone name="RANDOM"/>
+		<autoReward level="LOW">scrap_only</autoReward> <!-- 1.26.4 -->
 	</event>
 </eventList>
 <eventList name="BOX_AND_BOMB_RAND_WIPES">

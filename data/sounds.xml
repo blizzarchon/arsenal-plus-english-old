@@ -136,13 +136,13 @@
 	</track>
 	<track>
 		<name>nebulaha</name>
-		<explore>bp_MUS_NebulaHaste.ogg</explore>
-		<combat>bp_MUS_NebulaHaze.ogg</combat>
+		<explore>bp_MUS_NebulaHaze.ogg</explore> <!-- 1.26.4 was combat -->
+		<combat>bp_MUS_NebulaHaste.ogg</combat> <!-- 1.26.4 was explore -->
 	</track>
 	<track>
 		<name>nebulagri</name>
-		<explore>bp_MUS_NebulaGrinder.ogg</explore>
-		<combat>bp_MUS_NebulaGrit.ogg</combat>
+		<explore>bp_MUS_NebulaGrit.ogg</explore> <!-- 1.26.4 was combat -->
+		<combat>bp_MUS_NebulaGrinder.ogg</combat> <!-- 1.26.4 was explore -->
 	</track>
 	<track>
 		<name>calm</name>

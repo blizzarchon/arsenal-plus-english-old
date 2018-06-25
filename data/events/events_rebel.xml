@@ -5341,11 +5341,12 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXX --><!-- 1.21 -->
 <event name="ZOLTON_FIGHT_BORDER"><!-- 1.26.3 -->
 	<text load="ZOLTON_FIGHT_BORDER"/>
 	<ship load="ZOLTON_SHIP" hostile="true"/>
+	<status type="loss" target="enemy" system="reactor" amount="6"/> <!-- 1.26.4 -->
 </event>
 <textList name="ZOLTON_FIGHT_BORDER">
 	<text>A Zolton ship makes contact. "The nature of the day is rotational. The fever is emaciated. The reason is-" They've caught some nasty deep space dementia. Before you can consider finding help for them, they open fire.</text>
 	<text>For some reason, the Zoltons' incoming ship mistakes you for enemies. They confusedly attack you.</text>
-	<text>The usually peace-loving Zoltons behave oddly this time around. They walk about their ship, periodically cycling the power of random systems, before pointing their weapon array at you!</text>
+	<text>The usually peace-loving Zoltons behave oddly this time around. They walk about their ship, periodically cycling the power of random systems, before pointing their weapons at you!</text>
 </textList>
 
 <event name="BORDER_SECTOR_EMPTY">
