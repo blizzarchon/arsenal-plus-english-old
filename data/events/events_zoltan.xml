@@ -602,10 +602,54 @@ shield research center — jams shields
 		</event>
 	</choice>
 </event>
-<event name="ZOLTAN_RIFT_SUCCESS"><!-- there is some extra bit of text from the Russian version, but doesn't seem necessary in English. There is also mention of the zoltan's craft exploding, but I believe the zoltan is by himself, harnessing spatial rift power, enabling him to not require life support — that is the zoltan's life support -->
+<!-- 1.26.3 -->
+<eventList name="ZOLTAN_RIFT_SUCCESS_MANTIS">
+	<event>
+		<text load="ZOLTAN_RIFT_SUCCESS_1"/>
+		<autoReward level="HIGH">standard</autoReward>
+	</event>
+	<event>
+		<text load="ZOLTAN_RIFT_SUCCESS_2"/>
+		<crewMember amount="1" class="mantis"/>
+	</event>
+</eventList>
+<eventList name="ZOLTAN_RIFT_SUCCESS_JELLY">
+	<event>
+		<text load="ZOLTAN_RIFT_SUCCESS_1"/>
+		<autoReward level="HIGH">standard</autoReward>
+	</event>
+	<event>
+		<text load="ZOLTAN_RIFT_SUCCESS_2"/>
+		<crewMember amount="1" class="slug"/>
+	</event>
+</eventList>
+<eventList name="ZOLTAN_RIFT_SUCCESS_ROCK">
+	<event>
+		<text load="ZOLTAN_RIFT_SUCCESS_1"/>
+		<autoReward level="HIGH">standard</autoReward>
+	</event>
+	<event>
+		<text load="ZOLTAN_RIFT_SUCCESS_2"/>
+		<crewMember amount="1" class="rock"/>
+	</event>
+</eventList>
+<eventList name="ZOLTAN_RIFT_SUCCESS_CRYSTAL">
+	<event>
+		<text load="ZOLTAN_RIFT_SUCCESS_1"/>
+		<autoReward level="HIGH">standard</autoReward>
+	</event>
+	<event>
+		<text load="ZOLTAN_RIFT_SUCCESS_2"/>
+		<crewMember amount="1" class="crystal"/>
+	</event>
+</eventList>
+<textList name="ZOLTAN_RIFT_SUCCESS_1">
+	<!-- there is some extra bit of text from the Russian version, but doesn't seem necessary in English. There is also mention of the zoltan's craft exploding, but I believe the zoltan is by himself, harnessing spatial rift power, enabling him to not require life support — that is the zoltan's life support -->
 	<text>When he sees you have emerged victorious, the Zoltan wise man enters a rage. Rifts threaten to tear space apart until, instead, the Zoltan implodes, sending a blast wave of scrap and salvage dragged here from distant worlds in your direction.</text>
-	<autoReward level="HIGH">standard</autoReward>
-</event>
+</textList>
+<textList name="ZOLTAN_RIFT_SUCCESS_2">
+	<text>When he sees you have emerged victorious, the Zoltan wise man enters a rage. A bright flash pierces the space nearby, and you suddenly find yourself near an empty beacon... As another surprise, you find a new crew member on board!</text>
+</textList>
 
 
 <event name="ZOLTAN_CREW_SCAN" unique="true"><!-- flagged: looks like the Russian word for security was swapped around with secret, unless in Russia security is the same as secrecy????? -->
@@ -5425,12 +5469,7 @@ shield research center — jams shields
 		</choice>
 		<choice hidden="true">
 			<text>Отключить реактор корабля.</text>
-			<event>
-				<text>Вы гасите мощность ректора своего судна до минимального значения. Светящийся шар успокаивается и материализует возле маяка груду лома, слепленного в шар, а на борту у вас оказывается золтанец. Похоже, вы сделали всё правильно!</text>
-				<autoReward level="HIGH">scrap_only</autoReward>
-				<crewMember amount="1" class="energy"/>
-				<status type="limit" target="player" system="reactor" amount="1"/>
-			</event>
+			<event load="ZOLTAN_BLINK_X2_WIN_REACT"/> <!-- 1.26.3 -->
 		</choice>
 		<choice hidden="true">
 			<text>Отключить орудия корабля.</text>
@@ -5453,11 +5492,7 @@ shield research center — jams shields
 		<text load="ZOLTAN_BLINK_X2_RANDOM_TEXT_ATK"/>
 		<choice hidden="true">
 			<text>Показать шару боевую мощь корабля.</text>
-			<event>
-				<text>Вы показываете боевую мощь своего корабля. Однако светящийся шар в ответ успокаивается и материализует возле маяка груду лома, слепленного в шар, а на борту у вас оказывается золтанец. Похоже, вы сделали всё правильно!</text>
-				<autoReward level="HIGH">scrap_only</autoReward>
-				<crewMember amount="1" class="energy"/>
-			</event>
+			<event load="ZOLTAN_BLINK_X2_WIN_ATK"/> <!-- 1.26.3 -->
 		</choice>
 		<choice hidden="true">
 			<text>Быстро рассказать шару о нашей миссии.</text>
@@ -5502,11 +5537,7 @@ shield research center — jams shields
 		</choice>
 		<choice hidden="true">
 			<text>Быстро рассказать шару о нашей миссии.</text>
-			<event>
-				<text>Вы быстро рассказываете о своей миссии в коммуникатор. Светящийся шар в ответ успокаивается и материализует возле маяка груду лома, слепленного в шар, а на борту у вас оказывается золтанец. Похоже, вы сделали всё правильно!</text>
-				<autoReward level="HIGH">scrap_only</autoReward>
-				<crewMember amount="1" class="energy"/>
-			</event>
+			<event load="ZOLTAN_BLINK_X2_WIN_WHO"/> <!-- 1.26.3 -->
 		</choice>
 		<choice hidden="true">
 			<text>Отключить реактор корабля.</text>
@@ -5559,12 +5590,7 @@ shield research center — jams shields
 		</choice>
 		<choice hidden="true">
 			<text>Отключить орудия корабля.</text>
-			<event>
-				<text>Вы полностью отключаете орудийную систему своего судна. Светящийся шар в ответ успокаивается и материализует возле маяка груду лома, слепленного в шар, а на борту у вас оказывается золтанец. Похоже, вы сделали всё правильно!</text>
-				<autoReward level="HIGH">scrap_only</autoReward>
-				<crewMember amount="1" class="energy"/>
-				<status type="limit" target="player" system="weapons" amount="0"/>
-			</event>
+			<event load="ZOLTAN_BLINK_X2_WIN_WEAP"/> <!-- 1.26.3 -->
 		</choice>
 		<choice hidden="true">
 			<text>Отключить двигатель корабля.</text>
@@ -5609,16 +5635,90 @@ shield research center — jams shields
 		</choice>
 		<choice hidden="true">
 			<text>Отключить двигатель корабля.</text>
-			<event>
-				<text>Вы гасите мощность работы двигателей до минимального значения. Светящийся шар в ответ успокаивается и материализует возле маяка груду лома, слепленного в шар, а на борту у вас оказывается золтанец. Похоже, вы сделали всё правильно!</text>
-				<autoReward level="HIGH">scrap_only</autoReward>
-				<crewMember amount="1" class="energy"/>
-				<status type="limit" target="player" system="engines" amount="1"/>
-			</event>
+			<event load="ZOLTAN_BLINK_X2_WIN_ENG"/> <!-- 1.26.3 -->
 		</choice>
 	</event>
 </eventList>
 
+<eventList name="ZOLTAN_BLINK_X2_WIN_REACT"><!-- 1.26.3 -->
+	<event>
+		<text>Вы полностью отключаете реактор своего судна. Светящийся шар в ответ успокаивается, а на борту у вас оказывается золтанец. Похоже, вы сделали всё правильно!</text>
+		<crewMember amount="1" class="energy"/>
+		<status type="limit" target="player" system="reactor" amount="1"/>
+	</event>
+	<event>
+		<text>Вы полностью отключаете реактор своего судна. Светящийся шар в ответ успокаивается, а на борту у вас оказывается груда лома. Похоже, вы сделали всё правильно!</text>
+		<autoReward level="RANDOM">scrap_only</autoReward>
+		<status type="limit" target="player" system="reactor" amount="1"/>
+	</event>
+	<event>
+		<text>Вы полностью отключаете реактор своего судна. Светящийся шар в ответ успокаивается, а реактор вашего корабля начинает улучшаться под воздействием какой-то силы извне! Похоже, вы сделали всё правильно!</text>
+		<upgrade amount="1" system="reactor"/>
+		<status type="limit" target="player" system="reactor" amount="1"/>
+	</event>	
+</eventList>
+<eventList name="ZOLTAN_BLINK_X2_WIN_ATK"><!-- 1.26.3 -->
+	<event>
+		<text>Вы показываете боевую мощь своего корабля. Светящийся шар в ответ успокаивается, а на борту у вас оказывается золтанец. Похоже, вы сделали всё правильно!</text>
+		<crewMember amount="1" class="energy"/>
+	</event>
+	<event>
+		<text>Вы показываете боевую мощь своего корабля. Светящийся шар в ответ успокаивается, а на борту у вас оказывается груда лома. Похоже, вы сделали всё правильно!</text>
+		<autoReward level="RANDOM">scrap_only</autoReward>
+	</event>
+	<event>
+		<text>Вы показываете боевую мощь своего корабля. Светящийся шар в ответ успокаивается, а реактор вашего корабля начинает улучшаться под воздействием какой-то силы извне! Похоже, вы сделали всё правильно!</text>
+		<upgrade amount="1" system="reactor"/>
+	</event>	
+</eventList>
+<eventList name="ZOLTAN_BLINK_X2_WIN_WHO"><!-- 1.26.3 -->
+	<event>
+		<text>Вы быстро рассказываете о своей миссии в коммуникатор. Светящийся шар в ответ успокаивается, а на борту у вас оказывается золтанец. Похоже, вы сделали всё правильно!</text>
+		<crewMember amount="1" class="energy"/>
+	</event>
+	<event>
+		<text>Вы быстро рассказываете о своей миссии в коммуникатор. Светящийся шар в ответ успокаивается, а на борту у вас оказывается груда лома. Похоже, вы сделали всё правильно!</text>
+		<autoReward level="RANDOM">scrap_only</autoReward>
+	</event>
+	<event>
+		<text>Вы быстро рассказываете о своей миссии в коммуникатор. Светящийся шар в ответ успокаивается, а реактор вашего корабля начинает улучшаться под воздействием какой-то силы извне! Похоже, вы сделали всё правильно!</text>
+		<upgrade amount="1" system="reactor"/>
+	</event>	
+</eventList>
+<eventList name="ZOLTAN_BLINK_X2_WIN_WEAP"><!-- 1.26.3 -->
+	<event>
+		<text>Вы полностью отключаете орудийную систему своего судна. Светящийся шар в ответ успокаивается, а на борту у вас оказывается золтанец. Похоже, вы сделали всё правильно!</text>
+		<crewMember amount="1" class="energy"/>
+		<status type="limit" target="player" system="weapons" amount="0"/>
+	</event>
+	<event>
+		<text>Вы полностью отключаете орудийную систему своего судна. Светящийся шар в ответ успокаивается, а на борту у вас оказывается груда лома. Похоже, вы сделали всё правильно!</text>
+		<autoReward level="RANDOM">scrap_only</autoReward>
+		<status type="limit" target="player" system="weapons" amount="0"/>
+	</event>
+	<event>
+		<text>Вы полностью отключаете орудийную систему своего судна. Светящийся шар в ответ успокаивается, а реактор вашего корабля начинает улучшаться под воздействием какой-то силы извне! Похоже, вы сделали всё правильно!</text>
+		<upgrade amount="1" system="reactor"/>
+		<status type="limit" target="player" system="weapons" amount="0"/>
+	</event>	
+</eventList>
+<eventList name="ZOLTAN_BLINK_X2_WIN_ENG"><!-- 1.26.3 -->
+	<event>
+		<text>Вы гасите мощность работы двигателей до минимального значения. Светящийся шар в ответ успокаивается, а на борту у вас оказывается золтанец. Похоже, вы сделали всё правильно!</text>
+		<crewMember amount="1" class="energy"/>
+		<status type="limit" target="player" system="engines" amount="1"/>
+	</event>
+	<event>
+		<text>Вы гасите мощность работы двигателей до минимального значения. Светящийся шар в ответ успокаивается, а на борту у вас оказывается груда лома. Похоже, вы сделали всё правильно!</text>
+		<autoReward level="RANDOM">scrap_only</autoReward>
+		<status type="limit" target="player" system="engines" amount="1"/>
+	</event>
+	<event>
+		<text>Вы гасите мощность работы двигателей до минимального значения. Светящийся шар в ответ успокаивается, а реактор вашего корабля начинает улучшаться под воздействием какой-то силы извне! Похоже, вы сделали всё правильно!</text>
+		<upgrade amount="1" system="reactor"/>
+		<status type="limit" target="player" system="engines" amount="1"/>
+	</event>	
+</eventList>
 
 
 
@@ -5805,7 +5905,7 @@ shield research center — jams shields
 	</event>
 	<event>
 		<text>Некоторое время вы кружите в астероидном поле и записываете любопытные наблюдения. Закончив работу, вы отправляете данные золтонцам. Они благодарят, но недвусмысленно намекают, что можно было собрать побольше данных...</text>
-		<autoReward level="LOW">stuff</autoReward>
+		<autoReward level="LOW">standard</autoReward><!-- 1.26.3 was stuff -->
 	</event>
 	<event>
 		<text>Некоторое время вы кружите в астероидном поле и записываете любопытные наблюдения. Закончив работу, вы отправляете данные золтонцам. Они благодарят, но недвусмысленно намекают, что можно было собрать побольше данных...</text>
@@ -5815,29 +5915,29 @@ shield research center — jams shields
 <eventList name="ZOLTON_SCAN_ASTEROID_2">
 	<event>
 		<text>Некоторое время вы кружите в астероидном поле и тщательно записываете любопытные наблюдения. Закончив работу, вы отправляете данные золтонцам. Они благодарят вас полезными материалами и желают удачи.</text>
-		<autoReward level="MED">stuff</autoReward>
+		<autoReward level="MED">standard</autoReward><!-- 1.26.3 was stuff -->
 	</event>
 	<event>
 		<text>Некоторое время вы кружите в астероидном поле и тщательно записываете любопытные наблюдения. Закончив работу, вы отправляете данные золтонцам. Они благодарят вас полезными материалами и желают удачи.</text>
-		<autoReward level="MED">stuff</autoReward>
+		<autoReward level="MED">standard</autoReward><!-- 1.26.3 was stuff -->
 	</event>
 	<event>
 		<text>Некоторое время вы кружите в астероидном поле и тщательно записываете любопытные наблюдения. Закончив работу, вы отправляете данные золтонцам. Они благодарят вас, но сославшись на тяжёлое экономическое положение на планете, дают небольшую награду.</text>
-		<autoReward level="LOW">stuff</autoReward>
+		<autoReward level="MED">stuff</autoReward><!-- 1.26.3 was LOW -->
 	</event>	
 </eventList>
 <eventList name="ZOLTON_SCAN_ASTEROID_3">
 	<event>
 		<text>Некоторое время вы кружите в астероидном поле, используя свои продвинутые сенсоры для анализа. Закончив работу, вы отправляете данные золтонцам. Они благодарят вас полезными материалами и желают удачи.</text>
-		<autoReward level="MED">stuff</autoReward>
+		<autoReward level="MED">standard</autoReward><!-- 1.26.3 was stuff -->
 	</event>
 	<event>
 		<text>Некоторое время вы кружите в астероидном поле, используя свои продвинутые сенсоры для анализа. Закончив работу, вы отправляете данные золтонцам. Они благодарят вас полезными материалами и желают удачи.</text>
-		<autoReward level="HIGH">stuff</autoReward>
+		<autoReward level="HIGH">standard</autoReward><!-- 1.26.3 was stuff -->
 	</event>
 	<event>
 		<text>Некоторое время вы кружите в астероидном поле, используя свои продвинутые сенсоры для анализа. Закончив работу, вы отправляете данные золтонцам. Они благодарят вас полезными материалами и желают удачи.</text>
-		<autoReward level="HIGH">stuff</autoReward>
+		<autoReward level="HIGH">standard</autoReward><!-- 1.26.3 was stuff -->
 	</event>	
 </eventList>
 
@@ -5860,7 +5960,7 @@ shield research center — jams shields
 		<text>(Кислородный модуль) Состыковаться и заполнить их судно кислородом.</text>
 		<event>
 			<text>Вы зависаете возле их корабля, закачивая кислород из своего модуля на их борт. Когда уровень кислорода достигает 100% на их корабле, благодарные золтонцы скидывают вам контейнер с ресурсами и отправляются к своему поселению. К сожалению, из-за слабой системы процесс занял очень много времени, и флот повстанцев значительно приблизился.</text>
-			<autoReward level="MED">stuff</autoReward>
+			<autoReward level="MED">standard</autoReward><!-- 1.26.3 was stuff -->
 			<modifyPursuit amount="1"/>
 		</event>
 	</choice>
@@ -5868,14 +5968,14 @@ shield research center — jams shields
 		<text>(Улучшенный кислородный модуль) Состыковаться и заполнить их судно кислородом.</text>
 		<event>
 			<text>Вы зависаете возле их корабля, закачивая кислород из своего модуля на их борт. Когда уровень кислорода достигает 100% на их корабле, благодарные золтонцы скидывают вам контейнер с ресурсами и отправляются к своему поселению.</text>
-			<autoReward level="MED">stuff</autoReward>
+			<autoReward level="MED">standard</autoReward><!-- 1.26.3 was stuff -->
 		</event>
 	</choice>
 	<choice hidden="true" req="oxygen" lvl="3" max_group="0">
 		<text>(Продвинутый кислородный модуль) Состыковаться и заполнить их судно кислородом.</text>
 		<event>
 			<text>Вы зависаете возле их корабля, закачивая кислород из своего модуля на их борт. Когда уровень кислорода достигает 100% на их корабле, благодарные золтонцы скидывают вам большой контейнер с ресурсами и отправляются к своему поселению.</text>
-			<autoReward level="MED">standard</autoReward>
+			<autoReward level="HIGH">standard</autoReward><!-- 1.26.3 was MED -->
 		</event>
 	</choice>
 	<choice hidden="true" req="O2_MASKS"> 
@@ -7119,22 +7219,39 @@ shield research center — jams shields
 	<event>
 		<text>Золтонская станция в благодарность даёт одно из конфискованных орудий.</text>
 		<weapon name="RANDOM"/>
+		<autoReward level="LOW">scrap_only</autoReward><!-- 1.26.3 -->
 	</event>
 	<event>
 		<text>Золтонская станция в благодарность даёт одного из конфискованных дронов.</text>
 		<drone name="RANDOM"/>
+		<autoReward level="LOW">scrap_only</autoReward><!-- 1.26.3 -->
 	</event>
 	<event>
 		<text>Золтонская станция в благодарность даёт немного топлива.</text>
-		<autoReward level="MED">fuel_only</autoReward>
+		<!-- 1.26.3 -->
+		<!-- <autoReward level="MED">fuel_only</autoReward> -->
+		<autoReward level="LOW">scrap_only</autoReward>
+		<item_modify>
+			<item type="fuel" min="3" max="4"/>
+		</item_modify>
 	</event>
 	<event>
 		<text>Золтонская станция в благодарность даёт немного деталей дронов.</text>
-		<autoReward level="MED">droneparts_only</autoReward>
+		<!-- 1.26.3 -->
+		<!-- <autoReward level="MED">droneparts_only</autoReward> -->
+		<autoReward level="LOW">scrap_only</autoReward>
+		<item_modify>
+			<item type="drones" min="4" max="6"/>
+		</item_modify>
 	</event>
 	<event>
 		<text>Золтонская станция в благодарность даёт немного ракет.</text>
-		<autoReward level="MED">missiles_only</autoReward>
+		<!-- 1.26.3 -->
+		<!-- <autoReward level="MED">missiles_only</autoReward> -->
+		<autoReward level="LOW">scrap_only</autoReward>
+		<item_modify>
+			<item type="missiles" min="6" max="9"/>
+		</item_modify>
 	</event>
 	<event>
 		<text>Золтонская станция в благодарность даёт немного лома.</text>
@@ -8711,3 +8828,135 @@ shield research center — jams shields
 		</choice>
 	</event>
 </eventList>
+
+<!-- 1.26.3 -->
+<eventList name="CAPSULE_EVENT"> 
+	<event load="CAPSULE_EVENT_STANDARD"/>
+	<event load="CAPSULE_EVENT_SUN"/>
+	<event load="CAPSULE_EVENT_ASTEROID"/>
+</eventList>
+
+<event name="CAPSULE_EVENT_STANDARD">
+	<text>Перед вами капсула для путешественников во времени! Обычно они используются на планетах, но эта по каким-то причинам летит в космической пустоте...</text>
+	<distressBeacon/>
+	<ship load="CAPSULE_SHIP" hostile="false"/>
+	<choice hidden="true">
+		<text>Уничтожить капсулу.</text>
+		<event>
+			<text>Вы заряжаете орудия и направляете их на капсулу.</text>
+			<ship hostile="true"/>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text>Попробовать связаться с капсулой.</text>
+		<event load="CAPSULE_EVENT_TALK"/>
+	</choice>
+	<choice hidden="true">
+		<text>Игнорировать капсулу и отправиться дальше.</text>
+		<event load="TALK_WITH_CREW"/>
+	</choice>
+</event>
+<event name="CAPSULE_EVENT_SUN"> 
+	<text>Вблизи активной звезды висит капсула для путешественников во времени! Обычно они используются на планетах, но эта по каким-то причинам летит в космической пустоте...</text>
+	<environment type="sun"/>
+	<distressBeacon/>
+	<ship load="CAPSULE_SHIP" hostile="false"/>
+	<choice hidden="true">
+		<text>Уничтожить капсулу.</text>
+		<event>
+			<text>Вы заряжаете орудия и направляете их на капсулу.</text>
+			<ship hostile="true"/>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text>Попробовать связаться с капсулой.</text>
+		<event load="CAPSULE_EVENT_TALK"/>
+	</choice>
+	<choice hidden="true">
+		<text>Игнорировать капсулу и отправиться дальше.</text>
+		<event load="TALK_WITH_CREW"/>
+	</choice>
+</event>
+<event name="CAPSULE_EVENT_ASTEROID"> 
+	<text>Перед вами капсула для путешественников во времени! Обычно они используются на планетах, но эта по каким-то причинам попала в астероидное поле...</text>
+	<environment type="asteroid"/>
+	<distressBeacon/>
+	<ship load="CAPSULE_SHIP" hostile="false"/>
+	<choice hidden="true">
+		<text>Уничтожить капсулу.</text>
+		<event>
+			<text>Вы заряжаете орудия и направляете их на капсулу.</text>
+			<ship hostile="true"/>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text>Попробовать связаться с капсулой.</text>
+		<event load="CAPSULE_EVENT_TALK"/>
+	</choice>
+	<choice hidden="true">
+		<text>Игнорировать капсулу и отправиться дальше.</text>
+		<event load="TALK_WITH_CREW"/>
+	</choice>
+</event>
+<eventList name="CAPSULE_EVENT_TALK"> 
+	<event>
+		<text>Некоторое время вы перебираете каналы связи, но ответа всё нет. Ваш экипаж вскрывает капсулу и снимает с неё всё ценное.</text>
+		<item_modify>
+			<item type="fuel" min="0" max="3"/>
+			<item type="scrap" min="10" max="25"/>
+		</item_modify>
+	</event>
+	<event>
+		<text>В капсуле вы находите живой организм. Он рассказывает, что телепортировался в прошлое, чтобы помочь своей расе, но что-то пошло не так, и он оказался тут. Вы принимаете его в команду и обчищаете капсулу.</text>
+		<crewMember amount="1" class="random"/>
+		<item_modify>
+			<item type="fuel" min="0" max="3"/>
+			<item type="scrap" min="10" max="25"/>
+		</item_modify>
+	</event>
+	<event>
+		<text>В капсуле вы находите живой организм. Он рассказывает, что телепортировался в прошлое, чтобы помочь своей расе, но что-то пошло не так, и он оказался тут. Вы принимаете его в команду и обчищаете капсулу.</text>
+		<crewMember amount="1" class="random"/>
+		<item_modify>
+			<item type="fuel" min="0" max="3"/>
+			<item type="scrap" min="10" max="25"/>
+		</item_modify>
+	</event>
+	<event>
+		<text>Некоторое время вы перебираете каналы связи, но ответа всё нет. Ваш экипаж вскрывает капсулу и снимает с неё всё ценное. Также удаётся найти портативный реактор!</text>
+		<item_modify>
+			<item type="fuel" min="0" max="3"/>
+			<item type="scrap" min="10" max="25"/>
+		</item_modify>
+		<upgrade amount="1" system="reactor"/>
+	</event>
+</eventList>
+
+<eventList name="CAPSULE_EVENT_R"> 
+	<event/>
+	<event/>
+	<event/>
+	<event>
+		<text>Удивительно, но вам удаётся найти портативный реактор!</text>
+		<upgrade amount="1" system="reactor"/>
+	</event>
+</eventList>
+<ship name="CAPSULE_SHIP" auto_blueprint="CAPSULE">
+	<destroyed>
+		<text>Вы уничтожили временную капсулу и собрали немного обломков...</text>
+		<item_modify>
+			<item type="scrap" min="20" max="35"/>
+		</item_modify>
+	</destroyed>
+	<deadCrew>
+		<text>Вы убили экипаж временной капсулы и сняли с неё всё ценное.</text>
+		<item_modify>
+			<item type="fuel" min="0" max="3"/>
+			<item type="scrap" min="20" max="35"/>
+		</item_modify>
+		<choice hidden="true">
+			<text id="continue"/>
+			<event load="CAPSULE_EVENT_R"/>
+		</choice>
+	</deadCrew>
+</ship>

@@ -1465,7 +1465,7 @@ Special:
 		<autoReward level="LOW">standard</autoReward>
 		<choice hidden="true">
 			<text id="continue" />
-			<event load="ZOLTAN_RIFT_SUCCESS"/>
+			<event load="ZOLTAN_RIFT_SUCCESS_MANTIS"/> <!-- 1.26.3 -->
 		</choice>
 	</destroyed>
 	<deadCrew>
@@ -1473,7 +1473,7 @@ Special:
 		<autoReward level="MED">standard</autoReward>
 		<choice hidden="true">
 			<text id="continue" />
-			<event load="ZOLTAN_RIFT_SUCCESS"/>
+			<event load="ZOLTAN_RIFT_SUCCESS_MANTIS"/> <!-- 1.26.3 -->
 		</choice>
 	</deadCrew>
 </ship>
@@ -1483,7 +1483,7 @@ Special:
 		<autoReward level="LOW">standard</autoReward>
 		<choice hidden="true">
 			<text id="continue" />
-			<event load="ZOLTAN_RIFT_SUCCESS"/>
+			<event load="ZOLTAN_RIFT_SUCCESS_JELLY"/> <!-- 1.26.3 -->
 		</choice>
 	</destroyed>
 	<deadCrew>
@@ -1491,7 +1491,7 @@ Special:
 		<autoReward level="MED">standard</autoReward>
 		<choice hidden="true">
 			<text id="continue" />
-			<event load="ZOLTAN_RIFT_SUCCESS"/>
+			<event load="ZOLTAN_RIFT_SUCCESS_JELLY"/> <!-- 1.26.3 -->
 		</choice>
 	</deadCrew>
 </ship>
@@ -1501,7 +1501,7 @@ Special:
 		<autoReward level="LOW">standard</autoReward>
 		<choice hidden="true">
 			<text id="continue" />
-			<event load="ZOLTAN_RIFT_SUCCESS"/>
+			<event load="ZOLTAN_RIFT_SUCCESS_ROCK"/> <!-- 1.26.3 -->
 		</choice>
 	</destroyed>
 	<deadCrew>
@@ -1509,7 +1509,7 @@ Special:
 		<autoReward level="MED">standard</autoReward>
 		<choice hidden="true">
 			<text id="continue" />
-			<event load="ZOLTAN_RIFT_SUCCESS"/>
+			<event load="ZOLTAN_RIFT_SUCCESS_ROCK"/> <!-- 1.26.3 -->
 		</choice>
 	</deadCrew>
 </ship>
@@ -1519,7 +1519,7 @@ Special:
 		<autoReward level="LOW">standard</autoReward>
 		<choice hidden="true">
 			<text id="continue" />
-			<event load="ZOLTAN_RIFT_SUCCESS"/>
+			<event load="ZOLTAN_RIFT_SUCCESS_CRYSTAL"/> <!-- 1.26.3 -->
 		</choice>
 	</destroyed>
 	<deadCrew>
@@ -1527,7 +1527,7 @@ Special:
 		<autoReward level="MED">standard</autoReward>
 		<choice hidden="true">
 			<text id="continue" />
-			<event load="ZOLTAN_RIFT_SUCCESS"/>
+			<event load="ZOLTAN_RIFT_SUCCESS_CRYSTAL"/> <!-- 1.26.3 -->
 		</choice>
 	</deadCrew>
 </ship>

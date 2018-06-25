@@ -527,7 +527,12 @@ Environmnt:
 	</event>
 	<event>
 		<text>The debris implies that the ship was carrying drone schematics, but unfortunately nothing remains. You do find functioning drone parts, however.</text>
-		<autoReward level="MED">droneparts</autoReward>
+		<!-- 1.26.3 -->
+		<!-- <autoReward level="MED">droneparts</autoReward> -->
+		<autoReward level="LOW">scrap_only</autoReward>
+		<item_modify>
+			<item type="drones" min="4" max="6"/>
+		</item_modify>
 	</event>
 	<event>
 		<text>This ship's cargo was not salvageable. However, they seem to have been surveying the region; they possess detailed maps and data. You download what you can to the ship's map.</text>
@@ -5243,6 +5248,8 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXX --><!-- 1.21 -->
 	<event load="ENGI_SHIP_BORDER"/>
 	<event load="SLURM_FIGHT_BORDER"/><!-- 1.25.1 -->
 	<event load="ZOLTAN_FIGHT"/>
+	<event load="ZOLTON_FIGHT_BORDER"/><!-- 1.26.3 -->
+	<event load="CON_FIGHT"/><!-- 1.26.3 -->
 	<event load="SLUG_FIGHT"/>
 	<event load="MANTIS_FIGHT"/>
 	<event load="ROCK_SHIP"/>
@@ -5331,7 +5338,15 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXX --><!-- 1.21 -->
 	<event load="AUGMENTS_ON_START_BEACON"/>
 </eventList>
 
-
+<event name="ZOLTON_FIGHT_BORDER"><!-- 1.26.3 -->
+	<text load="ZOLTON_FIGHT_BORDER"/>
+	<ship load="ZOLTON_SHIP" hostile="true"/>
+</event>
+<textList name="ZOLTON_FIGHT_BORDER">
+	<text>A Zolton ship makes contact. "The nature of the day is rotational. The fever is emaciated. The reason is-" They've caught some nasty deep space dementia. Before you can consider finding help for them, they open fire.</text>
+	<text>For some reason, the Zoltons' incoming ship mistakes you for enemies. They confusedly attack you.</text>
+	<text>The usually peace-loving Zoltons behave oddly this time around. They walk about their ship, periodically cycling the power of random systems, before pointing their weapon array at you!</text>
+</textList>
 
 <event name="BORDER_SECTOR_EMPTY">
 	<text load="BORDER_SECTOR_EMPTY_TEXT"/>

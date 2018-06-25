@@ -12,6 +12,7 @@
 	<name>BA_BEAM_ADAPTIVE_3</name>
 	<name>BA_BEAM_BIO_FOCUS</name>
 	<name>BA_BEAM_FIRE_2</name>
+	<name>BEAM_FIRECHAIN</name><!-- 1.26.3 -->
 	<name>BA_BEAM_FIRE_FOCUS2</name>
 	<name>BA_BEAM_MAUL</name>
 	<name>BOMB_BREACH_3</name>
@@ -2250,6 +2251,7 @@
 	<name>BA_BEAM_NAGINATA</name>
 	<name>BA_BEAM_MAUL</name>
 	<name>BA_BEAM_FIRE_2</name>
+	<name>BEAM_FIRECHAIN</name><!-- 1.26.3 -->
 	<name>BA_BEAM_FIRE_FOCUS</name>
 	<name>BA_BEAM_FIRE_FOCUS2</name>
 	<name>BEAM_3</name>
@@ -3324,6 +3326,7 @@
 	<name>BA_BEAM_NAGINATA</name>
 	<name>BA_BEAM_MAUL</name>
 	<name>BA_BEAM_FIRE_2</name>
+	<name>BEAM_FIRECHAIN</name><!-- 1.26.3 -->
 	<name>BA_BEAM_FIRE_FOCUS</name>
 	<name>BA_BEAM_FIRE_FOCUS2</name>
 	<name>BEAM_3</name>

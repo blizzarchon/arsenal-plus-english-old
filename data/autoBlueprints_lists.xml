@@ -1,0 +1,5160 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Copyright (c) 2012 by Subset Games. All rights reserved -->
+
+<!-- prevent removeCrew crash for auto-ships -->
+<blueprintList name="CREW_ALL"> <!-- 1.24 -->
+	<name>mantis</name>
+	<name>rock</name>
+	<name>engi</name>
+	<name>energy</name>
+	<name>human</name>
+	<name>slug</name>
+	<name>crystal</name>
+	<name>anaerobic</name>
+	<name>ghost</name>
+</blueprintList>
+<!-- prevent diplomatic immunity achievement for Federation Cruiser from socialization -->
+<blueprintList name="MANTIS">   <name>mantis</name>   </blueprintList>
+<blueprintList name="ROCK">     <name>rock</name>     </blueprintList>
+<blueprintList name="ENGI">     <name>engi</name>     </blueprintList>
+<blueprintList name="ENERGY">   <name>energy</name>   </blueprintList>
+<blueprintList name="HUMAN">    <name>human</name>    </blueprintList>
+<blueprintList name="SLUG">     <name>slug</name>     </blueprintList>
+<blueprintList name="CRYSTAL">  <name>crystal</name>  </blueprintList>
+<blueprintList name="ANAEROBIC"><name>anaerobic</name></blueprintList>
+<blueprintList name="GHOST">    <name>ghost</name>    </blueprintList>
+
+<!-- req drones -->
+<blueprintList name="BLINK_ANTICRASH_BEAMDRONE_LIST"> <!-- 1.25 -->
+	<name>DRONE_HEALBEAM</name>
+	<name>DRONE_IONBEAM</name>
+	<name>COMBAT_FIRE</name>
+	<name>COMBAT_FIRE_2</name>
+	<name>COMBAT_FIRE_3</name>
+	<name>COMBAT_BEAM_OLD</name>
+	<name>COMBAT_BEAM_2</name>
+	<name>COMBAT_BEAM_3</name>
+	<name>PPL_BEAM_DRONE</name>
+	<name>DE_DRONE_BEAM_FOCUS2</name>
+	<name>PSLD_1_BEAM_DRONE</name>
+	<name>PSLD_2_BEAM_DRONE</name>
+	<name>DE_DRONE_BEAM_2</name>
+	<name>DE_DRONE_BEAM_FOCUS</name>
+	<name>DE_DRONE_HULL_BEAM</name>
+	<name>DE_DRONE_STEALTH_BEAM_1</name>
+	<name>DE_DRONE_STEALTH_BEAM_2</name>
+	
+	<name>COMBAT_FIRE_R</name>
+	<name>COMBAT_FIRE_2_R</name>
+	<name>COMBAT_FIRE_3_R</name>
+	<name>COMBAT_BEAM_OLD_R</name>
+	<name>COMBAT_BEAM_2_R</name>
+	<name>COMBAT_BEAM_3_R</name>
+	<name>PPL_BEAM_DRONE_R</name>
+	<name>DE_DRONE_BEAM_FOCUS2_R</name>
+	<name>PSLD_1_BEAM_DRONE_R</name>
+	<name>PSLD_2_BEAM_DRONE_R</name>
+	<name>DE_DRONE_BEAM_2_R</name>
+	<name>DE_DRONE_BEAM_FOCUS_R</name>
+	<name>DE_DRONE_HULL_BEAM_R</name>
+	<name>DE_DRONE_STEALTH_BEAM_1_R</name>
+	<name>DE_DRONE_STEALTH_BEAM_2_R</name>
+	
+	<name>HAL_COMBAT_BEAM</name>
+	<name>HAL_COMBAT_BEAM_2</name>
+	<name>HAL_COMBAT_BEAM_3</name>
+	<name>HAL_COMBAT_FIRE_1</name>
+	<name>HAL_COMBAT_FIRE_2</name>
+	<name>HAL_COMBAT_FIRE_3</name>
+	<name>HAL_DRONE_BEAM_FOCUS</name>
+	<name>HAL_DRONE_BEAM_FOCUS2</name>
+	<name>HAL_DRONE_HULL_BEAM</name>
+	
+	<name>BOARDER_ION</name>
+	
+	<name>BOARDER</name>
+	<name>DE_BOARDER_2</name>
+	<name>DE_BOARDER_3</name>
+	<name>DE_BOARDER_4</name>
+	
+	<name>DE_BOARDER_2_R</name>
+	<name>DE_BOARDER_3_R</name>
+	<name>DE_BOARDER_4_R</name>
+</blueprintList>
+
+<blueprintList name="COMBAT_BEAM_DRONE_LIST"> <!-- for events -->
+	<name>COMBAT_BEAM_OLD</name>
+	<name>COMBAT_BEAM_2</name>
+	<name>COMBAT_BEAM_3</name>
+	<name>PPL_BEAM_DRONE</name>
+	<name>DE_DRONE_BEAM_FOCUS2</name>
+	<name>PSLD_1_BEAM_DRONE</name>
+	<name>PSLD_2_BEAM_DRONE</name>
+	<name>DE_DRONE_BEAM_2</name>
+	<name>DE_DRONE_BEAM_FOCUS</name>
+	<name>DE_DRONE_HULL_BEAM</name>
+	<name>DE_DRONE_STEALTH_BEAM_1</name>
+	<name>DE_DRONE_STEALTH_BEAM_2</name>
+	
+	<name>COMBAT_BEAM_OLD_R</name>
+	<name>COMBAT_BEAM_2_R</name>
+	<name>COMBAT_BEAM_3_R</name>
+	<name>PPL_BEAM_DRONE_R</name>
+	<name>DE_DRONE_BEAM_FOCUS2_R</name>
+	<name>PSLD_1_BEAM_DRONE_R</name>
+	<name>PSLD_2_BEAM_DRONE_R</name>
+	<name>DE_DRONE_BEAM_2_R</name>
+	<name>DE_DRONE_BEAM_FOCUS_R</name>
+	<name>DE_DRONE_HULL_BEAM_R</name>
+	<name>DE_DRONE_STEALTH_BEAM_1_R</name>
+	<name>DE_DRONE_STEALTH_BEAM_2_R</name>
+	
+	<name>HAL_COMBAT_BEAM</name>
+	<name>HAL_COMBAT_BEAM_2</name>
+	<name>HAL_COMBAT_BEAM_3</name>
+	<name>HAL_DRONE_BEAM_FOCUS</name>
+	<name>HAL_DRONE_BEAM_FOCUS2</name>
+	<name>HAL_DRONE_HULL_BEAM</name>
+</blueprintList>
+
+<blueprintList name="STEALTH_BEAM_DRONE_LIST"> <!-- 1.25 -->
+	<name>DE_DRONE_STEALTH_BEAM_1</name>
+	<name>DE_DRONE_STEALTH_BEAM_2</name>
+	<name>DE_DRONE_STEALTH_BEAM_1_R</name>
+	<name>DE_DRONE_STEALTH_BEAM_2_R</name>
+</blueprintList>
+
+<blueprintList name="DRONES_COMBAT_EVENTS"> <!-- 1.23 -->
+	<name>COMBAT_1_OLD</name>
+	<name>COMBAT_2</name>
+	<name>COMBAT_BEAM_2</name>
+	<name>COMBAT_BEAM_3</name>
+	<name>COMBAT_BEAM_OLD</name>
+	<name>COMBAT_FIRE_2</name>
+	<name>COMBAT_FIRE_3</name>
+	<name>COMBAT_FIRE</name>
+	<name>DE_DRONE_BEAM_2</name>
+	<name>DE_DRONE_BEAM_FOCUS2</name>
+	<name>DE_DRONE_BEAM_FOCUS</name>
+	<name>DE_DRONE_HEAVY_1</name>
+	<name>DE_DRONE_HEAVY_2</name>
+	<name>DE_DRONE_HEAVY_SCATTER</name>
+	<name>DE_DRONE_HULL_1</name>
+	<name>DE_DRONE_HULL_2</name>
+	<name>DE_DRONE_HULL_BEAM</name>
+	<name>DE_DRONE_ION_1</name>
+	<name>DE_DRONE_ION_2</name>
+	<name>DE_DRONE_ION_3</name>
+	<name>DE_DRONE_ION_PIERCE</name>
+	<name>DE_DRONE_LIGHT_1</name>
+	<name>DE_DRONE_LIGHT_2</name>
+	<name>DE_DRONE_LIGHT_MISSILE</name>
+	<name>DE_DRONE_LIGHT_MISSILE_FIRE</name>
+	<name>DE_DRONE_LIGHT_MISSILE_STUN_2</name>
+	<name>DE_DRONE_LIGHT_MISSILE_STUN</name>
+	<name>DE_DRONE_LIGHT_SCATTER</name>
+	<name>DE_DRONE_MINE_MEDIUM</name>
+   	<name>DE_DRONE_MINE_SMALL</name>
+   	<name>DE_DRONE_MISSILES_1</name>
+   	<name>DE_DRONE_MISSILES_2</name>
+   	<name>DE_DRONE_MISSILES_3</name>
+   	<name>DE_DRONE_MISSILES_BARRAGE</name>
+   	<name>DE_DRONE_PLASMA</name>
+	<name>DE_DRONE_SCATTER</name>
+	<name>DE_DRONE_STEALTH_BEAM_1</name>
+	<name>DE_DRONE_STEALTH_BEAM_2</name>
+	<name>DRONE_FLAK1</name>
+	<!-- <name>DRONE_ION_STUN_1</name> --> <!-- 1.25 -->
+	<name>DRONE_ION_V3</name>
+	<name>DRONE_ION_V4</name>
+	<name>DRONE_LOCKER_1</name>
+	<name>DRONE_LOCKER_2</name>
+	<name>DRONE_TRASS1</name>
+	<name>DRONE_TRASS2</name>
+	<name>PPL_BEAM_DRONE</name>
+	<name>PSLD_1_BEAM_DRONE</name>
+	<name>PSLD_2_BEAM_DRONE</name>
+	
+	<name>COMBAT_1_OLD_R</name>
+	<name>COMBAT_2_R</name>
+	<name>COMBAT_BEAM_2_R</name>
+	<name>COMBAT_BEAM_3_R</name>
+	<name>COMBAT_BEAM_OLD_R</name>
+	<name>COMBAT_FIRE_2_R</name>
+	<name>COMBAT_FIRE_3_R</name>
+	<name>COMBAT_FIRE_R</name>
+	<name>DE_DRONE_BEAM_2_R</name>
+	<name>DE_DRONE_BEAM_FOCUS2_R</name>
+	<name>DE_DRONE_BEAM_FOCUS_R</name>
+	<name>DE_DRONE_HEAVY_1_R</name>
+	<name>DE_DRONE_HEAVY_2_R</name>
+	<name>DE_DRONE_HEAVY_SCATTER_R</name>
+	<name>DE_DRONE_HULL_1_R</name>
+	<name>DE_DRONE_HULL_2_R</name>
+	<name>DE_DRONE_HULL_BEAM_R</name>
+	<name>DE_DRONE_ION_1_R</name>
+	<name>DE_DRONE_ION_2_R</name>
+	<name>DE_DRONE_ION_3_R</name>
+	<name>DE_DRONE_ION_PIERCE_R</name>
+	<name>DE_DRONE_LIGHT_1_R</name>
+	<name>DE_DRONE_LIGHT_2_R</name>
+	<name>DE_DRONE_LIGHT_MISSILE_FIRE_R</name>
+	<name>DE_DRONE_LIGHT_MISSILE_R</name>
+	<name>DE_DRONE_LIGHT_MISSILE_STUN_2_R</name>
+	<name>DE_DRONE_LIGHT_MISSILE_STUN_R</name>
+	<name>DE_DRONE_LIGHT_SCATTER_R</name>
+	<name>DE_DRONE_MINE_MEDIUM_R</name>
+	<name>DE_DRONE_MINE_SMALL_R</name>
+	<name>DE_DRONE_MISSILES_1_R</name>
+	<name>DE_DRONE_MISSILES_2_R</name>
+	<name>DE_DRONE_MISSILES_3_R</name>
+	<name>DE_DRONE_MISSILES_BARRAGE_R</name>
+	<name>DE_DRONE_PLASMA_R</name>
+	<name>DE_DRONE_SCATTER_R</name>
+	<name>DE_DRONE_STEALTH_BEAM_1_R</name>
+	<name>DE_DRONE_STEALTH_BEAM_2_R</name>
+	<name>DRONE_FLAK1_R</name>
+	<!-- <name>DRONE_ION_STUN_1_R</name> --> <!-- 1.25 -->
+	<name>DRONE_ION_V3_R</name>
+	<name>DRONE_ION_V4_R</name>
+	<name>DRONE_LOCKER_1_R</name>
+	<name>DRONE_LOCKER_2_R</name>
+	<name>DRONE_TRASS1_R</name>
+	<name>DRONE_TRASS2_R</name>
+	<name>PPL_BEAM_DRONE_R</name>
+	<name>PSLD_1_BEAM_DRONE_R</name>
+	<name>PSLD_2_BEAM_DRONE_R</name>
+	
+	<name>DE_DRONE_MINE_MEDIUMP</name>
+	<name>DE_DRONE_MINE_SMALLP</name>
+	<name>DE_DRONE_SCATTER_P</name>
+	<name>DE_DRONE_CRYSTAL_HEAVY_PLAYER</name>
+	
+	<name>DE_DRONE_CRYSTAL_LIGHT</name>
+	<name>DE_DRONE_CRYSTAL_HEAVY</name>
+	<name>DE_DRONE_CRYSTAL_2</name>
+	<name>DE_DRONE_CRYSTAL</name>
+	
+	<name>HAL_COMBAT_BEAM</name>
+	<name>HAL_COMBAT_BEAM_2</name>
+	<name>HAL_COMBAT_BEAM_3</name>
+	<name>HAL_COMBAT_FIRE_1</name>
+	<name>HAL_COMBAT_FIRE_2</name>
+	<name>HAL_COMBAT_FIRE_3</name>
+	<name>HAL_DRONE_BEAM_FOCUS</name>
+	<name>HAL_DRONE_BEAM_FOCUS2</name>
+	<name>HAL_DRONE_PLASMA</name>
+	<name>HAL_DRONE_MISSILES_1</name>
+	<name>HAL_DRONE_MISSILES_2</name>
+	<name>HAL_DRONE_MISSILES_3</name>
+	<name>HAL_DRONE_MISSILES_BARRAGE</name>
+	<name>HAL_DRONE_HEAVY_1</name>
+	<name>HAL_DRONE_HEAVY_2</name>
+	<name>HAL_DRONE_HEAVY_SCATTER</name>
+	<name>HAL_DRONE_SCATTER</name>
+	<name>HAL_DRONE_HULL_BEAM</name>
+	<name>HAL_DRONE_HULL_1</name>
+	<name>HAL_DRONE_HULL_2</name>
+	<name>HAL_DRONE_MINE_BIG</name>
+	<name>HAL_DRONE_MINE_MEDIUM</name>
+	<name>HAL_DRONE_MINE_SMALL</name>
+	<name>HAL_DRONE_FLAK1</name>
+	<name>HAL_DRONE_LOCKER_1</name>
+	<name>HAL_DRONE_LOCKER_2</name>
+	<name>HAL_DRONE_LIGHT_SCATTER</name>
+	<name>HAL_DRONE_LIGHT_MISSILE</name>
+	<name>HAL_DRONE_LIGHT_MISSILE_FIRE</name>
+	<name>HAL_COMBAT_1</name>
+	<name>HAL_COMBAT_2</name>
+</blueprintList>
+
+<blueprintList name="DRONES_LIGHT_2">
+	<name>DE_DRONE_LIGHT_MISSILE</name>
+	<name>DE_DRONE_LIGHT_MISSILE_FIRE</name>
+	<name>DE_DRONE_LIGHT_1</name>
+	<name>DE_DRONE_LIGHT_2</name>
+	<name>DE_DRONE_LIGHT_SCATTER</name>
+	
+	<name>DE_DRONE_CRYSTAL_LIGHT</name>
+	
+	<name>DE_DRONE_LIGHT_MISSILE_R</name>
+	<name>DE_DRONE_LIGHT_MISSILE_FIRE_R</name>
+	<name>DE_DRONE_LIGHT_1_R</name>
+	<name>DE_DRONE_LIGHT_2_R</name>
+	<name>DE_DRONE_LIGHT_SCATTER_R</name>
+	
+	<name>HAL_DRONE_LIGHT_SCATTER</name>
+	<name>HAL_DRONE_LIGHT_MISSILE</name>
+	<name>HAL_DRONE_LIGHT_MISSILE_FIRE</name>
+	
+	<name>PPL_BEAM_DRONE</name><!-- 1.25 -->
+</blueprintList>
+
+<blueprintList name="DRONES_DEFENSE_LIST"> <!-- for events -->
+	<name>DEFENSE_1_OLD</name>
+	<name>DEFENSE_2</name>
+	<name>DE_DRONE_DEFENSE_3</name>
+	<name>DE_DRONE_DEFENSE_LIGHT_MISSILE</name>
+	<name>DE_DRONE_DEFENSE_SWARM_MISSILE</name>
+	<name>DE_DRONE_DEFENSE_LIGHT_1</name>
+	<name>DE_DRONE_DEFENSE_LIGHT_2</name>
+	<name>DE_DRONE_DEFENSE_SCATTER</name>
+	<name>DE_DRONE_DEFENSE_HEAVY_SMALL</name>
+	<name>DE_DRONE_DEFENSE_HEAVY</name>
+	<name>DE_DRONE_DEFENSE_GAUSS</name><!-- 1.21 + below-->
+	<name>DE_DRONE_DEFENSE_CRYSTAL_LIGHT</name>
+	
+	<name>DEFENSE_1_OLD_R</name>
+	<name>DEFENSE_2_R</name>
+	<name>DE_DRONE_DEFENSE_3_R</name>
+	<name>DE_DRONE_DEFENSE_LIGHT_MISSILE_R</name>
+	<name>DE_DRONE_DEFENSE_SWARM_MISSILE_R</name>
+	<name>DE_DRONE_DEFENSE_LIGHT_1_R</name>
+	<name>DE_DRONE_DEFENSE_LIGHT_2_R</name>
+	<name>DE_DRONE_DEFENSE_SCATTER_R</name>
+	<name>DE_DRONE_DEFENSE_HEAVY_SMALL_R</name>
+	<name>DE_DRONE_DEFENSE_HEAVY_R</name>
+	<name>DE_DRONE_DEFENSE_GAUSS_R</name>
+</blueprintList>
+
+<blueprintList name="DRONES_SHIP_REPAIR">
+    <name>SHIP_REPAIR</name>
+    <name>DE_SHIP_REPAIR_2</name>
+	
+	<name>SHIP_REPAIR_R</name><!-- 1.25 -->
+    <name>DE_SHIP_REPAIR_2_R</name><!-- 1.25 -->
+</blueprintList>
+
+<blueprintList name="DRONES_REPAIR_LIST"> <!-- for events -->
+	<name>REPAIR_OLD</name>
+	<name>DE_REPAIR_2</name>
+	<name>DE_REPAIR_3</name>
+	<name>DE_REPAIR_4</name>
+	
+	<name>HAL_REPAIR</name>
+	
+	<name>DE_REPAIR_4_R</name><!-- 1.25 -->
+</blueprintList>
+
+<blueprintList name="DRONES_IONES_LIST"> <!-- for events -->
+	<name>BOARDER_ION</name>
+	<name>DE_DRONE_ION_1</name>
+	<name>DE_DRONE_ION_2</name>
+	<name>DE_DRONE_ION_3</name>
+	<name>DRONE_ION_V3</name>
+	<name>DRONE_ION_V4</name>
+	<name>DE_DRONE_ION_PIERCE</name>
+</blueprintList>
+
+<blueprintList name="DRONES_BATTLE">
+	<name>BATTLE</name>
+	<name>DE_BATTLE_2</name>
+	<name>DE_BATTLE_3</name>
+	<name>DE_BATTLE_4</name>
+	
+	<name>DE_BATTLE_4_R</name><!-- 1.25 -->
+</blueprintList>
+
+<blueprintList name="DRONES_BOARDER">
+	<name>BOARDER</name>
+	<name>DE_BOARDER_2</name>
+	<name>DE_BOARDER_3</name>
+	<name>DE_BOARDER_4</name>
+	
+	<name>DE_BOARDER_2_R</name><!-- 1.25 -->
+	<name>DE_BOARDER_3_R</name><!-- 1.25 -->
+	<name>DE_BOARDER_4_R</name><!-- 1.25 -->
+</blueprintList>
+
+<!-- req weapons -->
+
+<blueprintList name="WEAPONS_BEAM_DAMAGE">
+	<name>BEAM_HULL</name>
+	<name>BEAM_FAUCHARD</name>
+	<name>BEAM_3</name>
+	<name>BA_BEAM_PARTISAN</name><!-- 1.26 -->
+	<name>BEAM_SP_KATANA</name><!-- 1.23 --> <!-- add in 1.21 really, maybe missed? -->
+	<name>BEAM_2</name>
+	<name>BA_BEAM_POLLAXE</name><!-- 1.26 -->
+	<name>BEAM_SP_DAITO</name><!-- 1.23 --> <!-- add in 1.21 really, maybe missed? -->
+	<name>BEAM_1</name>
+	<name>BEAM_LONG</name>
+	<name>BA_BEAM_K2</name><!-- 1.25.3 -->
+	<name>BEAM_GUISARME</name><!-- 1.23 -->
+	<name>BEAM_LONG_SYS</name><!-- 1.25.3 -->
+	<!-- <name>ARTILLERY_FED</name> --><!-- 1.23 -->
+	<!-- <name>ARTILLERY_FED_FIRE</name> --><!-- 1.23 -->
+	<name>BA_BEAM_HASTA</name>
+	<name>BA_BEAM_K1</name><!-- 1.25.3 -->
+	<name>BA_BEAM_HULL_SMALL</name>
+	<name>BA_BEAM_HULL_MINI</name><!-- 1.25.3 -->
+	<name>BA_BEAM_BARDICHE</name>
+	<name>BA_BEAM_NAGINATA</name>
+	<name>BA_BEAM_PERNACH</name>
+	<name>BA_BEAM_MAUL</name>
+	<name>BA_BEAM_SCYTHE</name>
+	<name>BA_BEAM_FLAIL_DAMAGE</name>
+	<name>BA_BEAM_ADAPTIVE_1</name>
+	<name>BA_BEAM_ADAPTIVE_2</name>
+	<name>BA_BEAM_ADAPTIVE_3</name>
+	<name>BEAM_1_2</name>
+	<name>BA_BEAM_AUTO</name>
+	<name>FIRE_HELL_BEAM</name>
+	<name>BEAM_FIRE_SARISSA</name><!-- 1.25.1 -->
+	<name>BEAM_DEEP_MINE</name><!-- 1.23 -->
+	
+	<name>BA_BEAM_HASTA_P</name><!-- 1.23 --> <!-- from DLC -->
+	<name>BA_BEAM_PERNACH_P</name><!-- 1.23 --> <!-- from DLC -->
+	<!-- 1.26.3 -->
+	<name>BA_BEAM_HASTA_P_PRC</name>
+	<name>BA_BEAM_HASTA_P_FRC</name>
+	<name>BA_BEAM_HASTA_P_CLD</name>
+	<name>BA_BEAM_HASTA_P_UNI</name>
+	<name>BA_BEAM_PERNACH_P_PRC</name>
+	<name>BA_BEAM_PERNACH_P_BRC</name>
+	<name>BA_BEAM_PERNACH_P_CLD</name>
+	<name>BA_BEAM_PERNACH_P_UNI</name>
+	<!-- 1.26 -->
+	<name>EP_BA_BEAM_BARDICHE</name>
+	<name>EP_BA_BEAM_BO</name>
+	<name>EP_BA_BEAM_SCYTHE</name>
+	<name>EP_BA_BEAM_HASTA</name>
+	<name>EP_BA_BEAM_NAGINATA</name>
+	<name>EP_BA_BEAM_FLAIL_DAMAGE</name>
+	<name>EP_BA_BEAM_SHEST</name>
+	<name>EP_BA_BEAM_K1</name>
+	<name>EP_BA_BEAM_K2</name>
+	<name>EP_BEAM_2</name>
+	<name>EP_BEAM_3</name>
+	<name>EP_BEAM_BIOFIRE</name>
+	<name>EP_BEAM_FAUCHARD</name>
+	<name>EP_BEAM_GUISARME</name>
+	<name>EP_BEAM_LONG</name>
+	<name>EP_BEAM_SP_KATANA</name>
+	<name>EP_BEAM_SP_DAITO</name>
+	
+	<name>EP_BA_BEAM_BARDICHE_PRC</name>
+	<name>EP_BA_BEAM_BARDICHE_FRC</name>
+	<name>EP_BA_BEAM_BARDICHE_CLD</name>
+	<name>EP_BA_BEAM_BARDICHE_POW</name>
+	<name>EP_BA_BEAM_BARDICHE_UNI</name><!-- 1.26.3 -->
+	<name>EP_BA_BEAM_SCYTHE_PRC</name>
+	<name>EP_BA_BEAM_SCYTHE_BRC</name>
+	<name>EP_BA_BEAM_SCYTHE_CLD</name>
+	<name>EP_BA_BEAM_SCYTHE_UNI</name><!-- 1.26.3 -->
+	<name>EP_BA_BEAM_HASTA_PRC</name>
+	<name>EP_BA_BEAM_HASTA_FRC</name>
+	<name>EP_BA_BEAM_HASTA_CLD</name>
+	<name>EP_BA_BEAM_HASTA_UNI</name><!-- 1.26.3 -->
+	<name>EP_BA_BEAM_NAGINATA_PRC</name>
+	<name>EP_BA_BEAM_NAGINATA_BRC</name>
+	<name>EP_BA_BEAM_NAGINATA_CLD</name>
+	<name>EP_BA_BEAM_NAGINATA_POW</name>
+	<name>EP_BA_BEAM_NAGINATA_UNI</name><!-- 1.26.3 -->
+	<name>EP_BA_BEAM_FLAIL_DAMAGE_PRC</name>
+	<name>EP_BA_BEAM_FLAIL_DAMAGE_BRC</name>
+	<name>EP_BA_BEAM_FLAIL_DAMAGE_CLD</name>
+	<name>EP_BA_BEAM_FLAIL_DAMAGE_POW</name>
+	<name>EP_BA_BEAM_FLAIL_DAMAGE_UNI</name><!-- 1.26.3 -->
+	<name>EP_BA_BEAM_K1_PRC</name>
+	<name>EP_BA_BEAM_K1_CLD</name>
+	<name>EP_BA_BEAM_K1_UNI</name><!-- 1.26.3 -->
+	<name>EP_BA_BEAM_K2_PRC</name>
+	<name>EP_BA_BEAM_K2_CLD</name>
+	<name>EP_BA_BEAM_K2_POW</name>
+	<name>EP_BA_BEAM_K2_UNI</name><!-- 1.26.3 -->
+	<name>EP_BEAM_2_PRC</name>
+	<name>EP_BEAM_2_BRC</name>
+	<name>EP_BEAM_2_CLD</name>
+	<name>EP_BEAM_2_POW</name>
+	<name>EP_BEAM_2_UNI</name><!-- 1.26.3 -->
+	<name>EP_BEAM_3_PRC</name>
+	<name>EP_BEAM_3_BRC</name>
+	<name>EP_BEAM_3_CLD</name>
+	<name>EP_BEAM_3_POW</name>
+	<name>EP_BEAM_3_UNI</name><!-- 1.26.3 -->
+	<name>EP_BEAM_FAUCHARD_PRC</name>
+	<name>EP_BEAM_FAUCHARD_BRC</name>
+	<name>EP_BEAM_FAUCHARD_CLD</name>
+	<name>EP_BEAM_FAUCHARD_POW</name>
+	<name>EP_BEAM_FAUCHARD_UNI</name><!-- 1.26.3 -->
+	<name>EP_BEAM_GUISARME_PRC</name>
+	<name>EP_BEAM_GUISARME_FRC</name>
+	<name>EP_BEAM_GUISARME_BRC</name>
+	<name>EP_BEAM_GUISARME_CLD</name>
+	<name>EP_BEAM_GUISARME_POW</name>
+	<name>EP_BEAM_GUISARME_UNI</name><!-- 1.26.3 -->
+	<name>EP_BEAM_LONG_PRC</name>
+	<name>EP_BEAM_LONG_FRC</name>
+	<name>EP_BEAM_LONG_CLD</name>
+	<name>EP_BEAM_LONG_POW</name>
+	<name>EP_BEAM_LONG_UNI</name><!-- 1.26.3 -->
+	<name>EP_BEAM_SP_KATANA_PRC</name>
+	<name>EP_BEAM_SP_KATANA_BRC</name>
+	<name>EP_BEAM_SP_KATANA_CLD</name>
+	<name>EP_BEAM_SP_KATANA_POW</name>
+	<name>EP_BEAM_SP_KATANA_UNI</name><!-- 1.26.3 -->
+	<name>EP_BEAM_SP_DAITO_PRC</name>
+	<name>EP_BEAM_SP_DAITO_BRC</name>
+	<name>EP_BEAM_SP_DAITO_CLD</name>
+	<name>EP_BEAM_SP_DAITO_POW</name>
+	<name>EP_BEAM_SP_DAITO_UNI</name><!-- 1.26.3 -->
+	<name>BEAM_DEEP_MINE_PRC</name>
+	<name>BEAM_DEEP_MINE_FRC</name>
+	<name>BEAM_DEEP_MINE_CLD</name>
+	<name>BEAM_DEEP_MINE_POW</name>
+	<name>BEAM_DEEP_MINE_UNI</name><!-- 1.26.3 -->
+	<name>BEAM_FAUCHARD_PRC</name>
+	<name>BEAM_FAUCHARD_BRC</name>
+	<name>BEAM_FAUCHARD_CLD</name>
+	<name>BEAM_FAUCHARD_POW</name>
+	<name>BEAM_FAUCHARD_UNI</name><!-- 1.26.3 -->
+	<name>BEAM_1_PRC</name>
+	<name>BEAM_1_FRC</name>
+	<name>BEAM_1_CLD</name>
+	<name>BEAM_1_UNI</name><!-- 1.26.3 -->
+	<name>BEAM_1_2_PRC</name>
+	<name>BEAM_1_2_FRC</name>
+	<name>BEAM_1_2_CLD</name>
+	<name>BEAM_1_2_UNI</name><!-- 1.26.3 -->
+	<name>BEAM_LONG_PRC</name>
+	<name>BEAM_LONG_FRC</name>
+	<name>BEAM_LONG_CLD</name>
+	<name>BEAM_LONG_POW</name>
+	<name>BEAM_LONG_UNI</name><!-- 1.26.3 -->
+	<name>BEAM_GUISARME_PRC</name>
+	<name>BEAM_GUISARME_FRC</name>
+	<name>BEAM_GUISARME_BRC</name>
+	<name>BEAM_GUISARME_CLD</name>
+	<name>BEAM_GUISARME_POW</name>
+	<name>BEAM_GUISARME_UNI</name><!-- 1.26.3 -->
+	<name>BEAM_LONG_SYS_PRC</name>
+	<name>BEAM_LONG_SYS_FRC</name>
+	<name>BEAM_LONG_SYS_CLD</name>
+	<name>BEAM_LONG_SYS_POW</name>
+	<name>BEAM_LONG_SYS_UNI</name><!-- 1.26.3 -->
+	<name>BA_BEAM_K1_PRC</name>
+	<name>BA_BEAM_K1_CLD</name>
+	<name>BA_BEAM_K1_UNI</name><!-- 1.26.3 -->
+	<name>BA_BEAM_K2_PRC</name>
+	<name>BA_BEAM_K2_CLD</name>
+	<name>BA_BEAM_K2_POW</name>
+	<name>BA_BEAM_K2_UNI</name><!-- 1.26.3 -->
+	<name>BA_BEAM_HASTA_PRC</name>
+	<name>BA_BEAM_HASTA_FRC</name>
+	<name>BA_BEAM_HASTA_CLD</name>
+	<name>BA_BEAM_HASTA_UNI</name><!-- 1.26.3 -->
+	<name>BA_BEAM_HULL_MINI_PRC</name>
+	<name>BA_BEAM_HULL_MINI_BRC</name>
+	<name>BA_BEAM_HULL_MINI_CLD</name>
+	<name>BA_BEAM_HULL_MINI_UNI</name><!-- 1.26.3 -->
+	<name>BA_BEAM_HULL_SMALL_PRC</name>
+	<name>BA_BEAM_HULL_SMALL_BRC</name>
+	<name>BA_BEAM_HULL_SMALL_CLD</name>
+	<name>BA_BEAM_HULL_SMALL_POW</name>
+	<name>BA_BEAM_HULL_SMALL_UNI</name><!-- 1.26.3 -->
+	<name>BEAM_HULL_PRC</name>
+	<name>BEAM_HULL_BRC</name>
+	<name>BEAM_HULL_CLD</name>
+	<name>BEAM_HULL_POW</name>
+	<name>BEAM_HULL_UNI</name><!-- 1.26.3 -->
+	<name>BA_BEAM_AUTO_PRC</name>
+	<name>BA_BEAM_AUTO_CLD</name>
+	<name>BA_BEAM_AUTO_UNI</name><!-- 1.26.3 -->
+	<name>BA_BEAM_ADAPTIVE_1_PRC</name>
+	<name>BA_BEAM_ADAPTIVE_1_CLD</name>
+	<name>BA_BEAM_ADAPTIVE_1_UNI</name><!-- 1.26.3 -->
+	<name>BA_BEAM_ADAPTIVE_2_PRC</name>
+	<name>BA_BEAM_ADAPTIVE_2_BRC</name>
+	<name>BA_BEAM_ADAPTIVE_2_CLD</name>
+	<name>BA_BEAM_ADAPTIVE_2_POW</name>
+	<name>BA_BEAM_ADAPTIVE_2_UNI</name><!-- 1.26.3 -->
+	<name>BA_BEAM_ADAPTIVE_3_PRC</name>
+	<name>BA_BEAM_ADAPTIVE_3_BRC</name>
+	<name>BA_BEAM_ADAPTIVE_3_CLD</name>
+	<name>BA_BEAM_ADAPTIVE_3_POW</name>
+	<name>BA_BEAM_ADAPTIVE_3_UNI</name><!-- 1.26.3 -->
+	<name>BA_BEAM_BARDICHE_PRC</name>
+	<name>BA_BEAM_BARDICHE_FRC</name>
+	<name>BA_BEAM_BARDICHE_CLD</name>
+	<name>BA_BEAM_BARDICHE_POW</name>
+	<name>BA_BEAM_BARDICHE_UNI</name><!-- 1.26.3 -->
+	<name>BA_BEAM_SCYTHE_PRC</name>
+	<name>BA_BEAM_SCYTHE_BRC</name>
+	<name>BA_BEAM_SCYTHE_CLD</name>
+	<name>BA_BEAM_SCYTHE_UNI</name><!-- 1.26.3 -->
+	<name>BA_BEAM_FLAIL_DAMAGE_PRC</name>
+	<name>BA_BEAM_FLAIL_DAMAGE_BRC</name>
+	<name>BA_BEAM_FLAIL_DAMAGE_CLD</name>
+	<name>BA_BEAM_FLAIL_DAMAGE_POW</name>
+	<name>BA_BEAM_FLAIL_DAMAGE_UNI</name><!-- 1.26.3 -->
+	<name>BA_BEAM_NAGINATA_PRC</name>
+	<name>BA_BEAM_NAGINATA_BRC</name>
+	<name>BA_BEAM_NAGINATA_CLD</name>
+	<name>BA_BEAM_NAGINATA_POW</name>
+	<name>BA_BEAM_NAGINATA_UNI</name><!-- 1.26.3 -->
+	<name>BA_BEAM_PERNACH_PRC</name>
+	<name>BA_BEAM_PERNACH_BRC</name>
+	<name>BA_BEAM_PERNACH_CLD</name>
+	<name>BA_BEAM_PERNACH_POW</name>
+	<name>BA_BEAM_PERNACH_UNI</name><!-- 1.26.3 -->
+	<name>BA_BEAM_MAUL_PRC</name>
+	<name>BA_BEAM_MAUL_BRC</name>
+	<name>BA_BEAM_MAUL_CLD</name>
+	<name>BA_BEAM_MAUL_POW</name>
+	<name>BA_BEAM_MAUL_UNI</name><!-- 1.26.3 -->
+	<name>BEAM_3_PRC</name>
+	<name>BEAM_3_BRC</name>
+	<name>BEAM_3_CLD</name>
+	<name>BEAM_3_POW</name>
+	<name>BEAM_3_UNI</name><!-- 1.26.3 -->
+	<name>BEAM_2_PRC</name>
+	<name>BEAM_2_BRC</name>
+	<name>BEAM_2_CLD</name>
+	<name>BEAM_2_POW</name>
+	<name>BEAM_2_UNI</name><!-- 1.26.3 -->
+	<name>BA_BEAM_POLLAXE_BRC</name>
+	<name>BA_BEAM_POLLAXE_CLD</name>
+	<name>BA_BEAM_POLLAXE_POW</name>
+	<name>BA_BEAM_POLLAXE_UNI</name><!-- 1.26.3 -->
+	<name>BA_BEAM_PARTISAN_BRC</name>
+	<name>BA_BEAM_PARTISAN_CLD</name>
+	<name>BA_BEAM_PARTISAN_POW</name>
+	<name>BA_BEAM_PARTISAN_UNI</name><!-- 1.26.3 -->
+	<name>BEAM_SP_DAITO_PRC</name>
+	<name>BEAM_SP_DAITO_BRC</name>
+	<name>BEAM_SP_DAITO_CLD</name>
+	<name>BEAM_SP_DAITO_POW</name>
+	<name>BEAM_SP_DAITO_UNI</name><!-- 1.26.3 -->
+	<name>BEAM_SP_KATANA_PRC</name>
+	<name>BEAM_SP_KATANA_BRC</name>
+	<name>BEAM_SP_KATANA_CLD</name>
+	<name>BEAM_SP_KATANA_POW</name>
+	<name>BEAM_SP_KATANA_UNI</name><!-- 1.26.3 -->
+	<name>FIRE_HELL_BEAM_PRC</name>
+	<name>FIRE_HELL_BEAM_FRC</name>
+	<name>FIRE_HELL_BEAM_CLD</name>
+	<name>FIRE_HELL_BEAM_POW</name>
+	<name>FIRE_HELL_BEAM_UNI</name><!-- 1.26.3 -->
+	<name>BEAM_FIRE_SARISSA_PRC</name>
+	<name>BEAM_FIRE_SARISSA_FRC</name>
+	<name>BEAM_FIRE_SARISSA_CLD</name>
+	<name>BEAM_FIRE_SARISSA_POW</name>
+	<name>BEAM_FIRE_SARISSA_UNI</name><!-- 1.26.3 -->
+	
+	<name>UWB_BEAM_1</name>
+	<name>UWB_BEAM_1_PRC</name>
+	<name>UWB_BEAM_1_FRC</name>
+	<name>UWB_BEAM_1_CLD</name>
+	<name>UWB_BEAM_1_UNI</name><!-- 1.26.3 -->
+	<name>UWB_BEAM_LONG</name>
+	<name>UWB_BEAM_LONG_PRC</name>
+	<name>UWB_BEAM_LONG_FRC</name>
+	<name>UWB_BEAM_LONG_CLD</name>
+	<name>UWB_BEAM_LONG_POW</name>
+	<name>UWB_BEAM_LONG_UNI</name><!-- 1.26.3 -->
+	<name>UWB_BEAM_GUISARME</name>
+	<name>UWB_BEAM_GUISARME_PRC</name>
+	<name>UWB_BEAM_GUISARME_FRC</name>
+	<name>UWB_BEAM_GUISARME_BRC</name>
+	<name>UWB_BEAM_GUISARME_CLD</name>
+	<name>UWB_BEAM_GUISARME_POW</name>
+	<name>UWB_BEAM_GUISARME_UNI</name><!-- 1.26.3 -->
+	<name>UWB_BA_BEAM_HASTA</name>
+	<name>UWB_BA_BEAM_HASTA_PRC</name>
+	<name>UWB_BA_BEAM_HASTA_FRC</name>
+	<name>UWB_BA_BEAM_HASTA_CLD</name>
+	<name>UWB_BA_BEAM_HASTA_UNI</name><!-- 1.26.3 -->
+	<name>UWB_BA_BEAM_HULL_SMALL</name>
+	<name>UWB_BA_BEAM_HULL_SMALL_PRC</name>
+	<name>UWB_BA_BEAM_HULL_SMALL_BRC</name>
+	<name>UWB_BA_BEAM_HULL_SMALL_CLD</name>
+	<name>UWB_BA_BEAM_HULL_SMALL_POW</name>
+	<name>UWB_BA_BEAM_HULL_SMALL_UNI</name><!-- 1.26.3 -->
+	<name>UWB_BA_BEAM_AUTO</name>
+	<name>UWB_BA_BEAM_AUTO_PRC</name>
+	<name>UWB_BA_BEAM_AUTO_CLD</name>
+	<name>UWB_BA_BEAM_AUTO_UNI</name><!-- 1.26.3 -->
+	<name>UWB_BA_BEAM_BARDICHE</name>
+	<name>UWB_BA_BEAM_BARDICHE_PRC</name>
+	<name>UWB_BA_BEAM_BARDICHE_FRC</name>
+	<name>UWB_BA_BEAM_BARDICHE_CLD</name>
+	<name>UWB_BA_BEAM_BARDICHE_POW</name>
+	<name>UWB_BA_BEAM_BARDICHE_UNI</name><!-- 1.26.3 -->
+	<name>UWB_BA_BEAM_SCYTHE</name>
+	<name>UWB_BA_BEAM_SCYTHE_PRC</name>
+	<name>UWB_BA_BEAM_SCYTHE_BRC</name>
+	<name>UWB_BA_BEAM_SCYTHE_CLD</name>
+	<name>UWB_BA_BEAM_SCYTHE_UNI</name><!-- 1.26.3 -->
+	<name>UWB_BEAM_1_2</name>
+	<name>UWB_BEAM_1_2_PRC</name>
+	<name>UWB_BEAM_1_2_FRC</name>
+	<name>UWB_BEAM_1_2_CLD</name>
+	<name>UWB_BEAM_1_2_UNI</name><!-- 1.26.3 -->
+	<name>UWB_BEAM_HULL</name>
+	<name>UWB_BEAM_HULL_PRC</name>
+	<name>UWB_BEAM_HULL_BRC</name>
+	<name>UWB_BEAM_HULL_CLD</name>
+	<name>UWB_BEAM_HULL_POW</name>
+	<name>UWB_BEAM_HULL_UNI</name><!-- 1.26.3 -->
+	<name>UWB_BA_BEAM_PERNACH</name>
+	<name>UWB_BA_BEAM_PERNACH_PRC</name>
+	<name>UWB_BA_BEAM_PERNACH_BRC</name>
+	<name>UWB_BA_BEAM_PERNACH_CLD</name>
+	<name>UWB_BA_BEAM_PERNACH_POW</name>
+	<name>UWB_BA_BEAM_PERNACH_UNI</name><!-- 1.26.3 -->
+	<name>UWB_BEAM_2</name>
+	<name>UWB_BEAM_2_PRC</name>
+	<name>UWB_BEAM_2_BRC</name>
+	<name>UWB_BEAM_2_CLD</name>
+	<name>UWB_BEAM_2_POW</name>
+	<name>UWB_BEAM_2_UNI</name><!-- 1.26.3 -->
+	<name>UWB_BEAM_FAUCHARD</name>
+	<name>UWB_BEAM_FAUCHARD_PRC</name>
+	<name>UWB_BEAM_FAUCHARD_BRC</name>
+	<name>UWB_BEAM_FAUCHARD_CLD</name>
+	<name>UWB_BEAM_FAUCHARD_POW</name>
+	<name>UWB_BEAM_FAUCHARD_UNI</name><!-- 1.26.3 -->
+	<name>UWB_BEAM_3</name>
+	<name>UWB_BEAM_3_PRC</name>
+	<name>UWB_BEAM_3_BRC</name>
+	<name>UWB_BEAM_3_CLD</name>
+	<name>UWB_BEAM_3_POW</name>
+	<name>UWB_BEAM_3_UNI</name><!-- 1.26.3 -->
+</blueprintList>
+
+<blueprintList name="UWB_MISSILES"><!-- 1.26 -->
+	<name>UWB_MISSILES_1</name>
+	<name>UWB_MISSILES_2_PLAYER</name>
+	<name>UWB_MISSILES_SYS1</name>
+	<name>UWB_MISSILES_SYS2</name>
+	<name>UWB_BA_MISSILES_ASTERIA</name>
+	<name>UWB_BA_MISSILES_HULL_SMALL</name>
+	<name>UWB_MISSILES_3</name>
+	<name>UWB_MISSILES_BURST</name>
+	<name>UWB_BA_MISSILES_ONI</name>
+	<name>UWB_MISSILES_HULL</name>
+	<name>UWB_BA_MISSILES_PERYTON</name>
+	<name>UWB_BA_MISSILES_4</name>
+	<name>UWB_BA_MISSILES_COCKATRICE</name>
+	<name>UWB_MISSILES_MEGA</name>
+	
+	<name>UWB_MISSILES_1_FRC</name>
+	<name>UWB_MISSILES_1_BRC</name>
+	<name>UWB_MISSILES_1_CLD</name>
+	<name>UWB_MISSILES_2_PLAYER_FRC</name>
+	<name>UWB_MISSILES_2_PLAYER_BRC</name>
+	<name>UWB_MISSILES_2_PLAYER_CLD</name>
+	<name>UWB_MISSILES_SYS1_FRC</name>
+	<name>UWB_MISSILES_SYS1_CLD</name>
+	<name>UWB_MISSILES_SYS2_FRC</name>
+	<name>UWB_MISSILES_SYS2_CLD</name>
+	<name>UWB_BA_MISSILES_ASTERIA_CLD</name>
+	<name>UWB_BA_MISSILES_HULL_SMALL_BRC</name>
+	<name>UWB_BA_MISSILES_HULL_SMALL_CLD</name>
+	<name>UWB_MISSILES_3_FRC</name>
+	<name>UWB_MISSILES_3_BRC</name>
+	<name>UWB_MISSILES_3_CLD</name>
+	<name>UWB_MISSILES_3_POW</name>
+	<name>UWB_MISSILES_BURST_FRC</name>
+	<name>UWB_MISSILES_BURST_BRC</name>
+	<name>UWB_MISSILES_BURST_CLD</name>
+	<name>UWB_MISSILES_BURST_POW</name>
+	<name>UWB_BA_MISSILES_ONI_FRC</name>
+	<name>UWB_BA_MISSILES_ONI_BRC</name>
+	<name>UWB_BA_MISSILES_ONI_CLD</name>
+	<name>UWB_BA_MISSILES_ONI_POW</name>
+	<name>UWB_MISSILES_HULL_BRC</name>
+	<name>UWB_MISSILES_HULL_CLD</name>
+	<name>UWB_MISSILES_HULL_POW</name>
+	<name>UWB_BA_MISSILES_4_FRC</name>
+	<name>UWB_BA_MISSILES_4_BRC</name>
+	<name>UWB_BA_MISSILES_4_CLD</name>
+	<name>UWB_BA_MISSILES_4_POW</name>
+	<name>UWB_BA_MISSILES_PERYTON_CLD</name>
+	<name>UWB_BA_MISSILES_PERYTON_POW</name>
+	<name>UWB_BA_MISSILES_COCKATRICE_CLD</name>
+	<name>UWB_BA_MISSILES_COCKATRICE_POW</name>
+	<name>UWB_MISSILES_MEGA_FRC</name>
+	<name>UWB_MISSILES_MEGA_BRC</name>
+	<name>UWB_MISSILES_MEGA_CLD</name>
+	<name>UWB_MISSILES_MEGA_POW</name>
+	<!-- 1.26.3 -->
+	<name>UWB_MISSILES_1_UNI</name>
+	<name>UWB_MISSILES_2_PLAYER_UNI</name>
+	<name>UWB_MISSILES_SYS1_UNI</name>
+	<name>UWB_MISSILES_SYS2_UNI</name>
+	<name>UWB_BA_MISSILES_ASTERIA_UNI</name>
+	<name>UWB_BA_MISSILES_HULL_SMALL_UNI</name>
+	<name>UWB_MISSILES_3_UNI</name>
+	<name>UWB_MISSILES_BURST_UNI</name>
+	<name>UWB_BA_MISSILES_ONI_UNI</name>
+	<name>UWB_MISSILES_HULL_UNI</name>
+	<name>UWB_BA_MISSILES_PERYTON_UNI</name>
+	<name>UWB_BA_MISSILES_4_UNI</name>
+	<name>UWB_BA_MISSILES_COCKATRICE_UNI</name>
+	<name>UWB_MISSILES_MEGA_UNI</name>
+</blueprintList>
+
+<blueprintList name="WEAPONS_BREACH_BOMBS"><!-- 1.22 -->
+	<name>BOMB_BREACH_1</name>
+	<name>BOMB_BREACH_2</name>
+	<name>BOMB_BREACH_3</name>
+	<name>BA_BOMB_CLUSTER_BREACH</name>
+	<!-- 1.26 -->
+	<name>BOMB_BREACH_1_BRC</name>
+	<name>BOMB_BREACH_1_CLD</name>
+	<name>BOMB_BREACH_1_POW</name>
+	<name>BOMB_BREACH_2_BRC</name>
+	<name>BOMB_BREACH_2_CLD</name>
+	<name>BOMB_BREACH_2_POW</name>
+	<name>BOMB_BREACH_3_CLD</name>
+	<name>BOMB_BREACH_3_POW</name>
+	<name>BA_BOMB_CLUSTER_BREACH_BRC</name>
+	<name>BA_BOMB_CLUSTER_BREACH_CLD</name>
+	<name>BA_BOMB_CLUSTER_BREACH_POW</name>
+	<!-- 1.26.3 -->
+	<name>BOMB_BREACH_1_UNI</name>
+	<name>BOMB_BREACH_2_UNI</name>
+	<name>BOMB_BREACH_3_UNI</name>
+	<name>BA_BOMB_CLUSTER_BREACH_UNI</name>
+</blueprintList>
+
+<blueprintList name="WEAPONS_PLASMA">
+	<name>DE_DRONE_PLASMA</name>
+	<name>BA_PLASMA_1</name>
+	<name>BA_PLASMA_2</name>
+	<name>BA_PLASMA_3</name>
+	<name>BA_PLASMA_PLUS</name> <!-- 1.23 --> <!-- from DLC -->
+	<!-- 1.26 -->
+	<name>BA_PLASMA_1_PRC</name>
+	<name>BA_PLASMA_1_FRC</name>
+	<name>BA_PLASMA_1_CLD</name>
+	<name>BA_PLASMA_2_PRC</name>
+	<name>BA_PLASMA_2_FRC</name>
+	<name>BA_PLASMA_2_CLD</name>
+	<name>BA_PLASMA_2_POW</name>
+	<name>BA_PLASMA_3_PRC</name>
+	<name>BA_PLASMA_3_FRC</name>
+	<name>BA_PLASMA_3_CLD</name>
+	<name>BA_PLASMA_3_POW</name>
+	<name>BA_PLASMA_PLUS_PRC</name>
+	<name>BA_PLASMA_PLUS_FRC</name>
+	<name>BA_PLASMA_PLUS_CLD</name>
+	
+	<name>UWB_BA_PLASMA_1</name>
+	<name>UWB_BA_PLASMA_1_PRC</name>
+	<name>UWB_BA_PLASMA_1_FRC</name>
+	<name>UWB_BA_PLASMA_1_CLD</name>
+	
+	<name>PREIGNITE_PLASMA_IMPULSE_1</name>
+	<name>PREIGNITE_PLASMA_IMPULSE_1_FRC</name>
+	<name>PREIGNITE_PLASMA_IMPULSE_2_FRC</name>
+	<name>PREIGNITE_PLASMA_IMPULSE_3_FRC</name>
+	<!-- 1.26.3 -->
+	<name>DE_DRONE_PLASMA_UNI</name>
+	<name>BA_PLASMA_1_UNI</name>
+	<name>BA_PLASMA_2_UNI</name>
+	<name>BA_PLASMA_3_UNI</name>
+	<name>BA_PLASMA_PLUS_UNI</name>
+	
+	<name>UWB_BA_PLASMA_1_UNI</name>
+	
+	<name>PREIGNITE_PLASMA_IMPULSE_2</name>
+	<name>PREIGNITE_PLASMA_IMPULSE_3</name>
+	<name>PREIGNITE_PLASMA_IMPULSE_1_UNI</name>
+	<name>PREIGNITE_PLASMA_IMPULSE_2_UNI</name>
+	<name>PREIGNITE_PLASMA_IMPULSE_3_UNI</name>
+</blueprintList>
+
+<blueprintList name="BEAMS_BIO">
+	<name>BEAM_BIO</name>
+	<name>BEAM_CHAIN_BIO</name><!-- 1.25.3 -->
+	<name>BA_BEAM_BIO_SP1</name><!-- 1.25.1 -->
+	<name>BA_BEAM_BIO_SP2</name><!-- 1.25.1 -->
+	<name>BA_BEAM_BIO_2</name>
+	<name>BA_BEAM_BIO_FOCUS</name>
+	<!-- 1.26 -->
+	<name>EP_BEAM_BIOFIRE</name>
+	<name>EP_BEAM_BIOFIRE_PRC</name>
+	<name>EP_BEAM_BIOFIRE_FRC</name>
+	<name>EP_BEAM_BIOFIRE_CLD</name>
+	<name>EP_BEAM_BIOFIRE_POW</name>
+	<name>BEAM_BIOFIRE</name>
+	<name>BEAM_BIOFIRE_PRC</name>
+	<name>BEAM_BIOFIRE_FRC</name>
+	<name>BEAM_BIOFIRE_CLD</name>
+	<name>BEAM_BIOFIRE_POW</name>
+	<name>BA_BEAM_BIO_2_PRC</name>
+	<name>BA_BEAM_BIO_2_CLD</name>
+	<name>BA_BEAM_BIO_2_POW</name>
+	<name>BEAM_BIO_PRC</name>
+	<name>BEAM_BIO_CLD</name>
+	<name>BEAM_BIO_POW</name>
+	<name>BEAM_CHAIN_BIO_PRC</name>
+	<name>BEAM_CHAIN_BIO_CLD</name>
+	<name>BEAM_CHAIN_BIO_POW</name>
+	<name>BA_BEAM_BIO_FOCUS_CLD</name>
+	<name>BA_BEAM_BIO_FOCUS_POW</name>
+	<name>BA_BEAM_BIO_SP1_CLD</name>
+	<name>BA_BEAM_BIO_SP1_POW</name>
+	<name>BA_BEAM_BIO_SP2_CLD</name>
+	<name>BA_BEAM_BIO_SP2_POW</name>
+		
+	<name>UWB_BA_BEAM_BIO_2</name>
+	<name>UWB_BA_BEAM_BIO_2_PRC</name>
+	<name>UWB_BA_BEAM_BIO_2_CLD</name>
+	<name>UWB_BA_BEAM_BIO_2_POW</name>
+	<!-- 1.26.3 -->
+	<name>BEAM_BIO_UNI</name>
+	<name>BEAM_CHAIN_BIO_UNI</name>
+	<name>BA_BEAM_BIO_SP1_UNI</name>
+	<name>BA_BEAM_BIO_SP1_PRC</name>
+	<name>BA_BEAM_BIO_SP2_UNI</name>
+	<name>BA_BEAM_BIO_SP2_PRC</name>
+	<name>BA_BEAM_BIO_2_UNI</name>
+	<name>BA_BEAM_BIO_FOCUS_UNI</name>
+	<name>BEAM_BIOFIRE_UNI</name>
+	<name>EP_BEAM_BIOFIRE_UNI</name>
+</blueprintList>
+
+<blueprintList name="BEAMS_FIRE"> <!-- 1.23 -->
+	<name>BEAM_FIRE</name>
+	<name>BA_BEAM_FIRE_2</name>
+	<name>BA_BEAM_FIRE_FOCUS</name>
+	<name>BA_BEAM_FIRE_FOCUS2</name>
+	<!-- 1.26 -->
+	<name>EP_BEAM_BIOFIRE</name>
+	<name>EP_BEAM_BIOFIRE_PRC</name>
+	<name>EP_BEAM_BIOFIRE_FRC</name>
+	<name>EP_BEAM_BIOFIRE_CLD</name>
+	<name>EP_BEAM_BIOFIRE_POW</name>
+	<name>BEAM_BIOFIRE</name>
+	<name>BEAM_BIOFIRE_PRC</name>
+	<name>BEAM_BIOFIRE_FRC</name>
+	<name>BEAM_BIOFIRE_CLD</name>
+	<name>BEAM_BIOFIRE_POW</name>
+	<name>BEAM_FIRE_PRC</name>
+	<name>BEAM_FIRE_FRC</name>
+	<name>BEAM_FIRE_CLD</name>
+	<name>BEAM_FIRE_POW</name>
+	<name>BA_BEAM_FIRE_2_PRC</name>
+	<name>BA_BEAM_FIRE_2_FRC</name>
+	<name>BA_BEAM_FIRE_2_CLD</name>
+	<name>BA_BEAM_FIRE_2_POW</name>
+	<name>BA_BEAM_FIRE_FOCUS_FRC</name>
+	<name>BA_BEAM_FIRE_FOCUS_CLD</name>
+	<name>BA_BEAM_FIRE_FOCUS_POW</name>
+	<name>BA_BEAM_FIRE_FOCUS2_FRC</name>
+	<name>BA_BEAM_FIRE_FOCUS2_CLD</name>
+	<name>BA_BEAM_FIRE_FOCUS2_POW</name>
+	
+	<name>UWB_BEAM_FIRE</name>
+	<name>UWB_BEAM_FIRE_PRC</name>
+	<name>UWB_BEAM_FIRE_FRC</name>
+	<name>UWB_BEAM_FIRE_CLD</name>
+	<name>UWB_BEAM_FIRE_POW</name>
+	<!-- 1.26.3 -->
+	<name>UWB_BEAM_FIRE_UNI</name>
+	<name>BEAM_FIRE_UNI</name>
+	<name>BA_BEAM_FIRE_2_UNI</name>
+	<name>BA_BEAM_FIRE_FOCUS_UNI</name>
+	<name>BA_BEAM_FIRE_FOCUS2_UNI</name>
+	<name>BEAM_FIRECHAIN</name>
+	<name>BEAM_FIRECHAIN_PRC</name>
+	<name>BEAM_FIRECHAIN_FRC</name>
+	<name>BEAM_FIRECHAIN_CLD</name>
+	<name>BEAM_FIRECHAIN_POW</name>
+	<name>BEAM_FIRECHAIN_UNI</name>
+</blueprintList>
+
+<blueprintList name="WEAPONS_ION_PLUS"> <!-- 1.21 -->
+	<name>ION_BLAST_1</name>
+	<name>ION_HEAVY_1</name>
+	<name>ION_BLAST_2</name>
+	<name>ION_BLAST_3</name>
+	<name>BA_ION_CHAIN_MINI</name> <!-- 1.23 -->
+	<name>OMICRON_IMPACT_ION_BEAM_1</name> <!-- 1.23 -->
+	<name>OMICRON_IMPACT_ION_BEAM_12</name> <!-- 1.23 -->
+	<name>OMICRON_PLASMA_RAILCANNON_1</name> <!-- 1.23 -->
+	<name>OMICRON_PLASMA_RAILCANNON_12</name> <!-- 1.23 -->
+	<name>HAL_PROTOTYPE_1</name> <!-- 1.23 -->
+	<name>HAL_PROTOTYPE_2</name> <!-- 1.23 -->
+	<name>ION_BLAST_1B</name> <!-- 1.23 --> <!-- DLC ships -->
+	<name>BOMB_ION</name>
+	<name>ION_CHAINGUN</name>
+	<name>ION_STUN</name>
+	<name>ION_CHARGEGUN</name>
+	<name>ION_CHARGEGUN_2</name>
+	<name>BOMB_STUN</name>
+	<name>BA_ION_2_STUN</name>
+	<name>BA_ION_BURST_1_STUN</name>
+	<name>BA_SHOTGUN_ION_1</name>
+	<name>BA_SHOTGUN_ION_2</name>
+	<name>BA_ION_PIERCE_1</name>
+	<name>BA_ION_PIERCE_2</name>
+	<name>BA_ION_BURST_1</name>
+	<name>BA_ION_BURST_2</name>
+	<name>BA_ION_BURST_3</name>
+	<name>BA_ION_VULKAN</name>
+	<name>ION_HEAVY_3</name>
+	<name>ION_HEAVY_2</name>
+	<name>BA_EFFECTOR_1</name>
+	<name>BA_EFFECTOR_2</name>
+	<name>BA_EFFECTOR_3</name>
+	<name>BA_EFFECTOR_ADAPTIVE</name>
+	
+	<name>MESON_CANNON</name>
+	<name>ION_HEAVY_FIRE_1</name>
+	<name>ION_HEAVY_FIRE_2</name>
+	<name>ION_HEAVY_FIRE_3</name>
+	<name>ION_BLAST_FIRE_1</name>
+	<name>ION_BLAST_FIRE_2</name>
+	<name>ION_BLAST_FIRE_3</name>
+	
+	<name>PREIGNITE_ION_IMPULSE_1</name> <!-- 1.23 -->
+	<name>PREIGNITE_ION_IMPULSE_2</name> <!-- 1.23 -->
+	<name>PREIGNITE_ION_IMPULSE_3</name> <!-- 1.23 -->
+	<!-- 1.26 -->
+	<name>LASER_PRISM</name>
+	<name>LASER_PRISM_2</name>
+	<name>LASER_PRISM_3</name>
+	<name>PULSE_CANNON_1</name>
+	<name>PULSE_CANNON_2</name>
+	<name>PULSE_CANNON_3</name>
+	<name>PULSE_CANNON_1X</name>
+	<name>PULSE_CANNON_2X</name>
+	<name>PULSE_CANNON_3X</name>
+	<name>OMICRON_OMNI_CANNON2_1</name>
+	<name>OMICRON_OMNI_CANNON2_12</name>
+	<name>BA_ION_HVBURST_1</name>
+	<name>BA_ION_HVBURST_2</name>
+	<name>BA_ION_HVBURST_3</name>
+	
+	<name>ION_BLAST_1_PRC</name>
+	<name>ION_BLAST_1_CLD</name>
+	<name>ION_BLAST_2_PRC</name>
+	<name>ION_BLAST_2_CLD</name>
+	<name>ION_BLAST_2_POW</name>
+	<name>ION_BLAST_3_PRC</name>
+	<name>ION_BLAST_3_CLD</name>
+	<name>ION_BLAST_3_POW</name>
+	<name>UWB_ION_BLAST_1</name>
+	<name>UWB_ION_BLAST_1_PRC</name>
+	<name>UWB_ION_BLAST_1_CLD</name>
+	<name>UWB_ION_BLAST_2</name>
+	<name>UWB_ION_BLAST_2_PRC</name>
+	<name>UWB_ION_BLAST_2_CLD</name>
+	<name>UWB_ION_BLAST_2_POW</name>
+	<name>UWB_ION_BLAST_3</name>
+	<name>UWB_ION_BLAST_3_PRC</name>
+	<name>UWB_ION_BLAST_3_CLD</name>
+	<name>UWB_ION_BLAST_3_POW</name>
+	<name>ION_HEAVY_1_PRC</name>
+	<name>ION_HEAVY_1_CLD</name>
+	<name>ION_HEAVY_1_POW</name>
+	<name>ION_HEAVY_2_PRC</name>
+	<name>ION_HEAVY_2_CLD</name>
+	<name>ION_HEAVY_2_POW</name>
+	<name>ION_HEAVY_3_PRC</name>
+	<name>ION_HEAVY_3_CLD</name>
+	<name>ION_HEAVY_3_POW</name>
+	<name>UWB_ION_HEAVY_1</name>
+	<name>UWB_ION_HEAVY_1_PRC</name>
+	<name>UWB_ION_HEAVY_1_CLD</name>
+	<name>UWB_ION_HEAVY_1_POW</name>
+	<name>BA_ION_CHAIN_MINI_PRC</name>
+	<name>BA_ION_CHAIN_MINI_CLD</name>
+	<name>BA_ION_CHAIN_MINI_POW</name>
+	<name>OMICRON_IMPACT_ION_BEAM_1_BRC</name>
+	<name>OMICRON_IMPACT_ION_BEAM_1_CLD</name>
+	<name>OMICRON_IMPACT_ION_BEAM_1_POW</name>
+	<name>OMICRON_IMPACT_ION_BEAM_12_BRC</name>
+	<name>OMICRON_IMPACT_ION_BEAM_12_CLD</name>
+	<name>OMICRON_IMPACT_ION_BEAM_12_POW</name>
+	<name>OMICRON_PLASMA_RAILCANNON_1_PRC</name>
+	<name>OMICRON_PLASMA_RAILCANNON_1_FRC</name>
+	<name>OMICRON_PLASMA_RAILCANNON_1_CLD</name>
+	<name>OMICRON_PLASMA_RAILCANNON_1_POW</name>
+	<name>OMICRON_PLASMA_RAILCANNON_12_PRC</name>
+	<name>OMICRON_PLASMA_RAILCANNON_12_FRC</name>
+	<name>OMICRON_PLASMA_RAILCANNON_12_CLD</name>
+	<name>OMICRON_PLASMA_RAILCANNON_12_POW</name>
+	<name>HAL_PROTOTYPE_1_CLD</name>
+	<name>HAL_PROTOTYPE_1_POW</name>
+	<name>HAL_PROTOTYPE_2_CLD</name>
+	<name>HAL_PROTOTYPE_2_POW</name>
+	<name>ION_BLAST_1B_PRC</name>
+	<name>ION_BLAST_1B_BRC</name>
+	<name>ION_BLAST_1B_CLD</name>
+	<name>BOMB_ION_CLD</name>
+	<name>BA_BOMB_CLUSTER_ION</name>
+	<name>BA_BOMB_CLUSTER_ION_CLD</name>
+	<name>ION_CHAINGUN_PRC</name>
+	<name>ION_CHAINGUN_CLD</name>
+	<name>ION_CHAINGUN_POW</name>
+	<name>ION_STUN_PRC</name>
+	<name>ION_STUN_CLD</name>
+	<name>UWB_ION_STUN</name>
+	<name>UWB_ION_STUN_PRC</name>
+	<name>UWB_ION_STUN_CLD</name>
+	<name>ION_CHARGEGUN_PRC</name>
+	<name>ION_CHARGEGUN_CLD</name>
+	<name>ION_CHARGEGUN_POW</name>
+	<name>ION_CHARGEGUN_2_PRC</name>
+	<name>ION_CHARGEGUN_2_CLD</name>
+	<name>ION_CHARGEGUN_2_POW</name>
+	<name>BOMB_STUN_CLD</name>
+	<name>BA_ION_2_STUN_PRC</name>
+	<name>BA_ION_2_STUN_CLD</name>
+	<name>BA_ION_2_STUN_POW</name>
+	<name>UWB_BA_ION_2_STUN</name>
+	<name>UWB_BA_ION_2_STUN_PRC</name>
+	<name>UWB_BA_ION_2_STUN_CLD</name>
+	<name>UWB_BA_ION_2_STUN_POW</name>
+	<name>BA_ION_BURST_1_STUN_PRC</name>
+	<name>BA_ION_BURST_1_STUN_CLD</name>
+	<name>UWB_BA_ION_BURST_1_STUN</name>
+	<name>UWB_BA_ION_BURST_1_STUN_PRC</name>
+	<name>UWB_BA_ION_BURST_1_STUN_CLD</name>
+	<name>BA_SHOTGUN_ION_1_PRC</name>
+	<name>BA_SHOTGUN_ION_1_CLD</name>
+	<name>BA_SHOTGUN_ION_2_PRC</name>
+	<name>BA_SHOTGUN_ION_2_CLD</name>
+	<name>BA_SHOTGUN_ION_2_POW</name>
+	<name>UWB_BA_SHOTGUN_ION_1</name>
+	<name>UWB_BA_SHOTGUN_ION_1_PRC</name>
+	<name>UWB_BA_SHOTGUN_ION_1_CLD</name>
+	<name>BA_ION_PIERCE_1_CLD</name>
+	<name>BA_ION_PIERCE_2_CLD</name>
+	<name>BA_ION_PIERCE_2_POW</name>
+	<name>BA_ION_BURST_1_PRC</name>
+	<name>BA_ION_BURST_1_CLD</name>
+	<name>BA_ION_BURST_2_PRC</name>
+	<name>BA_ION_BURST_2_CLD</name>
+	<name>BA_ION_BURST_2_POW</name>
+	<name>BA_ION_BURST_3_PRC</name>
+	<name>BA_ION_BURST_3_CLD</name>
+	<name>BA_ION_BURST_3_POW</name>
+	<name>UWB_BA_ION_BURST_1</name>
+	<name>UWB_BA_ION_BURST_1_PRC</name>
+	<name>UWB_BA_ION_BURST_1_CLD</name>
+	<name>BA_ION_VULKAN_PRC</name>
+	<name>BA_ION_VULKAN_CLD</name>
+	<name>BA_ION_VULKAN_POW</name>
+	<name>BA_EFFECTOR_1_CLD</name>
+	<name>BA_EFFECTOR_1_POW</name>
+	<name>BA_EFFECTOR_2_CLD</name>
+	<name>BA_EFFECTOR_2_POW</name>
+	<name>BA_EFFECTOR_3_CLD</name>
+	<name>BA_EFFECTOR_3_POW</name>
+	<name>BA_EFFECTOR_ADAPTIVE_CLD</name>
+	<name>BA_EFFECTOR_ADAPTIVE_POW</name>
+	<name>BA_EFFECTOR_0_CLD</name>
+	<name>BA_EFFECTOR_0</name>
+	<name>BA_EFFECTOR_0_UNI</name><!-- 1.26.3 -->
+	<name>MESON_CANNON_FRC</name>
+	<name>MESON_CANNON_CLD</name>
+	<name>MESON_CANNON_POW</name>
+	<name>ION_HEAVY_FIRE_1_PRC</name>
+	<name>ION_HEAVY_FIRE_1_FRC</name>
+	<name>ION_HEAVY_FIRE_1_CLD</name>
+	<name>ION_HEAVY_FIRE_1_POW</name>
+	<name>ION_HEAVY_FIRE_2_PRC</name>
+	<name>ION_HEAVY_FIRE_2_FRC</name>
+	<name>ION_HEAVY_FIRE_2_CLD</name>
+	<name>ION_HEAVY_FIRE_2_POW</name>
+	<name>ION_HEAVY_FIRE_3_PRC</name>
+	<name>ION_HEAVY_FIRE_3_FRC</name>
+	<name>ION_HEAVY_FIRE_3_CLD</name>
+	<name>ION_HEAVY_FIRE_3_POW</name>
+	<name>PREIGNITE_ION_IMPULSE_1_PRC</name>
+	<name>PREIGNITE_ION_IMPULSE_2_PRC</name>
+	<name>PREIGNITE_ION_IMPULSE_3_PRC</name>
+	<name>LASER_PRISM_PRC</name>
+	<name>LASER_PRISM_BRC</name>
+	<name>LASER_PRISM_CLD</name>
+	<name>LASER_PRISM_2_PRC</name>
+	<name>LASER_PRISM_2_BRC</name>
+	<name>LASER_PRISM_2_CLD</name>
+	<name>LASER_PRISM_2_POW</name>
+	<name>LASER_PRISM_3_PRC</name>
+	<name>LASER_PRISM_3_BRC</name>
+	<name>LASER_PRISM_3_CLD</name>
+	<name>LASER_PRISM_3_POW</name>
+	<name>PULSE_CANNON_1_PRC</name>
+	<name>PULSE_CANNON_1_FRC</name>
+	<name>PULSE_CANNON_1_BRC</name>
+	<name>PULSE_CANNON_1_CLD</name>
+	<name>PULSE_CANNON_1_POW</name>
+	<name>PULSE_CANNON_2_PRC</name>
+	<name>PULSE_CANNON_2_FRC</name>
+	<name>PULSE_CANNON_2_BRC</name>
+	<name>PULSE_CANNON_2_CLD</name>
+	<name>PULSE_CANNON_2_POW</name>
+	<name>PULSE_CANNON_3_PRC</name>
+	<name>PULSE_CANNON_3_FRC</name>
+	<name>PULSE_CANNON_3_BRC</name>
+	<name>PULSE_CANNON_3_CLD</name>
+	<name>PULSE_CANNON_3_POW</name>
+	<name>PULSE_CANNON_1X_PRC</name>
+	<name>PULSE_CANNON_1X_FRC</name>
+	<name>PULSE_CANNON_1X_BRC</name>
+	<name>PULSE_CANNON_1X_CLD</name>
+	<name>PULSE_CANNON_1X_POW</name>
+	<name>PULSE_CANNON_2X_PRC</name>
+	<name>PULSE_CANNON_2X_FRC</name>
+	<name>PULSE_CANNON_2X_BRC</name>
+	<name>PULSE_CANNON_2X_CLD</name>
+	<name>PULSE_CANNON_2X_POW</name>
+	<name>PULSE_CANNON_3X_PRC</name>
+	<name>PULSE_CANNON_3X_FRC</name>
+	<name>PULSE_CANNON_3X_BRC</name>
+	<name>PULSE_CANNON_3X_CLD</name>
+	<name>PULSE_CANNON_3X_POW</name>
+	<name>OMICRON_OMNI_CANNON2_1_PRC</name>
+	<name>OMICRON_OMNI_CANNON2_1_FRC</name>
+	<name>OMICRON_OMNI_CANNON2_1_BRC</name>
+	<name>OMICRON_OMNI_CANNON2_1_CLD</name>
+	<name>OMICRON_OMNI_CANNON2_1_POW</name>
+	<name>OMICRON_OMNI_CANNON2_12_PRC</name>
+	<name>OMICRON_OMNI_CANNON2_12_FRC</name>
+	<name>OMICRON_OMNI_CANNON2_12_BRC</name>
+	<name>OMICRON_OMNI_CANNON2_12_CLD</name>
+	<name>OMICRON_OMNI_CANNON2_12_POW</name>
+	<name>BA_ION_HVBURST_1_PRC</name>
+	<name>BA_ION_HVBURST_1_CLD</name>
+	<name>BA_ION_HVBURST_1_POW</name>
+	<name>BA_ION_HVBURST_2_PRC</name>
+	<name>BA_ION_HVBURST_2_CLD</name>
+	<name>BA_ION_HVBURST_2_POW</name>
+	<name>BA_ION_HVBURST_3_PRC</name>
+	<name>BA_ION_HVBURST_3_CLD</name>
+	<name>BA_ION_HVBURST_3_POW</name>
+	<!-- 1.26.3 -->
+	<name>ION_BLAST_1_UNI</name>
+	<name>ION_HEAVY_1_UNI</name>
+	<name>ION_BLAST_2_UNI</name>
+	<name>ION_BLAST_3_UNI</name>
+	<name>BA_ION_CHAIN_MINI_UNI</name>
+	<name>OMICRON_IMPACT_ION_BEAM_1_UNI</name> 
+	<name>OMICRON_IMPACT_ION_BEAM_12_UNI</name> 
+	<name>OMICRON_PLASMA_RAILCANNON_1_UNI</name> 
+	<name>OMICRON_PLASMA_RAILCANNON_12_UNI</name>
+	<name>HAL_PROTOTYPE_1_UNI</name> 
+	<name>HAL_PROTOTYPE_2_UNI</name>
+	<name>ION_BLAST_1B_UNI</name>
+	<name>BOMB_ION_UNI</name>
+	<name>ION_CHAINGUN_UNI</name>
+	<name>ION_STUN_UNI</name>
+	<name>ION_CHARGEGUN_UNI</name>
+	<name>ION_CHARGEGUN_2_UNI</name>
+	<name>BOMB_STUN_UNI</name>
+	<name>BA_ION_2_STUN_UNI</name>
+	<name>BA_ION_BURST_1_STUN_UNI</name>
+	<name>BA_SHOTGUN_ION_1_UNI</name>
+	<name>BA_SHOTGUN_ION_2_UNI</name>
+	<name>BA_ION_PIERCE_1_UNI</name>
+	<name>BA_ION_PIERCE_2_UNI</name>
+	<name>BA_ION_BURST_1_UNI</name>
+	<name>BA_ION_BURST_2_UNI</name>
+	<name>BA_ION_BURST_3_UNI</name>
+	<name>BA_ION_VULKAN_UNI</name>
+	<name>ION_HEAVY_3_UNI</name>
+	<name>ION_HEAVY_2v</name>
+	<name>BA_EFFECTOR_1_UNI</name>
+	<name>BA_EFFECTOR_2_UNI</name>
+	<name>BA_EFFECTOR_3_UNI</name>
+	<name>BA_EFFECTOR_ADAPTIVE_UNI</name>
+	
+	<name>MESON_CANNON_UNI</name>
+	<name>ION_HEAVY_FIRE_1_UNI</name>
+	<name>ION_HEAVY_FIRE_2_UNI</name>
+	<name>ION_HEAVY_FIRE_3_UNI</name>
+	<name>ION_BLAST_FIRE_1_UNI</name>
+	<name>ION_BLAST_FIRE_2_UNI</name>
+	<name>ION_BLAST_FIRE_3_UNI</name>
+	
+	<name>PREIGNITE_ION_IMPULSE_1_UNI</name>
+	<name>PREIGNITE_ION_IMPULSE_2_UNI</name>
+	<name>PREIGNITE_ION_IMPULSE_3_UNI</name>
+
+	<name>LASER_PRISM_UNI</name>
+	<name>LASER_PRISM_2_UNI</name>
+	<name>LASER_PRISM_3_UNI</name>
+	<name>PULSE_CANNON_1_UNI</name>
+	<name>PULSE_CANNON_2_UNI</name>
+	<name>PULSE_CANNON_3_UNI</name>
+	<name>PULSE_CANNON_1X_UNI</name>
+	<name>PULSE_CANNON_2X_UNI</name>
+	<name>PULSE_CANNON_3X_UNI</name>
+	<name>OMICRON_OMNI_CANNON2_1_UNI</name>
+	<name>OMICRON_OMNI_CANNON2_12_UNI</name>
+	<name>BA_ION_HVBURST_1_UNI</name>
+	<name>BA_ION_HVBURST_2_UNI</name>
+	<name>BA_ION_HVBURST_3_UNI</name>
+</blueprintList>
+
+<blueprintList name="WEAPONS_TECH_MISSILES">
+	<name>BA_MISSILES_ONI</name>
+	<name>BA_MISSILES_IFRIT</name>
+	<name>BA_MISSILES_ONI_M</name>
+	<name>BA_MISSILES_IFRIT_M</name>
+	<!-- 1.26 -->
+	<name>BA_MISSILES_ONI_FRC</name>
+	<name>BA_MISSILES_ONI_BRC</name>
+	<name>BA_MISSILES_ONI_CLD</name>
+	<name>BA_MISSILES_ONI_POW</name>
+	<name>BA_MISSILES_IFRIT_CLD</name>
+	<name>BA_MISSILES_IFRIT_POW</name>
+	<name>BA_MISSILES_ONI_M_FRC</name>
+	<name>BA_MISSILES_ONI_M_BRC</name>
+	<name>BA_MISSILES_ONI_M_CLD</name>
+	<name>BA_MISSILES_ONI_M_POW</name>
+	<name>BA_MISSILES_IFRIT_M_CLD</name>
+	<name>BA_MISSILES_IFRIT_M_POW</name>
+	<name>UWB_BA_MISSILES_ONI</name>
+	<name>UWB_BA_MISSILES_ONI_FRC</name>
+	<name>UWB_BA_MISSILES_ONI_BRC</name>
+	<name>UWB_BA_MISSILES_ONI_CLD</name>
+	<name>UWB_BA_MISSILES_ONI_POW</name>
+	<!-- 1.26.3 -->
+	<name>BA_MISSILES_ONI_UNI</name>
+	<name>BA_MISSILES_IFRIT_UNI</name>
+	<name>BA_MISSILES_ONI_M_UNI</name>
+	<name>BA_MISSILES_IFRIT_M_UNI</name>
+</blueprintList>
+
+<blueprintList name="WEAPONS_LIGHT_LASER">
+	<name>MPP_LASER_1</name><!-- 1.26 -->
+	<name>MPP_LASER_2</name><!-- 1.26 -->
+	<name>LASER_LIGHT_1</name>
+	<name>LASER_LIGHT_2</name>
+	<name>LASER_LIGHT_3</name>
+	<name>LIGHT_BREACH_LASER_1</name><!-- 1.24 -->
+	<name>LIGHT_BREACH_LASER_2</name><!-- 1.24 -->
+	<name>LIGHT_BREACH_VULCAN</name><!-- 1.24 -->
+	<name>LASER_LIGHT_SCATTER_1</name>
+	<name>LASER_LIGHT_SCATTER_2</name>
+	<name>LASER_LIGHT_SCATTER_3</name>
+	<name>BA_LASER_LIGHT_ARTILLERY</name>
+	<name>BA_LASER_LIGHT_CHAINGUN</name><!-- 1.25.1 -->
+	<name>HEAVY_PPL</name><!-- 1.25.1 -->
+	<name>LASER_LIGHT_AUTO</name><!-- 1.25.1 -->
+</blueprintList>
+
+<blueprintList name="WEAPONS_LIGHT_LASER_REQ"><!-- 1.26 -->
+	<name>MPP_LASER_1</name>
+	<name>MPP_LASER_2</name>
+	<name>LASER_LIGHT_1</name>
+	<name>LASER_LIGHT_2</name>
+	<name>LASER_LIGHT_3</name>
+	<name>LIGHT_BREACH_LASER_1</name>
+	<name>LIGHT_BREACH_LASER_2</name>
+	<name>LIGHT_BREACH_VULCAN</name>
+	<name>LASER_LIGHT_SCATTER_1</name>
+	<name>LASER_LIGHT_SCATTER_2</name>
+	<name>LASER_LIGHT_SCATTER_3</name>
+	<name>BA_LASER_LIGHT_ARTILLERY</name>
+	<name>BA_LASER_LIGHT_CHAINGUN</name>
+	<name>HEAVY_PPL</name>
+	<name>LASER_LIGHT_AUTO</name>
+	
+	<name>MPP_LASER_1_PRC</name>
+	<name>MPP_LASER_1_BRC</name>
+	<name>MPP_LASER_1_CLD</name>
+	<name>MPP_LASER_2_PRC</name>
+	<name>MPP_LASER_2_BRC</name>
+	<name>MPP_LASER_2_CLD</name>
+	<name>LASER_LIGHT_1_PRC</name>
+	<name>LASER_LIGHT_1_BRC</name>
+	<name>LASER_LIGHT_1_CLD</name>
+	<name>LASER_LIGHT_2_PRC</name>
+	<name>LASER_LIGHT_2_BRC</name>
+	<name>LASER_LIGHT_2_CLD</name>
+	<name>LASER_LIGHT_3_PRC</name>
+	<name>LASER_LIGHT_3_BRC</name>
+	<name>LASER_LIGHT_3_CLD</name>
+	<name>LASER_LIGHT_3_POW</name>
+	<name>UWB_LASER_LIGHT_1</name>
+	<name>UWB_LASER_LIGHT_1_PRC</name>
+	<name>UWB_LASER_LIGHT_1_BRC</name>
+	<name>UWB_LASER_LIGHT_1_CLD</name>
+	<name>UWB_LASER_LIGHT_2</name>
+	<name>UWB_LASER_LIGHT_2_PRC</name>
+	<name>UWB_LASER_LIGHT_2_BRC</name>
+	<name>UWB_LASER_LIGHT_2_CLD</name>
+	<name>LIGHT_BREACH_LASER_1_PRC</name>
+	<name>LIGHT_BREACH_LASER_1_BRC</name>
+	<name>LIGHT_BREACH_LASER_1_CLD</name>
+	<name>LIGHT_BREACH_LASER_1_POW</name>
+	<name>LIGHT_BREACH_LASER_2_PRC</name>
+	<name>LIGHT_BREACH_LASER_2_BRC</name>
+	<name>LIGHT_BREACH_LASER_2_CLD</name>
+	<name>LIGHT_BREACH_LASER_2_POW</name>
+	<name>LIGHT_BREACH_VULCAN_PRC</name>
+	<name>LIGHT_BREACH_VULCAN_BRC</name>
+	<name>LIGHT_BREACH_VULCAN_CLD</name>
+	<name>LIGHT_BREACH_VULCAN_POW</name>
+	<name>LASER_LIGHT_SCATTER_1_PRC</name>
+	<name>LASER_LIGHT_SCATTER_1_BRC</name>
+	<name>LASER_LIGHT_SCATTER_1_CLD</name>
+	<name>LASER_LIGHT_SCATTER_2_PRC</name>
+	<name>LASER_LIGHT_SCATTER_2_BRC</name>
+	<name>LASER_LIGHT_SCATTER_2_CLD</name>
+	<name>LASER_LIGHT_SCATTER_3_PRC</name>
+	<name>LASER_LIGHT_SCATTER_3_BRC</name>
+	<name>LASER_LIGHT_SCATTER_3_CLD</name>
+	<name>LASER_LIGHT_SCATTER_3_POW</name>
+	<name>UWB_LASER_LIGHT_SCATTER_1</name>
+	<name>UWB_LASER_LIGHT_SCATTER_1_PRC</name>
+	<name>UWB_LASER_LIGHT_SCATTER_1_BRC</name>
+	<name>UWB_LASER_LIGHT_SCATTER_1_CLD</name>
+	<name>UWB_LASER_LIGHT_SCATTER_2</name>
+	<name>UWB_LASER_LIGHT_SCATTER_2_PRC</name>
+	<name>UWB_LASER_LIGHT_SCATTER_2_BRC</name>
+	<name>UWB_LASER_LIGHT_SCATTER_2_CLD</name>
+	<name>BA_LASER_LIGHT_ARTILLERY_PRC</name>
+	<name>BA_LASER_LIGHT_ARTILLERY_BRC</name>
+	<name>BA_LASER_LIGHT_ARTILLERY_CLD</name>
+	<name>BA_LASER_LIGHT_ARTILLERY_POW</name>
+	<name>BA_LASER_LIGHT_CHAINGUN_PRC</name>
+	<name>BA_LASER_LIGHT_CHAINGUN_BRC</name>
+	<name>BA_LASER_LIGHT_CHAINGUN_CLD</name>
+	<name>BA_LASER_LIGHT_CHAINGUN_POW</name>
+	<name>HEAVY_PPL_PRC</name>
+	<name>HEAVY_PPL_BRC</name>
+	<name>HEAVY_PPL_CLD</name>
+	<name>HEAVY_PPL_POW</name>
+	<name>LASER_LIGHT_AUTO_PRC</name>
+	<name>LASER_LIGHT_AUTO_BRC</name>
+	<name>LASER_LIGHT_AUTO_CLD</name>
+	<!-- 1.26.3 -->
+	<name>MPP_LASER_1_UNI</name>
+	<name>MPP_LASER_2_UNI</name>
+	<name>LASER_LIGHT_1_UNI</name>
+	<name>LASER_LIGHT_2_UNI</name>
+	<name>LASER_LIGHT_3_UNI</name>
+	<name>LIGHT_BREACH_LASER_1_UNI</name>
+	<name>LIGHT_BREACH_LASER_2_UNI</name>
+	<name>LIGHT_BREACH_VULCAN_UNI</name>
+	<name>LASER_LIGHT_SCATTER_1_UNI</name>
+	<name>LASER_LIGHT_SCATTER_2_UNI</name>
+	<name>LASER_LIGHT_SCATTER_3_UNI</name>
+	<name>BA_LASER_LIGHT_ARTILLERY_UNI</name>
+	<name>BA_LASER_LIGHT_CHAINGUN_UNI</name>
+	<name>HEAVY_PPL_UNI</name>
+	<name>LASER_LIGHT_AUTO_UNI</name>
+</blueprintList>
+
+<blueprintList name="WEAPONS_ASSAULT"><!-- 1.25.1 -->
+	<name>SHTURM_LASER_1</name>
+	<name>SHTURM_LASER_2</name>
+	<name>HEAVY_MINIGUN</name>
+	<name>SHTURM_FLAK</name>
+	<name>BEAM_GUISARME</name>
+	<!-- 1.26 -->
+	<name>SHTURM_LASER_1_PRC</name>
+	<name>SHTURM_LASER_1_BRC</name>
+	<name>SHTURM_LASER_1_CLD</name>
+	<name>SHTURM_LASER_1_POW</name>
+	<name>SHTURM_LASER_2_PRC</name>
+	<name>SHTURM_LASER_2_BRC</name>
+	<name>SHTURM_LASER_2_CLD</name>
+	<name>SHTURM_LASER_2_POW</name>
+	<name>UWB_SHTURM_LASER_1</name>
+	<name>UWB_SHTURM_LASER_1_PRC</name>
+	<name>UWB_SHTURM_LASER_1_BRC</name>
+	<name>UWB_SHTURM_LASER_1_CLD</name>
+	<name>UWB_SHTURM_LASER_1_POW</name>
+	<name>UWB_SHTURM_LASER_2</name>
+	<name>UWB_SHTURM_LASER_2_PRC</name>
+	<name>UWB_SHTURM_LASER_2_BRC</name>
+	<name>UWB_SHTURM_LASER_2_CLD</name>
+	<name>UWB_SHTURM_LASER_2_POW</name>
+	<name>HEAVY_MINIGUN_PRC</name>
+	<name>HEAVY_MINIGUN_FRC</name>
+	<name>HEAVY_MINIGUN_CLD</name>
+	<name>HEAVY_MINIGUN_POW</name>
+	<name>UWB_HEAVY_MINIGUN</name>
+	<name>UWB_HEAVY_MINIGUN_PRC</name>
+	<name>UWB_HEAVY_MINIGUN_FRC</name>
+	<name>UWB_HEAVY_MINIGUN_CLD</name>
+	<name>UWB_HEAVY_MINIGUN_POW</name>
+	<name>SHTURM_FLAK_PRC</name>
+	<name>SHTURM_FLAK_BRC</name>
+	<name>SHTURM_FLAK_CLD</name>
+	<name>SHTURM_FLAK_POW</name>
+	<name>EP_BEAM_GUISARME</name>
+	<name>EP_BEAM_GUISARME_PRC</name>
+	<name>EP_BEAM_GUISARME_FRC</name>
+	<name>EP_BEAM_GUISARME_BRC</name>
+	<name>EP_BEAM_GUISARME_CLD</name>
+	<name>EP_BEAM_GUISARME_POW</name>
+	<name>BEAM_GUISARME_PRC</name>
+	<name>BEAM_GUISARME_FRC</name>
+	<name>BEAM_GUISARME_BRC</name>
+	<name>BEAM_GUISARME_CLD</name>
+	<name>BEAM_GUISARME_POW</name>
+	<name>UWB_BEAM_GUISARME</name>
+	<name>UWB_BEAM_GUISARME_PRC</name>
+	<name>UWB_BEAM_GUISARME_FRC</name>
+	<name>UWB_BEAM_GUISARME_BRC</name>
+	<name>UWB_BEAM_GUISARME_CLD</name>
+	<name>UWB_BEAM_GUISARME_POW</name>
+	<!-- 1.26.3 -->
+	<name>SHTURM_LASER_1_UNI</name>
+	<name>SHTURM_LASER_2_UNI</name>
+	<name>HEAVY_MINIGUN_UNI</name>
+	<name>SHTURM_FLAK_UNI</name>
+	<name>BEAM_GUISARME_UNI</name>
+	<name>UWB_SHTURM_LASER_1_UNI</name>
+	<name>UWB_SHTURM_LASER_2_UNI</name>
+	<name>UWB_HEAVY_MINIGUN_UNI</name>
+	<name>EP_BEAM_GUISARME_UNI</name>
+	<name>UWB_BEAM_GUISARME_UNI</name>
+</blueprintList>
+
+<blueprintList name="WEAPONS_BOMB_FIRE">
+	<name>BOMB_FIRE</name>
+	<name>BA_BOMB_FIRE_SMALL</name>
+	<name>BA_BOMB_FIRE_2</name>
+	<name>BA_BOMB_CLUSTER_FIRE</name>
+	<name>BOMB_HEALFIRE</name><!-- 1.25 -->
+	<!-- 1.26 -->
+	<name>BA_BOMB_FIRE_SMALL_FRC</name>
+	<name>BA_BOMB_FIRE_SMALL_CLD</name>
+	<name>BOMB_FIRE_FRC</name>
+	<name>BOMB_FIRE_CLD</name>
+	<name>BOMB_FIRE_POW</name>
+	<name>BA_BOMB_FIRE_2_CLD</name>
+	<name>BA_BOMB_FIRE_2_POW</name>
+	<name>BA_BOMB_CLUSTER_FIRE_FRC</name>
+	<name>BA_BOMB_CLUSTER_FIRE_CLD</name>
+	<name>BA_BOMB_CLUSTER_FIRE_POW</name>
+	<name>BOMB_HEALFIRE_FRC</name>
+	<name>BOMB_HEALFIRE_CLD</name>
+	<!-- 1.26.3 -->
+	<name>BOMB_FIRE_UNI</name>
+	<name>BA_BOMB_FIRE_SMALL_UNI</name>
+	<name>BA_BOMB_FIRE_2_UNI</name>
+	<name>BA_BOMB_CLUSTER_FIRE_UNI</name>
+	<name>BOMB_HEALFIRE_UNI</name>
+</blueprintList>
+
+<blueprintList name="WEAPONS_BOMB_REPAIR">
+	<name>BA_BOMB_NANO_1</name>
+	<name>BA_BOMB_NANO_2</name>
+	<name>BA_BOMB_NANO_3</name><!-- 1.25 -->
+	<name>BOMB_HEAL_SYSTEM</name>
+</blueprintList>
+
+<blueprintList name="WEAPONS_BOMB_REPAIR_REQ"><!-- 1.26 -->
+	<name>BA_BOMB_NANO_1</name>
+	<name>BA_BOMB_NANO_2</name>
+	<name>BA_BOMB_NANO_3</name>
+	<name>BOMB_HEAL_SYSTEM</name>
+	
+	<name>BA_BOMB_NANO_1_CLD</name>
+	<name>BA_BOMB_NANO_2_CLD</name>
+	<name>BA_BOMB_NANO_2_POW</name>
+	<name>BA_BOMB_NANO_3_CLD</name>
+	<name>BA_BOMB_NANO_3_POW</name>
+	<name>BOMB_HEAL_SYSTEM_CLD</name>
+	<!-- 1.26.3 -->
+	<name>BA_BOMB_NANO_1_UNI</name>
+	<name>BA_BOMB_NANO_2_UNI</name>
+	<name>BA_BOMB_NANO_3_UNI</name>
+	<name>BOMB_HEAL_SYSTEM_UNI</name>
+</blueprintList>
+
+<blueprintList name="WEAPONS_BA_BOMB_NANO_X_REQ"><!-- 1.26 -->
+	<name>BA_BOMB_NANO_X</name>
+	<name>BA_BOMB_NANO_X_CLD</name>
+	<name>BA_BOMB_NANO_X_POW</name>
+	<name>BA_BOMB_NANO_X_UNI</name><!-- 1.26.3 -->
+</blueprintList>
+
+<blueprintList name="WEAPONS_BOMB_HEAL_SYSTEM_REQ"><!-- 1.26 -->
+	<name>BOMB_HEAL_SYSTEM</name>
+	<name>BOMB_HEAL_SYSTEM_CLD</name>
+	<name>BOMB_HEAL_SYSTEM_UNI</name><!-- 1.26.3 -->
+</blueprintList>
+
+<blueprintList name="WEAPONS_BOMB_NANO">
+	<name>BA_BOMB_NANO_1</name>
+	<name>BA_BOMB_NANO_2</name>
+	<name>BA_BOMB_NANO_3</name>
+</blueprintList>
+
+<blueprintList name="WEAPONS_BOMB_NANO_REQ"><!-- 1.26 -->
+	<name>BA_BOMB_NANO_1</name>
+	<name>BA_BOMB_NANO_2</name>
+	<name>BA_BOMB_NANO_3</name>
+	
+	<name>BA_BOMB_NANO_1_CLD</name>
+	<name>BA_BOMB_NANO_2_CLD</name>
+	<name>BA_BOMB_NANO_2_POW</name>
+	<name>BA_BOMB_NANO_3_CLD</name>
+	<name>BA_BOMB_NANO_3_POW</name>
+	<!-- 1.26.3 -->
+	<name>BA_BOMB_NANO_1_UNI</name>
+	<name>BA_BOMB_NANO_2_UNI</name>
+	<name>BA_BOMB_NANO_3_UNI</name>
+</blueprintList>
+
+<blueprintList name="WEAPONS_BOMB_HEAL">
+	<name>BOMB_HEAL</name>
+	<name>BA_BOMB_HEAL_2</name>
+</blueprintList>
+
+<blueprintList name="WEAPONS_BOMB_HEAL_REQ"><!-- 1.26 -->
+	<name>BOMB_HEAL</name>
+	<name>BA_BOMB_HEAL_2</name>
+	<name>BOMB_HEAL_CLD</name>
+	<name>BA_BOMB_HEAL_2_CLD</name>
+	<name>BOMB_HEAL_UNI</name><!-- 1.26.3 -->
+	<name>BA_BOMB_HEAL_2_UNI</name><!-- 1.26.3 -->
+</blueprintList>
+
+<blueprintList name="WEAPONS_CRYSTAL_LIGHT">  
+	<name>BA_CRYSTAL_LIGHT_1</name> 
+	<name>BA_CRYSTAL_LIGHT_2</name>
+	<!-- 1.26 -->
+	<name>BA_CRYSTAL_LIGHT_1_PRC</name>
+	<name>BA_CRYSTAL_LIGHT_1_BRC</name>
+	<name>BA_CRYSTAL_LIGHT_1_CLD</name>
+	<name>BA_CRYSTAL_LIGHT_2_PRC</name>
+	<name>BA_CRYSTAL_LIGHT_2_BRC</name>
+	<name>BA_CRYSTAL_LIGHT_2_CLD</name>
+	<name>BA_CRYSTAL_LIGHT_2_POW</name>
+	<!-- 1.26.3 -->
+	<name>BA_CRYSTAL_LIGHT_1_UNI</name> 
+	<name>BA_CRYSTAL_LIGHT_2_UNI</name>
+</blueprintList>
+
+<!-- Provisional/Preliminary classification of weapons -->
+
+<blueprintList name="WEAPONS_CLASS_LASER_LOW">
+	<name>LASER_CHAIN_1</name>
+	<name>LASER_CHAIN_2</name>
+	<name>LASER_CHAIN_LONG_1</name> <!-- 1.26 -->
+	<name>LASER_CHAIN_LONG_2</name> <!-- 1.26 -->
+	<name>LASER_CHARGEGUN_1</name>
+	<name>LASER_CHARGEGUN_2</name>
+	<name>LASER_BURST_1</name>
+	<name>LASER_HEAVY_1</name>
+	<name>LASER_STANDARD_1</name>
+	<name>LASER_STANDARD_2</name>
+	<name>LASER_DUAL_1</name>
+	<name>LASER_DUAL_2</name>
+	<name>BA_SHOTGUN_SMALL</name>
+	<name>BA_PLASMA_1</name>
+	<name>BA_LASER_AUTO_1</name>
+	<name>BA_LASER_AUTO_2</name>
+	<name>BA_LASER_BURST_SCATTER_1</name>
+	<name>BA_LASER_BURST_SCATTER_2</name>
+	<name>BA_LASER_HEAVY_SCATTER_1</name>
+	<name>BA_LASER_HEAVY_SCATTER_2</name>
+	<name>BA_LASER_HULL_SMALL</name>
+</blueprintList>
+<blueprintList name="WEAPONS_CLASS_LASER_MED">
+	<name>LASER_CHAIN_1</name>
+	<name>LASER_CHAIN_2</name>
+	<name>LASER_CHAIN_LONG_1</name> <!-- 1.26 -->
+	<name>LASER_CHAIN_LONG_2</name> <!-- 1.26 -->
+	<name>LASER_CHARGEGUN_1</name>
+	<name>LASER_CHARGEGUN_2</name>
+	<name>LASER_BURST_1</name>
+	<name>LASER_HEAVY_1</name>
+	<name>LASER_STANDARD_1</name>
+	<name>LASER_STANDARD_2</name>
+	<name>LASER_DUAL_1</name>
+	<name>LASER_DUAL_2</name>
+	<name>BA_SHOTGUN_SMALL</name>
+	<name>BA_PLASMA_1</name>
+	<name>BA_LASER_AUTO_1</name>
+	<name>BA_LASER_AUTO_2</name>
+	<name>BA_LASER_BURST_SCATTER_1</name>
+	<name>BA_LASER_BURST_SCATTER_2</name>
+	<name>BA_LASER_HEAVY_SCATTER_1</name>
+	<name>BA_LASER_HEAVY_SCATTER_2</name>
+	<name>BA_LASER_HULL_SMALL</name>
+
+	<name>LASER_SUPER_HEAVY_1</name><!-- 1.26 -->
+	<name>LASER_AL_1</name> <!-- 1.26.2 -->
+	<name>BA_LASER_WAR_1</name><!-- 1.26 -->
+	<name>BA_LASER_WAR_2</name><!-- 1.26 -->
+	<name>BA_LASER_WAR_3</name><!-- 1.26 -->
+	<name>LASER_PIERCE_1</name>
+	<name>LASER_PIERCE_2</name>
+	<name>SHTURM_LASER_1</name>
+	<name>SHTURM_LASER_2</name>
+	<name>LASER_HEAVY_CHAIN</name>
+	<name>LASER_AUTO_CHAIN</name>
+	<name>LASER_CHAIN_3</name>
+	<name>LASER_CHAIN_LONG_3</name> <!-- 1.26 -->
+	<name>LASER_CHARGEGUN_3</name>
+	<name>LASER_BURST_2</name>
+	<name>LASER_HEAVY_2</name>
+	<name>LASER_HEAVY_PIERCE_1</name>
+	<name>SHOTGUN</name>
+	<name>BA_PLASMA_2</name>
+	<name>BA_LASER_AUTO_3</name>
+	<name>BA_LASER_BURST_SCATTER_3</name>
+	<name>LASER_SCATTERCHAIN</name><!-- 1.25.1 -->
+	<name>BA_LASER_ARTILLERY_1</name>
+	<name>BA_LASER_HULLCRUSHER</name>
+	<name>LASER_HULL_1</name>
+	<name>LASER_HULL_2</name>
+	<name>LASER_IMP_2</name><!-- 1.25.1 -->
+	<name>LASER_IMP_3</name><!-- 1.25.1 -->
+	<name>LASER_HULLCHAIN</name><!-- 1.25.1 -->
+</blueprintList>
+<blueprintList name="WEAPONS_CLASS_LASER_HIGH">
+	<name>LASER_CHAIN_1</name>
+	<name>LASER_CHAIN_2</name>
+	<name>LASER_CHAIN_LONG_1</name> <!-- 1.26 -->
+	<name>LASER_CHAIN_LONG_2</name> <!-- 1.26 -->
+	<name>LASER_CHARGEGUN_1</name>
+	<name>LASER_CHARGEGUN_2</name>
+	<name>LASER_BURST_1</name>
+	<name>LASER_HEAVY_1</name>
+	<name>LASER_STANDARD_1</name>
+	<name>LASER_STANDARD_2</name>
+	<name>LASER_DUAL_1</name>
+	<name>LASER_DUAL_2</name>
+	<name>BA_SHOTGUN_SMALL</name>
+	<name>BA_PLASMA_1</name>
+	<name>BA_LASER_AUTO_1</name>
+	<name>BA_LASER_AUTO_2</name>
+	<name>BA_LASER_BURST_SCATTER_1</name>
+	<name>BA_LASER_BURST_SCATTER_2</name>
+	<name>BA_LASER_HEAVY_SCATTER_1</name>
+	<name>BA_LASER_HEAVY_SCATTER_2</name>
+	<name>BA_LASER_HULL_SMALL</name>
+
+	<name>LASER_SUPER_HEAVY_1</name><!-- 1.26 -->
+	<name>LASER_AL_1</name> <!-- 1.26.2 -->
+	<name>BA_LASER_WAR_1</name><!-- 1.26 -->
+	<name>BA_LASER_WAR_2</name><!-- 1.26 -->
+	<name>BA_LASER_WAR_3</name><!-- 1.26 -->
+	<name>LASER_PIERCE_1</name>
+	<name>LASER_PIERCE_2</name>
+	<name>SHTURM_LASER_1</name>
+	<name>SHTURM_LASER_2</name>
+	<name>LASER_HEAVY_CHAIN</name>
+	<name>LASER_AUTO_CHAIN</name>
+	<name>LASER_CHAIN_3</name>
+	<name>LASER_CHAIN_LONG_3</name> <!-- 1.26 -->
+	<name>LASER_CHARGEGUN_3</name>
+	<name>LASER_BURST_2</name>
+	<name>LASER_HEAVY_2</name>
+	<name>LASER_HEAVY_PIERCE_1</name>
+	<name>SHOTGUN</name>
+	<name>BA_PLASMA_2</name>
+	<name>BA_LASER_AUTO_3</name>
+	<name>BA_LASER_BURST_SCATTER_3</name>
+	<name>LASER_SCATTERCHAIN</name><!-- 1.25.1 -->
+	<name>BA_LASER_ARTILLERY_1</name>
+	<name>BA_LASER_HULLCRUSHER</name>
+	<name>LASER_HULL_1</name>
+	<name>LASER_HULL_2</name>
+	<name>LASER_IMP_2</name><!-- 1.25.1 -->
+	<name>LASER_IMP_3</name><!-- 1.25.1 -->
+	<name>LASER_HULLCHAIN</name><!-- 1.25.1 -->
+	
+	<name>LASER_SUPER_HEAVY_2</name><!-- 1.26 -->
+	<name>LASER_AL_2</name> <!-- 1.26.2 -->
+	<name>RAIL_DRIVER</name>
+	<name>LASER_CHAINGUN</name>
+	<name>HEAVY_MINIGUN</name>
+	<name>LASER_FIRE_CHAINGUN</name>
+	<name>LASER_HEAVY_CHARGE_1</name>
+	<name>LASER_HEAVY_CHARGE_2</name>
+	<name>LASER_CHARGEGUN_4</name>
+	<name>LASER_BURST_3</name>
+	<name>LASER_BURST_4</name>
+	<name>LASER_HEAVY_PIERCE_2</name>
+	<name>SHOTGUN_2</name>
+	<name>SHOTGUN_007</name>
+	<name>BA_SHOTGUN_SCATTER</name>
+	<name>SHTURM_FLAK</name>
+	<name>CHARGEGUN_SHOTGUN</name>
+	<name>BA_PLASMA_3</name>
+	<name>BA_LASER_ARTILLERY_2</name>
+	<name>BA_LASER_HULLCRUSHER_2</name>
+	<name>BA_LASER_HULLCRUSHER_3</name>
+</blueprintList>
+<!-- 1.21 -->
+<blueprintList name="WEAPONS_CLASS_PP_LOW">
+	<name>MPP_LASER_1</name><!-- 1.26 -->
+	<name>MPP_LASER_2</name><!-- 1.26 -->
+	<name>LASER_LIGHT_1</name>
+	<name>LASER_LIGHT_SCATTER_1</name>
+	<name>BA_STUNGUN_1</name>
+	<name>BA_BEAM_BATON</name>
+</blueprintList>
+<blueprintList name="WEAPONS_CLASS_PP_MED">
+	<name>MPP_LASER_1</name><!-- 1.26 -->
+	<name>MPP_LASER_2</name><!-- 1.26 -->
+	<name>LASER_LIGHT_1</name>
+	<name>LASER_LIGHT_SCATTER_1</name>
+	<name>BA_STUNGUN_1</name>
+	<name>BA_BEAM_BATON</name>
+	
+	<name>LASER_LIGHT_2</name>
+	<name>LASER_LIGHT_SCATTER_2</name>
+	<name>BA_STUNGUN_2</name>
+	<name>BA_BEAM_BO</name>
+	<name>BA_BEAM_BIO_2</name>
+</blueprintList>
+<blueprintList name="WEAPONS_CLASS_PP_HIGH">
+	<name>MPP_LASER_1</name><!-- 1.26 -->
+	<name>MPP_LASER_2</name><!-- 1.26 -->
+	<name>LASER_LIGHT_1</name>
+	<name>LASER_LIGHT_SCATTER_1</name>
+	<name>BA_STUNGUN_1</name>
+	<name>BA_BEAM_BATON</name>
+	
+	<name>LASER_LIGHT_2</name>
+	<name>LASER_LIGHT_SCATTER_2</name>
+	<name>BA_STUNGUN_2</name>
+	<name>BA_BEAM_BO</name>
+	<name>BA_BEAM_BIO_2</name>
+	
+	<name>HEAVY_PPL</name>
+	<name>LASER_LIGHT_3</name>
+	<name>LIGHT_BREACH_LASER_1</name><!-- 1.24 -->
+	<name>LIGHT_BREACH_LASER_2</name><!-- 1.24 -->
+	<name>LIGHT_BREACH_VULCAN</name><!-- 1.24 -->
+	<name>LASER_LIGHT_AUTO</name>
+	<name>LASER_LIGHT_SCATTER_3</name>
+	<name>BA_LASER_LIGHT_ARTILLERY</name>
+	<name>BA_LASER_LIGHT_CHAINGUN</name>
+	<name>BEAM_BIO</name>
+	<name>BEAM_CHAIN_BIO</name><!-- 1.25.3 -->
+	<name>BA_BEAM_BIO_SP1</name><!-- 1.25.1 -->
+	<name>BA_BEAM_BIO_SP2</name><!-- 1.25.1 -->
+	<name>BA_BEAM_SHEST</name>
+	<name>BA_BEAM_SMASHER</name><!-- 1.25.3 -->
+	<name>BA_BEAM_BIO_FOCUS</name>
+</blueprintList>
+<!-- 1.21 -->
+<blueprintList name="WEAPONS_CLASS_BEAM_LOW">
+	<name>BEAM_1</name>
+	<name>BEAM_LONG</name>
+	<name>BA_BEAM_K2</name><!-- 1.25.3 -->
+	<name>BEAM_GUISARME</name><!-- 1.23 -->
+	<name>BEAM_LONG_SYS</name><!-- 1.25.3 -->
+	<name>BA_BEAM_HASTA</name>
+	<name>BA_BEAM_K1</name><!-- 1.25.3 -->
+	<name>BA_BEAM_HULL_SMALL</name>
+	<name>BA_BEAM_HULL_MINI</name><!-- 1.25.3 -->
+	<name>BA_BEAM_AUTO</name>
+	<name>BA_BEAM_ADAPTIVE_1</name>
+	<name>BA_BEAM_BARDICHE</name>
+</blueprintList>
+<blueprintList name="WEAPONS_CLASS_BEAM_MED">
+	<name>BEAM_1</name>
+	<name>BEAM_LONG</name>
+	<name>BA_BEAM_K2</name><!-- 1.25.3 -->
+	<name>BEAM_GUISARME</name><!-- 1.23 -->
+	<name>BEAM_LONG_SYS</name><!-- 1.25.3 -->
+	<name>BA_BEAM_HASTA</name>
+	<name>BA_BEAM_K1</name><!-- 1.25.3 -->
+	<name>BA_BEAM_HULL_SMALL</name>
+	<name>BA_BEAM_HULL_MINI</name><!-- 1.25.3 -->
+	<name>BA_BEAM_AUTO</name>
+	<name>BA_BEAM_ADAPTIVE_1</name>
+	<name>BA_BEAM_BARDICHE</name>
+	
+	<name>BEAM_1_2</name>
+	<name>BEAM_HULL</name>
+	<name>BA_BEAM_ADAPTIVE_2</name>
+	<name>BA_BEAM_SCYTHE</name>
+	<name>BA_BEAM_PERNACH</name>
+	<name>BEAM_FIRE</name>
+	<name>BEAM_2</name>
+	<name>BA_BEAM_POLLAXE</name><!-- 1.26 -->
+	<name>BEAM_SP_DAITO</name>
+</blueprintList>
+<blueprintList name="WEAPONS_CLASS_BEAM_HIGH">
+	<name>BEAM_1</name>
+	<name>BEAM_LONG</name>
+	<name>BA_BEAM_K2</name><!-- 1.25.3 -->
+	<name>BEAM_GUISARME</name><!-- 1.23 -->
+	<name>BEAM_LONG_SYS</name><!-- 1.25.3 -->
+	<name>BA_BEAM_HASTA</name>
+	<name>BA_BEAM_K1</name><!-- 1.25.3 -->
+	<name>BA_BEAM_HULL_SMALL</name>
+	<name>BA_BEAM_HULL_MINI</name><!-- 1.25.3 -->
+	<name>BA_BEAM_AUTO</name>
+	<name>BA_BEAM_ADAPTIVE_1</name>
+	<name>BA_BEAM_BARDICHE</name>
+	
+	<name>BEAM_1_2</name>
+	<name>BEAM_HULL</name>
+	<name>BA_BEAM_ADAPTIVE_2</name>
+	<name>BA_BEAM_SCYTHE</name>
+	<name>BA_BEAM_PERNACH</name>
+	<name>BEAM_FIRE</name>
+	<name>BEAM_2</name>
+	<name>BA_BEAM_POLLAXE</name><!-- 1.26 -->
+	<name>BEAM_SP_DAITO</name>
+	
+	<name>BEAM_FAUCHARD</name>
+	<name>BA_BEAM_ADAPTIVE_3</name>
+	<name>BA_BEAM_FLAIL_DAMAGE</name>
+	<name>BA_BEAM_NAGINATA</name>
+	<name>BA_BEAM_MAUL</name>
+	<name>BA_BEAM_FIRE_2</name>
+	<name>BEAM_FIRECHAIN</name><!-- 1.26.3 -->
+	<name>BA_BEAM_FIRE_FOCUS</name>
+	<name>BA_BEAM_FIRE_FOCUS2</name>
+	<name>BEAM_3</name>
+	<name>BA_BEAM_PARTISAN</name><!-- 1.26 -->
+	<name>BEAM_SP_KATANA</name>
+	<name>BEAM_BIOFIRE</name>
+</blueprintList>
+
+<blueprintList name="WEAPONS_CLASS_BOMB_LOW">
+	<name>BOMB_STUN</name>
+	<name>BOMB_1</name>
+	<name>BA_BOMB_FIRE_SMALL</name>
+	<name>BOMB_BREACH_1</name>
+	<name>BA_BOMB_CLUSTER_STUN_ENEMY</name>
+	<name>BA_BOMB_CLUSTER_STUN_ENEMY2</name><!-- 1.23 -->
+</blueprintList>
+<blueprintList name="WEAPONS_CLASS_BOMB_MED">
+	<name>BOMB_STUN</name>
+	<name>BOMB_1</name>
+	<name>BA_BOMB_FIRE_SMALL</name>
+	<name>BOMB_BREACH_1</name>
+	<name>BA_BOMB_CLUSTER_STUN_ENEMY</name>
+	<name>BA_BOMB_CLUSTER_STUN_ENEMY2</name><!-- 1.23 -->
+	
+	<name>BOMB_FIRE</name>
+	<name>BA_BOMB_CLUSTER_BREACH</name>
+	<name>BA_BOMB_CLUSTER_1</name>
+	<name>BA_BOMB_CLUSTER_ION</name>
+</blueprintList>
+<blueprintList name="WEAPONS_CLASS_BOMB_HIGH">
+	<name>BOMB_STUN</name>
+	<name>BOMB_1</name>
+	<name>BA_BOMB_FIRE_SMALL</name>
+	<name>BOMB_BREACH_1</name>
+	<name>BA_BOMB_CLUSTER_STUN_ENEMY</name>
+	<name>BA_BOMB_CLUSTER_STUN_ENEMY2</name><!-- 1.23 -->
+	
+	<name>BOMB_FIRE</name>
+	<name>BA_BOMB_CLUSTER_BREACH</name>
+	<name>BA_BOMB_CLUSTER_1</name>
+	<name>BA_BOMB_CLUSTER_ION</name>
+	
+	<name>BA_BOMB_BIG</name>
+	<name>BA_BOMB_TIMER</name><!-- 1.25 -->
+	<name>BA_BOMB_FIRE_2</name>
+	<name>BA_BOMB_CLUSTER_FIRE</name>
+	<name>BA_BOMB_BIO</name>
+	<name>BOMB_BREACH_2</name>
+	<name>BOMB_BREACH_3</name>
+	<name>BOMB_ION</name>
+</blueprintList>
+
+<blueprintList name="WEAPONS_CLASS_MISSILE_LOW">
+	<name>MISSILES_1</name>
+	<name>MISSILES_2_PLAYER</name>
+	<name>BA_MISSILE_CHARGEGUN_SMALL</name>
+	<name>MISSILES_SYS1</name><!-- 1.25.1 -->
+	<name>MISSILES_SYS2</name><!-- 1.25.1 -->
+	<name>BA_MISSILES_FOBOS</name><!-- 1.25.3 -->
+	<name>BA_MISSILES_DEIMOS</name><!-- 1.25.3 -->
+	<name>BA_MISSILES_SWARM_1</name>
+	<name>BA_MISSILES_SWARM_2</name>
+	<name>BA_MISSILES_ASTERIA</name>
+	<name>BA_MISSILES_HULL_SMALL</name>
+	<name>BA_MINES_SMALL</name>
+</blueprintList>
+<blueprintList name="WEAPONS_CLASS_MISSILE_MED">
+	<name>MISSILES_1</name>
+	<name>MISSILES_2_PLAYER</name>
+	<name>BA_MISSILE_CHARGEGUN_SMALL</name>
+	<name>MISSILES_SYS1</name><!-- 1.25.1 -->
+	<name>MISSILES_SYS2</name><!-- 1.25.1 -->
+	<name>BA_MISSILES_FOBOS</name><!-- 1.25.3 -->
+	<name>BA_MISSILES_DEIMOS</name><!-- 1.25.3 -->
+	<name>BA_MISSILES_SWARM_1</name>
+	<name>BA_MISSILES_SWARM_2</name>
+	<name>BA_MISSILES_ASTERIA</name>
+	<name>BA_MISSILES_HULL_SMALL</name>
+	<name>BA_MINES_SMALL</name>
+	
+	<name>MISSILES_3</name>
+	<name>MISSILES_BURST</name>
+	<name>MISSILE_CHARGEGUN</name>
+	<name>BA_SHOTGUN_MISSILES</name>
+	<name>BA_MISSILES_ONI</name>
+	<name>BA_MISSILES_SWARM_3</name>
+	<name>MISSILES_HULL</name>
+	<name>BA_MISSILES_PERYTON</name>
+	<name>BA_MISSILES_4</name>
+	<name>BA_MISSILES_COCKATRICE</name>
+	<name>BA_MINES_MEDIUM</name>
+	<name>BA_MINES_TECH</name>
+	<name>BA_MINES_MEDIUM_M2</name> <!-- 1.25 -->
+	<name>BA_MINES_MEDIUM_M3</name> <!-- 1.25 -->
+	<name>BA_MINE_ION</name>
+</blueprintList>
+<blueprintList name="WEAPONS_CLASS_MISSILE_HIGH">
+	<name>MISSILES_1</name>
+	<name>MISSILES_2_PLAYER</name>
+	<name>BA_MISSILE_CHARGEGUN_SMALL</name>
+	<name>MISSILES_SYS1</name><!-- 1.25.1 -->
+	<name>MISSILES_SYS2</name><!-- 1.25.1 -->
+	<name>BA_MISSILES_FOBOS</name><!-- 1.25.3 -->
+	<name>BA_MISSILES_DEIMOS</name><!-- 1.25.3 -->
+	<name>BA_MISSILES_SWARM_1</name>
+	<name>BA_MISSILES_SWARM_2</name>
+	<name>BA_MISSILES_ASTERIA</name>
+	<name>BA_MISSILES_HULL_SMALL</name>
+	<name>BA_MINES_SMALL</name>
+	
+	<name>MISSILES_3</name>
+	<name>MISSILES_BURST</name>
+	<name>MISSILE_CHARGEGUN</name>
+	<name>BA_SHOTGUN_MISSILES</name>
+	<name>BA_MISSILES_ONI</name>
+	<name>BA_MISSILES_SWARM_3</name>
+	<name>MISSILES_HULL</name>
+	<name>BA_MISSILES_PERYTON</name>
+	<name>BA_MISSILES_4</name>
+	<name>BA_MISSILES_COCKATRICE</name>
+	<name>BA_MINES_MEDIUM</name>
+	<name>BA_MINES_TECH</name>
+	<name>BA_MINES_MEDIUM_M2</name> <!-- 1.25 -->
+	<name>BA_MINES_MEDIUM_M3</name> <!-- 1.25 -->
+	<name>BA_MINE_ION</name>
+	
+	<name>MISSILES_ARU_GOLIAPH</name> <!-- 1.26.1 -->
+	<name>MISSILES_HYDRA</name>
+	<name>MISSILES_MEGA</name>
+	<name>MISSILES_BREACH</name>
+	<name>BA_SHOTGUN_MISSILES2</name>
+	<name>BA_SHOTGUN_MISSILES3</name>
+	<name>BA_MISSILES_IFRIT</name>
+	<name>BA_MISSILES_FIRE</name>
+	<name>BA_MISSILES_SIMURGH</name>
+	<name>BA_MINES_BIG</name>
+</blueprintList>
+
+<blueprintList name="WEAPONS_CLASS_ION_LOW">
+	<name>ION_STUN</name>
+	<name>ION_CHAINGUN</name>
+	<name>BA_SHOTGUN_ION_1</name>
+	<name>BA_ION_2_STUN</name>
+	<name>BA_ION_BURST_1_STUN</name>
+	<name>BA_ION_PIERCE_1</name>
+	<name>BA_EFFECTOR_1</name>
+	<name>BA_ION_BURST_1</name>
+	<name>ION_HEAVY_1</name>
+	<name>ION_BLAST_1</name>
+</blueprintList>
+<blueprintList name="WEAPONS_CLASS_ION_MED">
+	<name>ION_STUN</name>
+	<name>ION_CHAINGUN</name>
+	<name>BA_SHOTGUN_ION_1</name>
+	<name>BA_ION_2_STUN</name>
+	<name>BA_ION_BURST_1_STUN</name>
+	<name>BA_ION_PIERCE_1</name>
+	<name>BA_EFFECTOR_1</name>
+	<name>BA_ION_BURST_1</name>
+	<name>ION_HEAVY_1</name>
+	<name>ION_BLAST_1</name>
+	
+	<name>ION_CHARGEGUN</name>
+	<name>BA_ION_VULKAN</name>
+	<name>BA_SHOTGUN_ION_2</name>
+	<name>BA_ION_PIERCE_2</name>
+	<name>BA_EFFECTOR_2</name>
+	<name>BA_EFFECTOR_ADAPTIVE</name>
+	<name>BA_ION_BURST_2</name>
+	<name>ION_BLAST_2</name>
+	<name>ION_BLAST_3</name>
+	<name>BA_ION_CHAIN_MINI</name> <!-- 1.23 -->
+</blueprintList>
+<blueprintList name="WEAPONS_CLASS_ION_HIGH">
+	<name>ION_STUN</name>
+	<name>ION_CHAINGUN</name>
+	<name>BA_SHOTGUN_ION_1</name>
+	<name>BA_ION_2_STUN</name>
+	<name>BA_ION_BURST_1_STUN</name>
+	<name>BA_ION_PIERCE_1</name>
+	<name>BA_EFFECTOR_1</name>
+	<name>BA_ION_BURST_1</name>
+	<name>ION_HEAVY_1</name>
+	<name>ION_BLAST_1</name>
+	
+	<name>ION_CHARGEGUN</name>
+	<name>BA_ION_VULKAN</name>
+	<name>BA_SHOTGUN_ION_2</name>
+	<name>BA_ION_PIERCE_2</name>
+	<name>BA_EFFECTOR_2</name>
+	<name>BA_EFFECTOR_ADAPTIVE</name>
+	<name>BA_ION_BURST_2</name>
+	<name>ION_BLAST_2</name>
+	<name>ION_BLAST_3</name>
+	<name>BA_ION_CHAIN_MINI</name> <!-- 1.23 -->
+	
+	<name>ION_CHARGEGUN_2</name>
+	<name>BA_EFFECTOR_3</name>
+	<name>BA_ION_BURST_3</name>
+	<name>ION_HEAVY_2</name>
+	<name>ION_HEAVY_3</name>
+</blueprintList>
+
+<blueprintList name="WEAPONS_ORDEN">
+	<name>LASER_DUAL_ORDEN</name>
+	<name>LASER_DUAL_ORDEN_2</name>
+	<name>BA_LASER_ADDFIRE</name>
+	<name>LASER_HEAVY_CUMULATIVE</name>
+	<name>GAUSS_ORDEN_MOD1</name>
+	<name>GAUSS_ORDEN_MOD2</name>
+	<name>GAUSS_ORDEN_PP</name>
+	<name>GAUSS_MIXER_M1</name>
+	<name>GAUSS_MIXER_M2</name>
+	<name>GAUSS_MIXER_M3</name>
+	<name>TAHION_M1</name>
+	<name>TAHION_M2</name>
+	<name>TAHION_M3</name>
+	
+	<name>BEAM_SCALPEL</name>
+	<name>FIRE_HELL_BEAM</name>
+	<name>BEAM_FIRE_SARISSA</name><!-- 1.25.1 -->
+	<name>MISSILES_KARAKURT</name>
+	<name>MISSILES_V3</name>
+	<name>ORDEN2_MISSILES</name>
+	<name>ORDEN3_MISSILES</name>
+	<name>MESON_CANNON</name>
+	<name>ION_HEAVY_FIRE_1</name>
+	<name>ION_HEAVY_FIRE_2</name>
+	<name>ION_HEAVY_FIRE_3</name>
+	<name>ION_BLAST_FIRE_1</name>
+	<name>ION_BLAST_FIRE_2</name>
+	<name>ION_BLAST_FIRE_3</name>
+</blueprintList>
+
+<blueprintList name="WEAPONS_RUHLAD">
+	<name>LASER_VERY_OLD</name>
+	<name>LASER_DUAL_VERY_OLD</name>
+	<name>LASER_OLD</name>
+	<name>LASER_DUAL_OLD</name>
+	<name>LASER_OLD</name>
+	<name>LASER_DUAL_OLD</name>
+	<name>LASER_OLD</name>
+	<name>LASER_STANDARD_1</name>
+	<name>LASER_STANDARD_1</name>
+	<name>LASER_STANDARD_2</name>
+	<name>BA_LASER_WAR_1</name><!-- 1.26 -->
+	<name>BA_LASER_WAR_2</name><!-- 1.26 -->
+	<name>BA_LASER_WAR_3</name><!-- 1.26 -->
+	<name>LASER_DUAL_1</name>
+	<name>LASER_DUAL_1</name>
+	<name>LASER_DUAL_2</name>
+	<name>LASER_TIRED</name><!-- 1.23 -->
+</blueprintList>
+
+<blueprintList name="WEAPONS_RUHLAD_WIN"> 
+	<name>LASER_BURST_1P</name>
+	<name>LASER_BURST_1P</name>
+	<name>LASER_BURST_1P</name>
+	<name>LASER_BURST_1P</name>
+	<name>LASER_BURST_1P</name>
+	<name>LASER_BURST_1P</name>
+	<name>LASER_BURST_1P</name>
+	<name>LASER_BURST_2P</name>
+	<name>LASER_BURST_2P</name>
+	<name>LASER_BURST_2P</name>
+	<name>LASER_BURST_3P</name>
+	<name>LASER_BURST_3P</name>
+	<name>LASER_BURST_4P</name>
+	<name>LASER_BURST_5</name>
+	<name>LASER_PIERCE_1</name>
+	<name>LASER_PIERCE_1</name>
+	<name>LASER_PIERCE_2</name>
+	<name>LASER_PIERCE_1</name>
+	<name>LASER_PIERCE_2</name>
+</blueprintList>
+
+<blueprintList name="WEAPONS_PROTOTYPES">
+	<name>SOLAR_BARRAGE_ARRAY</name>
+	<name>SOLAR_BARRAGE_ARRAY2</name>
+	<name>OMICRON_IMPACT_ION_BEAM_1</name>
+	<name>OMICRON_IMPACT_ION_BEAM_12</name>
+	<name>OMICRON_AUTOCANNON_1</name>
+	<name>OMICRON_AUTOCANNON_12</name>
+	<name>OMICRON_PLASMA_RAILCANNON_1</name>
+	<name>OMICRON_PLASMA_RAILCANNON_12</name>
+	<name>OMICRON_PERFORATOR_1</name>
+	<name>OMICRON_PERFORATOR_12</name>
+	<name>OMICRON_OMNI_CANNON2_1</name>
+	<name>OMICRON_OMNI_CANNON2_12</name>
+	<name>OMICRON_TRIPLE_BLASTER_1</name>
+	<name>OMICRON_TRIPLE_BLASTER_12</name>
+	<name>OMICRON_AEGON_ROCKET_1</name>
+	<name>OMICRON_AEGON_ROCKET_12</name>
+	<!-- 1.23 -->
+	<name>CRYSTAL_PRO_LIGHT</name>
+	<name>CRYSTAL_PRO_HEAVY</name>
+	<name>CRYSTAL_PRO_LIGHT2</name>
+	<name>CRYSTAL_PRO_HEAVY2</name>
+	<name>ORDEN_PROTOTYPE</name>
+	<name>ORDEN_PROTOTYPE_2</name>
+	<name>HAL_PROTOTYPE_1</name>
+	<name>HAL_PROTOTYPE_2</name>
+	<!-- 1.25 -->
+	<name>SLURMS_PROTOTYPE</name>
+	<name>SLURMS_PROTOTYPE_2</name>
+	<!-- 1.26 -->
+	<name>PROTOTYPE_ZOLTON_BEAM_1</name>
+	<name>PROTOTYPE_ZOLTON_BEAM_2</name>
+	<name>PROTOTYPE_ZOLTON_MISSILE_1</name>
+	<name>PROTOTYPE_ZOLTON_MISSILE_2</name>
+	
+	<name>SOLAR_BARRAGE_ARRAY2_FRC</name>
+	<name>SOLAR_BARRAGE_ARRAY2_CLD</name>
+	<name>SOLAR_BARRAGE_ARRAY2_POW</name>
+	<name>OMICRON_IMPACT_ION_BEAM_12_BRC</name>
+	<name>OMICRON_IMPACT_ION_BEAM_12_CLD</name>
+	<name>OMICRON_IMPACT_ION_BEAM_12_POW</name>
+	<name>OMICRON_AUTOCANNON_12_BRC</name>
+	<name>OMICRON_AUTOCANNON_12_CLD</name>
+	<name>OMICRON_PLASMA_RAILCANNON_12_PRC</name>
+	<name>OMICRON_PLASMA_RAILCANNON_12_FRC</name>
+	<name>OMICRON_PLASMA_RAILCANNON_12_CLD</name>
+	<name>OMICRON_PLASMA_RAILCANNON_12_POW</name>
+	<name>OMICRON_PERFORATOR_12_BRC</name>
+	<name>OMICRON_PERFORATOR_12_CLD</name>
+	<name>OMICRON_PERFORATOR_12_POW</name>
+	<name>OMICRON_OMNI_CANNON2_12_PRC</name>
+	<name>OMICRON_OMNI_CANNON2_12_FRC</name>
+	<name>OMICRON_OMNI_CANNON2_12_BRC</name>
+	<name>OMICRON_OMNI_CANNON2_12_CLD</name>
+	<name>OMICRON_OMNI_CANNON2_12_POW</name>
+	<name>OMICRON_TRIPLE_BLASTER_12_BRC</name>
+	<name>OMICRON_TRIPLE_BLASTER_12_CLD</name>
+	<name>OMICRON_AEGON_ROCKET_12_FRC</name>
+	<name>OMICRON_AEGON_ROCKET_12_BRC</name>
+	<name>OMICRON_AEGON_ROCKET_12_CLD</name>
+	<name>OMICRON_AEGON_ROCKET_12_POW</name>
+	<name>CRYSTAL_PRO_LIGHT2_BRC</name>
+	<name>CRYSTAL_PRO_LIGHT2_CLD</name>
+	<name>CRYSTAL_PRO_LIGHT2_POW</name>
+	<name>CRYSTAL_PRO_HEAVY2_BRC</name>
+	<name>CRYSTAL_PRO_HEAVY2_CLD</name>
+	<name>CRYSTAL_PRO_HEAVY2_POW</name>
+	<name>ORDEN_PROTOTYPE_2_PRC</name>
+	<name>ORDEN_PROTOTYPE_2_FRC</name>
+	<name>ORDEN_PROTOTYPE_2_CLD</name>
+	<name>ORDEN_PROTOTYPE_2_POW</name>
+	<name>HAL_PROTOTYPE_2_CLD</name>
+	<name>HAL_PROTOTYPE_2_POW</name>
+	<name>SLURMS_PROTOTYPE_2_CLD</name>
+	<name>SLURMS_PROTOTYPE_2_POW</name>
+	<name>PROTOTYPE_ZOLTON_BEAM_2_PRC</name>
+	<name>PROTOTYPE_ZOLTON_BEAM_2_BRC</name>
+	<name>PROTOTYPE_ZOLTON_BEAM_2_CLD</name>
+	<name>PROTOTYPE_ZOLTON_BEAM_2_POW</name>
+	<name>PROTOTYPE_ZOLTON_MISSILE_2_FRC</name>
+	<name>PROTOTYPE_ZOLTON_MISSILE_2_CLD</name>
+	<name>PROTOTYPE_ZOLTON_MISSILE_2_POW</name>
+	
+	<name>SOLAR_BARRAGE_ARRAY_FRC</name>
+	<name>SOLAR_BARRAGE_ARRAY_CLD</name>
+	<name>SOLAR_BARRAGE_ARRAY_POW</name>
+	<name>OMICRON_IMPACT_ION_BEAM_1_BRC</name>
+	<name>OMICRON_IMPACT_ION_BEAM_1_CLD</name>
+	<name>OMICRON_IMPACT_ION_BEAM_1_POW</name>
+	<name>OMICRON_AUTOCANNON_1_BRC</name>
+	<name>OMICRON_AUTOCANNON_1_CLD</name>
+	<name>OMICRON_AUTOCANNON_1_POW</name>
+	<name>OMICRON_PLASMA_RAILCANNON_1_PRC</name>
+	<name>OMICRON_PLASMA_RAILCANNON_1_FRC</name>
+	<name>OMICRON_PLASMA_RAILCANNON_1_CLD</name>
+	<name>OMICRON_PLASMA_RAILCANNON_1_POW</name>
+	<name>OMICRON_PERFORATOR_1_CLD</name>
+	<name>OMICRON_PERFORATOR_1_POW</name>
+	<name>OMICRON_OMNI_CANNON2_1_PRC</name>
+	<name>OMICRON_OMNI_CANNON2_1_FRC</name>
+	<name>OMICRON_OMNI_CANNON2_1_BRC</name>
+	<name>OMICRON_OMNI_CANNON2_1_CLD</name>
+	<name>OMICRON_OMNI_CANNON2_1_POW</name>
+	<name>OMICRON_TRIPLE_BLASTER_1_BRC</name>
+	<name>OMICRON_TRIPLE_BLASTER_1_CLD</name>
+	<name>OMICRON_TRIPLE_BLASTER_1_POW</name>
+	<name>OMICRON_AEGON_ROCKET_1_FRC</name>
+	<name>OMICRON_AEGON_ROCKET_1_BRC</name>
+	<name>OMICRON_AEGON_ROCKET_1_CLD</name>
+	<name>OMICRON_AEGON_ROCKET_1_POW</name>
+	<name>CRYSTAL_PRO_LIGHT_BRC</name>
+	<name>CRYSTAL_PRO_LIGHT_CLD</name>
+	<name>CRYSTAL_PRO_LIGHT_POW</name>
+	<name>CRYSTAL_PRO_HEAVY_BRC</name>
+	<name>CRYSTAL_PRO_HEAVY_CLD</name>
+	<name>CRYSTAL_PRO_HEAVY_POW</name>
+	<name>ORDEN_PROTOTYPE_PRC</name>
+	<name>ORDEN_PROTOTYPE_FRC</name>
+	<name>ORDEN_PROTOTYPE_CLD</name>
+	<name>ORDEN_PROTOTYPE_POW</name>
+	<name>HAL_PROTOTYPE_1_CLD</name>
+	<name>HAL_PROTOTYPE_1_POW</name>
+	<name>SLURMS_PROTOTYPE_CLD</name>
+	<name>SLURMS_PROTOTYPE_POW</name>
+	<name>PROTOTYPE_ZOLTON_BEAM_1_PRC</name>
+	<name>PROTOTYPE_ZOLTON_BEAM_1_BRC</name>
+	<name>PROTOTYPE_ZOLTON_BEAM_1_CLD</name>
+	<name>PROTOTYPE_ZOLTON_BEAM_1_POW</name>
+	<name>PROTOTYPE_ZOLTON_MISSILE_1_FRC</name>
+	<name>PROTOTYPE_ZOLTON_MISSILE_1_CLD</name>
+	<name>PROTOTYPE_ZOLTON_MISSILE_1_POW</name>
+	<!-- 1.26.3 -->
+	<name>SOLAR_BARRAGE_ARRAY_UNI</name>
+	<name>SOLAR_BARRAGE_ARRAY2_UNI</name>
+	<name>OMICRON_IMPACT_ION_BEAM_1_UNI</name>
+	<name>OMICRON_IMPACT_ION_BEAM_12_UNI</name>
+	<name>OMICRON_AUTOCANNON_1_UNI</name>
+	<name>OMICRON_AUTOCANNON_12_UNI</name>
+	<name>OMICRON_PLASMA_RAILCANNON_1_UNI</name>
+	<name>OMICRON_PLASMA_RAILCANNON_12_UNI</name>
+	<name>OMICRON_PERFORATOR_1_UNI</name>
+	<name>OMICRON_PERFORATOR_12_UNI</name>
+	<name>OMICRON_OMNI_CANNON2_1_UNI</name>
+	<name>OMICRON_OMNI_CANNON2_12_UNI</name>
+	<name>OMICRON_TRIPLE_BLASTER_1_UNI</name>
+	<name>OMICRON_TRIPLE_BLASTER_12_UNI</name>
+	<name>OMICRON_AEGON_ROCKET_1_UNI</name>
+	<name>OMICRON_AEGON_ROCKET_12_UNI</name>
+	
+	<name>CRYSTAL_PRO_LIGHT_UNI</name>
+	<name>CRYSTAL_PRO_HEAVY_UNI</name>
+	<name>CRYSTAL_PRO_LIGHT2_UNI</name>
+	<name>CRYSTAL_PRO_HEAVY2_UNI</name>
+	<name>ORDEN_PROTOTYPE_UNI</name>
+	<name>ORDEN_PROTOTYPE_2_UNI</name>
+	<name>HAL_PROTOTYPE_1_UNI</name>
+	<name>HAL_PROTOTYPE_2_UNI</name>
+	
+	<name>SLURMS_PROTOTYPE_UNI</name>
+	<name>SLURMS_PROTOTYPE_2_UNI</name>
+	
+	<name>PROTOTYPE_ZOLTON_BEAM_1_UNI</name>
+	<name>PROTOTYPE_ZOLTON_BEAM_2_UNI</name>
+	<name>PROTOTYPE_ZOLTON_MISSILE_1_UNI</name>
+	<name>PROTOTYPE_ZOLTON_MISSILE_2_UNI</name>
+</blueprintList>
+
+<blueprintList name="WEAPONS_PROTOTYPES_BROKEN"><!-- 1.26 -->
+	<name>SOLAR_BARRAGE_ARRAY2</name>
+	<name>SOLAR_BARRAGE_ARRAY2_FRC</name>
+	<name>SOLAR_BARRAGE_ARRAY2_CLD</name>
+	<name>SOLAR_BARRAGE_ARRAY2_POW</name>
+	<name>SOLAR_BARRAGE_ARRAY2_UNI</name><!-- 1.26.3 -->
+	<name>OMICRON_IMPACT_ION_BEAM_12</name>
+	<name>OMICRON_IMPACT_ION_BEAM_12_BRC</name>
+	<name>OMICRON_IMPACT_ION_BEAM_12_CLD</name>
+	<name>OMICRON_IMPACT_ION_BEAM_12_POW</name>
+	<name>OMICRON_IMPACT_ION_BEAM_12_UNI</name><!-- 1.26.3 -->
+	<name>OMICRON_AUTOCANNON_12</name>
+	<name>OMICRON_AUTOCANNON_12_BRC</name>
+	<name>OMICRON_AUTOCANNON_12_CLD</name>
+	<name>OMICRON_AUTOCANNON_12_UNI</name><!-- 1.26.3 -->
+	<name>OMICRON_PLASMA_RAILCANNON_12</name>
+	<name>OMICRON_PLASMA_RAILCANNON_12_PRC</name>
+	<name>OMICRON_PLASMA_RAILCANNON_12_FRC</name>
+	<name>OMICRON_PLASMA_RAILCANNON_12_CLD</name>
+	<name>OMICRON_PLASMA_RAILCANNON_12_POW</name>
+	<name>OMICRON_PLASMA_RAILCANNON_12_UNI</name><!-- 1.26.3 -->
+	<name>OMICRON_PERFORATOR_12</name>
+	<name>OMICRON_PERFORATOR_12_BRC</name>
+	<name>OMICRON_PERFORATOR_12_CLD</name>
+	<name>OMICRON_PERFORATOR_12_POW</name>
+	<name>OMICRON_PERFORATOR_12_UNI</name><!-- 1.26.3 -->
+	<name>OMICRON_OMNI_CANNON2_12</name>
+	<name>OMICRON_OMNI_CANNON2_12_PRC</name>
+	<name>OMICRON_OMNI_CANNON2_12_FRC</name>
+	<name>OMICRON_OMNI_CANNON2_12_BRC</name>
+	<name>OMICRON_OMNI_CANNON2_12_CLD</name>
+	<name>OMICRON_OMNI_CANNON2_12_POW</name>
+	<name>OMICRON_OMNI_CANNON2_12_UNI</name><!-- 1.26.3 -->
+	<name>OMICRON_TRIPLE_BLASTER_12</name>
+	<name>OMICRON_TRIPLE_BLASTER_12_BRC</name>
+	<name>OMICRON_TRIPLE_BLASTER_12_CLD</name>
+	<name>OMICRON_TRIPLE_BLASTER_12_UNI</name><!-- 1.26.3 -->
+	<name>OMICRON_AEGON_ROCKET_12</name>
+	<name>OMICRON_AEGON_ROCKET_12_FRC</name>
+	<name>OMICRON_AEGON_ROCKET_12_BRC</name>
+	<name>OMICRON_AEGON_ROCKET_12_CLD</name>
+	<name>OMICRON_AEGON_ROCKET_12_POW</name>
+	<name>OMICRON_AEGON_ROCKET_12_UNI</name><!-- 1.26.3 -->
+	<name>CRYSTAL_PRO_LIGHT2</name>
+	<name>CRYSTAL_PRO_LIGHT2_BRC</name>
+	<name>CRYSTAL_PRO_LIGHT2_CLD</name>
+	<name>CRYSTAL_PRO_LIGHT2_POW</name>
+	<name>CRYSTAL_PRO_LIGHT2_UNI</name><!-- 1.26.3 -->
+	<name>CRYSTAL_PRO_HEAVY2</name>
+	<name>CRYSTAL_PRO_HEAVY2_BRC</name>
+	<name>CRYSTAL_PRO_HEAVY2_CLD</name>
+	<name>CRYSTAL_PRO_HEAVY2_POW</name>
+	<name>CRYSTAL_PRO_HEAVY2_UNI</name><!-- 1.26.3 -->
+	<name>ORDEN_PROTOTYPE_2</name>
+	<name>ORDEN_PROTOTYPE_2_PRC</name>
+	<name>ORDEN_PROTOTYPE_2_FRC</name>
+	<name>ORDEN_PROTOTYPE_2_CLD</name>
+	<name>ORDEN_PROTOTYPE_2_POW</name>
+	<name>ORDEN_PROTOTYPE_2_UNI</name><!-- 1.26.3 -->
+	<name>HAL_PROTOTYPE_2</name>
+	<name>HAL_PROTOTYPE_2_CLD</name>
+	<name>HAL_PROTOTYPE_2_POW</name>
+	<name>HAL_PROTOTYPE_2_UNI</name><!-- 1.26.3 -->
+	<name>SLURMS_PROTOTYPE_2</name>
+	<name>SLURMS_PROTOTYPE_2_CLD</name>
+	<name>SLURMS_PROTOTYPE_2_POW</name>
+	<name>SLURMS_PROTOTYPE_2_UNI</name><!-- 1.26.3 -->
+	<name>PROTOTYPE_ZOLTON_BEAM_2</name>
+	<name>PROTOTYPE_ZOLTON_BEAM_2_PRC</name>
+	<name>PROTOTYPE_ZOLTON_BEAM_2_BRC</name>
+	<name>PROTOTYPE_ZOLTON_BEAM_2_CLD</name>
+	<name>PROTOTYPE_ZOLTON_BEAM_2_POW</name>
+	<name>PROTOTYPE_ZOLTON_BEAM_2_UNI</name><!-- 1.26.3 -->
+	<name>PROTOTYPE_ZOLTON_MISSILE_2</name>
+	<name>PROTOTYPE_ZOLTON_MISSILE_2_FRC</name>
+	<name>PROTOTYPE_ZOLTON_MISSILE_2_CLD</name>
+	<name>PROTOTYPE_ZOLTON_MISSILE_2_POW</name>
+	<name>PROTOTYPE_ZOLTON_MISSILE_2_UNI</name><!-- 1.26.3 -->
+</blueprintList>
+
+<blueprintList name="WEAPONS_PROTOTYPES_HAL"><!-- 1.23 -->
+	<name>HAL_PROTOTYPE_1</name>
+	<name>HAL_PROTOTYPE_2</name>
+</blueprintList>
+
+<blueprintList name="WEAPONS_PROTOTYPES_ORDEN"><!-- 1.23 -->
+	<name>ORDEN_PROTOTYPE</name>
+	<name>ORDEN_PROTOTYPE_2</name>
+</blueprintList>
+
+<blueprintList name="WEAPONS_PROTOTYPES_ROCK">
+	<name>SOLAR_BARRAGE_ARRAY</name>
+	<name>SOLAR_BARRAGE_ARRAY2</name>
+</blueprintList>
+
+<blueprintList name="WEAPONS_PROTOTYPES_ENGI">
+	<name>OMICRON_IMPACT_ION_BEAM_1</name>
+	<name>OMICRON_IMPACT_ION_BEAM_12</name>
+</blueprintList>
+
+<blueprintList name="WEAPONS_PROTOTYPES_AVATAR">
+	<name>OMICRON_AUTOCANNON_1</name>
+	<name>OMICRON_AUTOCANNON_12</name>
+</blueprintList>
+
+<blueprintList name="WEAPONS_PROTOTYPES_ZOLTAN">
+	<name>OMICRON_PLASMA_RAILCANNON_1</name>
+	<name>OMICRON_PLASMA_RAILCANNON_12</name>
+</blueprintList>
+
+<blueprintList name="WEAPONS_PROTOTYPES_SLUG">
+	<name>OMICRON_PERFORATOR_1</name>
+	<name>OMICRON_PERFORATOR_12</name>
+</blueprintList>
+
+<blueprintList name="WEAPONS_PROTOTYPES_MANTIS">
+	<name>OMICRON_OMNI_CANNON2_1</name>
+	<name>OMICRON_OMNI_CANNON2_12</name>
+</blueprintList>
+
+<blueprintList name="WEAPONS_PROTOTYPES_LANIUS">
+	<name>OMICRON_TRIPLE_BLASTER_1</name>
+	<name>OMICRON_TRIPLE_BLASTER_12</name>
+</blueprintList>
+
+<blueprintList name="WEAPONS_PROTOTYPES_HUMAN">
+	<name>OMICRON_AEGON_ROCKET_1</name>
+	<name>OMICRON_AEGON_ROCKET_12</name>
+</blueprintList>
+
+<blueprintList name="WEAPONS_PROTOTYPES_CRYSTAL">
+	<name>CRYSTAL_PRO_LIGHT</name>
+	<name>CRYSTAL_PRO_HEAVY</name>
+	<name>CRYSTAL_PRO_LIGHT2</name>
+	<name>CRYSTAL_PRO_HEAVY2</name>
+</blueprintList>
+
+<blueprintList name="WEAPONS_PROTOTYPES_SLURM"><!-- 1.25 -->
+	<name>SLURMS_PROTOTYPE</name>
+	<name>SLURMS_PROTOTYPE_2</name>
+</blueprintList>
+
+<blueprintList name="WEAPONS_PROTOTYPES_ZOLTON_BEAM"><!-- 1.26 -->
+	<name>PROTOTYPE_ZOLTON_BEAM_1</name>
+	<name>PROTOTYPE_ZOLTON_BEAM_2</name>
+</blueprintList>
+
+<blueprintList name="WEAPONS_PROTOTYPES_ZOLTON_MISSILE"><!-- 1.26 -->
+	<name>PROTOTYPE_ZOLTON_MISSILE_1</name>
+	<name>PROTOTYPE_ZOLTON_MISSILE_2</name>
+</blueprintList>
+
+<blueprintList name="WEAPONS_PROTOTYPES_ZOLTON"><!-- 1.26 -->
+	<name>PROTOTYPE_ZOLTON_BEAM_1</name>
+	<name>PROTOTYPE_ZOLTON_BEAM_2</name>
+	<name>PROTOTYPE_ZOLTON_MISSILE_1</name>
+	<name>PROTOTYPE_ZOLTON_MISSILE_2</name>
+</blueprintList>
+
+<blueprintList name="WEAPONS_HEAVY">
+	<name>LASER_FIRE_CHAINGUN</name>
+	<name>CHARGEGUN_SHOTGUN</name>
+	<name>HEAVY_PPL</name>
+</blueprintList>
+
+<blueprintList name="PREIGNITE_WEAPONS"> <!-- 1.23 -->
+	<name>PREIGNITE_ION_IMPULSE_1</name>
+	<name>PREIGNITE_ION_IMPULSE_2</name>
+	<name>PREIGNITE_ION_IMPULSE_3</name>
+	<name>PREIGNITE_PP_IMPULSE_1</name>
+	<name>PREIGNITE_PP_IMPULSE_2</name>
+	<name>PREIGNITE_PP_IMPULSE_3</name>
+	<name>PREIGNITE_SHOTGUN_IMPULSE_1</name>
+	<name>PREIGNITE_SHOTGUN_IMPULSE_2</name>
+	<name>PREIGNITE_SHOTGUN_IMPULSE_3</name>
+	<name>PREIGNITE_PLASMA_IMPULSE_1</name>
+	<name>PREIGNITE_PLASMA_IMPULSE_2</name>
+	<name>PREIGNITE_PLASMA_IMPULSE_3</name>
+</blueprintList>
+
+<blueprintList name="ZOLTAN_AUG">
+	<name>AUTO_COOLDOWN</name>
+	<name>SCRAP_COLLECTOR</name>
+	<name>EXPLOSIVE_REPLICATOR</name>
+</blueprintList>
+
+<blueprintList name="TULLY_AUG"> <!-- 1.23 -->
+	<name>O2_MASKS</name>
+	<name>DEFENSE_SCRAMBLER</name>
+	<name>AUTO_COOLDOWN</name>
+	<name>SHIELD_RECHARGE</name>
+	<name>WEAPON_PREIGNITE</name>
+	<name>SYSTEM_CASING</name>
+	<name>ION_ARMOR</name>
+</blueprintList>
+
+
+<!-- USED IN EVENT DOCK_BOMB_SALESMAN -->
+<blueprintList name="WEAPONS_BOMBS_CHEAP">
+	<name>BOMB_ION</name>
+	<name>BOMB_1</name>
+	<name>BOMB_BREACH_1</name>
+</blueprintList>
+
+<!-- USED IN EVENT DOCK_BOMB_SALESMAN -->
+<blueprintList name="WEAPONS_MISSILES_EXPENSIVE">
+	<name>MISSILES_3</name>
+	<name>MISSILES_BURST</name>	
+	<name>MISSILES_BREACH</name>
+</blueprintList>
+
+<!-- 1.22.2 -->
+<blueprintList name="WEAPONS_BOSS_HACKER">
+	<name>PULSE_CANNON_3X</name>
+	<name>PULSE_CANNON_2X</name>	
+	<name>PULSE_CANNON_1X</name>
+</blueprintList>
+
+<blueprintList name="CREW_RANDOM">
+	<name>mantis</name>
+	<name>rock</name>
+	<name>engi</name>
+	<name>energy</name>
+	<name>human</name>
+	<name>slug</name>
+</blueprintList>
+
+<!-- 1.23 -->
+<blueprintList name="WEAPONS_USELESS">
+	<name>TRAINING_COMPLEX</name>
+	<name>SHIPRADAR</name>	
+	<name>SHOTGUN_PLAYER_VERYOLD</name>
+	<name>LASER_TIRED</name> <!-- 1.24 -->
+</blueprintList>
+
+<!-- 1.25 -->
+<blueprintList name="DRONES_USELESS">
+	<name>DE_DRONE_DEFENSE_SVCH</name>
+	<name>DRONE_CHAFF</name>	
+	<name>DE_DRONE_DEFENSE_LIGHT_MISSILE</name>
+	<name>DE_ANTI_DRONE_MISSILES</name>
+</blueprintList>
+
+<!-- HAL DRONES -->
+
+<blueprintList name="DRONES_COMBAT_HAL">
+	<name>HAL_COMBAT_BEAM</name> <!-- 2 -->
+	<name>HAL_COMBAT_FIRE_1</name>
+	<name>HAL_COMBAT_FIRE_2</name>
+	<name>HAL_COMBAT_FIRE_3</name>
+	<name>HAL_DRONE_BEAM_FOCUS</name>
+	<name>HAL_DRONE_PLASMA</name>
+	<name>HAL_DRONE_HEAVY_1</name>
+	<name>HAL_DRONE_HEAVY_SCATTER</name>
+	<name>HAL_DRONE_MINE_MEDIUM</name>
+	<name>HAL_DRONE_MINE_SMALL</name>
+	<name>HAL_COMBAT_1</name>
+	
+	<name>HAL_COMBAT_BEAM</name> <!-- 2 -->
+	<name>HAL_COMBAT_FIRE_1</name>
+	<name>HAL_COMBAT_FIRE_2</name>
+	<name>HAL_COMBAT_FIRE_3</name>
+	<name>HAL_DRONE_BEAM_FOCUS</name>
+	<name>HAL_DRONE_PLASMA</name>
+	<name>HAL_DRONE_HEAVY_1</name>
+	<name>HAL_DRONE_HEAVY_SCATTER</name>
+	<name>HAL_DRONE_MINE_MEDIUM</name>
+	<name>HAL_DRONE_MINE_SMALL</name>
+	<name>HAL_COMBAT_1</name>
+	
+	<name>HAL_COMBAT_BEAM</name> <!-- 2 -->
+	<name>HAL_COMBAT_FIRE_1</name>
+	<name>HAL_COMBAT_FIRE_2</name>
+	<name>HAL_COMBAT_FIRE_3</name>
+	<name>HAL_DRONE_BEAM_FOCUS</name>
+	<name>HAL_DRONE_PLASMA</name>
+	<name>HAL_DRONE_HEAVY_1</name>
+	<name>HAL_DRONE_HEAVY_SCATTER</name>
+	<!-- <name>HAL_DRONE_MINE_MEDIUM</name> -->
+	<!-- <name>HAL_DRONE_MINE_SMALL</name> -->
+	<name>HAL_COMBAT_1</name>
+	
+	<name>HAL_COMBAT_BEAM_2</name> <!-- 3 -->
+	<name>HAL_COMBAT_BEAM_3</name>
+	<name>HAL_DRONE_MISSILES_1</name>
+	<name>HAL_DRONE_MISSILES_BARRAGE</name>
+	<name>HAL_DRONE_HEAVY_2</name>
+	<name>HAL_DRONE_SCATTER</name>
+	<name>HAL_DRONE_HULL_BEAM</name>
+	<name>HAL_DRONE_HULL_1</name>
+	<name>HAL_DRONE_HULL_2</name>
+	<name>HAL_DRONE_MINE_BIG</name>
+	<name>HAL_DRONE_FLAK1</name>
+	<name>HAL_DRONE_LOCKER_1</name>
+	<name>HAL_DRONE_LOCKER_2</name>
+	<name>HAL_DRONE_LIGHT_SCATTER</name>
+	<name>HAL_DRONE_LIGHT_MISSILE</name>
+	
+	<name>HAL_COMBAT_BEAM_2</name> <!-- 3 -->
+	<name>HAL_COMBAT_BEAM_3</name>
+	<name>HAL_DRONE_MISSILES_1</name>
+	<name>HAL_DRONE_MISSILES_BARRAGE</name>
+	<name>HAL_DRONE_HEAVY_2</name>
+	<name>HAL_DRONE_SCATTER</name>
+	<name>HAL_DRONE_HULL_BEAM</name>
+	<name>HAL_DRONE_HULL_1</name>
+	<name>HAL_DRONE_HULL_2</name>
+	<name>HAL_DRONE_MINE_BIG</name>
+	<name>HAL_DRONE_FLAK1</name>
+	<name>HAL_DRONE_LOCKER_1</name>
+	<name>HAL_DRONE_LOCKER_2</name>
+	<name>HAL_DRONE_LIGHT_SCATTER</name>
+	<name>HAL_DRONE_LIGHT_MISSILE</name>
+	
+	<name>HAL_DRONE_BEAM_FOCUS2</name> <!-- 4 -->
+	<name>HAL_REPAIR</name>
+	<name>HAL_DRONE_MISSILES_2</name>
+	<name>HAL_DRONE_MISSILES_3</name>
+	<name>HAL_DRONE_LIGHT_MISSILE_FIRE</name>
+	<name>HAL_COMBAT_2</name>
+</blueprintList>
+
+<blueprintList name="HAL_DRONES_TWO_POWER"><!-- 1.24 -->
+	<name>HAL_COMBAT_BEAM</name>
+	<name>HAL_COMBAT_FIRE_1</name>
+	<name>HAL_COMBAT_FIRE_2</name>
+	<name>HAL_COMBAT_FIRE_3</name>
+	<name>HAL_DRONE_BEAM_FOCUS</name>
+	<!-- <name>HAL_DRONE_PLASMA</name> --> <!-- 1.26 -->
+	<name>HAL_DRONE_HEAVY_1</name>
+	<name>HAL_DRONE_HEAVY_SCATTER</name>
+	<name>HAL_DRONE_MINE_MEDIUM</name>
+	<name>HAL_DRONE_MINE_SMALL</name>
+	<name>HAL_COMBAT_1</name>
+</blueprintList>
+
+
+<!-- WEAPONS -->
+
+<blueprintList name="WEAPONS_ROCK">
+	<name>LASER_CHAIN_1</name>
+	<name>LASER_CHAIN_2</name>
+	<name>LASER_CHAIN_LONG_1</name> <!-- 1.26 -->
+	<name>LASER_CHAIN_LONG_2</name> <!-- 1.26 -->
+	<name>LASER_CHARGEGUN_1</name>
+	<name>LASER_CHARGEGUN_2</name>
+	<name>LASER_BURST_1</name>
+	<name>LASER_HEAVY_1</name>
+	<name>LASER_STANDARD_1</name>
+	<name>LASER_STANDARD_2</name>
+	<name>LASER_DUAL_1</name>
+	<name>LASER_DUAL_2</name>
+	<name>BA_SHOTGUN_SMALL</name>
+	<name>BA_PLASMA_1</name>
+	<name>BA_LASER_AUTO_1</name>
+	<name>BA_LASER_AUTO_2</name>
+	<name>BA_LASER_BURST_SCATTER_1</name>
+	<name>BA_LASER_BURST_SCATTER_2</name>
+	<name>BA_LASER_HEAVY_SCATTER_1</name>
+	<name>BA_LASER_HEAVY_SCATTER_2</name>
+	<name>BA_LASER_HULL_SMALL</name>
+
+	<name>LASER_SUPER_HEAVY_1</name><!-- 1.26 -->
+	<name>LASER_AL_1</name> <!-- 1.26.2 -->
+	<name>BA_LASER_WAR_1</name><!-- 1.26 -->
+	<name>BA_LASER_WAR_2</name><!-- 1.26 -->
+	<name>BA_LASER_WAR_3</name><!-- 1.26 -->
+	<name>LASER_PIERCE_1</name>
+	<name>LASER_PIERCE_2</name>
+	<name>SHTURM_LASER_1</name>
+	<name>SHTURM_LASER_2</name>
+	<name>LASER_HEAVY_CHAIN</name>
+	<name>LASER_AUTO_CHAIN</name>
+	<name>LASER_CHAIN_3</name>
+	<name>LASER_CHAIN_LONG_3</name> <!-- 1.26 -->
+	<name>LASER_CHARGEGUN_3</name>
+	<name>LASER_BURST_2</name>
+	<name>LASER_HEAVY_2</name>
+	<name>LASER_HEAVY_PIERCE_1</name>
+	<name>SHOTGUN</name>
+	<name>BA_PLASMA_2</name>
+	<name>BA_LASER_AUTO_3</name>
+	<name>BA_LASER_BURST_SCATTER_3</name>
+	<name>LASER_SCATTERCHAIN</name><!-- 1.25.1 -->
+	<name>BA_LASER_ARTILLERY_1</name>
+	<name>BA_LASER_HULLCRUSHER</name>
+	<name>LASER_HULL_1</name>
+	<name>LASER_HULL_2</name>
+	<name>LASER_IMP_2</name><!-- 1.25.1 -->
+	<name>LASER_IMP_3</name><!-- 1.25.1 -->
+	<name>LASER_HULLCHAIN</name><!-- 1.25.1 -->
+	
+	<name>BEAM_1</name>
+	<name>BEAM_LONG</name>
+	<name>BA_BEAM_K2</name><!-- 1.25.3 -->
+	<name>BEAM_GUISARME</name><!-- 1.23 -->
+	<name>BEAM_LONG_SYS</name><!-- 1.25.3 -->
+	<name>BA_BEAM_HASTA</name>
+	<name>BA_BEAM_K1</name><!-- 1.25.3 -->
+	<name>BA_BEAM_HULL_SMALL</name>
+	<name>BA_BEAM_HULL_MINI</name><!-- 1.25.3 -->
+	<name>BA_BEAM_AUTO</name>
+	<name>BA_BEAM_ADAPTIVE_1</name>
+	<name>BA_BEAM_BARDICHE</name>
+	
+	<name>BEAM_1_2</name>
+	<name>BEAM_HULL</name>
+	<name>BA_BEAM_ADAPTIVE_2</name>
+	<name>BA_BEAM_SCYTHE</name>
+	<name>BA_BEAM_PERNACH</name>
+	<name>BEAM_FIRE</name>
+	<name>BEAM_2</name>
+	<name>BA_BEAM_POLLAXE</name><!-- 1.26 -->
+	<name>BEAM_SP_DAITO</name>
+	
+	<name>BOMB_STUN</name>
+	<name>BOMB_1</name>
+	<name>BA_BOMB_FIRE_SMALL</name>
+	<name>BOMB_BREACH_1</name>
+	<name>BA_BOMB_CLUSTER_STUN_ENEMY</name>
+	<name>BA_BOMB_CLUSTER_STUN_ENEMY2</name><!-- 1.23 -->
+	
+	<name>BOMB_FIRE</name>
+	<name>BA_BOMB_CLUSTER_BREACH</name>
+	<name>BA_BOMB_CLUSTER_1</name>
+	<name>BA_BOMB_CLUSTER_ION</name>
+	
+	<name>BA_BOMB_BIG</name>
+	<name>BA_BOMB_TIMER</name><!-- 1.25 -->
+	<name>BA_BOMB_FIRE_2</name>
+	<name>BA_BOMB_CLUSTER_FIRE</name>
+	<name>BA_BOMB_BIO</name>
+	<name>BOMB_BREACH_2</name>
+	<name>BOMB_BREACH_3</name>
+	<name>BOMB_ION</name>
+	
+	<name>MISSILES_1</name>
+	<name>MISSILES_2_PLAYER</name>
+	<name>BA_MISSILE_CHARGEGUN_SMALL</name>
+	<name>MISSILES_SYS1</name><!-- 1.25.1 -->
+	<name>MISSILES_SYS2</name><!-- 1.25.1 -->
+	<name>BA_MISSILES_FOBOS</name><!-- 1.25.3 -->
+	<name>BA_MISSILES_DEIMOS</name><!-- 1.25.3 -->
+	<name>BA_MISSILES_SWARM_1</name>
+	<name>BA_MISSILES_SWARM_2</name>
+	<name>BA_MISSILES_ASTERIA</name>
+	<name>BA_MISSILES_HULL_SMALL</name>
+	<name>BA_MINES_SMALL</name>
+	
+	<name>MISSILES_3</name>
+	<name>MISSILES_BURST</name>
+	<name>MISSILE_CHARGEGUN</name>
+	<name>BA_SHOTGUN_MISSILES</name>
+	<name>BA_MISSILES_ONI</name>
+	<name>BA_MISSILES_SWARM_3</name>
+	<name>MISSILES_HULL</name>
+	<name>BA_MISSILES_PERYTON</name>
+	<name>BA_MISSILES_4</name>
+	<name>BA_MISSILES_COCKATRICE</name>
+	<name>BA_MINES_MEDIUM</name>
+	<name>BA_MINES_TECH</name>
+	<name>BA_MINES_MEDIUM_M2</name> <!-- 1.25 -->
+	<name>BA_MINES_MEDIUM_M3</name> <!-- 1.25 -->
+	<name>BA_MINE_ION</name>
+	
+	<name>MISSILES_ARU_GOLIAPH</name> <!-- 1.26.1 -->
+	<name>MISSILES_HYDRA</name>
+	<name>MISSILES_MEGA</name>
+	<name>MISSILES_BREACH</name>
+	<name>BA_SHOTGUN_MISSILES2</name>
+	<name>BA_SHOTGUN_MISSILES3</name>
+	<name>BA_MISSILES_IFRIT</name>
+	<name>BA_MISSILES_FIRE</name>
+	<name>BA_MISSILES_SIMURGH</name>
+	<name>BA_MINES_BIG</name>
+	
+	<name>ION_STUN</name>
+	<name>ION_CHAINGUN</name>
+	<name>BA_SHOTGUN_ION_1</name>
+	<name>BA_ION_2_STUN</name>
+	<name>BA_ION_BURST_1_STUN</name>
+	<name>BA_ION_PIERCE_1</name>
+	<name>BA_EFFECTOR_1</name>
+	<name>BA_ION_BURST_1</name>
+	<name>ION_HEAVY_1</name>
+	<name>ION_BLAST_1</name>
+	
+	<name>ION_CHARGEGUN</name>
+	<name>BA_ION_VULKAN</name>
+	<name>BA_SHOTGUN_ION_2</name>
+	<name>BA_ION_PIERCE_2</name>
+	<name>BA_EFFECTOR_2</name>
+	<name>BA_EFFECTOR_ADAPTIVE</name>
+	<name>BA_ION_BURST_2</name>
+	<name>ION_BLAST_2</name>
+	<name>ION_BLAST_3</name>
+	<name>BA_ION_CHAIN_MINI</name> <!-- 1.23 -->
+</blueprintList>
+
+<blueprintList name="WEAPONS_REBEL">
+	<name>LASER_CHAIN_1</name>
+	<name>LASER_CHAIN_2</name>
+	<name>LASER_CHAIN_LONG_1</name> <!-- 1.26 -->
+	<name>LASER_CHAIN_LONG_2</name> <!-- 1.26 -->
+	<name>LASER_CHARGEGUN_1</name>
+	<name>LASER_CHARGEGUN_2</name>
+	<name>LASER_BURST_1</name>
+	<name>LASER_HEAVY_1</name>
+	<name>LASER_STANDARD_1</name>
+	<name>LASER_STANDARD_2</name>
+	<name>LASER_DUAL_1</name>
+	<name>LASER_DUAL_2</name>
+	<name>BA_SHOTGUN_SMALL</name>
+	<name>BA_PLASMA_1</name>
+	<name>BA_LASER_AUTO_1</name>
+	<name>BA_LASER_AUTO_2</name>
+	<name>BA_LASER_BURST_SCATTER_1</name>
+	<name>BA_LASER_BURST_SCATTER_2</name>
+	<name>BA_LASER_HEAVY_SCATTER_1</name>
+	<name>BA_LASER_HEAVY_SCATTER_2</name>
+	<name>BA_LASER_HULL_SMALL</name>
+
+	<name>LASER_SUPER_HEAVY_1</name><!-- 1.26 -->
+	<name>LASER_AL_1</name> <!-- 1.26.2 -->
+	<name>BA_LASER_WAR_1</name><!-- 1.26 -->
+	<name>BA_LASER_WAR_2</name><!-- 1.26 -->
+	<name>BA_LASER_WAR_3</name><!-- 1.26 -->
+	<name>LASER_PIERCE_1</name>
+	<name>LASER_PIERCE_2</name>
+	<name>SHTURM_LASER_1</name>
+	<name>SHTURM_LASER_2</name>
+	<name>LASER_HEAVY_CHAIN</name>
+	<name>LASER_AUTO_CHAIN</name>
+	<name>LASER_CHAIN_3</name>
+	<name>LASER_CHAIN_LONG_3</name> <!-- 1.26 -->
+	<name>LASER_CHARGEGUN_3</name>
+	<name>LASER_BURST_2</name>
+	<name>LASER_HEAVY_2</name>
+	<name>LASER_HEAVY_PIERCE_1</name>
+	<name>SHOTGUN</name>
+	<name>BA_PLASMA_2</name>
+	<name>BA_LASER_AUTO_3</name>
+	<name>BA_LASER_BURST_SCATTER_3</name>
+	<name>LASER_SCATTERCHAIN</name><!-- 1.25.1 -->
+	<name>BA_LASER_ARTILLERY_1</name>
+	<name>BA_LASER_HULLCRUSHER</name>
+	<name>LASER_HULL_1</name>
+	<name>LASER_HULL_2</name>
+	<name>LASER_IMP_2</name><!-- 1.25.1 -->
+	<name>LASER_IMP_3</name><!-- 1.25.1 -->
+	<name>LASER_HULLCHAIN</name><!-- 1.25.1 -->
+	
+	<name>LASER_SUPER_HEAVY_2</name><!-- 1.26 -->
+	<name>LASER_AL_2</name> <!-- 1.26.2 -->
+	<name>RAIL_DRIVER</name>
+	<name>LASER_CHAINGUN</name>
+	<name>HEAVY_MINIGUN</name>
+	<name>LASER_FIRE_CHAINGUN</name>
+	<name>LASER_HEAVY_CHARGE_1</name>
+	<name>LASER_HEAVY_CHARGE_2</name>
+	<name>LASER_CHARGEGUN_4</name>
+	<name>LASER_BURST_3</name>
+	<name>LASER_BURST_4</name>
+	<name>LASER_HEAVY_PIERCE_2</name>
+	<name>SHOTGUN_2</name>
+	<name>SHOTGUN_007</name>
+	<name>BA_SHOTGUN_SCATTER</name>
+	<name>SHTURM_FLAK</name>
+	<name>CHARGEGUN_SHOTGUN</name>
+	<name>BA_PLASMA_3</name>
+	<name>BA_LASER_ARTILLERY_2</name>
+	<name>BA_LASER_HULLCRUSHER_2</name>
+	<name>BA_LASER_HULLCRUSHER_3</name>
+	
+	<name>MPP_LASER_1</name><!-- 1.26 -->
+	<name>MPP_LASER_2</name><!-- 1.26 -->
+	<name>LASER_LIGHT_1</name>
+	<name>LASER_LIGHT_SCATTER_1</name>
+	<name>BA_STUNGUN_1</name>
+	<name>BA_BEAM_BATON</name>
+	
+	<name>BEAM_1</name>
+	<name>BEAM_LONG</name>
+	<name>BA_BEAM_K2</name><!-- 1.25.3 -->
+	<name>BEAM_GUISARME</name><!-- 1.23 -->
+	<name>BEAM_LONG_SYS</name><!-- 1.25.3 -->
+	<name>BA_BEAM_HASTA</name>
+	<name>BA_BEAM_K1</name><!-- 1.25.3 -->
+	<name>BA_BEAM_HULL_SMALL</name>
+	<name>BA_BEAM_HULL_MINI</name><!-- 1.25.3 -->
+	<name>BA_BEAM_AUTO</name>
+	<name>BA_BEAM_ADAPTIVE_1</name>
+	<name>BA_BEAM_BARDICHE</name>
+	
+	<name>BEAM_1_2</name>
+	<name>BEAM_HULL</name>
+	<name>BA_BEAM_ADAPTIVE_2</name>
+	<name>BA_BEAM_SCYTHE</name>
+	<name>BA_BEAM_PERNACH</name>
+	<name>BEAM_FIRE</name>
+	<name>BEAM_2</name>
+	<name>BA_BEAM_POLLAXE</name><!-- 1.26 -->
+	<name>BEAM_SP_DAITO</name>
+	
+	<name>BEAM_FAUCHARD</name>
+	<name>BA_BEAM_ADAPTIVE_3</name>
+	<name>BA_BEAM_FLAIL_DAMAGE</name>
+	<name>BA_BEAM_NAGINATA</name>
+	<name>BA_BEAM_MAUL</name>
+	<name>BA_BEAM_FIRE_2</name>
+	<name>BEAM_FIRECHAIN</name><!-- 1.26.3 -->
+	<name>BA_BEAM_FIRE_FOCUS</name>
+	<name>BA_BEAM_FIRE_FOCUS2</name>
+	<name>BEAM_3</name>
+	<name>BA_BEAM_PARTISAN</name><!-- 1.26 -->
+	<name>BEAM_SP_KATANA</name>
+	<name>BEAM_BIOFIRE</name>
+	
+	<name>BOMB_STUN</name>
+	<name>BOMB_1</name>
+	<name>BA_BOMB_FIRE_SMALL</name>
+	<name>BOMB_BREACH_1</name>
+	<name>BA_BOMB_CLUSTER_STUN_ENEMY</name>
+	<name>BA_BOMB_CLUSTER_STUN_ENEMY2</name><!-- 1.23 -->
+	
+	<name>BOMB_FIRE</name>
+	<name>BA_BOMB_CLUSTER_BREACH</name>
+	<name>BA_BOMB_CLUSTER_1</name>
+	<name>BA_BOMB_CLUSTER_ION</name>
+	
+	<name>MISSILES_1</name>
+	<name>MISSILES_2_PLAYER</name>
+	<name>BA_MISSILE_CHARGEGUN_SMALL</name>
+	<name>MISSILES_SYS1</name><!-- 1.25.1 -->
+	<name>MISSILES_SYS2</name><!-- 1.25.1 -->
+	<name>BA_MISSILES_FOBOS</name><!-- 1.25.3 -->
+	<name>BA_MISSILES_DEIMOS</name><!-- 1.25.3 -->
+	<name>BA_MISSILES_SWARM_1</name>
+	<name>BA_MISSILES_SWARM_2</name>
+	<name>BA_MISSILES_ASTERIA</name>
+	<name>BA_MISSILES_HULL_SMALL</name>
+	<name>BA_MINES_SMALL</name>
+	
+	<name>MISSILES_3</name>
+	<name>MISSILES_BURST</name>
+	<name>MISSILE_CHARGEGUN</name>
+	<name>BA_SHOTGUN_MISSILES</name>
+	<name>BA_MISSILES_ONI</name>
+	<name>BA_MISSILES_SWARM_3</name>
+	<name>MISSILES_HULL</name>
+	<name>BA_MISSILES_PERYTON</name>
+	<name>BA_MISSILES_4</name>
+	<name>BA_MISSILES_COCKATRICE</name>
+	<name>BA_MINES_MEDIUM</name>
+	<name>BA_MINES_TECH</name>
+	<name>BA_MINES_MEDIUM_M2</name> <!-- 1.25 -->
+	<name>BA_MINES_MEDIUM_M3</name> <!-- 1.25 -->
+	<name>BA_MINE_ION</name>
+	
+	<name>ION_STUN</name>
+	<name>ION_CHAINGUN</name>
+	<name>BA_SHOTGUN_ION_1</name>
+	<name>BA_ION_2_STUN</name>
+	<name>BA_ION_BURST_1_STUN</name>
+	<name>BA_ION_PIERCE_1</name>
+	<name>BA_EFFECTOR_1</name>
+	<name>BA_ION_BURST_1</name>
+	<name>ION_HEAVY_1</name>
+	<name>ION_BLAST_1</name>
+	
+	<name>ION_CHARGEGUN</name>
+	<name>BA_ION_VULKAN</name>
+	<name>BA_SHOTGUN_ION_2</name>
+	<name>BA_ION_PIERCE_2</name>
+	<name>BA_EFFECTOR_2</name>
+	<name>BA_EFFECTOR_ADAPTIVE</name>
+	<name>BA_ION_BURST_2</name>
+	<name>ION_BLAST_2</name>
+	<name>ION_BLAST_3</name>
+	<name>BA_ION_CHAIN_MINI</name> <!-- 1.23 -->
+</blueprintList>
+
+<blueprintList name="WEAPONS_AUTO">
+	<name>LASER_CHAIN_1</name>
+	<name>LASER_CHAIN_2</name>
+	<name>LASER_CHAIN_LONG_1</name> <!-- 1.26 -->
+	<name>LASER_CHAIN_LONG_2</name> <!-- 1.26 -->
+	<name>LASER_CHARGEGUN_1</name>
+	<name>LASER_CHARGEGUN_2</name>
+	<name>LASER_BURST_1</name>
+	<name>LASER_HEAVY_1</name>
+	<name>LASER_STANDARD_1</name>
+	<name>LASER_STANDARD_2</name>
+	<name>LASER_DUAL_1</name>
+	<name>LASER_DUAL_2</name>
+	<name>BA_SHOTGUN_SMALL</name>
+	<name>BA_PLASMA_1</name>
+	<name>BA_LASER_AUTO_1</name>
+	<name>BA_LASER_AUTO_2</name>
+	<name>BA_LASER_BURST_SCATTER_1</name>
+	<name>BA_LASER_BURST_SCATTER_2</name>
+	<name>BA_LASER_HEAVY_SCATTER_1</name>
+	<name>BA_LASER_HEAVY_SCATTER_2</name>
+	<name>BA_LASER_HULL_SMALL</name>
+
+	<name>LASER_SUPER_HEAVY_1</name><!-- 1.26 -->
+	<name>LASER_AL_1</name> <!-- 1.26.2 -->
+	<name>BA_LASER_WAR_1</name><!-- 1.26 -->
+	<name>BA_LASER_WAR_2</name><!-- 1.26 -->
+	<name>BA_LASER_WAR_3</name><!-- 1.26 -->
+	<name>LASER_PIERCE_1</name>
+	<name>LASER_PIERCE_2</name>
+	<name>SHTURM_LASER_1</name>
+	<name>SHTURM_LASER_2</name>
+	<name>LASER_HEAVY_CHAIN</name>
+	<name>LASER_AUTO_CHAIN</name>
+	<name>LASER_CHAIN_3</name>
+	<name>LASER_CHAIN_LONG_3</name> <!-- 1.26 -->
+	<name>LASER_CHARGEGUN_3</name>
+	<name>LASER_BURST_2</name>
+	<name>LASER_HEAVY_2</name>
+	<name>LASER_HEAVY_PIERCE_1</name>
+	<name>SHOTGUN</name>
+	<name>BA_PLASMA_2</name>
+	<name>BA_LASER_AUTO_3</name>
+	<name>BA_LASER_BURST_SCATTER_3</name>
+	<name>LASER_SCATTERCHAIN</name><!-- 1.25.1 -->
+	<name>BA_LASER_ARTILLERY_1</name>
+	<name>BA_LASER_HULLCRUSHER</name>
+	<name>LASER_HULL_1</name>
+	<name>LASER_HULL_2</name>
+	<name>LASER_IMP_2</name><!-- 1.25.1 -->
+	<name>LASER_IMP_3</name><!-- 1.25.1 -->
+	<name>LASER_HULLCHAIN</name><!-- 1.25.1 -->
+	
+	<name>LASER_SUPER_HEAVY_2</name><!-- 1.26 -->
+	<name>LASER_AL_2</name> <!-- 1.26.2 -->
+	<name>RAIL_DRIVER</name>
+	<name>LASER_CHAINGUN</name>
+	<name>HEAVY_MINIGUN</name>
+	<name>LASER_FIRE_CHAINGUN</name>
+	<name>LASER_HEAVY_CHARGE_1</name>
+	<name>LASER_HEAVY_CHARGE_2</name>
+	<name>LASER_CHARGEGUN_4</name>
+	<name>LASER_BURST_3</name>
+	<name>LASER_BURST_4</name>
+	<name>LASER_HEAVY_PIERCE_2</name>
+	<name>SHOTGUN_2</name>
+	<name>SHOTGUN_007</name>
+	<name>BA_SHOTGUN_SCATTER</name>
+	<name>SHTURM_FLAK</name>
+	<name>CHARGEGUN_SHOTGUN</name>
+	<name>BA_PLASMA_3</name>
+	<name>BA_LASER_ARTILLERY_2</name>
+	<name>BA_LASER_HULLCRUSHER_2</name>
+	<name>BA_LASER_HULLCRUSHER_3</name>
+	
+	<name>MPP_LASER_1</name><!-- 1.26 -->
+	<name>MPP_LASER_2</name><!-- 1.26 -->
+	<name>LASER_LIGHT_1</name>
+	<name>LASER_LIGHT_SCATTER_1</name>
+	<name>BA_STUNGUN_1</name>
+	<name>BA_BEAM_BATON</name>
+	
+	<name>BEAM_1</name>
+	<name>BEAM_LONG</name>
+	<name>BA_BEAM_K2</name><!-- 1.25.3 -->
+	<name>BEAM_GUISARME</name><!-- 1.23 -->
+	<name>BEAM_LONG_SYS</name><!-- 1.25.3 -->
+	<name>BA_BEAM_HASTA</name>
+	<name>BA_BEAM_K1</name><!-- 1.25.3 -->
+	<name>BA_BEAM_HULL_SMALL</name>
+	<name>BA_BEAM_HULL_MINI</name><!-- 1.25.3 -->
+	<name>BA_BEAM_AUTO</name>
+	<name>BA_BEAM_ADAPTIVE_1</name>
+	<name>BA_BEAM_BARDICHE</name>
+	
+	<name>BEAM_1_2</name>
+	<name>BEAM_HULL</name>
+	<name>BA_BEAM_ADAPTIVE_2</name>
+	<name>BA_BEAM_SCYTHE</name>
+	<name>BA_BEAM_PERNACH</name>
+	<name>BEAM_FIRE</name>
+	<name>BEAM_2</name>
+	<name>BA_BEAM_POLLAXE</name><!-- 1.26 -->
+	<name>BEAM_SP_DAITO</name>
+	
+	<name>BOMB_STUN</name>
+	<name>BOMB_1</name>
+	<name>BA_BOMB_FIRE_SMALL</name>
+	<name>BOMB_BREACH_1</name>
+	<name>BA_BOMB_CLUSTER_STUN_ENEMY</name>
+	<name>BA_BOMB_CLUSTER_STUN_ENEMY2</name><!-- 1.23 -->
+	
+	<name>BOMB_FIRE</name>
+	<name>BA_BOMB_CLUSTER_BREACH</name>
+	<name>BA_BOMB_CLUSTER_1</name>
+	<name>BA_BOMB_CLUSTER_ION</name>
+	
+	<name>MISSILES_1</name>
+	<name>MISSILES_2_PLAYER</name>
+	<name>BA_MISSILE_CHARGEGUN_SMALL</name>
+	<name>MISSILES_SYS1</name><!-- 1.25.1 -->
+	<name>MISSILES_SYS2</name><!-- 1.25.1 -->
+	<name>BA_MISSILES_FOBOS</name><!-- 1.25.3 -->
+	<name>BA_MISSILES_DEIMOS</name><!-- 1.25.3 -->
+	<name>BA_MISSILES_SWARM_1</name>
+	<name>BA_MISSILES_SWARM_2</name>
+	<name>BA_MISSILES_ASTERIA</name>
+	<name>BA_MISSILES_HULL_SMALL</name>
+	<name>BA_MINES_SMALL</name>
+	
+	<name>MISSILES_3</name>
+	<name>MISSILES_BURST</name>
+	<name>MISSILE_CHARGEGUN</name>
+	<name>BA_SHOTGUN_MISSILES</name>
+	<name>BA_MISSILES_ONI</name>
+	<name>BA_MISSILES_SWARM_3</name>
+	<name>MISSILES_HULL</name>
+	<name>BA_MISSILES_PERYTON</name>
+	<name>BA_MISSILES_4</name>
+	<name>BA_MISSILES_COCKATRICE</name>
+	<name>BA_MINES_MEDIUM</name>
+	<name>BA_MINES_TECH</name>
+	<name>BA_MINES_MEDIUM_M2</name> <!-- 1.25 -->
+	<name>BA_MINES_MEDIUM_M3</name> <!-- 1.25 -->
+	<name>BA_MINE_ION</name>
+	
+	<name>MISSILES_ARU_GOLIAPH</name> <!-- 1.26.1 -->
+	<name>MISSILES_HYDRA</name>
+	<name>MISSILES_MEGA</name>
+	<name>MISSILES_BREACH</name>
+	<name>BA_SHOTGUN_MISSILES2</name>
+	<name>BA_SHOTGUN_MISSILES3</name>
+	<name>BA_MISSILES_IFRIT</name>
+	<name>BA_MISSILES_FIRE</name>
+	<name>BA_MISSILES_SIMURGH</name>
+	<name>BA_MINES_BIG</name>
+	
+	<name>ION_STUN</name>
+	<name>ION_CHAINGUN</name>
+	<name>BA_SHOTGUN_ION_1</name>
+	<name>BA_ION_2_STUN</name>
+	<name>BA_ION_BURST_1_STUN</name>
+	<name>BA_ION_PIERCE_1</name>
+	<name>BA_EFFECTOR_1</name>
+	<name>BA_ION_BURST_1</name>
+	<name>ION_HEAVY_1</name>
+	<name>ION_BLAST_1</name>
+	
+	<name>ION_CHARGEGUN</name>
+	<name>BA_ION_VULKAN</name>
+	<name>BA_SHOTGUN_ION_2</name>
+	<name>BA_ION_PIERCE_2</name>
+	<name>BA_EFFECTOR_2</name>
+	<name>BA_EFFECTOR_ADAPTIVE</name>
+	<name>BA_ION_BURST_2</name>
+	<name>ION_BLAST_2</name>
+	<name>ION_BLAST_3</name>
+	<name>BA_ION_CHAIN_MINI</name> <!-- 1.23 -->
+</blueprintList>
+
+<blueprintList name="WEAPONS_JELLY">
+	<name>LASER_CHAIN_1</name>
+	<name>LASER_CHAIN_2</name>
+	<name>LASER_CHAIN_LONG_1</name> <!-- 1.26 -->
+	<name>LASER_CHAIN_LONG_2</name> <!-- 1.26 -->
+	<name>LASER_CHARGEGUN_1</name>
+	<name>LASER_CHARGEGUN_2</name>
+	<name>LASER_BURST_1</name>
+	<name>LASER_HEAVY_1</name>
+	<name>LASER_STANDARD_1</name>
+	<name>LASER_STANDARD_2</name>
+	<name>LASER_DUAL_1</name>
+	<name>LASER_DUAL_2</name>
+	<name>BA_SHOTGUN_SMALL</name>
+	<name>BA_PLASMA_1</name>
+	<name>BA_LASER_AUTO_1</name>
+	<name>BA_LASER_AUTO_2</name>
+	<name>BA_LASER_BURST_SCATTER_1</name>
+	<name>BA_LASER_BURST_SCATTER_2</name>
+	<name>BA_LASER_HEAVY_SCATTER_1</name>
+	<name>BA_LASER_HEAVY_SCATTER_2</name>
+	<name>BA_LASER_HULL_SMALL</name>
+
+	<name>LASER_SUPER_HEAVY_1</name><!-- 1.26 -->
+	<name>LASER_AL_1</name> <!-- 1.26.2 -->
+	<name>BA_LASER_WAR_1</name><!-- 1.26 -->
+	<name>BA_LASER_WAR_2</name><!-- 1.26 -->
+	<name>BA_LASER_WAR_3</name><!-- 1.26 -->
+	<name>LASER_PIERCE_1</name>
+	<name>LASER_PIERCE_2</name>
+	<name>SHTURM_LASER_1</name>
+	<name>SHTURM_LASER_2</name>
+	<name>LASER_HEAVY_CHAIN</name>
+	<name>LASER_AUTO_CHAIN</name>
+	<name>LASER_CHAIN_3</name>
+	<name>LASER_CHAIN_LONG_3</name> <!-- 1.26 -->
+	<name>LASER_CHARGEGUN_3</name>
+	<name>LASER_BURST_2</name>
+	<name>LASER_HEAVY_2</name>
+	<name>LASER_HEAVY_PIERCE_1</name>
+	<name>SHOTGUN</name>
+	<name>BA_PLASMA_2</name>
+	<name>BA_LASER_AUTO_3</name>
+	<name>BA_LASER_BURST_SCATTER_3</name>
+	<name>LASER_SCATTERCHAIN</name><!-- 1.25.1 -->
+	<name>BA_LASER_ARTILLERY_1</name>
+	<name>BA_LASER_HULLCRUSHER</name>
+	<name>LASER_HULL_1</name>
+	<name>LASER_HULL_2</name>
+	<name>LASER_IMP_2</name><!-- 1.25.1 -->
+	<name>LASER_IMP_3</name><!-- 1.25.1 -->
+	<name>LASER_HULLCHAIN</name><!-- 1.25.1 -->
+	
+	<name>MPP_LASER_1</name><!-- 1.26 -->
+	<name>MPP_LASER_2</name><!-- 1.26 -->
+	<name>LASER_LIGHT_1</name>
+	<name>LASER_LIGHT_SCATTER_1</name>
+	<name>BA_STUNGUN_1</name>
+	<name>BA_BEAM_BATON</name>
+	
+	<name>LASER_LIGHT_2</name>
+	<name>LASER_LIGHT_SCATTER_2</name>
+	<name>BA_STUNGUN_2</name>
+	<name>BA_BEAM_BO</name>
+	<name>BA_BEAM_BIO_2</name>
+	
+	<name>HEAVY_PPL</name>
+	<name>LASER_LIGHT_3</name>
+	<name>LIGHT_BREACH_LASER_1</name><!-- 1.24 -->
+	<name>LIGHT_BREACH_LASER_2</name><!-- 1.24 -->
+	<name>LIGHT_BREACH_VULCAN</name><!-- 1.24 -->
+	<name>LASER_LIGHT_AUTO</name>
+	<name>LASER_LIGHT_SCATTER_3</name>
+	<name>BA_LASER_LIGHT_ARTILLERY</name>
+	<name>BA_LASER_LIGHT_CHAINGUN</name>
+	<name>BEAM_BIO</name>
+	<name>BEAM_CHAIN_BIO</name><!-- 1.25.3 -->
+	<name>BA_BEAM_BIO_SP1</name><!-- 1.25.1 -->
+	<name>BA_BEAM_BIO_SP2</name><!-- 1.25.1 -->
+	<name>BA_BEAM_SHEST</name>
+	<name>BA_BEAM_SMASHER</name><!-- 1.25.3 -->
+	<name>BA_BEAM_BIO_FOCUS</name>
+	
+	<name>BEAM_1</name>
+	<name>BEAM_LONG</name>
+	<name>BA_BEAM_K2</name><!-- 1.25.3 -->
+	<name>BEAM_GUISARME</name><!-- 1.23 -->
+	<name>BEAM_LONG_SYS</name><!-- 1.25.3 -->
+	<name>BA_BEAM_HASTA</name>
+	<name>BA_BEAM_K1</name><!-- 1.25.3 -->
+	<name>BA_BEAM_HULL_SMALL</name>
+	<name>BA_BEAM_HULL_MINI</name><!-- 1.25.3 -->
+	<name>BA_BEAM_AUTO</name>
+	<name>BA_BEAM_ADAPTIVE_1</name>
+	<name>BA_BEAM_BARDICHE</name>
+	
+	<name>BEAM_1_2</name>
+	<name>BEAM_HULL</name>
+	<name>BA_BEAM_ADAPTIVE_2</name>
+	<name>BA_BEAM_SCYTHE</name>
+	<name>BA_BEAM_PERNACH</name>
+	<name>BEAM_FIRE</name>
+	<name>BEAM_2</name>
+	<name>BA_BEAM_POLLAXE</name><!-- 1.26 -->
+	<name>BEAM_SP_DAITO</name>
+	
+	<name>BOMB_STUN</name>
+	<name>BOMB_1</name>
+	<name>BA_BOMB_FIRE_SMALL</name>
+	<name>BOMB_BREACH_1</name>
+	<name>BA_BOMB_CLUSTER_STUN_ENEMY</name>
+	<name>BA_BOMB_CLUSTER_STUN_ENEMY2</name><!-- 1.23 -->
+	
+	<name>BOMB_FIRE</name>
+	<name>BA_BOMB_CLUSTER_BREACH</name>
+	<name>BA_BOMB_CLUSTER_1</name>
+	<name>BA_BOMB_CLUSTER_ION</name>
+	
+	<name>BA_BOMB_BIG</name>
+	<name>BA_BOMB_TIMER</name><!-- 1.25 -->
+	<name>BA_BOMB_FIRE_2</name>
+	<name>BA_BOMB_CLUSTER_FIRE</name>
+	<name>BA_BOMB_BIO</name>
+	<name>BOMB_BREACH_2</name>
+	<name>BOMB_BREACH_3</name>
+	<name>BOMB_ION</name>
+	
+	<name>MISSILES_1</name>
+	<name>MISSILES_2_PLAYER</name>
+	<name>BA_MISSILE_CHARGEGUN_SMALL</name>
+	<name>MISSILES_SYS1</name><!-- 1.25.1 -->
+	<name>MISSILES_SYS2</name><!-- 1.25.1 -->
+	<name>BA_MISSILES_FOBOS</name><!-- 1.25.3 -->
+	<name>BA_MISSILES_DEIMOS</name><!-- 1.25.3 -->
+	<name>BA_MISSILES_SWARM_1</name>
+	<name>BA_MISSILES_SWARM_2</name>
+	<name>BA_MISSILES_ASTERIA</name>
+	<name>BA_MISSILES_HULL_SMALL</name>
+	<name>BA_MINES_SMALL</name>
+	
+	<name>MISSILES_3</name>
+	<name>MISSILES_BURST</name>
+	<name>MISSILE_CHARGEGUN</name>
+	<name>BA_SHOTGUN_MISSILES</name>
+	<name>BA_MISSILES_ONI</name>
+	<name>BA_MISSILES_SWARM_3</name>
+	<name>MISSILES_HULL</name>
+	<name>BA_MISSILES_PERYTON</name>
+	<name>BA_MISSILES_4</name>
+	<name>BA_MISSILES_COCKATRICE</name>
+	<name>BA_MINES_MEDIUM</name>
+	<name>BA_MINES_TECH</name>
+	<name>BA_MINES_MEDIUM_M2</name> <!-- 1.25 -->
+	<name>BA_MINES_MEDIUM_M3</name> <!-- 1.25 -->
+	<name>BA_MINE_ION</name>
+	
+	<name>ION_STUN</name>
+	<name>ION_CHAINGUN</name>
+	<name>BA_SHOTGUN_ION_1</name>
+	<name>BA_ION_2_STUN</name>
+	<name>BA_ION_BURST_1_STUN</name>
+	<name>BA_ION_PIERCE_1</name>
+	<name>BA_EFFECTOR_1</name>
+	<name>BA_ION_BURST_1</name>
+	<name>ION_HEAVY_1</name>
+	<name>ION_BLAST_1</name>
+	
+	<name>ION_CHARGEGUN</name>
+	<name>BA_ION_VULKAN</name>
+	<name>BA_SHOTGUN_ION_2</name>
+	<name>BA_ION_PIERCE_2</name>
+	<name>BA_EFFECTOR_2</name>
+	<name>BA_EFFECTOR_ADAPTIVE</name>
+	<name>BA_ION_BURST_2</name>
+	<name>ION_BLAST_2</name>
+	<name>ION_BLAST_3</name>
+	<name>BA_ION_CHAIN_MINI</name> <!-- 1.23 -->
+</blueprintList>
+
+<blueprintList name="WEAPONS_MANTIS">
+	<name>LASER_CHAIN_1</name>
+	<name>LASER_CHAIN_2</name>
+	<name>LASER_CHAIN_LONG_1</name> <!-- 1.26 -->
+	<name>LASER_CHAIN_LONG_2</name> <!-- 1.26 -->
+	<name>LASER_CHARGEGUN_1</name>
+	<name>LASER_CHARGEGUN_2</name>
+	<name>LASER_BURST_1</name>
+	<name>LASER_HEAVY_1</name>
+	<name>LASER_STANDARD_1</name>
+	<name>LASER_STANDARD_2</name>
+	<name>LASER_DUAL_1</name>
+	<name>LASER_DUAL_2</name>
+	<name>BA_SHOTGUN_SMALL</name>
+	<name>BA_PLASMA_1</name>
+	<name>BA_LASER_AUTO_1</name>
+	<name>BA_LASER_AUTO_2</name>
+	<name>BA_LASER_BURST_SCATTER_1</name>
+	<name>BA_LASER_BURST_SCATTER_2</name>
+	<name>BA_LASER_HEAVY_SCATTER_1</name>
+	<name>BA_LASER_HEAVY_SCATTER_2</name>
+	<name>BA_LASER_HULL_SMALL</name>
+
+	<name>LASER_SUPER_HEAVY_1</name><!-- 1.26 -->
+	<name>LASER_AL_1</name> <!-- 1.26.2 -->
+	<name>BA_LASER_WAR_1</name><!-- 1.26 -->
+	<name>BA_LASER_WAR_2</name><!-- 1.26 -->
+	<name>BA_LASER_WAR_3</name><!-- 1.26 -->
+	<name>LASER_PIERCE_1</name>
+	<name>LASER_PIERCE_2</name>
+	<name>SHTURM_LASER_1</name>
+	<name>SHTURM_LASER_2</name>
+	<name>LASER_HEAVY_CHAIN</name>
+	<name>LASER_AUTO_CHAIN</name>
+	<name>LASER_CHAIN_3</name>
+	<name>LASER_CHAIN_LONG_3</name> <!-- 1.26 -->
+	<name>LASER_CHARGEGUN_3</name>
+	<name>LASER_BURST_2</name>
+	<name>LASER_HEAVY_2</name>
+	<name>LASER_HEAVY_PIERCE_1</name>
+	<name>SHOTGUN</name>
+	<name>BA_PLASMA_2</name>
+	<name>BA_LASER_AUTO_3</name>
+	<name>BA_LASER_BURST_SCATTER_3</name>
+	<name>LASER_SCATTERCHAIN</name><!-- 1.25.1 -->
+	<name>BA_LASER_ARTILLERY_1</name>
+	<name>BA_LASER_HULLCRUSHER</name>
+	<name>LASER_HULL_1</name>
+	<name>LASER_HULL_2</name>
+	<name>LASER_IMP_2</name><!-- 1.25.1 -->
+	<name>LASER_IMP_3</name><!-- 1.25.1 -->
+	<name>LASER_HULLCHAIN</name><!-- 1.25.1 -->
+	
+	<name>LASER_SUPER_HEAVY_2</name><!-- 1.26 -->
+	<name>LASER_AL_2</name> <!-- 1.26.2 -->
+	<name>RAIL_DRIVER</name>
+	<name>LASER_CHAINGUN</name>
+	<name>HEAVY_MINIGUN</name>
+	<name>LASER_FIRE_CHAINGUN</name>
+	<name>LASER_HEAVY_CHARGE_1</name>
+	<name>LASER_HEAVY_CHARGE_2</name>
+	<name>LASER_CHARGEGUN_4</name>
+	<name>LASER_BURST_3</name>
+	<name>LASER_BURST_4</name>
+	<name>LASER_HEAVY_PIERCE_2</name>
+	<name>SHOTGUN_2</name>
+	<name>SHOTGUN_007</name>
+	<name>BA_SHOTGUN_SCATTER</name>
+	<name>SHTURM_FLAK</name>
+	<name>CHARGEGUN_SHOTGUN</name>
+	<name>BA_PLASMA_3</name>
+	<name>BA_LASER_ARTILLERY_2</name>
+	<name>BA_LASER_HULLCRUSHER_2</name>
+	<name>BA_LASER_HULLCRUSHER_3</name>
+	
+	<name>BEAM_1</name>
+	<name>BEAM_LONG</name>
+	<name>BA_BEAM_K2</name><!-- 1.25.3 -->
+	<name>BEAM_GUISARME</name><!-- 1.23 -->
+	<name>BEAM_LONG_SYS</name><!-- 1.25.3 -->
+	<name>BA_BEAM_HASTA</name>
+	<name>BA_BEAM_K1</name><!-- 1.25.3 -->
+	<name>BA_BEAM_HULL_SMALL</name>
+	<name>BA_BEAM_HULL_MINI</name><!-- 1.25.3 -->
+	<name>BA_BEAM_AUTO</name>
+	<name>BA_BEAM_ADAPTIVE_1</name>
+	<name>BA_BEAM_BARDICHE</name>
+	
+	<name>BOMB_STUN</name>
+	<name>BOMB_1</name>
+	<name>BA_BOMB_FIRE_SMALL</name>
+	<name>BOMB_BREACH_1</name>
+	<name>BA_BOMB_CLUSTER_STUN_ENEMY</name>
+	<name>BA_BOMB_CLUSTER_STUN_ENEMY2</name><!-- 1.23 -->
+	
+	<name>BOMB_FIRE</name>
+	<name>BA_BOMB_CLUSTER_BREACH</name>
+	<name>BA_BOMB_CLUSTER_1</name>
+	<name>BA_BOMB_CLUSTER_ION</name>
+	
+	<name>MISSILES_1</name>
+	<name>MISSILES_2_PLAYER</name>
+	<name>BA_MISSILE_CHARGEGUN_SMALL</name>
+	<name>MISSILES_SYS1</name><!-- 1.25.1 -->
+	<name>MISSILES_SYS2</name><!-- 1.25.1 -->
+	<name>BA_MISSILES_FOBOS</name><!-- 1.25.3 -->
+	<name>BA_MISSILES_DEIMOS</name><!-- 1.25.3 -->
+	<name>BA_MISSILES_SWARM_1</name>
+	<name>BA_MISSILES_SWARM_2</name>
+	<name>BA_MISSILES_ASTERIA</name>
+	<name>BA_MISSILES_HULL_SMALL</name>
+	<name>BA_MINES_SMALL</name>
+	
+	<name>MISSILES_3</name>
+	<name>MISSILES_BURST</name>
+	<name>MISSILE_CHARGEGUN</name>
+	<name>BA_SHOTGUN_MISSILES</name>
+	<name>BA_MISSILES_ONI</name>
+	<name>BA_MISSILES_SWARM_3</name>
+	<name>MISSILES_HULL</name>
+	<name>BA_MISSILES_PERYTON</name>
+	<name>BA_MISSILES_4</name>
+	<name>BA_MISSILES_COCKATRICE</name>
+	<name>BA_MINES_MEDIUM</name>
+	<name>BA_MINES_TECH</name>
+	<name>BA_MINES_MEDIUM_M2</name> <!-- 1.25 -->
+	<name>BA_MINES_MEDIUM_M3</name> <!-- 1.25 -->
+	<name>BA_MINE_ION</name>
+	
+	<name>ION_STUN</name>
+	<name>ION_CHAINGUN</name>
+	<name>BA_SHOTGUN_ION_1</name>
+	<name>BA_ION_2_STUN</name>
+	<name>BA_ION_BURST_1_STUN</name>
+	<name>BA_ION_PIERCE_1</name>
+	<name>BA_EFFECTOR_1</name>
+	<name>BA_ION_BURST_1</name>
+	<name>ION_HEAVY_1</name>
+	<name>ION_BLAST_1</name>
+</blueprintList>
+
+<blueprintList name="WEAPONS_FED">
+	<name>LASER_CHAIN_1</name>
+	<name>LASER_CHAIN_2</name>
+	<name>LASER_CHAIN_LONG_1</name> <!-- 1.26 -->
+	<name>LASER_CHAIN_LONG_2</name> <!-- 1.26 -->
+	<name>LASER_CHARGEGUN_1</name>
+	<name>LASER_CHARGEGUN_2</name>
+	<name>LASER_BURST_1</name>
+	<name>LASER_HEAVY_1</name>
+	<name>LASER_STANDARD_1</name>
+	<name>LASER_STANDARD_2</name>
+	<name>LASER_DUAL_1</name>
+	<name>LASER_DUAL_2</name>
+	<name>BA_SHOTGUN_SMALL</name>
+	<name>BA_PLASMA_1</name>
+	<name>BA_LASER_AUTO_1</name>
+	<name>BA_LASER_AUTO_2</name>
+	<name>BA_LASER_BURST_SCATTER_1</name>
+	<name>BA_LASER_BURST_SCATTER_2</name>
+	<name>BA_LASER_HEAVY_SCATTER_1</name>
+	<name>BA_LASER_HEAVY_SCATTER_2</name>
+	<name>BA_LASER_HULL_SMALL</name>
+
+	<name>LASER_SUPER_HEAVY_1</name><!-- 1.26 -->
+	<name>LASER_AL_1</name> <!-- 1.26.2 -->
+	<name>BA_LASER_WAR_1</name><!-- 1.26 -->
+	<name>BA_LASER_WAR_2</name><!-- 1.26 -->
+	<name>BA_LASER_WAR_3</name><!-- 1.26 -->
+	<name>LASER_PIERCE_1</name>
+	<name>LASER_PIERCE_2</name>
+	<name>SHTURM_LASER_1</name>
+	<name>SHTURM_LASER_2</name>
+	<name>LASER_HEAVY_CHAIN</name>
+	<name>LASER_AUTO_CHAIN</name>
+	<name>LASER_CHAIN_3</name>
+	<name>LASER_CHAIN_LONG_3</name> <!-- 1.26 -->
+	<name>LASER_CHARGEGUN_3</name>
+	<name>LASER_BURST_2</name>
+	<name>LASER_HEAVY_2</name>
+	<name>LASER_HEAVY_PIERCE_1</name>
+	<name>SHOTGUN</name>
+	<name>BA_PLASMA_2</name>
+	<name>BA_LASER_AUTO_3</name>
+	<name>BA_LASER_BURST_SCATTER_3</name>
+	<name>LASER_SCATTERCHAIN</name><!-- 1.25.1 -->
+	<name>BA_LASER_ARTILLERY_1</name>
+	<name>BA_LASER_HULLCRUSHER</name>
+	<name>LASER_HULL_1</name>
+	<name>LASER_HULL_2</name>
+	<name>LASER_IMP_2</name><!-- 1.25.1 -->
+	<name>LASER_IMP_3</name><!-- 1.25.1 -->
+	<name>LASER_HULLCHAIN</name><!-- 1.25.1 -->
+	
+	<name>MPP_LASER_1</name><!-- 1.26 -->
+	<name>MPP_LASER_2</name><!-- 1.26 -->
+	<name>LASER_LIGHT_1</name>
+	<name>LASER_LIGHT_SCATTER_1</name>
+	<name>BA_STUNGUN_1</name>
+	<name>BA_BEAM_BATON</name>
+	
+	<name>LASER_LIGHT_2</name>
+	<name>LASER_LIGHT_SCATTER_2</name>
+	<name>BA_STUNGUN_2</name>
+	<name>BA_BEAM_BO</name>
+	<name>BA_BEAM_BIO_2</name>
+	
+	<name>BEAM_1</name>
+	<name>BEAM_LONG</name>
+	<name>BA_BEAM_K2</name><!-- 1.25.3 -->
+	<name>BEAM_GUISARME</name><!-- 1.23 -->
+	<name>BEAM_LONG_SYS</name><!-- 1.25.3 -->
+	<name>BA_BEAM_HASTA</name>
+	<name>BA_BEAM_K1</name><!-- 1.25.3 -->
+	<name>BA_BEAM_HULL_SMALL</name>
+	<name>BA_BEAM_HULL_MINI</name><!-- 1.25.3 -->
+	<name>BA_BEAM_AUTO</name>
+	<name>BA_BEAM_ADAPTIVE_1</name>
+	<name>BA_BEAM_BARDICHE</name>
+	
+	<name>BEAM_1_2</name>
+	<name>BEAM_HULL</name>
+	<name>BA_BEAM_ADAPTIVE_2</name>
+	<name>BA_BEAM_SCYTHE</name>
+	<name>BA_BEAM_PERNACH</name>
+	<name>BEAM_FIRE</name>
+	<name>BEAM_2</name>
+	<name>BA_BEAM_POLLAXE</name><!-- 1.26 -->
+	<name>BEAM_SP_DAITO</name>
+	
+	<name>BOMB_STUN</name>
+	<name>BOMB_1</name>
+	<name>BA_BOMB_FIRE_SMALL</name>
+	<name>BOMB_BREACH_1</name>
+	<name>BA_BOMB_CLUSTER_STUN_ENEMY</name>
+	<name>BA_BOMB_CLUSTER_STUN_ENEMY2</name><!-- 1.23 -->
+	
+	<name>BOMB_FIRE</name>
+	<name>BA_BOMB_CLUSTER_BREACH</name>
+	<name>BA_BOMB_CLUSTER_1</name>
+	<name>BA_BOMB_CLUSTER_ION</name>
+	
+	<name>MISSILES_1</name>
+	<name>MISSILES_2_PLAYER</name>
+	<name>BA_MISSILE_CHARGEGUN_SMALL</name>
+	<name>MISSILES_SYS1</name><!-- 1.25.1 -->
+	<name>MISSILES_SYS2</name><!-- 1.25.1 -->
+	<name>BA_MISSILES_FOBOS</name><!-- 1.25.3 -->
+	<name>BA_MISSILES_DEIMOS</name><!-- 1.25.3 -->
+	<name>BA_MISSILES_SWARM_1</name>
+	<name>BA_MISSILES_SWARM_2</name>
+	<name>BA_MISSILES_ASTERIA</name>
+	<name>BA_MISSILES_HULL_SMALL</name>
+	<name>BA_MINES_SMALL</name>
+	
+	<name>MISSILES_3</name>
+	<name>MISSILES_BURST</name>
+	<name>MISSILE_CHARGEGUN</name>
+	<name>BA_SHOTGUN_MISSILES</name>
+	<name>BA_MISSILES_ONI</name>
+	<name>BA_MISSILES_SWARM_3</name>
+	<name>MISSILES_HULL</name>
+	<name>BA_MISSILES_PERYTON</name>
+	<name>BA_MISSILES_4</name>
+	<name>BA_MISSILES_COCKATRICE</name>
+	<name>BA_MINES_MEDIUM</name>
+	<name>BA_MINES_TECH</name>
+	<name>BA_MINES_MEDIUM_M2</name> <!-- 1.25 -->
+	<name>BA_MINES_MEDIUM_M3</name> <!-- 1.25 -->
+	<name>BA_MINE_ION</name>
+	
+	<name>ION_STUN</name>
+	<name>ION_CHAINGUN</name>
+	<name>BA_SHOTGUN_ION_1</name>
+	<name>BA_ION_2_STUN</name>
+	<name>BA_ION_BURST_1_STUN</name>
+	<name>BA_ION_PIERCE_1</name>
+	<name>BA_EFFECTOR_1</name>
+	<name>BA_ION_BURST_1</name>
+	<name>ION_HEAVY_1</name>
+	<name>ION_BLAST_1</name>
+	
+	<name>ION_CHARGEGUN</name>
+	<name>BA_ION_VULKAN</name>
+	<name>BA_SHOTGUN_ION_2</name>
+	<name>BA_ION_PIERCE_2</name>
+	<name>BA_EFFECTOR_2</name>
+	<name>BA_EFFECTOR_ADAPTIVE</name>
+	<name>BA_ION_BURST_2</name>
+	<name>ION_BLAST_2</name>
+	<name>ION_BLAST_3</name>
+	<name>BA_ION_CHAIN_MINI</name> <!-- 1.23 -->
+</blueprintList>
+
+<blueprintList name="WEAPONS_CIRCLE">
+	<name>LASER_CHAIN_1</name>
+	<name>LASER_CHAIN_2</name>
+	<name>LASER_CHAIN_LONG_1</name> <!-- 1.26 -->
+	<name>LASER_CHAIN_LONG_2</name> <!-- 1.26 -->
+	<name>LASER_CHARGEGUN_1</name>
+	<name>LASER_CHARGEGUN_2</name>
+	<name>LASER_BURST_1</name>
+	<name>LASER_HEAVY_1</name>
+	<name>LASER_STANDARD_1</name>
+	<name>LASER_STANDARD_2</name>
+	<name>LASER_DUAL_1</name>
+	<name>LASER_DUAL_2</name>
+	<name>BA_SHOTGUN_SMALL</name>
+	<name>BA_PLASMA_1</name>
+	<name>BA_LASER_AUTO_1</name>
+	<name>BA_LASER_AUTO_2</name>
+	<name>BA_LASER_BURST_SCATTER_1</name>
+	<name>BA_LASER_BURST_SCATTER_2</name>
+	<name>BA_LASER_HEAVY_SCATTER_1</name>
+	<name>BA_LASER_HEAVY_SCATTER_2</name>
+	<name>BA_LASER_HULL_SMALL</name>
+	
+	<name>MPP_LASER_1</name><!-- 1.26 -->
+	<name>MPP_LASER_2</name><!-- 1.26 -->
+	<name>LASER_LIGHT_1</name>
+	<name>LASER_LIGHT_SCATTER_1</name>
+	<name>BA_STUNGUN_1</name>
+	<name>BA_BEAM_BATON</name>
+	
+	<name>LASER_LIGHT_2</name>
+	<name>LASER_LIGHT_SCATTER_2</name>
+	<name>BA_STUNGUN_2</name>
+	<name>BA_BEAM_BO</name>
+	<name>BA_BEAM_BIO_2</name>
+	
+	<name>BEAM_1</name>
+	<name>BEAM_LONG</name>
+	<name>BA_BEAM_K2</name><!-- 1.25.3 -->
+	<name>BEAM_GUISARME</name><!-- 1.23 -->
+	<name>BEAM_LONG_SYS</name><!-- 1.25.3 -->
+	<name>BA_BEAM_HASTA</name>
+	<name>BA_BEAM_K1</name><!-- 1.25.3 -->
+	<name>BA_BEAM_HULL_SMALL</name>
+	<name>BA_BEAM_HULL_MINI</name><!-- 1.25.3 -->
+	<name>BA_BEAM_AUTO</name>
+	<name>BA_BEAM_ADAPTIVE_1</name>
+	<name>BA_BEAM_BARDICHE</name>
+	
+	<name>BEAM_1_2</name>
+	<name>BEAM_HULL</name>
+	<name>BA_BEAM_ADAPTIVE_2</name>
+	<name>BA_BEAM_SCYTHE</name>
+	<name>BA_BEAM_PERNACH</name>
+	<name>BEAM_FIRE</name>
+	<name>BEAM_2</name>
+	<name>BA_BEAM_POLLAXE</name><!-- 1.26 -->
+	<name>BEAM_SP_DAITO</name>
+	
+	<name>BOMB_STUN</name>
+	<name>BOMB_1</name>
+	<name>BA_BOMB_FIRE_SMALL</name>
+	<name>BOMB_BREACH_1</name>
+	<name>BA_BOMB_CLUSTER_STUN_ENEMY</name>
+	<name>BA_BOMB_CLUSTER_STUN_ENEMY2</name><!-- 1.23 -->
+	
+	<name>BOMB_FIRE</name>
+	<name>BA_BOMB_CLUSTER_BREACH</name>
+	<name>BA_BOMB_CLUSTER_1</name>
+	<name>BA_BOMB_CLUSTER_ION</name>
+	
+	<name>BA_BOMB_BIG</name>
+	<name>BA_BOMB_TIMER</name><!-- 1.25 -->
+	<name>BA_BOMB_FIRE_2</name>
+	<name>BA_BOMB_CLUSTER_FIRE</name>
+	<name>BA_BOMB_BIO</name>
+	<name>BOMB_BREACH_2</name>
+	<name>BOMB_BREACH_3</name>
+	<name>BOMB_ION</name>
+	
+	<name>MISSILES_1</name>
+	<name>MISSILES_2_PLAYER</name>
+	<name>BA_MISSILE_CHARGEGUN_SMALL</name>
+	<name>MISSILES_SYS1</name><!-- 1.25.1 -->
+	<name>MISSILES_SYS2</name><!-- 1.25.1 -->
+	<name>BA_MISSILES_FOBOS</name><!-- 1.25.3 -->
+	<name>BA_MISSILES_DEIMOS</name><!-- 1.25.3 -->
+	<name>BA_MISSILES_SWARM_1</name>
+	<name>BA_MISSILES_SWARM_2</name>
+	<name>BA_MISSILES_ASTERIA</name>
+	<name>BA_MISSILES_HULL_SMALL</name>
+	<name>BA_MINES_SMALL</name>
+	
+	<name>MISSILES_3</name>
+	<name>MISSILES_BURST</name>
+	<name>MISSILE_CHARGEGUN</name>
+	<name>BA_SHOTGUN_MISSILES</name>
+	<name>BA_MISSILES_ONI</name>
+	<name>BA_MISSILES_SWARM_3</name>
+	<name>MISSILES_HULL</name>
+	<name>BA_MISSILES_PERYTON</name>
+	<name>BA_MISSILES_4</name>
+	<name>BA_MISSILES_COCKATRICE</name>
+	<name>BA_MINES_MEDIUM</name>
+	<name>BA_MINES_TECH</name>
+	<name>BA_MINES_MEDIUM_M2</name> <!-- 1.25 -->
+	<name>BA_MINES_MEDIUM_M3</name> <!-- 1.25 -->
+	<name>BA_MINE_ION</name>
+	
+	<name>ION_STUN</name>
+	<name>ION_CHAINGUN</name>
+	<name>BA_SHOTGUN_ION_1</name>
+	<name>BA_ION_2_STUN</name>
+	<name>BA_ION_BURST_1_STUN</name>
+	<name>BA_ION_PIERCE_1</name>
+	<name>BA_EFFECTOR_1</name>
+	<name>BA_ION_BURST_1</name>
+	<name>ION_HEAVY_1</name>
+	<name>ION_BLAST_1</name>
+	
+	<name>ION_CHARGEGUN</name>
+	<name>BA_ION_VULKAN</name>
+	<name>BA_SHOTGUN_ION_2</name>
+	<name>BA_ION_PIERCE_2</name>
+	<name>BA_EFFECTOR_2</name>
+	<name>BA_EFFECTOR_ADAPTIVE</name>
+	<name>BA_ION_BURST_2</name>
+	<name>ION_BLAST_2</name>
+	<name>ION_BLAST_3</name>
+	<name>BA_ION_CHAIN_MINI</name> <!-- 1.23 -->
+	
+	<name>ION_CHARGEGUN_2</name>
+	<name>BA_EFFECTOR_3</name>
+	<name>BA_ION_BURST_3</name>
+	<name>ION_HEAVY_2</name>
+	<name>ION_HEAVY_3</name>
+</blueprintList>
+
+<blueprintList name="WEAPONS_ZOLTAN">  
+	<name>LASER_CHAIN_1</name>
+	<name>LASER_CHAIN_2</name>
+	<name>LASER_CHAIN_LONG_1</name> <!-- 1.26 -->
+	<name>LASER_CHAIN_LONG_2</name> <!-- 1.26 -->
+	<name>LASER_CHARGEGUN_1</name>
+	<name>LASER_CHARGEGUN_2</name>
+	<name>LASER_BURST_1</name>
+	<name>LASER_HEAVY_1</name>
+	<name>LASER_STANDARD_1</name>
+	<name>LASER_STANDARD_2</name>
+	<name>LASER_DUAL_1</name>
+	<name>LASER_DUAL_2</name>
+	<name>BA_SHOTGUN_SMALL</name>
+	<name>BA_PLASMA_1</name>
+	<name>BA_LASER_AUTO_1</name>
+	<name>BA_LASER_AUTO_2</name>
+	<name>BA_LASER_BURST_SCATTER_1</name>
+	<name>BA_LASER_BURST_SCATTER_2</name>
+	<name>BA_LASER_HEAVY_SCATTER_1</name>
+	<name>BA_LASER_HEAVY_SCATTER_2</name>
+	<name>BA_LASER_HULL_SMALL</name>
+	
+	<name>MPP_LASER_1</name><!-- 1.26 -->
+	<name>MPP_LASER_2</name><!-- 1.26 -->
+	<name>LASER_LIGHT_1</name>
+	<name>LASER_LIGHT_SCATTER_1</name>
+	<name>BA_STUNGUN_1</name>
+	<name>BA_BEAM_BATON</name>
+	
+	<name>LASER_LIGHT_2</name>
+	<name>LASER_LIGHT_SCATTER_2</name>
+	<name>BA_STUNGUN_2</name>
+	<name>BA_BEAM_BO</name>
+	<name>BA_BEAM_BIO_2</name>
+	
+	<name>BEAM_1</name>
+	<name>BEAM_LONG</name>
+	<name>BA_BEAM_K2</name><!-- 1.25.3 -->
+	<name>BEAM_GUISARME</name><!-- 1.23 -->
+	<name>BEAM_LONG_SYS</name><!-- 1.25.3 -->
+	<name>BA_BEAM_HASTA</name>
+	<name>BA_BEAM_K1</name><!-- 1.25.3 -->
+	<name>BA_BEAM_HULL_SMALL</name>
+	<name>BA_BEAM_HULL_MINI</name><!-- 1.25.3 -->
+	<name>BA_BEAM_AUTO</name>
+	<name>BA_BEAM_ADAPTIVE_1</name>
+	<name>BA_BEAM_BARDICHE</name>
+	
+	<name>BEAM_1_2</name>
+	<name>BEAM_HULL</name>
+	<name>BA_BEAM_ADAPTIVE_2</name>
+	<name>BA_BEAM_SCYTHE</name>
+	<name>BA_BEAM_PERNACH</name>
+	<name>BEAM_FIRE</name>
+	<name>BEAM_2</name>
+	<name>BA_BEAM_POLLAXE</name><!-- 1.26 -->
+	<name>BEAM_SP_DAITO</name>
+	
+	<name>BEAM_FAUCHARD</name>
+	<name>BA_BEAM_ADAPTIVE_3</name>
+	<name>BA_BEAM_FLAIL_DAMAGE</name>
+	<name>BA_BEAM_NAGINATA</name>
+	<name>BA_BEAM_MAUL</name>
+	<name>BA_BEAM_FIRE_2</name>
+	<name>BEAM_FIRECHAIN</name><!-- 1.26.3 -->
+	<name>BA_BEAM_FIRE_FOCUS</name>
+	<name>BA_BEAM_FIRE_FOCUS2</name>
+	<name>BEAM_3</name>
+	<name>BA_BEAM_PARTISAN</name><!-- 1.26 -->
+	<name>BEAM_SP_KATANA</name>
+	<name>BEAM_BIOFIRE</name>
+	
+	<name>BOMB_STUN</name>
+	<name>BOMB_1</name>
+	<name>BA_BOMB_FIRE_SMALL</name>
+	<name>BOMB_BREACH_1</name>
+	<name>BA_BOMB_CLUSTER_STUN_ENEMY</name>
+	<name>BA_BOMB_CLUSTER_STUN_ENEMY2</name><!-- 1.23 -->
+	
+	<name>BOMB_FIRE</name>
+	<name>BA_BOMB_CLUSTER_BREACH</name>
+	<name>BA_BOMB_CLUSTER_1</name>
+	<name>BA_BOMB_CLUSTER_ION</name>
+	
+	<name>MISSILES_1</name>
+	<name>MISSILES_2_PLAYER</name>
+	<name>BA_MISSILE_CHARGEGUN_SMALL</name>
+	<name>MISSILES_SYS1</name><!-- 1.25.1 -->
+	<name>MISSILES_SYS2</name><!-- 1.25.1 -->
+	<name>BA_MISSILES_FOBOS</name><!-- 1.25.3 -->
+	<name>BA_MISSILES_DEIMOS</name><!-- 1.25.3 -->
+	<name>BA_MISSILES_SWARM_1</name>
+	<name>BA_MISSILES_SWARM_2</name>
+	<name>BA_MISSILES_ASTERIA</name>
+	<name>BA_MISSILES_HULL_SMALL</name>
+	<name>BA_MINES_SMALL</name>
+	
+	<name>MISSILES_3</name>
+	<name>MISSILES_BURST</name>
+	<name>MISSILE_CHARGEGUN</name>
+	<name>BA_SHOTGUN_MISSILES</name>
+	<name>BA_MISSILES_ONI</name>
+	<name>BA_MISSILES_SWARM_3</name>
+	<name>MISSILES_HULL</name>
+	<name>BA_MISSILES_PERYTON</name>
+	<name>BA_MISSILES_4</name>
+	<name>BA_MISSILES_COCKATRICE</name>
+	<name>BA_MINES_MEDIUM</name>
+	<name>BA_MINES_TECH</name>
+	<name>BA_MINES_MEDIUM_M2</name> <!-- 1.25 -->
+	<name>BA_MINES_MEDIUM_M3</name> <!-- 1.25 -->
+	<name>BA_MINE_ION</name>
+	
+	<name>ION_STUN</name>
+	<name>ION_CHAINGUN</name>
+	<name>BA_SHOTGUN_ION_1</name>
+	<name>BA_ION_2_STUN</name>
+	<name>BA_ION_BURST_1_STUN</name>
+	<name>BA_ION_PIERCE_1</name>
+	<name>BA_EFFECTOR_1</name>
+	<name>BA_ION_BURST_1</name>
+	<name>ION_HEAVY_1</name>
+	<name>ION_BLAST_1</name>
+	
+	<name>ION_CHARGEGUN</name>
+	<name>BA_ION_VULKAN</name>
+	<name>BA_SHOTGUN_ION_2</name>
+	<name>BA_ION_PIERCE_2</name>
+	<name>BA_EFFECTOR_2</name>
+	<name>BA_EFFECTOR_ADAPTIVE</name>
+	<name>BA_ION_BURST_2</name>
+	<name>ION_BLAST_2</name>
+	<name>ION_BLAST_3</name>
+	<name>BA_ION_CHAIN_MINI</name> <!-- 1.23 -->
+	
+	<name>ION_CHARGEGUN_2</name>
+	<name>BA_EFFECTOR_3</name>
+	<name>BA_ION_BURST_3</name>
+	<name>ION_HEAVY_2</name>
+	<name>ION_HEAVY_3</name>
+</blueprintList>
+
+<blueprintList name="WEAPONS_CRYSTAL">  
+	<name>BOMB_LOCK</name> 
+	<name>CRYSTAL_BURST_1</name> 
+	<name>CRYSTAL_BURST_2</name> 
+	<name>CRYSTAL_HEAVY_1</name> 
+	<name>CRYSTAL_HEAVY_2</name>
+	<name>BA_BOMB_LOCK_2</name> 
+	<name>BA_CRYSTAL_LIGHT_1</name> 
+	<name>BA_CRYSTAL_LIGHT_2</name>
+	<name>BA_CRYSTAL_HEAVY_LOCKDOWN_1</name> 
+	<name>BA_CRYSTAL_HEAVY_LOCKDOWN_2</name>
+</blueprintList>
+
+<blueprintList name="WEAPONS_CRYSTAL_BOMB">  
+	<name>BOMB_LOCK</name> 
+	<name>BA_BOMB_LOCK_2</name> 
+</blueprintList>
+
+<blueprintList name="WEAPONS_CRYSTAL_BURST">  
+	<name>CRYSTAL_BURST_1</name> 
+	<name>CRYSTAL_BURST_2</name> 
+	<name>CRYSTAL_HEAVY_1</name> 
+	<name>CRYSTAL_HEAVY_2</name>
+	<name>BA_CRYSTAL_LIGHT_1</name> 
+	<name>BA_CRYSTAL_LIGHT_2</name>
+	<name>BA_CRYSTAL_HEAVY_LOCKDOWN_1</name> 
+	<name>BA_CRYSTAL_HEAVY_LOCKDOWN_2</name>
+</blueprintList>
+
+<blueprintList name="DE_DRONES_CRYSTAL"> 
+	<name>DE_DRONE_CRYSTAL</name>
+	<name>DE_DRONE_CRYSTAL_2</name>
+	<name>DE_DRONE_CRYSTAL_HEAVY</name> 
+	<name>DE_DRONE_CRYSTAL_LIGHT</name> 
+	<name>DE_DRONE_DEFENSE_CRYSTAL_LIGHT</name> 
+	<name>DE_DRONE_ANTI_CRYSTAL_HEAVY</name>
+	<name>SHIP_REPAIR_CRYSTAL</name> <!-- 1.26 -->
+</blueprintList>
+
+<blueprintList name="DE_DRONES_CRYSTAL_COMBAT"> 
+	<name>DE_DRONE_CRYSTAL</name>
+	<name>DE_DRONE_CRYSTAL_2</name>
+	<name>DE_DRONE_CRYSTAL_HEAVY</name> 
+	<name>DE_DRONE_CRYSTAL_LIGHT</name> 
+</blueprintList>
+
+<blueprintList name="DE_DRONES_CRYSTAL_DEFENSE"> 
+	<name>DE_DRONE_DEFENSE_CRYSTAL_LIGHT</name> 
+	<name>DE_DRONE_ANTI_CRYSTAL_HEAVY</name>
+</blueprintList>
+
+<blueprintList name="WEAPONS_AI">
+	<name>LASER_CHAIN_1</name>
+	<name>LASER_CHAIN_2</name>
+	<name>LASER_CHAIN_LONG_1</name> <!-- 1.26 -->
+	<name>LASER_CHAIN_LONG_2</name> <!-- 1.26 -->
+	<name>LASER_CHARGEGUN_1</name>
+	<name>LASER_CHARGEGUN_2</name>
+	<name>LASER_BURST_1</name>
+	<name>LASER_HEAVY_1</name>
+	<name>LASER_STANDARD_1</name>
+	<name>LASER_STANDARD_2</name>
+	<name>LASER_DUAL_1</name>
+	<name>LASER_DUAL_2</name>
+	<name>BA_SHOTGUN_SMALL</name>
+	<name>BA_PLASMA_1</name>
+	<name>BA_LASER_AUTO_1</name>
+	<name>BA_LASER_AUTO_2</name>
+	<name>BA_LASER_BURST_SCATTER_1</name>
+	<name>BA_LASER_BURST_SCATTER_2</name>
+	<name>BA_LASER_HEAVY_SCATTER_1</name>
+	<name>BA_LASER_HEAVY_SCATTER_2</name>
+	<name>BA_LASER_HULL_SMALL</name>
+
+	<name>LASER_SUPER_HEAVY_1</name><!-- 1.26 -->
+	<name>LASER_AL_1</name> <!-- 1.26.2 -->
+	<name>BA_LASER_WAR_1</name><!-- 1.26 -->
+	<name>BA_LASER_WAR_2</name><!-- 1.26 -->
+	<name>BA_LASER_WAR_3</name><!-- 1.26 -->
+	<name>LASER_PIERCE_1</name>
+	<name>LASER_PIERCE_2</name>
+	<name>SHTURM_LASER_1</name>
+	<name>SHTURM_LASER_2</name>
+	<name>LASER_HEAVY_CHAIN</name>
+	<name>LASER_AUTO_CHAIN</name>
+	<name>LASER_CHAIN_3</name>
+	<name>LASER_CHAIN_LONG_3</name> <!-- 1.26 -->
+	<name>LASER_CHARGEGUN_3</name>
+	<name>LASER_BURST_2</name>
+	<name>LASER_HEAVY_2</name>
+	<name>LASER_HEAVY_PIERCE_1</name>
+	<name>SHOTGUN</name>
+	<name>BA_PLASMA_2</name>
+	<name>BA_LASER_AUTO_3</name>
+	<name>BA_LASER_BURST_SCATTER_3</name>
+	<name>LASER_SCATTERCHAIN</name><!-- 1.25.1 -->
+	<name>BA_LASER_ARTILLERY_1</name>
+	<name>BA_LASER_HULLCRUSHER</name>
+	<name>LASER_HULL_1</name>
+	<name>LASER_HULL_2</name>
+	<name>LASER_IMP_2</name><!-- 1.25.1 -->
+	<name>LASER_IMP_3</name><!-- 1.25.1 -->
+	<name>LASER_HULLCHAIN</name><!-- 1.25.1 -->
+	
+	<name>MPP_LASER_1</name><!-- 1.26 -->
+	<name>MPP_LASER_2</name><!-- 1.26 -->
+	<name>LASER_LIGHT_1</name>
+	<name>LASER_LIGHT_SCATTER_1</name>
+	<name>BA_STUNGUN_1</name>
+	<name>BA_BEAM_BATON</name>
+	
+	<name>LASER_LIGHT_2</name>
+	<name>LASER_LIGHT_SCATTER_2</name>
+	<name>BA_STUNGUN_2</name>
+	<name>BA_BEAM_BO</name>
+	<name>BA_BEAM_BIO_2</name>
+	
+	<name>HEAVY_PPL</name>
+	<name>LASER_LIGHT_3</name>
+	<name>LIGHT_BREACH_LASER_1</name><!-- 1.24 -->
+	<name>LIGHT_BREACH_LASER_2</name><!-- 1.24 -->
+	<name>LIGHT_BREACH_VULCAN</name><!-- 1.24 -->
+	<name>LASER_LIGHT_AUTO</name>
+	<name>LASER_LIGHT_SCATTER_3</name>
+	<name>BA_LASER_LIGHT_ARTILLERY</name>
+	<name>BA_LASER_LIGHT_CHAINGUN</name>
+	<name>BEAM_BIO</name>
+	<name>BEAM_CHAIN_BIO</name><!-- 1.25.3 -->
+	<name>BA_BEAM_BIO_SP1</name><!-- 1.25.1 -->
+	<name>BA_BEAM_BIO_SP2</name><!-- 1.25.1 -->
+	<name>BA_BEAM_SHEST</name>
+	<name>BA_BEAM_SMASHER</name><!-- 1.25.3 -->
+	<name>BA_BEAM_BIO_FOCUS</name>
+	
+	<name>BEAM_1</name>
+	<name>BEAM_LONG</name>
+	<name>BA_BEAM_K2</name><!-- 1.25.3 -->
+	<name>BEAM_GUISARME</name><!-- 1.23 -->
+	<name>BEAM_LONG_SYS</name><!-- 1.25.3 -->
+	<name>BA_BEAM_HASTA</name>
+	<name>BA_BEAM_K1</name><!-- 1.25.3 -->
+	<name>BA_BEAM_HULL_SMALL</name>
+	<name>BA_BEAM_HULL_MINI</name><!-- 1.25.3 -->
+	<name>BA_BEAM_AUTO</name>
+	<name>BA_BEAM_ADAPTIVE_1</name>
+	<name>BA_BEAM_BARDICHE</name>
+	
+	<name>BEAM_1_2</name>
+	<name>BEAM_HULL</name>
+	<name>BA_BEAM_ADAPTIVE_2</name>
+	<name>BA_BEAM_SCYTHE</name>
+	<name>BA_BEAM_PERNACH</name>
+	<name>BEAM_FIRE</name>
+	<name>BEAM_2</name>
+	<name>BA_BEAM_POLLAXE</name><!-- 1.26 -->
+	<name>BEAM_SP_DAITO</name>
+	
+	<name>BOMB_STUN</name>
+	<name>BOMB_1</name>
+	<name>BA_BOMB_FIRE_SMALL</name>
+	<name>BOMB_BREACH_1</name>
+	<name>BA_BOMB_CLUSTER_STUN_ENEMY</name>
+	<name>BA_BOMB_CLUSTER_STUN_ENEMY2</name><!-- 1.23 -->
+	
+	<name>BOMB_FIRE</name>
+	<name>BA_BOMB_CLUSTER_BREACH</name>
+	<name>BA_BOMB_CLUSTER_1</name>
+	<name>BA_BOMB_CLUSTER_ION</name>
+	
+	<name>BA_BOMB_BIG</name>
+	<name>BA_BOMB_TIMER</name><!-- 1.25 -->
+	<name>BA_BOMB_FIRE_2</name>
+	<name>BA_BOMB_CLUSTER_FIRE</name>
+	<name>BA_BOMB_BIO</name>
+	<name>BOMB_BREACH_2</name>
+	<name>BOMB_BREACH_3</name>
+	<name>BOMB_ION</name>
+	
+	<name>MISSILES_1</name>
+	<name>MISSILES_2_PLAYER</name>
+	<name>BA_MISSILE_CHARGEGUN_SMALL</name>
+	<name>MISSILES_SYS1</name><!-- 1.25.1 -->
+	<name>MISSILES_SYS2</name><!-- 1.25.1 -->
+	<name>BA_MISSILES_FOBOS</name><!-- 1.25.3 -->
+	<name>BA_MISSILES_DEIMOS</name><!-- 1.25.3 -->
+	<name>BA_MISSILES_SWARM_1</name>
+	<name>BA_MISSILES_SWARM_2</name>
+	<name>BA_MISSILES_ASTERIA</name>
+	<name>BA_MISSILES_HULL_SMALL</name>
+	<name>BA_MINES_SMALL</name>
+	
+	<name>ION_STUN</name>
+	<name>ION_CHAINGUN</name>
+	<name>BA_SHOTGUN_ION_1</name>
+	<name>BA_ION_2_STUN</name>
+	<name>BA_ION_BURST_1_STUN</name>
+	<name>BA_ION_PIERCE_1</name>
+	<name>BA_EFFECTOR_1</name>
+	<name>BA_ION_BURST_1</name>
+	<name>ION_HEAVY_1</name>
+	<name>ION_BLAST_1</name>
+</blueprintList>
+
+<blueprintList name="WEAPONS_AI_PRISM">
+	<name>LASER_PRISM</name> 
+	<name>LASER_PRISM_2</name>
+</blueprintList>
+
+<blueprintList name="WEAPONS_AI_PRISM2">
+	<name>LASER_PRISM</name> 
+	<name>LASER_PRISM_2</name>
+	<name>LASER_PRISM_3</name>
+</blueprintList>
+
+<blueprintList name="WEAPONS_LASER_ALL">
+	<name>LASER_STANDARD_1</name>
+	<name>LASER_PIERCE_1</name>
+	<name>LASER_PIERCE_2</name>
+	<name>LASER_BURST_1</name>
+	<name>LASER_BURST_2</name>
+	<name>LASER_BURST_4</name>
+	<name>LASER_HEAVY_1</name>
+	<name>LASER_SUPER_HEAVY_1</name><!-- 1.26 -->
+	<name>LASER_AL_1</name> <!-- 1.26.2 -->
+	<name>LASER_HEAVY_2</name>
+	<name>LASER_SUPER_HEAVY_2</name><!-- 1.26 -->
+	<name>LASER_AL_2</name> <!-- 1.26.2 -->
+	<name>LASER_HEAVY_PIERCE_1</name>
+	<name>LASER_HEAVY_PIERCE_2</name>
+	<name>LASER_HEAVY_CHAIN</name>
+	<name>LASER_BURST_3</name>
+	<name>SHTURM_LASER_1</name>
+	<name>SHTURM_LASER_2</name>
+	<name>LASER_HULL_1</name>
+	<name>LASER_HULL_2</name>
+	<name>LASER_IMP_2</name><!-- 1.25.1 -->
+	<name>LASER_IMP_3</name><!-- 1.25.1 -->
+	<name>LASER_HULLCHAIN</name><!-- 1.25.1 -->
+	<name>LASER_OLD</name>
+	<name>LASER_DUAL_1</name>
+	<name>BA_LASER_AUTO_1</name>
+	<name>BA_LASER_AUTO_2</name>
+	<name>BA_LASER_AUTO_3</name>
+	<name>LASER_AUTO_CHAIN</name>
+	<name>LASER_STANDARD_2</name>
+	<name>BA_LASER_WAR_1</name><!-- 1.26 -->
+	<name>BA_LASER_WAR_2</name><!-- 1.26 -->
+	<name>BA_LASER_WAR_3</name><!-- 1.26 -->
+	<name>LASER_DUAL_2</name>
+	<name>MPP_LASER_1</name><!-- 1.26 -->
+	<name>MPP_LASER_2</name><!-- 1.26 -->
+	<name>LASER_LIGHT_1</name>
+	<name>LASER_LIGHT_2</name>
+	<name>LASER_LIGHT_3</name>
+	<name>LIGHT_BREACH_LASER_1</name><!-- 1.24 -->
+	<name>LIGHT_BREACH_LASER_2</name><!-- 1.24 -->
+	<name>LIGHT_BREACH_VULCAN</name><!-- 1.24 -->
+	<name>LASER_LIGHT_SCATTER_1</name>
+	<name>LASER_LIGHT_SCATTER_2</name>
+	<name>LASER_LIGHT_SCATTER_3</name>
+	<name>BA_LASER_LIGHT_ARTILLERY</name>
+	<name>LASER_LIGHT_AUTO</name>
+	<name>BA_LASER_HULL_SMALL</name>
+	<name>BA_LASER_BURST_SCATTER_1</name>
+	<name>BA_LASER_BURST_SCATTER_2</name>
+	<name>BA_LASER_BURST_SCATTER_3</name>
+	<name>LASER_SCATTERCHAIN</name><!-- 1.25.1 -->
+	<name>BA_LASER_HEAVY_SCATTER_1</name>
+	<name>BA_LASER_HEAVY_SCATTER_2</name>
+</blueprintList>
+
+<blueprintList name="WEAPONS_ION">
+	<name>ION_BLAST_1</name>
+	<name>ION_HEAVY_1</name>
+	<name>ION_BLAST_2</name>
+	<name>ION_BLAST_3</name>
+	<name>BA_ION_CHAIN_MINI</name> <!-- 1.23 -->
+	<name>BOMB_ION</name>
+	<name>ION_CHAINGUN</name>
+	<name>ION_STUN</name>
+	<name>ION_CHARGEGUN</name>
+	<name>ION_CHARGEGUN_2</name>
+	<name>BOMB_STUN</name>
+	<name>BA_ION_2_STUN</name>
+	<name>BA_ION_BURST_1_STUN</name>
+	<name>BA_SHOTGUN_ION_1</name>
+	<name>BA_SHOTGUN_ION_2</name>
+	<name>BA_ION_PIERCE_1</name>
+	<name>BA_ION_PIERCE_2</name>
+	<name>BA_ION_BURST_1</name>
+	<name>BA_ION_BURST_2</name>
+	<name>BA_ION_BURST_3</name>
+	<name>BA_ION_VULKAN</name>
+	<name>ION_HEAVY_3</name>
+	<name>ION_HEAVY_2</name>
+	<name>BA_EFFECTOR_1</name>
+	<name>BA_EFFECTOR_2</name>
+	<name>BA_EFFECTOR_3</name>
+	<name>BA_EFFECTOR_ADAPTIVE</name>
+</blueprintList>
+
+<blueprintList name="WEAPONS_LIGHT_BREACH"><!-- 1.25 -->
+	<name>LIGHT_BREACH_LASER_1</name>
+	<name>LIGHT_BREACH_LASER_2</name>
+	<name>LIGHT_BREACH_VULCAN</name>
+</blueprintList>
+
+<blueprintList name="WEAPONS_PARALIZE"><!-- 1.25 -->
+	<name>ION_STUN</name>
+	<name>BA_ION_BURST_1_STUN</name>
+	<name>BA_ION_2_STUN</name>
+	<name>IMITATION_COMPLEX_PLAYER</name>
+	<name>BA_STUNGUN_1</name>
+	<name>BA_STUNGUN_2</name>
+	<name>BA_STUNGUN_3</name>
+	
+	<name>ION_STUN_PRC</name>
+	<name>ION_STUN_CLD</name>
+	<name>UWB_ION_STUN</name>
+	<name>UWB_ION_STUN_PRC</name>
+	<name>UWB_ION_STUN_CLD</name>
+	<name>BA_ION_BURST_1_STUN_PRC</name>
+	<name>BA_ION_BURST_1_STUN_CLD</name>
+	<name>UWB_BA_ION_BURST_1_STUN</name>
+	<name>UWB_BA_ION_BURST_1_STUN_PRC</name>
+	<name>UWB_BA_ION_BURST_1_STUN_CLD</name>
+	<name>IMITATION_COMPLEX_PLAYER_CLD</name>
+	<name>BA_STUNGUN_1_CLD</name>
+	<name>BA_STUNGUN_2_CLD</name>
+	<name>BA_STUNGUN_3_CLD</name>
+	<!-- 1.26.3 -->
+	<name>ION_STUN_UNI</name>
+	<name>BA_ION_BURST_1_STUN_UNI</name>
+	<name>BA_ION_2_STUN_UNI</name>
+	<name>IMITATION_COMPLEX_PLAYER_UNI</name>
+	<name>BA_STUNGUN_1_UNI</name>
+	<name>BA_STUNGUN_2_UNI</name>
+	<name>BA_STUNGUN_3_UNI</name>
+</blueprintList>
+
+<blueprintList name="WEAPONS_ION_POW1">
+	<name>ION_BLAST_1</name>
+	<name>BOMB_ION</name>
+	<name>ION_STUN</name>
+	<name>BOMB_STUN</name>
+	<name>BA_ION_BURST_1_STUN</name>
+	<name>BA_SHOTGUN_ION_1</name>
+	<name>BA_ION_PIERCE_1</name>
+	<name>BA_ION_BURST_1</name>
+</blueprintList>
+
+<blueprintList name="WEAPONS_ION_POW2">
+	<name>ION_HEAVY_1</name>
+	<name>ION_CHARGEGUN</name>
+	<name>BA_ION_2_STUN</name>
+	<name>BA_SHOTGUN_ION_2</name>
+	<name>BA_ION_PIERCE_2</name>
+	<name>BA_ION_BURST_2</name>
+	<name>ION_HEAVY_2</name>
+	<name>BA_EFFECTOR_1</name>
+	<name>BA_EFFECTOR_2</name>
+	<name>BA_EFFECTOR_3</name>
+	<name>ION_BLAST_2</name>
+	<name>BA_ION_CHAIN_MINI</name> <!-- 1.23 -->
+</blueprintList>
+
+<blueprintList name="WEAPONS_ION_POW3">
+	<name>ION_BLAST_3</name>
+	<name>ION_CHAINGUN</name>
+	<name>ION_CHARGEGUN_2</name>
+	<name>BA_ION_BURST_3</name>
+	<name>ION_HEAVY_3</name>
+	<name>BA_EFFECTOR_ADAPTIVE</name>
+</blueprintList>
+
+<blueprintList name="DRONES_STANDARD">  <!-- this is just all of them --> <!-- 1.21 ???-->
+	<name>BATTLE</name>
+	<name>BOARDER</name>
+	<name>COMBAT_1_OLD</name>
+	<name>COMBAT_2</name>
+	<name>COMBAT_BEAM_OLD</name>
+	<name>DEFENSE_1_OLD</name>
+	<name>DEFENSE_2</name>
+	<name>DE_BATTLE_2</name>
+	<name>DE_BATTLE_3</name>
+	<name>DE_BATTLE_4</name>
+	<name>DE_BOARDER_2</name>
+	<name>DE_BOARDER_3</name>
+	<name>DE_BOARDER_4</name>
+	<name>DE_DRONE_BEAM_FOCUS2</name>
+	<name>DE_DRONE_BEAM_FOCUS</name>
+	<name>DE_DRONE_DEFENSE_3</name>
+	<name>DE_DRONE_DEFENSE_GAUSS</name>
+	<name>DE_DRONE_DEFENSE_HEAVY</name>
+	<name>DE_DRONE_DEFENSE_HEAVY_SMALL</name>
+	<name>DE_DRONE_DEFENSE_LIGHT_1</name>
+	<name>DE_DRONE_DEFENSE_LIGHT_2</name>
+	<name>DE_DRONE_DEFENSE_LIGHT_MISSILE</name>
+	<name>DE_DRONE_DEFENSE_SCATTER</name>
+	<name>DE_DRONE_DEFENSE_SWARM_MISSILE</name>
+	<name>DE_DRONE_HEAVY_1</name>
+	<name>DE_DRONE_HEAVY_2</name>
+	<name>DE_DRONE_HEAVY_SCATTER</name>
+	<name>DE_DRONE_HULL_1</name>
+	<name>DE_DRONE_HULL_2</name>
+	<name>DE_DRONE_HULL_BEAM</name>
+	<name>DE_DRONE_ION_3</name>
+	<name>DE_DRONE_ION_PIERCE</name>
+	<name>DE_DRONE_LIGHT_1</name>
+	<name>DE_DRONE_LIGHT_2</name>
+	<name>DE_DRONE_LIGHT_MISSILE</name>
+	<name>DE_DRONE_LIGHT_MISSILE_FIRE</name>
+	<name>DE_DRONE_LIGHT_SCATTER</name>
+	<name>DE_DRONE_SCATTER</name>
+	<name>DE_REPAIR_2</name>
+	<name>DE_REPAIR_3</name>
+	<name>DE_REPAIR_4</name>
+	<name>DRONE_FLAK1</name>
+	<name>DRONE_ION_V3</name>
+	<name>DRONE_ION_V4</name>
+	<name>DRONE_LOCKER_1</name>
+	<name>DRONE_LOCKER_2</name>
+	<name>DRONE_TRASS1</name>
+	<name>DRONE_TRASS2</name>
+	<name>PPL_BEAM_DRONE</name>
+	<name>PSLD_1_BEAM_DRONE</name>
+	<name>PSLD_2_BEAM_DRONE</name>
+	<name>REPAIR_OLD</name>
+	<name>TB_SHIP_REPAIR</name>
+   	<name>DE_DRONE_BEAM_2</name>
+   	<name>DE_DRONE_ION_1</name>
+   	<name>DE_DRONE_ION_2</name>
+   	<name>DE_DRONE_MINE_MEDIUM</name>
+   	<name>DE_DRONE_MINE_SMALL</name>
+   	<name>DE_DRONE_MISSILES_1</name>
+   	<name>DE_DRONE_MISSILES_2</name>
+   	<name>DE_DRONE_MISSILES_3</name>
+   	<name>DE_DRONE_MISSILES_BARRAGE</name>
+   	<name>DE_DRONE_PLASMA</name>
+</blueprintList>
+
+<blueprintList name="DRONES_STANDARD_PLAYER">  <!-- this is just all of them -->
+	<name>BATTLE</name>
+	<name>BOARDER</name>
+	<name>COMBAT_1_OLD</name>
+	<name>COMBAT_2</name>
+	<name>COMBAT_BEAM_OLD</name>
+	<name>DEFENSE_1_OLD</name>
+	<name>DEFENSE_2</name>
+	<name>DE_BATTLE_2</name>
+	<name>DE_BATTLE_3</name>
+	<name>DE_BATTLE_4</name>
+	<name>DE_BOARDER_2</name>
+	<name>DE_BOARDER_3</name>
+	<name>DE_BOARDER_4</name>
+	<name>DE_DRONE_BEAM_FOCUS2</name>
+	<name>DE_DRONE_BEAM_FOCUS</name>
+	<name>DE_DRONE_DEFENSE_3</name>
+	<name>DE_DRONE_DEFENSE_GAUSS</name>
+	<name>DE_DRONE_DEFENSE_HEAVY</name>
+	<name>DE_DRONE_DEFENSE_HEAVY_SMALL</name>
+	<name>DE_DRONE_DEFENSE_LIGHT_1</name>
+	<name>DE_DRONE_DEFENSE_LIGHT_2</name>
+	<name>DE_DRONE_DEFENSE_LIGHT_MISSILE</name>
+	<name>DE_DRONE_DEFENSE_SCATTER</name>
+	<name>DE_DRONE_DEFENSE_SWARM_MISSILE</name>
+	<name>DE_DRONE_HEAVY_1</name>
+	<name>DE_DRONE_HEAVY_2</name>
+	<name>DE_DRONE_HEAVY_SCATTER</name>
+	<name>DE_DRONE_HULL_1</name>
+	<name>DE_DRONE_HULL_2</name>
+	<name>DE_DRONE_HULL_BEAM</name>
+	<name>DE_DRONE_ION_3</name>
+	<name>DE_DRONE_ION_PIERCE</name>
+	<name>DE_DRONE_LIGHT_1</name>
+	<name>DE_DRONE_LIGHT_2</name>
+	<name>DE_DRONE_LIGHT_MISSILE</name>
+	<name>DE_DRONE_LIGHT_MISSILE_FIRE</name>
+	<name>DE_DRONE_LIGHT_SCATTER</name>
+	<name>DE_DRONE_SCATTER</name>
+	<name>DE_REPAIR_2</name>
+	<name>DE_REPAIR_3</name>
+	<name>DE_REPAIR_4</name>
+	<name>DRONE_FLAK1</name>
+	<name>DRONE_ION_V3</name>
+	<name>DRONE_ION_V4</name>
+	<name>DRONE_LOCKER_1</name>
+	<name>DRONE_LOCKER_2</name>
+	<name>DRONE_TRASS1</name>
+	<name>DRONE_TRASS2</name>
+	<name>PPL_BEAM_DRONE</name>
+	<name>PSLD_1_BEAM_DRONE</name>
+	<name>PSLD_2_BEAM_DRONE</name>
+	<name>REPAIR_OLD</name>
+	<name>SHIP_REPAIR</name>
+   	<name>DE_DRONE_BEAM_2</name>
+   	<name>DE_DRONE_ION_1</name>
+   	<name>DE_DRONE_ION_2</name>
+   	<name>DE_DRONE_MINE_MEDIUM</name>
+   	<name>DE_DRONE_MINE_SMALL</name>
+   	<name>DE_DRONE_MISSILES_1</name>
+   	<name>DE_DRONE_MISSILES_2</name>
+   	<name>DE_DRONE_MISSILES_3</name>
+   	<name>DE_DRONE_MISSILES_BARRAGE</name>
+   	<name>DE_DRONE_PLASMA</name>
+</blueprintList>
+
+<blueprintList name="DRONES_COMBAT"> <!-- 1.23 -->
+	<name>COMBAT_1_OLD</name>
+	<name>COMBAT_2</name>
+	<name>COMBAT_BEAM_2</name>
+	<name>COMBAT_BEAM_3</name>
+	<name>COMBAT_BEAM_OLD</name>
+	<name>COMBAT_FIRE_2</name>
+	<name>COMBAT_FIRE_3</name>
+	<name>COMBAT_FIRE</name>
+	<name>DE_DRONE_BEAM_2</name>
+	<name>DE_DRONE_BEAM_FOCUS2</name>
+	<name>DE_DRONE_BEAM_FOCUS</name>
+	<name>DE_DRONE_HEAVY_1</name>
+	<name>DE_DRONE_HEAVY_2</name>
+	<name>DE_DRONE_HEAVY_SCATTER</name>
+	<name>DE_DRONE_HULL_1</name>
+	<name>DE_DRONE_HULL_2</name>
+	<name>DE_DRONE_HULL_BEAM</name>
+	<name>DE_DRONE_ION_1</name>
+	<name>DE_DRONE_ION_2</name>
+	<name>DE_DRONE_ION_3</name>
+	<name>DE_DRONE_ION_PIERCE</name>
+	<name>DE_DRONE_LIGHT_1</name>
+	<name>DE_DRONE_LIGHT_2</name>
+	<name>DE_DRONE_LIGHT_MISSILE</name>
+	<name>DE_DRONE_LIGHT_MISSILE_FIRE</name>
+	<name>DE_DRONE_LIGHT_MISSILE_STUN_ENEMY2</name> <!-- 1.24 -->
+	<name>DE_DRONE_LIGHT_MISSILE_STUN_ENEMY</name> <!-- 1.24 -->
+	<name>DE_DRONE_LIGHT_SCATTER</name>
+	<name>DE_DRONE_MINE_MEDIUM</name>
+   	<name>DE_DRONE_MINE_SMALL</name>
+   	<name>DE_DRONE_MISSILES_1</name>
+   	<name>DE_DRONE_MISSILES_2</name>
+   	<name>DE_DRONE_MISSILES_3</name>
+   	<name>DE_DRONE_MISSILES_BARRAGE</name>
+   	<name>DE_DRONE_PLASMA</name>
+	<name>DE_DRONE_SCATTER</name>
+	<name>DE_DRONE_STEALTH_BEAM_1</name>
+	<name>DE_DRONE_STEALTH_BEAM_2</name>
+	<name>DRONE_FLAK1</name>
+	<!-- <name>DRONE_ION_STUN_1</name> --> <!-- 1.25 -->
+	<name>DRONE_ION_V3</name>
+	<name>DRONE_ION_V4</name>
+	<name>DRONE_LOCKER_1</name>
+	<name>DRONE_LOCKER_2</name>
+	<name>DRONE_TRASS1</name>
+	<name>DRONE_TRASS2</name>
+	<name>PPL_BEAM_DRONE</name>
+	<name>PSLD_1_BEAM_DRONE</name>
+	<name>PSLD_2_BEAM_DRONE</name>
+	<name>DRONE_CHAFF</name> <!-- 1.25 -->
+</blueprintList>
+
+<blueprintList name="DRONES_HELPS_LIST">
+	<name>DE_REPAIR_4</name>
+	<name>DE_BATTLE_2</name>
+	<name>DE_BOARDER_2</name>
+	<name>BOARDER_ION</name>
+</blueprintList>
+
+<blueprintList name="DRONES_COMBAT_PROJECTILE">
+	<name>COMBAT_1_OLD</name>
+	<name>COMBAT_2</name>
+	<name>DE_DRONE_HEAVY_1</name>
+	<name>DE_DRONE_HEAVY_2</name>
+	<name>DE_DRONE_HEAVY_SCATTER</name>
+	<name>DE_DRONE_HULL_1</name>
+	<name>DE_DRONE_HULL_2</name>
+	<name>DE_DRONE_ION_3</name>
+	<name>DE_DRONE_ION_PIERCE</name>
+	<name>DE_DRONE_LIGHT_1</name>
+	<name>DE_DRONE_LIGHT_2</name>
+	<name>DE_DRONE_LIGHT_MISSILE</name>
+	<name>DE_DRONE_LIGHT_MISSILE_FIRE</name>
+	<name>DE_DRONE_LIGHT_SCATTER</name>
+	<name>DE_DRONE_SCATTER</name>
+	<name>DRONE_FLAK1</name>
+	<name>DRONE_ION_V3</name>
+	<name>DRONE_ION_V4</name>
+	<name>DRONE_LOCKER_1</name>
+	<name>DRONE_LOCKER_2</name>
+	<name>DRONE_TRASS1</name>
+	<name>DRONE_TRASS2</name>
+   	<name>DE_DRONE_ION_1</name>
+   	<name>DE_DRONE_ION_2</name>
+	<name>DE_DRONE_MINE_MEDIUM</name>
+   	<name>DE_DRONE_MINE_SMALL</name>
+   	<name>DE_DRONE_MISSILES_1</name>
+   	<name>DE_DRONE_MISSILES_2</name>
+   	<name>DE_DRONE_MISSILES_3</name>
+   	<name>DE_DRONE_MISSILES_BARRAGE</name>
+   	<name>DE_DRONE_PLASMA</name>
+</blueprintList>
+
+<blueprintList name="DRONES_DEFENSE">
+	<name>DEFENSE_1_OLD</name>
+	<name>DEFENSE_2</name>
+	<name>DE_DRONE_DEFENSE_LIGHT_MISSILE</name>
+	<name>DE_DRONE_DEFENSE_SWARM_MISSILE</name>
+	<name>DE_DRONE_DEFENSE_LIGHT_1</name>
+	<name>DE_DRONE_DEFENSE_LIGHT_2</name>
+	<name>DE_DRONE_DEFENSE_GAUSS</name>
+	<name>DE_DRONE_DEFENSE_HEAVY</name>
+	<name>DE_DRONE_DEFENSE_HEAVY_SMALL</name>
+	<name>DE_DRONE_DEFENSE_SCATTER</name>
+	<name>DE_DRONE_DEFENSE_3</name>
+</blueprintList>
+
+<blueprintList name="DRONES_ANTI">
+	<name>ANTI_DRONE</name>
+	<name>DE_ANTI_DRONE_2</name>
+	<name>DE_ANTI_DRONE_EFFECTOR</name>
+	<name>DE_ANTI_DRONE_MISSILES</name>
+	<name>DE_ANTI_DRONE_LASER_HEAVY</name>
+</blueprintList>
+
+<blueprintList name="DRONES_DEFENSE_ENEMY">
+	<name>DEFENSE_1_OLD</name>
+	<name>DEFENSE_2</name>
+	<name>DE_DRONE_DEFENSE_LIGHT_MISSILE</name>
+	<name>DE_DRONE_DEFENSE_SWARM_MISSILE</name>
+	<name>DE_DRONE_DEFENSE_LIGHT_1</name>
+	<name>DE_DRONE_DEFENSE_LIGHT_2</name>
+	<name>DE_DRONE_DEFENSE_GAUSS</name><!-- 1.21 -->
+	<name>DE_DRONE_DEFENSE_HEAVY</name>
+	<name>DE_DRONE_DEFENSE_HEAVY_SMALL</name>
+	<name>DE_DRONE_DEFENSE_SCATTER</name>
+	<name>DE_DRONE_DEFENSE_3</name>
+	<name>DE_DRONE_DEFENSE_MINESWEEPER</name>
+	<name>DE_DRONE_DEFENSE_SVCH</name><!-- 1.25 -->
+	<name>TB_SHIP_REPAIR</name>
+</blueprintList>
+
+<blueprintList name="CE_DRONES_AUTO_CONSTRUCTION">
+	<name>REPAIR_OLD</name>
+	<name>TB_SHIP_REPAIR</name>
+	<name>DE_DRONE_DEFENSE_HEAVY</name>
+	<name>DE_DRONE_DEFENSE_HEAVY_SMALL</name>
+	<name>DE_DRONE_DEFENSE_GAUSS</name><!-- 1.21 -->
+</blueprintList>
+
+<blueprintList name="CE_DRONES_REPAIR"> 
+	<name>REPAIR_OLD</name>
+	<name>TB_SHIP_REPAIR</name>
+	<name>DE_REPAIR_2</name>
+</blueprintList>
+
+<blueprintList name="CE_ZOLTAN_SHIELD">
+	<name>DE_DRONE_DEFENSE_HEAVY</name>
+	<name>DE_DRONE_DEFENSE_HEAVY_SMALL</name>
+	<name>DE_DRONE_DEFENSE_GAUSS</name><!-- 1.21 -->
+</blueprintList>
+
+<!-- 1.26 -->
+<blueprintList name="WEAPONS_ZOLTON_OVRRD">  
+	<name>LASER_CHAIN_1</name>
+	<name>LASER_CHAIN_2</name>
+	<name>LASER_CHAIN_LONG_1</name> 
+	<name>LASER_CHAIN_LONG_2</name> 
+	<name>LASER_CHARGEGUN_1</name>
+	<name>LASER_CHARGEGUN_2</name>
+	<name>LASER_BURST_1</name>
+	<name>LASER_HEAVY_1</name>
+	<name>LASER_SUPER_HEAVY_1</name>
+	<name>LASER_AL_1</name> <!-- 1.26.2 -->
+	<name>LASER_STANDARD_1</name>
+	<name>LASER_STANDARD_2</name>
+	<name>BA_LASER_WAR_1</name>
+	<name>BA_LASER_WAR_2</name>
+	<name>BA_LASER_WAR_3</name>
+	<name>LASER_DUAL_1</name>
+	<name>LASER_DUAL_2</name>
+	<name>BA_SHOTGUN_SMALL</name>
+	<name>BA_PLASMA_1</name>
+	<name>BA_LASER_AUTO_1</name>
+	<name>BA_LASER_AUTO_2</name>
+	<name>BA_LASER_BURST_SCATTER_1</name>
+	<name>BA_LASER_BURST_SCATTER_2</name>
+	<name>BA_LASER_HEAVY_SCATTER_1</name>
+	<name>BA_LASER_HEAVY_SCATTER_2</name>
+	<name>BA_LASER_HULL_SMALL</name>
+	
+	<name>MPP_LASER_1</name>
+	<name>MPP_LASER_2</name>
+	<name>LASER_LIGHT_1</name>
+	<name>LASER_LIGHT_SCATTER_1</name>
+	<name>BA_STUNGUN_1</name>
+	<name>BA_BEAM_BATON</name>
+	
+	<name>LASER_LIGHT_2</name>
+	<name>LASER_LIGHT_SCATTER_2</name>
+	<name>BA_STUNGUN_2</name>
+	<name>BA_BEAM_BO</name>
+	<name>BA_BEAM_BIO_2</name>
+	
+	<name>BOMB_STUN</name>
+	<name>BOMB_1</name>
+	<name>BA_BOMB_FIRE_SMALL</name>
+	<name>BOMB_BREACH_1</name>
+	<name>BA_BOMB_CLUSTER_STUN_ENEMY</name>
+	<name>BA_BOMB_CLUSTER_STUN_ENEMY2</name>
+	
+	<name>BOMB_FIRE</name>
+	<name>BA_BOMB_CLUSTER_BREACH</name>
+	<name>BA_BOMB_CLUSTER_1</name>
+	<name>BA_BOMB_CLUSTER_ION</name>
+	
+	<name>MISSILES_1</name>
+	<name>MISSILES_2_PLAYER</name>
+	<name>BA_MISSILE_CHARGEGUN_SMALL</name>
+	<name>MISSILES_SYS1</name>
+	<name>MISSILES_SYS2</name>
+	<name>BA_MISSILES_FOBOS</name>
+	<name>BA_MISSILES_DEIMOS</name>
+	<name>BA_MISSILES_SWARM_1</name>
+	<name>BA_MISSILES_SWARM_2</name>
+	<name>BA_MISSILES_ASTERIA</name>
+	<name>BA_MISSILES_HULL_SMALL</name>
+	<name>BA_MINES_SMALL</name>
+	
+	<name>MISSILES_3</name>
+	<name>MISSILES_BURST</name>
+	<name>MISSILE_CHARGEGUN</name>
+	<name>BA_SHOTGUN_MISSILES</name>
+	<name>BA_MISSILES_ONI</name>
+	<name>BA_MISSILES_SWARM_3</name>
+	<name>MISSILES_HULL</name>
+	<name>BA_MISSILES_PERYTON</name>
+	<name>BA_MISSILES_4</name>
+	<name>BA_MISSILES_COCKATRICE</name>
+	<name>BA_MINES_MEDIUM</name>
+	<name>BA_MINES_TECH</name>
+	<name>BA_MINES_MEDIUM_M2</name>
+	<name>BA_MINES_MEDIUM_M3</name>
+	<name>BA_MINE_ION</name>
+</blueprintList>
+
+<blueprintList name="WEAPONS_ZOLTON">
+	<name>BA_ION_HVBURST_1</name>
+	<name>BA_ION_HVBURST_1</name>
+	<name>BA_ION_HVBURST_1</name>
+	<name>BA_ION_HVBURST_1</name>
+	<name>BA_ION_HVBURST_1</name>
+	<name>BA_ION_HVBURST_1</name>
+	<name>BA_ION_HVBURST_1</name>
+	<name>BA_ION_HVBURST_1</name>
+	<name>BA_ION_HVBURST_1</name>
+	
+	<name>BA_ION_HVBURST_2</name>
+	<name>BA_ION_HVBURST_2</name>
+	<name>BA_ION_HVBURST_2</name>
+	
+	<name>BA_ION_HVBURST_3</name>
+	
+	<name>EX_BA_BEAM_BARDICHE</name>
+	<name>EX_BA_BEAM_BO</name>
+	<name>EX_BA_BEAM_SCYTHE</name>
+	<name>EX_BA_BEAM_HASTA</name>
+	<name>EX_BA_BEAM_NAGINATA</name>
+	<name>EX_BA_BEAM_FLAIL_DAMAGE</name>
+	<name>EX_BA_BEAM_SHEST</name>
+	<name>EX_BA_BEAM_K1</name>
+	<name>EX_BA_BEAM_K2</name>
+	<name>EX_BEAM_2</name>
+	<name>EX_BEAM_3</name>
+	<name>EX_BEAM_BIOFIRE</name>
+	<name>EX_BEAM_FAUCHARD</name>
+	<name>EX_BEAM_GUISARME</name>
+	<name>EX_BEAM_LONG</name>
+	<name>EX_BEAM_SP_KATANA</name>
+	<name>EX_BEAM_SP_DAITO</name>
+</blueprintList>
+
+<blueprintList name="WEAPONS_ZOLTON_REWARD">
+	<name>BA_ION_HVBURST_1</name>
+	<name>BA_ION_HVBURST_1</name>
+	<name>BA_ION_HVBURST_1</name>
+	<name>BA_ION_HVBURST_1</name>
+	<name>BA_ION_HVBURST_1</name>
+	<name>BA_ION_HVBURST_1</name>
+	<name>BA_ION_HVBURST_1</name>
+	<name>BA_ION_HVBURST_1</name>
+	<name>BA_ION_HVBURST_1</name>
+	
+	<name>BA_ION_HVBURST_2</name>
+	<name>BA_ION_HVBURST_2</name>
+	<name>BA_ION_HVBURST_2</name>
+	
+	<name>BA_ION_HVBURST_3</name>
+	
+	<name>EP_BA_BEAM_BARDICHE</name>
+	<name>EP_BA_BEAM_BO</name>
+	<name>EP_BA_BEAM_SCYTHE</name>
+	<name>EP_BA_BEAM_HASTA</name>
+	<name>EP_BA_BEAM_NAGINATA</name>
+	<name>EP_BA_BEAM_FLAIL_DAMAGE</name>
+	<name>EP_BA_BEAM_SHEST</name>
+	<name>EP_BA_BEAM_K1</name>
+	<name>EP_BA_BEAM_K2</name>
+	<name>EP_BEAM_2</name>
+	<name>EP_BEAM_3</name>
+	<name>EP_BEAM_BIOFIRE</name>
+	<name>EP_BEAM_FAUCHARD</name>
+	<name>EP_BEAM_GUISARME</name>
+	<name>EP_BEAM_LONG</name>
+	<name>EP_BEAM_SP_KATANA</name>
+	<name>EP_BEAM_SP_DAITO</name>
+</blueprintList>
+
+<blueprintList name="WEAPONS_ION_ENERGYX">
+	<name>BA_ION_HVBURST_1</name>
+	<name>BA_ION_HVBURST_1</name>
+	<name>BA_ION_HVBURST_1</name>
+	<name>BA_ION_HVBURST_1</name>
+	<name>BA_ION_HVBURST_1</name>
+	<name>BA_ION_HVBURST_1</name>
+	<name>BA_ION_HVBURST_1</name>
+	<name>BA_ION_HVBURST_1</name>
+	<name>BA_ION_HVBURST_1</name>
+	
+	<name>BA_ION_HVBURST_2</name>
+	<name>BA_ION_HVBURST_2</name>
+	<name>BA_ION_HVBURST_2</name>
+	
+	<name>BA_ION_HVBURST_3</name>
+</blueprintList>
+
+<blueprintList name="WEAPONS_BEAMS_ENERGYX_ENEMY">
+	<name>EX_BA_BEAM_BARDICHE</name>
+	<name>EX_BA_BEAM_BO</name>
+	<name>EX_BA_BEAM_SCYTHE</name>
+	<name>EX_BA_BEAM_HASTA</name>
+	<name>EX_BA_BEAM_NAGINATA</name>
+	<name>EX_BA_BEAM_FLAIL_DAMAGE</name>
+	<name>EX_BA_BEAM_SHEST</name>
+	<name>EX_BA_BEAM_K1</name>
+	<name>EX_BA_BEAM_K2</name>
+	<name>EX_BEAM_2</name>
+	<name>EX_BEAM_3</name>
+	<name>EX_BEAM_BIOFIRE</name>
+	<name>EX_BEAM_FAUCHARD</name>
+	<name>EX_BEAM_GUISARME</name>
+	<name>EX_BEAM_LONG</name>
+	<name>EX_BEAM_SP_KATANA</name>
+	<name>EX_BEAM_SP_DAITO</name>
+</blueprintList>
+
+
+<!-- list for player with missiles req -->
+<blueprintList name="WEAPONS_BEAMS_ENERGYX_PLAYER">
+	<name>EP_BA_BEAM_BARDICHE</name>
+	<name>EP_BA_BEAM_BO</name>
+	<name>EP_BA_BEAM_SCYTHE</name>
+	<name>EP_BA_BEAM_HASTA</name>
+	<name>EP_BA_BEAM_NAGINATA</name>
+	<name>EP_BA_BEAM_FLAIL_DAMAGE</name>
+	<name>EP_BA_BEAM_SHEST</name>
+	<name>EP_BA_BEAM_K1</name>
+	<name>EP_BA_BEAM_K2</name>
+	<name>EP_BEAM_2</name>
+	<name>EP_BEAM_3</name>
+	<name>EP_BEAM_BIOFIRE</name>
+	<name>EP_BEAM_FAUCHARD</name>
+	<name>EP_BEAM_GUISARME</name>
+	<name>EP_BEAM_LONG</name>
+	<name>EP_BEAM_SP_KATANA</name>
+	<name>EP_BEAM_SP_DAITO</name>
+</blueprintList>
+
+<blueprintList name="WEAPONS_UWB">
+	<name>UWB_LASER_BURST_1</name>
+	<name>UWB_LASER_HEAVY_1</name>
+	<name>UWB_LASER_STANDARD_1</name>
+	<name>UWB_LASER_STANDARD_2</name>
+	<name>UWB_LASER_DUAL_1</name>
+	<name>UWB_LASER_DUAL_2</name>
+	<name>UWB_BA_SHOTGUN_SMALL</name>
+	<name>UWB_BA_PLASMA_1</name>
+	<name>UWB_BA_LASER_AUTO_1</name>
+	<name>UWB_BA_LASER_AUTO_2</name>
+	<name>UWB_BA_LASER_BURST_SCATTER_1</name>
+	<name>UWB_BA_LASER_BURST_SCATTER_2</name>
+	<name>UWB_BA_LASER_HEAVY_SCATTER_1</name>
+	<name>UWB_BA_LASER_HEAVY_SCATTER_2</name>
+	<name>UWB_BA_LASER_HULL_SMALL</name>
+	<name>UWB_SHTURM_LASER_1</name>
+	<name>UWB_SHTURM_LASER_2</name>
+	<name>UWB_LASER_BURST_2</name>
+	<name>UWB_LASER_HEAVY_2</name>
+	<name>UWB_SHOTGUN</name>
+	<name>UWB_SHOTGUN_2</name>
+	<name>UWB_BA_PLASMA_2</name>
+	<name>UWB_BA_LASER_AUTO_3</name>
+	<name>UWB_BA_LASER_BURST_SCATTER_3</name>
+	<name>UWB_BA_LASER_ARTILLERY_1</name>
+	<name>UWB_BA_LASER_HULLCRUSHER</name>
+	<name>UWB_LASER_HULL_1</name>
+	<name>UWB_LASER_HULL_2</name>
+	<name>UWB_LASER_IMP_2</name>
+	<name>UWB_LASER_IMP_3</name>
+	<name>UWB_LASER_LIGHT_1</name>
+	<name>UWB_LASER_LIGHT_2</name>
+	<name>UWB_LASER_LIGHT_SCATTER_1</name>
+	<name>UWB_LASER_LIGHT_SCATTER_2</name>
+	<name>UWB_HEAVY_MINIGUN</name>
+	<name>UWB_LASER_CHAINGUN</name>
+	<name>UWB_BA_LASER_WAR_1</name>
+	<name>UWB_BA_LASER_WAR_2</name>
+	<name>UWB_BA_LASER_WAR_3</name>
+	<name>UWB_LASER_SUPER_HEAVY_1</name>
+	<name>UWB_LASER_SUPER_HEAVY_2</name>
+	
+	<name>UWB_BA_BEAM_BATON</name>
+	<name>UWB_BA_BEAM_BO</name>
+	<name>UWB_BA_BEAM_BIO_2</name>
+	<name>UWB_BEAM_1</name>
+	<name>UWB_BEAM_LONG</name>
+	<name>UWB_BEAM_GUISARME</name>
+	<name>UWB_BA_BEAM_HASTA</name>
+	<name>UWB_BA_BEAM_HULL_SMALL</name>
+	<name>UWB_BA_BEAM_AUTO</name>
+	<name>UWB_BA_BEAM_BARDICHE</name>
+	<name>UWB_BA_BEAM_SCYTHE</name>
+	<name>UWB_BEAM_1_2</name>
+	<name>UWB_BEAM_HULL</name>
+	<name>UWB_BA_BEAM_PERNACH</name>
+	<name>UWB_BEAM_FIRE</name>
+	<name>UWB_BEAM_2</name>
+	<name>UWB_BEAM_FAUCHARD</name>
+	<name>UWB_BEAM_3</name>
+	
+	<name>UWB_MISSILES_1</name>
+	<name>UWB_MISSILES_2_PLAYER</name>
+	<name>UWB_MISSILES_SYS1</name>
+	<name>UWB_MISSILES_SYS2</name>
+	<name>UWB_BA_MISSILES_ASTERIA</name>
+	<name>UWB_BA_MISSILES_HULL_SMALL</name>
+	<name>UWB_MISSILES_3</name>
+	<name>UWB_MISSILES_BURST</name>
+	<name>UWB_BA_MISSILES_ONI</name>
+	<name>UWB_MISSILES_HULL</name>
+	<name>UWB_BA_MISSILES_PERYTON</name>
+	<name>UWB_BA_MISSILES_4</name>
+	<name>UWB_BA_MISSILES_COCKATRICE</name>
+	<name>UWB_MISSILES_MEGA</name>
+	
+	<name>UWB_ION_STUN</name>
+	<name>UWB_BA_SHOTGUN_ION_1</name>
+	<name>UWB_BA_ION_2_STUN</name>
+	<name>UWB_BA_ION_BURST_1_STUN</name>
+	<name>UWB_BA_ION_BURST_1</name>
+	<name>UWB_ION_HEAVY_1</name>
+	<name>UWB_ION_BLAST_1</name>
+	<name>UWB_BA_SHOTGUN_ION_2</name>
+	<name>UWB_BA_ION_BURST_2</name>
+	<name>UWB_ION_BLAST_2</name>
+	<name>UWB_ION_BLAST_3</name>
+</blueprintList>
+
+<!-- this massive is only for the event of contrabandists -->
+<blueprintList name="WEAPONS_CLASS_BEAM_L">
+	<name>BEAM_1</name>
+	<name>BEAM_LONG</name>
+	<name>BA_BEAM_K2</name>
+	<name>BEAM_GUISARME</name>
+	<name>BEAM_LONG_SYS</name>
+	<name>BA_BEAM_HASTA</name>
+	<name>BA_BEAM_K1</name>
+	<name>BA_BEAM_HULL_SMALL</name>
+	<name>BA_BEAM_HULL_MINI</name>
+	<name>BA_BEAM_AUTO</name>
+	<name>BA_BEAM_ADAPTIVE_1</name>
+	<name>BA_BEAM_BARDICHE</name>
+</blueprintList>
+<blueprintList name="WEAPONS_CLASS_BEAM_M">
+	<name>BEAM_1_2</name>
+	<name>BEAM_HULL</name>
+	<name>BA_BEAM_ADAPTIVE_2</name>
+	<name>BA_BEAM_SCYTHE</name>
+	<name>BA_BEAM_PERNACH</name>
+	<name>BEAM_FIRE</name>
+	<name>BEAM_2</name>
+	<name>BA_BEAM_POLLAXE</name>
+	<name>BEAM_SP_DAITO</name>
+</blueprintList>
+<blueprintList name="WEAPONS_CLASS_BEAM_H">
+	<name>BEAM_FAUCHARD</name>
+	<name>BA_BEAM_ADAPTIVE_3</name>
+	<name>BA_BEAM_FLAIL_DAMAGE</name>
+	<name>BA_BEAM_NAGINATA</name>
+	<name>BA_BEAM_MAUL</name>
+	<name>BA_BEAM_FIRE_2</name>
+	<name>BEAM_FIRECHAIN</name><!-- 1.26.3 -->
+	<name>BA_BEAM_FIRE_FOCUS</name>
+	<name>BA_BEAM_FIRE_FOCUS2</name>
+	<name>BEAM_3</name>
+	<name>BA_BEAM_PARTISAN</name>
+	<name>BEAM_BIOFIRE</name>
+</blueprintList>
+<blueprintList name="WEAPONS_CLASS_MISSILE_L">
+	<name>MISSILES_1</name>
+	<name>MISSILES_2_PLAYER</name>
+	<name>BA_MISSILE_CHARGEGUN_SMALL</name>
+	<name>MISSILES_SYS1</name>
+	<name>MISSILES_SYS2</name>
+	<name>BA_MISSILES_FOBOS</name>
+	<name>BA_MISSILES_DEIMOS</name>
+	<name>BA_MISSILES_SWARM_1</name>
+	<name>BA_MISSILES_SWARM_2</name>
+	<name>BA_MISSILES_ASTERIA</name>
+	<name>BA_MISSILES_HULL_SMALL</name>
+	<name>BA_MINES_SMALL</name>
+</blueprintList>
+<blueprintList name="WEAPONS_CLASS_MISSILE_M">
+	<name>MISSILES_3</name>
+	<name>MISSILES_BURST</name>
+	<name>MISSILE_CHARGEGUN</name>
+	<name>BA_SHOTGUN_MISSILES</name>
+	<name>BA_MISSILES_ONI</name>
+	<name>BA_MISSILES_SWARM_3</name>
+	<name>MISSILES_HULL</name>
+	<name>BA_MISSILES_PERYTON</name>
+	<name>BA_MISSILES_4</name>
+	<name>BA_MISSILES_COCKATRICE</name>
+	<name>BA_MINES_MEDIUM</name>
+	<name>BA_MINES_TECH</name>
+	<name>BA_MINES_MEDIUM_M2</name>
+	<name>BA_MINES_MEDIUM_M3</name>
+	<name>BA_MINE_ION</name>
+</blueprintList>
+<blueprintList name="WEAPONS_CLASS_MISSILE_H">
+	<name>MISSILES_ARU_GOLIAPH</name> <!-- 1.26.1 -->
+	<name>MISSILES_HYDRA</name>
+	<name>MISSILES_MEGA</name>
+	<name>MISSILES_BREACH</name>
+	<name>BA_SHOTGUN_MISSILES2</name>
+	<name>BA_SHOTGUN_MISSILES3</name>
+	<name>BA_MISSILES_IFRIT</name>
+	<name>BA_MISSILES_FIRE</name>
+	<name>BA_MISSILES_SIMURGH</name>
+	<name>BA_MINES_BIG</name>
+</blueprintList>
+<blueprintList name="WEAPONS_CLASS_LASER_L">
+	<name>LASER_CHAIN_1</name>
+	<name>LASER_CHAIN_2</name>
+	<name>LASER_CHAIN_LONG_1</name> 
+	<name>LASER_CHAIN_LONG_2</name>
+	<name>LASER_CHARGEGUN_1</name>
+	<name>LASER_CHARGEGUN_2</name>
+	<name>LASER_BURST_1</name>
+	<name>LASER_HEAVY_1</name>
+	<name>LASER_SUPER_HEAVY_1</name>
+	<name>LASER_AL_1</name> <!-- 1.26.2 -->
+	<name>LASER_STANDARD_1</name>
+	<name>LASER_STANDARD_2</name>
+	<name>BA_LASER_WAR_1</name>
+	<name>BA_LASER_WAR_2</name>
+	<name>BA_LASER_WAR_3</name>
+	<name>LASER_DUAL_1</name>
+	<name>LASER_DUAL_2</name>
+	<!-- <name>BA_SHOTGUN_SMALL</name> -->
+	<name>BA_PLASMA_1</name>
+	<name>BA_LASER_AUTO_1</name>
+	<name>BA_LASER_AUTO_2</name>
+	<name>BA_LASER_BURST_SCATTER_1</name>
+	<name>BA_LASER_BURST_SCATTER_2</name>
+	<name>BA_LASER_HEAVY_SCATTER_1</name>
+	<name>BA_LASER_HEAVY_SCATTER_2</name>
+	<name>BA_LASER_HULL_SMALL</name>
+</blueprintList>
+<blueprintList name="WEAPONS_CLASS_LASER_M">
+	<name>LASER_PIERCE_1</name>
+	<name>LASER_PIERCE_2</name>
+	<name>SHTURM_LASER_1</name>
+	<name>SHTURM_LASER_2</name>
+	<name>LASER_HEAVY_CHAIN</name>
+	<name>LASER_AUTO_CHAIN</name>
+	<name>LASER_CHAIN_3</name>
+	<name>LASER_CHAIN_LONG_3</name> 
+	<name>LASER_CHARGEGUN_3</name>
+	<name>LASER_BURST_2</name>
+	<name>LASER_HEAVY_2</name>
+	<name>LASER_SUPER_HEAVY_2</name>
+	<name>LASER_AL_2</name> <!-- 1.26.2 -->
+	<name>LASER_HEAVY_PIERCE_1</name>
+	<!-- <name>SHOTGUN</name> -->
+	<name>BA_PLASMA_2</name>
+	<name>BA_LASER_AUTO_3</name>
+	<name>BA_LASER_BURST_SCATTER_3</name>
+	<name>LASER_SCATTERCHAIN</name>
+	<name>BA_LASER_ARTILLERY_1</name>
+	<name>BA_LASER_HULLCRUSHER</name>
+	<name>LASER_HULL_1</name>
+	<name>LASER_HULL_2</name>
+	<name>LASER_IMP_2</name>
+	<name>LASER_IMP_3</name>
+	<name>LASER_HULLCHAIN</name>
+</blueprintList>
+<blueprintList name="WEAPONS_CLASS_LASER_H">
+	<name>RAIL_DRIVER</name>
+	<name>LASER_CHAINGUN</name>
+	<name>HEAVY_MINIGUN</name>
+	<name>LASER_FIRE_CHAINGUN</name>
+	<name>LASER_HEAVY_CHARGE_1</name>
+	<name>LASER_HEAVY_CHARGE_2</name>
+	<name>LASER_CHARGEGUN_4</name>
+	<name>LASER_BURST_3</name>
+	<name>LASER_BURST_4</name>
+	<name>LASER_HEAVY_PIERCE_2</name>
+	<!-- <name>SHOTGUN_2</name>
+	<name>SHOTGUN_007</name>
+	<name>BA_SHOTGUN_SCATTER</name>
+	<name>SHTURM_FLAK</name>
+	<name>CHARGEGUN_SHOTGUN</name> -->
+	<name>BA_PLASMA_3</name>
+	<name>BA_LASER_ARTILLERY_2</name>
+	<name>BA_LASER_HULLCRUSHER_2</name>
+	<name>BA_LASER_HULLCRUSHER_3</name>
+</blueprintList>
+<blueprintList name="WEAPONS_CLASS_BOMB_L">
+	<name>BOMB_STUN</name>
+	<name>BOMB_1</name>
+	<name>BA_BOMB_FIRE_SMALL</name>
+	<name>BOMB_BREACH_1</name>
+</blueprintList>
+<blueprintList name="WEAPONS_CLASS_BOMB_M">
+	<name>BOMB_FIRE</name>
+	<name>BA_BOMB_CLUSTER_BREACH</name>
+	<name>BA_BOMB_CLUSTER_1</name>
+	<name>BA_BOMB_CLUSTER_ION</name>
+</blueprintList>
+<blueprintList name="WEAPONS_CLASS_BOMB_H">
+	<name>BA_BOMB_BIG</name>
+	<name>BA_BOMB_TIMER</name>
+	<name>BA_BOMB_FIRE_2</name>
+	<name>BA_BOMB_CLUSTER_FIRE</name>
+	<name>BA_BOMB_BIO</name>
+	<name>BOMB_BREACH_2</name>
+	<name>BOMB_BREACH_3</name>
+	<name>BOMB_ION</name>
+</blueprintList>
+<blueprintList name="WEAPONS_CLASS_ION_L">
+	<name>ION_STUN</name>
+	<name>ION_CHAINGUN</name>
+	<name>BA_SHOTGUN_ION_1</name>
+	<name>BA_ION_2_STUN</name>
+	<name>BA_ION_BURST_1_STUN</name>
+	<name>BA_ION_PIERCE_1</name>
+	<name>BA_EFFECTOR_1</name>
+	<name>BA_ION_BURST_1</name>
+	<name>ION_HEAVY_1</name>
+	<name>ION_BLAST_1</name>
+</blueprintList>
+<blueprintList name="WEAPONS_CLASS_ION_M">
+	<name>ION_CHARGEGUN</name>
+	<name>BA_SHOTGUN_ION_2</name>
+	<name>BA_ION_PIERCE_2</name>
+	<name>BA_EFFECTOR_2</name>
+	<name>BA_EFFECTOR_ADAPTIVE</name>
+	<name>BA_ION_BURST_2</name>
+	<name>ION_BLAST_2</name>
+	<name>ION_BLAST_3</name>
+	<name>BA_ION_CHAIN_MINI</name>
+</blueprintList>
+<blueprintList name="WEAPONS_CLASS_ION_H">
+	<name>ION_CHARGEGUN_2</name>
+	<name>BA_EFFECTOR_3</name>
+	<name>BA_ION_VULKAN</name>
+	<name>BA_ION_BURST_3</name>
+	<name>ION_HEAVY_2</name>
+	<name>ION_HEAVY_3</name>
+</blueprintList>
+
+<blueprintList name="INJECTOR_RANDOM"> <!-- 1.26.3 -->
+	<name>INJECTOR_PRC</name>
+	<name>INJECTOR_FRC</name>
+	<name>INJECTOR_BRC</name>
+	<name>INJECTOR_CLD</name>
+	<name>INJECTOR_POW</name>
+	<name>INJECTOR_UNI</name>
+</blueprintList>

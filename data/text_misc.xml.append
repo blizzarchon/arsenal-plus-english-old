@@ -49,9 +49,10 @@
 
 <text name="requires_missiles">Uses Ammunition</text><!-- 1.24 -->
 
-<text name="chance_low"   >Low (10-30%)</text>
-<text name="chance_medium">Med (40-60%)</text>
-<text name="chance_high"  >High (70-100%)</text>
+<!-- 1.26.3 chance now listed in tip -->
+<text name="chance_low"   >Low</text><!--  (10-30%)</text> -->
+<text name="chance_medium">Med</text><!--  (40-60%)</text> -->
+<text name="chance_high"  >High</text><!--  (70-100%)</text> -->
 
 <!-- <text name="free_drone">Purchase comes with free \1</text> | Additional info text for drone system. \1: drone type -->
 <text name="free_drone">Comes with a free random drone: \1</text><!-- 1.23 | 1.25 In English is already good -->
@@ -143,9 +144,15 @@
 <text name="ars_tip_beams_pierce"    >Tip: Pierce Beams are designed to pierce through shield bubbles, but their beams are shorter than those of beam weapons in the same damage class.</text>
 <text name="tip_heal_bomb"           >Tip: Remember, bombs can miss the enemy ship so don't count on this as a guaranteed heal for your boarders! \nIf used on board your own ship, then it will be a guaranteed heal as it cannot miss.</text>
 
+<!-- 1.26.3 --> <!-- here and next --> <!-- use FTL-helper v.2.5 to make tip with chance listed automatically -->
 
 
-<!-- Miscellaneous tip stuff -->
+
+<!-- 
+	XXXXXXXXXXXXXXXXXXXXXX
+	Miscellaneous tip stuff 
+	XXXXXXXXXXXXXXXXXXXXXX 
+-->
 
 <!-- <text name="tip_crystal">Tip: Crystal weapons pierce a single layer of shields. Only level 2 shields and higher can stop them.</text> -->
 

@@ -373,6 +373,14 @@
 	<text>TIP: Zolton Ships — Unlike the Zoltans, the Zoltons don't have a protective Super Shield. Instead, their shield systems are immune to direct damage, but fires and heavy ion weaponry can still damage them. Zolton ships are equipped with a weak reactor and a backup battery.</text>
 	<text>TIP: Zolton Auto-Drones — Like the manned Zolton ships, the Zolton auto-drones have invulnerable shield systems, a weak reactor, and a backup battery. They guard the nebulae of the Zolton sectors.</text>
 	<text>TIP: Artilleries — You can purchase an artillery system in stores. Which weapon the artillery holds depends on your ship's class. Store-bought artillery systems already come with two power capacity.</text>
+	<!-- 1.26.3 -->
+	<text>TIP: Universal Injector — its bonus depends on the type of weapon to which the injector is applied:
+	Lasers, ions: 50% faster projectile speed, +15 crew damage.
+	Missiles, mines, crystal weapons, hullcrushers: +1 base damage.
+	Bombs, effectors: +1 bomb/shot.
+	AoE weapons: 30% smaller radius — less projectile spreading.
+	Long beams: 25% faster beam firing and 25% longer beam span.
+	Point beams: +1 system damage.</text>
 </textList>
 
 <textList name="TIPS_LIST_PC">
@@ -1328,17 +1336,6 @@
 
 <event name="WRECKAGE_EVENT">
 	<text load="WRECKAGE_TEXT"/>
-	<choice req="sensors" lvl="2" max_group="0" hidden="true">
-		<text>(Improved Sensors) Use your Sensors to scan the wreckage.</text>
-		<event>
-			<text>You scan the battlefield, and with the aid of your sensors, you are able to salvage a moderate amount of material from the wreckage. You prepare to jump.</text>
-			<autoReward level="MED">stuff</autoReward>
-		</event>
-	</choice>
-	<choice req="sensors" lvl="3" max_group="0" hidden="true">
-		<text>(Advanced Sensors) Use your Sensors to scan the wreckage.</text>
-		<event load="WRECKAGE_SCANNED"/>
-	</choice>
 	<choice hidden="true">
 		<text>Investigate the battlefield.</text>
 		<event load="WRECKAGE_INVESTIGATE"/>
@@ -1346,6 +1343,21 @@
 	<choice>
 		<text>Ignore the wreckage and continue on.</text>
 		<event/>
+	</choice>
+	<choice req="sensors" lvl="2" max_lvl="2" hidden="true">
+		<text>(Improved Sensors) Scan the wreckage.</text>
+		<event>
+			<text>You scan the battlefield, and with the aid of your sensors, you are able to salvage a moderate amount of material from the wreckage. You prepare to jump.</text>
+			<autoReward level="MED">stuff</autoReward>
+		</event>
+	</choice>
+	<choice req="sensors" lvl="3" hidden="true">
+		<text>(Advanced Sensors) Scan the wreckage.</text>
+		<event load="WRECKAGE_SCANNED"/>
+	</choice>
+	<choice req="SHIPRADAR" hidden="true"><!-- 1.26.3 -->
+		<text>(Directional Scanner) Scan the wreckage.</text>
+		<event load="WRECKAGE_SCANNED"/>
 	</choice>
 </event>
 <textList name="WRECKAGE_TEXT">

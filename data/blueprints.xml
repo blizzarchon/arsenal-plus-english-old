@@ -2406,7 +2406,7 @@ Can be applied to any weapon in the weapons bay.</desc>
 	<desc>Allows the ship to collect 15 percent more scrap from any source.</desc><!-- originally 10% -->
 	<cost>45</cost><!-- 1.26 was vanilla 50 -->
 	<bp>8</bp>
-	<rarity>3</rarity>
+	<rarity>4</rarity><!-- 1.26.3 was 3 -->
 	<stackable>true</stackable>
 	<value>0.15</value><!-- originally 0.10 -->
 </augBlueprint>
@@ -10958,7 +10958,7 @@ This special version is faster and requires one less power.</desc>
 	<rarity>4</rarity>
 	<explosion>ba_explosion_laser_burst_scatter</explosion>
 	<projectiles>
-		<projectile count="6" fake="false">ba_laser_burst_scatter_shot</projectile>
+		<projectile count="6" fake="false">ba_shotgun_scatter_shot</projectile> <!-- 1.26.3 fixed reference -->
 		<projectile count="4" fake="true">ba_shotgun_scatter_shot</projectile>
 	</projectiles>
 	<launchSounds>
@@ -11008,8 +11008,8 @@ This special version is faster and requires one less power.</desc>
 	<rarity>4</rarity>
 	<explosion>ba_explosion_laser_burst_scatter</explosion>
 	<projectiles>
-		<projectile count="5" fake="false">ba_laser_burst_scatter_shot</projectile><!-- 1.25, was 4 -->
-		<projectile count="2" fake="true">ba_laser_burst_scatter_shot</projectile><!-- 1.25, new image -->
+		<projectile count="5" fake="false">laser_minigun_brust</projectile><!-- 1.26.3 fixed reference | 1.25 was 4 -->
+		<projectile count="2" fake="true">laser_minigun_brust</projectile><!-- 1.26.3 fixed reference | 1.25 new image -->
 	</projectiles>
 	<launchSounds>
 		<sound>heavyLaserScatter1</sound>
@@ -14202,6 +14202,38 @@ This modified Pike Beam inflicts extra system damage.</desc>
 	<weaponArt>ba_beam_fire_2</weaponArt> 
 </weaponBlueprint>
 
+<!-- 1.26.3 -->
+<weaponBlueprint name="BEAM_FIRECHAIN"> 
+	<type>BEAM</type>
+	<flavorType>Chain Fire Beam</flavorType>
+	<title>Chain Fire Beam</title>
+	<short>C. F-Beam</short>
+	<tip>tip_beams_f6_b0</tip>
+	<desc>Chain ignition beam. Shorter than the conventional model, but gets faster each time it fires.</desc>
+	<damage>0</damage>
+	<sp>0</sp>
+	<fireChance>6</fireChance>
+	<breachChance>0</breachChance>
+	<speed>4</speed>
+	<cooldown>20</cooldown>
+	<power>2</power>
+	<cost>75</cost>
+	<bp>12</bp>
+	<rarity>4</rarity>
+	<length>70</length>
+	<image>beam_contact</image>
+	<boost>
+		<type>cooldown</type>
+		<amount>3</amount>
+		<count>3</count>
+	</boost>
+	<launchSounds>
+		<sound>beam_3_short</sound> 
+		<sound>beam_4_short</sound>
+	</launchSounds>
+	<weaponArt>beam_fchain</weaponArt> 
+</weaponBlueprint>
+
 <weaponBlueprint name="BA_BEAM_FIRE_FOCUS">
 	<type>BEAM</type>
 	<flavorType>Fire Beam</flavorType>
@@ -14212,7 +14244,7 @@ This modified Pike Beam inflicts extra system damage.</desc>
 	<damage>0</damage>
 	<sysDamage>0</sysDamage>
 	<persDamage>0</persDamage>
-	<sp>5</sp>
+	<sp>6</sp> <!-- 1.26.3 was 5 ... Beams without direct damage require 1 SP more than regular to penetrate the required amount of shield bubbles. Although the engine now displays the wrong number. -->
 	<fireChance>6</fireChance>
 	<breachChance>0</breachChance>
 	<speed>3.8</speed> <!-- was 3 -->
@@ -14246,7 +14278,7 @@ This modified Pike Beam inflicts extra system damage.</desc>
 	<damage>0</damage>
 	<sysDamage>0</sysDamage>
 	<persDamage>0</persDamage>
-	<sp>5</sp>
+	<sp>6</sp> <!-- 1.26.3 was 5 -->
 	<fireChance>7</fireChance>
 	<breachChance>0</breachChance>
 	<speed>2.3</speed> <!-- was 3 -->
@@ -14375,7 +14407,7 @@ This modified Pike Beam inflicts extra system damage.</desc>
 	<damage>0</damage>
 	<sysDamage>0</sysDamage>
 	<persDamage>4</persDamage>
-	<sp>5</sp>
+	<sp>6</sp> <!-- 1.26.3 was 5 -->
 	<fireChance>0</fireChance>
 	<breachChance>0</breachChance>
 	<speed>1</speed>
@@ -21127,7 +21159,7 @@ This modified Pike Beam inflicts extra system damage.</desc>
 		<g>216</g>
 		<b>0</b>
 	</color>
-	<sp>5</sp>
+	<sp>6</sp> <!-- 1.26.3 was 5 -->
 	<stunChance>5</stunChance>
 	<fireChance>0</fireChance>
 	<breachChance>5</breachChance>
@@ -21159,7 +21191,7 @@ This modified Pike Beam inflicts extra system damage.</desc>
 		<g>216</g>
 		<b>0</b>
 	</color>
-	<sp>5</sp>
+	<sp>6</sp> <!-- 1.26.3 was 5 -->
 	<stunChance>3</stunChance>
 	<fireChance>0</fireChance>
 	<breachChance>3</breachChance>
@@ -22291,7 +22323,7 @@ This modified Pike Beam inflicts extra system damage.</desc>
 	<weaponArt>uwb_weapon</weaponArt> 
 </weaponBlueprint>
 <weaponBlueprint name="UWB_BA_SHOTGUN_SMALL">
-	<type>LASER</type> 
+	<type>BURST</type> <!-- 1.26.3 was LASER ... bug -->
 	<flavorType>UWB-Weapon</flavorType>
 	<tip>tip_uwb</tip>
 	<drone_targetable>1</drone_targetable>
@@ -28627,10 +28659,10 @@ This modified Pike Beam inflicts extra system damage.</desc>
 <!-- 1.26 -->
 <weaponBlueprint name="BA_ZOLTON_ANT">
 	<type>BURST</type>
-	<title>Парализатор-артиллерия</title>
-	<short>Парализатор</short>
-	<flavorType>Парализатор-артиллерия</flavorType>
-	<desc>Парализатор-артиллерия</desc>
+	<title>Stungun Artillery</title>
+	<short>Stungun</short>
+	<flavorType>Stungun Artillery</flavorType>
+	<desc>Stungun Artillery</desc>
 	<radius>115</radius>
 	<damage>0</damage>
 	<stun>10</stun>
@@ -28667,7 +28699,7 @@ This modified Pike Beam inflicts extra system damage.</desc>
 <!-- 1.26 -->
 <!-- INJECTED WEAPONS -->
 	<!-- inj ozu -->
-
+<!-- 1.26.3 for <tip>: here and next use FTL-helper v.2.5 to make it automatically -->
 
 <weaponBlueprint name="PREIGNITE_ION_IMPULSE_1_PRC"> 
 	<type>BURST</type>
@@ -84330,8 +84362,8 @@ This modified Pike Beam inflicts extra system damage.</desc>
 	<type>COMBAT</type>
 	<title>Combat Repair Drone</title>
 	<tip>tip_repair_combat</tip>
-	<short>CR-Drone</short><!-- 1.25, since damage is -1, it only pierces 3 shields -->
-	<desc>Repairs enemy ship hull while cutting away at crew bio-material. Ignores three shield bubbles.</desc>
+	<short>CR-Drone</short>
+	<desc>Repairs enemy ship hull while cutting away at crew bio-material. Ignores shields.</desc>
 	<power>3</power>
 	<cooldown>1000</cooldown> <!-- Doesn't effect combat drone -->
 	<dodge>1</dodge>
@@ -84354,7 +84386,7 @@ This modified Pike Beam inflicts extra system damage.</desc>
 		<g>200</g>
 		<b>20</b>
 	</color>
-	<sp>5</sp>
+	<sp>7</sp><!-- 1.26.3 was 5 ... pierces all shields now -->
 	<fireChance>0</fireChance>
 	<breachChance>0</breachChance>
 	<speed>3</speed>

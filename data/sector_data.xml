@@ -1194,13 +1194,14 @@ make this have the unique map exploring (cant see all nodes, slow rebel movement
 	<event name="STORE_ZOLTON" min="2" max="3"/>
 	<event name="NOTHING_ZOLTON" min="0" max="1"/>
 	<event name="DISTRESS_BEACON_ZOLTON" min="1" max="2"/>
+	<event name="CAPSULE_EVENT" min="0" max="1"/><!-- 1.26.3 -->
 	<event name="NEBULA" min="0" max="3"/>
 	<event name="NEBULA_ZOLTON" min="2" max="3"/>
 	<event name="HOSTILE_ZOLTON" min="5" max="6"/>
 	<event name="BOARDERS_ZOLTON" min="1" max="2"/>
 	<event name="ITEM_ZOLTON" min="1" max="2"/>
 	<event name="QUESTS_ZOLTON" min="1" max="1"/>
-	<event name="NEUTRAL_ZOLTON" min="8" max="10"/>
+	<event name="NEUTRAL_ZOLTON" min="8" max="9"/><!-- 1.26.3 max was 10 -->
 </sectorDescription>
 
 
@@ -1324,15 +1325,14 @@ make this have the unique map exploring (cant see all nodes, slow rebel movement
 	<event name="STORE_ZOLTON" min="2" max="3"/>
 	<event name="NOTHING_ZOLTON" min="0" max="1"/>
 	<event name="DISTRESS_BEACON_ZOLTON" min="1" max="2"/>
+	<event name="CAPSULE_EVENT" min="0" max="1"/><!-- 1.26.3 -->
 	<event name="NEBULA" min="0" max="3"/>
 	<event name="NEBULA_ZOLTON" min="2" max="3"/>
 	<event name="HOSTILE_ZOLTON" min="4" max="5"/>
 	<event name="BOARDERS_ZOLTON" min="1" max="2"/>
 	<event name="ITEM_ZOLTON" min="1" max="2"/>
 	<event name="QUESTS_ZOLTON" min="1" max="1"/>
-	<event name="NEUTRAL_ZOLTON" min="7" max="9"/>
-	
-	
+	<event name="NEUTRAL_ZOLTON" min="7" max="8"/><!-- 1.26.3 was 9 -->
 </sectorDescription>
 
 
@@ -1463,6 +1463,7 @@ HIDDEN SECTORS
 		<blueprint name="BEAM_GUISARME" rarity="0"/> <!-- 1.23 -->
 		<blueprint name="BEAM_LONG_SYS" rarity="0"/> <!-- 1.25.3 -->
 		<blueprint name="BEAM_FIRE" rarity="0"/>
+		<blueprint name="BEAM_FIRECHAIN" rarity="0"/><!-- 1.26.3 -->
 		<blueprint name="BA_BEAM_FIRE_FOCUS" rarity="0"/>
 		<blueprint name="BOMB_BREACH_1" rarity="0"/>
 		<blueprint name="BOMB_BREACH_2" rarity="0"/>

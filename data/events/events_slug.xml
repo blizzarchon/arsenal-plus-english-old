@@ -13233,7 +13233,9 @@ TJ - Fuel cell.					2
 		</choice>
 		<choice hidden="true">
 			<text>Refuse to cooperate any further.</text>
-			<event/>
+			<event> <!-- 1.26.3 -->
+				<text>Unhappy, the Sligs fly away without saying goodbye.</text>
+			</event>
 		</choice>
 	</deadCrew>
 </ship>
@@ -13283,7 +13285,9 @@ TJ - Fuel cell.					2
 		</choice>
 		<choice hidden="true">
 			<text>Refuse to cooperate any further.</text>
-			<event/>
+			<event> <!-- 1.26.3 -->
+				<text>Unhappy, the Sligs fly away without saying goodbye.</text>
+			</event>
 		</choice>
 	</deadCrew>
 </ship>
@@ -13333,7 +13337,10 @@ TJ - Fuel cell.					2
 		</choice>
 		<choice hidden="true">
 			<text>Refuse to cooperate any further.</text>
-			<event/>
+			<event> <!-- 1.26.3 -->
+				<text>The Sligs are unhappy, but give you a barrel of Slurm for the work done.</text>
+				<weapon name="SLURM_BARREL_1"/>
+			</event>
 		</choice>
 	</deadCrew>
 </ship>
@@ -13383,7 +13390,10 @@ TJ - Fuel cell.					2
 		</choice>
 		<choice hidden="true">
 			<text>Refuse to cooperate any further.</text>
-			<event/>
+			<event> <!-- 1.26.3 -->
+				<text>The Sligs are unhappy, but give you a barrel of Slurm for the work done.</text>
+				<weapon name="SLURM_BARREL_2"/>
+			</event>
 		</choice>
 	</deadCrew>
 </ship>
@@ -13433,7 +13443,10 @@ TJ - Fuel cell.					2
 		</choice>
 		<choice hidden="true">
 			<text>Refuse to cooperate any further.</text>
-			<event/>
+			<event> <!-- 1.26.3 -->
+				<text>The Sligs are unhappy, but give you a barrel of Slurm for the work done.</text>
+				<weapon name="SLURM_BARREL_3"/>
+			</event>
 		</choice>
 	</deadCrew>
 </ship>

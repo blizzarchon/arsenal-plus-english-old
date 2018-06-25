@@ -1307,13 +1307,7 @@ Storm Environment:
 	</choice>
 	<choice hidden="true">
 		<text>Finish off these losers.</text>
-		<event>
-			<text>As it turns out, their ship isn't too badly damaged at all. They answer your aggression by firing a volley at you.</text>
-			<ship hostile="true"/>
-			<status type="clear" target="enemy" system="teleporter" amount="100"/>
-			<damage amount="1" system="random" effect="breach"/>
-			<damage amount="0" system="random" effect="breach"/>
-		</event>
+		<event load="SLUG_KILL_THEM"/><!-- 1.26.3 -->
 	</choice>
 	<choice hidden="true">
 		<text>Refuse and move on.</text>
@@ -1330,6 +1324,20 @@ Storm Environment:
 		</event>
 	</choice>
 </event>
+
+<eventList name="SLUG_KILL_THEM"><!-- 1.26.3 -->
+	<event> <!-- old event -->
+		<text>As it turns out, their ship isn't too badly damaged at all. They answer your aggression by firing a volley at you.</text>
+		<ship hostile="true"/>
+		<status type="clear" target="enemy" system="teleporter" amount="100"/>
+		<damage amount="1" system="random" effect="breach"/>
+		<damage amount="0" system="random" effect="breach"/>
+	</event>
+	<event>
+		<text>As it turns out, their ship isn't too badly damaged at all. They're charging their weapons.</text>
+		<ship hostile="true"/>
+	</event>
+</eventList>
 
 <eventList name="SLUG_SCRAP_HELP_15">
 	<event>

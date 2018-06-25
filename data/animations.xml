@@ -7382,7 +7382,7 @@ ENGINEER ANIMATIONS
 	<chargedFrame>4</chargedFrame>
 	<fireFrame>7</fireFrame>
 	<firePoint  x="15" y="15"/>
-	<mountPoint x="1" y="44"/>
+	<mountPoint x="1" y="41"/><!-- 1.26.3 was 44 -->
 </weaponAnim>
 
 <animSheet name="light_breach_laser_2" w="312" h="80" fw="26" fh="80">weapons/light_breach_laser_2.png</animSheet> <!-- 1.25, w was 311 -->
@@ -7392,7 +7392,7 @@ ENGINEER ANIMATIONS
 	<chargedFrame>5</chargedFrame>
 	<fireFrame>8</fireFrame>
 	<firePoint  x="21" y="23"/>
-	<mountPoint x="1" y="62"/>
+	<mountPoint x="1" y="58"/><!-- 1.26.3 was 62 -->
 </weaponAnim>
 
 <animSheet name="light_breach_vulcan_charge" w="84" h="85" fw="28" fh="85">weapons/light_breach_vulcan_charge.png</animSheet>
@@ -8945,3 +8945,22 @@ ENGINEER ANIMATIONS
 	<desc length="4" x="0" y="0"/>
 	<time>0.5</time>
 </anim>
+
+<!-- 1.26.3 -->
+<animSheet name="beam_fchain_charger" w="117" h="84" fw="39" fh="84">weapons/beam_fchain_charger.png</animSheet>
+<anim name="beam_fchain_charger">
+	<sheet>beam_fchain_charger</sheet>
+	<desc length="3" x="0" y="0"/>
+	<time>1.0</time>
+</anim>
+<animSheet name="beam_fchain" w="312" h="84" fw="39" fh="84">weapons/beam_fchain.png</animSheet>
+<weaponAnim name="beam_fchain">
+	<sheet>beam_fchain</sheet>
+	<desc length="8" x="0" y="0"/>
+	<chargedFrame>1</chargedFrame>
+	<fireFrame>2</fireFrame>
+	<firePoint  x="21" y="33"/>
+	<mountPoint x="5" y="67"/>
+	<chargeImage>weapons/beam_fchain_glow.png</chargeImage>
+	<boost>beam_fchain_charger</boost>
+</weaponAnim>
