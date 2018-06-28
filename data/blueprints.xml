@@ -17223,14 +17223,14 @@ This modified Pike Beam inflicts extra system damage.</desc>
 	<sysDamage>-2</sysDamage>
 	<persDamage>-2</persDamage>
 	<stunChance>2</stunChance>
-	<ion>3</ion>
+	<ion>2</ion><!-- 1.25 was 3 -->
 	<missiles>1</missiles>
 	<shots>1</shots>
 	<sp>5</sp>
 	<speed>7</speed>
 	<fireChance>0</fireChance>
 	<breachChance>0</breachChance>
-	<cooldown>15</cooldown>
+	<cooldown>13</cooldown><!-- 1.2X? was 15 -->
 	<power>1</power>
 	<cost>45</cost>
 	<bp>6</bp>
@@ -72238,14 +72238,14 @@ This modified Pike Beam inflicts extra system damage.</desc>
 	<sysDamage>-2</sysDamage>
 	<persDamage>-2</persDamage>
 	<stunChance>2</stunChance>
-	<ion>3</ion>
+	<ion>2</ion>
 	<missiles>1</missiles>
 	<shots>1</shots>
 	<sp>5</sp>
 	<speed>7</speed>
 	<fireChance>0</fireChance>
 	<breachChance>0</breachChance>
-	<cooldown>11.25</cooldown> <!-- inj -->
+	<cooldown>9.75</cooldown> <!-- inj -->
 	<power>1</power>
 	<cost>45</cost>
 	<bp>6</bp>
@@ -72279,14 +72279,14 @@ This modified Pike Beam inflicts extra system damage.</desc>
 	<sysDamage>-2</sysDamage>
 	<persDamage>-2</persDamage>
 	<stunChance>2</stunChance>
-	<ion>3</ion>
+	<ion>2</ion>
 	<missiles>1</missiles>
 	<shots>1</shots>
 	<sp>5</sp>
 	<speed>7</speed>
 	<fireChance>0</fireChance>
 	<breachChance>0</breachChance>
-	<cooldown>15</cooldown>
+	<cooldown>13</cooldown>
 	<power>1</power>
 	<cost>45</cost>
 	<bp>6</bp>
