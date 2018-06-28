@@ -2,13 +2,6 @@
 
 <!-- Copyright (c) 2012 by Subset Games. All rights reserved -->
 
-<!-- to translate: 
-START_BEACON_UNSTABLE 1 & 2
-NEBULA_EVENT_DAMAGE_FTLJUMP
-STORM_EVENT_KILLAVATAR
-SLURM_ATTACK_TEXT
--->
-
 <!--   
 			SUMMARY  — 
 A list of all main events to be called by lists
@@ -1691,29 +1684,21 @@ storm-PKB
 	</choice>
 </event>
 <textList name="START_BEACON_UNSTABLE"> <!-- 1.26 -->
-	<text planet="NONE">Данный сектор категорически не пригоден для жизни. Сверхактивные звёзды, чёрные дыры и пульсары превратили местные планеты в груды камней...</text>
-	<text planet="NONE">Близость данного сектора к чёрной дыре превратила его в настоящий ад для всего живого. Ни один адекватный капитан не поведёт своё судно в эти места...</text>
-	<text planet="NONE">Этот сектор славится ужасными условиями для продвижения торговых кораблей. Только самые жадные и безумные торговцы срезают дорогу через этот сектор...</text>
-	<text planet="NONE">Этот сектор считается "бермудским треугольником" Галактики. Количество пропавших тут кораблей уже давно стало несчётным...</text>
-	<text planet="NONE">Поговаривают, что в этом нестабильном секторе обитает отшельническая группа слизней, помешанных на технологиях взлома...</text>
-	<text planet="NONE">Этот опасный сектор стал прибежищем для пиратов...</text>
+	<text planet="NONE">This sector is categorically unsuitable for life. Overactive stars, black holes and pulsars have turned local planets into piles of stones...</text>
+	<text planet="NONE">The proximity of this sector to a black hole has turned it into a real hell for all living things. No adept captain will dare take their ship to these places...</text>
+	<text planet="NONE">This sector is famous for its terrible conditions for promoting merchant ships. Only the most greedy and crazy traders cut a path through this sector...</text>
+	<text planet="NONE">This sector is considered the "Bermuda triangle" of the Galaxy. The number of missing ships has long been uncountable...</text>
+	<text planet="NONE">Rumor has it that this volatile sector is inhabited by a hermetical group of Slugs who are obsessed with hacking technologies...</text>
+	<text planet="NONE">This dangerous sector has become a haven for pirates...</text>
 </textList>
 <textList name="START_BEACON_UNSTABLE_2"> <!-- 1.26 -->
-	<text planet="NONE">...однако, флот повстанцев потеряет значительно больше времени, чтобы догнать вас.</text>
-	<text planet="NONE">...флот повстанцев не ожидал, что вы отправитесь сюда, и теперь тратит время для реорганизации преследования.</text>
-	<text planet="NONE">...продвижение повстанцев здесь будет затруднено.</text>
-	<text planet="NONE">...флот преследования, несомненно, будет задержан местными аномалиями.</text>
-	<text planet="NONE">...флот повстанцев тратит время на подготовку к полёту в этом секторе.</text>
-	<text planet="NONE">...повстанцы долго не решаются преследовать вас в этом опасном месте.</text>
+	<text planet="NONE">...however, the Rebel Fleet will lose a significant chunk of time trying to get through this mess of a sector.</text>
+	<text planet="NONE">...the Rebel Fleet didn't expect you to go here, and now needs some time to reorganize themselves in your pursuit.</text>
+	<text planet="NONE">...the Rebel Fleet's advance will be difficult.</text>
+	<text planet="NONE">...the Rebel Fleet will undoubtedly be delayed by local anomalies.</text>
+	<text planet="NONE">...the Rebel Fleet is spending time to prepare themselves for the journey across this sector.</text>
+	<text planet="NONE">...the Rebels don't dare to hastily pursue you in this dangerous territory.</text>
 </textList>
-<!-- <textList name="START_BEACON_UNSTABLE">
-	<text planet="NONE">This sector is categorically unsuitable for life. Overactive stars, black holes and pulsars have turned local planets into piles of stones. However, the Rebel Fleet will lose a significant chunk of time trying to get through this mess of a sector. </text>
-	<text planet="NONE">The proximity of this sector to a black hole has turned it into a real hell for all living things. No adept captain will dare take their ship to these places. The Rebel Fleet didn't expect you to go here, and now needs some time to reorganize themselves in your pursuit.</text>
-	<text planet="NONE">This sector is famous for its terrible conditions for promoting merchant ships. Only the most greedy and crazy traders cut a path through this sector. Rebel progress will be difficult here.</text>
-	<text planet="NONE">This sector is considered the "Bermuda triangle" of the Galaxy. The number of missing ships has long been uncountable... The Fleet pursuit will undoubtedly be detained by local anomalies.</text>
-	<text planet="NONE">Rumor has it that this volatile sector is inhabited by a hermetical group of Slugs who are obsessed with hacking technologies... The Rebel Fleet spends time to prepare themselves for the journey across this sector.</text>
-	<text planet="NONE">This dangerous sector has become a haven for pirates. The Rebels don't dare chase you for a long time...</text>
-</textList> -->
 <!-- The rebels have long hesitated to haunt you... lol-->
 
 <event name="NOTHING_UNSTABLE_1"><!-- done -->
@@ -2984,7 +2969,7 @@ storm-PKB
 <!-- 1.26 -->
 <event name="STORM_EVENT_KILLAVATAR" unique="true">
 	<environment type="storm"/>
-	<text>Сразу по прибытию вы попадаете в сильнейшую электромагнитную бурю!..</text>
+	<text>Immediately upon arrival you find yourself in a strong electromagnetic storm!..</text>
 	<status type="limit" target="player" system="shields" amount="0" />
 	<status type="limit" target="player" system="weapons" amount="0" />
 	<status type="limit" target="player" system="drones" amount="0" />
@@ -3004,7 +2989,7 @@ storm-PKB
 	<choice hidden="true" req="ghost" lvl="0" max_group="0" blue="false">
 		<text id="continue"/>
 		<event>
-			<text>...Ваша команда возится некоторое время с системами корабля и частично восстанавливает их работоспособность. Время убираться отсюда...</text>
+			<text>...Your crew is busy for a while with the ship's systems and partially restore their performance. Time to get out of here...</text>
 			<status type="clear" target="player" system="engines" amount="100" />
 			<status type="clear" target="player" system="pilot" amount="100" />
 		</event>
@@ -3012,7 +2997,7 @@ storm-PKB
 	<choice hidden="true" req="ghost" lvl="1" max_group="0" blue="false">
 		<text id="continue"/>
 		<event>
-			<text>...Это аномальное место губительно для аватаров. Аватар в вашей команде исчезает, и от него не остаётся ничего, кроме проектора. Вы разбираете его на лом и частично восстанавливаете работу отключённых систем. Время убираться отсюда...</text>
+			<text>...This anomalous place is fatal for Avatars. The Avatar on your crew disappears, and nothing remains from them except their projector. You scrap it and partially restore function to the vital disabled systems. Time to get out of here...</text>
 			<status type="clear" target="player" system="engines" amount="100" />
 			<status type="clear" target="player" system="pilot" amount="100" />
 			<crewMember amount="-1" class="ghost"/>
@@ -3027,7 +3012,7 @@ storm-PKB
 			<choice hidden="true">
 				<text id="continue"/>
 				<event>
-					<text>...Все аватары в вашей команде исчезают, и от них не остаётся ничего, кроме проекторов. Вы разбираете их на лом и частично восстанавливаете работу отключённых систем. Время убираться отсюда...</text>
+					<text load="NEBULA_EVENT_KILLAVATAR_TEXT_ALL_DEAD" />
 					<status type="clear" target="player" system="engines" amount="100" />
 					<status type="clear" target="player" system="pilot" amount="100" />
 					<crewMember amount="-1" class="ghost"/>
@@ -3049,7 +3034,7 @@ storm-PKB
 					<choice hidden="true">
 						<text id="continue"/>
 						<event>
-							<text>...Все аватары в вашей команде исчезают, и от них не остаётся ничего, кроме проекторов. Вы разбираете их на лом и частично восстанавливаете работу отключённых систем. Время убираться отсюда...</text>
+							<text load="NEBULA_EVENT_KILLAVATAR_TEXT_ALL_DEAD" />
 							<status type="clear" target="player" system="engines" amount="100" />
 							<status type="clear" target="player" system="pilot" amount="100" />
 							<crewMember amount="-1" class="ghost"/>
@@ -3078,7 +3063,7 @@ storm-PKB
 							<choice hidden="true">
 								<text id="continue"/>
 								<event>
-									<text>...Все аватары в вашей команде исчезают, и от них не остаётся ничего, кроме проекторов. Вы разбираете их на лом и частично восстанавливаете работу отключённых систем. Время убираться отсюда...</text>
+									<text load="NEBULA_EVENT_KILLAVATAR_TEXT_ALL_DEAD" />
 									<status type="clear" target="player" system="engines" amount="100" />
 									<status type="clear" target="player" system="pilot" amount="100" />
 									<crewMember amount="-1" class="ghost"/>
@@ -3114,7 +3099,7 @@ storm-PKB
 									<choice hidden="true">
 										<text id="continue"/>
 										<event>
-											<text>...Все аватары в вашей команде исчезают, и от них не остаётся ничего, кроме проекторов. Вы разбираете их на лом и частично восстанавливаете работу отключённых систем. Время убираться отсюда...</text>
+											<text load="NEBULA_EVENT_KILLAVATAR_TEXT_ALL_DEAD" />
 											<status type="clear" target="player" system="engines" amount="100" />
 											<status type="clear" target="player" system="pilot" amount="100" />
 											<crewMember amount="-1" class="ghost"/>
@@ -3157,7 +3142,7 @@ storm-PKB
 											<choice hidden="true">
 												<text id="continue"/>
 												<event>
-													<text>...Все аватары в вашей команде исчезают, и от них не остаётся ничего, кроме проекторов. Вы разбираете их на лом и частично восстанавливаете работу отключённых систем. Время убираться отсюда...</text>
+													<text load="NEBULA_EVENT_KILLAVATAR_TEXT_ALL_DEAD" />
 													<status type="clear" target="player" system="engines" amount="100" />
 													<status type="clear" target="player" system="pilot" amount="100" />
 													<crewMember amount="-1" class="ghost"/>
@@ -3207,7 +3192,7 @@ storm-PKB
 													<choice hidden="true">
 														<text id="continue"/>
 														<event>
-															<text>...Все аватары в вашей команде исчезают, и от них не остаётся ничего, кроме проекторов. Вы разбираете их на лом и частично восстанавливаете работу отключённых систем. Время убираться отсюда...</text>
+															<text load="NEBULA_EVENT_KILLAVATAR_TEXT_ALL_DEAD" />
 															<status type="clear" target="player" system="engines" amount="100" />
 															<status type="clear" target="player" system="pilot" amount="100" />
 															<crewMember amount="-1" class="ghost"/>
@@ -3259,12 +3244,12 @@ storm-PKB
 													<choice hidden="true">
 														<text id="continue"/>
 														<event>
-															<text>...Молнии снаружи стихают, и команда начинает расходиться по рабочим местам, однако сконденсировавшийся на приборных панелях заряд разряжается в аватара!..</text>
+															<text>...The lightning outside subsides, and the crew begins to disperse back to their stations, but then a condensed charge on the dashboard electrocutes your Avatar!..</text>
 															<crewMember amount="-1" class="ghost"/>
 															<choice hidden="true">
 																<text id="continue"/>
 																<event>
-																	<text>...Все аватары в вашей команде исчезают, и от них не остаётся ничего, кроме проекторов. Вы разбираете их на лом и частично восстанавливаете работу отключённых систем. Время убираться отсюда...</text>
+																	<text load="NEBULA_EVENT_KILLAVATAR_TEXT_ALL_DEAD" />
 																	<status type="clear" target="player" system="engines" amount="100" />
 																	<status type="clear" target="player" system="pilot" amount="100" />
 																	<crewMember amount="-1" class="ghost"/>
@@ -3287,37 +3272,40 @@ storm-PKB
 	</choice>
 </event>
 <textList name="NEBULA_EVENT_KILLAVATAR_TEXT">
-	<text>...Яркая вспышка молнии прорезает темноту помещений корабля и испаряет одного из ваших аватаров!..</text>
-	<text>...Откуда-то из глубины корабля раздаётся хлопок и вы понимаете, что ещё одного аватара не стало...</text>
-	<text>...Очередной электрический разряд пробегает по обшивке корабля и дезинтегрирует аватара...</text>
+	<text>...A bright flash of lightning cuts through the dark areas of the ship and electrocutes one of your Avatars!..</text>
+	<text>...From somewhere within the depths of the ship you hear a sudden clap of thunder, and realize that an Avatar is gone...</text>
+	<text>...An electrical discharge zaps through the ship's hull and disintegrates an Avatar...</text>
 </textList>
 <textList name="NEBULA_EVENT_KILLAVATAR_TEXT2">
-	<text>...Электрический импульс из ближайшего облака разрежённого газа пронзает пустоту космоса и бьёт прямо в аватара!..</text>
-	<text>...Высоковольтный разряд бьёт по вашему кораблю. Тонкая электроника аватара не выдерживает и взрывается...</text>
-	<text>...Ваша команда тихо прячется вдали от электроники корабля, пока не стихнет буря, но внезапный разряд попадает в аватара и уничтожает его...</text>
+	<text>...The electrical impulse from a nearby cloud of rarefied gas pierces the emptiness of space and strikes directly into an Avatar...</text>
+	<text>...A high-voltage discharge hits your ship. The thin electronics of an Avatar aboard could not withstand the surge and explode...</text>
+	<text>...Your crew quietly keeps away from the ship's electronics until the storm subsides, but a sudden discharge strikes an Avatar and destroys them...</text>
 </textList>
 <textList name="NEBULA_EVENT_KILLAVATAR_TEXT3">
-	<text>...Ваш аватар пытается восстановить работу систем корабля, но высоковольтный разряд от пульта повреждает его проектор...</text>
-	<text>...Молния пронзает изоляцию корабля и убивает вашего аватара!..</text>
-	<text>...Яркое белое пятно проносится по корридорам корабля и, врезавшись в аватара, взрывается!..</text>
+	<text>...Your Avatar is trying to restore the ship's systems, but a high-voltage discharge from the console damages its projector...</text>
+	<text>...Lightning pierces the isolation of the ship and kills your Avatar!..</text>
+	<text>...A bright white blur sweeps along the ship's corridors and crashes into your Avatar, causing them to explode!..</text>
 </textList>
 <textList name="NEBULA_EVENT_KILLAVATAR_TEXT4">
-	<text>...Ваш аватар решает выглянуть в иллюминатор, чтобы проверить, не стихла ли буря, но получает смертельный удар молнии!..</text>
-	<text>...Кто-то из вашей команды начинает впадать в отчаяние, и ваш аватар подходит к нему, чтобы успокоить, но получает смертельный высоковольтный разряд!..</text>
-	<text>...Ваш аватар берёт с собой самодельный "молниеотвод" и пытается восстановить работу систем корабля. К сожалению, это не срабатывает, и шаровая молния повреждает его проекционный модуль...</text>
+	<text>...Your Avatar decides to look out the window to check if the storm has subsided, but instead receives a deadly bolt of lightning!..</text>
+	<text>...Someone from your crew begins to fall into despair, and your Avatar approaches them to calm them down, but the Avatar gets a fatal high-voltage discharge!..</text>
+	<text>...Your Avatar takes with themselves a self-made "lightning rod" to try and restore the ship's systems. Unfortunately, it doesn't work, and lightning carries straight through the rod, damaging the projection module beyond repair...</text>
 </textList>
 <textList name="NEBULA_EVENT_KILLAVATAR_TEXT5">
-	<text>...Светящися энергетический шар почти мгновенно пронзает корабль, и ещё одного аватара больше нет...</text>
-	<text>...Очередной удар молнии попадает в вашего аватара!..</text>
+	<text>...A glowing ball of energy pierces the ship almost instantly, and yet another Avatar is no more...</text>
+	<text>...Another lightning bolt strikes yet another Avatar!..</text>
 </textList>
 <textList name="NEBULA_EVENT_KILLAVATAR_TEXT6">
-	<text>...Где-то в соседнем отсеке раздаётся хлопок. Забежав туда, вы находите лишь пустой проекционный модуль аватара...</text>
-	<text>...Воздух рядом с аватаром начинает электризоваться всё сильнее, пока аватар не отключается. Вы пытаетесь починить его, но всё бесполезно...</text>
+	<text>...Somewhere in the next room you hear a clap. Quickly running there, you find a projection module.. devoid of its Avatar...</text>
+	<text>...The air next to your Avatar begins to electrify, until the Avatar shuts off. You attempt to repair them, but it's futile...</text>
+</textList>
+<textList name="NEBULA_EVENT_KILLAVATAR_TEXT_ALL_DEAD">
+	<text>...All Avatars on your crew disappear, and nothing remains of them, except their projectors. You scrap them and partially restore function to the vital disabled systems. Time to get out of here...</text>
 </textList>
 
 <event name="NEBULA_EVENT_DAMAGE_FTLJUMP" unique="true"><!-- 1.26 | 1.26.2 added extra event layer -->
 	<environment type="nebula"/>
-	<text>Похоже, что ваша система расчёта FTL-прыжков в этот раз дала сбой...</text>
+	<text>It seems that your system of calculating FTL jumps has failed this time...</text>
 	<choice hidden="true">
 		<text id="continue"/>
 		<event load="EVENT_DAMAGE_FTLJUMP_R"/>
@@ -3333,37 +3321,37 @@ storm-PKB
 	</choice>
 </event>
 <textList name="EVENT_DAMAGE_FTLJUMP_TEXT">
-	<text>...сразу после FTL-прыжка на вашем корабле раздаётся взрыв! Видимо, в точке прыжка был космический мусор!</text>
-	<text>...при выходе из FTL-прыжка на корабле раздаётся взрыв! Оказывается, вы прыгнули прямо в обломки разрушенного возле маяка корабля!</text>
-	<text>...по завершении прыжка внутри корабля что-то взрывается. Взглянув на приборы, вы понимаете, что ваш FTL-прыжок завершился прямо на обломках какого-то корабля.</text>
+	<text>...immediately after the FTL jump, an explosion is heard on your ship! Apparently, you jumped right into space debris!</text>
+	<text>...when your ship exits the FTL jump, an explosion is heard! Turns out, you jumped right into a shipwreck near the beacon!</text>
+	<text>...at the end of the jump, something inside the ship explodes. Looking at your instruments, you realize that your FTL jump exit right on the wreckage of some ship.</text>
 </textList>
 <eventList name="EVENT_DAMAGE_FTLJUMP_R1">
 	<event>
-		<text>Обломки металлолома оказываются внутри вашего корабля!</text>
+		<text>Fragments of scrap metal are inside your ship!</text>
 		<autoReward level="LOW">scrap_only</autoReward>
 	</event>
 	<event>
-		<text>Обломки металлолома оказываются внутри вашего корабля!</text>
+		<text>Fragments of scrap metal are inside your ship!</text>
 		<autoReward level="LOW">scrap_only</autoReward>
 	</event>
 	<event>
-		<text>Обломки металлолома оказываются внутри вашего корабля!</text>
+		<text>Fragments of scrap metal are inside your ship!</text>
 		<autoReward level="MED">scrap_only</autoReward>
 	</event>
 	<event>
-		<text>Среди обломков вы находите орудие, и оно ещё функционирует!</text>
+		<text>You find a weapon among the debris, and it still works!</text>
 		<weapon name="RANDOM"/>
 	</event>
 	<event>
-		<text>Среди обломков вы находите дрона, и он ещё функционирует!</text>
+		<text>You find a drone among the debris, and it still works!</text>
 		<drone name="RANDOM"/>
 	</event>
 	<event>
-		<text>Среди обломков вы находите какого-то дрона. Дрон безнадёжно сломан, но удалось разобрать его на запасные части.</text>
+		<text>Among the debris you find some kind of drone. The drone is hopelessly broken, but it was possible to dismantle it for spare parts.</text>
 		<autoReward level="MED">droneparts_only</autoReward>
 	</event>
 	<event>
-		<text>Среди обломков вы находите какое-то ракетное орудие. Уцелело лишь несколько боеголовок.</text>
+		<text>Among the debris you find some kind of missile weapon. Only a few warheads survived.</text>
 		<autoReward level="MED">missiles_only</autoReward>
 	</event>
 </eventList>
@@ -6351,11 +6339,11 @@ storm-PKB
 </event>
 <textList name="SLURM_ATTACK_TEXT"><!-- 1.26 -->
 	<text>You don't want to miss this chance to get hold of the Slurm. Attack!</text>
-	<text>Вам ОЧЕНЬ нужен слёрм, время применить грубую силу!</text>
-	<text>Ничего личного, но нам нужен весь ваш слёрм!</text>
-	<text>Вы отдаёте приказ атаковать их, слёрмы защищаются.</text>
-	<text>Вы не можете спокойно пролететь мимо корабля слёрмов... Нужно захватить их зелье!</text>
-	<text>Вы бы пролетели мимо, если бы не слёрм... Нужно срочно достать хотя бы самую маленькую бочку.</text>
+	<text>You REALLY need Slurm, time to apply brute force!</text>
+	<text>Nothing personal, but we need all your Slurm!</text>
+	<text>You give the order to attack them, and the Sligs are defending themselves.</text>
+	<text>You cannot bear to fly past the Slig ship... You need to capture their brew!</text>
+	<text>You would've flown by, if not for the Slurm... It's vital to get even the smallest barrel.</text>
 </textList>
 <textList name="NEUTRAL_SLURM_FIGHT_TEXT">
 	<text>You encounter a Slig ship, engaged as always in brewing Slurm. They pay no attention to you.</text>

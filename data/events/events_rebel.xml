@@ -2,14 +2,6 @@
 
 <!-- Copyright (c) 2012 by Subset Games. All rights reserved -->
 
-<!-- to translate:
-REBEL_TRANSPORT_ATTACK event 2
-DISTRESS_ORDEN_FIRE rock and lanius crew stims
-HAL_SILENT_BASE crew stims
-HAL_FIGHT_HACKME
-LANIUS_DEAD_CREW_HAL second to last event
--->
-
 <!--   
 			SUMMARY  —  
 A list of all main events to be called by lists
@@ -488,17 +480,17 @@ Environmnt:
 		<ship load="SQUAT_TRANSPORT" hostile="true"/>
 	</event>
 	<event><!-- 1.26 -->
-		<text>Они предлагают вам содержимое своих трюмов, чтобы вы оставили их в покое.</text>
+		<text>They offer you their holds' contents so that you'll leave them alone.</text>
 		<choice hidden="false">
-			<text>У них точно есть больше, в атаку!</text>
+			<text>They definitely have more! Attack!</text>
 			<event>
 				<ship hostile="true"/>
 			</event>
 		</choice>
 		<choice hidden="false">
-			<text>Принять их предложение.</text>
+			<text>Accept their offer.</text>
 			<event>
-				<text>Они с облегчением передают вам припасы и быстро уходят.</text>
+				<text>They are relieved to give you supplies and then quickly leave.</text>
 				<autoReward level="RANDOM">stuff</autoReward>
 			</event>
 		</choice>
@@ -1733,15 +1725,15 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXX -->
 	<choice hidden="true" req="rock">
 		<text>(Rock Crewmember) Send in your Rock.</text>
 		<event><!-- 1.26.1 -->
-			<text>Ваш рок отправляется на станцию...</text>
+			<text>You send your Rock to the station...</text>
 			<choice hidden="true" req="CREW_STIMS" blue="false">
 				<text id="continue"/>
 				<event>
-					<text>Под воздействием феромонов ваш рок носится по станции с огромной скоростью и быстро справляется с огнём.</text>
+					<text>Under the pheromones' influence your Rock rushes through the station with great speed and quickly deals with the fire.</text>
 					<choice hidden="true">
-						<text>Связаться с выжившими.</text>
+						<text>Contact the survivors.</text>
 						<event>
-							<text>Гражданские благодарят вас и посылают награду за помощь.</text>
+							<text>The civilians convey their gratitude and send a reward for helping them out.</text>
 							<autoReward level="HIGH">standard</autoReward>
 						</event>
 					</choice>
@@ -1756,15 +1748,15 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXX -->
 	<choice hidden="true" req="anaerobic">
 		<text>(Lanius Crewmember) Send in your Lanius.</text>
 		<event><!-- 1.26.1 -->
-			<text>Ваш ланиус отправляется на станцию...</text>
+			<text>You send your Lanius to the station...</text>
 			<choice hidden="true" req="CREW_STIMS" blue="false">
 				<text id="continue"/>
 				<event>
-					<text>Под воздействием феромонов ваш ланиус с лёгкостью избегает огня, в то время как гражданские прячутся в медотсеке. Когда уровень кислорода на станции снижается, пожар гаснет.</text>
+					<text>Under the pheromones' influence your Lanius easily avoids fire, while the civilians hide in the Medbay. Once the station is emptied of oxygen, the fire goes out, after which the station restores its oxygen.</text>
 					<choice hidden="true">
-						<text>Связаться с выжившими.</text>
+						<text>Contact the survivors.</text>
 						<event>
-							<text>Гражданские благодарят вас и посылают награду за помощь.</text>
+							<text>The civilians convey their gratitude and send a reward for helping them out.</text>
 							<autoReward level="HIGH">standard</autoReward>
 						</event>
 					</choice>
@@ -1796,7 +1788,7 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXX -->
 			<choice hidden="true">
 				<text>Contact the survivors.</text>
 				<event>
-					<text>The civilians thank you and send a reward for your help.</text>
+					<text>The civilians convey their gratitude and send a reward for helping them out.</text>
 					<autoReward level="HIGH">standard</autoReward>
 				</event>
 			</choice>
@@ -3316,7 +3308,7 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXX --><!-- 1.21 -->
 		<event load="HAL_SILENT_BASE_EASYTEST"/>
 	</choice>
 	<choice hidden="true" req="CREW_STIMS"><!-- 1.26 -->
-		<text>(Mantis Pheromones) Под феромонами вы можете быстро и тщательно обыскать весь склад.</text>
+		<text>(Mantis Pheromones) Under the pheromones, quickly and thoroughly search the entire warehouse.</text>
 		<event load="HAL_SILENT_BASE_FULLTEST_STIMS"/>
 	</choice>
 	<choice hidden="false">
@@ -3355,15 +3347,15 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXX --><!-- 1.21 -->
 
 <eventList name="HAL_SILENT_BASE_FULLTEST_STIMS"> <!-- 1.26 -->
 	<event>
-		<text>Даже беглого взгляда достаточно, чтобы понять, что склад практически пуст. Вы забираете всё, что находите и покидаете это место.</text>
+		<text>Even a cursory glance is enough to understand that the warehouse is almost empty. You take everything you can find and leave this place.</text>
 		<autoReward level="MED">stuff</autoReward>
 	</event>
 	<event>
-		<text>Вы тщательно обыскиваете весь склад и переносите содержимое на корабль. К счастью, под действием феромонов это не заняло много времени.</text>
+		<text>You carefully search the entire warehouse and transfer its contents to the ship. Thanks to the pheromones it did not take long at all.</text>
 		<autoReward level="HIGH">stuff</autoReward>
 	</event>
 	<event>
-		<text>Вы тщательно обыскиваете весь склад и переносите содержимое на корабль. К счастью, под действием феромонов это не заняло много времени. Когда вы уже закончили, к маяку прыгает враждебный беспилотник!</text>
+		<text>You carefully search the entire warehouse and transfer its contents to the ship. Thanks to the pheromones it did not take long at all. When you're done, a hostile drone jumps to the beacon!</text>
 		<autoReward level="HIGH">stuff</autoReward>
 		<ship load="HAL_SHIP" hostile="true"/>
 		<status type="divide" target="enemy" system="reactor" amount="2"/>
@@ -4258,89 +4250,89 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXX --><!-- 1.21 -->
 </event>
 <eventList name="HAL_FIGHT_HACKME_R">
 	<event>
-		<text>...также команда докладывает, что обнаружен вирус HAL, взламывающий некоторые из систем вашего корабля!</text>
+		<text>...your crew also reports they've detected a HAL virus — it's hacking some of your ship's systems!</text>
 		<status type="loss" target="player" system="shields" amount="1" />
 		<status type="loss" target="player" system="drones" amount="1" />
 	</event>
 	<event>
-		<text>...также команда докладывает, что обнаружен вирус HAL, взламывающий некоторые из систем вашего корабля!</text>
+		<text>...your crew also reports they've detected a HAL virus — it's hacking some of your ship's systems!</text>
 		<status type="loss" target="player" system="artillery" amount="1" />
 		<status type="loss" target="player" system="doors" amount="1" />
 	</event>
 	<event>
-		<text>...также команда докладывает, что обнаружен вирус HAL, взламывающий некоторые из систем вашего корабля!</text>
+		<text>...your crew also reports they've detected a HAL virus — it's hacking some of your ship's systems!</text>
 		<status type="loss" target="player" system="teleporter" amount="1" />
 		<status type="limit" target="player" system="pilot" amount="1" />
 	</event>
 	<event>
-		<text>...также команда докладывает, что обнаружен вирус HAL, взламывающий некоторые из систем вашего корабля!</text>
+		<text>...your crew also reports they've detected a HAL virus — it's hacking some of your ship's systems!</text>
 		<status type="loss" target="player" system="weapons" amount="1" />
 		<status type="loss" target="player" system="sensors" amount="1" />
 	</event>
 	<event>
-		<text>...также команда докладывает, что обнаружен вирус HAL, взламывающий некоторые из систем вашего корабля!</text>
+		<text>...your crew also reports they've detected a HAL virus — it's hacking some of your ship's systems!</text>
 		<status type="loss" target="player" system="medbay" amount="1" />
 		<status type="loss" target="player" system="oxygen" amount="1" />
 	</event>
 	<event>
-		<text>...также команда докладывает, что обнаружен вирус HAL, взламывающий некоторые из систем вашего корабля!</text>
+		<text>...your crew also reports they've detected a HAL virus — it's hacking some of your ship's systems!</text>
 		<status type="loss" target="player" system="engines" amount="1" />
 		<status type="loss" target="player" system="cloaking" amount="1" />
 	</event>
 	<event>
-		<text>...также команда докладывает, что обнаружен вирус HAL, взламывающий некоторые из систем вашего корабля!</text>
+		<text>...your crew also reports they've detected a HAL virus — it's hacking some of your ship's systems!</text>
 		<status type="loss" target="player" system="mind" amount="1" />
 		<status type="loss" target="player" system="hacking" amount="1" />
 	</event>
 	<event>
-		<text>...также команда докладывает, что обнаружен вирус HAL, взламывающий некоторые из систем вашего корабля!</text>
+		<text>...your crew also reports they've detected a HAL virus — it's hacking some of your ship's systems!</text>
 		<status type="loss" target="player" system="reactor" amount="1" />
 		<status type="loss" target="player" system="clonebay" amount="1" />
 	</event>
 	<event>
-		<text>...также команда докладывает, что обнаружен вирус HAL, взламывающий некоторые из систем вашего корабля!</text>
+		<text>...your crew also reports they've detected a HAL virus — it's hacking some of your ship's systems!</text>
 		<status type="loss" target="player" system="drones" amount="1" />
 		<status type="loss" target="player" system="artillery" amount="1" />
 	</event>
 	<event>
-		<text>...также команда докладывает, что обнаружен вирус HAL, взламывающий некоторые из систем вашего корабля!</text>
+		<text>...your crew also reports they've detected a HAL virus — it's hacking some of your ship's systems!</text>
 		<status type="loss" target="player" system="doors" amount="1" />
 		<status type="loss" target="player" system="teleporter" amount="1" />
 	</event>
 	<event>
-		<text>...также команда докладывает, что обнаружен вирус HAL, взламывающий некоторые из систем вашего корабля!</text>
+		<text>...your crew also reports they've detected a HAL virus — it's hacking some of your ship's systems!</text>
 		<status type="limit" target="player" system="pilot" amount="1" />
 		<status type="loss" target="player" system="weapons" amount="1" />
 	</event>
 	<event>
-		<text>...также команда докладывает, что обнаружен вирус HAL, взламывающий некоторые из систем вашего корабля!</text>
+		<text>...your crew also reports they've detected a HAL virus — it's hacking some of your ship's systems!</text>
 		<status type="loss" target="player" system="sensors" amount="1" />
 		<status type="loss" target="player" system="medbay" amount="1" />
 	</event>
 	<event>
-		<text>...также команда докладывает, что обнаружен вирус HAL, взламывающий некоторые из систем вашего корабля!</text>
+		<text>...your crew also reports they've detected a HAL virus — it's hacking some of your ship's systems!</text>
 		<status type="loss" target="player" system="oxygen" amount="1" />
 		<status type="loss" target="player" system="engines" amount="1" />
 	</event>
 	<event>
-		<text>...также команда докладывает, что обнаружен вирус HAL, взламывающий некоторые из систем вашего корабля!</text>
+		<text>...your crew also reports they've detected a HAL virus — it's hacking some of your ship's systems!</text>
 		<status type="loss" target="player" system="cloaking" amount="1" />
 		<status type="loss" target="player" system="mind" amount="1" />
 	</event>
 	<event>
-		<text>...также команда докладывает, что обнаружен вирус HAL, взламывающий некоторые из систем вашего корабля!</text>
+		<text>...your crew also reports they've detected a HAL virus — it's hacking some of your ship's systems!</text>
 		<status type="loss" target="player" system="hacking" amount="1" />
 		<status type="loss" target="player" system="reactor" amount="1" />
 	</event>
 	<event>
-		<text>...также команда докладывает, что обнаружен вирус HAL, взламывающий некоторые из систем вашего корабля!</text>
+		<text>...your crew also reports they've detected a HAL virus — it's hacking some of your ship's systems!</text>
 		<status type="loss" target="player" system="clonebay" amount="1" />
 		<status type="loss" target="player" system="shields" amount="1" />
 	</event>
 </eventList>
 <ship name="HAL_SHIP_HACKME" auto_blueprint="HAL_SHIPS">
 	<destroyed>
-		<text>Корабль разваливается, и вы собираете всё, что уцелело, а ослабленные системы приходят в норму.</text>
+		<text>The ship breaks apart, and you collect all that survives. The weakened systems return back to normal.</text>
 		<autoReward level="HIGH">scrap_only</autoReward>
 		<item_modify>
 			<item type="drones" min="0" max="5"/>
@@ -4369,43 +4361,43 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXX --><!-- 1.21 -->
 </ship>
 <eventList name="HAL_SHIP_HACKME_DAMAGE">
 	<event>
-		<text>Похоже, что бортовой компьютер HAL активизировал резервные цепи питания.</text>
+		<text>Looks like the on-board HAL computer has activated backup power circuitry.</text>
 		<status type="clear" target="enemy" system="reactor" amount="100"/>
 	</event>
 	<event>
-		<text>Похоже, что бортовой компьютер HAL активизировал резервные цепи питания.</text>
+		<text>Looks like the on-board HAL computer has activated backup power circuitry.</text>
 		<status type="clear" target="enemy" system="reactor" amount="100"/>
 	</event>
 	<event>
-		<text>Похоже, что бортовой компьютер HAL активизировал резервные цепи питания.</text>
+		<text>Looks like the on-board HAL computer has activated backup power circuitry.</text>
 		<status type="clear" target="enemy" system="reactor" amount="100"/>
 	</event>
 	<event>
-		<text>Похоже, что бортовой компьютер HAL активизировал резервные цепи питания.</text>
+		<text>Looks like the on-board HAL computer has activated backup power circuitry.</text>
 		<status type="clear" target="enemy" system="reactor" amount="100"/>
 	</event>
 	<event>
-		<text>Похоже, что бортовой компьютер HAL активизировал резервные цепи питания.</text>
+		<text>Looks like the on-board HAL computer has activated backup power circuitry.</text>
 		<status type="clear" target="enemy" system="reactor" amount="100"/>
 	</event>
 	<event>
-		<text>Похоже, что бортовой компьютер HAL активизировал резервные цепи питания.</text>
+		<text>Looks like the on-board HAL computer has activated backup power circuitry.</text>
 		<status type="clear" target="enemy" system="reactor" amount="100"/>
 	</event>
 	<event>
-		<text>Похоже, что бортовой компьютер HAL активизировал резервные цепи питания.</text>
+		<text>Looks like the on-board HAL computer has activated backup power circuitry.</text>
 		<status type="clear" target="enemy" system="reactor" amount="100"/>
 	</event>
 	<event>
-		<text>Похоже, что бортовой компьютер HAL активизировал резервные цепи питания.</text>
+		<text>Looks like the on-board HAL computer has activated backup power circuitry.</text>
 		<status type="clear" target="enemy" system="reactor" amount="100"/>
 	</event>
 	<event>
-		<text>Похоже, что бортовой компьютер HAL активизировал резервные цепи питания.</text>
+		<text>Looks like the on-board HAL computer has activated backup power circuitry.</text>
 		<status type="clear" target="enemy" system="reactor" amount="100"/>
 	</event>
 	<event>
-		<text>Неожиданно бортовой компьютер HAL отключается, и беспилотник зависает. Вы выжидаете некоторое время, но, кажется, всё в порядке. Системы вашего корабля приходят в норму, а ваша команда разбирает беспилотник на лом и находит в трюме рабочую схему дрона HAL.</text>
+		<text>Suddenly, the on-board HAL computer shuts off, and the drone hangs still in space. You wait a while, but everything seems to be in order. Your ship's systems return back to normal, and your crew examines the drone for scrap but also find a working HAL drone schematic in the hold.</text>
 		<ship hostile="false"/>
 		<autoReward level="HIGH">scrap_only</autoReward>
 		<drone name="DRONES_COMBAT_HAL"/>
@@ -4693,11 +4685,10 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXX --><!-- 1.21 -->
 	</event>
 	<event>
 		<text>Now that the Lanius ship is cleared of enemies, you search it. In the end, you find a prisoner who asks to join your crew.</text>
-		<!-- <crewMember amount="1"/> -->
 		<choice><!-- 1.26 -->
-			<text>Принять его в команду.</text>
+			<text>Take them into your crew.</text>
 			<event>
-				<text>Бывший пленник приступает к своим новым обязанностям.</text>
+				<text>The former prisoner embarks on their new duties.</text>
 				<crewMember amount="1"/>
 				<choice hidden="true">
 					<text id="continue"/>
@@ -4706,9 +4697,9 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXX --><!-- 1.21 -->
 			</event>
 		</choice>
 		<choice><!-- 1.26 -->
-			<text>Довезти его до ближайшей станции.</text>
+			<text>Drop them off at the next station.</text>
 			<event>
-				<text>За своё спасение он отдаёт вам все ценности, которые у него не забрали.</text>
+				<text>As thanks for saving them, they offer you everything of value they have that wasn't stolen from them.</text>
 				<autoReward level="LOW">scrap_only</autoReward>
 				<choice hidden="true">
 					<text id="continue"/>
