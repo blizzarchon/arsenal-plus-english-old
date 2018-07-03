@@ -16309,7 +16309,7 @@
 	<name>LASER_AUTO_1</name>
 	<name>LASER_BURST_SCATTER_1</name>
 	<name>LASER_BURST_2</name>
-	<name>MISSILES_ASTERIA</name>
+	<name>BA_MISSILES_ASTERIA</name><!-- 1.26.5 was wrong name -->
 	<name>MISSILES_BURST</name>
 	<name>MISSILES_HYDRA</name>
 	<name>SHOTGUN</name>
@@ -16324,7 +16324,7 @@
 	<name>LASER_AUTO_1</name>
 	<name>LASER_BURST_SCATTER_1</name>
 	<name>LASER_BURST_2</name>
-	<name>MISSILES_ASTERIA</name>
+	<name>BA_MISSILES_ASTERIA</name><!-- 1.26.5 was wrong name -->
 	<name>MISSILES_BURST</name>
 	<name>MISSILES_HYDRA</name>
 	<name>SHOTGUN</name>
