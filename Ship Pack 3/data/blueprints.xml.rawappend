@@ -385,7 +385,7 @@
 
 <weaponBlueprint name="BA_EFFECTOR_0">
 	<type>BOMB</type>
-	<tip>ce_tip_effector</tip>
+	<tip>ce_tip_effector_f0_b0</tip>
 	<title>Custom Effector Mark II</title>
 	<short>Effector Mark II+</short>
 	<flavorType>Ion Emitter</flavorType>
@@ -1030,7 +1030,6 @@ This custom-built version is slightly faster and requires only 1 power.</desc>
 
 <weaponBlueprint name="FR_PLAYER_BEAM_FOCUS">
 	<type>BEAM</type>
-	<tip>tip_beams</tip>
 	<title>Point Beam</title>
 	<short>Point Beam</short>
 	<desc>Fires off a 7 damage beam that punches a hole straight through a single room. [40 ‡]</desc><!-- 1.26 -->
@@ -1057,7 +1056,6 @@ This custom-built version is slightly faster and requires only 1 power.</desc>
 
 <weaponBlueprint name="FR_PLAYER_BEAM_HULL">
 	<type>BEAM</type>
-	<tip>tip_beams</tip>
 	<title>Hull Beam</title>
 	<short>Hull Beam</short>
 	<desc>Fires off a longer than normal hull beam that pierces all shield bubbles. [40 ‡]</desc><!-- 1.26 | 1.1 -->
