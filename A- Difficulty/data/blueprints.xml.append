@@ -47,3 +47,15 @@
 <mod:findName type="weaponBlueprint" name="HAL_PROTOTYPE_1">
 	<mod-overwrite:power>3</mod-overwrite:power>
 </mod:findName>
+
+<mod:findName type="weaponBlueprint" name="SLURMS_PROTOTYPE"> <!-- 1.26 -->
+	<mod-overwrite:power>2</mod-overwrite:power>
+</mod:findName>
+
+<mod:findName type="weaponBlueprint" name="PROTOTYPE_ZOLTON_MISSILE_1"> <!-- 1.26 -->
+	<mod-overwrite:power>3</mod-overwrite:power>
+</mod:findName>
+
+<mod:findName type="weaponBlueprint" name="PROTOTYPE_ZOLTON_BEAM_1"> <!-- 1.26 -->
+	<mod-overwrite:power>3</mod-overwrite:power>
+</mod:findName>

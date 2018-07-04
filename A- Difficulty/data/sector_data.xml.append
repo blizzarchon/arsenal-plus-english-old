@@ -4,9 +4,11 @@
 	<sector>CIVILIAN_SECTOR</sector>
 	<sector>ENGI_SECTOR</sector>
 	<sector>ZOLTAN_SECTOR</sector>
+	<sector>ZOLTON_SECTOR</sector> <!-- 1.26 -->
 	
 	<sector>ENGI_HOME</sector>
 	<sector>ZOLTAN_HOME</sector>
+	<sector>ZOLTON_HOME</sector> <!-- 1.26 -->
 	<sector>TRADE_SECTOR</sector>
 </sectorType>
 
