@@ -1,0 +1,3 @@
+<mod:findName type="text" name="ce_tip_laser_light">
+	<mod:setValue>Tip: Anti-personnel lasers can pass through weak shields and super shields to injure enemy crew and damage systems, but cannot deplete shields or deal hull damage.</mod:setValue>
+</mod:findName>

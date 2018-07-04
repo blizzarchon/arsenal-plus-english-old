@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<text name="menu_status_difficulty">A+ Difficulty</text>
+
+<text name="defense_friendly">Your Basic Defense Drone: \nShoots down missiles, mines and asteroids. Will function until destroyed or until you jump away.</text>
+<text name="defense_enemy">Enemy Basic Defense Drone: \nShoots down missiles, mines and asteroids. Can be shut down by damaging the enemy ship's drone system.</text>
+
+<text name="defense_2_friendly">Your Adv. Defense Drone: \nShoots down any projectiles. Will function until destroyed or until you jump away.</text>
+<text name="defense_2_enemy">Enemy Adv. Defense Drone: \nShoots down any projectiles. Can be shut down by damaging the enemy ship's drone system.</text>
+
+<text name="anti_combat_friendly">Your Anti-Combat Drone: \nShoots to stun and possibly destroy enemy combat drones. Will function until destroyed or until you jump away.</text>
+<text name="anti_combat_enemy">Enemy Anti-Combat Drone: \nShoots to stun and possibly destroy your combat drones. Can be shut down by damaging the enemy ship's drone system.</text>

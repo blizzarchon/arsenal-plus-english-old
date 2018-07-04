@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<mod:findName type="weaponBlueprint" name="CRYSTAL_PRO_LIGHT">
+	<mod-overwrite:power>2</mod-overwrite:power>
+</mod:findName>
+
+<mod:findName type="weaponBlueprint" name="CRYSTAL_PRO_HEAVY">
+	<mod-overwrite:power>2</mod-overwrite:power>
+</mod:findName>
+
+<mod:findName type="weaponBlueprint" name="OMICRON_AEGON_ROCKET_1">
+	<mod-overwrite:power>3</mod-overwrite:power>
+</mod:findName>
+
+<mod:findName type="weaponBlueprint" name="OMICRON_TRIPLE_BLASTER_1">
+	<mod-overwrite:power>1</mod-overwrite:power>
+</mod:findName>
+
+<mod:findName type="weaponBlueprint" name="SOLAR_BARRAGE_ARRAY">
+	<mod-overwrite:power>3</mod-overwrite:power>
+</mod:findName>
+
+<mod:findName type="weaponBlueprint" name="OMICRON_IMPACT_ION_BEAM_1">
+	<mod-overwrite:power>3</mod-overwrite:power>
+</mod:findName>
+
+<mod:findName type="weaponBlueprint" name="OMICRON_AUTOCANNON_1">
+	<mod-overwrite:power>1</mod-overwrite:power>
+</mod:findName>
+
+<mod:findName type="weaponBlueprint" name="OMICRON_PLASMA_RAILCANNON_1">
+	<mod-overwrite:power>3</mod-overwrite:power>
+</mod:findName>
+
+<mod:findName type="weaponBlueprint" name="OMICRON_PERFORATOR_1">
+	<mod-overwrite:power>3</mod-overwrite:power>
+</mod:findName>
+
+<mod:findName type="weaponBlueprint" name="OMICRON_OMNI_CANNON2_1">
+	<mod-overwrite:power>3</mod-overwrite:power>
+</mod:findName>
+
+<mod:findName type="weaponBlueprint" name="ORDEN_PROTOTYPE">
+	<mod-overwrite:power>3</mod-overwrite:power>
+</mod:findName>
+
+<mod:findName type="weaponBlueprint" name="HAL_PROTOTYPE_1">
+	<mod-overwrite:power>3</mod-overwrite:power>
+</mod:findName>

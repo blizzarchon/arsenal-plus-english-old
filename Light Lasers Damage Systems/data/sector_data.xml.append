@@ -1,0 +1,10 @@
+<mod:findName type="sectorDescription" name="CRYSTAL_HOME">
+	<mod:findLike type="rarityList">
+		<mod:findName type="blueprint" name="BA_CRYSTAL_LIGHT_1">
+			<mod:setAttributes rarity="3" />
+		</mod:findName>
+		<mod:findName type="blueprint" name="BA_CRYSTAL_LIGHT_2">
+			<mod:setAttributes rarity="5" />
+		</mod:findName>
+	</mod:findLike>
+</mod:findName>

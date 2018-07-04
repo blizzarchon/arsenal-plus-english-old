@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<systemBlueprint name="pilot">
+	<type>pilot</type>
+	<title>Piloting</title>
+	<desc>Allows the ship to make FTL jumps and dodge when piloted. Upgrading adds auto-pilot that allows some evasion even without a pilot.</desc>
+	<startPower>1</startPower>
+	<maxPower>8</maxPower>
+	<rarity>1</rarity>
+	<upgradeCost>
+		<level>11111</level>
+		<level>11111</level>
+		<level>11111</level>
+		<level>11111</level>
+		<level>11111</level>
+		<level>11111</level>
+		<level>11111</level>
+	</upgradeCost>
+	<cost>1</cost>
+</systemBlueprint>

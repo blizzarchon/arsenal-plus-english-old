@@ -1,0 +1,127 @@
+<!-- 3 shield pierce + 1 crew dmg -->
+<mod:findName type="weaponBlueprint" name="LIGHT_BREACH_LASER_1">
+	<mod-overwrite:desc>Modified anti-personnel and anti-system laser designed to maximize its breaching potential.</mod-overwrite:desc>
+	<mod-overwrite:sysDamage>1</mod-overwrite:sysDamage>
+	<mod-overwrite:sp>2</mod-overwrite:sp>
+	<mod-overwrite:cost>65</mod-overwrite:cost>
+	<mod-overwrite:rarity>5</mod-overwrite:rarity>
+</mod:findName>
+<mod:findName type="weaponBlueprint" name="LIGHT_BREACH_LASER_2">
+	<mod-overwrite:desc>Upgraded anti-personnel and anti-system laser designed to maximize its breaching potential. Slightly faster and more likely to breach than its predecessor.</mod-overwrite:desc>
+	<mod-overwrite:sysDamage>1</mod-overwrite:sysDamage>
+	<mod-overwrite:sp>2</mod-overwrite:sp>
+	<mod-overwrite:cost>70</mod-overwrite:cost>
+	<mod-overwrite:rarity>5</mod-overwrite:rarity>
+</mod:findName>
+<mod:findName type="weaponBlueprint" name="LIGHT_BREACH_VULCAN">
+	<mod-overwrite:desc>Gatling variant of the light breach laser. Eventually can rapidly damage systems and frequently leaves behind holes.</mod-overwrite:desc>
+	<mod-overwrite:sysDamage>1</mod-overwrite:sysDamage>
+	<mod-overwrite:sp>2</mod-overwrite:sp>
+	<mod-overwrite:cost>90</mod-overwrite:cost>
+	<!-- change cooldown/boost? -->
+</mod:findName>
+<!-- 2 shield pierce + 1 crew dmg -->
+<mod:findName type="weaponBlueprint" name="LASER_LIGHT_1"><!-- 2 shots -->
+	<mod-overwrite:desc>Shield-piercing laser that fires two shots which damage systems and crew alike.</mod-overwrite:desc>
+	<mod-overwrite:sysDamage>1</mod-overwrite:sysDamage>
+	<mod-overwrite:sp>1</mod-overwrite:sp>
+	<mod-overwrite:cost>65</mod-overwrite:cost>
+	<mod-overwrite:rarity>4</mod-overwrite:rarity>
+</mod:findName>
+<mod:findName type="weaponBlueprint" name="LASER_LIGHT_2"><!-- 3 shots -->
+	<mod-overwrite:desc>Shield-piercing laser that fires three shots which damage systems and crew alike.</mod-overwrite:desc>
+	<mod-overwrite:sysDamage>1</mod-overwrite:sysDamage>
+	<mod-overwrite:sp>1</mod-overwrite:sp>
+	<mod-overwrite:power>2</mod-overwrite:power>
+	<mod-overwrite:cost>70</mod-overwrite:cost>
+	<mod-overwrite:rarity>4</mod-overwrite:rarity>
+</mod:findName>
+<mod:findName type="weaponBlueprint" name="LASER_LIGHT_3"><!-- 5 shots -->
+	<mod-overwrite:desc>Shield-piercing laser that fires five shots which damage systems and crew alike.</mod-overwrite:desc>
+	<mod-overwrite:sysDamage>1</mod-overwrite:sysDamage>
+	<mod-overwrite:sp>1</mod-overwrite:sp>
+	<mod-overwrite:power>3</mod-overwrite:power>
+	<mod-overwrite:cost>75</mod-overwrite:cost>
+	<mod-overwrite:rarity>5</mod-overwrite:rarity>
+</mod:findName>
+<mod:findName type="weaponBlueprint" name="LASER_LIGHT_AUTO"><!-- 1 shot -->
+	<mod-overwrite:desc>Thanks to high-speed recharging, this shield-piercing laser can keep enemy crew and systems under constant fire.</mod-overwrite:desc>
+	<mod-overwrite:sysDamage>1</mod-overwrite:sysDamage>
+	<mod-overwrite:sp>1</mod-overwrite:sp>
+	<mod-overwrite:power>2</mod-overwrite:power>
+	<mod-overwrite:cost>60</mod-overwrite:cost>
+	<mod-overwrite:rarity>5</mod-overwrite:rarity>
+</mod:findName>
+<mod:findName type="weaponBlueprint" name="BA_LASER_LIGHT_CHAINGUN"><!-- 1 shot -->
+	<mod-overwrite:desc>Gatling variant of the light laser. Decreases in cooldown each time it fires, eventually being able to shred enemy crew and systems rather quickly.</mod-overwrite:desc>
+	<mod-overwrite:sysDamage>1</mod-overwrite:sysDamage>
+	<mod-overwrite:sp>1</mod-overwrite:sp>
+	<!-- change cooldown/boost? -->
+</mod:findName>
+<!-- 3 shield pierce + 1 crew dmg -->
+<mod:findName type="weaponBlueprint" name="BA_CRYSTAL_LIGHT_1"><!-- 3 shots -->
+	<mod-overwrite:desc>Shield-piercing armament that fires two crystals which damage systems and crew alike. Its crystals can be shot down by basic defense drones.</mod-overwrite:desc>
+	<mod-overwrite:sysDamage>1</mod-overwrite:sysDamage>
+	<mod-overwrite:sp>2</mod-overwrite:sp>
+	<mod-overwrite:shots>2</mod-overwrite:shots>
+	<mod-overwrite:cost>75</mod-overwrite:cost>
+	<!-- change rarity in sector data? done | raised to 3 -->
+</mod:findName>
+<mod:findName type="weaponBlueprint" name="BA_CRYSTAL_LIGHT_2"><!-- 4 shots -->
+	<mod-overwrite:desc>Shield-piercing armament that fires four crystals which damage systems and crew alike. Its crystals can be shot down by basic defense drones.</mod-overwrite:desc>
+	<mod-overwrite:sysDamage>1</mod-overwrite:sysDamage>
+	<mod-overwrite:sp>2</mod-overwrite:sp>
+	<mod-overwrite:cost>85</mod-overwrite:cost>
+	<!-- change rarity in sector data? done | raised to 5 -->
+</mod:findName>
+<!-- 1 shield pierce + 2 crew dmg -->
+<mod:findName type="weaponBlueprint" name="LASER_LIGHT_SCATTER_1"><!-- 1 shot -->		
+	<mod-overwrite:desc>Shield-piercing laser that fires a single shot dealing one system damage and increased crew damage.</mod-overwrite:desc>
+	<mod-overwrite:sysDamage>1</mod-overwrite:sysDamage>
+	<mod-overwrite:breachChance>1</mod-overwrite:breachChance>
+	<mod-overwrite:cost>50</mod-overwrite:cost>
+	<mod-overwrite:rarity>4</mod-overwrite:rarity>
+</mod:findName>
+
+<!-- 1 shield pierce + 3 crew dmg -->
+<mod:findName type="weaponBlueprint" name="LASER_LIGHT_SCATTER_2"><!-- 1 shot -->
+	<mod-overwrite:desc>Shield-piercing laser that fires a single shot dealing moderate system and crew damage.</mod-overwrite:desc>
+	<mod-overwrite:sysDamage>2</mod-overwrite:sysDamage>
+	<mod-overwrite:breachChance>2</mod-overwrite:breachChance>
+	<mod-overwrite:cooldown>12</mod-overwrite:cooldown>
+	<mod-overwrite:power>2</mod-overwrite:power>
+	<mod-overwrite:cost>65</mod-overwrite:cost>
+	<mod-overwrite:rarity>4</mod-overwrite:rarity>
+</mod:findName>
+<!-- 3 shield pierce + 3 crew dmg -->
+<mod:findName type="weaponBlueprint" name="FR_BOSS_LASER_LIGHT"><!-- 3 shots -->
+	<mod-overwrite:sysDamage>2</mod-overwrite:sysDamage>
+	<mod-overwrite:sp>2</mod-overwrite:sp>
+</mod:findName>
+	
+<!-- 1 shield pierce + 4 crew dmg -->
+<mod:findName type="weaponBlueprint" name="LASER_LIGHT_SCATTER_3"><!-- 1 shot -->
+	<mod-overwrite:desc>Shield-piercing laser that fires a single shot which shreds systems and crew to pieces.</mod-overwrite:desc>
+	<mod-overwrite:sysDamage>3</mod-overwrite:sysDamage>
+	<mod-overwrite:breachChance>3</mod-overwrite:breachChance>
+	<mod-overwrite:cooldown>13</mod-overwrite:cooldown>
+	<mod-overwrite:power>3</mod-overwrite:power>
+	<mod-overwrite:cost>70</mod-overwrite:cost>
+	<mod-overwrite:rarity>5</mod-overwrite:rarity>
+</mod:findName>
+<!-- bomb + 4 crew dmg, base 2 sysDamage -->
+<mod:findName type="weaponBlueprint" name="CRYSTAL_PRO_LIGHT"><!-- 1 shot -->
+	<mod-overwrite:sysDamage>3</mod-overwrite:sysDamage>
+</mod:findName>
+
+<!-- 3 shield pierce -->
+<mod:findName type="weaponBlueprint" name="BA_LASER_LIGHT_ARTILLERY"><!-- 1 shot -->
+	<mod-overwrite:desc>This laser fires a single shot which tears apart systems and crew, and can bypass up to two shield bubbles.</mod-overwrite:desc>
+	<mod-overwrite:sysDamage>4</mod-overwrite:sysDamage>
+	<mod-overwrite:sp>2</mod-overwrite:sp>
+	<mod-overwrite:breachChance>5</mod-overwrite:breachChance>
+	<mod-overwrite:cooldown>15</mod-overwrite:cooldown>
+	<mod-overwrite:power>3</mod-overwrite:power>
+	<mod-overwrite:cost>80</mod-overwrite:cost>
+	<mod-overwrite:rarity>5</mod-overwrite:rarity>
+</mod:findName>

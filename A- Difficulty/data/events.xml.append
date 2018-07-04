@@ -1,0 +1,698 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<mod:findName type="eventList" name="NOTHING2_HUMAN">
+	<mod-append:event load="NOTHING2_HUMAN_GOOD" />
+</mod:findName>
+<mod:findName type="eventList" name="NOTHING2_HUMAN2">
+	<mod-append:event load="NOTHING2_HUMAN_BEST" />
+</mod:findName>
+
+<mod:findName type="eventList" name="NOTHING2_ENGI">
+	<mod-append:event load="NOTHING2_ENGI_GOOD" />
+</mod:findName>
+<mod:findName type="eventList" name="NOTHING2_ENGI2">
+	<mod-append:event load="NOTHING2_ENGI_BEST" />
+</mod:findName>
+
+<mod:findName type="eventList" name="NOTHING2_ENERGY">
+	<mod-append:event load="NOTHING2_ENERGY_GOOD" />
+</mod:findName>
+<mod:findName type="eventList" name="NOTHING2_ENERGY2">
+	<mod-append:event load="NOTHING2_ENERGY_GOOD" />
+</mod:findName>
+
+<mod:findName type="eventList" name="NOTHING2_MANTIS">
+	<mod-append:event load="NOTHING2_MANTIS_GOOD" />
+</mod:findName>
+<mod:findName type="eventList" name="NOTHING2_MANTIS2">
+	<mod-append:event load="NOTHING2_MANTIS_BEST" />
+</mod:findName>
+
+<mod:findName type="eventList" name="NOTHING2_SLUG">
+	<mod-append:event load="NOTHING2_SLUG_GOOD" />
+</mod:findName>
+<mod:findName type="eventList" name="NOTHING2_SLUG2">
+	<mod-append:event load="NOTHING2_SLUG_BEST" />
+</mod:findName>
+
+<mod:findName type="eventList" name="NOTHING2_ROCK">
+	<mod-append:event load="NOTHING2_ROCK_GOOD" />
+</mod:findName>
+<mod:findName type="eventList" name="NOTHING2_ROCK2">
+	<mod-append:event load="NOTHING2_ROCK_BEST" />
+</mod:findName>
+
+<mod:findName type="eventList" name="NOTHING2_ANAEROBIC">
+	<mod-append:event load="NOTHING2_ANAEROBIC_GOOD" />
+</mod:findName>
+<mod:findName type="eventList" name="NOTHING2_ANAEROBIC2">
+	<mod-append:event load="NOTHING2_ANAEROBIC_BEST" />
+</mod:findName>
+
+<mod:findName type="eventList" name="NOTHING2_CRYSTAL">
+	<mod-append:event load="NOTHING2_CRYSTAL_GOOD" />
+</mod:findName>
+<mod:findName type="eventList" name="NOTHING2_CRYSTAL2">
+	<mod-append:event load="NOTHING2_CRYSTAL_GOOD" />
+</mod:findName>
+
+<mod:findName type="eventList" name="NOTHING2_GHOST">
+	<mod-append:event load="NOTHING2_GHOST_GOOD" />
+</mod:findName>
+<mod:findName type="eventList" name="NOTHING2_GHOST2">
+	<mod-append:event load="NOTHING2_GHOST_GOOD" />
+</mod:findName>
+
+
+
+
+<mod:findName type="eventList" name="ADV_SCANNERS_LIST">
+	<mod:findWithChildLike type="event" child-type="damage">
+		<mod:removeTag />
+	</mod:findWithChildLike>
+	<mod-append:event>
+		<text>You get a full sector map, but suddenly the scanners explode and are set ablaze!</text>
+		<reveal_map/>
+		<damage amount="3" system="sensors" effect="fire"/>
+	</mod-append:event>
+</mod:findName>
+
+<eventList name="AUTO_COOLDOWN_LIST"><!-- removed event where you just lose materials, no augment -->
+	<event><!-- success costs 40-60 scrap and at most 12 missiles and drones -->
+		<text>You spend some materials for the augmentation assembly. You still need to add a good amount of scrap...</text>
+		<item_modify steal="true">
+			<item type="missiles" min="-12" max="-1"/>
+			<item type="drones" min="-12" max="-1"/>
+		</item_modify>
+		<choice hidden="false">
+			<text>Finish the assembly by adding the required amount of metal.</text>
+			<event>
+				<text>Augmentation assembly is a success, but it took a long time.</text>
+				<item_modify>
+					<item type="scrap" min="-60" max="-40"/>
+				</item_modify>
+				<choice hidden="true">
+					<text id="continue" />
+					<event>
+						<text>You install the augment. In the meantime, the Rebel Fleet approaches.</text>
+						<augment name="AUTO_COOLDOWN"/>
+						<modifyPursuit amount="1"/>
+					</event>
+				</choice>
+			</event>
+		</choice>
+		<choice hidden="true">
+			<text>We don't have that much extra scrap!</text>
+			<event>
+				<text>As you cannot complete the assembly, it's time to move on.</text>
+			</event>
+		</choice>
+	</event>
+	<event><!-- success costs 30-90 scrap and at most 16 missiles and drones -->
+		<text>You spend some materials for the augmentation assembly. You still need to add a good amount of scrap...</text>
+		<item_modify steal="true">
+			<item type="missiles" min="-16" max="-1"/>
+			<item type="drones" min="-16" max="-1"/>
+		</item_modify>
+		<choice hidden="false">
+			<text>Finish the assembly by adding the required amount of metal.</text>
+			<event>
+				<text>Augmentation assembly is a success.</text>
+				<item_modify>
+					<item type="scrap" min="-90" max="-30"/>
+				</item_modify>
+				<choice hidden="true">
+					<text id="continue" />
+					<event>
+						<text>You install the augment.</text>
+						<augment name="AUTO_COOLDOWN"/>
+					</event>
+				</choice>
+			</event>
+		</choice>
+		<choice hidden="true">
+			<text>We don't have that much extra scrap!</text>
+			<event>
+				<text>As you cannot complete the assembly, it's time to move on.</text>
+			</event>
+		</choice>
+	</event>
+	<event><!-- success costs 20-100 scrap and at most 12 missiles and drones -->
+		<text>You spend some materials for the augmentation assembly. You still need to add a good amount of scrap...</text>
+		<item_modify steal="true">
+			<item type="missiles" min="-16" max="-1"/>
+			<item type="drones" min="-16" max="-1"/>
+		</item_modify>
+		<choice hidden="false">
+			<text>Finish the assembly by adding the required amount of metal.</text>
+			<event>
+				<text>Augmentation assembly is a success.</text>
+				<item_modify>
+					<item type="scrap" min="-100" max="-20"/>
+				</item_modify>
+				<choice hidden="true">
+					<text id="continue" />
+					<event>
+						<text>You install the augment.</text>
+						<augment name="AUTO_COOLDOWN"/>
+					</event>
+				</choice>
+			</event>
+		</choice>
+		<choice hidden="true">
+			<text>We don't have that much extra scrap!</text>
+			<event>
+				<text>As you cannot complete the assembly, it's time to move on.</text>
+			</event>
+		</choice>
+	</event>
+	<event><!-- "nothing" event -->
+		<text>You estimate the stock of materials on the ship and conclude that they may not be enough. It's better not to risk it than to make an attempt in vain.</text>
+	</event>
+</eventList>
+
+<mod:findName type="eventList" name="BACKUP_DNA_LIST"><!-- damage events removed -->
+	<mod:findWithChildLike type="event" child-type="damage">
+		<mod:removeTag />
+	</mod:findWithChildLike>
+</mod:findName>
+	
+<mod:findName type="eventList" name="BATTERY_BOOSTER_LIST"><!-- removed one of the damage events -->
+	<mod:findWithChildLike type="event" child-type="damage">
+		<mod:removeTag />
+	</mod:findWithChildLike>
+	<mod-append:event>
+		<text>A crewman picks around in the reactor's wiring, when suddenly an explosion is heard in the next room. It's strange, but after that the reactor got more active.</text>
+		<upgrade amount="1" system="reactor"/>
+		<damage amount="2" system="random" effect="fire"/>
+		<damage amount="1" system="room" effect="fire"/>
+	</mod-append:event>
+</mod:findName>
+
+<mod:findName type="event" name="CLOAK_FIRE_PREPARE"><!-- guaranteed missile launcher, more you spend, better chance for Ifrit -->
+	<mod-overwrite:text>To create a cloaked weapon you will need missiles and scrap. The higher the costs, the greater the likelihood of assembling a better cloaked weapon.</mod-overwrite:text>
+</mod:findName>
+<eventList name="CLOAK_FIRE_LIST_LOW">
+	<event>
+		<text>You successfully construct the Oni techno-missile launcher.</text>
+		<item_modify>
+			<item type="missiles" min="-4" max="-4"/>
+			<item type="scrap" min="-10" max="-10"/>
+		</item_modify>
+		<weapon name="BA_MISSILES_ONI"/>
+	</event>
+	<event>
+		<text>You successfully construct the Oni techno-missile launcher.</text>
+		<item_modify>
+			<item type="missiles" min="-4" max="-4"/>
+			<item type="scrap" min="-10" max="-10"/>
+		</item_modify>
+		<weapon name="BA_MISSILES_ONI"/>
+	</event>
+	<event>
+		<text>You successfully construct the Ifrit techno-missile launcher.</text>
+		<item_modify>
+			<item type="missiles" min="-12" max="-12"/>
+			<item type="scrap" min="-20" max="-20"/>
+		</item_modify>
+		<weapon name="BA_MISSILES_IFRIT"/>
+	</event>
+</eventList>
+
+<eventList name="CLOAK_FIRE_LIST_MED">
+	<event>
+		<text>You successfully construct the Oni techno-missile launcher.</text>
+		<item_modify>
+			<item type="missiles" min="-8" max="-8"/>
+			<item type="scrap" min="-15" max="-15"/>
+		</item_modify>
+		<weapon name="BA_MISSILES_ONI"/>
+	</event>
+	<event>
+		<text>You successfully construct the Ifrit techno-missile launcher.</text>
+		<item_modify>
+			<item type="missiles" min="-12" max="-12"/>
+			<item type="scrap" min="-20" max="-20"/>
+		</item_modify>
+		<weapon name="BA_MISSILES_IFRIT"/>
+	</event>
+</eventList>
+
+<eventList name="CLOAK_FIRE_LIST_HIGH">
+	<event>
+		<text>You successfully construct the Ifrit techno-missile launcher.</text>
+		<item_modify>
+			<item type="missiles" min="-12" max="-12"/>
+			<item type="scrap" min="-20" max="-20"/>
+		</item_modify>
+		<weapon name="BA_MISSILES_IFRIT"/>
+	</event>
+	<event>
+		<text>You successfully construct the Oni techno-missile launcher.</text>
+		<item_modify>
+			<item type="missiles" min="-12" max="-12"/>
+			<item type="scrap" min="-20" max="-20"/>
+		</item_modify>
+		<weapon name="BA_MISSILES_ONI"/>
+	</event>
+	<event>
+		<text>You successfully construct the Ifrit techno-missile launcher.</text>
+		<item_modify>
+			<item type="missiles" min="-12" max="-12"/>
+			<item type="scrap" min="-20" max="-20"/>
+		</item_modify>
+		<weapon name="BA_MISSILES_IFRIT"/>
+	</event>
+</eventList>
+
+<mod:findName type="event" name="CREW_STIMS_PREPARE"><!-- removes negative event -->
+	<mod:findLike type="choice"><mod:selector lvl="0" />
+		<mod-overwrite:event load="CREW_STIMS_LIST_NOTHING" />
+	</mod:findLike>
+</mod:findName>
+
+<eventList name="CREW_STIMS_LIST"><!-- nothing negative -->
+	<event>
+		<text>One of your Mantis starts mating, and some time later they bring you an offspring.</text>
+		<crewMember amount="1" class="mantis"/>
+	</event>
+	<event>
+		<text>One of your Mantis loses control, wildly rushing throughout the ship, then abruptly stops at the airlock and stares intently out the window until the effects of the pheromones cease.</text>
+	</event>
+</eventList>
+
+<eventList name="DEFENSE_SCRAMBLER_LIST_LOW"><!-- guaranteed good, no waste -->
+	<event>
+		<text>An interference mechanism is generated that slightly delays the Rebel Fleet.</text>
+		<item_modify>
+			<item type="drones" min="-3" max="-3"/>
+		</item_modify>
+		<modifyPursuit amount="-1"/>
+	</event>
+</eventList>
+
+<eventList name="DEFENSE_SCRAMBLER_LIST_MED"><!-- guaranteed good, no waste -->
+	<event>
+		<text>An interference mechanism is generated that delays the Rebel Fleet.</text>
+		<item_modify>
+			<item type="drones" min="-5" max="-5"/>
+		</item_modify>
+		<modifyPursuit amount="-2"/>
+	</event>
+	<event>
+		<text>An interference mechanism is generated that slightly delays the Rebel Fleet.</text>
+		<item_modify>
+			<item type="drones" min="-5" max="-5"/>
+		</item_modify>
+		<modifyPursuit amount="-1"/>
+	</event>
+</eventList>
+
+<eventList name="ENERGY_SHIELD_LIST"><!-- no bad event and 50/50 -->
+	<event>
+		<text>The build process is a success, and you receive a new drone schematic.</text>
+		<drone name="DRONES_ZOLTANSHIELD"/>
+	</event>
+	<event>
+		<text>During assembly, failure occurs, and the drone parts are melted down into a pile of scrap.</text>
+		<item_modify>
+			<item type="scrap" min="15" max="30"/><!-- 1.25, max was 45 -->
+		</item_modify>
+	</event>
+</eventList>
+
+<mod:findName type="eventList" name="EXPLOSIVE_REPLICATOR_LIST"><!-- no chain reaction fire event -->
+	<mod:findWithChildLike type="event" child-type="damage">
+		<mod:removeTag />
+	</mod:findWithChildLike>
+</mod:findName>
+
+<eventList name="FLEET_DISTRACTION_LIST"><!-- removes waste event -->
+	<event>
+		<text>The Rebel fleet will need considerable time to figure out where you're headed.</text>
+		<modifyPursuit amount="-2"/>
+	</event>
+	<event>
+		<text>The Rebel fleet will need some time to figure out where you're headed.</text>
+		<modifyPursuit amount="-1"/>
+	</event>
+</eventList>
+
+<mod:findName type="eventList" name="FTL_BOOSTER_LIST"><!-- removes 3 damage waste event -->
+	<mod:findWithChildLike type="event" child-type="damage"><mod:selector amount="2" />
+		<mod:removeTag />
+	</mod:findWithChildLike>
+</mod:findName>
+
+<!-- 15s longer timers -->
+<ship name="FTL_JAMMER_SHIP_1" auto_blueprint="SHIPS_FED">
+	<escape timer="60" min="30" max="30" ><!-- 1.25, timer was 45 -->
+		<text>Looks like they don't want to fight and are trying to escape.</text>
+	</escape>
+	<gotaway>
+		<text>They get away. Hopefully, they won't tell anyone about what happened.</text>
+	</gotaway>
+	<destroyed load="DESTROYED_DEFAULT"/>
+	<deadCrew load="DEAD_CREW_DEFAULT"/>
+</ship>
+<ship name="FTL_JAMMER_SHIP_2" auto_blueprint="SHIPS_PIRATE">
+	<escape timer="60" min="30" max="30" ><!-- 1.25, timer was 45 -->
+		<text>Looks like they don't want to fight and are trying to escape.</text>
+	</escape>
+	<gotaway>
+		<text>The pirates get away. Either this jammer isn't good enough or your offense is to blame.</text>
+	</gotaway>
+	<destroyed load="DESTROYED_DEFAULT"/>
+	<deadCrew load="DEAD_CREW_DEFAULT"/>
+</ship>
+<ship name="FTL_JAMMER_SHIP_3" auto_blueprint="SHIPS_PIRATE">
+	<escape timer="60" min="30" max="30" ><!-- 1.25, timer was 45 -->
+		<text>Looks like they don't want to fight and are trying to escape.</text>
+	</escape>
+	<gotaway>
+		<text>The pirates got away. We need to move on.</text>
+	</gotaway>
+	<destroyed load="DESTROYED_DEFAULT"/>
+	<deadCrew load="DEAD_CREW_DEFAULT"/>
+</ship>
+
+<mod:findName type="event" name="HACKING_STUN_PREPARE">
+	<mod-overwrite:text>Drone parts and scrap are needed to create a stunner. The higher the costs, the greater the likelihood of assembling a better stunner.</mod-overwrite:text>
+</mod:findName>
+<!-- no wasted materials outcomes -->
+<eventList name="HACKING_STUN_LIST_LOW">
+	<event>
+		<text>You successfully assemble a Stunner Mark I.</text>
+		<item_modify>
+			<item type="drones" min="-3" max="-3"/>
+			<item type="scrap" min="-5" max="-5"/>
+		</item_modify>
+		<weapon name="BA_STUNGUN_1"/>
+	</event>
+</eventList>
+
+<eventList name="HACKING_STUN_LIST_MED">
+	<event>
+		<text>You successfully assemble a Stunner Mark II.</text>
+		<item_modify>
+			<item type="drones" min="-5" max="-5"/>
+			<item type="scrap" min="-10" max="-10"/>
+		</item_modify>
+		<weapon name="BA_STUNGUN_2"/>
+	</event>
+	<event>
+		<text>You successfully assemble a Stunner Mark I.</text>
+		<item_modify>
+			<item type="drones" min="-5" max="-5"/>
+			<item type="scrap" min="-10" max="-10"/>
+		</item_modify>
+		<weapon name="BA_STUNGUN_1"/>
+	</event>
+</eventList>
+
+<eventList name="HACKING_STUN_LIST_HIGH">
+	<event>
+		<text>You successfully assemble a Stunner Mark III.</text>
+		<item_modify>
+			<item type="drones" min="-7" max="-7"/>
+			<item type="scrap" min="-15" max="-15"/>
+		</item_modify>
+		<weapon name="BA_STUNGUN_3"/>
+	</event>
+	<event>
+		<text>You successfully assemble a Stunner Mark II.</text>
+		<item_modify>
+			<item type="drones" min="-7" max="-7"/>
+			<item type="scrap" min="-15" max="-15"/>
+		</item_modify>
+		<weapon name="BA_STUNGUN_2"/>
+	</event>
+	<event>
+		<text>You successfully assemble a Stunner Mark I.</text>
+		<item_modify>
+			<item type="drones" min="-7" max="-7"/>
+			<item type="scrap" min="-15" max="-15"/>
+		</item_modify>
+		<weapon name="BA_STUNGUN_1"/>
+	</event>
+</eventList>
+
+<event name="ION_ARMOR_PREPARE">
+	<text>To create a drone you will need drone parts.</text>
+	<choice hidden="false">
+		<text>Spend the required amount of drone parts.</text>
+		<event>
+			<text>You begin assembling a drone...</text>
+			<item_modify>
+				<item type="drones" min="-10" max="-5"/>
+			</item_modify>
+			<choice hidden="true">
+				<text id="continue" />
+				<event>
+					<text>You successfully assemble a drone.</text>
+					<drone name="DRONES_IONES_LIST"/>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text>We don't have materials to spare; prepare to jump.</text>
+		<event/>
+	</choice>
+</event>
+
+<eventList name="NANO_MEDBAY_LIST">
+	<event>
+		<text>The med-bots do their job.</text>
+		<upgrade amount="1" system="medbay"/>
+	</event>
+	<event>
+		<text>The medbots hang about when they're loaded into the medbay, and then self-destruct. Looks like the crewman in charge is a pretty bad med-bot programmer...</text>
+	</event>
+</eventList>
+
+<eventList name="O2_MASKS_LIST">
+	<event>
+		<text>Your crewmember successfully upgrades the oxygen system.</text>
+		<upgrade amount="1" system="oxygen"/>
+	</event>
+	<event>
+		<text>Unfortunately, your crewmember, after sifting about for several minutes, throws their arms up in despair. Their knowledge is clearly inadequate for this work.</text>
+	</event>
+</eventList>
+
+<mod:findName type="eventList" name="ROCK_ARMOR_LIST">
+	<mod:findWithChildLike type="event" child-type="damage"><mod:selector amount="2" />
+		<mod:removeTag />
+	</mod:findWithChildLike>
+	<mod-append:event>
+		<text>After a while you go to see how your crew is coming along in restoring damaged hull, and find them playing cards.</text>
+	</mod-append:event>
+</mod:findName>
+
+<mod:findName type="eventList" name="SCRAP_COLLECTOR_LIST">
+	<mod:findWithChildLike type="event" child-type="modifyPursuit">
+		<mod:removeTag />
+	</mod:findWithChildLike>
+	<mod-append:event>
+		<text>There's absolutely nothing near the beacon.</text>
+	</mod-append:event>
+	<mod-append:event>
+		<text>You don't find anything of use near the beacon.</text>
+	</mod-append:event>
+</mod:findName>
+
+<eventList name="SHIELD_RECHARGE_LIST"><!-- removes event where spending resources and scrap doesn't give an augment -->
+	<event>
+		<text>You spend some materials for the augmentation assembly. You still need to add a good amount of scrap...</text>
+		<item_modify steal="true">
+			<item type="missiles" min="-12" max="-1"/>
+			<item type="drones" min="-12" max="-1"/>
+		</item_modify>
+		<choice hidden="false">
+			<text>Finish the assembly by adding the required amount of metal.</text>
+			<event>
+				<text>Augmentation assembly is a success, but it took a lot of time.</text>
+				<item_modify>
+					<item type="scrap" min="-60" max="-30"/>
+				</item_modify>
+				<choice hidden="true">
+					<text id="continue" />
+					<event>
+						<text>You install the augmentation. Meanwhile, the Rebel Fleet approaches.</text>
+						<augment name="SHIELD_RECHARGE"/>
+						<modifyPursuit amount="1"/>
+					</event>
+				</choice>
+			</event>
+		</choice>
+		<choice hidden="true">
+			<text>We don't have that much extra scrap!</text>
+			<event>
+				<text>As you cannot complete the assembly, it's time to move on.</text>
+			</event>
+		</choice>
+	</event>
+	<event>
+		<text>You spend some materials for the augmentation assembly. You still need to add a good amount of scrap...</text>
+		<item_modify steal="true">
+			<item type="missiles" min="-16" max="-1"/>
+			<item type="drones" min="-16" max="-1"/>
+		</item_modify>
+		<choice hidden="false">
+			<text>Finish the assembly by adding the required amount of metal.</text>
+			<event>
+				<text>Augmentation assembly is a success.</text>
+				<item_modify>
+					<item type="scrap" min="-90" max="-20"/>
+				</item_modify>
+				<choice hidden="true">
+					<text id="continue" />
+					<event>
+						<text>You install the augmentation.</text>
+						<augment name="SHIELD_RECHARGE"/>
+					</event>
+				</choice>
+			</event>
+		</choice>
+		<choice hidden="true">
+			<text>We don't have that much extra scrap!</text>
+			<event>
+				<text>As you cannot complete the assembly, it's time to move on.</text>
+			</event>
+		</choice>
+	</event>
+	<event>
+		<text>You spend some materials for the augmentation assembly. You still need to add a good amount of scrap...</text>
+		<item_modify steal="true">
+			<item type="missiles" min="-16" max="-1"/>
+			<item type="drones" min="-16" max="-1"/>
+		</item_modify>
+		<choice hidden="false">
+			<text>Finish the assembly by adding the required amount of metal.</text>
+			<event>
+				<text>Augmentation assembly is a success.</text>
+				<item_modify>
+					<item type="scrap" min="-80" max="-30"/>
+				</item_modify>
+				<choice hidden="true">
+					<text id="continue" />
+					<event>
+						<text>You install the augmentation.</text>
+						<augment name="SHIELD_RECHARGE"/>
+					</event>
+				</choice>
+			</event>
+		</choice>
+		<choice hidden="true">
+			<text>We don't have that much extra scrap!</text>
+			<event>
+				<text>As you cannot complete the assembly, it's time to move on.</text>
+			</event>
+		</choice>
+	</event>
+	<event>
+		<text>You assess the stock of materials on the ship and make the conclusion that there may not be enough. Better not to risk it and convert them in vain.</text>
+	</event>
+</eventList>
+
+<eventList name="WEAPON_PREIGNITE_LIST">
+	<event>
+		<text>A crewman says they can improve the weapons bay by reconfiguring the pre-charge algorithm. After some time, the system gets improved.</text>
+		<upgrade amount="1" system="weapons"/>
+	</event>
+	<event>
+		<text>A crewman says they can improve the weapons bay by reconfiguring the pre-charge algorithm. After a while you realize that what they're doing isn't working, so you move on.</text>
+	</event>
+</eventList>
+
+<eventList name="ZOLTAN_BYPASS_LIST">
+	<event>
+		<text>Your crew is unable to make any headway in reconfiguring the defense system, and as you can't waste any more time, you get ready to jump.</text>	
+	</event>
+	<event>
+		<text>Your crew eliminate several vulnerabilities in the defense system, thereby improving the shields.</text>
+		<upgrade amount="1" system="shields"/>
+	</event>
+</eventList>
+
+
+<eventList name="DESTROYED_DEFAULT">
+	<event>
+		<text>The ship explodes, leaving behind a small amount of useful scrap material.</text>
+		<autoReward level="LOW">standard</autoReward>
+	</event>
+	<event>
+		<text>The ship explodes, leaving behind some amount of useful scrap material.</text>
+		<autoReward level="MED">standard</autoReward>
+	</event>
+	<event>
+		<text>The ship explodes, leaving behind some amount of useful scrap material.</text>
+		<autoReward level="MED">standard</autoReward>
+	</event>
+	<event>
+		<text>The ship explodes, leaving behind a substantial collection of useful scrap material.</text>
+		<autoReward level="HIGH">standard</autoReward>
+	</event>
+</eventList>
+
+<eventList name="DEAD_CREW_DEFAULT">
+	<event>
+		<text>There are no more life-signs remaining on the ship. You strip it of useful materials.</text>
+		<autoReward level="MED">standard</autoReward>
+	</event>
+	<event>
+		<text>There are no more life-signs remaining on the ship. You strip it of useful materials.</text>
+		<autoReward level="MED">standard</autoReward>
+	</event>
+	<event>
+		<text>There are no more life-signs remaining on the ship. You strip it of useful materials.</text>
+		<autoReward level="MED">standard</autoReward>
+	</event>
+	<event>
+		<text>There are no more life-signs remaining on the ship. You strip it of useful materials.</text>
+		<autoReward level="MED">standard</autoReward>
+	</event>
+	<event>
+		<text>There are no more life-signs remaining on the ship. You take out all materials that look useful.</text>
+		<autoReward level="RANDOM">standard</autoReward>
+	</event>
+	<event>
+		<text>There are no more life-signs remaining on the ship. You take out all materials that look useful.</text>
+		<autoReward level="RANDOM">standard</autoReward>
+	</event>
+	<event>
+		<text>There are no more life-signs remaining on the ship. You take out all materials that look useful.</text>
+		<autoReward level="HIGH">standard</autoReward>
+	</event>	
+	<event>
+		<text>There are no more life-signs remaining on the ship. You take out all materials that look useful.</text>
+		<autoReward level="HIGH">standard</autoReward>
+	</event>
+	<event>
+		<text>With the crew dead, you are able to take the fuel out of storage. You also take all the scrap you can manage.</text>
+		<autoReward level="HIGH">fuel</autoReward>
+	</event>
+	<event>
+		<text>With the crew dead, you are able to take the fuel out of storage. You also take all the scrap you can manage.</text>
+		<autoReward level="RANDOM">fuel</autoReward>
+	</event>
+	<event>
+		<text>Now that their ship has been emptied of hostiles, you search it. Eventually you find a prisoner who offers to join your crew.</text>
+		<crewMember amount="1"/>
+		<autoReward level="LOW">scrap_only</autoReward>
+	</event>
+	<event>
+		<text>Now that their ship has been emptied of hostiles, you search it. Eventually you find a prisoner who offers to join your crew.</text>
+		<crewMember amount="1"/>
+		<autoReward level="RANDOM">scrap_only</autoReward>
+	</event>
+	<event>
+		<text>You find a weapon system on their ship. With no crew to stop you, you can install it on your own.</text>
+		<autoReward level="RANDOM">weapon</autoReward>
+	</event>	
+	<event>
+		<text>You find a weapon system on their ship. With no crew to stop you, you can install it on your own.</text>
+		<autoReward level="LOW">weapon</autoReward>
+	</event>
+</eventList>
