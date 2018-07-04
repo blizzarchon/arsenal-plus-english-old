@@ -58,6 +58,7 @@
 				<number>1</number>
 			</slot>
 		</weapons>
+		<artillery power="2" max="4" room="14" start="false" img="room_artillery_4" weapon="ARTILLERY_PL_HEAVY"/> <!-- 1.26 -->
 	</systemList>
 	<weaponSlots>4</weaponSlots>
 	<droneSlots>2</droneSlots>
@@ -132,6 +133,7 @@
 				<number>1</number>
 			</slot>
 		</weapons>
+		<artillery power="2" max="4" room="14" start="false" img="room_artillery_4" weapon="ARTILLERY_PL_HEAVY"/> <!-- 1.26 -->
 	</systemList>
 	<weaponSlots>4</weaponSlots>
 	<droneSlots>2</droneSlots>
@@ -207,6 +209,7 @@
 				<number>0</number>
 			</slot>
 		</weapons>
+		<artillery power="2" max="4" room="8" start="false" img="room_artillery" weapon="ARTILLERY_PL_HEAVY"/> <!-- 1.26 -->
 	</systemList>
 	<weaponSlots>4</weaponSlots>
 	<droneSlots>2</droneSlots>
@@ -228,7 +231,7 @@
 	<desc>This small ship has a pretty decent start and comes equipped with artillery support.</desc>
 	<unlock>To unlock this ship, you need to get to the 5th sector with a Pirate Freighter or a Pirate Station.</unlock>
 	<systemList>
-		<artillery power="1" room="4" start="true" weapon="ENGI_ARTILLERY" img="room_artillery_3" />
+		<artillery power="1" max="4" room="4" start="true" weapon="ENGI_ARTILLERY" img="room_artillery_3" /><!-- 1.26 added max -->
 		<battery power="1" room="3" start="false" img="room_battery_2" />
 		<clonebay power="1" room="11" start="false">
 			<slot>
@@ -357,6 +360,7 @@
 				<number>1</number>
 			</slot>
 		</weapons>
+		<artillery power="2" max="4" room="14" start="false" img="room_artillery" weapon="ARTILLERY_PL_ION"/> <!-- 1.26 -->
 	</systemList>
 	<weaponSlots>3</weaponSlots>
 	<droneSlots>3</droneSlots>
@@ -434,6 +438,7 @@
 				<number>0</number>
 			</slot>
 		</weapons>
+		<artillery power="2" max="4" room="12" start="false" img="room_artillery" weapon="ARTILLERY_PL_ION"/> <!-- 1.26 -->
 	</systemList>
 	<weaponSlots>4</weaponSlots>
 	<droneSlots>2</droneSlots>
@@ -511,6 +516,7 @@
 				<number>1</number>
 			</slot>
 		</weapons>
+		<artillery power="2" max="4" room="14" start="false" img="room_artillery" weapon="ARTILLERY_PL_BEAM_V"/> <!-- 1.26 -->
 	</systemList>
 	<weaponSlots>4</weaponSlots>
 	<droneSlots>2</droneSlots>
@@ -551,7 +557,7 @@
 		<engines power="2" room="2" start="true" img="room_engines_2">
 			<slot>
 				<direction>down</direction>
-				<number>2</number>
+				<number>1</number><!-- was 2 - when did this change? -->
 			</slot>
 		</engines>
 		<hacking power="1" room="8" start="false" img="room_hacking_2" />
@@ -587,6 +593,7 @@
 				<number>1</number>
 			</slot>
 		</weapons>
+		<artillery power="2" max="4" room="14" start="false" img="room_artillery_4" weapon="ARTILLERY_PL_BEAM_V"/> <!-- 1.26 -->
 	</systemList>
 	<weaponSlots>3</weaponSlots>
 	<droneSlots>2</droneSlots>
@@ -609,7 +616,7 @@
 	<desc>When this ship was captured, one of its artilleries was accidentally damaged, and now it no longer works.</desc>
 	<unlock>Get to the 8th sector with the Marauder and Advanced Edition enabled to unlock this ship.</unlock>
 	<systemList>
-		<artillery power="4" room="2" start="true" weapon="ARTILLERY_CIVILIAN_PLUS" img="room_artillery" /><!-- 1.25 -->
+		<artillery power="4" max="4" room="2" start="true" weapon="ARTILLERY_CIVILIAN_PLUS" img="room_artillery" /><!-- 1.26 added max | 1.25 -->
 		<battery power="1" room="15" start="false" img="room_battery_16" />
 		<cloaking power="1" room="12" start="false" img="room_cloaking_3" />
 		<clonebay power="1" room="8" start="false">
@@ -679,8 +686,8 @@
 	<type>BEAM</type>
 	<title>Strengthened Order Beam</title> 
 	<short>Strengthened Order Beam</short>
-	<desc>Powers a slow, powerful beam that inflicts 1 system damage and 30 crew damage, piercing through any number of shield layers. Can set fire to rooms.</desc>
-	<tooltip>Artillery: Automatically firing all shield-piercing beam that does 1 system damage per room hit and 30 crew damage with a chance to light a fire per room tile.</tooltip>
+	<desc>Powers a slow, powerful beam that inflicts 1 system damage and 30 crew damage, piercing through any number of shield layers. Can set fire to rooms. [33 ‡]</desc><!-- 1.26 -->
+	<tooltip>Artillery: Automatically firing all shield-piercing beam that does 1 system damage per room hit and 30 crew damage with a chance to light a fire per room tile. [33 ‡]</tooltip><!-- 1.26 -->
 	<damage>0</damage>
 	<sysDamage>2</sysDamage>
 	<persDamage>2</persDamage>
@@ -712,7 +719,7 @@
 	<desc>This ship's Zoltan Shield provides safe dispersal and warm-up of chain weaponry and artillery.</desc>
 	<unlock>Learn from the Zoltan that sometimes diplomacy works.</unlock>
 	<systemList>
-		<artillery power="1" room="11" start="true" weapon="ARTILLERY_ZOLTAN_PLAYER" img="room_artillery" />
+		<artillery power="1" max="4" room="11" start="true" weapon="ARTILLERY_ZOLTAN_PLAYER" img="room_artillery" /><!-- 1.26 added max -->
 		<battery power="1" room="14" start="false" img="room_battery_10" />
 		<cloaking power="1" room="3" start="false" img="room_cloaking_3" />
 		<clonebay power="1" room="2" start="false">
@@ -786,8 +793,8 @@
 	<type>BEAM</type>
 	<title>Artillery Beam</title>
 	<short>Artill. Beam</short>
-	<desc>Powers a slow, powerful beam that deals 1 damage per room hit. Pierces through any number of shield bubbles. Upgrading speeds up cooldown.</desc>
-	<tooltip>Artillery: Automatically firing beam that inflicts 1 damage per room hit, piercing all shields.</tooltip>
+	<desc>Powers a slow, powerful beam that deals 1 damage per room hit. Pierces through any number of shield bubbles. [40 ‡]</desc><!-- 1.26 -->
+	<tooltip>Artillery: Automatically firing beam that inflicts 1 damage per room hit, piercing all shields. [40 ‡]</tooltip><!-- 1.26 -->
 	<damage>1</damage>
 	<sp>5</sp>
 	<fireChance>1</fireChance>
@@ -865,6 +872,7 @@
 				<number>0</number>
 			</slot>
 		</weapons>
+		<artillery power="2" max="4" room="14" start="false" img="room_artillery_4" weapon="ARTILLERY_PL_BEAM_K"/> <!-- 1.26 -->
 	</systemList>
 	<weaponSlots>4</weaponSlots>
 	<droneSlots>2</droneSlots>
@@ -888,7 +896,7 @@
 	<desc>The laboratory of the mad Zoltan scientist, is equipped with a HUGE weapon. It's worthwhile to worry in advance about needing enough ammunition for it.</desc>
 	<unlock>Get to the 8th sector with the Zoltan Dreadnought and Advanced Edition enabled to unlock this ship.</unlock>
 	<systemList>
-		<battery power="1" room="5" start="true" img="room_battery_8" />
+		<battery power="1" room="1" start="true" img="room_battery_2" /><!-- 1.26 room was 5, battery_8 -->
 		<cloaking power="1" room="14" start="false" img="room_cloaking_3" />
 		<clonebay power="1" room="8" start="false">
 			<slot>
@@ -934,13 +942,14 @@
 				<number>1</number>
 			</slot>
 		</shields>
-		<teleporter power="1" room="1" start="false" />
+		<teleporter power="1" room="9" start="false" /><!-- 1.26 room was 1 -->
 		<weapons power="4" room="0" start="true" img="room_weapons_12">
 			<slot>
 				<direction>right</direction>
 				<number>0</number>
 			</slot>
 		</weapons>
+		<artillery power="2" max="4" room="5" start="false" img="room_artillery_4" weapon="ARTILLERY_PL_BEAM_K"/> <!-- 1.26 -->
 	</systemList>
 	<weaponSlots>3</weaponSlots>
 	<droneSlots>2</droneSlots>
@@ -957,6 +966,7 @@
 
 <weaponBlueprint name="JADE_CANNON_PLAYER">
 	<type>BOMB</type>
+	<tip>tip_smasher_f4_b4</tip><!-- 1.26.3 -->
 	<title>Star Crusher</title>
 	<short>Star Crusher</short>
 	<flavorType>Star Crusher</flavorType>
@@ -1047,6 +1057,7 @@
 				<number>0</number>
 			</slot>
 		</weapons>
+		<artillery power="2" max="4" room="3" start="false" img="room_artillery_2" weapon="ARTILLERY_PL_BOMB_TIMER"/> <!-- 1.26 -->
 	</systemList>
 	<weaponSlots>4</weaponSlots>
 	<droneSlots>2</droneSlots>
@@ -1121,6 +1132,7 @@
 				<number>1</number>
 			</slot>
 		</weapons>
+		<artillery power="2" max="4" room="5" start="false" img="room_artillery_3" weapon="ARTILLERY_PL_BOMB_TIMER"/> <!-- 1.26 -->
 	</systemList>
 	<weaponSlots>4</weaponSlots>
 	<droneSlots>2</droneSlots>
@@ -1195,6 +1207,7 @@
 				<number>1</number>
 			</slot>
 		</weapons>
+		<artillery power="2" max="4" room="14" start="false" img="room_artillery" weapon="ARTILLERY_PL_BOMB_TIMER"/> <!-- 1.26 -->
 	</systemList>
 	<weaponSlots>4</weaponSlots>
 	<droneSlots>2</droneSlots>
@@ -1271,6 +1284,7 @@
 				<number>1</number>
 			</slot>
 		</weapons>
+		<artillery power="2" max="4" room="1" start="false" img="room_artillery_4" weapon="ARTILLERY_PL_BOMB_BREACH"/> <!-- 1.26 -->
 	</systemList>
 	<weaponSlots>4</weaponSlots>
 	<droneSlots>2</droneSlots>
@@ -1293,7 +1307,7 @@
 	<desc>This ship's artillery support is designed to quickly destroy enemy crew.</desc>
 	<unlock>Complete 2/3 of the Slug Hunter Achievements to unlock this ship.</unlock>
 	<systemList>
-		<artillery power="1" room="0" start="true" weapon="ARTILLERY_SLUG" img="room_artillery_kanpukter" />
+		<artillery power="1" max="4" room="0" start="true" weapon="ARTILLERY_SLUG" img="room_artillery_kanpukter" /><!-- 1.26 added max -->
 		<battery power="1" room="14" start="false" img="room_battery_5" />
 		<cloaking power="1" room="8" start="false" img="room_cloaking_8" />
 		<clonebay power="1" room="4" start="false">
@@ -1368,7 +1382,7 @@
 	<desc>The huge disrupter dish, which scrambled systems and caused hallucinations in the enemy's crew was converted into paralyzing artillery.</desc>
 	<unlock>Get to the 8th sector with the Slug Artillery and Advanced Edition enabled to unlock this ship.</unlock>
 	<systemList>
-		<artillery power="1" room="15" start="true" weapon="TRICOLOR_ART" img="room_artillery_2" />
+		<artillery power="1" max="4" room="15" start="true" weapon="TRICOLOR_ART" img="room_artillery_2" /><!-- 1.26 added max -->
 		<battery power="1" room="9" start="false" img="room_battery_15" />
 		<cloaking power="1" room="11" start="false" img="room_cloaking_9" />
 		<clonebay power="1" room="7" start="false">
@@ -1443,8 +1457,8 @@
 	<type>BURST</type>
 	<title>Paralyzing Artillery</title>
 	<short>Paralyzing Artillery</short>
-	<desc>This artillery sends the entire enemy crew into a deep knockout.</desc>
-	<tooltip>This artillery sends the entire enemy crew into a deep knockout.</tooltip>
+	<desc>This artillery sends the entire enemy crew into a deep knockout. [40 ‡]</desc><!-- 1.26 -->
+	<tooltip>This artillery sends the entire enemy crew into a deep knockout. [40 ‡]</tooltip><!-- 1.26 -->
 	<radius>250</radius>
 	<damage>0</damage>
 	<stun>20</stun>
@@ -1539,6 +1553,7 @@
 				<number>1</number>
 			</slot>
 		</weapons>
+		<artillery power="2" max="4" room="9" start="false" img="room_artillery_4" weapon="ARTILLERY_PL_PLASMA"/> <!-- 1.26 -->
 	</systemList>
 	<weaponSlots>4</weaponSlots>
 	<droneSlots>2</droneSlots>
@@ -1614,6 +1629,7 @@
 				<number>1</number>
 			</slot>
 		</weapons>
+		<artillery power="2" max="4" room="7" start="false" img="room_artillery_3" weapon="ARTILLERY_PL_PLASMA"/> <!-- 1.26 -->
 	</systemList>
 	<weaponSlots>4</weaponSlots>
 	<droneSlots>2</droneSlots>
@@ -1689,6 +1705,7 @@
 				<number>1</number>
 			</slot>
 		</weapons>
+		<artillery power="2" max="4" room="10" start="false" img="room_artillery" weapon="ARTILLERY_PL_PLASMA"/> <!-- 1.26 -->
 	</systemList>
 	<weaponSlots>4</weaponSlots>
 	<droneSlots>2</droneSlots>
@@ -1764,6 +1781,7 @@
 				<number>1</number>
 			</slot>
 		</weapons>
+		<artillery power="2" max="4" room="9" start="false" img="room_artillery_3" weapon="ARTILLERY_PL_BOMB_BREACH"/> <!-- 1.26 -->
 	</systemList>
 	<weaponSlots>4</weaponSlots>
 	<droneSlots>2</droneSlots>
@@ -1840,6 +1858,7 @@
 				<number>0</number>
 			</slot>
 		</weapons>
+		<artillery power="2" max="4" room="11" start="false" img="room_artillery_2" weapon="ARTILLERY_PL_ONI"/> <!-- 1.26 -->
 	</systemList>
 	<weaponSlots>3</weaponSlots>
 	<droneSlots>3</droneSlots>
@@ -1862,7 +1881,7 @@
 	<desc>One of the HAL drones was reprogrammed for the needs of the Federation. This ship is equipped with random HAL drones.</desc>
 	<unlock>Get to the 8th sector with the Drone and Advanced Edition enabled to unlock this ship.</unlock>
 	<systemList>
-		<artillery power="1" room="4" start="true" weapon="HAL_EYE_PLAYER" img="room_artillery_kanpukter" />
+		<artillery power="1" max="4" room="4" start="true" weapon="HAL_EYE_PLAYER" img="room_artillery_kanpukter" /><!-- 1.26 added max -->
 		<battery power="1" room="10" start="false" img="room_battery_3" />
 		<cloaking power="1" room="8" start="false" img="room_cloaking_10" />
 		<clonebay power="1" room="14" start="false">
@@ -1931,17 +1950,18 @@
 </shipBlueprint>
 
 <weaponBlueprint name="HAL_EYE_PLAYER">
-	<type>LASER</type>
+	<type>BURST</type><!-- 1.26 -->
 	<flavorType>HAL Eye</flavorType>
 	<title>HAL Eye</title>
 	<short>HAL Eye</short>
-	<desc>Analytical HAL system. Fires 5 projectiles which deal phase ion and crew damage.</desc>
-	<tooltip>Analytical HAL system. Fires 5 projectiles dealing 3 phase ion and 30 crew damage each.</tooltip>
+	<desc>Analytical HAL system. Fires 5 projectiles all at once, which deal phase ion and crew damage. [40 ‡]</desc><!-- 1.26 -->
+	<tooltip>Analytical HAL system. Fires 5 projectiles all at once, dealing 3 phase ion and 30 crew damage each. [40 ‡]</tooltip><!-- 1.26 -->
+	<radius>35</radius><!-- 1.26 -->
 	<locked>1</locked>
 	<damage>0</damage>
 	<ion>3</ion>
 	<persDamage>2</persDamage> <!-- up -->
-	<shots>5</shots> <!-- up -->
+	<shots>1</shots> <!-- 1.26 | up -->
 	<sp>5</sp>
 	<spin>3000</spin>
 	<stunChance>5</stunChance>
@@ -1953,7 +1973,10 @@
 	<bp>10</bp>
 	<speed>20</speed>
 	<rarity>0</rarity>
-	<image>hal_proj_3</image>
+	<!-- <image>hal_proj_3</image> --><!-- 1.26 -->
+	<projectiles><!-- 1.26 -->
+		<projectile count="5" fake="false">hal_proj_3</projectile>
+	</projectiles>
 	<explosion>ba_explosion_ion_phase</explosion>
 	<launchSounds>
 		<sound>hal_art_shot_1</sound>
@@ -1983,9 +2006,9 @@
 	<systemList>
 		<battery power="1" room="12" start="false" img="room_battery_17" />
 		<cloaking power="1" room="9" start="false" img="room_cloaking_120" />
-		<clonebay power="1" room="3" start="false">
+		<clonebay power="1" room="14" start="false"><!-- 1.26 room was 3 -->
 			<slot>
-				<number>1</number>
+				<number>0</number><!-- was 1 - when did this change? -->
 			</slot>
 		</clonebay>
 		<doors power="1" room="0" start="true" img="room_doors">
@@ -2002,9 +2025,9 @@
 			</slot>
 		</engines>
 		<hacking power="1" room="11" start="false" img="room_hacking_4" />
-		<medbay power="1" room="3" start="true" img="room_medbay">
+		<medbay power="1" room="14" start="true" img="room_medbay_6"><!-- 1.26 room was 3, img was medbay -->
 			<slot>
-				<number>1</number>
+				<number>-2</number><!-- was 1 - when did this change? -->
 			</slot>
 		</medbay>
 		<mind power="1" room="10" start="false" img="room_mind_1" />
@@ -2027,13 +2050,14 @@
 				<number>0</number>
 			</slot>
 		</shields>
-		<teleporter power="1" room="7" start="false" />
+		<teleporter power="1" room="3" start="false" /><!-- 1.26 room was 7 -->
 		<weapons power="2" room="1" start="true" img="room_weapons">
 			<slot>
 				<direction>up</direction>
 				<number>1</number>
 			</slot>
 		</weapons>
+		<artillery power="2" max="4" room="7" start="false" img="room_artillery_2" weapon="ARTILLERY_PL_CRYSTAL_CYAN"/> <!-- 1.26 -->
 	</systemList>
 	<weaponSlots>4</weaponSlots>
 	<droneSlots>2</droneSlots>
@@ -2111,6 +2135,7 @@
 				<number>1</number>
 			</slot>
 		</weapons>
+		<artillery power="2" max="4" room="11" start="false" img="room_artillery" weapon="ARTILLERY_PL_CRYSTAL_CYAN"/> <!-- 1.26 -->
 	</systemList>
 	<weaponSlots>4</weaponSlots>
 	<droneSlots>2</droneSlots>
@@ -2134,7 +2159,7 @@
 	<unlock>>Entice the Lanius with a valuable fleet, unlock 4 ships in addition to the starting one to unlock this ship.</unlock>
 	<systemList>
 		<battery power="1" room="6" start="false" img="room_battery_10" />
-		<cloaking power="1" room="8" start="false" img="room_cloaking" />
+		<cloaking power="1" room="14" start="false" img="room_cloaking_4" /> <!-- 1.26 room was 8, img was cloaking-->
 		<clonebay power="1" room="1" start="true">
 			<slot>
 				<number>1</number>
@@ -2186,6 +2211,7 @@
 				<number>1</number>
 			</slot>
 		</weapons>
+		<artillery power="2" max="4" room="8" start="false" img="room_artillery_3" weapon="ARTILLERY_PL_SHOTGUN"/> <!-- 1.26 -->
 	</systemList>
 	<weaponSlots>4</weaponSlots>
 	<droneSlots>2</droneSlots>
@@ -2262,6 +2288,7 @@
 				<number>0</number>
 			</slot>
 		</weapons>
+		<artillery power="2" max="4" room="4" start="false" img="room_artillery_4" weapon="ARTILLERY_PL_SHOTGUN"/> <!-- 1.26 -->
 	</systemList>
 	<weaponSlots>4</weaponSlots>
 	<droneSlots>2</droneSlots>
