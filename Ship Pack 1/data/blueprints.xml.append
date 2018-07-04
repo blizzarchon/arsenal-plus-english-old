@@ -2492,7 +2492,7 @@ This improved version deals additional crew damage.</desc><!-- 1.25.1 -->
 <shipBlueprint name="PLAYER_SHIP_ANAEROBIC_2" layout="anaerobic_cruiser_2" img="anaerobic_cruiser_2">
 	<class>Order Cruiser</class>
 	<name>Hand of God</name>
-	<desc>This Order Cruiser has been modified for the needs of the Federation. Basic weapons equipment can vary, specify it in advance in the hangar!</desc>
+	<desc>This Order Cruiser has been modified for the needs of the Federation. Its starting weapons can change, check them before starting!</desc>
 	<unlock>Complete 2/3 achievements of the Avatar Cruiser to unlock this ship.</unlock>
 	<systemList>
 		<battery power="1" room="12" start="false" img="room_battery_12" />
