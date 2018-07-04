@@ -3303,21 +3303,21 @@ storm-PKB
 	<text>...All Avatars on your crew disappear, and nothing remains of them, except their projectors. You scrap them and partially restore function to the vital disabled systems. Time to get out of here...</text>
 </textList>
 
-<event name="NEBULA_EVENT_DAMAGE_FTLJUMP" unique="true"><!-- 1.26 | 1.26.2 added extra event layer -->
+<event name="NEBULA_EVENT_DAMAGE_FTLJUMP" unique="true"><!-- 1.26.2 added event layer | 1.26 -->
 	<environment type="nebula"/>
 	<text>It seems that your system of calculating FTL jumps has failed this time...</text>
 	<choice hidden="true">
 		<text id="continue"/>
 		<event load="EVENT_DAMAGE_FTLJUMP_R"/>
-	</choice>	
+	</choice>
 </event>
 <event name="EVENT_DAMAGE_FTLJUMP_R">
-	<text load="EVENT_DAMAGE_FTLJUMP_TEXT"/>
+	<text load="EVENT_DAMAGE_FTLJUMP_TEXT" />
 	<damage amount="2" system="random" effect="breach"/>
 	<damage amount="1" system="room" effect="fire"/>
 	<choice hidden="true">
-		<text id="continue"/>
-		<event load="EVENT_DAMAGE_FTLJUMP_R1"/>
+		<text id="continue" />
+		<event load="EVENT_DAMAGE_FTLJUMP_R1" />
 	</choice>
 </event>
 <textList name="EVENT_DAMAGE_FTLJUMP_TEXT">
@@ -13221,7 +13221,7 @@ TJ - Fuel cell.					2
 		</choice>
 		<choice hidden="true">
 			<text>Refuse to cooperate any further.</text>
-			<event> <!-- 1.26.3 -->
+			<event><!-- 1.26.3 -->
 				<text>Unhappy, the Sligs fly away without saying goodbye.</text>
 			</event>
 		</choice>
@@ -13273,7 +13273,7 @@ TJ - Fuel cell.					2
 		</choice>
 		<choice hidden="true">
 			<text>Refuse to cooperate any further.</text>
-			<event> <!-- 1.26.3 -->
+			<event><!-- 1.26.3 -->
 				<text>Unhappy, the Sligs fly away without saying goodbye.</text>
 			</event>
 		</choice>
@@ -13325,9 +13325,9 @@ TJ - Fuel cell.					2
 		</choice>
 		<choice hidden="true">
 			<text>Refuse to cooperate any further.</text>
-			<event> <!-- 1.26.3 -->
+			<event><!-- 1.26.3 -->
 				<text>The Sligs are unhappy, but give you a barrel of Slurm for the work done.</text>
-				<weapon name="SLURM_BARREL_1"/>
+				<weapon name="SLURM_BARREL_1" />
 			</event>
 		</choice>
 	</deadCrew>
@@ -13378,9 +13378,9 @@ TJ - Fuel cell.					2
 		</choice>
 		<choice hidden="true">
 			<text>Refuse to cooperate any further.</text>
-			<event> <!-- 1.26.3 -->
+			<event><!-- 1.26.3 -->
 				<text>The Sligs are unhappy, but give you a barrel of Slurm for the work done.</text>
-				<weapon name="SLURM_BARREL_2"/>
+				<weapon name="SLURM_BARREL_2" />
 			</event>
 		</choice>
 	</deadCrew>
@@ -13431,9 +13431,9 @@ TJ - Fuel cell.					2
 		</choice>
 		<choice hidden="true">
 			<text>Refuse to cooperate any further.</text>
-			<event> <!-- 1.26.3 -->
+			<event><!-- 1.26.3 -->
 				<text>The Sligs are unhappy, but give you a barrel of Slurm for the work done.</text>
-				<weapon name="SLURM_BARREL_3"/>
+				<weapon name="SLURM_BARREL_3" />
 			</event>
 		</choice>
 	</deadCrew>
@@ -14457,21 +14457,21 @@ TJ - Fuel cell.					2
 		<item_modify>
 			<item type="fuel" min="2" max="6"/>
 		</item_modify>
-		<autoReward level="LOW">scrap_only</autoReward> <!-- 1.26.4 -->
+		<autoReward level="LOW">scrap_only</autoReward><!-- 1.26.4 -->
 	</event>
 	<event>
 		<text>You cut the correct wire, and the bomb is rendered harmless. After cautiously opening the container, you take its contents.</text>
 		<item_modify>
 			<item type="drones" min="3" max="9"/>
 		</item_modify>
-		<autoReward level="LOW">scrap_only</autoReward> <!-- 1.26.4 -->
+		<autoReward level="LOW">scrap_only</autoReward><!-- 1.26.4 -->
 	</event>
 	<event>
 		<text>You cut the correct wire, and the bomb is rendered harmless. After cautiously opening the container, you take its contents.</text>
 		<item_modify>
 			<item type="missiles" min="4" max="12"/>
-		<autoReward level="LOW">scrap_only</autoReward> <!-- 1.26.4 -->
 		</item_modify>
+		<autoReward level="LOW">scrap_only</autoReward><!-- 1.26.4 -->
 	</event>
 	<event>
 		<text>You cut the correct wire, and the bomb is rendered harmless. After cautiously opening the container, you take its contents.</text>
@@ -14484,12 +14484,12 @@ TJ - Fuel cell.					2
 	<event>
 		<text>You cut the correct wire, and the bomb is rendered harmless. After cautiously opening the container, you take its contents.</text>
 		<weapon name="RANDOM"/>
-		<autoReward level="LOW">scrap_only</autoReward> <!-- 1.26.4 -->
+		<autoReward level="LOW">scrap_only</autoReward><!-- 1.26.4 -->
 	</event>
 	<event>
 		<text>You cut the correct wire, and the bomb is rendered harmless. After cautiously opening the container, you take its contents.</text>
 		<drone name="RANDOM"/>
-		<autoReward level="LOW">scrap_only</autoReward> <!-- 1.26.4 -->
+		<autoReward level="LOW">scrap_only</autoReward><!-- 1.26.4 -->
 	</event>
 </eventList>
 <eventList name="BOX_AND_BOMB_RAND_WIPES">
