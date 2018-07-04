@@ -11,6 +11,7 @@
 	<mount x="441" y="385" rotate="true" mirror="false" gib="3" slide="down" />
 	<mount x="525" y="276" rotate="true" mirror="true" gib="3" slide="up" />
 	<mount x="525" y="181" rotate="true" mirror="false" gib="2" slide="down" />
+	<mount x="462" y="225" rotate="true" mirror="false" gib="-1" slide="no" />
 </weaponMounts>
 <explosion>
 	<gib1>
