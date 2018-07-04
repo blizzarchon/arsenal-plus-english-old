@@ -1,0 +1,5 @@
+<HookBase>
+	<Hook id="artiFedName" metaDataId="artiFedNameData">
+		<Asset metaData="artillery name for 2nd iteration">ARTI_FED_B</Asset>
+	</Hook>
+</HookBase>

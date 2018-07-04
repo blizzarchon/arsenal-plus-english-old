@@ -1,0 +1,516 @@
+<HookBase>
+	<Hook id="artiLns" metaDataId="artiLnsData">
+		<Asset metaData="Lanius Arti system" build="ARS">
+			<artillery power="2" max="4" room="4" start="false" weapon="ARTILLERY_PL_SHOTGUN" img="room_artillery_stub" />
+		</Asset>
+	</Hook>
+	<Hook id="SystemsPowerLns" metaDataId="SystemsPowerLnsData">
+		<Asset metaData="improved reactor">
+			<systemList>
+				<pilot power="1" room="8" start="true" img=":!--hook pilotImageLns hook--:">
+				<!--hook pilotSlotLns hook-->
+				</pilot>
+				<doors power="1" room="15" start="true" img=":!--hook doorsImageLns hook--:">
+				<!--hook doorsSlotLns hook-->
+				</doors>
+				<sensors power="1" room="14" start="true" img=":!--hook sensorsImageLns hook--:">
+				<!--hook sensorsSlotLns hook-->
+				</sensors>
+				<oxygen power="1" room="2" start="true" img=":!--hook oxygenImageLns hook--:" />
+				<engines power="1" room="7" start="true" img=":!--hook enginesImageLns hook--:">
+				<!--hook enginesSlotLns hook-->
+				</engines>
+				<shields power="2" room="5" start="true" img=":!--hook shieldsImageLns hook--:">
+				<!--hook shieldsSlotLns hook-->
+				</shields>
+				<weapons power="3" room="9" start="true" img=":!--hook weaponsImageLns hook--:">
+				<!--hook weaponsSlotLns hook-->
+				</weapons>
+				<drones power="2" room="11" start="false" img=":!--hook dronesImageLns hook--:" />
+				<clonebay power="1" room="0" start="true">
+				<!--hook clonebaySlotLns hook-->
+				</clonebay>
+				<medbay power="1" room="0" start="false" img=":!--hook medbayImageLns hook--:">
+				<!--hook medbaySlotLns hook-->
+				</medbay>
+				<teleporter power="1" room="1" start="false" />
+				<cloaking power="1" room="6" start="false" img=":!--hook cloakingImageLns hook--:" />
+				<battery power="1" room="10" start="false" img=":!--hook batteryImageLns hook--:" />
+				<mind power="1" room="13" start="false" img=":!--hook mindImageLns hook--:" />
+				<hacking power="1" room="3" start="true" img=":!--hook hackingImageLns hook--:" />
+				<!--hook artiLns hook-->
+			</systemList>
+			<maxPower amount="9" />
+			<!--hook WeaponsLanius hook-->
+			<!--hook CrewsLanius hook-->
+		</Asset>
+		<Asset metaData="less power, battery, improved pilot">
+			<systemList>
+				<pilot power="2" room="8" start="true" img=":!--hook pilotImageLns hook--:">
+				<!--hook pilotSlotLns hook-->
+				</pilot>
+				<doors power="1" room="15" start="true" img=":!--hook doorsImageLns hook--:">
+				<!--hook doorsSlotLns hook-->
+				</doors>
+				<sensors power="1" room="14" start="true" img=":!--hook sensorsImageLns hook--:">
+				<!--hook sensorsSlotLns hook-->
+				</sensors>
+				<oxygen power="1" room="2" start="true" img=":!--hook oxygenImageLns hook--:" />
+				<engines power="1" room="7" start="true" img=":!--hook enginesImageLns hook--:">
+				<!--hook enginesSlotLns hook-->
+				</engines>
+				<shields power="2" room="5" start="true" img=":!--hook shieldsImageLns hook--:">
+				<!--hook shieldsSlotLns hook-->
+				</shields>
+				<weapons power="3" room="9" start="true" img=":!--hook weaponsImageLns hook--:">
+				<!--hook weaponsSlotLns hook-->
+				</weapons>
+				<drones power="2" room="11" start="false" img=":!--hook dronesImageLns hook--:" />
+				<clonebay power="1" room="0" start="true">
+				<!--hook clonebaySlotLns hook-->
+				</clonebay>
+				<medbay power="1" room="0" start="false" img=":!--hook medbayImageLns hook--:">
+				<!--hook medbaySlotLns hook-->
+				</medbay>
+				<teleporter power="1" room="1" start="false" />
+				<cloaking power="1" room="6" start="false" img=":!--hook cloakingImageLns hook--:" />
+				<battery power="1" room="10" start="true" img=":!--hook batteryImageLns hook--:" />
+				<mind power="1" room="13" start="false" img=":!--hook mindImageLns hook--:" />
+				<hacking power="1" room="3" start="true" img=":!--hook hackingImageLns hook--:" />
+				<!--hook artiLns hook-->
+			</systemList>
+			<maxPower amount="6" />
+			<!--hook WeaponsLanius hook-->
+			<!--hook CrewsLanius hook-->
+		</Asset>
+		<Asset metaData="advanced o2, no doors, less power">
+			<systemList>
+				<pilot power="1" room="8" start="true" img=":!--hook pilotImageLns hook--:">
+				<!--hook pilotSlotLns hook-->
+				</pilot>
+				<doors power="1" room="15" start="false" img=":!--hook doorsImageLns hook--:">
+				<!--hook doorsSlotLns hook-->
+				</doors>
+				<sensors power="1" room="14" start="true" img=":!--hook sensorsImageLns hook--:">
+				<!--hook sensorsSlotLns hook-->
+				</sensors>
+				<oxygen power="3" room="2" start="true" img=":!--hook oxygenImageLns hook--:" />
+				<engines power="1" room="7" start="true" img=":!--hook enginesImageLns hook--:">
+				<!--hook enginesSlotLns hook-->
+				</engines>
+				<shields power="2" room="5" start="true" img=":!--hook shieldsImageLns hook--:">
+				<!--hook shieldsSlotLns hook-->
+				</shields>
+				<weapons power="3" room="9" start="true" img=":!--hook weaponsImageLns hook--:">
+				<!--hook weaponsSlotLns hook-->
+				</weapons>
+				<drones power="2" room="11" start="false" img=":!--hook dronesImageLns hook--:" />
+				<clonebay power="1" room="0" start="true">
+				<!--hook clonebaySlotLns hook-->
+				</clonebay>
+				<medbay power="1" room="0" start="false" img=":!--hook medbayImageLns hook--:">
+				<!--hook medbaySlotLns hook-->
+				</medbay>
+				<teleporter power="1" room="1" start="false" />
+				<cloaking power="1" room="6" start="false" img=":!--hook cloakingImageLns hook--:" />
+				<battery power="1" room="10" start="false" img=":!--hook batteryImageLns hook--:" />
+				<mind power="1" room="13" start="false" img=":!--hook mindImageLns hook--:" />
+				<hacking power="1" room="3" start="true" img=":!--hook hackingImageLns hook--:" />
+				<!--hook artiLns hook-->
+			</systemList>
+			<maxPower amount="7" />
+			<!--hook WeaponsLanius hook-->
+			<!--hook CrewsLanius hook-->
+		</Asset>
+		<Asset metaData="improved pilot, less power">
+			<systemList>
+				<pilot power="2" room="8" start="true" img=":!--hook pilotImageLns hook--:">
+				<!--hook pilotSlotLns hook-->
+				</pilot>
+				<doors power="1" room="15" start="true" img=":!--hook doorsImageLns hook--:">
+				<!--hook doorsSlotLns hook-->
+				</doors>
+				<sensors power="1" room="14" start="true" img=":!--hook sensorsImageLns hook--:">
+				<!--hook sensorsSlotLns hook-->
+				</sensors>
+				<oxygen power="1" room="2" start="true" img=":!--hook oxygenImageLns hook--:" />
+				<engines power="1" room="7" start="true" img=":!--hook enginesImageLns hook--:">
+				<!--hook enginesSlotLns hook-->
+				</engines>
+				<shields power="2" room="5" start="true" img=":!--hook shieldsImageLns hook--:">
+				<!--hook shieldsSlotLns hook-->
+				</shields>
+				<weapons power="3" room="9" start="true" img=":!--hook weaponsImageLns hook--:">
+				<!--hook weaponsSlotLns hook-->
+				</weapons>
+				<drones power="2" room="11" start="false" img=":!--hook dronesImageLns hook--:" />
+				<clonebay power="1" room="0" start="true">
+				<!--hook clonebaySlotLns hook-->
+				</clonebay>
+				<medbay power="1" room="0" start="false" img=":!--hook medbayImageLns hook--:">
+				<!--hook medbaySlotLns hook-->
+				</medbay>
+				<teleporter power="1" room="1" start="false" />
+				<cloaking power="1" room="6" start="false" img=":!--hook cloakingImageLns hook--:" />
+				<battery power="1" room="10" start="false" img=":!--hook batteryImageLns hook--:" />
+				<mind power="1" room="13" start="false" img=":!--hook mindImageLns hook--:" />
+				<hacking power="1" room="3" start="true" img=":!--hook hackingImageLns hook--:" />
+				<!--hook artiLns hook-->
+			</systemList>
+			<maxPower amount="7" />
+			<!--hook WeaponsLanius hook-->
+			<!--hook CrewsLanius hook-->
+		</Asset>
+		<Asset metaData="improved engines">
+			<systemList>
+				<pilot power="1" room="8" start="true" img=":!--hook pilotImageLns hook--:">
+				<!--hook pilotSlotLns hook-->
+				</pilot>
+				<doors power="1" room="15" start="true" img=":!--hook doorsImageLns hook--:">
+				<!--hook doorsSlotLns hook-->
+				</doors>
+				<sensors power="1" room="14" start="true" img=":!--hook sensorsImageLns hook--:">
+				<!--hook sensorsSlotLns hook-->
+				</sensors>
+				<oxygen power="1" room="2" start="true" img=":!--hook oxygenImageLns hook--:" />
+				<engines power="2" room="7" start="true" img=":!--hook enginesImageLns hook--:">
+				<!--hook enginesSlotLns hook-->
+				</engines>
+				<shields power="2" room="5" start="true" img=":!--hook shieldsImageLns hook--:">
+				<!--hook shieldsSlotLns hook-->
+				</shields>
+				<weapons power="3" room="9" start="true" img=":!--hook weaponsImageLns hook--:">
+				<!--hook weaponsSlotLns hook-->
+				</weapons>
+				<drones power="2" room="11" start="false" img=":!--hook dronesImageLns hook--:" />
+				<clonebay power="1" room="0" start="true">
+				<!--hook clonebaySlotLns hook-->
+				</clonebay>
+				<medbay power="1" room="0" start="false" img=":!--hook medbayImageLns hook--:">
+				<!--hook medbaySlotLns hook-->
+				</medbay>
+				<teleporter power="1" room="1" start="false" />
+				<cloaking power="1" room="6" start="false" img=":!--hook cloakingImageLns hook--:" />
+				<battery power="1" room="10" start="false" img=":!--hook batteryImageLns hook--:" />
+				<mind power="1" room="13" start="false" img=":!--hook mindImageLns hook--:" />
+				<hacking power="1" room="3" start="true" img=":!--hook hackingImageLns hook--:" />
+				<!--hook artiLns hook-->
+			</systemList>
+			<maxPower amount="8" />
+			<!--hook WeaponsLanius hook-->
+			<!--hook CrewsLanius hook-->
+		</Asset>
+		<Asset metaData="medbay">
+			<systemList>
+				<pilot power="1" room="8" start="true" img=":!--hook pilotImageLns hook--:">
+				<!--hook pilotSlotLns hook-->
+				</pilot>
+				<doors power="1" room="15" start="true" img=":!--hook doorsImageLns hook--:">
+				<!--hook doorsSlotLns hook-->
+				</doors>
+				<sensors power="1" room="14" start="true" img=":!--hook sensorsImageLns hook--:">
+				<!--hook sensorsSlotLns hook-->
+				</sensors>
+				<oxygen power="1" room="2" start="true" img=":!--hook oxygenImageLns hook--:" />
+				<engines power="1" room="7" start="true" img=":!--hook enginesImageLns hook--:">
+				<!--hook enginesSlotLns hook-->
+				</engines>
+				<shields power="2" room="5" start="true" img=":!--hook shieldsImageLns hook--:">
+				<!--hook shieldsSlotLns hook-->
+				</shields>
+				<weapons power="3" room="9" start="true" img=":!--hook weaponsImageLns hook--:">
+				<!--hook weaponsSlotLns hook-->
+				</weapons>
+				<drones power="2" room="11" start="false" img=":!--hook dronesImageLns hook--:" />
+				<clonebay power="1" room="0" start="false">
+				<!--hook clonebaySlotLns hook-->
+				</clonebay>
+				<medbay power="1" room="0" start="true" img=":!--hook medbayImageLns hook--:">
+				<!--hook medbaySlotLns hook-->
+				</medbay>
+				<teleporter power="1" room="1" start="false" />
+				<cloaking power="1" room="6" start="false" img=":!--hook cloakingImageLns hook--:" />
+				<battery power="1" room="10" start="false" img=":!--hook batteryImageLns hook--:" />
+				<mind power="1" room="13" start="false" img=":!--hook mindImageLns hook--:" />
+				<hacking power="1" room="3" start="true" img=":!--hook hackingImageLns hook--:" />
+				<!--hook artiLns hook-->
+			</systemList>
+			<maxPower amount="8" />
+			<!--hook WeaponsLanius hook-->
+			<!--hook CrewsLanius hook-->
+		</Asset>
+		<Asset metaData="improved sensors, no hacking, mind control">
+			<systemList>
+				<pilot power="1" room="8" start="true" img=":!--hook pilotImageLns hook--:">
+				<!--hook pilotSlotLns hook-->
+				</pilot>
+				<doors power="1" room="15" start="true" img=":!--hook doorsImageLns hook--:">
+				<!--hook doorsSlotLns hook-->
+				</doors>
+				<sensors power="2" room="14" start="true" img=":!--hook sensorsImageLns hook--:">
+				<!--hook sensorsSlotLns hook-->
+				</sensors>
+				<oxygen power="1" room="2" start="true" img=":!--hook oxygenImageLns hook--:" />
+				<engines power="1" room="7" start="true" img=":!--hook enginesImageLns hook--:">
+				<!--hook enginesSlotLns hook-->
+				</engines>
+				<shields power="2" room="5" start="true" img=":!--hook shieldsImageLns hook--:">
+				<!--hook shieldsSlotLns hook-->
+				</shields>
+				<weapons power="3" room="9" start="true" img=":!--hook weaponsImageLns hook--:">
+				<!--hook weaponsSlotLns hook-->
+				</weapons>
+				<drones power="2" room="11" start="false" img=":!--hook dronesImageLns hook--:" />
+				<clonebay power="1" room="0" start="true">
+				<!--hook clonebaySlotLns hook-->
+				</clonebay>
+				<medbay power="1" room="0" start="false" img=":!--hook medbayImageLns hook--:">
+				<!--hook medbaySlotLns hook-->
+				</medbay>
+				<teleporter power="1" room="1" start="false" />
+				<cloaking power="1" room="6" start="false" img=":!--hook cloakingImageLns hook--:" />
+				<battery power="1" room="10" start="false" img=":!--hook batteryImageLns hook--:" />
+				<mind power="1" room="13" start="true" img=":!--hook mindImageLns hook--:" />
+				<hacking power="1" room="3" start="false" img=":!--hook hackingImageLns hook--:" />
+				<!--hook artiLns hook-->
+			</systemList>
+			<maxPower amount="8" />
+			<!--hook WeaponsLanius hook-->
+			<!--hook CrewsLanius hook-->
+		</Asset>
+		<Asset metaData="no O2, improved engines and doors">
+			<systemList>
+				<pilot power="1" room="8" start="true" img=":!--hook pilotImageLns hook--:">
+				<!--hook pilotSlotLns hook-->
+				</pilot>
+				<doors power="2" room="15" start="true" img=":!--hook doorsImageLns hook--:">
+				<!--hook doorsSlotLns hook-->
+				</doors>
+				<sensors power="1" room="14" start="true" img=":!--hook sensorsImageLns hook--:">
+				<!--hook sensorsSlotLns hook-->
+				</sensors>
+				<oxygen power="1" room="2" start="false" img=":!--hook oxygenImageLns hook--:" />
+				<engines power="3" room="7" start="true" img=":!--hook enginesImageLns hook--:">
+				<!--hook enginesSlotLns hook-->
+				</engines>
+				<shields power="2" room="5" start="true" img=":!--hook shieldsImageLns hook--:">
+				<!--hook shieldsSlotLns hook-->
+				</shields>
+				<weapons power="3" room="9" start="true" img=":!--hook weaponsImageLns hook--:">
+				<!--hook weaponsSlotLns hook-->
+				</weapons>
+				<drones power="2" room="11" start="false" img=":!--hook dronesImageLns hook--:" />
+				<clonebay power="1" room="0" start="true">
+				<!--hook clonebaySlotLns hook-->
+				</clonebay>
+				<medbay power="1" room="0" start="false" img=":!--hook medbayImageLns hook--:">
+				<!--hook medbaySlotLns hook-->
+				</medbay>
+				<teleporter power="1" room="1" start="false" />
+				<cloaking power="1" room="6" start="false" img=":!--hook cloakingImageLns hook--:" />
+				<battery power="1" room="10" start="false" img=":!--hook batteryImageLns hook--:" />
+				<mind power="1" room="13" start="false" img=":!--hook mindImageLns hook--:" />
+				<hacking power="1" room="3" start="true" img=":!--hook hackingImageLns hook--:" />
+				<!--hook artiLns hook-->
+			</systemList>
+			<maxPower amount="8" />
+			<!--hook WeaponsLanius hook-->
+			<!--hook CrewsLaniusNoO2 hook-->
+		</Asset>
+		<Asset metaData="no O2, improved weapons and shields">
+			<systemList>
+				<pilot power="1" room="8" start="true" img=":!--hook pilotImageLns hook--:">
+				<!--hook pilotSlotLns hook-->
+				</pilot>
+				<doors power="1" room="15" start="true" img=":!--hook doorsImageLns hook--:">
+				<!--hook doorsSlotLns hook-->
+				</doors>
+				<sensors power="1" room="14" start="true" img=":!--hook sensorsImageLns hook--:">
+				<!--hook sensorsSlotLns hook-->
+				</sensors>
+				<oxygen power="1" room="2" start="false" img=":!--hook oxygenImageLns hook--:" />
+				<engines power="1" room="7" start="true" img=":!--hook enginesImageLns hook--:">
+				<!--hook enginesSlotLns hook-->
+				</engines>
+				<shields power="3" room="5" start="true" img=":!--hook shieldsImageLns hook--:">
+				<!--hook shieldsSlotLns hook-->
+				</shields>
+				<weapons power="4" room="9" start="true" img=":!--hook weaponsImageLns hook--:">
+				<!--hook weaponsSlotLns hook-->
+				</weapons>
+				<drones power="2" room="11" start="false" img=":!--hook dronesImageLns hook--:" />
+				<clonebay power="1" room="0" start="true">
+				<!--hook clonebaySlotLns hook-->
+				</clonebay>
+				<medbay power="1" room="0" start="false" img=":!--hook medbayImageLns hook--:">
+				<!--hook medbaySlotLns hook-->
+				</medbay>
+				<teleporter power="1" room="1" start="false" />
+				<cloaking power="1" room="6" start="false" img=":!--hook cloakingImageLns hook--:" />
+				<battery power="1" room="10" start="false" img=":!--hook batteryImageLns hook--:" />
+				<mind power="1" room="13" start="false" img=":!--hook mindImageLns hook--:" />
+				<hacking power="1" room="3" start="true" img=":!--hook hackingImageLns hook--:" />
+				<!--hook artiLns hook-->
+			</systemList>
+			<maxPower amount="8" />
+			<!--hook WeaponsLanius hook-->
+			<!--hook CrewsLaniusNoO2 hook-->
+		</Asset>
+		<Asset metaData="no O2, improved medbay, battery">
+			<systemList>
+				<pilot power="1" room="8" start="true" img=":!--hook pilotImageLns hook--:">
+				<!--hook pilotSlotLns hook-->
+				</pilot>
+				<doors power="1" room="15" start="true" img=":!--hook doorsImageLns hook--:">
+				<!--hook doorsSlotLns hook-->
+				</doors>
+				<sensors power="1" room="14" start="true" img=":!--hook sensorsImageLns hook--:">
+				<!--hook sensorsSlotLns hook-->
+				</sensors>
+				<oxygen power="1" room="2" start="false" img=":!--hook oxygenImageLns hook--:" />
+				<engines power="1" room="7" start="true" img=":!--hook enginesImageLns hook--:">
+				<!--hook enginesSlotLns hook-->
+				</engines>
+				<shields power="2" room="5" start="true" img=":!--hook shieldsImageLns hook--:">
+				<!--hook shieldsSlotLns hook-->
+				</shields>
+				<weapons power="3" room="9" start="true" img=":!--hook weaponsImageLns hook--:">
+				<!--hook weaponsSlotLns hook-->
+				</weapons>
+				<drones power="2" room="11" start="false" img=":!--hook dronesImageLns hook--:" />
+				<clonebay power="1" room="0" start="false">
+				<!--hook clonebaySlotLns hook-->
+				</clonebay>
+				<medbay power="2" room="0" start="true" img=":!--hook medbayImageLns hook--:">
+				<!--hook medbaySlotLns hook-->
+				</medbay>
+				<teleporter power="1" room="1" start="false" />
+				<cloaking power="1" room="6" start="false" img=":!--hook cloakingImageLns hook--:" />
+				<battery power="1" room="10" start="true" img=":!--hook batteryImageLns hook--:" />
+				<mind power="1" room="13" start="false" img=":!--hook mindImageLns hook--:" />
+				<hacking power="1" room="3" start="true" img=":!--hook hackingImageLns hook--:" />
+				<!--hook artiLns hook-->
+			</systemList>
+			<maxPower amount="8" />
+			<!--hook WeaponsLanius hook-->
+			<!--hook CrewsLaniusNoO2 hook-->
+		</Asset>
+		<Asset metaData="teleporter and mind control, weak weapons">
+			<systemList>
+				<pilot power="1" room="8" start="true" img=":!--hook pilotImageLns hook--:">
+				<!--hook pilotSlotLns hook-->
+				</pilot>
+				<doors power="1" room="15" start="true" img=":!--hook doorsImageLns hook--:">
+				<!--hook doorsSlotLns hook-->
+				</doors>
+				<sensors power="1" room="14" start="true" img=":!--hook sensorsImageLns hook--:">
+				<!--hook sensorsSlotLns hook-->
+				</sensors>
+				<oxygen power="1" room="2" start="true" img=":!--hook oxygenImageLns hook--:" />
+				<engines power="1" room="7" start="true" img=":!--hook enginesImageLns hook--:">
+				<!--hook enginesSlotLns hook-->
+				</engines>
+				<shields power="2" room="5" start="true" img=":!--hook shieldsImageLns hook--:">
+				<!--hook shieldsSlotLns hook-->
+				</shields>
+				<weapons power="1" room="9" start="true" img=":!--hook weaponsImageLns hook--:">
+				<!--hook weaponsSlotLns hook-->
+				</weapons>
+				<drones power="2" room="11" start="false" img=":!--hook dronesImageLns hook--:" />
+				<clonebay power="1" room="0" start="true">
+				<!--hook clonebaySlotLns hook-->
+				</clonebay>
+				<medbay power="1" room="0" start="false" img=":!--hook medbayImageLns hook--:">
+				<!--hook medbaySlotLns hook-->
+				</medbay>
+				<teleporter power="1" room="1" start="true" />
+				<cloaking power="1" room="6" start="false" img=":!--hook cloakingImageLns hook--:" />
+				<battery power="1" room="10" start="false" img=":!--hook batteryImageLns hook--:" />
+				<mind power="1" room="13" start="true" img=":!--hook mindImageLns hook--:" />
+				<hacking power="1" room="3" start="false" img=":!--hook hackingImageLns hook--:" />
+				<!--hook artiLns hook-->
+			</systemList>
+			<maxPower amount="8" />
+			<!--hook Weapons1PowerLanius hook-->
+			<!--hook CrewsLanius hook-->
+		</Asset>
+		<Asset metaData="teleporter and mind control, weak weapons, medbay">
+			<systemList>
+				<pilot power="1" room="8" start="true" img=":!--hook pilotImageLns hook--:">
+				<!--hook pilotSlotLns hook-->
+				</pilot>
+				<doors power="1" room="15" start="true" img=":!--hook doorsImageLns hook--:">
+				<!--hook doorsSlotLns hook-->
+				</doors>
+				<sensors power="1" room="14" start="true" img=":!--hook sensorsImageLns hook--:">
+				<!--hook sensorsSlotLns hook-->
+				</sensors>
+				<oxygen power="1" room="2" start="true" img=":!--hook oxygenImageLns hook--:" />
+				<engines power="1" room="7" start="true" img=":!--hook enginesImageLns hook--:">
+				<!--hook enginesSlotLns hook-->
+				</engines>
+				<shields power="2" room="5" start="true" img=":!--hook shieldsImageLns hook--:">
+				<!--hook shieldsSlotLns hook-->
+				</shields>
+				<weapons power="1" room="9" start="true" img=":!--hook weaponsImageLns hook--:">
+				<!--hook weaponsSlotLns hook-->
+				</weapons>
+				<drones power="2" room="11" start="false" img=":!--hook dronesImageLns hook--:" />
+				<clonebay power="1" room="0" start="false">
+				<!--hook clonebaySlotLns hook-->
+				</clonebay>
+				<medbay power="1" room="0" start="true" img=":!--hook medbayImageLns hook--:">
+				<!--hook medbaySlotLns hook-->
+				</medbay>
+				<teleporter power="1" room="1" start="true" />
+				<cloaking power="1" room="6" start="false" img=":!--hook cloakingImageLns hook--:" />
+				<battery power="1" room="10" start="false" img=":!--hook batteryImageLns hook--:" />
+				<mind power="1" room="13" start="true" img=":!--hook mindImageLns hook--:" />
+				<hacking power="1" room="3" start="false" img=":!--hook hackingImageLns hook--:" />
+				<!--hook artiLns hook-->
+			</systemList>
+			<maxPower amount="8" />
+			<!--hook Weapons1PowerLanius hook-->
+			<!--hook CrewsLanius hook-->
+		</Asset>
+		<Asset metaData="better teleporter and mind control, weak weapons, no o2">
+			<systemList>
+				<pilot power="1" room="8" start="true" img=":!--hook pilotImageLns hook--:">
+				<!--hook pilotSlotLns hook-->
+				</pilot>
+				<doors power="1" room="15" start="true" img=":!--hook doorsImageLns hook--:">
+				<!--hook doorsSlotLns hook-->
+				</doors>
+				<sensors power="1" room="14" start="true" img=":!--hook sensorsImageLns hook--:">
+				<!--hook sensorsSlotLns hook-->
+				</sensors>
+				<oxygen power="1" room="2" start="false" img=":!--hook oxygenImageLns hook--:" />
+				<engines power="1" room="7" start="true" img=":!--hook enginesImageLns hook--:">
+				<!--hook enginesSlotLns hook-->
+				</engines>
+				<shields power="2" room="5" start="true" img=":!--hook shieldsImageLns hook--:">
+				<!--hook shieldsSlotLns hook-->
+				</shields>
+				<weapons power="1" room="9" start="true" img=":!--hook weaponsImageLns hook--:">
+				<!--hook weaponsSlotLns hook-->
+				</weapons>
+				<drones power="2" room="11" start="false" img=":!--hook dronesImageLns hook--:" />
+				<clonebay power="1" room="0" start="true">
+				<!--hook clonebaySlotLns hook-->
+				</clonebay>
+				<medbay power="1" room="0" start="false" img=":!--hook medbayImageLns hook--:">
+				<!--hook medbaySlotLns hook-->
+				</medbay>
+				<teleporter power="2" room="1" start="true" />
+				<cloaking power="1" room="6" start="false" img=":!--hook cloakingImageLns hook--:" />
+				<battery power="1" room="10" start="false" img=":!--hook batteryImageLns hook--:" />
+				<mind power="2" room="13" start="true" img=":!--hook mindImageLns hook--:" />
+				<hacking power="1" room="3" start="false" img=":!--hook hackingImageLns hook--:" />
+				<!--hook artiLns hook-->
+			</systemList>
+			<maxPower amount="9" />
+			<!--hook Weapons1PowerLanius hook-->
+			<!--hook CrewsLaniusNoO2 hook-->
+		</Asset>
+	</Hook>
+</HookBase>

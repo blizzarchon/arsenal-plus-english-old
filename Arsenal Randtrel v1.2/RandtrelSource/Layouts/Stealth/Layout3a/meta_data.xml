@@ -1,0 +1,23 @@
+<MetaDataBase>
+    <MetaData>layout 3a</MetaData>
+    <Hook id="pilotImageStl">room_pilot_4</Hook>
+    <Hook id="shieldsImageStl">room_shields_4</Hook>
+    <Hook id="weaponsImageStl">room_weapons_8</Hook>
+    <Hook id="batteryImageStl">room_battery_2</Hook>
+    <Hook id="doorsImageStl">room_doors_2</Hook>
+    <Hook id="enginesImageStl">room_engines_2</Hook>
+    <Hook id="oxygenImageStl">room_oxygen_3</Hook>
+    <Hook id="sensorsImageStl">room_sensors_2</Hook>
+    <Hook id="hackingImageStl">room_hacking_3</Hook>
+    <Hook id="dronesImageStl">room_drones_3</Hook>
+    <Hook id="cloakingImageStl">room_cloaking_5</Hook>
+    <Hook id="medbayImageStl">room_medbay</Hook>
+    <Hook id="mindImageStl">room_mind_6</Hook>
+    <Hook id="enginesSlotStl">
+	<slot>
+		<direction>down</direction>
+		<number>1</number>
+	</slot>
+    </Hook>
+    <Action dirCopy="img/ship" destination="img/ship" />
+</MetaDataBase>

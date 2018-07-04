@@ -1,0 +1,16 @@
+
+<shipBlueprint name="PLAYER_SHIP_ANAEROBIC" layout="anaerobic_cruiser" img="anaerobic_cruiser_rand">
+	<class>Lanius Cruiser</class>
+	<!-- <class>Крейсер ланиусов</class> -->
+	<name>Randuos</name>
+	<unlock>Entice the Lanius with a valuable fleet, unlock 4 ships in addition to the Kestrel Cruiser to unlock this ship.</unlock>
+	<!-- <unlock>Ланиусы должны быть впечатлены вашим флотом. Разблокируйте 4 корабля, не считая крейсер "Kestrel", чтобы открыть этот корабль.</unlock> -->
+	<desc>The sharp knife-like structures make Lanius ships a sight to behold. This cruiser was adapted and refined to deal with the other races of the Federation.</desc>
+	<!-- <desc>Корабли ланиусов запоминаются своими структурами, похожими на острые ножи. Этот крейсер адаптирован и усовершенствован для использования другими расами.</desc> -->
+	<crewCount amount="1" class="anaerobic" />
+	<aug name="O2_MASKS" />
+	<!--hook SystemsPowerLns hook-->
+	<weaponSlots>4</weaponSlots>
+	<droneSlots>2</droneSlots>
+	<health amount="30" />
+</shipBlueprint>

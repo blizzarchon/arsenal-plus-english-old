@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssetBase assetHandlerFileName="asset_handler.xml" destination="tempRand" outputName="Randtrel_Arsenal.ftl">
+	<Asset dir="RandtrelSource/Mod Info" />
+	<Asset dir="RandtrelSource/FirstPass" />
+	<Asset dir="RandtrelSource/SecondPass" />
+	<Asset dir="RandtrelSource/ThirdPass" />
+	<Gui mainLabel="FTL Player Ships Randomizer [by RannL]" execLabel="Build Random Ship" modes="ARS" image="RandtrelSource/randtrelSplash.png" />
+	<GuiModPath path="" />
+</AssetBase>

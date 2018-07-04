@@ -1,0 +1,506 @@
+<HookBase>
+	<Hook id="Weapons" metaDataId="WeaponsData">
+		<Asset metaData="two dual shot lasers" build="ARS">
+			<weaponList count="3" missiles="5">
+				<weapon name="LASER_DUAL_1" />
+				<weapon name="LASER_DUAL_1" />
+			</weaponList>
+		</Asset>
+		<Asset metaData="two dual shot lasers" build="ARS">
+			<weaponList count="3" missiles="5">
+				<weapon name="LASER_DUAL_1" />
+				<weapon name="BA_LASER_WAR_3" />
+			</weaponList>
+		</Asset>
+		<Asset metaData="one dual shot laser, one laser" build="ARS">
+			<weaponList count="3" missiles="5">
+				<weapon name="LASER_DUAL_1" />
+				<weapon name="LASER_STANDARD_1" />
+				<!--hook AuxWeapon hook-->
+			</weaponList>
+		</Asset>
+		<Asset metaData="one dual shot laser, one laser" build="ARS">
+			<weaponList count="3" missiles="5">
+				<weapon name="BA_LASER_WAR_1" />
+				<weapon name="LASER_STANDARD_1" />
+				<!--hook AuxWeapon hook-->
+			</weaponList>
+		</Asset>
+		<Asset metaData="one dual shot laser, one laser" build="ARS">
+			<weaponList count="3" missiles="5">
+				<weapon name="BA_LASER_WAR_1" />
+				<weapon name="LASER_HEAVY_1" />
+				<!--hook AuxWeapon hook-->
+			</weaponList>
+		</Asset>
+		<Asset metaData="one dual shot laser, one ion" build="ARS">
+			<weaponList count="3" missiles="5">
+				<weapon name="LASER_DUAL_1" />
+				<weapon name="ION_BLAST_1" />
+				<!--hook AuxWeapon hook-->
+			</weaponList>
+		</Asset>
+		<Asset metaData="one dual shot laser, one ion" build="ARS">
+			<weaponList count="3" missiles="5">
+				<weapon name="LASER_HEAVY_PIERCE_1" />
+				<weapon name="ION_BLAST_1" />
+				<!--hook AuxWeapon hook-->
+			</weaponList>
+		</Asset>
+		<Asset metaData="one dual shot laser, one ion" build="ARS">
+			<weaponList count="3" missiles="5">
+				<weapon name="LASER_IMP_3" />
+				<!--hook AuxWeapon hook-->
+			</weaponList>
+		</Asset>
+		<Asset metaData="one dual shot laser, one leto" build="ARS">
+			<weaponList count="3" missiles="5">
+				<weapon name="LASER_DUAL_1" />
+				<weapon name="MISSILES_1" />
+				<!--hook AuxWeapon hook-->
+			</weaponList>
+		</Asset>
+		<Asset metaData="one dual shot laser, one shotgun" build="ARS">
+			<weaponList count="3" missiles="0">
+				<weapon name="LASER_DUAL_1" />
+				<weapon name="SHOTGUN" />
+			</weaponList>
+		</Asset>
+		<Asset metaData="one dual shot laser, one shotgun" build="ARS">
+			<weaponList count="3" missiles="0">
+				<weapon name="LASER_DUAL_1" />
+				<weapon name="LASER_IMP_2" />
+			</weaponList>
+		</Asset>
+		<Asset metaData="one dual shot laser, one laser charger" build="ARS">
+			<weaponList count="3" missiles="5">
+				<weapon name="LASER_DUAL_1" />
+				<weapon name="LASER_CHARGEGUN_1" />
+			</weaponList>
+		</Asset>
+		<Asset metaData="one dual shot laser, one laser charger" build="ARS">
+			<weaponList count="3" missiles="5">
+				<weapon name="LASER_DUAL_1" />
+				<weapon name="BA_BEAM_HASTA" />
+			</weaponList>
+		</Asset>
+		<Asset metaData="one dual shot laser, one laser charger" build="ARS">
+			<weaponList count="3" missiles="5">
+				<weapon name="LASER_PIERCE_1" />
+				<weapon name="LASER_CHARGEGUN_1" />
+			</weaponList>
+		</Asset>
+		<Asset metaData="one dual shot laser, one laser charger" build="ARS">
+			<weaponList count="3" missiles="5">
+				<weapon name="LASER_PIERCE_1" />
+				<weapon name="LASER_SUPER_HEAVY_1" />
+				<weapon name="BA_BEAM_HASTA" />
+			</weaponList>
+		</Asset>
+		<Asset metaData="one dual shot laser, one laser charger" build="ARS">
+			<weaponList count="3" missiles="5">
+				<weapon name="LASER_AL_1" />
+				<weapon name="LASER_CHARGEGUN_1" />
+			</weaponList>
+		</Asset>
+		<Asset metaData="one dual shot laser, one laser charger" build="ARS">
+			<weaponList count="3" missiles="5">
+				<weapon name="LASER_AL_1" />
+				<weapon name="BEAM_LONG" />
+				<!--hook AuxWeapon hook-->
+			</weaponList>
+		</Asset>
+		<Asset metaData="one laser, one long beam with auto loader" build="ARS">
+			<weaponList count="3" missiles="10">
+				<weapon name="LASER_STANDARD_1" />
+				<weapon name="BEAM_LONG" />
+				<!--hook AuxWeapon hook-->
+			</weaponList>
+			<aug name="AUTO_COOLDOWN"/>
+		</Asset>
+		<Asset metaData="one laser, one ion charger" build="ARS">
+			<weaponList count="3" missiles="10">
+				<weapon name="LASER_STANDARD_1" />
+				<weapon name="ION_CHARGEGUN" />
+				<!--hook AuxWeapon hook-->
+			</weaponList>
+		</Asset>
+		<Asset metaData="one laser, one ion charger" build="ARS">
+			<weaponList count="3" missiles="10">
+				<weapon name="BA_ION_BURST_1" />
+				<weapon name="ION_CHARGEGUN" />
+				<!--hook AuxWeapon hook-->
+			</weaponList>
+		</Asset>
+		<Asset metaData="one laser, one ion charger" build="ARS">
+			<weaponList count="3" missiles="10">
+				<weapon name="BA_LASER_HULL_SMALL" />
+				<weapon name="ION_CHARGEGUN" />
+				<!--hook AuxWeapon hook-->
+			</weaponList>
+		</Asset>
+		<Asset metaData="one laser, one ion charger" build="ARS">
+			<weaponList count="3" missiles="10">
+				<weapon name="BA_LASER_HULL_SMALL" />
+				<weapon name="BA_LASER_HULL_SMALL" />
+				<!--hook AuxWeapon hook-->
+			</weaponList>
+		</Asset>
+		<Asset metaData="one laser, one ion charger" build="ARS">
+			<weaponList count="3" missiles="10">
+				<weapon name="LASER_SUPER_HEAVY_1" />
+				<!--hook AuxWeapon hook-->
+			</weaponList>
+		</Asset>
+		<Asset metaData="one laser, one laser chaingun" build="ARS">
+			<weaponList count="3" missiles="10">
+				<weapon name="LASER_STANDARD_1" />
+				<weapon name="LASER_CHAIN_1" />
+				<!--hook AuxWeapon hook-->
+			</weaponList>
+		</Asset>
+		<Asset metaData="one laser charger, one laser" build="ARS">
+			<weaponList count="3" missiles="10">
+				<weapon name="LASER_STANDARD_1" />
+				<weapon name="LASER_CHARGEGUN_1" />
+				<!--hook AuxWeapon hook-->
+			</weaponList>
+		</Asset>
+		<Asset metaData="one shotgun, one laser charger" build="ARS">
+			<weaponList count="3" missiles="5">
+				<weapon name="SHOTGUN" />
+				<weapon name="LASER_CHARGEGUN_1" />
+			</weaponList>
+		</Asset>
+		<Asset metaData="one burst 2 laser" build="ARS">
+			<weaponList count="3" missiles="10">
+				<weapon name="LASER_BURST_2" />
+				<!--hook AuxWeapon hook-->
+			</weaponList>
+		</Asset>
+		<Asset metaData="one burst 2 laser" build="ARS">
+			<weaponList count="3" missiles="10">
+				<weapon name="LASER_IMP_3" />
+				<!--hook AuxWeapon hook-->
+			</weaponList>
+		</Asset>
+		<Asset metaData="one burst 2 laser" build="ARS">
+			<weaponList count="3" missiles="10">
+				<weapon name="LASER_HULL_2" />
+				<!--hook AuxWeapon hook-->
+			</weaponList>
+		</Asset>
+		<Asset metaData="one burst 2 laser" build="ARS">
+			<weaponList count="3" missiles="10">
+				<weapon name="LASER_HULL_1" />
+				<weapon name="BA_LASER_WAR_1" />
+				<!--hook AuxWeapon hook-->
+			</weaponList>
+		</Asset>
+		<Asset metaData="one laser, one burst laser" build="ARS">
+			<weaponList count="3" missiles="10">
+				<weapon name="LASER_STANDARD_1" />
+				<weapon name="LASER_BURST_1" />
+				<!--hook AuxWeapon hook-->
+			</weaponList>
+		</Asset>
+		<Asset metaData="one burst laser, one heavy" build="ARS">
+			<weaponList count="3" missiles="10">
+				<weapon name="LASER_BURST_1" />
+				<weapon name="LASER_HEAVY_1" />
+				<!--hook AuxWeapon hook-->
+			</weaponList>
+		</Asset>
+		<Asset metaData="two heavy lasers" build="ARS">
+			<weaponList count="3" missiles="10">
+				<weapon name="LASER_HEAVY_1" />
+				<weapon name="LASER_HEAVY_1" />
+				<!--hook AuxWeapon hook-->
+			</weaponList>
+		</Asset>
+		<Asset metaData="one heavy laser, one ion" build="ARS">
+			<weaponList count="3" missiles="10">
+				<weapon name="LASER_HEAVY_1" />
+				<weapon name="ION_BLAST_1" />
+				<!--hook AuxWeapon hook-->
+			</weaponList>
+		</Asset>
+		<Asset metaData="one burst laser, one ion" build="ARS">
+			<weaponList count="3" missiles="10">
+				<weapon name="LASER_BURST_1" />
+				<weapon name="ION_BLAST_1" />
+				<!--hook AuxWeapon hook-->
+			</weaponList>
+		</Asset>
+		<Asset metaData="one laser, one hull burst laser" build="ARS">
+			<weaponList count="3" missiles="10">
+				<weapon name="LASER_STANDARD_1" />
+				<weapon name="LASER_HULL_1" />
+				<!--hook AuxWeapon hook-->
+			</weaponList>
+		</Asset>
+		<Asset metaData="burst laser, auto loader" build="ARS">
+			<weaponList count="3" missiles="10">
+				<weapon name="LASER_BURST_1" />
+				<!--hook AuxWeapon hook-->
+			</weaponList>
+			<aug name="AUTO_COOLDOWN"/>
+		</Asset>
+		<Asset metaData="two lasers, auto loader" build="ARS">
+			<weaponList count="3" missiles="10">
+				<weapon name="LASER_STANDARD_2" />
+				<weapon name="LASER_STANDARD_2" />
+				<!--hook AuxWeapon hook-->
+			</weaponList>
+			<aug name="AUTO_COOLDOWN"/>
+		</Asset>
+		<Asset metaData="laser, heavy laser and auto loader" build="ARS">
+			<weaponList count="3" missiles="10">
+				<weapon name="LASER_STANDARD_2" />
+				<weapon name="LASER_HEAVY_1" />
+				<!--hook AuxWeapon hook-->
+			</weaponList>
+			<aug name="AUTO_COOLDOWN"/>
+		</Asset>
+		<Asset metaData="laser, hull laser and auto loader" build="ARS">
+			<weaponList count="3" missiles="10">
+				<weapon name="LASER_STANDARD_1" />
+				<weapon name="BA_LASER_HULL_SMALL" />
+				<!--hook AuxWeapon hook-->
+			</weaponList>
+			<aug name="AUTO_COOLDOWN"/>
+		</Asset>
+		<Asset metaData="heavy laser and hull laser" build="ARS">
+			<weaponList count="3" missiles="10">
+				<weapon name="LASER_HEAVY_1" />
+				<weapon name="BA_LASER_HULL_SMALL" />
+				<!--hook AuxWeapon hook-->
+			</weaponList>
+		</Asset>
+		<Asset metaData="twin laser and auto loader" build="ARS">
+			<weaponList count="3" missiles="10">
+				<weapon name="LASER_HULL_1" />
+				<!--hook AuxWeapon hook-->
+			</weaponList>
+			<aug name="AUTO_COOLDOWN"/>
+		</Asset>
+		<Asset metaData="burst scatter laser and hull laser" build="ARS">
+			<weaponList count="3" missiles="10">
+				<weapon name="BA_LASER_BURST_SCATTER_1" />
+				<weapon name="BA_LASER_HULL_SMALL" />
+				<!--hook AuxWeapon hook-->
+			</weaponList>
+		</Asset>
+		<Asset metaData="burst scatter laser and heavy laser" build="ARS">
+			<weaponList count="3" missiles="10">
+				<weapon name="BA_LASER_BURST_SCATTER_1" />
+				<weapon name="LASER_HEAVY_1" />
+				<!--hook AuxWeapon hook-->
+			</weaponList>
+		</Asset>
+		<Asset metaData="burst scatter laser and laser" build="ARS">
+			<weaponList count="3" missiles="10">
+				<weapon name="BA_LASER_BURST_SCATTER_1" />
+				<weapon name="LASER_STANDARD_1" />
+				<!--hook AuxWeapon hook-->
+			</weaponList>
+		</Asset>
+		<Asset metaData="burst scatter laser and heavy scatter laser" build="ARS">
+			<weaponList count="3" missiles="10">
+				<weapon name="BA_LASER_BURST_SCATTER_1" />
+				<weapon name="BA_LASER_HEAVY_SCATTER_1" />
+				<!--hook AuxWeapon hook-->
+			</weaponList>
+		</Asset>
+		<Asset metaData="heavy laser and heavy scatter laser" build="ARS">
+			<weaponList count="3" missiles="10">
+				<weapon name="LASER_HEAVY_1" />
+				<weapon name="BA_LASER_HEAVY_SCATTER_1" />
+				<!--hook AuxWeapon hook-->
+			</weaponList>
+		</Asset>
+		<Asset metaData="heavy laser and burst ion" build="ARS">
+			<weaponList count="3" missiles="10">
+				<weapon name="LASER_HEAVY_1" />
+				<weapon name="BA_ION_BURST_1" />
+				<!--hook AuxWeapon hook-->
+			</weaponList>
+		</Asset>
+		<Asset metaData="heavy scatter laser and burst ion" build="ARS">
+			<weaponList count="3" missiles="10">
+				<weapon name="BA_LASER_HEAVY_SCATTER_1" />
+				<weapon name="BA_ION_BURST_1" />
+				<!--hook AuxWeapon hook-->
+			</weaponList>
+		</Asset>
+		<Asset metaData="hull laser and burst ion" build="ARS">
+			<weaponList count="3" missiles="10">
+				<weapon name="BA_LASER_HULL_SMALL" />
+				<weapon name="BA_ION_BURST_1" />
+				<!--hook AuxWeapon hook-->
+			</weaponList>
+		</Asset>
+		<Asset metaData="dual shot laser and burst scatter laser" build="ARS">
+			<weaponList count="3" missiles="5">
+				<weapon name="LASER_DUAL_1" />
+				<weapon name="BA_LASER_BURST_SCATTER_1" />
+			</weaponList>
+		</Asset>
+		<Asset metaData="dual shot laser and heavy scatter laser" build="ARS">
+			<weaponList count="3" missiles="5">
+				<weapon name="LASER_DUAL_1" />
+				<weapon name="BA_LASER_HEAVY_SCATTER_1" />
+			</weaponList>
+		</Asset>
+		<Asset metaData="dual shot laser and burst ion" build="ARS">
+			<weaponList count="3" missiles="5">
+				<weapon name="LASER_DUAL_1" />
+				<weapon name="BA_ION_BURST_1" />
+			</weaponList>
+		</Asset>
+		<Asset metaData="one laser charger, one hull laser" build="ARS">
+			<weaponList count="3" missiles="5">
+				<weapon name="BA_LASER_HULL_SMALL" />
+				<weapon name="LASER_CHARGEGUN_1" />
+				<!--hook AuxWeapon hook-->
+			</weaponList>
+		</Asset>
+		<Asset metaData="one laser charger, one heavy scatter laser" build="ARS">
+			<weaponList count="3" missiles="5">
+				<weapon name="BA_LASER_HEAVY_SCATTER_1" />
+				<weapon name="LASER_CHARGEGUN_1" />
+				<!--hook AuxWeapon hook-->
+			</weaponList>
+		</Asset>
+	</Hook>
+	<Hook id="AuxWeapon" metaDataId="AuxWeaponData">
+		<Asset metaData="missile launcher" build="ARS">
+			<weapon name="MISSILES_1"/>
+		</Asset>
+		<Asset metaData="advanced missile launcher" build="ARS">
+			<weapon name="MISSILES_2_PLAYER"/>
+		</Asset>
+		<Asset metaData="laser" build="ARS">
+			<weapon name="LASER_STANDARD_1"/>
+		</Asset>
+		<Asset metaData="small beam" build="ARS">
+			<weapon name="BEAM_1"/>
+		</Asset>
+		<Asset metaData="small beam" build="ARS">
+			<weapon name="BA_BEAM_HASTA"/>
+		</Asset>
+		<Asset metaData="small bomb" build="ARS">
+			<weapon name="BOMB_1"/>
+		</Asset>
+		<Asset metaData="small bomb" build="ARS">
+			<weapon name="BA_PLASMA_1"/>
+		</Asset>
+		<Asset metaData="small bomb" build="ARS">
+			<weapon name="BA_BEAM_ADAPTIVE_1"/>
+		</Asset>
+		<Asset metaData="small bomb" build="ARS">
+			<weapon name="BA_BEAM_AUTO"/>
+		</Asset>
+		<Asset metaData="small ion" build="ARS">
+			<weapon name="ION_BLAST_1"/>
+		</Asset>
+		<Asset metaData="small hull beam" build="ARS">
+			<weapon name="BA_BEAM_HULL_SMALL"/>
+		</Asset>
+		<Asset metaData="double missile launcher" build="ARS">
+			<weapon name="BA_MISSILES_PERYTON"/>
+		</Asset>
+		<Asset metaData="old laser" build="ARS">
+			<weapon name="LASER_OLD"/>
+		</Asset>
+		<Asset metaData="swarm missiles" build="ARS">
+			<weapon name="BA_MISSILES_SWARM_1"/>
+		</Asset>
+		<Asset metaData="small missile" build="ARS">
+			<weapon name="BA_MISSILES_ASTERIA"/>
+		</Asset>
+		<Asset metaData="ion cluster bomb" build="ARS">
+			<weapon name="BA_BOMB_CLUSTER_ION"/>
+		</Asset>
+		<Asset metaData="small hull laser" build="ARS">
+			<weapon name="BA_LASER_HULL_SMALL"/>
+		</Asset>
+		<Asset metaData="war laser" build="ARS">
+			<weapon name="BA_LASER_WAR_1"/>
+		</Asset>
+		<Asset metaData="war laser 2" build="ARS">
+			<weapon name="BA_LASER_WAR_2"/>
+		</Asset>
+		<Asset metaData="war laser 3" build="ARS">
+			<weapon name="BA_LASER_WAR_3"/>
+		</Asset>
+		<Asset metaData="super heavy laser" build="ARS">
+			<weapon name="LASER_SUPER_HEAVY_1"/>
+		</Asset>
+		<Asset metaData="super heavy laser 2" build="ARS">
+			<weapon name="LASER_SUPER_HEAVY_2"/>
+		</Asset>
+		<Asset metaData="adaptive laser" build="ARS">
+			<weapon name="LASER_AL_1" />
+		</Asset>
+		<Asset metaData="adaptive laser" build="ARS">
+			<weapon name="LASER_AL_2" />
+		</Asset>
+		<Asset metaData="heavy scatter laser 2" build="ARS">
+			<weapon name="BA_LASER_HEAVY_SCATTER_2"/>
+		</Asset>
+		<Asset metaData="heavy scatter laser 2" build="ARS">
+			<weapon name="LASER_HEAVY_1"/>
+		</Asset>
+		<Asset metaData="heavy scatter laser 2" build="ARS">
+			<weapon name="LASER_HEAVY_2"/>
+		</Asset>
+	</Hook>
+	<Hook id="DroneAmount" metaDataId="DroneAmountData">
+		<Asset metaData="Standard" build="ARS">
+			<droneList drones="5"/>
+		</Asset>
+		<Asset metaData="3 drones" build="ARS">
+			<droneList drones="3"/>
+		</Asset>
+		<Asset metaData="4 drones" build="ARS">
+			<droneList drones="4"/>
+		</Asset>
+		<Asset metaData="6 drones" build="ARS">
+			<droneList drones="6"/>
+		</Asset>
+		<Asset metaData="7 drones" build="ARS">
+			<droneList drones="7"/>
+		</Asset>
+		<Asset metaData="No drones, augment" build="ARS">
+			<droneList drones="0"/>
+			<aug name="FTL_JAMMER"/>
+		</Asset>
+		<Asset metaData="No drones, augment" build="ARS">
+			<droneList drones="0"/>
+			<aug name="ADV_SCANNERS"/>
+		</Asset>
+		<Asset metaData="No drones, augment" build="ARS">
+			<droneList drones="0"/>
+			<aug name="SCRAP_COLLECTOR"/>
+		</Asset>
+		<Asset metaData="No drones, augment" build="ARS">
+			<aug name="INJECTOR_PRC"/>
+		</Asset>
+		<Asset metaData="No drones, augment" build="ARS">
+			<aug name="INJECTOR_FRC"/>
+		</Asset>
+		<Asset metaData="No drones, augment" build="ARS">
+			<aug name="INJECTOR_BRC"/>
+		</Asset>
+		<Asset metaData="No drones, augment" build="ARS">
+			<aug name="INJECTOR_CLD"/>
+		</Asset>
+		<Asset metaData="No drones, augment" build="ARS">
+			<aug name="INJECTOR_POW"/>
+		</Asset>
+		<Asset metaData="No drones, augment" build="ARS">
+			<aug name="INJECTOR_UNI"/>
+		</Asset>
+	</Hook>
+</HookBase>

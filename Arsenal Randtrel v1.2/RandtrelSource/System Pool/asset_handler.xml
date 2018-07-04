@@ -1,0 +1,12 @@
+<AssetBase>
+	<Action randomizeHook="meta_system_pool_kes.xml" multiRand=""/>	
+	<Action randomizeHook="meta_system_pool_eng.xml" multiRand=""/>	
+	<Action randomizeHook="meta_system_pool_stl.xml" multiRand=""/>
+	<Action randomizeHook="meta_system_pool_rck.xml" multiRand=""/>
+	<Action randomizeHook="meta_system_pool_mts.xml" multiRand=""/>
+	<Action randomizeHook="meta_system_pool_fed.xml" multiRand=""/>
+	<Action randomizeHook="meta_system_pool_slg.xml" multiRand=""/>
+	<Action randomizeHook="meta_system_pool_zlt.xml" multiRand=""/>
+	<Action randomizeHook="meta_system_pool_lns.xml" multiRand=""/>
+	<Action randomizeHook="meta_system_pool_ctl.xml" multiRand=""/>
+</AssetBase>

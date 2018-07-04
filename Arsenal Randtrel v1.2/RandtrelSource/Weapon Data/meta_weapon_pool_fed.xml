@@ -1,0 +1,1081 @@
+<HookBase>
+	<Hook id="WeaponsFed" metaDataId="WeaponsFedData">
+		<Asset metaData="3 missiles" build="ARS">
+			<weaponList count="3" missiles="3">
+				<!--hook WeaponsFedType hook-->
+			</weaponList>
+		</Asset>
+		<Asset metaData="5 missiles" build="ARS">
+			<weaponList count="3" missiles="5">
+				<!--hook WeaponsFedType hook-->
+			</weaponList>
+		</Asset>
+		<Asset metaData="7 missiles" build="ARS">
+			<weaponList count="3" missiles="7">
+				<!--hook WeaponsFedType hook-->
+			</weaponList>
+		</Asset>
+		<Asset metaData="10 missiles" build="ARS">
+			<weaponList count="3" missiles="10">
+				<!--hook WeaponsFedType hook-->
+			</weaponList>
+		</Asset>
+		<Asset metaData="no missiles, autoloader" build="ARS">
+			<weaponList count="3" missiles="0">
+				<!--hook WeaponsFedType hook-->
+			</weaponList>
+			<aug name="AUTO_COOLDOWN"/>
+		</Asset>
+	</Hook>
+	<Hook id="WeaponsFedType" metaDataId="WeaponsFedTypeData">
+		<Asset metaData="pure laser" build="ARS">
+			<!--hook WeaponsFedOnlyLaser hook-->
+		</Asset>
+		<Asset metaData="laser and weak ammo weapon" build="ARS">
+			<!--hook WeaponsFedLaserMissile hook-->
+		</Asset>
+	</Hook>
+	<Hook id="WeaponsFedOnlyLaser" metaDataId="WeaponsFedOnlyLaserData">
+		<Asset metaData="burst laser +" build="ARS">
+			<weapon name="LASER_BURST_3"/>
+			<weapon name="LASER_TIRED"/>
+		</Asset>
+		<Asset metaData="burst laser +" build="ARS">
+			<weapon name="LASER_BURST_3"/>
+			<weapon name="LASER_TIRED"/>
+			<weapon name="LASER_TIRED"/>
+		</Asset>
+		<Asset metaData="energy burst +" build="ARS">
+			<weapon name="LASER_IMP_3"/>
+			<weapon name="LASER_STANDARD_1"/>
+		</Asset>
+		<Asset metaData="energy burst +" build="ARS">
+			<weapon name="LASER_IMP_3"/>
+			<weapon name="LASER_AL_1"/>
+		</Asset>
+		<Asset metaData="energy burst +" build="ARS">
+			<weapon name="LASER_IMP_3"/>
+			<weapon name="LASER_HEAVY_1"/>
+		</Asset>
+		<Asset metaData="energy burst +" build="ARS">
+			<weapon name="LASER_IMP_3"/>
+			<weapon name="BA_LASER_HEAVY_SCATTER_2"/>
+		</Asset>
+		<Asset metaData="energy burst +" build="ARS">
+			<weapon name="LASER_IMP_3"/>
+			<weapon name="LASER_OLD"/>
+		</Asset>
+		<Asset metaData="energy burst +" build="ARS">
+			<weapon name="LASER_IMP_2"/>
+			<weapon name="LASER_STANDARD_2"/>
+		</Asset>
+		<Asset metaData="energy burst +" build="ARS">
+			<weapon name="LASER_IMP_2"/>
+			<weapon name="LASER_TIRED"/>
+		</Asset>
+		<Asset metaData="super heavy +" build="ARS">
+			<weapon name="LASER_SUPER_HEAVY_2"/>
+		</Asset>
+		<Asset metaData="super heavy +" build="ARS">
+			<weapon name="LASER_SUPER_HEAVY_2"/>
+			<weapon name="LASER_TIRED"/>
+		</Asset>
+		<Asset metaData="super heavy +" build="ARS">
+			<weapon name="LASER_SUPER_HEAVY_2"/>
+			<weapon name="LASER_AL_1"/>
+		</Asset>
+		<Asset metaData="old dual laser, old laser" build="ARS">
+			<weapon name="LASER_DUAL_OLD"/>
+			<weapon name="LASER_OLD"/>
+		</Asset>
+		<Asset metaData="old dual laser, old laser" build="ARS">
+			<weapon name="LASER_IMP_2"/>
+			<weapon name="LASER_DUAL_OLD"/>
+		</Asset>
+		<Asset metaData="old dual laser, old laser" build="ARS">
+			<weapon name="LASER_IMP_2"/>
+			<weapon name="LASER_OLD"/>
+		</Asset>
+		<Asset metaData="old dual laser, old laser" build="ARS">
+			<weapon name="LASER_IMP_2"/>
+			<weapon name="LASER_SUPER_HEAVY_1"/>
+		</Asset>
+		<Asset metaData="old dual laser, 2 old lasers" build="ARS">
+			<weapon name="LASER_DUAL_OLD"/>
+			<weapon name="LASER_OLD"/>
+			<weapon name="LASER_OLD"/>
+		</Asset>
+		<Asset metaData="old dual laser, 2 old lasers" build="ARS">
+			<weapon name="LASER_DUAL_OLD"/>
+			<weapon name="LASER_DUAL_OLD"/>
+			<weapon name="LASER_DUAL_OLD"/>
+		</Asset>
+		<Asset metaData="old dual laser, 2 old lasers" build="ARS">
+			<weapon name="LASER_DUAL_OLD"/>
+			<weapon name="LASER_DUAL_OLD"/>
+			<weapon name="LASER_PIERCE_1"/>
+		</Asset>
+		<Asset metaData="old dual laser, 2 old lasers" build="ARS">
+			<weapon name="LASER_AL_1"/>
+			<weapon name="LASER_AL_1"/>
+			<weapon name="LASER_AL_1"/>
+		</Asset>
+		<Asset metaData="old dual laser, 2 old lasers" build="ARS">
+			<weapon name="LASER_AL_1"/>
+			<weapon name="LASER_AL_1"/>
+			<weapon name="LASER_OLD"/>
+		</Asset>
+		<Asset metaData="old dual laser, 2 old lasers" build="ARS">
+			<weapon name="LASER_AL_1"/>
+			<weapon name="LASER_STANDARD_2"/>
+			<weapon name="LASER_OLD"/>
+		</Asset>
+		<Asset metaData="old dual laser, 2 old lasers" build="ARS">
+			<weapon name="LASER_AL_2"/>
+			<weapon name="LASER_STANDARD_2"/>
+		</Asset>
+		<Asset metaData="old dual laser, 2 old lasers" build="ARS">
+			<weapon name="LASER_AL_2"/>
+			<weapon name="LASER_AL_1"/>
+		</Asset>
+		<Asset metaData="old dual laser, 2 old lasers" build="ARS">
+			<weapon name="LASER_AL_2"/>
+			<weapon name="LASER_HEAVY_1"/>
+		</Asset>
+		<Asset metaData="old dual laser, 2 old lasers" build="ARS">
+			<weapon name="LASER_AL_1"/>
+			<weapon name="LASER_HEAVY_2"/>
+		</Asset>
+		<Asset metaData="old dual laser, 2 old lasers" build="ARS">
+			<weapon name="LASER_HEAVY_1"/>
+			<weapon name="LASER_HEAVY_1"/>
+			<weapon name="LASER_HEAVY_1"/>
+		</Asset>
+		<Asset metaData="old dual laser, 2 old lasers" build="ARS">
+			<weapon name="LASER_AL_1"/>
+			<weapon name="LASER_PIERCE_1"/>
+			<weapon name="LASER_STANDARD_1"/>
+		</Asset>
+		<Asset metaData="old dual laser, 2 old lasers" build="ARS">
+			<weapon name="LASER_PIERCE_1"/>
+			<weapon name="LASER_PIERCE_1"/>
+			<weapon name="LASER_PIERCE_1"/>
+		</Asset>
+		<Asset metaData="old dual laser, 2 old lasers" build="ARS">
+			<weapon name="LASER_PIERCE_2"/>
+			<weapon name="SHTURM_LASER_1"/>
+		</Asset>
+		<Asset metaData="old dual laser, 2 old lasers" build="ARS">
+			<weapon name="SHTURM_LASER_1"/>
+			<weapon name="SHTURM_LASER_1"/>
+		</Asset>
+		<Asset metaData="old dual laser, 2 old lasers" build="ARS">
+			<weapon name="SHTURM_LASER_2"/>
+			<weapon name="LASER_AL_1"/>
+		</Asset>
+		<Asset metaData="old dual laser, 2 old lasers" build="ARS">
+			<weapon name="SHTURM_LASER_1"/>
+			<weapon name="LASER_HEAVY_1"/>
+		</Asset>
+		<Asset metaData="3 lasers" build="ARS">
+			<weapon name="LASER_STANDARD_2"/>
+			<weapon name="LASER_STANDARD_2"/>
+			<weapon name="LASER_STANDARD_2"/>
+		</Asset>
+		<Asset metaData="3 old lasers" build="ARS">
+			<weapon name="LASER_OLD"/>
+			<weapon name="LASER_OLD"/>
+			<weapon name="LASER_OLD"/>
+		</Asset>
+		<Asset metaData="3 old lasers" build="ARS">
+			<weapon name="BA_LASER_HEAVY_SCATTER_2"/>
+			<weapon name="LASER_OLD"/>
+			<weapon name="LASER_OLD"/>
+		</Asset>
+		<Asset metaData="3 old lasers" build="ARS">
+			<weapon name="BA_LASER_HEAVY_SCATTER_1"/>
+			<weapon name="LASER_OLD"/>
+			<weapon name="LASER_OLD"/>
+		</Asset>
+		<Asset metaData="2 laser+, 1 old laser" build="ARS">
+			<weapon name="LASER_STANDARD_2"/>
+			<weapon name="LASER_STANDARD_1"/>
+			<weapon name="LASER_OLD"/>
+		</Asset>
+		<Asset metaData="2 laser+, 1 old laser" build="ARS">
+			<weapon name="SHTURM_LASER_1"/>
+			<weapon name="LASER_OLD"/>
+		</Asset>
+		<Asset metaData="2 laser+, 1 old laser" build="ARS">
+			<weapon name="LASER_HEAVY_PIERCE_1"/>
+			<weapon name="LASER_OLD"/>
+		</Asset>
+		<Asset metaData="2 laser+, 1 old laser" build="ARS">
+			<weapon name="LASER_HEAVY_PIERCE_2"/>
+		</Asset>
+		<Asset metaData="1 laser+, 1 burst scatter laser" build="ARS">
+			<weapon name="LASER_STANDARD_2"/>
+			<weapon name="BA_LASER_BURST_SCATTER_2"/>
+		</Asset>
+		<Asset metaData="1 dual laser, 1 laser" build="ARS">
+			<weapon name="LASER_DUAL_2"/>
+			<weapon name="LASER_STANDARD_1"/>
+		</Asset>
+		<Asset metaData="1 dual laser, 2 lasers" build="ARS">
+			<weapon name="LASER_DUAL_1"/>
+			<weapon name="LASER_STANDARD_1"/>
+			<weapon name="LASER_STANDARD_1"/>
+		</Asset>
+		<Asset metaData="1 dual laser, 2 lasers" build="ARS">
+			<weapon name="LASER_DUAL_1"/>
+			<weapon name="LASER_STANDARD_1"/>
+			<weapon name="BA_LASER_HEAVY_SCATTER_2"/>
+		</Asset>
+		<Asset metaData="1 burst scatter laser, 2 old lasers" build="ARS">
+			<weapon name="BA_LASER_BURST_SCATTER_1"/>
+			<weapon name="LASER_OLD"/>
+			<weapon name="LASER_OLD"/>
+		</Asset>
+		<Asset metaData="1 burst laser, 1 laser" build="ARS">
+			<weapon name="LASER_BURST_1"/>
+			<weapon name="LASER_STANDARD_1"/>
+		</Asset>
+		<Asset metaData="1 burst laser, 1 heavy laser" build="ARS">
+			<weapon name="LASER_BURST_1"/>
+			<weapon name="LASER_HEAVY_1"/>
+		</Asset>
+		<Asset metaData="1 burst laser, 1 heavy laser" build="ARS">
+			<weapon name="LASER_BURST_2"/>
+			<weapon name="LASER_STANDARD_1"/>
+		</Asset>
+		<Asset metaData="1 burst laser, 1 heavy laser" build="ARS">
+			<weapon name="LASER_BURST_2"/>
+			<weapon name="LASER_AL_1"/>
+		</Asset>
+		<Asset metaData="1 burst laser, 1 heavy laser" build="ARS">
+			<weapon name="LASER_BURST_2"/>
+			<weapon name="LASER_HEAVY_1"/>
+		</Asset>
+		<Asset metaData="1 burst laser, 1 heavy laser" build="ARS">
+			<weapon name="LASER_BURST_2"/>
+			<weapon name="LASER_OLD"/>
+		</Asset>
+		<Asset metaData="1 burst laser, 1 heavy laser" build="ARS">
+			<weapon name="LASER_BURST_2"/>
+			<weapon name="LASER_DUAL_1"/>
+		</Asset>
+		<Asset metaData="1 burst laser, 1 heavy laser" build="ARS">
+			<weapon name="LASER_BURST_2"/>
+			<weapon name="BA_LASER_BURST_SCATTER_1"/>
+		</Asset>
+		<Asset metaData="1 burst laser, 1 heavy laser" build="ARS">
+			<weapon name="SHTURM_LASER_1"/>
+			<weapon name="BA_LASER_BURST_SCATTER_2"/>
+		</Asset>
+		<Asset metaData="1 burst laser, 1 heavy laser" build="ARS">
+			<weapon name="SHTURM_LASER_2"/>
+			<weapon name="BA_LASER_BURST_SCATTER_1"/>
+		</Asset>
+		<Asset metaData="1 burst laser, 1 heavy laser" build="ARS">
+			<weapon name="LASER_BURST_2"/>
+			<weapon name="BA_LASER_HEAVY_SCATTER_2"/>
+		</Asset>
+		<Asset metaData="1 dual laser+, 1 heavy laser" build="ARS">
+			<weapon name="LASER_DUAL_2"/>
+			<weapon name="LASER_HEAVY_1"/>
+		</Asset>
+		<Asset metaData="1 dual laser+, 1 old laser" build="ARS">
+			<weapon name="LASER_DUAL_2"/>
+			<weapon name="LASER_OLD"/>
+		</Asset>
+		<Asset metaData="1 dual laser+, 1 heavy laser" build="ARS">
+			<weapon name="LASER_DUAL_2"/>
+			<weapon name="BA_LASER_HULL_SMALL"/>
+		</Asset>
+		<Asset metaData="1 dual laser+, 1 heavy laser" build="ARS">
+			<weapon name="LASER_HULL_1"/>
+			<weapon name="BA_LASER_HULL_SMALL"/>
+		</Asset>
+		<Asset metaData="1 dual laser+, 1 heavy laser" build="ARS">
+			<weapon name="LASER_HULL_2"/>
+			<weapon name="LASER_OLD"/>
+		</Asset>
+		<Asset metaData="1 dual laser+, 1 old laser" build="ARS">
+			<weapon name="LASER_DUAL_2"/>
+			<weapon name="BA_LASER_HEAVY_SCATTER_2"/>
+		</Asset>
+		<Asset metaData="1 dual laser+, 1 heavy laser" build="ARS">
+			<weapon name="LASER_DUAL_2"/>
+			<weapon name="BA_LASER_HEAVY_SCATTER_1"/>
+		</Asset>
+		<Asset metaData="1 dual laser+, 1 heavy laser" build="ARS">
+			<weapon name="LASER_DUAL_2"/>
+			<weapon name="BA_LASER_HEAVY_SCATTER_2"/>
+		</Asset>
+		<Asset metaData="2 lasers, 1 heavy laser" build="ARS">
+			<weapon name="LASER_STANDARD_1"/>
+			<weapon name="LASER_STANDARD_1"/>
+			<weapon name="LASER_HEAVY_1"/>
+		</Asset>
+		<Asset metaData="2 heavy lasers" build="ARS">
+			<weapon name="LASER_HEAVY_1"/>
+			<weapon name="LASER_HEAVY_1"/>
+		</Asset>
+		<Asset metaData="1 heavy laser, 1 heavy scatter laser" build="ARS">
+			<weapon name="LASER_HEAVY_1"/>
+			<weapon name="BA_LASER_HEAVY_SCATTER_1"/>
+		</Asset>
+		<Asset metaData="1 heavy laser, 1 energy burst" build="ARS">
+			<weapon name="LASER_HEAVY_1"/>
+			<weapon name="LASER_IMP_2"/>
+		</Asset>
+		<Asset metaData="1 old laser, 1 energy burst" build="ARS">
+			<weapon name="LASER_OLD"/>
+			<weapon name="LASER_IMP_2"/>
+		</Asset>
+		<Asset metaData="1 laser, 1 energy burst" build="ARS">
+			<weapon name="LASER_STANDARD_1"/>
+			<weapon name="LASER_IMP_2"/>
+		</Asset>
+		<Asset metaData="1 laser, 1 super heavy" build="ARS">
+			<weapon name="LASER_STANDARD_1"/>
+			<weapon name="LASER_SUPER_HEAVY_1"/>
+		</Asset>
+		<Asset metaData="1 laser, 1 super heavy" build="ARS">
+			<weapon name="LASER_STANDARD_1"/>
+			<weapon name="BA_LASER_WAR_3"/>
+		</Asset>
+		<Asset metaData="1 laser, 1 super heavy" build="ARS">
+			<weapon name="LASER_SUPER_HEAVY_2"/>
+			<weapon name="LASER_OLD"/>
+		</Asset>
+		<Asset metaData="1 laser, 1 super heavy" build="ARS">
+			<weapon name="BA_LASER_WAR_1"/>
+			<weapon name="LASER_OLD"/>
+		</Asset>
+		<Asset metaData="1 laser, 1 super heavy" build="ARS">
+			<weapon name="BA_LASER_WAR_2"/>
+			<weapon name="BA_LASER_WAR_1"/>
+		</Asset>
+		<Asset metaData="1 laser, 1 super heavy" build="ARS">
+			<weapon name="BA_LASER_WAR_3"/>
+			<weapon name="BA_LASER_WAR_1"/>
+		</Asset>
+		<Asset metaData="1 laser, 1 super heavy" build="ARS">
+			<weapon name="BA_LASER_WAR_1"/>
+			<weapon name="BA_LASER_WAR_1"/>
+			<weapon name="BA_LASER_WAR_1"/>
+		</Asset>
+		<Asset metaData="1 laser, 1 super heavy" build="ARS">
+			<weapon name="BA_LASER_WAR_1"/>
+			<weapon name="LASER_OLD"/>
+			<weapon name="LASER_AL_1"/>
+		</Asset>
+		<Asset metaData="1 laser, 1 super heavy" build="ARS">
+			<weapon name="BA_LASER_WAR_1"/>
+			<weapon name="LASER_PIERCE_2"/>
+		</Asset>
+		<Asset metaData="1 laser, 1 super heavy" build="ARS">
+			<weapon name="BA_LASER_WAR_1"/>
+			<weapon name="LASER_DUAL_1"/>
+		</Asset>
+		<Asset metaData="1 laser, 1 super heavy" build="ARS">
+			<weapon name="BA_LASER_WAR_2"/>
+			<weapon name="LASER_DUAL_1"/>
+		</Asset>
+		<Asset metaData="1 laser, 1 super heavy" build="ARS">
+			<weapon name="BA_LASER_WAR_3"/>
+			<weapon name="BA_LASER_WAR_3"/>
+		</Asset>
+		<Asset metaData="1 laser, 1 super heavy" build="ARS">
+			<weapon name="LASER_DUAL_OLD"/>
+			<weapon name="BA_LASER_WAR_3"/>
+		</Asset>
+		<Asset metaData="1 laser, 1 super heavy" build="ARS">
+			<weapon name="LASER_DUAL_OLD"/>
+			<weapon name="BA_LASER_HULL_SMALL"/>
+			<weapon name="BA_LASER_HULL_SMALL"/>
+		</Asset>
+		<Asset metaData="1 laser, 1 super heavy" build="ARS">
+			<weapon name="LASER_HEAVY_1"/>
+			<weapon name="BA_LASER_WAR_3"/>
+		</Asset>
+		<Asset metaData="1 laser, 1 super heavy" build="ARS">
+			<weapon name="LASER_BURST_2"/>
+			<weapon name="BA_LASER_WAR_3"/>
+		</Asset>
+		<Asset metaData="1 laser, 1 super heavy" build="ARS">
+			<weapon name="LASER_BURST_1"/>
+			<weapon name="BA_LASER_WAR_3"/>
+		</Asset>
+		<Asset metaData="1 laser, 1 super heavy" build="ARS">
+			<weapon name="LASER_BURST_2"/>
+			<weapon name="BA_LASER_WAR_2"/>
+		</Asset>
+		<Asset metaData="1 laser, 1 super heavy" build="ARS">
+			<weapon name="LASER_BURST_1"/>
+			<weapon name="BA_LASER_WAR_2"/>
+		</Asset>
+		<Asset metaData="1 laser, 1 super heavy" build="ARS">
+			<weapon name="LASER_BURST_2"/>
+			<weapon name="BA_LASER_WAR_1"/>
+		</Asset>
+		<Asset metaData="1 laser, 1 super heavy" build="ARS">
+			<weapon name="LASER_BURST_1"/>
+			<weapon name="BA_LASER_WAR_1"/>
+		</Asset>
+		<Asset metaData="1 laser, 1 super heavy" build="ARS">
+			<weapon name="LASER_SUPER_HEAVY_1"/>
+			<weapon name="BA_LASER_WAR_1"/>
+		</Asset>
+		<Asset metaData="1 laser, 1 super heavy" build="ARS">
+			<weapon name="LASER_SUPER_HEAVY_1"/>
+			<weapon name="BA_LASER_HULL_SMALL"/>
+		</Asset>
+		<Asset metaData="1 laser, 1 super heavy" build="ARS">
+			<weapon name="LASER_SUPER_HEAVY_2"/>
+			<weapon name="LASER_SUPER_HEAVY_1"/>
+		</Asset>
+		<Asset metaData="1 burst laser, 1 heavy laser" build="ARS">
+			<weapon name="LASER_BURST_2"/>
+			<weapon name="LASER_SUPER_HEAVY_1"/>
+		</Asset>
+		<Asset metaData="1 dual laser, 1 super heavy" build="ARS">
+			<weapon name="LASER_DUAL_2"/>
+			<weapon name="LASER_SUPER_HEAVY_1"/>
+		</Asset>
+		<Asset metaData="1 dual laser, 1 super heavy" build="ARS">
+			<weapon name="LASER_DUAL_2"/>
+			<weapon name="BA_LASER_HULL_SMALL"/>
+		</Asset>
+		<Asset metaData="1 dual laser, 1 super heavy" build="ARS">
+			<weapon name="BA_LASER_HULL_SMALL"/>
+			<weapon name="BA_LASER_HULL_SMALL"/>
+			<weapon name="BA_LASER_HULL_SMALL"/>
+		</Asset>
+		<Asset metaData="1 dual laser, 1 super heavy" build="ARS">
+			<weapon name="LASER_SUPER_HEAVY_1"/>
+			<weapon name="LASER_SUPER_HEAVY_1"/>
+		</Asset>
+	</Hook>
+	<Hook id="WeaponsFedLaserMissile" metaDataId="WeaponsFedLaserMissileData">
+		<Asset metaData="2 lasers" build="ARS">
+			<weapon name="LASER_STANDARD_1"/>
+			<weapon name="LASER_STANDARD_1"/>
+			<!--hook WeaponsFedMissile hook-->
+		</Asset>
+		<Asset metaData="2 lasers" build="ARS">
+			<weapon name="LASER_AL_1"/>
+			<!--hook WeaponsFedMissile hook-->
+		</Asset>
+		<Asset metaData="2 lasers" build="ARS">
+			<weapon name="LASER_AL_2"/>
+			<!--hook WeaponsFedMissile hook-->
+		</Asset>
+		<Asset metaData="2 lasers" build="ARS">
+			<weapon name="BA_LASER_WAR_3"/>
+			<!--hook WeaponsFedMissile hook-->
+		</Asset>
+		<Asset metaData="2 lasers" build="ARS">
+			<weapon name="LASER_STANDARD_2"/>
+			<weapon name="BA_LASER_WAR_1"/>
+			<!--hook WeaponsFedMissile hook-->
+		</Asset>
+		<Asset metaData="2 lasers" build="ARS">
+			<weapon name="LASER_STANDARD_1"/>
+			<weapon name="BA_LASER_WAR_2"/>
+			<!--hook WeaponsFedMissile hook-->
+		</Asset>
+		<Asset metaData="2 lasers" build="ARS">
+			<weapon name="LASER_STANDARD_2"/>
+			<weapon name="LASER_STANDARD_1"/>
+			<!--hook WeaponsFedMissile hook-->
+		</Asset>
+		<Asset metaData="2 lasers" build="ARS">
+			<weapon name="LASER_STANDARD_2"/>
+			<weapon name="LASER_STANDARD_2"/>
+			<!--hook WeaponsFedMissile hook-->
+		</Asset>
+		<Asset metaData="1 dual laser" build="ARS">
+			<weapon name="LASER_DUAL_1"/>
+			<!--hook WeaponsFedMissile hook-->
+		</Asset>
+		<Asset metaData="1 dual laser" build="ARS">
+			<weapon name="LASER_DUAL_2"/>
+			<!--hook WeaponsFedMissile hook-->
+		</Asset>
+		<Asset metaData="1 burst laser," build="ARS">
+			<weapon name="LASER_BURST_1"/>
+			<!--hook WeaponsFedMissile hook-->
+		</Asset>
+		<Asset metaData="1 burst laser," build="ARS">
+			<weapon name="SHTURM_LASER_1"/>
+			<!--hook WeaponsFedMissile hook-->
+		</Asset>
+		<Asset metaData="1 burst laser," build="ARS">
+			<weapon name="SHTURM_LASER_2"/>
+			<!--hook WeaponsFedMissile hook-->
+		</Asset>
+		<Asset metaData="1 burst laser," build="ARS">
+			<weapon name="LASER_IMP_3"/>
+			<!--hook WeaponsFedMissile hook-->
+		</Asset>
+		<Asset metaData="1 burst laser," build="ARS">
+			<weapon name="LASER_IMP_2"/>
+			<!--hook WeaponsFedMissile hook-->
+		</Asset>
+		<Asset metaData="1 burst laser," build="ARS">
+			<weapon name="LASER_HULL_1"/>
+			<!--hook WeaponsFedMissile hook-->
+		</Asset>
+		<Asset metaData="1 burst laser," build="ARS">
+			<weapon name="BA_LASER_HULL_SMALL"/>
+			<weapon name="BA_LASER_HULL_SMALL"/>
+			<!--hook WeaponsFedMissile hook-->
+		</Asset>
+		<Asset metaData="1 laser, 1 heavy laser" build="ARS">
+			<weapon name="LASER_STANDARD_1"/>
+			<weapon name="LASER_HEAVY_1"/>
+			<!--hook WeaponsFedMissile hook-->
+		</Asset>
+		<Asset metaData="1 laser, 1 heavy laser" build="ARS">
+			<weapon name="BA_LASER_HULL_SMALL"/>
+			<weapon name="LASER_HEAVY_1"/>
+			<!--hook WeaponsFedMissile hook-->
+		</Asset>
+		<Asset metaData="2 hull lasers" build="ARS">
+			<weapon name="BA_LASER_HULL_SMALL"/>
+			<weapon name="BA_LASER_HULL_SMALL"/>
+			<!--hook WeaponsFedMissile hook-->
+		</Asset>
+		<Asset metaData="1 laser, 1 hull laser " build="ARS">
+			<weapon name="LASER_STANDARD_1"/>
+			<weapon name="BA_LASER_HULL_SMALL"/>
+			<!--hook WeaponsFedMissile hook-->
+		</Asset>
+		<Asset metaData="1 dual laser+," build="ARS">
+			<weapon name="LASER_DUAL_2"/>
+			<!--hook WeaponsFedMissile hook-->
+		</Asset>
+		<Asset metaData="1 dual laser+," build="ARS">
+			<weapon name="LASER_DUAL_2"/>
+			<weapon name="BA_LASER_HULL_SMALL"/>
+			<!--hook WeaponsFedMissile hook-->
+		</Asset>
+		<Asset metaData="1 laser, 1 heavy scatter laser" build="ARS">
+			<weapon name="LASER_STANDARD_1"/>
+			<weapon name="BA_LASER_HEAVY_SCATTER_1"/>
+			<!--hook WeaponsFedMissile hook-->
+		</Asset>
+	</Hook>
+	<Hook id="WeaponsFedMissile" metaDataId="WeaponsFedMissileData">
+		<Asset metaData="leto launcher" build="ARS">
+			<weapon name="MISSILES_1"/>
+		</Asset>
+		<Asset metaData="artemis launcher" build="ARS">
+			<weapon name="MISSILES_2_PLAYER"/>
+		</Asset>
+		<Asset metaData="small bomb" build="ARS">
+			<weapon name="BOMB_1"/>
+		</Asset>
+		<Asset metaData="small breach bomb" build="ARS">
+			<weapon name="BOMB_BREACH_1"/>
+		</Asset>
+		<Asset metaData="big bomb" build="ARS">
+			<weapon name="MISSILE_CHARGEGUN"/>
+		</Asset>
+		<Asset metaData="cluster bomb" build="ARS">
+			<weapon name="BA_BOMB_CLUSTER_1"/>
+		</Asset>
+		<Asset metaData="asteria luancher" build="ARS">
+			<weapon name="BA_MISSILES_ASTERIA"/>
+		</Asset>
+		<Asset metaData="small hull luancher" build="ARS">
+			<weapon name="BA_MISSILES_HULL_SMALL"/>
+		</Asset>
+		<Asset metaData="small hull luancher" build="ARS">
+			<weapon name="BA_MISSILES_FOBOS"/>
+		</Asset>
+		<Asset metaData="small hull luancher" build="ARS">
+			<weapon name="BA_MISSILES_DEIMOS"/>
+		</Asset>
+		<Asset metaData="small hull luancher" build="ARS">
+			<weapon name="BA_MISSILES_SWARM_1"/>
+		</Asset>
+		<Asset metaData="small hull luancher" build="ARS">
+			<weapon name="BA_MISSILES_SWARM_2"/>
+		</Asset>
+		<Asset metaData="small hull luancher" build="ARS">
+			<weapon name="MISSILES_HULL"/>
+		</Asset>
+		<Asset metaData="small hull luancher" build="ARS">
+			<weapon name="BOMB_BREACH_2"/>
+		</Asset>
+		<Asset metaData="small hull luancher" build="ARS">
+			<weapon name="BA_MISSILES_ONI"/>
+		</Asset>
+		<Asset metaData="small hull luancher" build="ARS">
+			<weapon name="BOMB_BREACH_3"/>
+		</Asset>
+		<Asset metaData="small hull luancher" build="ARS">
+			<weapon name="BA_BOMB_CLUSTER_BREACH"/>
+		</Asset>
+		<Asset metaData="small hull luancher" build="ARS">
+			<weapon name="BA_BOMB_CLUSTER_FIRE"/>
+		</Asset>
+		<Asset metaData="small hull luancher" build="ARS">
+			<weapon name="BA_BOMB_FIRE_2"/>
+		</Asset>
+		<Asset metaData="small hull luancher" build="ARS">
+			<weapon name="BOMB_FIRE"/>
+		</Asset>
+		<Asset metaData="small hull luancher" build="ARS">
+			<weapon name="BA_BOMB_FIRE_SMALL"/>
+		</Asset>
+		<Asset metaData="small hull luancher" build="ARS">
+			<weapon name="BA_BOMB_TIMER"/>
+		</Asset>
+		<Asset metaData="small hull luancher" build="ARS">
+			<weapon name="MISSILES_ARU_GOLIAPH"/>
+		</Asset>
+		<Asset metaData="small hull luancher" build="ARS">
+			<weapon name="BA_MISSILE_CHARGEGUN_SMALL"/>
+		</Asset>
+	</Hook>
+	<Hook id="WeaponsFedWeak" metaDataId="WeaponsFedWeakData">
+		<Asset metaData="single weak ammo using weapon" build="ARS">
+			<weaponList count="1" missiles="10">
+				<!--hook WeaponsFedMissile hook-->
+			</weaponList>
+		</Asset>
+	</Hook>
+	<Hook id="ArtiFed" metaDataId="ArtiFedData">
+		<Asset metaData="focused beam" build="ARS">
+			<weaponBlueprint name=":!--hook artiFedName hook--:">
+				<type>BEAM</type>
+				<title>Artillery Focused Beam</title>
+				<short>F. Beam A.</short>
+				<desc>Powers a slow, high-powered focused beam that does seven damage to a single room. More power means faster cooldown.</desc>
+				<tooltip>Artillery: Beam that automatically fires a 7 damage beam that hits a single room.</tooltip>
+				<damage>7</damage>
+				<sp>0</sp>
+				<fireChance>0</fireChance>
+				<breachChance>10</breachChance>
+				<speed>1</speed>
+				<cooldown>40</cooldown>
+				<power>1</power>
+				<cost>0</cost>
+				<bp>5</bp>
+				<rarity>0</rarity>
+				<image>ba_beam_contact_pierce</image>
+				<length>1</length>
+				<launchSounds>
+					<sound>focusbeam1</sound>
+					<sound>focusbeam2</sound>
+					<sound>focusbeam3</sound>
+				</launchSounds>
+				<weaponArt>artillery_fed</weaponArt>
+			</weaponBlueprint>
+		</Asset>
+		<Asset metaData="flak missiles" build="ARS">
+			<weaponBlueprint name=":!--hook artiFedName hook--:">
+				<type>BURST</type>
+				<flavorType>Swarm Missile Blast</flavorType>
+				<title>Artillery Swarm Missile Battery</title>
+				<short>S. Missile A.</short>
+				<desc>Powers a slow, multi missile battery that fires unaccurate missiles at the enemy ships, dealing between 0 and 12 damage.</desc>
+				<tooltip>Artillery: Automatically bombards the enemy ships with swarms of replicated missiles, dealing 0-12 damage.</tooltip>
+				<drone_targetable>1</drone_targetable>
+				<radius>105</radius>
+				<damage>1</damage>
+				<missiles>0</missiles>
+				<shots>1</shots>
+				<sp>5</sp>
+				<fireChance>0</fireChance>
+				<breachChance>1</breachChance>
+				<cooldown>40</cooldown>
+				<power>1</power>
+				<cost>70</cost>
+				<bp>10</bp>
+				<speed>35</speed>
+				<rarity>0</rarity>
+				<explosion>ba_explosion_anime</explosion>
+				<projectiles>
+					<projectile count="1" fake="false">ba_shotgun_missile_shot_1</projectile>
+					<projectile count="1" fake="false">ba_shotgun_missile_shot_2</projectile>
+					<projectile count="1" fake="false">ba_shotgun_missile_shot_3</projectile>
+					<projectile count="1" fake="false">ba_shotgun_missile_shot_4</projectile>
+					<projectile count="1" fake="false">ba_shotgun_missile_shot_5</projectile>
+					<projectile count="1" fake="false">ba_shotgun_missile_shot_5</projectile>
+					<projectile count="1" fake="false">ba_shotgun_missile_shot_6</projectile>
+					<projectile count="1" fake="false">ba_shotgun_missile_shot_6</projectile>
+					<projectile count="1" fake="false">ba_shotgun_missile_shot_7</projectile>
+					<projectile count="1" fake="false">ba_shotgun_missile_shot_7</projectile>
+					<projectile count="1" fake="false">ba_shotgun_missile_shot_8</projectile>
+					<projectile count="1" fake="false">ba_shotgun_missile_shot_8</projectile>
+				</projectiles>
+				<launchSounds>
+					<sound>engine_missile_swarm_launch</sound>
+				</launchSounds>
+				<hitShipSounds>
+					<sound>hit_hull_scatter_1</sound>
+					<sound>hit_hull_scatter_2</sound>
+					<sound>hit_hull_scatter_3</sound>
+				</hitShipSounds>
+				<hitShieldSounds>
+					<sound>hit_shield_scatter_1</sound>
+					<sound>hit_shield_scatter_2</sound>
+					<sound>hit_shield_scatter_3</sound>
+				</hitShieldSounds>
+				<missSounds>
+					<sound>miss</sound>
+				</missSounds>
+				<weaponArt>artillery_fed</weaponArt>
+			</weaponBlueprint>
+		</Asset>
+		<Asset metaData="standard beam" build="ARS">
+			<weaponBlueprint name=":!--hook artiFedName hook--:">
+				<type>BEAM</type>
+				<title>Artillery Beam</title>
+				<short>Beam A.</short>
+				<desc>Powers a slow, high-powered beam that pierces all shields and does one damage per room hit. More power means faster cooldown.</desc>
+				<tooltip>Artillery: Beam that automatically fires a 1 damage beam that pierces all shields.</tooltip>
+				<damage>1</damage>
+				<sp>5</sp>
+				<fireChance>1</fireChance>
+				<breachChance>0</breachChance>
+				<speed>10</speed>
+				<cooldown>40</cooldown>
+				<power>1</power>
+				<cost>0</cost>
+				<bp>5</bp>
+				<rarity>0</rarity>
+				<image>ba_beam_hit_artillery</image>
+				<length>500</length>
+				<launchSounds>
+					<sound>beam1</sound>
+				</launchSounds>
+				<weaponArt>artillery_fed</weaponArt>
+			</weaponBlueprint>
+		</Asset>
+		<Asset metaData="incendiary beam" build="ARS">
+			<weaponBlueprint name=":!--hook artiFedName hook--:">
+				<type>BEAM</type>
+				<title>Artillery Incendiary Beam</title>
+				<short>I. Beam A.</short>
+				<desc>Powers a slow incendiary beam that pierces all shields and does one system damage per room hit, likely causing fires. More power means faster cooldown.</desc>
+				<tooltip>Artillery: Beam that automatically fires a 1 system damage beam that pierces all shields and likely causes fires.</tooltip>
+				<damage>0</damage>
+				<sysDamage>1</sysDamage>
+				<persDamage>2</persDamage>
+				<sp>5</sp>
+				<fireChance>5</fireChance>
+				<breachChance>0</breachChance>
+				<speed>7</speed>
+				<cooldown>40</cooldown>
+				<color> 
+					<r>255</r>
+					<g>75</g>
+					<b>0</b>
+				</color>
+				<power>1</power>
+				<cost>0</cost>
+				<bp>5</bp>
+				<rarity>0</rarity>
+				<image>ba_beam_hit_artillery</image>
+				<length>500</length>
+				<launchSounds>
+					<sound>beam1</sound>
+				</launchSounds>
+				<weaponArt>artillery_fed_fire</weaponArt>
+			</weaponBlueprint>
+		</Asset>
+		<Asset metaData="heavy beam" build="ARS">
+			<weaponBlueprint name=":!--hook artiFedName hook--:">
+				<type>BEAM</type>
+				<title>Artillery Heavy Beam</title>
+				<short>H. Beam A.</short>
+				<desc>Powers a slow, high-powered heavy beam that pierces all shields and does two damage per room hit. More power means faster cooldown.</desc>
+				<tooltip>Artillery: Beam that automatically fires a 2 damage beam that pierces all shields.</tooltip>
+				<damage>2</damage>
+				<sp>5</sp>
+				<fireChance>0</fireChance>
+				<breachChance>1</breachChance>
+				<speed>7</speed>
+				<cooldown>40</cooldown>
+				<power>1</power>
+				<cost>0</cost>
+				<bp>5</bp>
+				<rarity>0</rarity>
+				<image>beam_contact</image>
+				<length>100</length>
+				<launchSounds>
+					<sound>beam2</sound>
+				</launchSounds>
+				<weaponArt>artillery_fed</weaponArt>
+			</weaponBlueprint>
+		</Asset>
+		<Asset metaData="flak cannon+" build="ARS">
+			<weaponBlueprint name=":!--hook artiFedName hook--:">
+				<type>BURST</type>
+				<drone_targetable>1</drone_targetable>
+				<flavorType>Physical Projectile Blast</flavorType>
+				<title>Flak Artillery</title>
+				<short>Flak A.</short>
+				<desc>Powers a slow, high-powered flak gun that fires eight projectiles. More power means faster cooldown.</desc>
+				<tooltip>Artillery: Flak gun that automatically fires 8 projectiles.</tooltip>
+				<radius>55</radius>
+				<damage>1</damage>
+				<spin>720</spin>
+				<shots>1</shots>
+				<sp>0</sp>
+				<fireChance>0</fireChance>
+				<breachChance>3</breachChance>
+				<cooldown>40</cooldown>
+				<power>1</power>
+				<cost>75</cost>
+				<bp>10</bp>
+				<speed>26</speed>
+				<rarity>0</rarity>
+				<projectiles>
+					<projectile count="2" fake="false">debris_large</projectile>
+					<projectile count="5" fake="false">debris_med</projectile>
+					<projectile count="8" fake="true">debris_small</projectile>
+				</projectiles>
+				<launchSounds>
+					<sound>flak</sound>
+				</launchSounds>
+				<hitShipSounds>
+					<sound>flakImpact1</sound>
+					<sound>flakImpact2</sound>
+					<sound>flakImpact3</sound>
+					<sound>flakImpact4</sound>
+				</hitShipSounds>
+				<hitShieldSounds>
+					<sound>hitShield1</sound>
+					<sound>hitShield2</sound>
+					<sound>hitShield3</sound>
+				</hitShieldSounds>
+				<missSounds>
+					<sound>miss</sound>
+				</missSounds>
+				<weaponArt>artillery_fed</weaponArt>
+			</weaponBlueprint>
+		</Asset>
+		<Asset metaData="burst cannon" build="ARS">
+			<weaponBlueprint name=":!--hook artiFedName hook--:">
+				<type>BURST</type>
+				<title>Burst Laser Artillery</title>
+				<short>B. Laser A.</short>
+				<desc>Powers a slow, high-powered burst laser that burst fires 10 shots. More power means faster cooldown.</desc>
+				<tooltip>Artillery: Burst laser that automatically fires 10 shots.</tooltip> 
+				<radius>1</radius>
+				<damage>1</damage>
+				<spin>0</spin>
+				<shots>1</shots>
+				<sp>0</sp>
+				<fireChance>1</fireChance>
+				<breachChance>0</breachChance>
+				<cooldown>40</cooldown>
+				<power>1</power>
+				<cost>75</cost>
+				<bp>10</bp>
+				<rarity>0</rarity>
+				<projectiles>
+					<projectile count="1" fake="false">laser_light2</projectile>
+					<projectile count="1" fake="false">laser_light2</projectile>
+					<projectile count="1" fake="false">laser_light2</projectile>
+					<projectile count="1" fake="false">laser_light2</projectile>
+					<projectile count="1" fake="false">laser_light2</projectile>
+					<projectile count="1" fake="false">laser_light2</projectile>
+					<projectile count="1" fake="false">laser_light2</projectile>
+					<projectile count="1" fake="false">laser_light2</projectile>
+					<projectile count="1" fake="false">laser_light2</projectile>
+					<projectile count="1" fake="false">laser_light2</projectile>
+				</projectiles>
+				<launchSounds>
+					<sound>lightLaser1</sound>
+				</launchSounds>
+				<hitShipSounds>
+					<sound>hitHull2</sound>
+					<sound>hitHull3</sound>
+				</hitShipSounds>
+				<hitShieldSounds>
+					<sound>hitShield1</sound>
+					<sound>hitShield2</sound>
+					<sound>hitShield3</sound>
+				</hitShieldSounds>
+				<missSounds>
+					<sound>miss</sound>
+				</missSounds>
+				<weaponArt>artillery_fed</weaponArt>
+			</weaponBlueprint>
+		</Asset>
+		<Asset metaData="heavy cannon" build="ARS">
+			<weaponBlueprint name=":!--hook artiFedName hook--:">
+				<type>LASER</type>
+				<title>Heavy Laser Artillery</title>
+				<short>H. Laser A.</short>
+				<desc>Powers a slow, high-powered laser cannon that fires three shield piercing 2 damage shots.</desc>
+				<tooltip>Artillery: Heavy Laser cannon that shots three shield piercing shots.</tooltip>
+				<damage>2</damage>
+				<shots>3</shots>
+				<sp>5</sp>
+				<fireChance>3</fireChance>
+				<breachChance>3</breachChance>
+				<cooldown>40</cooldown>
+				<power>1</power>
+				<cost>80</cost>
+				<bp>7</bp>
+				<rarity>0</rarity>
+				<image>laser_heavy1</image>
+				<launchSounds>
+					<sound>heavyLaser1</sound>
+					<sound>heavyLaser2</sound>
+					<sound>heavyLaser3</sound>
+				</launchSounds>
+				<hitShipSounds>
+					<sound>hitHull1</sound>
+					<sound>hitHull3</sound>
+				</hitShipSounds>
+				<hitShieldSounds>
+					<sound>hitShield1</sound>
+					<sound>hitShield2</sound>
+					<sound>hitShield3</sound>
+				</hitShieldSounds>
+				<missSounds>
+					<sound>miss</sound>
+				</missSounds>
+				<weaponArt>artillery_fed</weaponArt>
+			</weaponBlueprint>
+		</Asset>
+		<Asset metaData="light burst missile" build="ARS">
+			<weaponBlueprint name=":!--hook artiFedName hook--:">
+				<type>BURST</type>
+				<title>Light Missile Artillery</title>
+				<short>L. Missile A.</short>
+				<desc>Powers a slow, ammo replicating light missile battery that burst fires five 1 damage missiles. More power means faster cooldown.</desc>
+				<tooltip>Artillery: Burst missile that automatically fires 5 light missiles.</tooltip>
+				<drone_targetable>1</drone_targetable>
+				<radius>1</radius>
+				<damage>1</damage>
+				<missiles>0</missiles>
+				<shots>1</shots>
+				<sp>5</sp>
+				<fireChance>1</fireChance>
+				<breachChance>1</breachChance>
+				<cooldown>40</cooldown>
+				<power>1</power>
+				<cost>70</cost>
+				<bp>10</bp>
+				<speed>35</speed>
+				<rarity>0</rarity>
+				<explosion>explosion_missile1</explosion>
+				<projectiles>
+					<projectile count="1" fake="false">missile_burst</projectile>
+					<projectile count="1" fake="false">missile_burst</projectile>
+					<projectile count="1" fake="false">missile_burst</projectile>
+					<projectile count="1" fake="false">missile_burst</projectile>
+					<projectile count="1" fake="false">missile_burst</projectile>
+				</projectiles>
+				<launchSounds>
+					<sound>smallMissile1</sound>
+				</launchSounds>
+				<hitShipSounds>
+					<sound>smallExplosion</sound>
+				</hitShipSounds>
+				<hitShieldSounds>
+					<sound>hitShield1</sound>
+					<sound>hitShield2</sound>
+					<sound>hitShield3</sound>
+				</hitShieldSounds>
+				<missSounds>
+					<sound>miss</sound>
+				</missSounds>
+				<weaponArt>artillery_fed</weaponArt>
+		    </weaponBlueprint>
+		</Asset>
+		<Asset metaData="medium burst missile" build="ARS">
+			<weaponBlueprint name=":!--hook artiFedName hook--:">
+				<type>MISSILES</type>
+				<title>Missile Artillery</title>
+				<short>Missile A.</short>
+				<desc>Powers a slow, ammo replicating medium missile battery that fires three 2 damage missiles. More power means faster cooldown.</desc>
+				<tooltip>Artillery: Burst missile that automatically fires 3 medium missiles.</tooltip>
+				<damage>2</damage>
+				<shots>3</shots>
+				<sp>5</sp>
+				<fireChance>3</fireChance>
+				<breachChance>3</breachChance>
+				<cooldown>40</cooldown>
+				<power>1</power>
+				<cost>80</cost>
+				<bp>7</bp>
+				<rarity>0</rarity>
+				<image>missile_2</image>
+				<launchSounds>
+					<sound>smallMissile1</sound>
+					<sound>smallMissile2</sound>
+				</launchSounds>
+				<hitShipSounds>
+					<sound>smallExplosion</sound>
+				</hitShipSounds>
+				<hitShieldSounds>
+					<sound>hitShield1</sound>
+					<sound>hitShield2</sound>
+					<sound>hitShield3</sound>
+				</hitShieldSounds>
+				<missSounds>
+					<sound>miss</sound>
+				</missSounds>
+				<weaponArt>artillery_fed</weaponArt>
+			</weaponBlueprint>
+		</Asset>
+		<Asset metaData="hull burst missile" build="ARS">
+			<weaponBlueprint name=":!--hook artiFedName hook--:">
+				<type>BURST</type>
+				<title>Hull Missile Artillery</title>
+				<short>H. Missile A.</short>
+				<desc>Powers a slow, ammo replicating hull missile battery that burst fires four 1 damage missiles, which do double damage to empty rooms. More power means faster cooldown.</desc>
+				<tooltip>Artillery: Launcher that automatically fires 4 hull damaging missiles.</tooltip>
+				<hullBust>1</hullBust>
+				<drone_targetable>1</drone_targetable>
+				<radius>1</radius>
+				<damage>1</damage>
+				<missiles>0</missiles>
+				<shots>1</shots>
+				<sp>5</sp>
+				<fireChance>0</fireChance>
+				<breachChance>5</breachChance>
+				<cooldown>40</cooldown>
+				<power>1</power>
+				<cost>70</cost>
+				<bp>10</bp>
+				<speed>35</speed>
+				<rarity>0</rarity>
+				<explosion>explosion_missile1</explosion>
+				<projectiles>
+					<projectile count="1" fake="false">missile_burst</projectile>
+					<projectile count="1" fake="false">missile_burst</projectile>
+					<projectile count="1" fake="false">missile_burst</projectile>
+					<projectile count="1" fake="false">missile_burst</projectile>
+				</projectiles>
+				<launchSounds>
+					<sound>smallMissile1</sound>
+				</launchSounds>
+				<hitShipSounds>
+					<sound>smallExplosion</sound>
+				</hitShipSounds>
+				<hitShieldSounds>
+					<sound>hitShield1</sound>
+					<sound>hitShield2</sound>
+					<sound>hitShield3</sound>
+				</hitShieldSounds>
+				<missSounds>
+					<sound>miss</sound>
+				</missSounds>
+				<weaponArt>artillery_fed</weaponArt>
+		   </weaponBlueprint>
+		</Asset>
+	</Hook>
+</HookBase>

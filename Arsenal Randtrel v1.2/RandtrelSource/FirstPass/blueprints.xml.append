@@ -1,0 +1,137 @@
+
+<blueprintList name="ARTILLERY_FED">
+	<name>ARTI_FED_A</name>
+	<name>ARTI_FED_B</name>
+	<name>ARTI_FED_C</name>
+</blueprintList>
+
+
+<shipBlueprint name="PLAYER_SHIP_HARD" layout="kestral" img="kestral_rand">
+
+<class>Kestrel Cruiser</class>
+<name>The Randtrel</name>
+<desc>This class of ship was decommissioned from Federation service years ago. This ship has had many owners in the past, who added their own adjustments....</desc>
+<!--hook SystemsPower hook-->
+<weaponSlots>4</weaponSlots>
+<droneSlots>2</droneSlots>
+<!--hook Weapons hook-->
+<!--hook DroneAmount hook-->
+<health amount="30"/>
+	 
+<crewCount amount = "1" class="human"/>
+<!--hook Crews hook-->
+
+</shipBlueprint>
+
+<shipBlueprint name="PLAYER_SHIP_CIRCLE" layout="circle_cruiser" img="circle_cruiser_rand">
+<class>Engi Cruiser</class>
+<name>The Randorus</name>
+<unlock>To unlock this Engi ship you'll need to get to the 5th sector with any layout of the Kestrel.</unlock>
+<desc>Although it may look like a pile of junk loosely held together, this ship has been reconfigured time after time to achieve top performance.</desc>
+<!--hook SystemsPowerEngi hook-->
+<!--hook WeaponsDronesEngi hook-->
+<!--hook AugEngi hook-->
+<health amount="30" />
+<crewCount amount="1" class="engi" />
+<!--hook CrewsEngi hook-->
+</shipBlueprint>
+
+<shipBlueprint name="PLAYER_SHIP_STEALTH" layout="stealth" img="stealth_rand">
+<class>Stealth Cruiser</class>
+<name>The Randasio</name>
+<unlock>This ship is being built near the Engi home-worlds. To unlock it you'll need to help them, but they only trust their own kind.</unlock>
+<desc>Constructed for the Federation by the Engi, and redesigned dozens of times, this ship is designed to use advanced technology and speed to get behind enemy lines.</desc>
+<!--hook SystemsPowerStl hook-->
+<aug name="ADV_SCANNERS" />
+<health amount="30" />
+<!--hook CrewsStealth hook-->
+</shipBlueprint>
+
+<shipBlueprint name="PLAYER_SHIP_ROCK" layout="rock_cruiser" img="rock_cruiser_rand">
+<class>Rock Cruiser</class>
+<name>Randwark</name>
+<unlock>Prove yourself to the Rockmen to earn this powerful cruiser.</unlock>
+<desc>Similar to its designers, this super-dense behemoth uses brute force to overwhelm its foes. Countless battles led to some modifications to this ship.</desc>
+<!--hook SystemsPowerRock hook-->
+<weaponSlots>4</weaponSlots>
+<droneSlots>2</droneSlots>
+<!--hook WeaponsRock hook-->
+<droneList drones="0" count="2" />
+<health amount="30" />
+<crewCount amount="1" class="rock" />
+<!--hook CrewsRock hook-->
+<aug name="ROCK_ARMOR" />
+</shipBlueprint>
+
+<shipBlueprint name="PLAYER_SHIP_MANTIS" layout="mantis_cruiser" img="mantis_cruiser_rand">
+<class>Mantis Cruiser</class>
+<name>The Randa Monster</name>
+<unlock>The famous Mantis thief, KazaaakplethKilik, owns this ship. You'll have to "convince" him to help you.</unlock>
+<desc>This warship was designed and upgraded in order to enhance its crew for close combat missions.</desc>
+<!--hook SystemsPowerMantis hook-->
+<health amount="30" />
+<crewCount amount="1" class="mantis" />
+<!--hook CrewsMantis hook-->
+<aug name="CREW_STIMS" />
+</shipBlueprint>
+
+
+<shipBlueprint name="PLAYER_SHIP_FED" layout="fed_cruiser" img="fed_cruiser_rand">
+<class>Federation Cruiser</class>
+<name>The Randprey</name>
+<unlock>There have been rumors of advanced ship construction in the Rebel Stronghold...</unlock>
+<desc>This ship features the latest in Federation technology, perfected time after time: an advanced artillery weapon mount.</desc>
+<weaponSlots>4</weaponSlots>
+<droneSlots>2</droneSlots>
+<!--hook SystemsPowerFed hook-->
+<droneList count="0" drones="0" />
+<health amount="30" />
+<crewCount amount="1" class="human" />
+<!--hook CrewsFed hook-->
+</shipBlueprint>
+
+
+<shipBlueprint name="PLAYER_SHIP_JELLY" layout="jelly_cruiser" img="jelly_cruiser_rand">
+<class>Slug Cruiser</class>
+<name>Rand of War</name>
+<unlock>One of the slug ships must know something about this advanced cruiser. Perhaps you can "convince" them to tell you.</unlock>
+<desc>Designed for use inside nebulas, this cruiser has been cunningly reconfigured to suit the guile and trickery of the Slugs.</desc>
+<weaponSlots>4</weaponSlots>
+<droneSlots>2</droneSlots>
+<!--hook SystemsPowerSlg hook-->
+<aug name="SLUG_GEL" />
+<health amount="30" />
+<crewCount amount="1" class="slug" />
+<!--hook CrewsSlug hook-->
+</shipBlueprint>
+
+<shipBlueprint name="PLAYER_SHIP_ENERGY" layout="energy_cruiser" img="energy_cruiser_rand">
+<class>Zoltan Cruiser</class>
+<name>The Randicator</name>
+<unlock>Learn from the Zoltan that sometimes diplomacy works.</unlock>
+<desc>The Zoltan's advanced shields technology gives this ship an edge during each battle, along with modifications inspired by contact with the other races.</desc>
+<weaponSlots>4</weaponSlots>
+<droneSlots>2</droneSlots>
+<!--hook SystemsPowerZlt hook-->
+<health amount="30" />
+<crewCount amount="1" class="energy" />
+<crewCount amount="1" class="energy" />
+<aug name="ENERGY_SHIELD" />
+<!--hook CrewsZoltan hook-->
+</shipBlueprint>
+
+<shipBlueprint name="PLAYER_SHIP_CRYSTAL" layout="crystal_cruiser" img="crystal_cruiser_rand">
+<class>Crystal Cruiser</class>
+<name>Randavais</name>
+<unlock>Travel to a lost sector of the galaxy to find this powerful vessel.</unlock>
+<desc>This powerful vessel is powered by the secret technologies of the lost Crystalline Beings. Contact with the other races led to some improvements.</desc>
+<weaponSlots>4</weaponSlots>
+<droneSlots>2</droneSlots>
+<!--hook SystemsPowerCtl hook-->
+<health amount="30" />
+<crewCount amount="1" class="crystal" />
+<!--hook CrewsCrystal hook-->
+<aug name="CRYSTAL_SHARDS" />
+</shipBlueprint>
+
+<!--hook ArtiFed hook-->

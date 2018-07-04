@@ -1,0 +1,54 @@
+<MetaDataBase>
+    <MetaData>layout 3a</MetaData>
+    <Hook id="pilotImageMts">room_pilot_4</Hook>
+    <Hook id="shieldsImageMts">room_shields_10</Hook>
+    <Hook id="weaponsImageMts">room_weapons_10</Hook>
+    <Hook id="batteryImageMts">room_battery_2</Hook>
+    <Hook id="doorsImageMts">room_doors_9</Hook>
+    <Hook id="enginesImageMts">room_engines_2</Hook>
+    <Hook id="oxygenImageMts">room_oxygen_9</Hook>
+    <Hook id="sensorsImageMts">room_sensors_2</Hook>
+    <Hook id="hackingImageMts">room_hacking_5</Hook>
+    <Hook id="dronesImageMts">room_drones_15</Hook>
+    <Hook id="cloakingImageMts">room_cloaking_3</Hook>
+    <Hook id="medbayImageMts">room_medbay</Hook>
+    <Hook id="mindImageMts">room_mind_12</Hook>
+    <Hook id="pilotSlotMts">
+	<slot>
+		<direction>right</direction>
+		<number>0</number>
+	</slot>
+    </Hook>
+    <Hook id="enginesSlotMts">
+	<slot>
+		<direction>down</direction>
+		<number>2</number>
+	</slot>
+    </Hook>
+    <Hook id="doorsSlotMts">
+	<slot>
+		<direction>right</direction>
+		<number>1</number>
+	</slot>
+    </Hook>
+    <Hook id="sensorsSlotMts">
+	<slot>
+		<direction>up</direction>
+		<number>0</number>
+	</slot>
+    </Hook>
+    <Hook id="shieldsSlotMts">
+	<slot>
+		<direction>down</direction>
+		<number>3</number>
+	</slot>
+    </Hook>
+    <Hook id="weaponsSlotMts">
+	<slot>
+		<direction>up</direction>
+		<number>0</number>
+	</slot>
+    </Hook>
+	<Hook id="teleporter_size_mts"><!--hook WeaponsMantis_big_teleporter hook--></Hook>
+    <Action dirCopy="img/ship" destination="img/ship" />
+</MetaDataBase>

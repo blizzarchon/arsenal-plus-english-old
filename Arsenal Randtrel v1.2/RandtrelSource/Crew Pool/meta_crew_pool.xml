@@ -1,0 +1,596 @@
+<HookBase>
+	<Hook id="Crews" metaDataId="CrewsData">
+		<Asset metaData="standard humans" build="ARS">
+			<crewCount amount = "1" class="human"/>
+			<crewCount amount = "1" class="human"/>
+		</Asset>
+		<Asset metaData="crystal explorer" build="ARS">
+			<crewCount amount = "1" class="crystal"/>
+		</Asset>
+		<Asset metaData="engi and slug" build="ARS">
+			<crewCount amount = "1" class="engi"/>
+			<crewCount amount = "1" class="slug"/>
+		</Asset>
+		<Asset metaData="human and slug" build="ARS">
+			<crewCount amount = "1" class="human"/>
+			<crewCount amount = "1" class="slug"/>
+		</Asset>
+		<Asset metaData="human and engi" build="ARS">
+			<crewCount amount = "1" class="human"/>
+			<crewCount amount = "1" class="engi"/>
+		</Asset>
+		<Asset metaData="human and mantis" build="ARS">
+			<crewCount amount = "1" class="human"/>
+			<crewCount amount = "1" class="mantis"/>
+		</Asset>
+		<Asset metaData="human and energy" build="ARS">
+			<crewCount amount = "1" class="human"/>
+			<crewCount amount = "1" class="energy"/>
+		</Asset>
+		<Asset metaData="human and rockman" build="ARS">
+			<crewCount amount = "1" class="human"/>
+			<crewCount amount = "1" class="rock"/>
+		</Asset>
+		<Asset metaData="energy and engi" build="ARS">
+			<crewCount amount = "1" class="energy"/>
+			<crewCount amount = "1" class="engi"/>
+		</Asset>
+		<Asset metaData="mantis and engi" build="ARS">
+			<crewCount amount = "1" class="mantis"/>
+			<crewCount amount = "1" class="engi"/>
+		</Asset>
+		<Asset metaData="2 engis" build="ARS">
+			<crewCount amount = "1" class="engi"/>
+			<crewCount amount = "1" class="engi"/>
+		</Asset>
+		<Asset metaData="angry rockman" build="ARS">
+			<crewCount amount = "1" class="rock"/>
+		</Asset>
+		<Asset metaData="engi and lanius" build="ARS">
+			<crewCount amount = "1" class="engi"/>
+			<crewCount amount = "1" class="anaerobic"/>
+		</Asset>
+		<Asset metaData="human and lanius" build="ARS">
+			<crewCount amount = "1" class="human"/>
+			<crewCount amount = "1" class="anaerobic"/>
+		</Asset>
+		<Asset metaData="scary lanius" build="ARS">
+			<crewCount amount = "1" class="anaerobic"/>
+		</Asset>
+		<Asset metaData="more humans" build="ARS">
+			<crewCount amount = "1" class="human"/>
+			<crewCount amount = "1" class="human"/>
+			<crewCount amount = "1" class="human"/>
+		</Asset>
+		<Asset metaData="human and ai" build="ARS">
+			<crewCount amount = "1" class="human"/>
+			<crewCount amount = "1" class="ghost"/>
+		</Asset>
+		<Asset metaData="engi and ai" build="ARS">
+			<crewCount amount = "1" class="engi"/>
+			<crewCount amount = "1" class="ghost"/>
+		</Asset>
+		<Asset metaData="energy and ai" build="ARS">
+			<crewCount amount = "1" class="human"/>
+			<crewCount amount = "1" class="ghost"/>
+		</Asset>
+		<Asset metaData="lanius and ai" build="ARS">
+			<crewCount amount = "1" class="anaerobic"/>
+			<crewCount amount = "1" class="ghost"/>
+		</Asset>
+		<Asset metaData="two ais" build="ARS">
+			<crewCount amount = "1" class="ghost"/>
+			<crewCount amount = "1" class="ghost"/>
+		</Asset>
+		<Asset metaData="three ais" build="ARS">
+			<crewCount amount = "1" class="ghost"/>
+			<crewCount amount = "1" class="ghost"/>
+			<crewCount amount = "1" class="ghost"/>
+		</Asset>
+	</Hook>
+	<Hook id="CrewsEngi" metaDataId="CrewsEngiData">
+		<Asset metaData="mantis captor!" build="ARS">
+			<crewCount amount = "1" class="mantis"/>
+		</Asset>
+		<Asset metaData="scary lanius" build="ARS">
+			<crewCount amount = "1" class="anaerobic"/>
+		</Asset>
+		<Asset metaData="standard engis" build="ARS">
+			<crewCount amount = "1" class="engi"/>
+			<crewCount amount = "1" class="engi"/>
+		</Asset>
+		<Asset metaData="one engi" build="ARS">
+			<crewCount amount = "1" class="engi"/>
+		</Asset>
+		<Asset metaData="one human" build="ARS">
+			<crewCount amount = "1" class="human"/>
+		</Asset>
+		<Asset metaData="3 engis" build="ARS">
+			<crewCount amount = "1" class="engi"/>
+			<crewCount amount = "1" class="engi"/>
+			<crewCount amount = "1" class="engi"/>
+		</Asset>
+		<Asset metaData="2 engis and a human" build="ARS">
+			<crewCount amount = "1" class="engi"/>
+			<crewCount amount = "1" class="engi"/>
+			<crewCount amount = "1" class="human"/>
+		</Asset>
+		<Asset metaData="human and engi" build="ARS">
+			<crewCount amount = "1" class="engi"/>
+			<crewCount amount = "1" class="human"/>
+		</Asset>
+		<Asset metaData="energy and engi" build="ARS">
+			<crewCount amount = "1" class="energy"/>
+			<crewCount amount = "1" class="engi"/>
+		</Asset>
+		<Asset metaData="2 energys" build="ARS">
+			<crewCount amount = "1" class="energy"/>
+			<crewCount amount = "1" class="energy"/>
+		</Asset>
+		<Asset metaData="energy and human" build="ARS">
+			<crewCount amount = "1" class="energy"/>
+			<crewCount amount = "1" class="human"/>
+		</Asset>
+		<Asset metaData="engi and slug" build="ARS">
+			<crewCount amount = "1" class="engi"/>
+			<crewCount amount = "1" class="slug"/>
+		</Asset>
+		<Asset metaData="human and ai" build="ARS">
+			<crewCount amount = "1" class="human"/>
+			<crewCount amount = "1" class="ghost"/>
+		</Asset>
+		<Asset metaData="engi and ai" build="ARS">
+			<crewCount amount = "1" class="engi"/>
+			<crewCount amount = "1" class="ghost"/>
+		</Asset>
+		<Asset metaData="engi and two ais" build="ARS">
+			<crewCount amount = "1" class="engi"/>
+			<crewCount amount = "1" class="ghost"/>
+			<crewCount amount = "1" class="ghost"/>
+		</Asset>
+	</Hook>
+	<Hook id="CrewsStealth" metaDataId="CrewsStealthData">
+		<Asset metaData="standard humans" build="ARS">
+			<crewCount amount = "1" class="human"/>
+			<crewCount amount = "1" class="human"/>
+			<crewCount amount = "1" class="human"/>
+		</Asset>
+		<Asset metaData="4 humans" build="ARS">
+			<crewCount amount = "1" class="human"/>
+			<crewCount amount = "1" class="human"/>
+			<crewCount amount = "1" class="human"/>
+			<crewCount amount = "1" class="human"/>
+		</Asset>
+		<Asset metaData="2 humans and engi" build="ARS">
+			<crewCount amount = "1" class="human"/>
+			<crewCount amount = "1" class="human"/>
+			<crewCount amount = "1" class="engi"/>
+		</Asset>
+		<Asset metaData="2 humans and energy" build="ARS">
+			<crewCount amount = "1" class="human"/>
+			<crewCount amount = "1" class="human"/>
+			<crewCount amount = "1" class="energy"/>
+		</Asset>
+		<Asset metaData="human, engi and energy" build="ARS">
+			<crewCount amount = "1" class="human"/>
+			<crewCount amount = "1" class="engi"/>
+			<crewCount amount = "1" class="energy"/>
+		</Asset>
+		<Asset metaData="human, 2 engis" build="ARS">
+			<crewCount amount = "1" class="human"/>
+			<crewCount amount = "1" class="engi"/>
+			<crewCount amount = "1" class="engi"/>
+		</Asset>
+		<Asset metaData="human and lanius" build="ARS">
+			<crewCount amount = "1" class="human"/>
+			<crewCount amount = "1" class="human"/>
+			<crewCount amount = "1" class="anaerobic"/>
+		</Asset>
+		<Asset metaData="2 humans and ai" build="ARS">
+			<crewCount amount = "1" class="human"/>
+			<crewCount amount = "1" class="human"/>
+			<crewCount amount = "1" class="ghost"/>
+		</Asset>
+		<Asset metaData="human and 2 ais" build="ARS">
+			<crewCount amount = "1" class="human"/>
+			<crewCount amount = "1" class="ghost"/>
+			<crewCount amount = "1" class="ghost"/>
+		</Asset>
+		<Asset metaData="human, engi and ai" build="ARS">
+			<crewCount amount = "1" class="human"/>
+			<crewCount amount = "1" class="engi"/>
+			<crewCount amount = "1" class="ghost"/>
+		</Asset>
+		<Asset metaData="human, energy and ai" build="ARS">
+			<crewCount amount = "1" class="human"/>
+			<crewCount amount = "1" class="energy"/>
+			<crewCount amount = "1" class="ghost"/>
+		</Asset>
+	</Hook>
+	<Hook id="CrewsRock" metaDataId="CrewsRockData">
+		<Asset metaData="rockmen" build="ARS">
+			<crewCount amount = "1" class="rock"/>
+			<crewCount amount = "1" class="rock"/>
+		</Asset>
+		<Asset metaData="less rockmen" build="ARS">
+			<crewCount amount = "1" class="rock"/>
+		</Asset>
+		<Asset metaData="crystal cousin" build="ARS">
+			<crewCount amount = "1" class="crystal"/>
+		</Asset>
+		<Asset metaData="more rockmen" build="ARS">
+			<crewCount amount = "1" class="rock"/>
+			<crewCount amount = "1" class="rock"/>
+			<crewCount amount = "1" class="rock"/>
+		</Asset>
+		<Asset metaData="rockmen and crystal envoy" build="ARS">
+			<crewCount amount = "1" class="rock"/>
+			<crewCount amount = "1" class="crystal"/>
+		</Asset>
+		<Asset metaData="rockmen and human envoy" build="ARS">
+			<crewCount amount = "1" class="rock"/>
+			<crewCount amount = "1" class="human"/>
+		</Asset>
+		<Asset metaData="rockmen and energy envoy" build="ARS">
+			<crewCount amount = "1" class="rock"/>
+			<crewCount amount = "1" class="energy"/>
+		</Asset>
+		<Asset metaData="rockmen and lanius translator" build="ARS">
+			<crewCount amount = "1" class="rock"/>
+			<crewCount amount = "1" class="anaerobic"/>
+		</Asset>
+	</Hook>
+	<Hook id="CrewsMantis" metaDataId="CrewsMantisData">
+		<Asset metaData="manti and a lot" build="ARS">
+			<crewCount amount = "1" class="mantis"/>
+			<crewCount amount = "1" class="mantis"/>
+			<crewCount amount = "1" class="mantis"/>
+		</Asset>
+		<Asset metaData="manti and engi slave" build="ARS">
+			<crewCount amount = "1" class="mantis"/>
+			<crewCount amount = "1" class="mantis"/>
+			<crewCount amount = "1" class="engi"/>
+		</Asset>
+		<Asset metaData="manti and human slave" build="ARS">
+			<crewCount amount = "1" class="mantis"/>
+			<crewCount amount = "1" class="mantis"/>
+			<crewCount amount = "1" class="human"/>
+		</Asset>
+		<Asset metaData="manti and zoltan slave" build="ARS">
+			<crewCount amount = "1" class="mantis"/>
+			<crewCount amount = "1" class="mantis"/>
+			<crewCount amount = "1" class="energy"/>
+		</Asset>
+		<Asset metaData="mantis and engi slave" build="ARS">
+			<crewCount amount = "1" class="mantis"/>
+			<crewCount amount = "1" class="engi"/>
+		</Asset>
+		<Asset metaData="mantis and human slave" build="ARS">
+			<crewCount amount = "1" class="mantis"/>
+			<crewCount amount = "1" class="human"/>
+		</Asset>
+		<Asset metaData="mantis and zoltan slave" build="ARS">
+			<crewCount amount = "1" class="mantis"/>
+			<crewCount amount = "1" class="energy"/>
+		</Asset>
+		<Asset metaData="mantis and slug pirate" build="ARS">
+			<crewCount amount = "1" class="mantis"/>
+			<crewCount amount = "1" class="slug"/>
+		</Asset>
+		<Asset metaData="2 engi slave" build="ARS">
+			<crewCount amount = "1" class="engi"/>
+			<crewCount amount = "1" class="engi"/>
+		</Asset>
+	</Hook>
+	<Hook id="CrewsFed" metaDataId="CrewsFedData">
+		<Asset metaData="mantis,rock,engi" build="ARS">
+			<crewCount amount="1" class="mantis" />
+			<crewCount amount="1" class="rock" />
+			<crewCount amount="1" class="engi" />
+		</Asset>
+		<Asset metaData="slug,rock,engi" build="ARS">
+			<crewCount amount="1" class="slug" />
+			<crewCount amount="1" class="rock" />
+			<crewCount amount="1" class="engi" />
+		</Asset>
+		<Asset metaData="zoltan,rock,engi" build="ARS">
+			<crewCount amount="1" class="energy" />
+			<crewCount amount="1" class="rock" />
+			<crewCount amount="1" class="engi" />
+		</Asset>
+		<Asset metaData="lanius,rock,engi" build="ARS">
+			<crewCount amount="1" class="anaerobic" />
+			<crewCount amount="1" class="rock" />
+			<crewCount amount="1" class="engi" />
+		</Asset>
+		<Asset metaData="ai,rock,engi" build="ARS">
+			<crewCount amount="1" class="ghost" />
+			<crewCount amount="1" class="rock" />
+			<crewCount amount="1" class="engi" />
+		</Asset>
+		<Asset metaData="mantis,slug,engi" build="ARS">
+			<crewCount amount="1" class="mantis" />
+			<crewCount amount="1" class="slug" />
+			<crewCount amount="1" class="engi" />
+		</Asset>
+		<Asset metaData="mantis,zoltan,engi" build="ARS">
+			<crewCount amount="1" class="mantis" />
+			<crewCount amount="1" class="energy" />
+			<crewCount amount="1" class="engi" />
+		</Asset>
+		<Asset metaData="mantis,lanius,engi" build="ARS">
+			<crewCount amount="1" class="mantis" />
+			<crewCount amount="1" class="anaerobic" />
+			<crewCount amount="1" class="engi" />
+		</Asset>
+		<Asset metaData="mantis,ai,engi" build="ARS">
+			<crewCount amount="1" class="mantis" />
+			<crewCount amount="1" class="ghost" />
+			<crewCount amount="1" class="engi" />
+		</Asset>
+		<Asset metaData="mantis,rock,slug" build="ARS">
+			<crewCount amount="1" class="mantis" />
+			<crewCount amount="1" class="rock" />
+			<crewCount amount="1" class="slug" />
+		</Asset>
+		<Asset metaData="mantis,rock,zoltan" build="ARS">
+			<crewCount amount="1" class="mantis" />
+			<crewCount amount="1" class="rock" />
+			<crewCount amount="1" class="energy" />
+		</Asset>
+		<Asset metaData="mantis,rock,lanius" build="ARS">
+			<crewCount amount="1" class="mantis" />
+			<crewCount amount="1" class="rock" />
+			<crewCount amount="1" class="anaerobic" />
+		</Asset>
+		<Asset metaData="mantis,rock,ai" build="ARS">
+			<crewCount amount="1" class="mantis" />
+			<crewCount amount="1" class="rock" />
+			<crewCount amount="1" class="ghost" />
+		</Asset>
+		<Asset metaData="crystal,lanius" build="ARS">
+			<crewCount amount="1" class="crystal" />
+			<crewCount amount="1" class="anaerobic" />
+		</Asset>
+		<Asset metaData="zoltan,slug,engi" build="ARS">
+			<crewCount amount="1" class="energy" />
+			<crewCount amount="1" class="slug" />
+			<crewCount amount="1" class="engi" />
+		</Asset>
+		<Asset metaData="zoltan,slug,rock" build="ARS">
+			<crewCount amount="1" class="energy" />
+			<crewCount amount="1" class="slug" />
+			<crewCount amount="1" class="rock" />
+		</Asset>
+		<Asset metaData="zoltan,slug,mantis" build="ARS">
+			<crewCount amount="1" class="energy" />
+			<crewCount amount="1" class="slug" />
+			<crewCount amount="1" class="mantis" />
+		</Asset>
+		<Asset metaData="zoltan,slug,lanius" build="ARS">
+			<crewCount amount="1" class="energy" />
+			<crewCount amount="1" class="slug" />
+			<crewCount amount="1" class="anaerobic" />
+		</Asset>
+		<Asset metaData="zoltan,slug,ai" build="ARS">
+			<crewCount amount="1" class="energy" />
+			<crewCount amount="1" class="slug" />
+			<crewCount amount="1" class="ghost" />
+		</Asset>
+	</Hook>
+	<Hook id="CrewsSlug" metaDataId="CrewsSlugData">
+		<Asset metaData="standard slug" build="ARS">
+			<crewCount amount = "1" class="slug"/>
+		</Asset>
+		<Asset metaData="human pirate" build="ARS">
+			<crewCount amount = "1" class="human"/>
+		</Asset>
+		<Asset metaData="rock pirate" build="ARS">
+			<crewCount amount = "1" class="rock"/>
+		</Asset>
+		<Asset metaData="lanius pirate" build="ARS">
+			<crewCount amount = "1" class="anaerobic"/>
+		</Asset>
+		<Asset metaData="mantis pirate" build="ARS">
+			<crewCount amount = "1" class="mantis"/>
+		</Asset>
+		<Asset metaData="standard slugs" build="ARS">
+			<crewCount amount = "1" class="slug"/>
+			<crewCount amount = "1" class="slug"/>
+		</Asset>
+		<Asset metaData="slug and human pirate" build="ARS">
+			<crewCount amount = "1" class="slug"/>
+			<crewCount amount = "1" class="human"/>
+		</Asset>
+		<Asset metaData="slug and rock pirate" build="ARS">
+			<crewCount amount = "1" class="slug"/>
+			<crewCount amount = "1" class="rock"/>
+		</Asset>
+		<Asset metaData="slug and lanius pirate" build="ARS">
+			<crewCount amount = "1" class="slug"/>
+			<crewCount amount = "1" class="anaerobic"/>
+		</Asset>
+		<Asset metaData="slug and mantis pirate" build="ARS">
+			<crewCount amount = "1" class="slug"/>
+			<crewCount amount = "1" class="mantis"/>
+		</Asset>
+	</Hook>
+	<Hook id="CrewsZoltan" metaDataId="CrewsZoltanData">
+		<Asset metaData="no extra crew, start with aug" build="ARS">
+			<aug name="ION_ARMOR"/>
+		</Asset>
+		<Asset metaData="no extra crew, start with aug" build="ARS">
+			<aug name="AUTO_COOLDOWN"/>
+		</Asset>
+		<Asset metaData="no extra crew, start with aug" build="ARS">
+			<aug name="SYSTEM_CASING"/>
+		</Asset>
+		<Asset metaData="zoltan" build="ARS">
+			<crewCount amount = "1" class="energy"/>
+		</Asset>
+		<Asset metaData="human" build="ARS">
+			<crewCount amount = "1" class="human"/>
+		</Asset>
+		<Asset metaData="engi" build="ARS">
+			<crewCount amount = "1" class="engi"/>
+		</Asset>
+		<Asset metaData="ai" build="ARS">
+			<crewCount amount="1" class="ghost" />
+		</Asset>
+		<Asset metaData="zoltan" build="ARS">
+			<crewCount amount = "1" class="energy"/>
+		</Asset>
+		<Asset metaData="human" build="ARS">
+			<crewCount amount = "1" class="human"/>
+		</Asset>
+		<Asset metaData="engi" build="ARS">
+			<crewCount amount = "1" class="engi"/>
+		</Asset>
+		<Asset metaData="ai" build="ARS">
+			<crewCount amount="1" class="ghost" />
+		</Asset>
+		<Asset metaData="2 zoltans" build="ARS">
+			<crewCount amount = "1" class="energy"/>
+			<crewCount amount = "1" class="energy"/>
+		</Asset>
+		<Asset metaData="1 zoltan, 1 human" build="ARS">
+			<crewCount amount = "1" class="energy"/>
+			<crewCount amount = "1" class="human"/>
+		</Asset>
+		<Asset metaData="1 zoltan, 1 engi" build="ARS">
+			<crewCount amount = "1" class="energy"/>
+			<crewCount amount = "1" class="engi"/>
+		</Asset>
+		<Asset metaData="1 zoltan, 1 ai" build="ARS">
+			<crewCount amount = "1" class="energy"/>
+			<crewCount amount = "1" class="ghost"/>
+		</Asset>
+		<Asset metaData="2 humans" build="ARS">
+			<crewCount amount = "1" class="human"/>
+			<crewCount amount = "1" class="human"/>
+		</Asset>
+		<Asset metaData="1 human, 1 engi" build="ARS">
+			<crewCount amount = "1" class="human"/>
+			<crewCount amount = "1" class="engi"/>
+		</Asset>
+		<Asset metaData="1 human, 1 ai" build="ARS">
+			<crewCount amount = "1" class="human"/>
+			<crewCount amount = "1" class="ghost"/>
+		</Asset>
+		<Asset metaData="1 engi, 1 ai" build="ARS">
+			<crewCount amount = "1" class="engi"/>
+			<crewCount amount = "1" class="ghost"/>
+		</Asset>
+		<Asset metaData="2 engi" build="ARS">
+			<crewCount amount = "1" class="engi"/>
+			<crewCount amount = "1" class="engi"/>
+		</Asset>
+	</Hook>
+	<Hook id="CrewsLanius" metaDataId="CrewsLaniusData">
+		<Asset metaData="lanius and human" build="ARS">
+			<crewCount amount = "1" class="anaerobic"/>
+			<crewCount amount = "1" class="human"/>
+		</Asset>
+		<Asset metaData="lanius and engi" build="ARS">
+			<crewCount amount = "1" class="anaerobic"/>
+			<crewCount amount = "1" class="engi"/>
+		</Asset>
+		<Asset metaData="lanius and ai" build="ARS">
+			<crewCount amount = "1" class="anaerobic"/>
+			<crewCount amount = "1" class="ghost"/>
+		</Asset>
+		<Asset metaData="human and ai" build="ARS">
+			<crewCount amount = "1" class="human"/>
+			<crewCount amount = "1" class="ghost"/>
+		</Asset>
+		<Asset metaData="engi and ai" build="ARS">
+			<crewCount amount = "1" class="engi"/>
+			<crewCount amount = "1" class="ghost"/>
+		</Asset>
+		<Asset metaData="2 ais" build="ARS">
+			<crewCount amount = "1" class="ghost"/>
+			<crewCount amount = "1" class="ghost"/>
+		</Asset>
+	</Hook>
+	<Hook id="CrewsLaniusNoO2" metaDataId="CrewsLaniusNoO2Data">
+		<Asset metaData="lanius, start with aug" build="ARS">
+			<crewCount amount = "1" class="anaerobic"/>
+			<aug name="ION_ARMOR"/>
+		</Asset>
+		<Asset metaData="lanius, start with aug" build="ARS">
+			<crewCount amount = "1" class="anaerobic"/>
+			<aug name="AUTO_COOLDOWN"/>
+		</Asset>
+		<Asset metaData="lanius, start with aug" build="ARS">
+			<crewCount amount = "1" class="anaerobic"/>
+			<aug name="LIFE_SCANNER"/>
+		</Asset>
+		<Asset metaData="2 lanius" build="ARS">
+			<crewCount amount = "1" class="anaerobic"/>
+			<crewCount amount = "1" class="anaerobic"/>
+		</Asset>
+		<Asset metaData="3 lanius" build="ARS">
+			<crewCount amount = "1" class="anaerobic"/>
+			<crewCount amount = "1" class="anaerobic"/>
+			<crewCount amount = "1" class="anaerobic"/>
+		</Asset>
+		<Asset metaData="2 ais" build="ARS">
+			<crewCount amount = "1" class="ghost"/>
+			<crewCount amount = "1" class="ghost"/>
+		</Asset>
+		<Asset metaData="3 ais" build="ARS">
+			<crewCount amount = "1" class="ghost"/>
+			<crewCount amount = "1" class="ghost"/>
+			<crewCount amount = "1" class="ghost"/>
+		</Asset>
+		<Asset metaData="lanius and ai" build="ARS">
+			<crewCount amount = "1" class="anaerobic"/>
+			<crewCount amount = "1" class="ghost"/>
+		</Asset>
+		<Asset metaData="2 lanius and ai" build="ARS">
+			<crewCount amount = "1" class="anaerobic"/>
+			<crewCount amount = "1" class="anaerobic"/>
+			<crewCount amount = "1" class="ghost"/>
+		</Asset>
+		<Asset metaData="lanius and 2 ais" build="ARS">
+			<crewCount amount = "1" class="anaerobic"/>
+			<crewCount amount = "1" class="ghost"/>
+			<crewCount amount = "1" class="ghost"/>
+		</Asset>
+	</Hook>
+	<Hook id="CrewsCrystal" metaDataId="CrewsCrystalData">
+		<Asset metaData="crystal" build="ARS">
+			<crewCount amount = "1" class="crystal"/>
+		</Asset>
+		<Asset metaData="2 crystals" build="ARS">
+			<crewCount amount = "1" class="crystal"/>
+			<crewCount amount = "1" class="crystal"/>
+		</Asset>
+		<Asset metaData="crystal and human" build="ARS">
+			<crewCount amount = "1" class="crystal"/>
+			<crewCount amount = "1" class="human"/>
+		</Asset>
+		<Asset metaData="crystal and lanius" build="ARS">
+			<crewCount amount = "1" class="crystal"/>
+			<crewCount amount = "1" class="anaerobic"/>
+		</Asset>
+		<Asset metaData="crystal and rockman" build="ARS">
+			<crewCount amount = "1" class="crystal"/>
+			<crewCount amount = "1" class="rock"/>
+		</Asset>
+		<Asset metaData="crystal and ai" build="ARS">
+			<crewCount amount = "1" class="crystal"/>
+			<crewCount amount = "1" class="ghost"/>
+		</Asset>
+		<Asset metaData="crystal and 2 ais" build="ARS">
+			<crewCount amount = "1" class="crystal"/>
+			<crewCount amount = "1" class="ghost"/>
+			<crewCount amount = "1" class="ghost"/>
+		</Asset>
+		<Asset metaData="crystal and human and ai" build="ARS">
+			<crewCount amount = "1" class="crystal"/>
+			<crewCount amount = "1" class="human"/>
+			<crewCount amount = "1" class="ghost"/>
+		</Asset>
+	</Hook>
+</HookBase>

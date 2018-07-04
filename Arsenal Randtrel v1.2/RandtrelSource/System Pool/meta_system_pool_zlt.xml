@@ -1,0 +1,483 @@
+<HookBase>
+	<Hook id="artiZlt" metaDataId="artiZltData">
+		<Asset metaData="Zoltan Arti system" build="ARS">
+			<artillery power="2" max="4" room="9" start="false" weapon="ARTILLERY_PL_BEAM_K" img="room_artillery_stub" />
+		</Asset>
+	</Hook>
+	<Hook id="SystemsPowerZlt" metaDataId="SystemsPowerZltData">
+		<Asset metaData="improved reactor">
+			<systemList>
+				<battery power="1" room="7" start="false" img=":!--hook batteryImageZlt hook--:" />
+				<cloaking power="1" room="6" start="false" img=":!--hook cloakingImageZlt hook--:" />
+				<clonebay power="1" room="8" start="false">
+				<!--hook clonebaySlotZlt hook-->
+				</clonebay>
+				<doors power="2" room="10" start="true" img=":!--hook doorsImageZlt hook--:">
+				<!--hook doorsSlotZlt hook-->
+				</doors>
+				<drones power="2" room="16" start="false" img=":!--hook dronesImageZlt hook--:" />
+				<engines power="1" room="13" start="true" img=":!--hook enginesImageZlt hook--:">
+				<!--hook enginesSlotZlt hook-->
+				</engines>
+				<hacking power="1" room="5" start="false" img=":!--hook hackingImageZlt hook--:" />
+				<medbay power="1" room="8" start="true" img=":!--hook medbayImageZlt hook--:">
+				<!--hook medbaySlotZlt hook-->
+				</medbay>
+				<mind power="1" room="3" start="false" img=":!--hook mindImageZlt hook--:" />
+				<oxygen power="1" room="4" start="true" img=":!--hook oxygenImageZlt hook--:" />
+				<pilot power="1" room="11" start="true" img=":!--hook pilotImageZlt hook--:">
+				<!--hook pilotSlotZlt hook-->
+				</pilot>
+				<sensors power="1" room="0" start="true" img=":!--hook sensorsImageZlt hook--:">
+				<!--hook sensorsSlotZlt hook-->
+				</sensors>
+				<shields power="2" room="15" start="true" img=":!--hook shieldsImageZlt hook--:">
+				<!--hook shieldsSlotZlt hook-->
+				</shields>
+				<teleporter power="1" room="2" start="false" />
+				<weapons power="3" room="14" start="true" img=":!--hook weaponsImageZlt hook--:">
+				<!--hook weaponsSlotZlt hook-->
+				</weapons>
+				<!--hook artiZlt hook-->
+			</systemList>
+			<maxPower amount="6" />
+			<droneList drones="2" count="2" />
+			<!--hook WeaponsZoltan hook-->
+		</Asset>
+		<Asset metaData="improved medbay">
+			<systemList>
+				<battery power="1" room="7" start="false" img=":!--hook batteryImageZlt hook--:" />
+				<cloaking power="1" room="6" start="false" img=":!--hook cloakingImageZlt hook--:" />
+				<clonebay power="1" room="8" start="false">
+				<!--hook clonebaySlotZlt hook-->
+				</clonebay>
+				<doors power="2" room="10" start="true" img=":!--hook doorsImageZlt hook--:">
+				<!--hook doorsSlotZlt hook-->
+				</doors>
+				<drones power="2" room="16" start="false" img=":!--hook dronesImageZlt hook--:" />
+				<engines power="1" room="13" start="true" img=":!--hook enginesImageZlt hook--:">
+				<!--hook enginesSlotZlt hook-->
+				</engines>
+				<hacking power="1" room="5" start="false" img=":!--hook hackingImageZlt hook--:" />
+				<medbay power="2" room="8" start="true" img=":!--hook medbayImageZlt hook--:">
+				<!--hook medbaySlotZlt hook-->
+				</medbay>
+				<mind power="1" room="3" start="false" img=":!--hook mindImageZlt hook--:" />
+				<oxygen power="1" room="4" start="true" img=":!--hook oxygenImageZlt hook--:" />
+				<pilot power="1" room="11" start="true" img=":!--hook pilotImageZlt hook--:">
+				<!--hook pilotSlotZlt hook-->
+				</pilot>
+				<sensors power="1" room="0" start="true" img=":!--hook sensorsImageZlt hook--:">
+				<!--hook sensorsSlotZlt hook-->
+				</sensors>
+				<shields power="2" room="15" start="true" img=":!--hook shieldsImageZlt hook--:">
+				<!--hook shieldsSlotZlt hook-->
+				</shields>
+				<teleporter power="1" room="2" start="false" />
+				<weapons power="3" room="14" start="true" img=":!--hook weaponsImageZlt hook--:">
+				<!--hook weaponsSlotZlt hook-->
+				</weapons>
+				<!--hook artiZlt hook-->
+			</systemList>
+			<maxPower amount="4" />
+			<droneList drones="2" count="2" />
+			<!--hook WeaponsZoltan hook-->
+		</Asset>
+		<Asset metaData="improved weapons, regular doors">
+			<systemList>
+				<battery power="1" room="7" start="false" img=":!--hook batteryImageZlt hook--:" />
+				<cloaking power="1" room="6" start="false" img=":!--hook cloakingImageZlt hook--:" />
+				<clonebay power="1" room="8" start="false">
+				<!--hook clonebaySlotZlt hook-->
+				</clonebay>
+				<doors power="1" room="10" start="true" img=":!--hook doorsImageZlt hook--:">
+				<!--hook doorsSlotZlt hook-->
+				</doors>
+				<drones power="2" room="16" start="false" img=":!--hook dronesImageZlt hook--:" />
+				<engines power="1" room="13" start="true" img=":!--hook enginesImageZlt hook--:">
+				<!--hook enginesSlotZlt hook-->
+				</engines>
+				<hacking power="1" room="5" start="false" img=":!--hook hackingImageZlt hook--:" />
+				<medbay power="1" room="8" start="true" img=":!--hook medbayImageZlt hook--:">
+				<!--hook medbaySlotZlt hook-->
+				</medbay>
+				<mind power="1" room="3" start="false" img=":!--hook mindImageZlt hook--:" />
+				<oxygen power="1" room="4" start="true" img=":!--hook oxygenImageZlt hook--:" />
+				<pilot power="1" room="11" start="true" img=":!--hook pilotImageZlt hook--:">
+				<!--hook pilotSlotZlt hook-->
+				</pilot>
+				<sensors power="1" room="0" start="true" img=":!--hook sensorsImageZlt hook--:">
+				<!--hook sensorsSlotZlt hook-->
+				</sensors>
+				<shields power="2" room="15" start="true" img=":!--hook shieldsImageZlt hook--:">
+				<!--hook shieldsSlotZlt hook-->
+				</shields>
+				<teleporter power="1" room="2" start="false" />
+				<weapons power="4" room="14" start="true" img=":!--hook weaponsImageZlt hook--:">
+				<!--hook weaponsSlotZlt hook-->
+				</weapons>
+				<!--hook artiZlt hook-->
+			</systemList>
+			<maxPower amount="5" />
+			<droneList drones="2" count="2" />
+			<!--hook WeaponsZoltan hook-->
+		</Asset>
+		<Asset metaData="improved pilot">
+			<systemList>
+				<battery power="1" room="7" start="false" img=":!--hook batteryImageZlt hook--:" />
+				<cloaking power="1" room="6" start="false" img=":!--hook cloakingImageZlt hook--:" />
+				<clonebay power="1" room="8" start="false">
+				<!--hook clonebaySlotZlt hook-->
+				</clonebay>
+				<doors power="2" room="10" start="true" img=":!--hook doorsImageZlt hook--:">
+				<!--hook doorsSlotZlt hook-->
+				</doors>
+				<drones power="2" room="16" start="false" img=":!--hook dronesImageZlt hook--:" />
+				<engines power="1" room="13" start="true" img=":!--hook enginesImageZlt hook--:">
+				<!--hook enginesSlotZlt hook-->
+				</engines>
+				<hacking power="1" room="5" start="false" img=":!--hook hackingImageZlt hook--:" />
+				<medbay power="1" room="8" start="true" img=":!--hook medbayImageZlt hook--:">
+				<!--hook medbaySlotZlt hook-->
+				</medbay>
+				<mind power="1" room="3" start="false" img=":!--hook mindImageZlt hook--:" />
+				<oxygen power="1" room="4" start="true" img=":!--hook oxygenImageZlt hook--:" />
+				<pilot power="2" room="11" start="true" img=":!--hook pilotImageZlt hook--:">
+				<!--hook pilotSlotZlt hook-->
+				</pilot>
+				<sensors power="1" room="0" start="true" img=":!--hook sensorsImageZlt hook--:">
+				<!--hook sensorsSlotZlt hook-->
+				</sensors>
+				<shields power="2" room="15" start="true" img=":!--hook shieldsImageZlt hook--:">
+				<!--hook shieldsSlotZlt hook-->
+				</shields>
+				<teleporter power="1" room="2" start="false" />
+				<weapons power="3" room="14" start="true" img=":!--hook weaponsImageZlt hook--:">
+				<!--hook weaponsSlotZlt hook-->
+				</weapons>
+				<!--hook artiZlt hook-->
+			</systemList>
+			<maxPower amount="5" />
+			<droneList drones="2" count="2" />
+			<!--hook WeaponsZoltan hook-->
+		</Asset>
+		<Asset metaData="clonebay">
+			<systemList>
+				<battery power="1" room="7" start="false" img=":!--hook batteryImageZlt hook--:" />
+				<cloaking power="1" room="6" start="false" img=":!--hook cloakingImageZlt hook--:" />
+				<clonebay power="1" room="8" start="true">
+				<!--hook clonebaySlotZlt hook-->
+				</clonebay>
+				<doors power="2" room="10" start="true" img=":!--hook doorsImageZlt hook--:">
+				<!--hook doorsSlotZlt hook-->
+				</doors>
+				<drones power="2" room="16" start="false" img=":!--hook dronesImageZlt hook--:" />
+				<engines power="1" room="13" start="true" img=":!--hook enginesImageZlt hook--:">
+				<!--hook enginesSlotZlt hook-->
+				</engines>
+				<hacking power="1" room="5" start="false" img=":!--hook hackingImageZlt hook--:" />
+				<medbay power="1" room="8" start="false" img=":!--hook medbayImageZlt hook--:">
+				<!--hook medbaySlotZlt hook-->
+				</medbay>
+				<mind power="1" room="3" start="false" img=":!--hook mindImageZlt hook--:" />
+				<oxygen power="1" room="4" start="true" img=":!--hook oxygenImageZlt hook--:" />
+				<pilot power="1" room="11" start="true" img=":!--hook pilotImageZlt hook--:">
+				<!--hook pilotSlotZlt hook-->
+				</pilot>
+				<sensors power="1" room="0" start="true" img=":!--hook sensorsImageZlt hook--:">
+				<!--hook sensorsSlotZlt hook-->
+				</sensors>
+				<shields power="2" room="15" start="true" img=":!--hook shieldsImageZlt hook--:">
+				<!--hook shieldsSlotZlt hook-->
+				</shields>
+				<teleporter power="1" room="2" start="false" />
+				<weapons power="3" room="14" start="true" img=":!--hook weaponsImageZlt hook--:">
+				<!--hook weaponsSlotZlt hook-->
+				</weapons>
+				<!--hook artiZlt hook-->
+			</systemList>
+			<maxPower amount="5" />
+			<droneList drones="2" count="2" />
+			<!--hook WeaponsZoltan hook-->
+		</Asset>
+		<Asset metaData="weak shields, better weapons,pilot,o2">
+			<systemList>
+				<battery power="1" room="7" start="false" img=":!--hook batteryImageZlt hook--:" />
+				<cloaking power="1" room="6" start="false" img=":!--hook cloakingImageZlt hook--:" />
+				<clonebay power="1" room="8" start="false">
+				<!--hook clonebaySlotZlt hook-->
+				</clonebay>
+				<doors power="2" room="10" start="true" img=":!--hook doorsImageZlt hook--:">
+				<!--hook doorsSlotZlt hook-->
+				</doors>
+				<drones power="2" room="16" start="false" img=":!--hook dronesImageZlt hook--:" />
+				<engines power="1" room="13" start="true" img=":!--hook enginesImageZlt hook--:">
+				<!--hook enginesSlotZlt hook-->
+				</engines>
+				<hacking power="1" room="5" start="false" img=":!--hook hackingImageZlt hook--:" />
+				<medbay power="1" room="8" start="true" img=":!--hook medbayImageZlt hook--:">
+				<!--hook medbaySlotZlt hook-->
+				</medbay>
+				<mind power="1" room="3" start="false" img=":!--hook mindImageZlt hook--:" />
+				<oxygen power="2" room="4" start="true" img=":!--hook oxygenImageZlt hook--:" />
+				<pilot power="2" room="11" start="true" img=":!--hook pilotImageZlt hook--:">
+				<!--hook pilotSlotZlt hook-->
+				</pilot>
+				<sensors power="1" room="0" start="true" img=":!--hook sensorsImageZlt hook--:">
+				<!--hook sensorsSlotZlt hook-->
+				</sensors>
+				<shields power="1" room="15" start="true" img=":!--hook shieldsImageZlt hook--:">
+				<!--hook shieldsSlotZlt hook-->
+				</shields>
+				<teleporter power="1" room="2" start="false" />
+				<weapons power="4" room="14" start="true" img=":!--hook weaponsImageZlt hook--:">
+				<!--hook weaponsSlotZlt hook-->
+				</weapons>
+				<!--hook artiZlt hook-->
+			</systemList>
+			<maxPower amount="5" />
+			<droneList drones="2" count="2" />
+			<!--hook WeaponsZoltan hook-->
+		</Asset>
+		<Asset metaData="improved weapons, weak shields, better engines, weaker doors">
+			<systemList>
+				<battery power="1" room="7" start="false" img=":!--hook batteryImageZlt hook--:" />
+				<cloaking power="1" room="6" start="false" img=":!--hook cloakingImageZlt hook--:" />
+				<clonebay power="1" room="8" start="false">
+				<!--hook clonebaySlotZlt hook-->
+				</clonebay>
+				<doors power="1" room="10" start="true" img=":!--hook doorsImageZlt hook--:">
+				<!--hook doorsSlotZlt hook-->
+				</doors>
+				<drones power="2" room="16" start="false" img=":!--hook dronesImageZlt hook--:" />
+				<engines power="2" room="13" start="true" img=":!--hook enginesImageZlt hook--:">
+				<!--hook enginesSlotZlt hook-->
+				</engines>
+				<hacking power="1" room="5" start="false" img=":!--hook hackingImageZlt hook--:" />
+				<medbay power="1" room="8" start="true" img=":!--hook medbayImageZlt hook--:">
+				<!--hook medbaySlotZlt hook-->
+				</medbay>
+				<mind power="1" room="3" start="false" img=":!--hook mindImageZlt hook--:" />
+				<oxygen power="1" room="4" start="true" img=":!--hook oxygenImageZlt hook--:" />
+				<pilot power="1" room="11" start="true" img=":!--hook pilotImageZlt hook--:">
+				<!--hook pilotSlotZlt hook-->
+				</pilot>
+				<sensors power="1" room="0" start="true" img=":!--hook sensorsImageZlt hook--:">
+				<!--hook sensorsSlotZlt hook-->
+				</sensors>
+				<shields power="1" room="15" start="true" img=":!--hook shieldsImageZlt hook--:">
+				<!--hook shieldsSlotZlt hook-->
+				</shields>
+				<teleporter power="1" room="2" start="false" />
+				<weapons power="4" room="14" start="true" img=":!--hook weaponsImageZlt hook--:">
+				<!--hook weaponsSlotZlt hook-->
+				</weapons>
+				<!--hook artiZlt hook-->
+			</systemList>
+			<maxPower amount="5" />
+			<droneList drones="2" count="2" />
+			<!--hook WeaponsZoltan4Power hook-->
+		</Asset>
+		<Asset metaData="improved weapons, weak shields, better engines, weaker doors">
+			<systemList>
+				<battery power="1" room="7" start="false" img=":!--hook batteryImageZlt hook--:" />
+				<cloaking power="1" room="6" start="false" img=":!--hook cloakingImageZlt hook--:" />
+				<clonebay power="1" room="8" start="false">
+				<!--hook clonebaySlotZlt hook-->
+				</clonebay>
+				<doors power="1" room="10" start="true" img=":!--hook doorsImageZlt hook--:">
+				<!--hook doorsSlotZlt hook-->
+				</doors>
+				<drones power="2" room="16" start="false" img=":!--hook dronesImageZlt hook--:" />
+				<engines power="2" room="13" start="true" img=":!--hook enginesImageZlt hook--:">
+				<!--hook enginesSlotZlt hook-->
+				</engines>
+				<hacking power="1" room="5" start="false" img=":!--hook hackingImageZlt hook--:" />
+				<medbay power="1" room="8" start="true" img=":!--hook medbayImageZlt hook--:">
+				<!--hook medbaySlotZlt hook-->
+				</medbay>
+				<mind power="1" room="3" start="false" img=":!--hook mindImageZlt hook--:" />
+				<oxygen power="1" room="4" start="true" img=":!--hook oxygenImageZlt hook--:" />
+				<pilot power="1" room="11" start="true" img=":!--hook pilotImageZlt hook--:">
+				<!--hook pilotSlotZlt hook-->
+				</pilot>
+				<sensors power="1" room="0" start="true" img=":!--hook sensorsImageZlt hook--:">
+				<!--hook sensorsSlotZlt hook-->
+				</sensors>
+				<shields power="1" room="15" start="true" img=":!--hook shieldsImageZlt hook--:">
+				<!--hook shieldsSlotZlt hook-->
+				</shields>
+				<teleporter power="1" room="2" start="false" />
+				<weapons power="4" room="14" start="true" img=":!--hook weaponsImageZlt hook--:">
+				<!--hook weaponsSlotZlt hook-->
+				</weapons>
+				<!--hook artiZlt hook-->
+			</systemList>
+			<maxPower amount="5" />
+			<droneList drones="2" count="2" />
+			<!--hook WeaponsZoltan4Power hook-->
+		</Asset>
+		<Asset metaData="improved weapons, no shields, improved engines, more power">
+			<systemList>
+				<battery power="1" room="7" start="false" img=":!--hook batteryImageZlt hook--:" />
+				<cloaking power="1" room="6" start="false" img=":!--hook cloakingImageZlt hook--:" />
+				<clonebay power="1" room="8" start="true">
+				<!--hook clonebaySlotZlt hook-->
+				</clonebay>
+				<doors power="2" room="10" start="true" img=":!--hook doorsImageZlt hook--:">
+				<!--hook doorsSlotZlt hook-->
+				</doors>
+				<drones power="2" room="16" start="false" img=":!--hook dronesImageZlt hook--:" />
+				<engines power="3" room="13" start="true" img=":!--hook enginesImageZlt hook--:">
+				<!--hook enginesSlotZlt hook-->
+				</engines>
+				<hacking power="1" room="5" start="false" img=":!--hook hackingImageZlt hook--:" />
+				<medbay power="1" room="8" start="false" img=":!--hook medbayImageZlt hook--:">
+				<!--hook medbaySlotZlt hook-->
+				</medbay>
+				<mind power="1" room="3" start="false" img=":!--hook mindImageZlt hook--:" />
+				<oxygen power="1" room="4" start="true" img=":!--hook oxygenImageZlt hook--:" />
+				<pilot power="1" room="11" start="true" img=":!--hook pilotImageZlt hook--:">
+				<!--hook pilotSlotZlt hook-->
+				</pilot>
+				<sensors power="1" room="0" start="true" img=":!--hook sensorsImageZlt hook--:">
+				<!--hook sensorsSlotZlt hook-->
+				</sensors>
+				<shields power="2" room="15" start="false" img=":!--hook shieldsImageZlt hook--:">
+				<!--hook shieldsSlotZlt hook-->
+				</shields>
+				<teleporter power="1" room="2" start="false" />
+				<weapons power="4" room="14" start="true" img=":!--hook weaponsImageZlt hook--:">
+				<!--hook weaponsSlotZlt hook-->
+				</weapons>
+				<!--hook artiZlt hook-->
+			</systemList>
+			<maxPower amount="6" />
+			<droneList drones="2" count="2" />
+			<!--hook WeaponsZoltan4Power hook-->
+		</Asset>
+		<Asset metaData="weak reactor, battery, drones, weaker weapons">
+			<systemList>
+				<battery power="2" room="7" start="true" img=":!--hook batteryImageZlt hook--:" />
+				<cloaking power="1" room="6" start="false" img=":!--hook cloakingImageZlt hook--:" />
+				<clonebay power="1" room="8" start="false">
+				<!--hook clonebaySlotZlt hook-->
+				</clonebay>
+				<doors power="1" room="10" start="true" img=":!--hook doorsImageZlt hook--:">
+				<!--hook doorsSlotZlt hook-->
+				</doors>
+				<drones power="3" room="16" start="true" img=":!--hook dronesImageZlt hook--:" />
+				<engines power="2" room="13" start="true" img=":!--hook enginesImageZlt hook--:">
+				<!--hook enginesSlotZlt hook-->
+				</engines>
+				<hacking power="1" room="5" start="false" img=":!--hook hackingImageZlt hook--:" />
+				<medbay power="1" room="8" start="true" img=":!--hook medbayImageZlt hook--:">
+				<!--hook medbaySlotZlt hook-->
+				</medbay>
+				<mind power="1" room="3" start="false" img=":!--hook mindImageZlt hook--:" />
+				<oxygen power="1" room="4" start="true" img=":!--hook oxygenImageZlt hook--:" />
+				<pilot power="1" room="11" start="true" img=":!--hook pilotImageZlt hook--:">
+				<!--hook pilotSlotZlt hook-->
+				</pilot>
+				<sensors power="1" room="0" start="true" img=":!--hook sensorsImageZlt hook--:">
+				<!--hook sensorsSlotZlt hook-->
+				</sensors>
+				<shields power="2" room="15" start="true" img=":!--hook shieldsImageZlt hook--:">
+				<!--hook shieldsSlotZlt hook-->
+				</shields>
+				<teleporter power="1" room="2" start="false" />
+				<weapons power="2" room="14" start="true" img=":!--hook weaponsImageZlt hook--:">
+				<!--hook weaponsSlotZlt hook-->
+				</weapons>
+				<!--hook artiZlt hook-->
+			</systemList>
+			<maxPower amount="3" />
+			<droneList drones="15" count="1">
+			<!--hook DroneCombatZoltan hook-->
+			</droneList>
+			<!--hook WeaponsZoltan2Power hook-->
+		</Asset>
+		<Asset metaData="weak reactor, weak battery, shield drone, no shields">
+			<systemList>
+				<battery power="1" room="7" start="true" img=":!--hook batteryImageZlt hook--:" />
+				<cloaking power="1" room="6" start="false" img=":!--hook cloakingImageZlt hook--:" />
+				<clonebay power="1" room="8" start="false">
+				<!--hook clonebaySlotZlt hook-->
+				</clonebay>
+				<doors power="1" room="10" start="true" img=":!--hook doorsImageZlt hook--:">
+				<!--hook doorsSlotZlt hook-->
+				</doors>
+				<drones power="3" room="16" start="true" img=":!--hook dronesImageZlt hook--:" />
+				<engines power="2" room="13" start="true" img=":!--hook enginesImageZlt hook--:">
+				<!--hook enginesSlotZlt hook-->
+				</engines>
+				<hacking power="1" room="5" start="false" img=":!--hook hackingImageZlt hook--:" />
+				<medbay power="1" room="8" start="true" img=":!--hook medbayImageZlt hook--:">
+				<!--hook medbaySlotZlt hook-->
+				</medbay>
+				<mind power="1" room="3" start="false" img=":!--hook mindImageZlt hook--:" />
+				<oxygen power="1" room="4" start="true" img=":!--hook oxygenImageZlt hook--:" />
+				<pilot power="1" room="11" start="true" img=":!--hook pilotImageZlt hook--:">
+				<!--hook pilotSlotZlt hook-->
+				</pilot>
+				<sensors power="1" room="0" start="true" img=":!--hook sensorsImageZlt hook--:">
+				<!--hook sensorsSlotZlt hook-->
+				</sensors>
+				<shields power="2" room="15" start="false" img=":!--hook shieldsImageZlt hook--:">
+				<!--hook shieldsSlotZlt hook-->
+				</shields>
+				<teleporter power="1" room="2" start="false" />
+				<weapons power="3" room="14" start="true" img=":!--hook weaponsImageZlt hook--:">
+				<!--hook weaponsSlotZlt hook-->
+				</weapons>
+				<!--hook artiZlt hook-->
+			</systemList>
+			<maxPower amount="4" />
+			<droneList drones="15" count="1">
+				<drone name="DRONE_SHIELD_PLAYER" />
+			</droneList>
+			<!--hook WeaponsZoltan hook-->
+		</Asset>
+		<Asset metaData="weak reactor, battery, drones, weaker weapons, clonebay">
+			<systemList>
+				<battery power="2" room="7" start="true" img=":!--hook batteryImageZlt hook--:" />
+				<cloaking power="1" room="6" start="false" img=":!--hook cloakingImageZlt hook--:" />
+				<clonebay power="1" room="8" start="true">
+				<!--hook clonebaySlotZlt hook-->
+				</clonebay>
+				<doors power="1" room="10" start="true" img=":!--hook doorsImageZlt hook--:">
+				<!--hook doorsSlotZlt hook-->
+				</doors>
+				<drones power="3" room="16" start="true" img=":!--hook dronesImageZlt hook--:" />
+				<engines power="2" room="13" start="true" img=":!--hook enginesImageZlt hook--:">
+				<!--hook enginesSlotZlt hook-->
+				</engines>
+				<hacking power="1" room="5" start="false" img=":!--hook hackingImageZlt hook--:" />
+				<medbay power="1" room="8" start="false" img=":!--hook medbayImageZlt hook--:">
+				<!--hook medbaySlotZlt hook-->
+				</medbay>
+				<mind power="1" room="3" start="false" img=":!--hook mindImageZlt hook--:" />
+				<oxygen power="1" room="4" start="true" img=":!--hook oxygenImageZlt hook--:" />
+				<pilot power="1" room="11" start="true" img=":!--hook pilotImageZlt hook--:">
+				<!--hook pilotSlotZlt hook-->
+				</pilot>
+				<sensors power="1" room="0" start="true" img=":!--hook sensorsImageZlt hook--:">
+				<!--hook sensorsSlotZlt hook-->
+				</sensors>
+				<shields power="2" room="15" start="true" img=":!--hook shieldsImageZlt hook--:">
+				<!--hook shieldsSlotZlt hook-->
+				</shields>
+				<teleporter power="1" room="2" start="false" />
+				<weapons power="2" room="14" start="true" img=":!--hook weaponsImageZlt hook--:">
+				<!--hook weaponsSlotZlt hook-->
+				</weapons>
+				<!--hook artiZlt hook-->
+			</systemList>
+			<maxPower amount="3" />
+			<droneList drones="15" count="1">
+			<!--hook DroneCombatZoltan hook-->
+			</droneList>
+			<!--hook WeaponsZoltan2Power hook-->
+		</Asset>
+	</Hook>
+</HookBase>

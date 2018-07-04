@@ -1,0 +1,300 @@
+<HookBase>
+	<Hook id="WeaponsMantis_small_teleporter" metaDataId="WeaponsMantis_small_teleporterData">
+		<Asset metaData="two 1 power weapons" build="ARS">
+			<weaponList missiles="22" count="2">
+				<!--hook weapons1PowerAmmo hook-->
+				<!--hook weapons1PowerAmmo hook-->
+			</weaponList>
+		</Asset>
+		<Asset metaData="two 1 power weapons" build="ARS">
+			<weaponList missiles="16" count="2">
+				<!--hook weapons1PowerAmmo hook-->
+				<!--hook weapons1PowerLaser hook-->
+			</weaponList>
+		</Asset>
+		<Asset metaData="two 1 power weapons" build="ARS">
+			<weaponList missiles="0" count="2">
+				<!--hook weapons1PowerLaser hook-->
+				<!--hook weapons1PowerLaser hook-->
+			</weaponList>
+		</Asset>
+		<Asset metaData="two 1 power weapons" build="ARS">
+			<weaponList missiles="0" count="2">
+				<!--hook weapons1PowerLaser hook-->
+				<!--hook weapons1PowerLaserAP hook-->
+			</weaponList>
+		</Asset>
+	</Hook>
+	<Hook id="WeaponsMantis_big_teleporter" metaDataId="WeaponsMantis_big_teleporterData">
+		<Asset metaData="1 one power weapon" build="ARS">
+			<weaponList missiles="12" count="1">
+				<!--hook weapons1PowerAmmo hook-->
+			</weaponList>
+		</Asset>
+	</Hook>
+		<Hook id="WeaponsMantis_no_teleporter" metaDataId="WeaponsMantis_big_teleporterData">
+		<Asset metaData="1 burst one power weapon" build="ARS">
+			<weaponList missiles="12" count="2">
+				<!--hook weapons1Power2shotLaser hook-->
+				<!--hook weapons1PowerAmmo hook-->
+			</weaponList>
+		</Asset>
+	</Hook>
+	<Hook id="weapons1PowerAmmo" metaDataId="weapons1PowerAmmoData">
+		<Asset metaData="leto launcher" build="ARS">
+			<weapon name="MISSILES_1"/>
+		</Asset>
+		<Asset metaData="artemis launcher" build="ARS">
+			<weapon name="MISSILES_2_PLAYER"/>
+		</Asset>
+		<Asset metaData="small bomb" build="ARS">
+			<weapon name="BOMB_1"/>
+		</Asset>
+		<Asset metaData="small bomb" build="ARS">
+			<weapon name="BA_MISSILE_CHARGEGUN_SMALL"/>
+		</Asset>
+		<Asset metaData="small bomb" build="ARS">
+			<weapon name="MISSILES_SYS1"/>
+		</Asset>
+		<Asset metaData="small bomb" build="ARS">
+			<weapon name="MISSILES_SYS2"/>
+		</Asset>
+		<Asset metaData="small bomb" build="ARS">
+			<weapon name="BA_MISSILES_FOBOS"/>
+		</Asset>
+		<Asset metaData="small bomb" build="ARS">
+			<weapon name="BA_MISSILES_SWARM_1"/>
+		</Asset>
+		<Asset metaData="small bomb" build="ARS">
+			<weapon name="BA_MINE_ION"/>
+		</Asset>
+		<Asset metaData="small breach bomb" build="ARS">
+			<weapon name="BA_BOMB_CLUSTER_STUN"/>
+		</Asset>
+		<Asset metaData="big bomb" build="ARS">
+			<weapon name="BA_BOMB_FIRE_SMALL"/>
+		</Asset>
+		<Asset metaData="cluster bomb" build="ARS">
+			<weapon name="BA_BOMB_CLUSTER_1"/>
+		</Asset>
+		<Asset metaData="asteria luancher" build="ARS">
+			<weapon name="BA_MISSILES_ASTERIA"/>
+		</Asset>
+		<Asset metaData="small hull luancher" build="ARS">
+			<weapon name="BA_MISSILES_HULL_SMALL"/>
+		</Asset>
+		<Asset metaData="mine launcher" build="ARS">
+			<weapon name="BA_MINES_MEDIUM"/>
+		</Asset>
+		<Asset metaData="burst mine launcher" build="ARS">
+			<weapon name="BA_MINES_SMALL"/>
+		</Asset>
+		<Asset metaData="burst mine launcher" build="ARS">
+			<weapon name="MISSILES_ARU_GOLIAPH"/>
+		</Asset>
+		<Asset metaData="burst mine launcher" build="ARS">
+			<weapon name="BA_MINES_MEDIUM_M3"/>
+		</Asset>
+		<Asset metaData="burst mine launcher" build="ARS">
+			<weapon name="BA_MINES_MEDIUM_M2"/>
+		</Asset>
+	</Hook>
+	<Hook id="weapons1PowerLaser" metaDataId="weapons1PowerLaserData">
+		<Asset metaData="laser" build="ARS">
+			<weapon name="LASER_STANDARD_1"/>
+		</Asset>
+		<Asset metaData="laser" build="ARS">
+			<weapon name="LASER_DUAL_2"/>
+		</Asset>
+		<Asset metaData="heavy laser" build="ARS">
+			<weapon name="LASER_HEAVY_1"/>
+		</Asset>
+		<Asset metaData="heavy laser" build="ARS">
+			<weapon name="LASER_PIERCE_1"/>
+		</Asset>
+		<Asset metaData="heavy laser" build="ARS">
+			<weapon name="LASER_PIERCE_2"/>
+		</Asset>
+		<Asset metaData="war laser" build="ARS">
+			<weapon name="BA_LASER_WAR_1" />
+		</Asset>
+		<Asset metaData="war laser+" build="ARS">
+			<weapon name="BA_LASER_WAR_2" />
+		</Asset>
+		<Asset metaData="war laser+" build="ARS">
+			<weapon name="BA_LASER_WAR_3" />
+		</Asset>
+		<Asset metaData="super heavy laser" build="ARS">
+			<weapon name="LASER_SUPER_HEAVY_1" />
+		</Asset>
+		<Asset metaData="adaptive laser" build="ARS">
+			<weapon name="LASER_AL_1" />
+		</Asset>
+		<Asset metaData="old laser" build="ARS">
+			<weapon name="LASER_OLD"/>
+		</Asset>
+		<Asset metaData="laser+" build="ARS">
+			<weapon name="LASER_STANDARD_2"/>
+		</Asset>
+		<Asset metaData="hull laser" build="ARS">
+			<weapon name="BA_LASER_HULL_SMALL"/>
+		</Asset>
+		<Asset metaData="heavy scatter laser" build="ARS">
+			<weapon name="BA_LASER_HEAVY_SCATTER_1"/>
+		</Asset>
+		<Asset metaData="heavy scatter laser+" build="ARS">
+			<weapon name="BA_LASER_HEAVY_SCATTER_2"/>
+		</Asset>
+	</Hook>
+	<Hook id="weapons1PowerLaserAP" metaDataId="weapons1PowerLaserData">
+		<Asset metaData="burst light laser" build="ARS">
+			<weapon name="LASER_LIGHT_1"/>
+		</Asset>
+		<Asset metaData="burst light laser+" build="ARS">
+			<weapon name="LASER_LIGHT_2"/>
+		</Asset>
+		<Asset metaData="light auto laser" build="ARS">
+			<weapon name="LASER_LIGHT_AUTO"/>
+		</Asset>
+		<Asset metaData="light scatter laser" build="ARS">
+			<weapon name="LASER_LIGHT_SCATTER_1"/>
+		</Asset>
+		<Asset metaData="light scatter laser+" build="ARS">
+			<weapon name="LASER_LIGHT_SCATTER_2"/>
+		</Asset>
+		<Asset metaData="small light laser" build="ARS">
+			<weapon name="MPP_LASER_1"/>
+		</Asset>
+		<Asset metaData="small light laser+" build="ARS">
+			<weapon name="MPP_LASER_2"/>
+		</Asset>
+	</Hook>
+	<Hook id="weapons1Power2shotLaser" metaDataId="weapons1Power2shotLaserData">
+		<Asset metaData="dual laser" build="ARS">
+			<weapon name="LASER_DUAL_1"/>
+		</Asset>
+		<Asset metaData="dual laser+" build="ARS">
+			<weapon name="LASER_DUAL_2"/>
+		</Asset>
+		<Asset metaData="war laser++" build="ARS">
+			<weapon name="BA_LASER_WAR_3" />
+		</Asset>
+		<Asset metaData="laser charger" build="ARS">
+			<weapon name="LASER_CHARGEGUN_PLUS"/>
+		</Asset>
+		<Asset metaData="old dual laser" build="ARS">
+			<weapon name="LASER_DUAL_OLD"/>
+		</Asset>
+		<Asset metaData="burst scatter laser" build="ARS">
+			<weapon name="BA_LASER_BURST_SCATTER_1"/>
+		</Asset>
+		<Asset metaData="burst scatter laser" build="ARS">
+			<weapon name="LASER_DUAL_VERY_OLD"/>
+		</Asset>
+		<Asset metaData="flak small" build="ARS">
+			<weapon name="BA_SHOTGUN_SMALL"/>
+		</Asset>
+	</Hook>
+
+
+	<Hook id="TwoDronesMts" metaDataId="DroneAuxMtsData">
+		<Asset metaData="10 drones" build="ARS">
+			<droneList drones="10" count="2">
+				<!--hook DroneAuxMts hook-->
+				<!--hook DroneDefenseMts hook-->
+			</droneList>
+		</Asset>
+		<Asset metaData="12 drones" build="ARS">
+			<droneList drones="12" count="2">
+				<!--hook DroneAuxMts hook-->
+				<!--hook DroneDefenseMts hook-->
+			</droneList>
+		</Asset>
+		<Asset metaData="15 drones" build="ARS">
+			<droneList drones="15" count="2">
+				<!--hook DroneAuxMts hook-->
+				<!--hook DroneDefenseMts hook-->
+			</droneList>
+		</Asset>
+		<Asset metaData="16 drones" build="ARS">
+			<droneList drones="16" count="2">
+				<!--hook DroneAuxMts hook-->
+				<!--hook DroneDefenseMts hook-->
+			</droneList>
+		</Asset>
+		<Asset metaData="18 drones" build="ARS">
+			<droneList drones="18" count="2">
+				<!--hook DroneAuxMts hook-->
+				<!--hook DroneDefenseMts hook-->
+			</droneList>
+		</Asset>
+	</Hook>
+
+	<Hook id="OneDroneMts" metaDataId="DroneAuxMtsData">
+		<Asset metaData="12 drones aux" build="ARS">
+			<droneList drones="12" count="1">
+				<!--hook DroneAuxMts hook-->
+			</droneList>
+		</Asset>
+		<Asset metaData="12 drones defense" build="ARS">
+			<droneList drones="12" count="1">
+				<!--hook DroneDefenseMts hook-->
+			</droneList>
+		</Asset>
+		<Asset metaData="14 drones aux" build="ARS">
+			<droneList drones="14" count="1">
+				<!--hook DroneAuxMts hook-->
+			</droneList>
+		</Asset>
+		<Asset metaData="14 drones defense" build="ARS">
+			<droneList drones="14" count="1">
+				<!--hook DroneDefenseMts hook-->
+			</droneList>
+		</Asset>
+		<Asset metaData="16 drones aux" build="ARS">
+			<droneList drones="16" count="1">
+				<!--hook DroneAuxMts hook-->
+			</droneList>
+		</Asset>
+		<Asset metaData="16 drones defense" build="ARS">
+			<droneList drones="16" count="1">
+				<!--hook DroneDefenseMts hook-->
+			</droneList>
+		</Asset>
+	</Hook>
+
+
+	<Hook id="DroneAuxMts" metaDataId="DroneAuxMtsData">
+		<Asset metaData="repair drone" build="ARS">
+			<drone name="REPAIR_OLD" />
+		</Asset>
+		<Asset metaData="boarding drone" build="ARS">
+			<drone name="BOARDER" />
+		</Asset>
+		<Asset metaData="combat light missile drone" build="ARS">
+			<drone name="DE_DRONE_LIGHT_MISSILE" />
+		</Asset>
+		<Asset metaData="combat light fire missile drone" build="ARS">
+			<drone name="DE_DRONE_LIGHT_MISSILE_FIRE" />
+		</Asset>
+	</Hook>
+	<Hook id="DroneDefenseMts" metaDataId="DroneDefenseMtsData">
+		<Asset metaData="defense drone" build="ARS">
+			<drone name="DEFENSE_1_OLD" />
+		</Asset>
+		<Asset metaData="defense light missile drone" build="ARS">
+			<drone name="DE_DRONE_DEFENSE_LIGHT_MISSILE" />
+		</Asset>
+		<Asset metaData="defense swarm missile drone" build="ARS">
+			<drone name="DE_DRONE_DEFENSE_SWARM_MISSILE" />
+		</Asset>
+		<Asset metaData="defense heavy drone" build="ARS">
+			<drone name="DE_DRONE_DEFENSE_HEAVY_SMALL" />
+		</Asset>
+		<Asset metaData="anti drone" build="ARS">
+			<drone name="ANTI_DRONE" />
+		</Asset>
+	</Hook>
+</HookBase>
+
+

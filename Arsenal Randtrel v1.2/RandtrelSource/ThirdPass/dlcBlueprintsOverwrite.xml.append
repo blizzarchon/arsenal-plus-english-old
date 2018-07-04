@@ -1,0 +1,116 @@
+
+
+
+<shipBlueprint name="PLAYER_SHIP_HARD_3" layout="third_kestral" img="third_kestral_rand">
+<class>Kestrel Cruiser</class>
+<name>The Randlow</name>
+<unlock>Get to Sector 8 with the Kestrel Cruiser Type B and Advanced Mode enabled to unlock this ship.</unlock>
+<desc>This class of ship was decommissioned from Federation service years ago. This ship has had many owners in the past, who added their own adjustments....</desc>
+<!--hook SystemsPower hook-->
+<weaponSlots>4</weaponSlots>
+<droneSlots>2</droneSlots>
+<!--hook Weapons hook-->
+<!--hook DroneAmount hook-->
+<health amount="30"/>
+	 
+<crewCount amount = "1" class="human"/>
+<!--hook Crews hook-->
+
+</shipBlueprint>
+
+<shipBlueprint name="PLAYER_SHIP_CIRCLE_3" layout="third_circle_cruiser" img="third_circle_cruiser_rand">
+<class>Engi Cruiser</class>
+<name>Randagon</name>
+<unlock>Get to Sector 8 with the Engi Cruiser Type B and Advanced Mode enabled to unlock this ship.</unlock>
+<desc>Although it may look like a pile of junk loosely held together, this ship has been reconfigured time after time to achieve top performance.</desc>
+<!--hook SystemsPowerEngi hook-->
+<!--hook WeaponsDronesEngi hook-->
+<!--hook AugEngi hook-->
+<health amount="30" />
+<crewCount amount="1" class="engi" />
+<!--hook CrewsEngi hook-->
+</shipBlueprint>
+
+<shipBlueprint name="PLAYER_SHIP_STEALTH_3" layout="third_stealth" img="third_stealth_rand">
+<class>Stealth Cruiser</class>
+<name>Rando-H</name>
+<unlock>Get to Sector 8 with the Stealth Cruiser Type B and Advanced Mode enabled to unlock this ship.</unlock>
+<desc>Constructed for the Federation by the Engi, and redesigned dozens of times, this ship is designed to use advanced technology and speed to get behind enemy lines.</desc>
+<!--hook SystemsPowerStl hook-->
+<aug name="ADV_SCANNERS" />
+<health amount="30" />
+<!--hook CrewsStealth hook-->
+</shipBlueprint>
+
+<shipBlueprint name="PLAYER_SHIP_ROCK_3" layout="third_rock_cruiser" img="third_rock_cruiser_rand">
+<class>Rock Cruiser</class>
+<name>Randite</name>
+<unlock>Get to Sector 8 with the Rock Cruiser Type B and Advanced Mode enabled to unlock this ship.</unlock>
+<desc>Similar to its designers, this super-dense behemoth uses brute force to overwhelm its foes. Countless battles led to some modifications to this ship.</desc>
+<!--hook SystemsPowerRock hook-->
+<weaponSlots>4</weaponSlots>
+<droneSlots>2</droneSlots>
+<!--hook WeaponsRock hook-->
+<droneList drones="0" count="2" />
+<health amount="30" />
+<crewCount amount="1" class="rock" />
+<!--hook CrewsRock hook-->
+<aug name="ROCK_ARMOR" />
+</shipBlueprint>
+
+<shipBlueprint name="PLAYER_SHIP_MANTIS_3" layout="third_mantis_cruiser" img="third_mantis_cruiser_rand">
+<class>Mantis Cruiser</class>
+<name>The Randeus</name>
+<unlock>Get to Sector 8 with the Mantis Cruiser Type B and Advanced Mode enabled to unlock this ship.</unlock>
+<desc>This warship was designed and upgraded in order to enhance its crew for close combat missions.</desc>
+<!--hook SystemsPowerMantis hook-->
+<health amount="30" />
+<crewCount amount="1" class="mantis" />
+<!--hook CrewsMantis hook-->
+<aug name="CREW_STIMS" />
+</shipBlueprint>
+
+<shipBlueprint name="PLAYER_SHIP_FED_3" layout="third_fed_cruiser" img="third_fed_cruiser_rand">
+<class>Federation Cruiser</class>
+<name>The Randatidae</name>
+<unlock>Get to Sector 8 with the Federation Cruiser Type B and Advanced Mode enabled to unlock this ship.</unlock>
+<desc>This ship features the latest in Federation technology, perfected time after time: an advanced artillery weapon mount.</desc>
+<weaponSlots>4</weaponSlots>
+<droneSlots>2</droneSlots>
+<!--hook SystemsPowerFed hook-->
+<droneList count="0" drones="0" />
+<health amount="30" />
+<crewCount amount="1" class="human" />
+<!--hook CrewsFed hook-->
+</shipBlueprint>
+
+<shipBlueprint name="PLAYER_SHIP_JELLY_3" layout="third_jelly_cruiser" img="third_jelly_cruiser_rand">
+<class>Slug Cruiser</class>
+<name>Randlimax</name>
+<unlock>Get to Sector 8 with the Slug Cruiser Type B and Advanced Mode enabled to unlock this ship.</unlock>
+<desc>Designed for use inside nebulas, this cruiser has been cunningly reconfigured to suit the guile and trickery of the Slugs.</desc>
+<weaponSlots>4</weaponSlots>
+<droneSlots>2</droneSlots>
+<!--hook SystemsPowerSlg hook-->
+<aug name="SLUG_GEL" />
+<health amount="30" />
+<crewCount amount="1" class="slug" />
+<!--hook CrewsSlug hook-->
+</shipBlueprint>
+
+<shipBlueprint name="PLAYER_SHIP_ENERGY_3" layout="third_energy_cruiser" img="third_energy_cruiser_rand">
+<class>Zoltan Cruiser</class>
+<name>Randekov</name>
+<unlock>Get to Sector 8 with the Zoltan Cruiser Type B and Advanced Mode enabled to unlock this ship.</unlock>
+<desc>The Zoltan's advanced shields technology gives this ship an edge during each battle, along with modifications inspired by contact with the other races.</desc>
+<weaponSlots>4</weaponSlots>
+<droneSlots>2</droneSlots>
+<!--hook SystemsPowerZlt hook-->
+<health amount="30" />
+<crewCount amount="1" class="energy" />
+<crewCount amount="1" class="energy" />
+<aug name="ENERGY_SHIELD" />
+<!--hook CrewsZoltan hook-->
+</shipBlueprint>
+
+<!--hook ArtiFed hook-->

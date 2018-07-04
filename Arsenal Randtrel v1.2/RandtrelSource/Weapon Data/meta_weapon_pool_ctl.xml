@@ -1,0 +1,142 @@
+<HookBase>
+	<Hook id="WeaponsCrystal" metaDataId="WeaponsCrystalData">
+		<Asset metaData="3 x 1 power weapons" build="ARS">
+			<weaponList missiles="0" count="3">
+				<!--hook WeaponsCrystal1Power hook-->
+				<!--hook WeaponsCrystal1Power2nd hook-->
+				<!--hook WeaponsCrystal1Power3rd hook-->
+			</weaponList>
+		</Asset>
+		<Asset metaData="2 x 1 power, 1 x 2 power weapons" build="ARS">
+			<weaponList missiles="0" count="3">
+				<!--hook WeaponsCrystal2Power2nd hook-->
+				<!--hook WeaponsCrystal1Power hook-->
+				<!--hook WeaponsCrystal1Power2nd hook-->
+			</weaponList>
+		</Asset>
+		<Asset metaData="2 x 2 power weapons" build="ARS">
+			<weaponList missiles="0" count="2">
+				<!--hook WeaponsCrystal2Power hook-->
+				<!--hook WeaponsCrystal2Power2nd hook-->
+			</weaponList>
+		</Asset>
+		<Asset metaData="1 x 1 power, 1 x 3 power weapons" build="ARS">
+			<weaponList missiles="0" count="2">
+				<!--hook WeaponsCrystal1Power2nd hook-->
+				<!--hook WeaponsCrystal3Power hook-->
+			</weaponList>
+		</Asset>
+	</Hook>
+
+	<Hook id="WeaponsCrystalWeak" metaDataId="WeaponsCrystalData">
+		<Asset metaData="2 x 1 power weapons" build="ARS">
+			<weaponList missiles="0" count="2">
+				<!--hook WeaponsCrystal1Power hook-->
+				<!--hook WeaponsCrystal1Power2nd hook-->
+			</weaponList>
+		</Asset>
+		<Asset metaData="1 x 2 power weapons" build="ARS">
+			<weaponList missiles="0" count="1">
+				<!--hook WeaponsCrystal2Power hook-->
+			</weaponList>
+		</Asset>
+	</Hook>
+
+
+	<Hook id="WeaponsCrystal1Power" metaDataId="WeaponsCrystal1PowerData">
+		<Asset metaData="heavy crystal" build="ARS">
+			<weapon name="CRYSTAL_HEAVY_1" />
+		</Asset>
+		<Asset metaData="heavy lockdown crystal" build="ARS">
+			<weapon name="BA_CRYSTAL_HEAVY_LOCKDOWN_1" />
+		</Asset>
+	</Hook>
+
+	<Hook id="WeaponsCrystal1Power2nd,WeaponsCrystal1Power3rd" metaDataId="WeaponsCrystal1Power2ndData,WeaponsCrystal1Power3rdData">
+		<Asset metaData="heavy crystal" build="ARS">
+			<weapon name="CRYSTAL_HEAVY_1" />
+		</Asset>
+		<Asset metaData="heavy lockdown crystal" build="ARS">
+			<weapon name="BA_CRYSTAL_HEAVY_LOCKDOWN_1" />
+		</Asset>
+		<Asset metaData="light burst crystal" build="ARS">
+			<weapon name="BA_CRYSTAL_LIGHT_1" />
+		</Asset>
+	</Hook>
+
+	<Hook id="WeaponsCrystal2Power" metaDataId="WeaponsCrystal2PowerData">
+		<Asset metaData="burst crystal" build="ARS">
+			<weapon name="CRYSTAL_BURST_1" />
+		</Asset>
+	</Hook>
+
+	<Hook id="WeaponsCrystal2Power2nd" metaDataId="WeaponsCrystal2PowerData">
+		<Asset metaData="burst crystal" build="ARS">
+			<weapon name="CRYSTAL_BURST_1" />
+		</Asset>
+		<Asset metaData="burst light crystal+" build="ARS">
+			<weapon name="BA_CRYSTAL_LIGHT_2" />
+		</Asset>
+		<Asset metaData="heavy crystal+" build="ARS">
+			<weapon name="CRYSTAL_HEAVY_2" />
+		</Asset>
+		<Asset metaData="heavy lockdown crystal+" build="ARS">
+			<weapon name="BA_CRYSTAL_HEAVY_LOCKDOWN_2" />
+		</Asset>
+	</Hook>
+	
+	<Hook id="WeaponsCrystal3Power" metaDataId="WeaponsCrystal3PowerData">
+		<Asset metaData="burst crystal+" build="ARS">
+			<weapon name="CRYSTAL_BURST_2" />
+		</Asset>
+	</Hook>
+
+	<Hook id="DronesCrystal" metaDataId="DronesCrystalData">
+		<Asset metaData="10 drones" build="ARS">
+			<droneList count="1" drones="10">
+				<!--hook DronesCrystalSelect hook-->
+			</droneList>
+		</Asset>
+		<Asset metaData="12 drones" build="ARS">
+			<droneList count="1" drones="12">
+				<!--hook DronesCrystalSelect hook-->
+			</droneList>
+		</Asset>
+		<Asset metaData="15 drones" build="ARS">
+			<droneList count="1" drones="15">
+				<!--hook DronesCrystalSelect hook-->
+			</droneList>
+		</Asset>
+		<Asset metaData="18 drones" build="ARS">
+			<droneList count="1" drones="18">
+				<!--hook DronesCrystalSelect hook-->
+			</droneList>
+		</Asset>
+		<Asset metaData="20 drones" build="ARS">
+			<droneList count="1" drones="20">
+				<!--hook DronesCrystalSelect hook-->
+			</droneList>
+		</Asset>
+	</Hook>
+
+	<Hook id="DronesCrystalSelect" metaDataId="DronesCrystalSelectData">
+		<Asset metaData="crystal drone" build="ARS">
+			<drone name="DE_DRONE_CRYSTAL"/>
+		</Asset>
+		<Asset metaData="crystal drone+" build="ARS">
+			<drone name="DE_DRONE_CRYSTAL_2"/>
+		</Asset>
+		<Asset metaData="crystal AP drone+" build="ARS">
+			<drone name="DE_DRONE_CRYSTAL_LIGHT"/>
+		</Asset>
+		<Asset metaData="crystal heavy drone" build="ARS">
+			<drone name="DE_DRONE_CRYSTAL_HEAVY"/>
+		</Asset>
+		<Asset metaData="crystal light defense drone" build="ARS">
+			<drone name="DE_DRONE_DEFENSE_CRYSTAL_LIGHT"/>
+		</Asset>
+		<Asset metaData="crystal AD defense drone" build="ARS">
+			<drone name="DE_DRONE_ANTI_CRYSTAL_HEAVY"/>
+		</Asset>
+	</Hook>
+</HookBase>

@@ -1,0 +1,293 @@
+<HookBase>
+	<Hook id="WeaponsSlug" metaDataId="WeaponsSlugData">
+		<Asset metaData="slug standard, 11 missiles" build="ARS">
+			<weaponList missiles="11" count="4">
+				<!--hook weaponsAntiPersonalSlg hook-->
+				<!--hook weapons1Power2shotLaserSlg hook-->
+				<!--hook weapons1PowerAmmoSlg hook-->
+			</weaponList>
+		</Asset>
+		<Asset metaData="slug standard, 13 missiles" build="ARS">
+			<weaponList missiles="13" count="4">
+				<!--hook weaponsAntiPersonalSlg hook-->
+				<!--hook weapons1Power2shotLaserSlg hook-->
+				<!--hook weapons1PowerAmmoSlg hook-->
+			</weaponList>
+		</Asset>
+		<Asset metaData="slug standard, 15 missiles" build="ARS">
+			<weaponList missiles="15" count="4">
+				<!--hook weaponsAntiPersonalSlg hook-->
+				<!--hook weapons1Power2shotLaserSlg hook-->
+				<!--hook weapons1PowerAmmoSlg hook-->
+			</weaponList>
+		</Asset>
+		<Asset metaData="slug standard, 17 missiles" build="ARS">
+			<weaponList missiles="17" count="4">
+				<!--hook weaponsAntiPersonalSlg hook-->
+				<!--hook weapons1Power2shotLaserSlg hook-->
+				<!--hook weapons1PowerAmmoSlg hook-->
+			</weaponList>
+		</Asset>
+		<Asset metaData="slug standard, 19 missiles" build="ARS">
+			<weaponList missiles="19" count="4">
+				<!--hook weaponsAntiPersonalSlg hook-->
+				<!--hook weapons1Power2shotLaserSlg hook-->
+				<!--hook weapons1PowerAmmoSlg hook-->
+			</weaponList>
+		</Asset>
+	</Hook>
+	<Hook id="WeaponsSlugHeal" metaDataId="WeaponsSlugHealData">
+		<Asset metaData="slug healing, 20 missiles" build="ARS">
+			<weaponList missiles="20" count="2">
+				<!--hook weaponsHealingSlg hook-->
+				<!--hook weapons1PowerMissileSlg hook-->
+			</weaponList>
+		</Asset>
+		<Asset metaData="slug healing, 25 missiles" build="ARS">
+			<weaponList missiles="25" count="2">
+				<!--hook weaponsHealingSlg hook-->
+				<!--hook weapons1PowerMissileSlg hook-->
+			</weaponList>
+		</Asset>
+		<Asset metaData="slug healing, 30 missiles" build="ARS">
+			<weaponList missiles="30" count="2">
+				<!--hook weaponsHealingSlg hook-->
+				<!--hook weapons1PowerMissileSlg hook-->
+			</weaponList>
+		</Asset>
+	</Hook>
+	<Hook id="WeaponsSlugTrick" metaDataId="WeaponsSlugTrickData">
+		<Asset metaData="slug tele healing, 10 missiles" build="ARS">
+			<weaponList missiles="20" count="2">
+				<!--hook weapons1Power2shotLaserSlg hook-->
+				<!--hook weapons1PowerMissileSlg hook-->
+			</weaponList>
+		</Asset>
+		<Asset metaData="slug tele healing, 15 missiles" build="ARS">
+			<weaponList missiles="25" count="2">
+				<!--hook weapons1Power2shotLaserSlg hook-->
+				<!--hook weapons1PowerMissileSlg hook-->
+			</weaponList>
+		</Asset>
+		<Asset metaData="slug tele healing, 20 missiles" build="ARS">
+			<weaponList missiles="30" count="2">
+				<!--hook weapons1Power2shotLaserSlg hook-->
+				<!--hook weapons1PowerMissileSlg hook-->
+			</weaponList>
+		</Asset>
+	</Hook>
+	<Hook id="weapons1PowerAmmoSlg" metaDataId="weapons1PowerAmmoSlgData">
+		<Asset metaData="leto launcher" build="ARS">
+			<weapon name="MISSILES_1"/>
+		</Asset>
+		<Asset metaData="artemis launcher" build="ARS">
+			<weapon name="MISSILES_2_PLAYER"/>
+		</Asset>
+		<Asset metaData="small bomb" build="ARS">
+			<weapon name="BOMB_1"/>
+		</Asset>
+		<Asset metaData="small breach bomb" build="ARS">
+			<weapon name="BA_BOMB_FIRE_SMALL"/>
+		</Asset>
+		<Asset metaData="cluster bomb" build="ARS">
+			<weapon name="BA_BOMB_CLUSTER_1"/>
+		</Asset>
+		<Asset metaData="asteria luancher" build="ARS">
+			<weapon name="BA_MISSILES_ASTERIA"/>
+		</Asset>
+		<Asset metaData="small hull luancher" build="ARS">
+			<weapon name="BA_MISSILES_HULL_SMALL"/>
+		</Asset>
+		<Asset metaData="small swarm luancher" build="ARS">
+			<weapon name="BA_MISSILES_SWARM_1"/>
+		</Asset>
+		<Asset metaData="small charger  luancher" build="ARS">
+			<weapon name="BA_MISSILE_CHARGEGUN_SMALL"/>
+		</Asset>
+		<Asset metaData="fobos" build="ARS">
+			<weapon name="BA_MISSILES_FOBOS"/>
+		</Asset>
+		<Asset metaData="Rhea" build="ARS">
+			<weapon name="MISSILES_SYS1"/>
+		</Asset>
+		<Asset metaData="Cronus" build="ARS">
+			<weapon name="MISSILES_SYS2"/>
+		</Asset>
+		<Asset metaData="Cronus" build="ARS">
+			<weapon name="MISSILES_ARU_GOLIAPH"/>
+		</Asset>
+	</Hook>
+	<Hook id="weaponsHealingSlg" metaDataId="weaponsHealingSlgData">
+		<Asset metaData="healing bomb" build="ARS">
+			<weapon name="BOMB_HEAL"/>
+		</Asset>
+		<Asset metaData="cluster healing bomb" build="ARS">
+			<weapon name="BA_BOMB_HEAL_2"/>
+		</Asset>
+	</Hook>
+	<Hook id="weapons1PowerMissileSlg" metaDataId="weapons1PowerAmmoSlgData">
+		<Asset metaData="leto launcher" build="ARS">
+			<weapon name="MISSILES_1"/>
+		</Asset>
+		<Asset metaData="Cronus" build="ARS">
+			<weapon name="MISSILES_ARU_GOLIAPH"/>
+		</Asset>
+		<Asset metaData="artemis launcher" build="ARS">
+			<weapon name="MISSILES_2_PLAYER"/>
+		</Asset>
+		<Asset metaData="asteria luancher" build="ARS">
+			<weapon name="BA_MISSILES_ASTERIA"/>
+		</Asset>
+		<Asset metaData="small hull luancher" build="ARS">
+			<weapon name="BA_MISSILES_HULL_SMALL"/>
+		</Asset>
+		<Asset metaData="small swarm luancher" build="ARS">
+			<weapon name="BA_MISSILES_SWARM_1"/>
+		</Asset>
+		<Asset metaData="small charger  luancher" build="ARS">
+			<weapon name="BA_MISSILE_CHARGEGUN_SMALL"/>
+		</Asset>
+		<Asset metaData="fobos" build="ARS">
+			<weapon name="BA_MISSILES_FOBOS"/>
+		</Asset>
+		<Asset metaData="Rhea" build="ARS">
+			<weapon name="MISSILES_SYS1"/>
+		</Asset>
+		<Asset metaData="Cronus" build="ARS">
+			<weapon name="MISSILES_SYS2"/>
+		</Asset>
+	</Hook>
+	<Hook id="weapons1Power2shotLaserSlg" metaDataId="weapons1Power2shotLaserSlgData">
+		<Asset metaData="dual laser" build="ARS">
+			<weapon name="LASER_DUAL_1"/>
+		</Asset>
+		<Asset metaData="dual laser+" build="ARS">
+			<weapon name="LASER_DUAL_2"/>
+		</Asset>
+		<Asset metaData="war laser++" build="ARS">
+			<weapon name="BA_LASER_WAR_3" />
+		</Asset>
+		<Asset metaData="laser charger" build="ARS">
+			<weapon name="LASER_CHARGEGUN_PLUS"/>
+		</Asset>
+		<Asset metaData="old dual laser" build="ARS">
+			<weapon name="LASER_DUAL_OLD"/>
+		</Asset>
+		<Asset metaData="burst scatter laser" build="ARS">
+			<weapon name="BA_LASER_BURST_SCATTER_1"/>
+		</Asset>
+		<Asset metaData="burst scatter laser" build="ARS">
+			<weapon name="LASER_DUAL_VERY_OLD"/>
+		</Asset>
+		<Asset metaData="flak small" build="ARS">
+			<weapon name="BA_SHOTGUN_SMALL"/>
+		</Asset>
+		<Asset metaData="flak small" build="ARS">
+			<weapon name="LASER_CHAIN_1"/>
+		</Asset>
+	</Hook>
+	<Hook id="weaponsAntiPersonalSlg" metaDataId="weaponsAntiPersonalSlgData">
+		<Asset metaData="2 power anti personal weapon" build="ARS">
+			<!--hook weapons2PowerApSlg hook-->
+		</Asset>
+		<Asset metaData="2 * 1 power anti personal weapons" build="ARS">
+			<!--hook weapons1PowerAp1stSlg hook-->
+			<!--hook weapons1PowerAp2ndSlg hook-->
+		</Asset>
+	</Hook>
+	<Hook id="weapons2PowerApSlg" metaDataId="weapons2PowerApSlgData">
+		<Asset metaData="anti bio beam" build="ARS">
+			<weapon name="BEAM_BIO"/>
+		</Asset>
+		<Asset metaData="fire beam" build="ARS">
+			<weapon name="BEAM_FIRE"/>
+		</Asset>
+		<Asset metaData="fire beam 2" build="ARS">
+			<weapon name="BA_BEAM_FIRE_2"/>
+		</Asset>
+		<Asset metaData="chain fire beam" build="ARS">
+			<weapon name="BEAM_FIRECHAIN"/>
+		</Asset>
+		<Asset metaData="focus fire beam" build="ARS">
+			<weapon name="BA_BEAM_FIRE_FOCUS"/>
+		</Asset>
+		<Asset metaData="fast anti bio beam" build="ARS">
+			<weapon name="BA_BEAM_BIO_2"/>
+		</Asset>
+		<Asset metaData="fast anti bio beam" build="ARS">
+			<weapon name="BEAM_CHAIN_BIO"/>
+		</Asset>
+		<Asset metaData="fast anti bio beam" build="ARS">
+			<weapon name="BEAM_BIOFIRE"/>
+		</Asset>
+		<Asset metaData="light laser 3" build="ARS">
+			<weapon name="LASER_LIGHT_3"/>
+		</Asset>
+		<Asset metaData="light scatter laser 3" build="ARS">
+			<weapon name="LASER_LIGHT_SCATTER_3"/>
+		</Asset>
+		<Asset metaData="light breach laser 1" build="ARS">
+			<weapon name="LIGHT_BREACH_LASER_1"/>
+		</Asset>
+		<Asset metaData="light breach laser 2" build="ARS">
+			<weapon name="LIGHT_BREACH_LASER_2"/>
+		</Asset>
+		<Asset metaData="heavy plasma" build="ARS">
+			<weapon name="BA_PLASMA_2"/>
+		</Asset>
+	</Hook>
+	<Hook id="weapons1PowerAp1stSlg" metaDataId="weapons1PowerAp1stSlgData">
+		<Asset metaData="light laser 1" build="ARS">
+			<weapon name="LASER_LIGHT_1"/>
+		</Asset>
+		<Asset metaData="light laser 2" build="ARS">
+			<weapon name="LASER_LIGHT_2"/>
+		</Asset>
+		<Asset metaData="light auto laser" build="ARS">
+			<weapon name="LASER_LIGHT_AUTO"/>
+		</Asset>
+		<Asset metaData="light scatter laser 1" build="ARS">
+			<weapon name="LASER_LIGHT_SCATTER_1"/>
+		</Asset>
+		<Asset metaData="light scatter laser 2" build="ARS">
+			<weapon name="LASER_LIGHT_SCATTER_2"/>
+		</Asset>
+		<Asset metaData="light plasma" build="ARS">
+			<weapon name="BA_PLASMA_1"/>
+		</Asset>
+		<Asset metaData="small light laser" build="ARS">
+			<weapon name="MPP_LASER_1"/>
+		</Asset>
+		<Asset metaData="small light laser+" build="ARS">
+			<weapon name="MPP_LASER_2"/>
+		</Asset>
+	</Hook>
+	<Hook id="weapons1PowerAp2ndSlg" metaDataId="weapons1PowerAp2ndSlgData">
+		<Asset metaData="light laser 1" build="ARS">
+			<weapon name="LASER_LIGHT_1"/>
+		</Asset>
+		<Asset metaData="light laser 2" build="ARS">
+			<weapon name="LASER_LIGHT_2"/>
+		</Asset>
+		<Asset metaData="light auto laser" build="ARS">
+			<weapon name="LASER_LIGHT_AUTO"/>
+		</Asset>
+		<Asset metaData="light scatter laser 1" build="ARS">
+			<weapon name="LASER_LIGHT_SCATTER_1"/>
+		</Asset>
+		<Asset metaData="light scatter laser 2" build="ARS">
+			<weapon name="LASER_LIGHT_SCATTER_2"/>
+		</Asset>
+		<Asset metaData="light plasma" build="ARS">
+			<weapon name="BA_PLASMA_1"/>
+		</Asset>
+		<Asset metaData="small light laser" build="ARS">
+			<weapon name="MPP_LASER_1"/>
+		</Asset>
+		<Asset metaData="small light laser+" build="ARS">
+			<weapon name="MPP_LASER_2"/>
+		</Asset>
+	</Hook>
+</HookBase>
+
+

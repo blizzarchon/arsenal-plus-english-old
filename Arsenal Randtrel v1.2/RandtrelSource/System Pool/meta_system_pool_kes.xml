@@ -1,0 +1,842 @@
+<HookBase>
+	<Hook id="artiKes" metaDataId="artiKesData">
+		<Asset metaData="Kestral Arti system" build="ARS">
+			<artillery power="2" max="4" room="6" start="false" weapon="ARTILLERY_PL_HEAVY" img="room_artillery_stub" />
+		</Asset>
+	</Hook>
+	<Hook id="SystemsPower" metaDataId="SystemsPowerData">
+		<Asset metaData="improved medbay">
+			<systemList>
+				<pilot power="1" room="0" start="true" img=":!--hook pilotImageKes hook--:">
+					<slot>
+						<direction>right</direction>
+						<number>0</number> 
+					</slot>
+				</pilot>
+				<doors power="1" room="2" start="true" img=":!--hook doorsImageKes hook--:">
+					<slot>
+						<direction>up</direction>
+						<number>1</number> 
+					</slot>
+				</doors>
+				<sensors power="1" room="3" start="true" img=":!--hook sensorsImageKes hook--:">
+					<slot>
+						<direction>down</direction>
+						<number>1</number> 
+					</slot>
+				</sensors>   
+				<medbay power="2" room="4" start="true" >
+					<slot>
+						<number>1</number> 
+					</slot>
+				</medbay>
+				<clonebay power="1" room="4" start="false"> <!-- T????-->
+					<slot>
+						<number>1</number> 
+					</slot>
+				</clonebay>
+				<oxygen power="1"  room="13" start="true" img=":!--hook oxygenImageKes hook--:"/>
+				<shields power="2" room="5" start="true" img=":!--hook shieldsImageKes hook--:"/>
+				<engines power="2" room="14" start="true" img=":!--hook enginesImageKes hook--:"/>
+				<weapons power="3" room="10" start="true" img=":!--hook weaponsImageKes hook--:"/>
+				<drones power="2" room="1" start="false" img=":!--hook dronesImageKes hook--:" />  <!-- F-->
+				<teleporter power="1" room="15"	start="false"/>  <!-- F-->
+				<cloaking power="1" room="8" start="false" img=":!--hook cloakingImageKes hook--:" />  <!-- F-->
+				<battery power="1" room="11" start="false" img=":!--hook batteryImageKes hook--:"/>    <!-- F-->
+				<mind power="1" room="7" start="false" img=":!--hook mindImageKes hook--:"/>  <!-- F-->
+				<hacking power="1" room="12" start="false" img=":!--hook hackingImageKes hook--:"> <!-- F-->
+					<slot>
+						<direction>down</direction>
+						<number>0</number> 
+					</slot>
+				</hacking>
+				<!--hook artiKes hook-->
+			</systemList>
+			<maxPower amount ="7"/>
+		</Asset>
+		<Asset metaData="improved piloting">
+			<systemList>
+				<pilot power="2" room="0" start="true" img=":!--hook pilotImageKes hook--:">
+					<slot>
+						<direction>right</direction>
+						<number>0</number> 
+					</slot>
+				</pilot>
+				<doors power="1" room="2" start="true" img=":!--hook doorsImageKes hook--:">
+					<slot>
+						<direction>up</direction>
+						<number>1</number> 
+					</slot>
+				</doors>
+				<sensors power="1" room="3" start="true" img=":!--hook sensorsImageKes hook--:">
+					<slot>
+						<direction>down</direction>
+						<number>1</number> 
+					</slot>
+				</sensors>   
+				<medbay power="1" room="4" start="true" >
+					<slot>
+						<number>1</number> 
+					</slot>
+				</medbay>
+				<clonebay power="1" room="4" start="false"> <!-- T????-->
+					<slot>
+						<number>1</number> 
+					</slot>
+				</clonebay>
+				<oxygen power="1"  room="13" start="true" img=":!--hook oxygenImageKes hook--:"/>
+				<shields power="2" room="5" start="true" img=":!--hook shieldsImageKes hook--:"/>
+				<engines power="2" room="14" start="true" img=":!--hook enginesImageKes hook--:"/>
+				<weapons power="3" room="10" start="true" img=":!--hook weaponsImageKes hook--:"/>
+				<drones power="2" room="1" start="false" img=":!--hook dronesImageKes hook--:" />  <!-- F-->
+				<teleporter power="1" room="15"	start="false"/>  <!-- F-->
+				<cloaking power="1" room="8" start="false" img=":!--hook cloakingImageKes hook--:" />  <!-- F-->
+				<battery power="1" room="11" start="false" img=":!--hook batteryImageKes hook--:"/>    <!-- F-->
+				<mind power="1" room="7" start="false" img=":!--hook mindImageKes hook--:"/>  <!-- F-->
+				<hacking power="1" room="12" start="false" img=":!--hook hackingImageKes hook--:"> <!-- F-->
+					<slot>
+						<direction>down</direction>
+						<number>0</number> 
+					</slot>
+				</hacking>
+				<!--hook artiKes hook-->
+			</systemList>
+			<maxPower amount ="7"/>
+		</Asset>
+		<Asset metaData="improved doors">
+			<systemList>
+				<pilot power="1" room="0" start="true" img=":!--hook pilotImageKes hook--:">
+					<slot>
+						<direction>right</direction>
+						<number>0</number> 
+					</slot>
+				</pilot>
+				<doors power="2" room="2" start="true" img=":!--hook doorsImageKes hook--:">
+					<slot>
+						<direction>up</direction>
+						<number>1</number> 
+					</slot>
+				</doors>
+				<sensors power="1" room="3" start="true" img=":!--hook sensorsImageKes hook--:">
+					<slot>
+						<direction>down</direction>
+						<number>1</number> 
+					</slot>
+				</sensors>   
+				<medbay power="1" room="4" start="true" >
+					<slot>
+						<number>1</number> 
+					</slot>
+				</medbay>
+				<clonebay power="1" room="4" start="false"> <!-- T????-->
+					<slot>
+						<number>1</number> 
+					</slot>
+				</clonebay>
+				<oxygen power="1"  room="13" start="true" img=":!--hook oxygenImageKes hook--:"/>
+				<shields power="2" room="5" start="true" img=":!--hook shieldsImageKes hook--:"/>
+				<engines power="2" room="14" start="true" img=":!--hook enginesImageKes hook--:"/>
+				<weapons power="3" room="10" start="true" img=":!--hook weaponsImageKes hook--:"/>
+				<drones power="2" room="1" start="false" img=":!--hook dronesImageKes hook--:" />  <!-- F-->
+				<teleporter power="1" room="15"	start="false"/>  <!-- F-->
+				<cloaking power="1" room="8" start="false" img=":!--hook cloakingImageKes hook--:" />  <!-- F-->
+				<battery power="1" room="11" start="false" img=":!--hook batteryImageKes hook--:"/>    <!-- F-->
+				<mind power="1" room="7" start="false" img=":!--hook mindImageKes hook--:"/>  <!-- F-->
+				<hacking power="1" room="12" start="false" img=":!--hook hackingImageKes hook--:"> <!-- F-->
+					<slot>
+						<direction>down</direction>
+						<number>0</number> 
+					</slot>
+				</hacking>
+				<!--hook artiKes hook-->
+			</systemList>
+			<maxPower amount ="7"/>
+		</Asset>
+		<Asset metaData="improved sensors">
+			<systemList>
+				<pilot power="1" room="0" start="true" img=":!--hook pilotImageKes hook--:">
+					<slot>
+						<direction>right</direction>
+						<number>0</number> 
+					</slot>
+				</pilot>
+				<doors power="1" room="2" start="true" img=":!--hook doorsImageKes hook--:">
+					<slot>
+						<direction>up</direction>
+						<number>1</number> 
+					</slot>
+				</doors>
+				<sensors power="2" room="3" start="true" img=":!--hook sensorsImageKes hook--:">
+					<slot>
+						<direction>down</direction>
+						<number>1</number> 
+					</slot>
+				</sensors>   
+				<medbay power="1" room="4" start="true" >
+					<slot>
+						<number>1</number> 
+					</slot>
+				</medbay>
+				<clonebay power="1" room="4" start="false"> <!-- T????-->
+					<slot>
+						<number>1</number> 
+					</slot>
+				</clonebay>
+				<oxygen power="1"  room="13" start="true" img=":!--hook oxygenImageKes hook--:"/>
+				<shields power="2" room="5" start="true" img=":!--hook shieldsImageKes hook--:"/>
+				<engines power="2" room="14" start="true" img=":!--hook enginesImageKes hook--:"/>
+				<weapons power="3" room="10" start="true" img=":!--hook weaponsImageKes hook--:"/>
+				<drones power="2" room="1" start="false" img=":!--hook dronesImageKes hook--:" />  <!-- F-->
+				<teleporter power="1" room="15"	start="false"/>  <!-- F-->
+				<cloaking power="1" room="8" start="false" img=":!--hook cloakingImageKes hook--:" />  <!-- F-->
+				<battery power="1" room="11" start="false" img=":!--hook batteryImageKes hook--:"/>    <!-- F-->
+				<mind power="1" room="7" start="false" img=":!--hook mindImageKes hook--:"/>  <!-- F-->
+				<hacking power="1" room="12" start="false" img=":!--hook hackingImageKes hook--:"> <!-- F-->
+					<slot>
+						<direction>down</direction>
+						<number>0</number> 
+					</slot>
+				</hacking>
+				<!--hook artiKes hook-->
+			</systemList>
+			<maxPower amount ="7"/>
+		</Asset>
+		<Asset metaData="improved o2">
+			<systemList>
+				<pilot power="1" room="0" start="true" img=":!--hook pilotImageKes hook--:">
+					<slot>
+						<direction>right</direction>
+						<number>0</number> 
+					</slot>
+				</pilot>
+				<doors power="1" room="2" start="true" img=":!--hook doorsImageKes hook--:">
+					<slot>
+						<direction>up</direction>
+						<number>1</number> 
+					</slot>
+				</doors>
+				<sensors power="1" room="3" start="true" img=":!--hook sensorsImageKes hook--:">
+					<slot>
+						<direction>down</direction>
+						<number>1</number> 
+					</slot>
+				</sensors>   
+				<medbay power="1" room="4" start="true" >
+					<slot>
+						<number>1</number> 
+					</slot>
+				</medbay>
+				<clonebay power="1" room="4" start="false"> <!-- T????-->
+					<slot>
+						<number>1</number> 
+					</slot>
+				</clonebay>
+				<oxygen power="2"  room="13" start="true" img=":!--hook oxygenImageKes hook--:"/>
+				<shields power="2" room="5" start="true" img=":!--hook shieldsImageKes hook--:"/>
+				<engines power="2" room="14" start="true" img=":!--hook enginesImageKes hook--:"/>
+				<weapons power="3" room="10" start="true" img=":!--hook weaponsImageKes hook--:"/>
+				<drones power="2" room="1" start="false" img=":!--hook dronesImageKes hook--:" />  <!-- F-->
+				<teleporter power="1" room="15"	start="false"/>  <!-- F-->
+				<cloaking power="1" room="8" start="false" img=":!--hook cloakingImageKes hook--:" />  <!-- F-->
+				<battery power="1" room="11" start="false" img=":!--hook batteryImageKes hook--:"/>    <!-- F-->
+				<mind power="1" room="7" start="false" img=":!--hook mindImageKes hook--:"/>  <!-- F-->
+				<hacking power="1" room="12" start="false" img=":!--hook hackingImageKes hook--:"> <!-- F-->
+					<slot>
+						<direction>down</direction>
+						<number>0</number> 
+					</slot>
+				</hacking>
+				<!--hook artiKes hook-->
+			</systemList>
+			<maxPower amount ="7"/>
+		</Asset>
+		<Asset metaData="improved shields">
+			<systemList>
+				<pilot power="1" room="0" start="true" img=":!--hook pilotImageKes hook--:">
+					<slot>
+						<direction>right</direction>
+						<number>0</number> 
+					</slot>
+				</pilot>
+				<doors power="1" room="2" start="true" img=":!--hook doorsImageKes hook--:">
+					<slot>
+						<direction>up</direction>
+						<number>1</number> 
+					</slot>
+				</doors>
+				<sensors power="1" room="3" start="true" img=":!--hook sensorsImageKes hook--:">
+					<slot>
+						<direction>down</direction>
+						<number>1</number> 
+					</slot>
+				</sensors>   
+				<medbay power="1" room="4" start="true" >
+					<slot>
+						<number>1</number> 
+					</slot>
+				</medbay>
+				<clonebay power="1" room="4" start="false">
+					<slot>
+						<number>1</number> 
+					</slot>
+				</clonebay>
+				<oxygen power="1"  room="13" start="true" img=":!--hook oxygenImageKes hook--:"/>
+				<shields power="3" room="5" start="true" img=":!--hook shieldsImageKes hook--:"/>
+				<engines power="1" room="14" start="true" img=":!--hook enginesImageKes hook--:"/>
+				<weapons power="3" room="10" start="true" img=":!--hook weaponsImageKes hook--:"/>
+				<drones power="2" room="1" start="false" img=":!--hook dronesImageKes hook--:" />
+				<teleporter power="1" room="15"	start="false"/>
+				<cloaking power="1" room="8" start="false" img=":!--hook cloakingImageKes hook--:" />
+				<battery power="1" room="11" start="false" img=":!--hook batteryImageKes hook--:"/>
+				<mind power="1" room="7" start="false" img=":!--hook mindImageKes hook--:"/>
+				<hacking power="1" room="12" start="false" img=":!--hook hackingImageKes hook--:">
+					<slot>
+						<direction>down</direction>
+						<number>0</number> 
+					</slot>
+				</hacking>
+				<!--hook artiKes hook-->
+			</systemList>
+			<maxPower amount ="7"/>
+		</Asset>
+		<Asset metaData="improved engines">
+			<systemList>
+				<pilot power="1" room="0" start="true" img=":!--hook pilotImageKes hook--:">
+					<slot>
+						<direction>right</direction>
+						<number>0</number> 
+					</slot>
+				</pilot>
+				<doors power="1" room="2" start="true" img=":!--hook doorsImageKes hook--:">
+					<slot>
+						<direction>up</direction>
+						<number>1</number> 
+					</slot>
+				</doors>
+				<sensors power="1" room="3" start="true" img=":!--hook sensorsImageKes hook--:">
+					<slot>
+						<direction>down</direction>
+						<number>1</number> 
+					</slot>
+				</sensors>   
+				<medbay power="1" room="4" start="true" >
+					<slot>
+						<number>1</number> 
+					</slot>
+				</medbay>
+				<clonebay power="1" room="4" start="false"> <!-- T????-->
+					<slot>
+						<number>1</number> 
+					</slot>
+				</clonebay>
+				<oxygen power="1"  room="13" start="true" img=":!--hook oxygenImageKes hook--:"/>
+				<shields power="2" room="5" start="true" img=":!--hook shieldsImageKes hook--:"/>
+				<engines power="3" room="14" start="true" img=":!--hook enginesImageKes hook--:"/>
+				<weapons power="3" room="10" start="true" img=":!--hook weaponsImageKes hook--:"/>
+				<drones power="2" room="1" start="false" img=":!--hook dronesImageKes hook--:" />  <!-- F-->
+				<teleporter power="1" room="15"	start="false"/>  <!-- F-->
+				<cloaking power="1" room="8" start="false" img=":!--hook cloakingImageKes hook--:" />  <!-- F-->
+				<battery power="1" room="11" start="false" img=":!--hook batteryImageKes hook--:"/>    <!-- F-->
+				<mind power="1" room="7" start="false" img=":!--hook mindImageKes hook--:"/>  <!-- F-->
+				<hacking power="1" room="12" start="false" img=":!--hook hackingImageKes hook--:"> <!-- F-->
+					<slot>
+						<direction>down</direction>
+						<number>0</number> 
+					</slot>
+				</hacking>
+				<!--hook artiKes hook-->
+			</systemList>
+			<maxPower amount ="7"/>
+		</Asset>
+		<Asset metaData="improved weapons">
+			<systemList>
+				<pilot power="1" room="0" start="true" img=":!--hook pilotImageKes hook--:">
+					<slot>
+						<direction>right</direction>
+						<number>0</number> 
+					</slot>
+				</pilot>
+				<doors power="1" room="2" start="true" img=":!--hook doorsImageKes hook--:">
+					<slot>
+						<direction>up</direction>
+						<number>1</number> 
+					</slot>
+				</doors>
+				<sensors power="1" room="3" start="true" img=":!--hook sensorsImageKes hook--:">
+					<slot>
+						<direction>down</direction>
+						<number>1</number> 
+					</slot>
+				</sensors>   
+				<medbay power="1" room="4" start="true" >
+					<slot>
+						<number>1</number> 
+					</slot>
+				</medbay>
+				<clonebay power="1" room="4" start="false"> <!-- T????-->
+					<slot>
+						<number>1</number> 
+					</slot>
+				</clonebay>
+				<oxygen power="1"  room="13" start="true" img=":!--hook oxygenImageKes hook--:"/>
+				<shields power="2" room="5" start="true" img=":!--hook shieldsImageKes hook--:"/>
+				<engines power="1" room="14" start="true" img=":!--hook enginesImageKes hook--:"/>
+				<weapons power="4" room="10" start="true" img=":!--hook weaponsImageKes hook--:"/>
+				<drones power="2" room="1" start="false" img=":!--hook dronesImageKes hook--:" />  <!-- F-->
+				<teleporter power="1" room="15"	start="false"/>  <!-- F-->
+				<cloaking power="1" room="8" start="false" img=":!--hook cloakingImageKes hook--:" />  <!-- F-->
+				<battery power="1" room="11" start="false" img=":!--hook batteryImageKes hook--:"/>    <!-- F-->
+				<mind power="1" room="7" start="false" img=":!--hook mindImageKes hook--:"/>  <!-- F-->
+				<hacking power="1" room="12" start="false" img=":!--hook hackingImageKes hook--:"> <!-- F-->
+					<slot>
+						<direction>down</direction>
+						<number>0</number> 
+					</slot>
+				</hacking>
+				<!--hook artiKes hook-->
+			</systemList>
+			<maxPower amount ="7"/>
+		</Asset>
+		<Asset metaData="improved reactor">
+			<systemList>
+				<pilot power="1" room="0" start="true" img=":!--hook pilotImageKes hook--:">
+					<slot>
+						<direction>right</direction>
+						<number>0</number> 
+					</slot>
+				</pilot>
+				<doors power="1" room="2" start="true" img=":!--hook doorsImageKes hook--:">
+					<slot>
+						<direction>up</direction>
+						<number>1</number> 
+					</slot>
+				</doors>
+				<sensors power="1" room="3" start="true" img=":!--hook sensorsImageKes hook--:">
+					<slot>
+						<direction>down</direction>
+						<number>1</number> 
+					</slot>
+				</sensors>   
+				<medbay power="1" room="4" start="true" >
+					<slot>
+						<number>1</number> 
+					</slot>
+				</medbay>
+				<clonebay power="1" room="4" start="false"> <!-- T????-->
+					<slot>
+						<number>1</number> 
+					</slot>
+				</clonebay>
+				<oxygen power="1"  room="13" start="true" img=":!--hook oxygenImageKes hook--:"/>
+				<shields power="2" room="5" start="true" img=":!--hook shieldsImageKes hook--:"/>
+				<engines power="1" room="14" start="true" img=":!--hook enginesImageKes hook--:"/>
+				<weapons power="3" room="10" start="true" img=":!--hook weaponsImageKes hook--:"/>
+				<drones power="2" room="1" start="false" img=":!--hook dronesImageKes hook--:" />  <!-- F-->
+				<teleporter power="1" room="15"	start="false"/>  <!-- F-->
+				<cloaking power="1" room="8" start="false" img=":!--hook cloakingImageKes hook--:" />  <!-- F-->
+				<battery power="1" room="11" start="false" img=":!--hook batteryImageKes hook--:"/>    <!-- F-->
+				<mind power="1" room="7" start="false" img=":!--hook mindImageKes hook--:"/>  <!-- F-->
+				<hacking power="1" room="12" start="false" img=":!--hook hackingImageKes hook--:"> <!-- F-->
+					<slot>
+						<direction>down</direction>
+						<number>0</number> 
+					</slot>
+				</hacking>
+				<!--hook artiKes hook-->
+			</systemList>
+			<maxPower amount ="9"/>
+		</Asset>
+		<Asset metaData="cloaking with downgraded systems">
+			<systemList>
+				<pilot power="1" room="0" start="true" img=":!--hook pilotImageKes hook--:">
+					<slot>
+						<direction>right</direction>
+						<number>0</number> 
+					</slot>
+				</pilot>
+				<doors power="1" room="2" start="false" img=":!--hook doorsImageKes hook--:">
+					<slot>
+						<direction>up</direction>
+						<number>1</number> 
+					</slot>
+				</doors>
+				<sensors power="1" room="3" start="false" img=":!--hook sensorsImageKes hook--:">
+					<slot>
+						<direction>down</direction>
+						<number>1</number> 
+					</slot>
+				</sensors>   
+				<medbay power="1" room="4" start="true" >
+					<slot>
+						<number>1</number> 
+					</slot>
+				</medbay>
+				<clonebay power="1" room="4" start="false"> <!-- T????-->
+					<slot>
+						<number>1</number> 
+					</slot>
+				</clonebay>
+				<oxygen power="1"  room="13" start="true" img=":!--hook oxygenImageKes hook--:"/>
+				<shields power="2" room="5" start="true" img=":!--hook shieldsImageKes hook--:"/>
+				<engines power="1" room="14" start="true" img=":!--hook enginesImageKes hook--:"/>
+				<weapons power="3" room="10" start="true" img=":!--hook weaponsImageKes hook--:"/>
+				<drones power="2" room="1" start="false" img=":!--hook dronesImageKes hook--:" />  <!-- F-->
+				<teleporter power="1" room="15"	start="false"/>  <!-- F-->
+				<cloaking power="1" room="8" start="true" img=":!--hook cloakingImageKes hook--:" />  <!-- F-->
+				<battery power="1" room="11" start="false" img=":!--hook batteryImageKes hook--:"/>    <!-- F-->
+				<mind power="1" room="7" start="false" img=":!--hook mindImageKes hook--:"/>  <!-- F-->
+				<hacking power="1" room="12" start="false" img=":!--hook hackingImageKes hook--:"> <!-- F-->
+					<slot>
+						<direction>down</direction>
+						<number>0</number> 
+					</slot>
+				</hacking>
+				<!--hook artiKes hook-->
+			</systemList>
+			<maxPower amount ="7"/>
+		</Asset>
+		<Asset metaData="hacker with downgraded weapons">
+			<systemList>
+				<pilot power="1" room="0" start="true" img=":!--hook pilotImageKes hook--:">
+					<slot>
+						<direction>right</direction>
+						<number>0</number> 
+					</slot>
+				</pilot>
+				<doors power="1" room="2" start="true" img=":!--hook doorsImageKes hook--:">
+					<slot>
+						<direction>up</direction>
+						<number>1</number> 
+					</slot>
+				</doors>
+				<sensors power="1" room="3" start="true" img=":!--hook sensorsImageKes hook--:">
+					<slot>
+						<direction>down</direction>
+						<number>1</number> 
+					</slot>
+				</sensors>   
+				<medbay power="1" room="4" start="true" >
+					<slot>
+						<number>1</number> 
+					</slot>
+				</medbay>
+				<clonebay power="1" room="4" start="false"> <!-- T????-->
+					<slot>
+						<number>1</number> 
+					</slot>
+				</clonebay>
+				<oxygen power="1"  room="13" start="true" img=":!--hook oxygenImageKes hook--:"/>
+				<shields power="2" room="5" start="true" img=":!--hook shieldsImageKes hook--:"/>
+				<engines power="1" room="14" start="true" img=":!--hook enginesImageKes hook--:"/>
+				<weapons power="2" room="10" start="true" img=":!--hook weaponsImageKes hook--:"/>
+				<drones power="2" room="1" start="false" img=":!--hook dronesImageKes hook--:" />  <!-- F-->
+				<teleporter power="1" room="15"	start="false"/>  <!-- F-->
+				<cloaking power="1" room="8" start="false" img=":!--hook cloakingImageKes hook--:" />  <!-- F-->
+				<battery power="1" room="11" start="false" img=":!--hook batteryImageKes hook--:"/>    <!-- F-->
+				<mind power="1" room="7" start="false" img=":!--hook mindImageKes hook--:"/>  <!-- F-->
+				<hacking power="1" room="12" start="true" img=":!--hook hackingImageKes hook--:"> <!-- F-->
+					<slot>
+						<direction>down</direction>
+						<number>0</number> 
+					</slot>
+				</hacking>
+				<!--hook artiKes hook-->
+			</systemList>
+			<maxPower amount ="7"/>
+		</Asset>
+		<Asset metaData="clonebay">
+			<systemList>
+				<pilot power="1" room="0" start="true" img=":!--hook pilotImageKes hook--:">
+					<slot>
+						<direction>right</direction>
+						<number>0</number> 
+					</slot>
+				</pilot>
+				<doors power="1" room="2" start="true" img=":!--hook doorsImageKes hook--:">
+					<slot>
+						<direction>up</direction>
+						<number>1</number> 
+					</slot>
+				</doors>
+				<sensors power="1" room="3" start="true" img=":!--hook sensorsImageKes hook--:">
+					<slot>
+						<direction>down</direction>
+						<number>1</number> 
+					</slot>
+				</sensors>   
+				<medbay power="1" room="4" start="false" >  <!-- F????-->
+					<slot>
+						<number>1</number> 
+					</slot>
+				</medbay>
+				<clonebay power="1" room="4" start="true"> <!-- T????-->
+					<slot>
+						<number>1</number> 
+					</slot>
+				</clonebay>
+				<oxygen power="1"  room="13" start="true" img=":!--hook oxygenImageKes hook--:"/>
+				<shields power="2" room="5" start="true" img=":!--hook shieldsImageKes hook--:"/>
+				<engines power="2" room="14" start="true" img=":!--hook enginesImageKes hook--:"/>
+				<weapons power="3" room="10" start="true" img=":!--hook weaponsImageKes hook--:"/>
+				<drones power="2" room="1" start="false" img=":!--hook dronesImageKes hook--:" />  <!-- F-->
+				<teleporter power="1" room="15"	start="false"/>  <!-- F-->
+				<cloaking power="1" room="8" start="false" img=":!--hook cloakingImageKes hook--:" />  <!-- F-->
+				<battery power="1" room="11" start="false" img=":!--hook batteryImageKes hook--:"/>    <!-- F-->
+				<mind power="1" room="7" start="false" img=":!--hook mindImageKes hook--:"/>  <!-- F-->
+				<hacking power="1" room="12" start="false" img=":!--hook hackingImageKes hook--:"> <!-- F-->
+					<slot>
+						<direction>down</direction>
+						<number>0</number> 
+					</slot>
+				</hacking>
+				<!--hook artiKes hook-->
+			</systemList>
+			<maxPower amount ="8"/>
+		</Asset>
+		<Asset metaData="2nd shield, degraded systems">
+			<systemList>
+				<pilot power="1" room="0" start="true" img=":!--hook pilotImageKes hook--:">
+					<slot>
+						<direction>right</direction>
+						<number>0</number> 
+					</slot>
+				</pilot>
+				<doors power="1" room="2" start="false" img=":!--hook doorsImageKes hook--:">
+					<slot>
+						<direction>up</direction>
+						<number>1</number> 
+					</slot>
+				</doors>
+				<sensors power="1" room="3" start="true" img=":!--hook sensorsImageKes hook--:">
+					<slot>
+						<direction>down</direction>
+						<number>1</number> 
+					</slot>
+				</sensors>   
+				<medbay power="1" room="4" start="true" >  <!-- F????-->
+					<slot>
+						<number>1</number> 
+					</slot>
+				</medbay>
+				<clonebay power="1" room="4" start="false"> <!-- T????-->
+					<slot>
+						<number>1</number> 
+					</slot>
+				</clonebay>
+				<oxygen power="1"  room="13" start="true" img=":!--hook oxygenImageKes hook--:"/>
+				<shields power="4" room="5" start="true" img=":!--hook shieldsImageKes hook--:"/>
+				<engines power="2" room="14" start="true" img=":!--hook enginesImageKes hook--:"/>
+				<weapons power="2" room="10" start="true" img=":!--hook weaponsImageKes hook--:"/>
+				<drones power="2" room="1" start="false" img=":!--hook dronesImageKes hook--:" />  <!-- F-->
+				<teleporter power="1" room="15"	start="false"/>  <!-- F-->
+				<cloaking power="1" room="8" start="false" img=":!--hook cloakingImageKes hook--:" />  <!-- F-->
+				<battery power="1" room="11" start="false" img=":!--hook batteryImageKes hook--:"/>    <!-- F-->
+				<mind power="1" room="7" start="false" img=":!--hook mindImageKes hook--:"/>  <!-- F-->
+				<hacking power="1" room="12" start="false" img=":!--hook hackingImageKes hook--:"> <!-- F-->
+					<slot>
+						<direction>down</direction>
+						<number>0</number> 
+					</slot>
+				</hacking>
+				<!--hook artiKes hook-->
+			</systemList>
+			<maxPower amount ="8"/>
+		</Asset>
+		<Asset metaData="advanced engines, no doors, weaker weapons">
+			<systemList>
+				<pilot power="1" room="0" start="true" img=":!--hook pilotImageKes hook--:">
+					<slot>
+						<direction>right</direction>
+						<number>0</number> 
+					</slot>
+				</pilot>
+				<doors power="1" room="2" start="false" img=":!--hook doorsImageKes hook--:">
+					<slot>
+						<direction>up</direction>
+						<number>1</number> 
+					</slot>
+				</doors>
+				<sensors power="1" room="3" start="true" img=":!--hook sensorsImageKes hook--:">
+					<slot>
+						<direction>down</direction>
+						<number>1</number> 
+					</slot>
+				</sensors>   
+				<medbay power="1" room="4" start="true" >  <!-- F????-->
+					<slot>
+						<number>1</number> 
+					</slot>
+				</medbay>
+				<clonebay power="1" room="4" start="false"> <!-- T????-->
+					<slot>
+						<number>1</number> 
+					</slot>
+				</clonebay>
+				<oxygen power="1"  room="13" start="true" img=":!--hook oxygenImageKes hook--:"/>
+				<shields power="2" room="5" start="true" img=":!--hook shieldsImageKes hook--:"/>
+				<engines power="4" room="14" start="true" img=":!--hook enginesImageKes hook--:"/>
+				<weapons power="2" room="10" start="true" img=":!--hook weaponsImageKes hook--:"/>
+				<drones power="2" room="1" start="false" img=":!--hook dronesImageKes hook--:" />  <!-- F-->
+				<teleporter power="1" room="15"	start="false"/>  <!-- F-->
+				<cloaking power="1" room="8" start="false" img=":!--hook cloakingImageKes hook--:" />  <!-- F-->
+				<battery power="1" room="11" start="false" img=":!--hook batteryImageKes hook--:"/>    <!-- F-->
+				<mind power="1" room="7" start="false" img=":!--hook mindImageKes hook--:"/>  <!-- F-->
+				<hacking power="1" room="12" start="false" img=":!--hook hackingImageKes hook--:"> <!-- F-->
+					<slot>
+						<direction>down</direction>
+						<number>0</number> 
+					</slot>
+				</hacking>
+				<!--hook artiKes hook-->
+			</systemList>
+			<maxPower amount ="9"/>
+		</Asset>
+		<Asset metaData="improved medbay and doors, no sensors, weaker engines">
+			<systemList>
+				<pilot power="1" room="0" start="true" img=":!--hook pilotImageKes hook--:">
+					<slot>
+						<direction>right</direction>
+						<number>0</number> 
+					</slot>
+				</pilot>
+				<doors power="2" room="2" start="true" img=":!--hook doorsImageKes hook--:">
+					<slot>
+						<direction>up</direction>
+						<number>1</number> 
+					</slot>
+				</doors>
+				<sensors power="1" room="3" start="false" img=":!--hook sensorsImageKes hook--:">
+					<slot>
+						<direction>down</direction>
+						<number>1</number> 
+					</slot>
+				</sensors>   
+				<medbay power="2" room="4" start="true" >  <!-- F????-->
+					<slot>
+						<number>1</number> 
+					</slot>
+				</medbay>
+				<clonebay power="1" room="4" start="false"> <!-- T????-->
+					<slot>
+						<number>1</number> 
+					</slot>
+				</clonebay>
+				<oxygen power="1"  room="13" start="true" img=":!--hook oxygenImageKes hook--:"/>
+				<shields power="2" room="5" start="true" img=":!--hook shieldsImageKes hook--:"/>
+				<engines power="1" room="14" start="true" img=":!--hook enginesImageKes hook--:"/>
+				<weapons power="3" room="10" start="true" img=":!--hook weaponsImageKes hook--:"/>
+				<drones power="2" room="1" start="false" img=":!--hook dronesImageKes hook--:" />  <!-- F-->
+				<teleporter power="1" room="15"	start="false"/>  <!-- F-->
+				<cloaking power="1" room="8" start="false" img=":!--hook cloakingImageKes hook--:" />  <!-- F-->
+				<battery power="1" room="11" start="false" img=":!--hook batteryImageKes hook--:"/>    <!-- F-->
+				<mind power="1" room="7" start="false" img=":!--hook mindImageKes hook--:"/>  <!-- F-->
+				<hacking power="1" room="12" start="false" img=":!--hook hackingImageKes hook--:"> <!-- F-->
+					<slot>
+						<direction>down</direction>
+						<number>0</number> 
+					</slot>
+				</hacking>
+				<!--hook artiKes hook-->
+			</systemList>
+			<maxPower amount ="8"/>
+		</Asset>
+		<Asset metaData="advanced weapons, better sensors, no doors, weaker engines">
+			<systemList>
+				<pilot power="1" room="0" start="true" img=":!--hook pilotImageKes hook--:">
+					<slot>
+						<direction>right</direction>
+						<number>0</number> 
+					</slot>
+				</pilot>
+				<doors power="1" room="2" start="false" img=":!--hook doorsImageKes hook--:">
+					<slot>
+						<direction>up</direction>
+						<number>1</number> 
+					</slot>
+				</doors>
+				<sensors power="2" room="3" start="true" img=":!--hook sensorsImageKes hook--:">
+					<slot>
+						<direction>down</direction>
+						<number>1</number> 
+					</slot>
+				</sensors>   
+				<medbay power="1" room="4" start="true" >  <!-- F????-->
+					<slot>
+						<number>1</number> 
+					</slot>
+				</medbay>
+				<clonebay power="1" room="4" start="false"> <!-- T????-->
+					<slot>
+						<number>1</number> 
+					</slot>
+				</clonebay>
+				<oxygen power="1"  room="13" start="true" img=":!--hook oxygenImageKes hook--:"/>
+				<shields power="2" room="5" start="true" img=":!--hook shieldsImageKes hook--:"/>
+				<engines power="1" room="14" start="true" img=":!--hook enginesImageKes hook--:"/>
+				<weapons power="4" room="10" start="true" img=":!--hook weaponsImageKes hook--:"/>
+				<drones power="2" room="1" start="false" img=":!--hook dronesImageKes hook--:" />  <!-- F-->
+				<teleporter power="1" room="15"	start="false"/>  <!-- F-->
+				<cloaking power="1" room="8" start="false" img=":!--hook cloakingImageKes hook--:" />  <!-- F-->
+				<battery power="1" room="11" start="false" img=":!--hook batteryImageKes hook--:"/>    <!-- F-->
+				<mind power="1" room="7" start="false" img=":!--hook mindImageKes hook--:"/>  <!-- F-->
+				<hacking power="1" room="12" start="false" img=":!--hook hackingImageKes hook--:"> <!-- F-->
+					<slot>
+						<direction>down</direction>
+						<number>0</number> 
+					</slot>
+				</hacking>
+				<!--hook artiKes hook-->
+			</systemList>
+			<maxPower amount ="8"/>
+		</Asset>
+		<Asset metaData="weaker reactor, has battery">
+			<systemList>
+				<pilot power="1" room="0" start="true" img=":!--hook pilotImageKes hook--:">
+					<slot>
+						<direction>right</direction>
+						<number>0</number> 
+					</slot>
+				</pilot>
+				<doors power="1" room="2" start="true" img=":!--hook doorsImageKes hook--:">
+					<slot>
+						<direction>up</direction>
+						<number>1</number> 
+					</slot>
+				</doors>
+				<sensors power="1" room="3" start="true" img=":!--hook sensorsImageKes hook--:">
+					<slot>
+						<direction>down</direction>
+						<number>1</number> 
+					</slot>
+				</sensors>   
+				<medbay power="1" room="4" start="true" >  <!-- F????-->
+					<slot>
+						<number>1</number> 
+					</slot>
+				</medbay>
+				<clonebay power="1" room="4" start="false"> <!-- T????-->
+					<slot>
+						<number>1</number> 
+					</slot>
+				</clonebay>
+				<oxygen power="1"  room="13" start="true" img=":!--hook oxygenImageKes hook--:"/>
+				<shields power="2" room="5" start="true" img=":!--hook shieldsImageKes hook--:"/>
+				<engines power="2" room="14" start="true" img=":!--hook enginesImageKes hook--:"/>
+				<weapons power="3" room="10" start="true" img=":!--hook weaponsImageKes hook--:"/>
+				<drones power="2" room="1" start="false" img=":!--hook dronesImageKes hook--:" />  <!-- F-->
+				<teleporter power="1" room="15"	start="false"/>  <!-- F-->
+				<cloaking power="1" room="8" start="false" img=":!--hook cloakingImageKes hook--:" />  <!-- F-->
+				<battery power="1" room="11" start="true" img=":!--hook batteryImageKes hook--:"/>    <!-- F-->
+				<mind power="1" room="7" start="false" img=":!--hook mindImageKes hook--:"/>  <!-- F-->
+				<hacking power="1" room="12" start="false" img=":!--hook hackingImageKes hook--:"> <!-- F-->
+					<slot>
+						<direction>down</direction>
+						<number>0</number> 
+					</slot>
+				</hacking>
+				<!--hook artiKes hook-->
+			</systemList>
+			<maxPower amount ="6"/>
+		</Asset>
+	</Hook>
+</HookBase>

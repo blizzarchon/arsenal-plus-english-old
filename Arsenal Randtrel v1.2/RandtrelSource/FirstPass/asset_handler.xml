@@ -1,0 +1,61 @@
+<AssetBase>
+	<Action dirCopy="../Ships/Common/img/customizeUI" destination="img/customizeUI" />
+	<Action dirCopy="../Ships/Common/img/ship" destination="img/ship" />	
+	<Action randomizeHook="../Crew Pool/meta_crew_pool.xml" multiRand=""/>
+	<Action randomizeHook="arti_fed_name.xml" multiRand=""/>
+	<!-- The following are ship specific re-randomizations -->
+	<!-- Kestral -->
+	<Action randomizeHook="../Weapon Data/meta_weapon_pool_kes.xml" multiRand=""/>
+	<Action randomizeHook="../System Pool/meta_system_pool_kes.xml" multiRand=""/>
+	<Action selectDir="../Layouts/Kestrel" destination="data" metaData="meta_data.xml" uniqueSelect="" />
+	<Action selectDir="../Ships/Kestrel" destination="img/ship" metaData="meta_data.txt" uniqueSelect="" />
+	<!-- Engi -->
+	<Action randomizeHook="../Weapon Data/meta_weapon_pool_eng.xml" multiRand=""/>
+	<Action randomizeHook="../System Pool/meta_system_pool_eng.xml" multiRand=""/>
+	<Action selectDir="../Layouts/Engi" destination="data" metaData="meta_data.xml" uniqueSelect="" />
+	<Action selectDir="../Ships/Engi" destination="img/ship" metaData="meta_data.txt" uniqueSelect="" />
+	<!-- Stealth -->
+	<Action randomizeHook="../Weapon Data/meta_weapon_pool_stl.xml" multiRand=""/>
+	<Action randomizeHook="../System Pool/meta_system_pool_stl.xml" multiRand=""/>
+	<Action selectDir="../Layouts/Stealth" destination="data" metaData="meta_data.xml" uniqueSelect="" />
+	<Action selectDir="../Ships/Stealth" destination="img/ship" metaData="meta_data.txt" uniqueSelect="" />
+	<!-- Rock -->
+	<Action randomizeHook="../Weapon Data/meta_weapon_pool_rck.xml" multiRand=""/>
+	<Action randomizeHook="../System Pool/meta_system_pool_rck.xml" multiRand=""/>
+	<Action selectDir="../Layouts/Rock" destination="data" metaData="meta_data.xml" uniqueSelect="" />
+	<Action selectDir="../Ships/Rock" destination="img/ship" metaData="meta_data.txt" uniqueSelect="" />
+	<!-- Mantis -->
+	<Action randomizeHook="../Weapon Data/meta_weapon_pool_mts.xml" multiRand=""/>
+	<Action randomizeHook="../System Pool/meta_system_pool_mts.xml" multiRand=""/>
+	<Action selectDir="../Layouts/Mantis" destination="data" metaData="meta_data.xml" uniqueSelect="" />
+	<Action selectDir="../Ships/Mantis" destination="img/ship" metaData="meta_data.txt" uniqueSelect="" />
+	<!-- Fed -->
+	<Action randomizeHook="../Weapon Data/meta_weapon_pool_fed.xml" multiRand=""/>
+	<Action randomizeHook="../System Pool/meta_system_pool_fed.xml" multiRand=""/>
+	<Action selectDir="../Layouts/Fed" destination="data" metaData="meta_data.xml" uniqueSelect="" />
+	<Action selectDir="../Ships/Fed" destination="img/ship" metaData="meta_data.txt" uniqueSelect="" />
+	<!-- Slug -->
+	<Action randomizeHook="../Weapon Data/meta_weapon_pool_slg.xml" multiRand=""/>
+	<Action randomizeHook="../System Pool/meta_system_pool_slg.xml" multiRand=""/>
+	<Action selectDir="../Layouts/Slug" destination="data" metaData="meta_data.xml" uniqueSelect="" />
+	<Action selectDir="../Ships/Slug" destination="img/ship" metaData="meta_data.txt" uniqueSelect="" />
+	<!-- Zoltan -->
+	<Action randomizeHook="../Weapon Data/meta_weapon_pool_zlt.xml" multiRand=""/>
+	<Action randomizeHook="../System Pool/meta_system_pool_zlt.xml" multiRand=""/>
+	<Action selectDir="../Layouts/Zoltan" destination="data" metaData="meta_data.xml" uniqueSelect="" />
+	<Action selectDir="../Ships/Zoltan" destination="img/ship" metaData="meta_data.txt" uniqueSelect="" />
+	<!-- Crystal -->
+	<Action randomizeHook="../Weapon Data/meta_weapon_pool_ctl.xml" multiRand=""/>
+	<Action randomizeHook="../System Pool/meta_system_pool_ctl.xml" multiRand=""/>
+	<Action selectDir="../Layouts/Crystal" destination="data" metaData="meta_data.xml" uniqueSelect="" />
+	<Action selectDir="../Ships/Crystal" destination="img/ship" metaData="meta_data.txt" uniqueSelect="" />
+	<!-- Lanius -->
+	<Action randomizeHook="../Weapon Data/meta_weapon_pool_lns.xml" multiRand=""/>
+	<Action randomizeHook="../System Pool/meta_system_pool_lns.xml" multiRand=""/>
+	<Action selectDir="../Layouts/Lanius" destination="data" metaData="meta_data.xml" uniqueSelect="" />
+	<Action selectDir="../Ships/Lanius" destination="img/ship" metaData="meta_data.txt" uniqueSelect="" />
+	
+	<!-- create skeleton files for primary ships -->
+	<Action skeleton="blueprints.xml.append" destination="data" />
+	<Action skeleton="dlcBlueprints.xml.append" destination="data" />	
+</AssetBase>

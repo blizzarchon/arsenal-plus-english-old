@@ -1,0 +1,17 @@
+<MetaDataBase>
+    <MetaData>layout 5</MetaData>
+    <Hook id="pilotImageEng">room_pilot</Hook>
+    <Hook id="shieldsImageEng">room_shields_4</Hook>
+    <Hook id="weaponsImageEng">room_weapons</Hook>
+    <Hook id="batteryImageEng">room_battery_6</Hook>
+    <Hook id="doorsImageEng">room_doors_4</Hook>
+    <Hook id="enginesImageEng">room_engines_2</Hook>
+    <Hook id="oxygenImageEng">room_oxygen_4</Hook>
+    <Hook id="sensorsImageEng">room_sensors_4</Hook>
+    <Hook id="hackingImageEng">room_hacking_2</Hook>
+    <Hook id="dronesImageEng">room_drones</Hook>
+    <Hook id="cloakingImageEng">room_cloaking_4</Hook>
+    <Hook id="medbayImageEng">room_medbay</Hook>
+    <Hook id="mindImageEng">room_mind_6</Hook>
+    <Action dirCopy="img/ship" destination="img/ship" />
+</MetaDataBase>

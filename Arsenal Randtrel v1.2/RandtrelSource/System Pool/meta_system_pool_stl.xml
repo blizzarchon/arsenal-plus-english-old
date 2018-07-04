@@ -1,0 +1,818 @@
+<HookBase>
+	<Hook id="artiStl" metaDataId="artiStlData">
+		<Asset metaData="Stealth Arti system" build="ARS">
+			<artillery power="2" max="4" room="2" start="false" weapon="ARTILLERY_PL_ONI" img="room_artillery_stub" />
+		</Asset>
+	</Hook>
+	<Hook id="SystemsPowerStl" metaDataId="SystemsPowerStlData">
+		<Asset metaData="improved medbay">
+			<systemList>
+				<pilot power="1" room="0" start="true" img=":!--hook pilotImageStl hook--:" />
+				<doors power="1" room="14" start="true" img=":!--hook doorsImageStl hook--:">
+					<slot>
+						<direction>down</direction>
+						<number>0</number>
+					</slot>
+				</doors>
+				<sensors power="2" room="13" start="true" img=":!--hook sensorsImageStl hook--:">
+					<slot>
+						<direction>up</direction>
+						<number>0</number>
+					</slot>
+				</sensors>
+				<oxygen power="1" room="1" start="true" img=":!--hook oxygenImageStl hook--:" />
+				<engines power="4" room="12" start="true" img=":!--hook enginesImageStl hook--:">
+				<!--hook enginesSlotStl hook-->
+				</engines>
+				<shields power="2" room="10" start="false" img=":!--hook shieldsImageStl hook--:" />
+				<!--F-->
+				<weapons power="2" room="3" start="true" img=":!--hook weaponsImageStl hook--:" />
+				<drones power="2" room="11" start="false" img=":!--hook dronesImageStl hook--:" />
+				<!--F-->
+				<medbay power="2" room="7" start="true" />
+				<clonebay power="1" room="7" start="false" />
+				<!--F-->
+				<teleporter power="1" room="5" start="false" />
+				<!--F-->
+				<cloaking power="1" room="8" start="true" img=":!--hook cloakingImageStl hook--:" />
+				<hacking power="1" room="6" start="false" img=":!--hook hackingImageStl hook--:">
+					<!-- F-->
+					<slot>
+						<direction>down</direction>
+						<number>0</number>
+					</slot>
+				</hacking>
+				<battery power="1" room="4" start="false" img=":!--hook batteryImageStl hook--:" />
+				<!-- F-->
+				<mind power="1" room="9" start="false" img=":!--hook mindImageStl hook--:" />
+				<!-- F-->
+				<!--hook artiStl hook-->
+			</systemList>
+			<maxPower amount ="7"/>
+			<weaponSlots>3</weaponSlots>
+			<droneSlots>2</droneSlots>
+			<!--hook WeaponsStealth hook-->
+			<droneList count="0" drones="0" />
+			<aug name="SYSTEM_CASING" />
+		</Asset>
+		<Asset metaData="improved doors, regular sensors">
+			<systemList>
+				<pilot power="1" room="0" start="true" img=":!--hook pilotImageStl hook--:" />
+				<doors power="2" room="14" start="true" img=":!--hook doorsImageStl hook--:">
+					<slot>
+						<direction>down</direction>
+						<number>0</number>
+					</slot>
+				</doors>
+				<sensors power="1" room="13" start="true" img=":!--hook sensorsImageStl hook--:">
+					<slot>
+						<direction>up</direction>
+						<number>0</number>
+					</slot>
+				</sensors>
+				<oxygen power="1" room="1" start="true" img=":!--hook oxygenImageStl hook--:" />
+				<engines power="4" room="12" start="true" img=":!--hook enginesImageStl hook--:">
+				<!--hook enginesSlotStl hook-->
+				</engines>
+				<shields power="2" room="10" start="false" img=":!--hook shieldsImageStl hook--:" />
+				<!--F-->
+				<weapons power="2" room="3" start="true" img=":!--hook weaponsImageStl hook--:" />
+				<drones power="2" room="11" start="false" img=":!--hook dronesImageStl hook--:" />
+				<!--F-->
+				<medbay power="1" room="7" start="true" />
+				<clonebay power="1" room="7" start="false" />
+				<!--F-->
+				<teleporter power="1" room="5" start="false" />
+				<!--F-->
+				<cloaking power="1" room="8" start="true" img=":!--hook cloakingImageStl hook--:" />
+				<hacking power="1" room="6" start="false" img=":!--hook hackingImageStl hook--:">
+					<!-- F-->
+					<slot>
+						<direction>down</direction>
+						<number>0</number>
+					</slot>
+				</hacking>
+				<battery power="1" room="4" start="false" img=":!--hook batteryImageStl hook--:" />
+				<!-- F-->
+				<mind power="1" room="9" start="false" img=":!--hook mindImageStl hook--:" />
+				<!-- F-->
+				<!--hook artiStl hook-->
+			</systemList>
+			<maxPower amount ="7"/>
+			<weaponSlots>3</weaponSlots>
+			<droneSlots>2</droneSlots>
+			<!--hook WeaponsStealth hook-->
+			<droneList count="0" drones="0" />
+			<aug name="SYSTEM_CASING" />
+		</Asset>
+		<Asset metaData="improved pilot, less power">
+			<systemList>
+				<pilot power="2" room="0" start="true" img=":!--hook pilotImageStl hook--:" />
+				<doors power="1" room="14" start="true" img=":!--hook doorsImageStl hook--:">
+					<slot>
+						<direction>down</direction>
+						<number>0</number>
+					</slot>
+				</doors>
+				<sensors power="2" room="13" start="true" img=":!--hook sensorsImageStl hook--:">
+					<slot>
+						<direction>up</direction>
+						<number>0</number>
+					</slot>
+				</sensors>
+				<oxygen power="1" room="1" start="true" img=":!--hook oxygenImageStl hook--:" />
+				<engines power="4" room="12" start="true" img=":!--hook enginesImageStl hook--:">
+				<!--hook enginesSlotStl hook-->
+				</engines>
+				<shields power="2" room="10" start="false" img=":!--hook shieldsImageStl hook--:" />
+				<!--F-->
+				<weapons power="2" room="3" start="true" img=":!--hook weaponsImageStl hook--:" />
+				<drones power="2" room="11" start="false" img=":!--hook dronesImageStl hook--:" />
+				<!--F-->
+				<medbay power="1" room="7" start="true" />
+				<clonebay power="1" room="7" start="false" />
+				<!--F-->
+				<teleporter power="1" room="5" start="false" />
+				<!--F-->
+				<cloaking power="1" room="8" start="true" img=":!--hook cloakingImageStl hook--:" />
+				<hacking power="1" room="6" start="false" img=":!--hook hackingImageStl hook--:">
+					<!-- F-->
+					<slot>
+						<direction>down</direction>
+						<number>0</number>
+					</slot>
+				</hacking>
+				<battery power="1" room="4" start="false" img=":!--hook batteryImageStl hook--:" />
+				<!-- F-->
+				<mind power="1" room="9" start="false" img=":!--hook mindImageStl hook--:" />
+				<!-- F-->
+				<!--hook artiStl hook-->
+			</systemList>
+			<maxPower amount ="7"/>
+			<weaponSlots>3</weaponSlots>
+			<droneSlots>2</droneSlots>
+			<!--hook WeaponsStealth hook-->
+			<droneList count="0" drones="0" />
+			<aug name="SYSTEM_CASING" />
+		</Asset>
+		<Asset metaData="improved weapons, less engines">
+			<systemList>
+				<pilot power="1" room="0" start="true" img=":!--hook pilotImageStl hook--:" />
+				<doors power="1" room="14" start="true" img=":!--hook doorsImageStl hook--:">
+					<slot>
+						<direction>down</direction>
+						<number>0</number>
+					</slot>
+				</doors>
+				<sensors power="2" room="13" start="true" img=":!--hook sensorsImageStl hook--:">
+					<slot>
+						<direction>up</direction>
+						<number>0</number>
+					</slot>
+				</sensors>
+				<oxygen power="1" room="1" start="true" img=":!--hook oxygenImageStl hook--:" />
+				<engines power="3" room="12" start="true" img=":!--hook enginesImageStl hook--:">
+				<!--hook enginesSlotStl hook-->
+				</engines>
+				<shields power="2" room="10" start="false" img=":!--hook shieldsImageStl hook--:" />
+				<!--F-->
+				<weapons power="3" room="3" start="true" img=":!--hook weaponsImageStl hook--:" />
+				<drones power="2" room="11" start="false" img=":!--hook dronesImageStl hook--:" />
+				<!--F-->
+				<medbay power="1" room="7" start="true" />
+				<clonebay power="1" room="7" start="false" />
+				<!--F-->
+				<teleporter power="1" room="5" start="false" />
+				<!--F-->
+				<cloaking power="1" room="8" start="true" img=":!--hook cloakingImageStl hook--:" />
+				<hacking power="1" room="6" start="false" img=":!--hook hackingImageStl hook--:">
+					<!-- F-->
+					<slot>
+						<direction>down</direction>
+						<number>0</number>
+					</slot>
+				</hacking>
+				<battery power="1" room="4" start="false" img=":!--hook batteryImageStl hook--:" />
+				<!-- F-->
+				<mind power="1" room="9" start="false" img=":!--hook mindImageStl hook--:" />
+				<!-- F-->
+				<!--hook artiStl hook-->
+			</systemList>
+			<maxPower amount ="8"/>
+			<weaponSlots>3</weaponSlots>
+			<droneSlots>2</droneSlots>
+			<!--hook WeaponsStealth hook-->
+			<droneList count="0" drones="0" />
+			<aug name="SYSTEM_CASING" />
+		</Asset>
+		<Asset metaData="improved 02">
+			<systemList>
+				<pilot power="1" room="0" start="true" img=":!--hook pilotImageStl hook--:" />
+				<doors power="1" room="14" start="true" img=":!--hook doorsImageStl hook--:">
+					<slot>
+						<direction>down</direction>
+						<number>0</number>
+					</slot>
+				</doors>
+				<sensors power="2" room="13" start="true" img=":!--hook sensorsImageStl hook--:">
+					<slot>
+						<direction>up</direction>
+						<number>0</number>
+					</slot>
+				</sensors>
+				<oxygen power="2" room="1" start="true" img=":!--hook oxygenImageStl hook--:" />
+				<engines power="4" room="12" start="true" img=":!--hook enginesImageStl hook--:">
+				<!--hook enginesSlotStl hook-->
+				</engines>
+				<shields power="2" room="10" start="false" img=":!--hook shieldsImageStl hook--:" />
+				<!--F-->
+				<weapons power="2" room="3" start="true" img=":!--hook weaponsImageStl hook--:" />
+				<drones power="2" room="11" start="false" img=":!--hook dronesImageStl hook--:" />
+				<!--F-->
+				<medbay power="1" room="7" start="true" />
+				<clonebay power="1" room="7" start="false" />
+				<!--F-->
+				<teleporter power="1" room="5" start="false" />
+				<!--F-->
+				<cloaking power="1" room="8" start="true" img=":!--hook cloakingImageStl hook--:" />
+				<hacking power="1" room="6" start="false" img=":!--hook hackingImageStl hook--:">
+					<!-- F-->
+					<slot>
+						<direction>down</direction>
+						<number>0</number>
+					</slot>
+				</hacking>
+				<battery power="1" room="4" start="false" img=":!--hook batteryImageStl hook--:" />
+				<!-- F-->
+				<mind power="1" room="9" start="false" img=":!--hook mindImageStl hook--:" />
+				<!-- F-->
+				<!--hook artiStl hook-->
+			</systemList>
+			<maxPower amount ="8"/>
+			<weaponSlots>3</weaponSlots>
+			<droneSlots>2</droneSlots>
+			<!--hook WeaponsStealth hook-->
+			<droneList count="0" drones="0" />
+			<aug name="SYSTEM_CASING" />
+		</Asset>
+		<Asset metaData="less power, has battery">
+			<systemList>
+				<pilot power="1" room="0" start="true" img=":!--hook pilotImageStl hook--:" />
+				<doors power="1" room="14" start="true" img=":!--hook doorsImageStl hook--:">
+					<slot>
+						<direction>down</direction>
+						<number>0</number>
+					</slot>
+				</doors>
+				<sensors power="2" room="13" start="true" img=":!--hook sensorsImageStl hook--:">
+					<slot>
+						<direction>up</direction>
+						<number>0</number>
+					</slot>
+				</sensors>
+				<oxygen power="1" room="1" start="true" img=":!--hook oxygenImageStl hook--:" />
+				<engines power="4" room="12" start="true" img=":!--hook enginesImageStl hook--:">
+				<!--hook enginesSlotStl hook-->
+				</engines>
+				<shields power="2" room="10" start="false" img=":!--hook shieldsImageStl hook--:" />
+				<!--F-->
+				<weapons power="2" room="3" start="true" img=":!--hook weaponsImageStl hook--:" />
+				<drones power="2" room="11" start="false" img=":!--hook dronesImageStl hook--:" />
+				<!--F-->
+				<medbay power="1" room="7" start="true" />
+				<clonebay power="1" room="7" start="false" />
+				<!--F-->
+				<teleporter power="1" room="5" start="false" />
+				<!--F-->
+				<cloaking power="1" room="8" start="true" img=":!--hook cloakingImageStl hook--:" />
+				<hacking power="1" room="6" start="false" img=":!--hook hackingImageStl hook--:">
+					<!-- F-->
+					<slot>
+						<direction>down</direction>
+						<number>0</number>
+					</slot>
+				</hacking>
+				<battery power="1" room="4" start="true" img=":!--hook batteryImageStl hook--:" />
+				<!-- F-->
+				<mind power="1" room="9" start="false" img=":!--hook mindImageStl hook--:" />
+				<!-- F-->
+				<!--hook artiStl hook-->
+			</systemList>
+			<maxPower amount ="7"/>
+			<weaponSlots>3</weaponSlots>
+			<droneSlots>2</droneSlots>
+			<!--hook WeaponsStealth hook-->
+			<droneList count="0" drones="0" />
+			<aug name="SYSTEM_CASING" />
+		</Asset>
+		<Asset metaData="improved cloaking, lowered engines, lowered sensors">
+			<systemList>
+				<pilot power="1" room="0" start="true" img=":!--hook pilotImageStl hook--:" />
+				<doors power="1" room="14" start="true" img=":!--hook doorsImageStl hook--:">
+					<slot>
+						<direction>down</direction>
+						<number>0</number>
+					</slot>
+				</doors>
+				<sensors power="1" room="13" start="true" img=":!--hook sensorsImageStl hook--:">
+					<slot>
+						<direction>up</direction>
+						<number>0</number>
+					</slot>
+				</sensors>
+				<oxygen power="1" room="1" start="true" img=":!--hook oxygenImageStl hook--:" />
+				<engines power="2" room="12" start="true" img=":!--hook enginesImageStl hook--:">
+				<!--hook enginesSlotStl hook-->
+				</engines>
+				<shields power="2" room="10" start="false" img=":!--hook shieldsImageStl hook--:" />
+				<!--F-->
+				<weapons power="4" room="3" start="true" img=":!--hook weaponsImageStl hook--:" />
+				<drones power="2" room="11" start="false" img=":!--hook dronesImageStl hook--:" />
+				<!--F-->
+				<medbay power="1" room="7" start="true" />
+				<clonebay power="1" room="7" start="false" />
+				<!--F-->
+				<teleporter power="1" room="5" start="false" />
+				<!--F-->
+				<cloaking power="2" room="8" start="true" img=":!--hook cloakingImageStl hook--:" />
+				<hacking power="1" room="6" start="false" img=":!--hook hackingImageStl hook--:">
+					<!-- F-->
+					<slot>
+						<direction>down</direction>
+						<number>0</number>
+					</slot>
+				</hacking>
+				<battery power="1" room="4" start="false" img=":!--hook batteryImageStl hook--:" />
+				<!-- F-->
+				<mind power="1" room="9" start="false" img=":!--hook mindImageStl hook--:" />
+				<!-- F-->
+				<!--hook artiStl hook-->
+			</systemList>
+			<maxPower amount ="8"/>
+			<weaponSlots>3</weaponSlots>
+			<droneSlots>2</droneSlots>
+			<!--hook WeaponsStealthStrong hook-->
+			<droneList count="0" drones="0" />
+			<aug name="SYSTEM_CASING" />
+		</Asset>
+		<Asset metaData="improved cloaking, lowered engines, lowered sensors, less power">
+			<systemList>
+				<pilot power="1" room="0" start="true" img=":!--hook pilotImageStl hook--:" />
+				<doors power="1" room="14" start="true" img=":!--hook doorsImageStl hook--:">
+					<slot>
+						<direction>down</direction>
+						<number>0</number>
+					</slot>
+				</doors>
+				<sensors power="1" room="13" start="true" img=":!--hook sensorsImageStl hook--:">
+					<slot>
+						<direction>up</direction>
+						<number>0</number>
+					</slot>
+				</sensors>
+				<oxygen power="1" room="1" start="true" img=":!--hook oxygenImageStl hook--:" />
+				<engines power="3" room="12" start="true" img=":!--hook enginesImageStl hook--:">
+				<!--hook enginesSlotStl hook-->
+				</engines>
+				<shields power="2" room="10" start="false" img=":!--hook shieldsImageStl hook--:" />
+				<!--F-->
+				<weapons power="4" room="3" start="true" img=":!--hook weaponsImageStl hook--:" />
+				<drones power="2" room="11" start="false" img=":!--hook dronesImageStl hook--:" />
+				<!--F-->
+				<medbay power="1" room="7" start="true" />
+				<clonebay power="1" room="7" start="false" />
+				<!--F-->
+				<teleporter power="1" room="5" start="false" />
+				<!--F-->
+				<cloaking power="2" room="8" start="true" img=":!--hook cloakingImageStl hook--:" />
+				<hacking power="1" room="6" start="false" img=":!--hook hackingImageStl hook--:">
+					<!-- F-->
+					<slot>
+						<direction>down</direction>
+						<number>0</number>
+					</slot>
+				</hacking>
+				<battery power="1" room="4" start="false" img=":!--hook batteryImageStl hook--:" />
+				<!-- F-->
+				<mind power="1" room="9" start="false" img=":!--hook mindImageStl hook--:" />
+				<!-- F-->
+				<!--hook artiStl hook-->
+			</systemList>
+			<maxPower amount ="7"/>
+			<weaponSlots>3</weaponSlots>
+			<droneSlots>2</droneSlots>
+			<!--hook WeaponsStealthStrong hook-->
+			<droneList count="0" drones="0" />
+			<aug name="SYSTEM_CASING" />
+		</Asset>
+		<Asset metaData="improved cloaking, lowered engines, lowered sensors, less power, clonebay">
+			<systemList>
+				<pilot power="1" room="0" start="true" img=":!--hook pilotImageStl hook--:" />
+				<doors power="1" room="14" start="true" img=":!--hook doorsImageStl hook--:">
+					<slot>
+						<direction>down</direction>
+						<number>0</number>
+					</slot>
+				</doors>
+				<sensors power="1" room="13" start="true" img=":!--hook sensorsImageStl hook--:">
+					<slot>
+						<direction>up</direction>
+						<number>0</number>
+					</slot>
+				</sensors>
+				<oxygen power="1" room="1" start="true" img=":!--hook oxygenImageStl hook--:" />
+				<engines power="3" room="12" start="true" img=":!--hook enginesImageStl hook--:">
+				<!--hook enginesSlotStl hook-->
+				</engines>
+				<shields power="2" room="10" start="false" img=":!--hook shieldsImageStl hook--:" />
+				<!--F-->
+				<weapons power="4" room="3" start="true" img=":!--hook weaponsImageStl hook--:" />
+				<drones power="2" room="11" start="false" img=":!--hook dronesImageStl hook--:" />
+				<!--F-->
+				<medbay power="1" room="7" start="false" />
+				<clonebay power="1" room="7" start="true" />
+				<!--F-->
+				<teleporter power="1" room="5" start="false" />
+				<!--F-->
+				<cloaking power="2" room="8" start="true" img=":!--hook cloakingImageStl hook--:" />
+				<hacking power="1" room="6" start="false" img=":!--hook hackingImageStl hook--:">
+					<!-- F-->
+					<slot>
+						<direction>down</direction>
+						<number>0</number>
+					</slot>
+				</hacking>
+				<battery power="1" room="4" start="false" img=":!--hook batteryImageStl hook--:" />
+				<!-- F-->
+				<mind power="1" room="9" start="false" img=":!--hook mindImageStl hook--:" />
+				<!-- F-->
+				<!--hook artiStl hook-->
+			</systemList>
+			<maxPower amount ="7"/>
+			<weaponSlots>3</weaponSlots>
+			<droneSlots>2</droneSlots>
+			<!--hook WeaponsStealthStrong hook-->
+			<droneList count="0" drones="0" />
+			<aug name="SYSTEM_CASING" />
+		</Asset>
+		<Asset metaData="no cloaking, improved fast charge weapons">
+			<systemList>
+				<pilot power="1" room="0" start="true" img=":!--hook pilotImageStl hook--:" />
+				<doors power="1" room="14" start="true" img=":!--hook doorsImageStl hook--:">
+					<slot>
+						<direction>down</direction>
+						<number>0</number>
+					</slot>
+				</doors>
+				<sensors power="2" room="13" start="true" img=":!--hook sensorsImageStl hook--:">
+					<slot>
+						<direction>up</direction>
+						<number>0</number>
+					</slot>
+				</sensors>
+				<oxygen power="1" room="1" start="true" img=":!--hook oxygenImageStl hook--:" />
+				<engines power="5" room="12" start="true" img=":!--hook enginesImageStl hook--:">
+				<!--hook enginesSlotStl hook-->
+				</engines>
+				<shields power="2" room="10" start="false" img=":!--hook shieldsImageStl hook--:" />
+				<!--F-->
+				<weapons power="4" room="3" start="true" img=":!--hook weaponsImageStl hook--:" />
+				<drones power="2" room="11" start="false" img=":!--hook dronesImageStl hook--:" />
+				<!--F-->
+				<medbay power="1" room="7" start="true" />
+				<clonebay power="1" room="7" start="false" />
+				<!--F-->
+				<teleporter power="1" room="5" start="false" />
+				<!--F-->
+				<cloaking power="1" room="8" start="false" img=":!--hook cloakingImageStl hook--:" />
+				<hacking power="1" room="6" start="false" img=":!--hook hackingImageStl hook--:">
+					<!-- F-->
+					<slot>
+						<direction>down</direction>
+						<number>0</number>
+					</slot>
+				</hacking>
+				<battery power="1" room="4" start="false" img=":!--hook batteryImageStl hook--:" />
+				<!-- F-->
+				<mind power="1" room="9" start="false" img=":!--hook mindImageStl hook--:" />
+				<!-- F-->
+				<!--hook artiStl hook-->
+			</systemList>
+			<maxPower amount ="10"/>
+			<aug name="AUTO_COOLDOWN" />
+			<aug name="AUTO_COOLDOWN" /> 
+			<weaponSlots>4</weaponSlots>
+			<droneSlots>1</droneSlots>
+			<!--hook WeaponsStealthFast hook-->
+			<droneList count="0" drones="0" />
+		</Asset>
+		<Asset metaData="no cloaking, improved fast charge weapons, pre ignitor">
+			<systemList>
+				<pilot power="1" room="0" start="true" img=":!--hook pilotImageStl hook--:" />
+				<doors power="1" room="14" start="true" img=":!--hook doorsImageStl hook--:">
+					<slot>
+						<direction>down</direction>
+						<number>0</number>
+					</slot>
+				</doors>
+				<sensors power="2" room="13" start="true" img=":!--hook sensorsImageStl hook--:">
+					<slot>
+						<direction>up</direction>
+						<number>0</number>
+					</slot>
+				</sensors>
+				<oxygen power="1" room="1" start="true" img=":!--hook oxygenImageStl hook--:" />
+				<engines power="4" room="12" start="true" img=":!--hook enginesImageStl hook--:">
+				<!--hook enginesSlotStl hook-->
+				</engines>
+				<shields power="2" room="10" start="false" img=":!--hook shieldsImageStl hook--:" />
+				<!--F-->
+				<weapons power="4" room="3" start="true" img=":!--hook weaponsImageStl hook--:" />
+				<drones power="2" room="11" start="false" img=":!--hook dronesImageStl hook--:" />
+				<!--F-->
+				<medbay power="1" room="7" start="true" />
+				<clonebay power="1" room="7" start="false" />
+				<!--F-->
+				<teleporter power="1" room="5" start="false" />
+				<!--F-->
+				<cloaking power="1" room="8" start="false" img=":!--hook cloakingImageStl hook--:" />
+				<hacking power="1" room="6" start="false" img=":!--hook hackingImageStl hook--:">
+					<!-- F-->
+					<slot>
+						<direction>down</direction>
+						<number>0</number>
+					</slot>
+				</hacking>
+				<battery power="1" room="4" start="false" img=":!--hook batteryImageStl hook--:" />
+				<!-- F-->
+				<mind power="1" room="9" start="false" img=":!--hook mindImageStl hook--:" />
+				<!-- F-->
+				<!--hook artiStl hook-->
+			</systemList>
+			<maxPower amount ="10"/>
+			<aug name="WEAPON_PREIGNITE" />
+			<weaponSlots>4</weaponSlots>
+			<droneSlots>1</droneSlots>
+			<!--hook WeaponsStealthFast hook-->
+			<droneList count="0" drones="0" />
+		</Asset>
+		<Asset metaData="no cloaking, improved fast charge weapons, less sensors, more doors">
+			<systemList>
+				<pilot power="1" room="0" start="true" img=":!--hook pilotImageStl hook--:" />
+				<doors power="2" room="14" start="true" img=":!--hook doorsImageStl hook--:">
+					<slot>
+						<direction>down</direction>
+						<number>0</number>
+					</slot>
+				</doors>
+				<sensors power="1" room="13" start="true" img=":!--hook sensorsImageStl hook--:">
+					<slot>
+						<direction>up</direction>
+						<number>0</number>
+					</slot>
+				</sensors>
+				<oxygen power="1" room="1" start="true" img=":!--hook oxygenImageStl hook--:" />
+				<engines power="5" room="12" start="true" img=":!--hook enginesImageStl hook--:">
+				<!--hook enginesSlotStl hook-->
+				</engines>
+				<shields power="2" room="10" start="false" img=":!--hook shieldsImageStl hook--:" />
+				<!--F-->
+				<weapons power="4" room="3" start="true" img=":!--hook weaponsImageStl hook--:" />
+				<drones power="2" room="11" start="false" img=":!--hook dronesImageStl hook--:" />
+				<!--F-->
+				<medbay power="1" room="7" start="true" />
+				<clonebay power="1" room="7" start="false" />
+				<!--F-->
+				<teleporter power="1" room="5" start="false" />
+				<!--F-->
+				<cloaking power="1" room="8" start="false" img=":!--hook cloakingImageStl hook--:" />
+				<hacking power="1" room="6" start="false" img=":!--hook hackingImageStl hook--:">
+					<!-- F-->
+					<slot>
+						<direction>down</direction>
+						<number>0</number>
+					</slot>
+				</hacking>
+				<battery power="1" room="4" start="false" img=":!--hook batteryImageStl hook--:" />
+				<!-- F-->
+				<mind power="1" room="9" start="false" img=":!--hook mindImageStl hook--:" />
+				<!-- F-->
+				<!--hook artiStl hook-->
+			</systemList>
+			<maxPower amount ="10"/>
+			<aug name="AUTO_COOLDOWN" />
+			<aug name="AUTO_COOLDOWN" /> 
+			<weaponSlots>4</weaponSlots>
+			<droneSlots>1</droneSlots>
+			<!--hook WeaponsStealthFast hook-->
+			<droneList count="0" drones="0" />
+		</Asset>
+		<Asset metaData="no cloaking, improved fast charge weapons, clonebay">
+			<systemList>
+				<pilot power="1" room="0" start="true" img=":!--hook pilotImageStl hook--:" />
+				<doors power="1" room="14" start="true" img=":!--hook doorsImageStl hook--:">
+					<slot>
+						<direction>down</direction>
+						<number>0</number>
+					</slot>
+				</doors>
+				<sensors power="2" room="13" start="true" img=":!--hook sensorsImageStl hook--:">
+					<slot>
+						<direction>up</direction>
+						<number>0</number>
+					</slot>
+				</sensors>
+				<oxygen power="1" room="1" start="true" img=":!--hook oxygenImageStl hook--:" />
+				<engines power="5" room="12" start="true" img=":!--hook enginesImageStl hook--:">
+				<!--hook enginesSlotStl hook-->
+				</engines>
+				<shields power="2" room="10" start="false" img=":!--hook shieldsImageStl hook--:" />
+				<!--F-->
+				<weapons power="4" room="3" start="true" img=":!--hook weaponsImageStl hook--:" />
+				<drones power="2" room="11" start="false" img=":!--hook dronesImageStl hook--:" />
+				<!--F-->
+				<medbay power="1" room="7" start="false" />
+				<clonebay power="1" room="7" start="true" />
+				<!--F-->
+				<teleporter power="1" room="5" start="false" />
+				<!--F-->
+				<cloaking power="1" room="8" start="false" img=":!--hook cloakingImageStl hook--:" />
+				<hacking power="1" room="6" start="false" img=":!--hook hackingImageStl hook--:">
+					<!-- F-->
+					<slot>
+						<direction>down</direction>
+						<number>0</number>
+					</slot>
+				</hacking>
+				<battery power="1" room="4" start="false" img=":!--hook batteryImageStl hook--:" />
+				<!-- F-->
+				<mind power="1" room="9" start="false" img=":!--hook mindImageStl hook--:" />
+				<!-- F-->
+				<!--hook artiStl hook-->
+			</systemList>
+			<maxPower amount ="10"/>
+			<aug name="AUTO_COOLDOWN" />
+			<aug name="AUTO_COOLDOWN" /> 
+			<weaponSlots>4</weaponSlots>
+			<droneSlots>1</droneSlots>
+			<!--hook WeaponsStealthFast hook-->
+			<droneList count="0" drones="0" />
+		</Asset>
+		<Asset metaData="no cloaking, strong defensive drone">
+			<systemList>
+				<pilot power="1" room="0" start="true" img=":!--hook pilotImageStl hook--:" />
+				<doors power="1" room="14" start="true" img=":!--hook doorsImageStl hook--:">
+					<slot>
+						<direction>down</direction>
+						<number>0</number>
+					</slot>
+				</doors>
+				<sensors power="2" room="13" start="true" img=":!--hook sensorsImageStl hook--:">
+					<slot>
+						<direction>up</direction>
+						<number>0</number>
+					</slot>
+				</sensors>
+				<oxygen power="1" room="1" start="true" img=":!--hook oxygenImageStl hook--:" />
+				<engines power="2" room="12" start="true" img=":!--hook enginesImageStl hook--:">
+				<!--hook enginesSlotStl hook-->
+				</engines>
+				<shields power="2" room="10" start="false" img=":!--hook shieldsImageStl hook--:" />
+				<!--F-->
+				<weapons power="2" room="3" start="true" img=":!--hook weaponsImageStl hook--:" />
+				<drones power="4" room="11" start="true" img=":!--hook dronesImageStl hook--:" />
+				<!--F-->
+				<medbay power="1" room="7" start="true" />
+				<clonebay power="1" room="7" start="false" />
+				<!--F-->
+				<teleporter power="1" room="5" start="false" />
+				<!--F-->
+				<cloaking power="1" room="8" start="false" img=":!--hook cloakingImageStl hook--:" />
+				<hacking power="1" room="6" start="false" img=":!--hook hackingImageStl hook--:">
+					<!-- F-->
+					<slot>
+						<direction>down</direction>
+						<number>0</number>
+					</slot>
+				</hacking>
+				<battery power="1" room="4" start="false" img=":!--hook batteryImageStl hook--:" />
+				<!-- F-->
+				<mind power="1" room="9" start="false" img=":!--hook mindImageStl hook--:" />
+				<!-- F-->
+				<!--hook artiStl hook-->
+			</systemList>
+			<maxPower amount ="9"/>
+			<aug name="SYSTEM_CASING" />
+			<weaponSlots>3</weaponSlots>
+			<droneSlots>3</droneSlots>
+			<!--hook WeaponsStealth hook-->
+			<droneList count="1" drones="15" >
+			<!--hook DronesStealth hook-->
+			</droneList>
+		</Asset>
+		<Asset metaData="no cloaking, strong defensive drone, less sensors, better engines">
+			<systemList>
+				<pilot power="1" room="0" start="true" img=":!--hook pilotImageStl hook--:" />
+				<doors power="1" room="14" start="true" img=":!--hook doorsImageStl hook--:">
+					<slot>
+						<direction>down</direction>
+						<number>0</number>
+					</slot>
+				</doors>
+				<sensors power="1" room="13" start="true" img=":!--hook sensorsImageStl hook--:">
+					<slot>
+						<direction>up</direction>
+						<number>0</number>
+					</slot>
+				</sensors>
+				<oxygen power="1" room="1" start="true" img=":!--hook oxygenImageStl hook--:" />
+				<engines power="3" room="12" start="true" img=":!--hook enginesImageStl hook--:">
+				<!--hook enginesSlotStl hook-->
+				</engines>
+				<shields power="2" room="10" start="false" img=":!--hook shieldsImageStl hook--:" />
+				<!--F-->
+				<weapons power="2" room="3" start="true" img=":!--hook weaponsImageStl hook--:" />
+				<drones power="4" room="11" start="true" img=":!--hook dronesImageStl hook--:" />
+				<!--F-->
+				<medbay power="1" room="7" start="true" />
+				<clonebay power="1" room="7" start="false" />
+				<!--F-->
+				<teleporter power="1" room="5" start="false" />
+				<!--F-->
+				<cloaking power="1" room="8" start="false" img=":!--hook cloakingImageStl hook--:" />
+				<hacking power="1" room="6" start="false" img=":!--hook hackingImageStl hook--:">
+					<!-- F-->
+					<slot>
+						<direction>down</direction>
+						<number>0</number>
+					</slot>
+				</hacking>
+				<battery power="1" room="4" start="false" img=":!--hook batteryImageStl hook--:" />
+				<!-- F-->
+				<mind power="1" room="9" start="false" img=":!--hook mindImageStl hook--:" />
+				<!-- F-->
+				<!--hook artiStl hook-->
+			</systemList>
+			<maxPower amount ="9"/>
+			<aug name="SYSTEM_CASING" />
+			<weaponSlots>3</weaponSlots>
+			<droneSlots>3</droneSlots>
+			<!--hook WeaponsStealth hook-->
+			<droneList count="1" drones="15" >
+			<!--hook DronesStealth hook-->
+			</droneList>
+		</Asset>
+		<Asset metaData="no cloaking, strong defensive drone, clonebay">
+			<systemList>
+				<pilot power="1" room="0" start="true" img=":!--hook pilotImageStl hook--:" />
+				<doors power="1" room="14" start="true" img=":!--hook doorsImageStl hook--:">
+					<slot>
+						<direction>down</direction>
+						<number>0</number>
+					</slot>
+				</doors>
+				<sensors power="2" room="13" start="true" img=":!--hook sensorsImageStl hook--:">
+					<slot>
+						<direction>up</direction>
+						<number>0</number>
+					</slot>
+				</sensors>
+				<oxygen power="1" room="1" start="true" img=":!--hook oxygenImageStl hook--:" />
+				<engines power="2" room="12" start="true" img=":!--hook enginesImageStl hook--:">
+				<!--hook enginesSlotStl hook-->
+				</engines>
+				<shields power="2" room="10" start="false" img=":!--hook shieldsImageStl hook--:" />
+				<!--F-->
+				<weapons power="2" room="3" start="true" img=":!--hook weaponsImageStl hook--:" />
+				<drones power="4" room="11" start="true" img=":!--hook dronesImageStl hook--:" />
+				<!--F-->
+				<medbay power="1" room="7" start="false" />
+				<clonebay power="1" room="7" start="true" />
+				<!--F-->
+				<teleporter power="1" room="5" start="false" />
+				<!--F-->
+				<cloaking power="1" room="8" start="false" img=":!--hook cloakingImageStl hook--:" />
+				<hacking power="1" room="6" start="false" img=":!--hook hackingImageStl hook--:">
+					<!-- F-->
+					<slot>
+						<direction>down</direction>
+						<number>0</number>
+					</slot>
+				</hacking>
+				<battery power="1" room="4" start="false" img=":!--hook batteryImageStl hook--:" />
+				<!-- F-->
+				<mind power="1" room="9" start="false" img=":!--hook mindImageStl hook--:" />
+				<!-- F-->
+				<!--hook artiStl hook-->
+			</systemList>
+			<maxPower amount ="9"/>
+			<aug name="SYSTEM_CASING" />
+			<weaponSlots>3</weaponSlots>
+			<droneSlots>3</droneSlots>
+			<!--hook WeaponsStealth hook-->
+			<droneList count="1" drones="15" >
+			<!--hook DronesStealth hook-->
+			</droneList>
+		</Asset>
+	</Hook>
+</HookBase>

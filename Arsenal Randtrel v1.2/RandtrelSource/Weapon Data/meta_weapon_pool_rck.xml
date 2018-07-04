@@ -1,0 +1,403 @@
+<HookBase>
+	<Hook id="WeaponsRock" metaDataId="WeaponsRockData">
+		<Asset metaData="misile configuration" build="ARS">
+			<weaponList count="3" missiles="40">
+				<!--hook weaponsMissilesRock hook-->
+			</weaponList>
+		</Asset>
+		<Asset metaData="misile configuration" build="ARS">
+			<weaponList count="3" missiles="30">
+				<!--hook weaponsMissilesRock hook-->
+			</weaponList>
+		</Asset>
+		<Asset metaData="misile configuration" build="ARS">
+			<weaponList count="3" missiles="20">
+				<!--hook weaponsMissilesRock hook-->
+			</weaponList>
+			<aug name="EXPLOSIVE_REPLICATOR"/>
+		</Asset>
+		<Asset metaData="artillery configuration" build="ARS">
+			<weaponList count="3" missiles="10">
+				<!--hook weaponsArtiRock hook-->
+			</weaponList>
+		</Asset>
+		<Asset metaData="crystal weapon configuration" build="ARS">
+			<weaponList count="3" missiles="15">
+				<!--hook weaponsCrystalRock hook-->
+			</weaponList>
+		</Asset>
+		<Asset metaData="fire starting configuration" build="ARS">
+			<weaponList count="3" missiles="10">
+				<!--hook weaponsFireStarterRock hook-->
+			</weaponList>
+			<aug name="AUTO_COOLDOWN"/>
+		</Asset>
+	</Hook>
+	<Hook id="weaponsMissilesRock" metaDataId="weaponsMissilesRockData">
+		<Asset metaData="missile launcher configuration" build="ARS">
+			<!--hook weaponsMissilesRockPrimary hook-->
+			<!--hook weaponsMissilesRockSecondary hook-->
+		</Asset>
+	</Hook>
+	<Hook id="weaponsMissilesRockPrimary" metaDataId="weaponsMissilesRockPrimaryData">
+		<Asset metaData="dual leto launchers" build="ARS">
+			<weapon name="MISSILES_1"/>
+			<weapon name="MISSILES_1"/>
+		</Asset>
+		<Asset metaData="artemis+ missile launcher" build="ARS">
+			<weapon name="MISSILES_2_PLAYER"/>
+		</Asset>
+		<Asset metaData="leto launcher and asteria launcher" build="ARS">
+			<weapon name="MISSILES_1"/>
+			<weapon name="BA_MISSILES_ASTERIA"/>
+		</Asset>
+		<Asset metaData="small hull launcher" build="ARS">
+			<weapon name="BA_MISSILES_HULL_SMALL"/>
+		</Asset>
+		<Asset metaData="swarm launcher" build="ARS">
+			<weapon name="BA_MISSILES_SWARM_1"/>
+		</Asset>
+		<Asset metaData="fobos" build="ARS">
+			<weapon name="BA_MISSILES_FOBOS"/>
+		</Asset>
+		<Asset metaData="Rhea" build="ARS">
+			<weapon name="MISSILES_SYS1"/>
+		</Asset>
+		<Asset metaData="Cronus" build="ARS">
+			<weapon name="MISSILES_SYS2"/>
+		</Asset>
+		<Asset metaData="Cronus" build="ARS">
+			<weapon name="MISSILES_ARU_GOLIAPH"/>
+		</Asset>
+	</Hook>
+	<Hook id="weaponsMissilesRockSecondary" metaDataId="weaponsMissilesRockSecondaryData">
+		<Asset metaData="deimos" build="ARS">
+			<weapon name="BA_MISSILES_DEIMOS"/>
+		</Asset>
+		<Asset metaData="deimos" build="ARS">
+			<weapon name="MISSILES_ARU_GOLIAPH"/>
+		</Asset>
+		<Asset metaData="deimos" build="ARS">
+			<weapon name="MISSILES_MEGA"/>
+		</Asset>
+		<Asset metaData="hermes missile launcher" build="ARS">
+			<weapon name="MISSILES_3"/>
+		</Asset>
+		<Asset metaData="pegasus missile launcher" build="ARS">
+			<weapon name="MISSILES_BURST"/>
+		</Asset>
+		<Asset metaData="breach missile launcher" build="ARS">
+			<weapon name="MISSILES_BREACH"/>
+		</Asset>
+		<Asset metaData="hull missile launcher" build="ARS">
+			<weapon name="MISSILES_HULL"/>
+		</Asset>
+		<Asset metaData="charging missile launcher" build="ARS">
+			<weapon name="MISSILE_CHARGEGUN"/>
+		</Asset>
+		<Asset metaData="ares missile launcher" build="ARS">
+			<weapon name="BA_MISSILES_4"/>
+		</Asset>
+		<Asset metaData="peryton missile launcher" build="ARS">
+			<weapon name="BA_MISSILES_PERYTON"/>
+		</Asset>
+		<Asset metaData="cockatrice missile launcher" build="ARS">
+			<weapon name="BA_MISSILES_COCKATRICE"/>
+		</Asset>
+		<Asset metaData="fire missile launcher" build="ARS">
+			<weapon name="BA_MISSILES_FIRE"/>
+		</Asset>
+		<Asset metaData="simurgh missile launcher" build="ARS">
+			<weapon name="BA_MISSILES_SIMURGH"/>
+		</Asset>
+		<Asset metaData="oni missile launcher" build="ARS">
+			<weapon name="BA_MISSILES_ONI"/>
+		</Asset>
+		<Asset metaData="oni missile launcher" build="ARS">
+			<weapon name="BA_MISSILES_IFRIT"/>
+		</Asset>
+		<Asset metaData="swarm+ luancher" build="ARS">
+			<weapon name="BA_MISSILES_SWARM_2"/>
+		</Asset>
+		<Asset metaData="heavy swarm luancher" build="ARS">
+			<weapon name="BA_MISSILES_SWARM_3"/>
+		</Asset>
+		<Asset metaData="burst swarm luancher" build="ARS">
+			<weapon name="BA_SHOTGUN_MISSILES"/>
+		</Asset>
+		<Asset metaData="burst swarm luancher 2" build="ARS">
+			<weapon name="BA_SHOTGUN_MISSILES2"/>
+		</Asset>
+		<Asset metaData="burst swarm luancher 3" build="ARS">
+			<weapon name="BA_SHOTGUN_MISSILES3"/>
+		</Asset>
+		<Asset metaData="hydra" build="ARS">
+			<weapon name="MISSILES_HYDRA"/>
+		</Asset>
+	</Hook>
+	<Hook id="weaponsArtiRock" metaDataId="weaponsArtiRockData">
+		<Asset metaData="arti configuration" build="ARS">
+			<!--hook weaponsArtiRockPrimary hook-->
+		</Asset>
+	</Hook>
+	<Hook id="weaponsArtiRockPrimary" metaDataId="weaponsArtiRockPrimaryData">
+		<Asset metaData="heavy shield piercer" build="ARS">
+			<weapon name="LASER_HEAVY_PIERCE_1"/>
+			<!--hook weaponsArtiRockSecondary hook-->
+		</Asset>
+		<Asset metaData="shield breaker + heavy laser" build="ARS">
+			<!--hook weaponsArtiRockShieldBreaker hook-->
+			<weapon name="LASER_HEAVY_1"/>
+			<!--hook weaponsArtiRockSecondary hook-->
+		</Asset>
+		<Asset metaData="shield breaker + heavy laser" build="ARS">
+			<!--hook weaponsArtiRockShieldBreaker hook-->
+			<weapon name="BA_LASER_HEAVY_SCATTER_2"/>
+			<!--hook weaponsArtiRockSecondary hook-->
+		</Asset>
+		<Asset metaData="shield breaker + heavy laser" build="ARS">
+			<!--hook weaponsArtiRockShieldBreaker hook-->
+			<weapon name="LASER_AL_2"/>
+			<!--hook weaponsArtiRockSecondary hook-->
+		</Asset>
+		<Asset metaData="shield breaker + heavy laser" build="ARS">
+			<!--hook weaponsArtiRockShieldBreaker hook-->
+			<weapon name="LASER_AL_1"/>
+			<!--hook weaponsArtiRockSecondary hook-->
+		</Asset>
+		<Asset metaData="burst hull laser" build="ARS">
+			<weapon name="LASER_HULL_1"/>
+			<!--hook weaponsArtiRockSecondary hook-->
+		</Asset>
+		<Asset metaData="burst+ hull laser" build="ARS">
+			<weapon name="LASER_HEAVY_PIERCE_2"/>
+			<!--hook weaponsArtiRockSecondary hook-->
+		</Asset>
+		<Asset metaData="burst+ hull laser" build="ARS">
+			<weapon name="LASER_HULL_2"/>
+			<!--hook weaponsArtiRockSecondary hook-->
+		</Asset>
+		<Asset metaData="dual heavy laser" build="ARS">
+			<weapon name="LASER_HEAVY_2"/>
+			<!--hook weaponsArtiRockSecondary hook-->
+		</Asset>
+		<Asset metaData="arti laser" build="ARS">
+			<weapon name="BA_LASER_ARTILLERY_1"/>
+		</Asset>
+		<Asset metaData="arti laser" build="ARS">
+			<weapon name="BA_LASER_ARTILLERY_2"/>
+		</Asset>
+		<Asset metaData="hull crusher laser" build="ARS">
+			<weapon name="BA_LASER_HULLCRUSHER"/>
+			<!--hook weaponsArtiRockSecondary hook-->
+		</Asset>
+		<Asset metaData="hull crusher laser 2" build="ARS">
+			<weapon name="BA_LASER_HULLCRUSHER_2"/>
+			<!--hook weaponsArtiRockSecondary hook-->
+		</Asset>
+		<Asset metaData="hull crusher laser 3" build="ARS">
+			<weapon name="BA_LASER_HULLCRUSHER_3"/>
+			<!--hook weaponsArtiRockSecondary hook-->
+		</Asset>
+		<Asset metaData="super heavy laser" build="ARS">
+			<weapon name="LASER_SUPER_HEAVY_1" />
+			<!--hook weaponsArtiRockSecondary hook-->
+		</Asset>
+		<Asset metaData="super heavy laser2" build="ARS">
+			<weapon name="LASER_SUPER_HEAVY_2" />
+		</Asset>
+	</Hook>
+	<Hook id="weaponsArtiRockShieldBreaker" metaDataId="weaponsArtiRockShieldBreakerData">
+		<Asset metaData="laser" build="ARS">
+			<weapon name="LASER_STANDARD_1"/>
+		</Asset>
+		<Asset metaData="old laser" build="ARS">
+			<weapon name="LASER_OLD"/>
+		</Asset>
+		<Asset metaData="laser+" build="ARS">
+			<weapon name="LASER_STANDARD_2"/>
+		</Asset>
+		<Asset metaData="hull laser" build="ARS">
+			<weapon name="BA_LASER_HULL_SMALL"/>
+		</Asset>
+	</Hook>
+	<Hook id="weaponsArtiRockSecondary" metaDataId="weaponsArtiRockSecondaryData">
+		<Asset metaData="small bomb" build="ARS">
+			<weapon name="BOMB_1"/>
+		</Asset>
+		<Asset metaData="small breach bomb" build="ARS">
+			<weapon name="BOMB_BREACH_1"/>
+		</Asset>
+		<Asset metaData="fire bomb" build="ARS">
+			<weapon name="BOMB_FIRE"/>
+		</Asset>
+		<Asset metaData="small fire bomb" build="ARS">
+			<weapon name="BA_BOMB_FIRE_SMALL"/>
+		</Asset>
+		<Asset metaData="big bomb" build="ARS">
+			<weapon name="MISSILES_ARU_GOLIAPH"/>
+		</Asset>
+		<Asset metaData="cluster bomb" build="ARS">
+			<weapon name="BA_BOMB_CLUSTER_1"/>
+		</Asset>
+		<Asset metaData="fire cluster bomb" build="ARS">
+			<weapon name="BA_BOMB_CLUSTER_FIRE"/>
+		</Asset>
+	</Hook>
+	<Hook id="weaponsCrystalRock" metaDataId="weaponsCrystalRockData">
+		<Asset metaData="missile + crystal configuration" build="ARS">
+			<!--hook weaponsCrystalRockPrimary hook-->
+		</Asset>
+	</Hook>
+	<Hook id="weaponsCrystalRockPrimary" metaDataId="weaponsCrystalRockPrimaryData">
+		<Asset metaData="crystal heavy" build="ARS">
+			<weapon name="CRYSTAL_HEAVY_1"/>
+			<!--hook weaponsCrystalRockMissile hook-->
+		</Asset>
+		<Asset metaData="lockdown crystal heavy" build="ARS">
+			<weapon name="BA_CRYSTAL_HEAVY_LOCKDOWN_1"/>
+			<!--hook weaponsCrystalRockMissile hook-->
+		</Asset>
+		<Asset metaData="burst crystal" build="ARS">
+			<weapon name="CRYSTAL_BURST_1"/>
+			<!--hook weaponsCrystalRockMissile hook-->
+		</Asset>
+		<Asset metaData="crystal heavy" build="ARS">
+			<weapon name="CRYSTAL_HEAVY_2"/>
+			<!--hook weaponsCrystalRockMissileWeak hook-->
+		</Asset>
+		<Asset metaData="burst crystal" build="ARS">
+			<weapon name="CRYSTAL_BURST_2"/>
+			<!--hook weaponsCrystalRockMissileWeak hook-->
+		</Asset>
+	</Hook>
+	<Hook id="weaponsCrystalRockMissile" metaDataId="weaponsCrystalRockMissileData">
+		<Asset metaData="deimos" build="ARS">
+			<weapon name="BA_MISSILES_DEIMOS"/>
+		</Asset>
+		<Asset metaData="deimos" build="ARS">
+			<weapon name="MISSILES_ARU_GOLIAPH"/>
+		</Asset>
+		<Asset metaData="charging missile launcher" build="ARS">
+			<weapon name="MISSILE_CHARGEGUN"/>
+		</Asset>
+		<Asset metaData="dual leto launchers" build="ARS">
+			<weapon name="MISSILES_1"/>
+			<weapon name="MISSILES_1"/>
+		</Asset>
+		<Asset metaData="leto launcher and asteria launcher" build="ARS">
+			<weapon name="MISSILES_1"/>
+			<weapon name="BA_MISSILES_ASTERIA"/>
+		</Asset>
+		<Asset metaData="leto and small hull launcher" build="ARS">
+			<weapon name="MISSILES_1"/>
+			<weapon name="BA_MISSILES_HULL_SMALL"/>
+		</Asset>
+		<Asset metaData="swarm launcher" build="ARS">
+			<weapon name="BA_MISSILES_SWARM_1"/>
+		</Asset>
+	</Hook>
+	<Hook id="weaponsCrystalRockMissileWeak" metaDataId="weaponsCrystalRockMissileWeakData">
+		<Asset metaData="leto launcher" build="ARS">
+			<weapon name="MISSILES_1"/>
+		</Asset>
+		<Asset metaData="small bomb" build="ARS">
+			<weapon name="BOMB_1"/>
+		</Asset>
+		<Asset metaData="small breach bomb" build="ARS">
+			<weapon name="BOMB_BREACH_1"/>
+		</Asset>
+		<Asset metaData="big bomb" build="ARS">
+			<weapon name="BA_BOMB_BIG"/>
+		</Asset>
+		<Asset metaData="cluster bomb" build="ARS">
+			<weapon name="BA_BOMB_CLUSTER_1"/>
+		</Asset>
+		<Asset metaData="asteria luancher" build="ARS">
+			<weapon name="BA_MISSILES_ASTERIA"/>
+		</Asset>
+		<Asset metaData="small hull luancher" build="ARS">
+			<weapon name="BA_MISSILES_HULL_SMALL"/>
+		</Asset>
+	</Hook>
+	<Hook id="weaponsFireStarterRock" metaDataId="weaponsFireStarterRockData">
+		<Asset metaData="fire starting + light shield breaking configuration" build="ARS">
+			<!--hook weaponsFireStarterRockPrimary hook-->
+			<!--hook weaponsFireStarterRockSecondary hook-->
+		</Asset>
+	</Hook>
+	<Hook id="weaponsFireStarterRockPrimary" metaDataId="weaponsFireStarterRockPrimaryData">
+		<Asset metaData="fire beam" build="ARS">
+			<weapon name="BEAM_FIRE"/>
+		</Asset>
+		<Asset metaData="fire beam 2" build="ARS">
+			<weapon name="BA_BEAM_FIRE_2"/>
+		</Asset>
+		<Asset metaData="chain fire beam" build="ARS">
+			<weapon name="BEAM_FIRECHAIN"/>
+		</Asset>
+		<Asset metaData="focus fire beam" build="ARS">
+			<weapon name="BA_BEAM_FIRE_FOCUS"/>
+		</Asset>
+		<Asset metaData="focus fire beam 2" build="ARS">
+			<weapon name="BA_BEAM_FIRE_FOCUS2"/>
+		</Asset>
+		<Asset metaData="plasma launcher" build="ARS">
+			<weapon name="BA_PLASMA_1"/>
+		</Asset>
+		<Asset metaData="plasma launcher+" build="ARS">
+			<weapon name="BA_PLASMA_2"/>
+		</Asset>
+	</Hook>
+	<Hook id="weaponsFireStarterRockSecondary" metaDataId="weaponsFireStarterRockSecondaryData">
+		<Asset metaData="dual laser" build="ARS">
+			<weapon name="LASER_DUAL_1"/>
+		</Asset>
+		<Asset metaData="dual laser+" build="ARS">
+			<weapon name="LASER_DUAL_2"/>
+		</Asset>
+		<Asset metaData="2 lasers" build="ARS">
+			<weapon name="LASER_STANDARD_1"/>
+			<weapon name="LASER_STANDARD_1"/>
+		</Asset>
+		<Asset metaData="2 lasers+" build="ARS">
+			<weapon name="LASER_STANDARD_2"/>
+			<weapon name="LASER_STANDARD_2"/>
+		</Asset>
+		<Asset metaData="1 laser, 1 ion" build="ARS">
+			<weapon name="ION_BLAST_1"/>
+			<weapon name="LASER_STANDARD_1"/>
+		</Asset>
+		<Asset metaData="1 laser, 1 ion" build="ARS">
+			<weapon name="ION_BLAST_1"/>
+			<weapon name="ION_BLAST_1"/>
+		</Asset>
+		<Asset metaData="old dual laser" build="ARS">
+			<weapon name="LASER_DUAL_OLD"/>
+		</Asset>
+		<Asset metaData="2 old lasers" build="ARS">
+			<weapon name="LASER_OLD"/>
+			<weapon name="LASER_OLD"/>
+		</Asset>
+		<Asset metaData="old laser, laser" build="ARS">
+			<weapon name="LASER_OLD"/>
+			<weapon name="LASER_STANDARD_1"/>
+		</Asset>
+		<Asset metaData="old laser, laser+" build="ARS">
+			<weapon name="LASER_OLD"/>
+			<weapon name="LASER_STANDARD_2"/>
+		</Asset>
+		<Asset metaData="laser, laser+" build="ARS">
+			<weapon name="LASER_STANDARD_1"/>
+			<weapon name="LASER_STANDARD_2"/>
+		</Asset>
+		<Asset metaData="1 old laser, 1 ion" build="ARS">
+			<weapon name="ION_BLAST_1"/>
+			<weapon name="LASER_OLD"/>
+		</Asset>
+		<Asset metaData="1 laser+, 1 ion" build="ARS">
+			<weapon name="ION_BLAST_1"/>
+			<weapon name="LASER_STANDARD_2"/>
+		</Asset>
+	</Hook>
+</HookBase>

@@ -1,0 +1,596 @@
+<HookBase>
+	<Hook id="WeaponsDronesEngi" metaDataId="WeaponsDronesEngiData">
+		<!-- 50% chance for less weapons and more drones. weapon and drone pools are effected by this  -->
+		<Asset metaData="3 weapon slots, 3 drone slots" build="ARS">
+			<weaponSlots>3</weaponSlots>
+			<droneSlots>3</droneSlots>
+			<!--hook WeaponEngi3Slots hook-->
+		</Asset>
+		<Asset metaData="2 weapon slots, 4 drone slots" build="ARS">
+			<weaponSlots>2</weaponSlots>
+			<droneSlots>4</droneSlots>
+			<!--hook WeaponEngi2Slots hook-->
+		</Asset>
+	</Hook>
+	<Hook id="WeaponEngi3Slots" metaDataId="WeaponEngi3SlotsData">
+		<Asset metaData="ions" build="ARS">
+			<weaponList count="2" missiles="0">
+				<!--hook ionNoMissile hook-->
+				<!--hook ionNoMissile hook-->
+			</weaponList>
+			<droneList count="1" drones="15">
+				<!--hook DroneCombat hook-->
+			</droneList>
+		</Asset>
+		<Asset metaData="powerfull ion" build="ARS">
+			<weaponList count="2" missiles="0">
+				<!--hook ionPower hook-->
+			</weaponList>
+			<droneList count="1" drones="15">
+				<!--hook DroneCombat hook-->
+			</droneList>
+		</Asset>
+		<Asset metaData="one ion bomb, ion other" build="ARS">
+			<weaponList count="2" missiles="12">
+				<weapon name="BOMB_ION" />
+				<!--hook ionNoMissile hook-->
+			</weaponList>
+			<droneList count="1" drones="15">
+				<!--hook DroneCombat hook-->
+			</droneList>
+		</Asset>
+		<Asset metaData="one ion, one hull damaging" build="ARS">
+			<weaponList count="2" missiles="0">
+				<!--hook ionNoMissile hook-->
+				<!--hook damageLight hook-->
+			</weaponList>
+			<droneList count="1" drones="15">
+				<!--hook DroneCombat hook-->
+			</droneList>
+		</Asset>
+		<Asset metaData="one ion, one hull damaging, auxillery drone" build="ARS">
+			<weaponList count="2" missiles="0">
+				<!--hook ionNoMissile hook-->
+				<!--hook damageLight hook-->
+			</weaponList>
+			<droneList count="1" drones="20">
+				<!--hook DroneAux hook-->
+			</droneList>
+		</Asset>
+		<Asset metaData="one ion, one hull damaging, defense drone" build="ARS">
+			<weaponList count="2" missiles="0">
+				<!--hook ionNoMissile hook-->
+				<!--hook damageLight hook-->
+			</weaponList>
+			<droneList count="1" drones="20">
+				<!--hook DroneDefense hook-->
+			</droneList>
+		</Asset>
+	</Hook>
+	<Hook id="WeaponEngi2Slots" metaDataId="WeaponEngi2SlotsData">
+		<Asset metaData="ion, stronger weapon, combat and aux" build="ARS">
+			<weaponList count="2" missiles="0">
+				<!--hook ionNoMissile hook-->
+				<!--hook damageHeavy hook-->
+			</weaponList>
+			<droneList count="2" drones="20">
+				<!--hook DroneCombat hook-->
+				<!--hook DroneAux hook-->
+			</droneList>
+		</Asset>
+		<Asset metaData="powerfull ion" build="ARS">
+			<weaponList count="2" missiles="0">
+				<!--hook ionPower hook-->
+				<!--hook damageLight hook-->
+			</weaponList>
+			<droneList count="1" drones="15">
+				<!--hook DroneCombat hook-->
+			</droneList>
+		</Asset>
+		<Asset metaData="ion bomb, stronger weapon, combat, defense drone" build="ARS">
+			<weaponList count="2" missiles="12">
+				<weapon name="BOMB_ION" />
+				<!--hook damageHeavy hook-->
+			</weaponList>
+			<droneList count="2" drones="20">
+				<!--hook DroneCombat hook-->
+				<!--hook DroneDefense hook-->
+			</droneList>
+		</Asset>
+		<Asset metaData="ion, stronger weapon, combat and defense" build="ARS">
+			<weaponList count="2" missiles="0">
+				<!--hook ionNoMissile hook-->
+				<!--hook damageHeavy hook-->
+			</weaponList>
+			<droneList count="2" drones="20">
+				<!--hook DroneCombat hook-->
+				<!--hook DroneDefense hook-->
+			</droneList>
+		</Asset>
+		<Asset metaData="weaker, stronger weapon, 2 aux" build="ARS">
+			<weaponList count="2" missiles="0">
+				<!--hook damageLight hook-->
+				<!--hook damageHeavy hook-->
+			</weaponList>
+			<droneList count="2" drones="20">
+				<!--hook DroneAux hook-->
+				<!--hook DroneAux hook-->
+			</droneList>
+		</Asset>
+	</Hook>
+	<Hook id="ionNoMissile" metaDataId="ionNoMissileData">
+		<Asset metaData="ion blaster" build="ARS">
+			<weapon name="ION_BLAST_1" />
+		</Asset>
+		<Asset metaData="ion blaster 2" build="ARS">
+			<weapon name="ION_BLAST_2" />
+		</Asset>
+		<Asset metaData="ion heavy" build="ARS">
+			<weapon name="ION_HEAVY_1" />
+		</Asset>
+		<Asset metaData="ion charger" build="ARS">
+			<weapon name="ION_CHARGEGUN" />
+		</Asset>
+		<Asset metaData="ion stunner" build="ARS">
+			<weapon name="ION_STUN" />
+		</Asset>
+		<Asset metaData="burst ion" build="ARS">
+			<weapon name="BA_ION_BURST_1" />
+		</Asset>
+		<Asset metaData="ion flak" build="ARS">
+			<weapon name="BA_SHOTGUN_ION_1" />
+		</Asset>
+		<Asset metaData="ion stunner+" build="ARS">
+			<weapon name="BA_ION_2_STUN" />
+		</Asset>
+		<Asset metaData="ion stunner+" build="ARS">
+			<weapon name="BA_ION_BURST_1_STUN" />
+		</Asset>
+		<Asset metaData="uff" build="ARS">
+			<weapon name="BA_ION_PIERCE_1" />
+		</Asset>
+		<Asset metaData="uff" build="ARS">
+			<weapon name="BA_ION_PIERCE_2" />
+		</Asset>
+		<Asset metaData="uff" build="ARS">
+			<weapon name="BA_EFFECTOR_1" />
+		</Asset>
+	</Hook>
+	<Hook id="ionPower" metaDataId="ionPowerData">
+		<Asset metaData="ion chain" build="ARS">
+			<weapon name="ION_CHAINGUN" />
+		</Asset>
+		<Asset metaData="ion heavy 2" build="ARS">
+			<weapon name="ION_HEAVY_2" />
+		</Asset>
+		<Asset metaData="ion heavy 3" build="ARS">
+			<weapon name="ION_HEAVY_3" />
+		</Asset>
+		<Asset metaData="ion fast" build="ARS">
+			<weapon name="ION_BLAST_3" />
+		</Asset>
+		<Asset metaData="ion charger2" build="ARS">
+			<weapon name="ION_CHARGEGUN_2" />
+		</Asset>
+		<Asset metaData="ion adaptive" build="ARS">
+			<weapon name="ION_CHAINGUN" />
+		</Asset>
+		<Asset metaData="ion flak+" build="ARS">
+			<weapon name="BA_SHOTGUN_ION_2" />
+		</Asset>
+		<Asset metaData="uff" build="ARS">
+			<weapon name="BA_EFFECTOR_2" />
+		</Asset>
+		<Asset metaData="uff" build="ARS">
+			<weapon name="BA_EFFECTOR_3" />
+		</Asset>
+		<Asset metaData="uff" build="ARS">
+			<weapon name="BA_EFFECTOR_ADAPTIVE" />
+		</Asset>
+		<Asset metaData="uff" build="ARS">
+			<weapon name="BA_ION_BURST_2" />
+		</Asset>
+		<Asset metaData="uff" build="ARS">
+			<weapon name="BA_ION_BURST_3" />
+		</Asset>
+		<Asset metaData="uff" build="ARS">
+			<weapon name="BA_ION_CHAIN_MINI" />
+		</Asset>
+	</Hook>
+	<Hook id="damageLight" metaDataId="damageLightData">
+		<Asset metaData="uff" build="ARS">
+			<weapon name="LASER_PIERCE_1" />
+		</Asset>
+		<Asset metaData="uff" build="ARS">
+			<weapon name="LASER_PIERCE_2" />
+		</Asset>
+		<Asset metaData="uff" build="ARS">
+			<weapon name="LASER_VERY_OLD" />
+		</Asset>
+		<Asset metaData="uff" build="ARS">
+			<weapon name="LASER_STANDARD_1" />
+		</Asset>
+		<Asset metaData="uff" build="ARS">
+			<weapon name="LASER_STANDARD_2" />
+		</Asset>
+		<Asset metaData="uff" build="ARS">
+			<weapon name="BA_BEAM_K1" />
+		</Asset>
+		<Asset metaData="uff" build="ARS">
+			<weapon name="BA_BEAM_HASTA" />
+		</Asset>
+		<Asset metaData="uff" build="ARS">
+			<weapon name="BA_BEAM_HULL_MINI" />
+		</Asset>
+		<Asset metaData="uff" build="ARS">
+			<weapon name="BA_BEAM_AUTO" />
+		</Asset>
+		<Asset metaData="uff" build="ARS">
+			<weapon name="BA_BEAM_ADAPTIVE_1" />
+		</Asset>
+		<Asset metaData="war laser" build="ARS">
+			<weapon name="BA_LASER_WAR_1" />
+		</Asset>
+		<Asset metaData="heavy laser" build="ARS">
+			<weapon name="LASER_HEAVY_1" />
+		</Asset>
+		<Asset metaData="small beam" build="ARS">
+			<weapon name="BEAM_1" />
+		</Asset>
+		<Asset metaData="small beam 2" build="ARS">
+			<weapon name="BEAM_1_2" />
+		</Asset>
+		<Asset metaData="small hull laser" build="ARS">
+			<weapon name="BA_LASER_HULL_SMALL"/>
+		</Asset>
+		<Asset metaData="old laser" build="ARS">
+			<weapon name="LASER_OLD"/>
+		</Asset>
+		<Asset metaData="heavy scatter laser" build="ARS">
+			<weapon name="BA_LASER_HEAVY_SCATTER_1" />
+		</Asset>
+		<Asset metaData="laser charger" build="ARS">
+			<weapon name="LASER_CHARGEGUN_1" />
+		</Asset>
+		<Asset metaData="shotgun small" build="ARS">
+			<weapon name="BA_SHOTGUN_SMALL" />
+		</Asset>
+	</Hook>
+	<Hook id="damageHeavy" metaDataId="damageLightData">
+		<Asset metaData="old dual laser" build="ARS">
+			<weapon name="LASER_DUAL_OLD" />
+		</Asset>
+		<Asset metaData="uff" build="ARS">
+			<weapon name="SHTURM_LASER_1" />
+		</Asset>
+		<Asset metaData="uff" build="ARS">
+			<weapon name="SHTURM_LASER_2" />
+		</Asset>
+		<Asset metaData="uff" build="ARS">
+			<weapon name="LASER_HEAVY_CHAIN" />
+		</Asset>
+		<Asset metaData="uff" build="ARS">
+			<weapon name="LASER_AUTO_CHAIN" />
+		</Asset>
+		<Asset metaData="uff" build="ARS">
+			<weapon name="LASER_CHAIN_1" />
+		</Asset>
+		<Asset metaData="uff" build="ARS">
+			<weapon name="LASER_CHAIN_2" />
+		</Asset>
+		<Asset metaData="uff" build="ARS">
+			<weapon name="LASER_CHAIN_3" />
+		</Asset>
+		<Asset metaData="uff" build="ARS">
+			<weapon name="LASER_HEAVY_CHARGE_1" />
+		</Asset>
+		<Asset metaData="uff" build="ARS">
+			<weapon name="LASER_HEAVY_CHARGE_2" />
+		</Asset>
+		<Asset metaData="uff" build="ARS">
+			<weapon name="LASER_AL_1" />
+		</Asset>
+		<Asset metaData="uff" build="ARS">
+			<weapon name="LASER_AL_2" />
+		</Asset>
+		<Asset metaData="dual laser" build="ARS">
+			<weapon name="LASER_DUAL_1" />
+		</Asset>
+		<Asset metaData="dual laser 2" build="ARS">
+			<weapon name="LASER_DUAL_2" />
+		</Asset>
+		<Asset metaData="war laser 2" build="ARS">
+			<weapon name="BA_LASER_WAR_2" />
+		</Asset>
+		<Asset metaData="war laser 3" build="ARS">
+			<weapon name="BA_LASER_WAR_3" />
+		</Asset>
+		<Asset metaData="super heavy 1" build="ARS">
+			<weapon name="LASER_SUPER_HEAVY_1" />
+		</Asset>
+		<Asset metaData="super heavy 2" build="ARS">
+			<weapon name="LASER_SUPER_HEAVY_2" />
+		</Asset>
+		<Asset metaData="uff" build="ARS">
+			<weapon name="LASER_HEAVY_1" />
+		</Asset>
+		<Asset metaData="uff" build="ARS">
+			<weapon name="LASER_HEAVY_2" />
+		</Asset>
+		<Asset metaData="uff" build="ARS">
+			<weapon name="LASER_HEAVY_PIERCE_1" />
+		</Asset>
+		<Asset metaData="burst laser" build="ARS">
+			<weapon name="LASER_BURST_2" />
+		</Asset>
+		<Asset metaData="advanced burst laser" build="ARS">
+			<weapon name="LASER_BURST_3" />
+		</Asset>
+		<Asset metaData="shotgun" build="ARS">
+			<weapon name="SHOTGUN" />
+		</Asset>
+		<Asset metaData="uff" build="ARS">
+			<weapon name="SHOTGUN_007" />
+		</Asset>
+		<Asset metaData="laser charger 2" build="ARS">
+			<weapon name="LASER_CHARGEGUN_2" />
+		</Asset>
+		<Asset metaData="uff" build="ARS">
+			<weapon name="BA_LASER_HULLCRUSHER" />
+		</Asset>
+		<Asset metaData="uff" build="ARS">
+			<weapon name="BA_LASER_HULLCRUSHER_2" />
+		</Asset>
+		<Asset metaData="uff" build="ARS">
+			<weapon name="BA_LASER_HULLCRUSHER_3" />
+		</Asset>
+		<Asset metaData="uff" build="ARS">
+			<weapon name="LASER_HULL_1" />
+		</Asset>
+		<Asset metaData="uff" build="ARS">
+			<weapon name="LASER_HULL_2" />
+		</Asset>
+		<Asset metaData="uff" build="ARS">
+			<weapon name="LASER_HULLCHAIN" />
+		</Asset>
+		<Asset metaData="uff" build="ARS">
+			<weapon name="LASER_IMP_2" />
+		</Asset>
+		<Asset metaData="uff" build="ARS">
+			<weapon name="LASER_IMP_3" />
+		</Asset>
+	</Hook>
+	<Hook id="DroneCombat" metaDataId="DroneCombatData">
+		<Asset metaData="basic combat drone" build="ARS">
+			<drone name="COMBAT_1_OLD" />
+		</Asset>
+		<Asset metaData="basic combat drone" build="ARS">
+			<drone name="COMBAT_2" />
+		</Asset>
+		<Asset metaData="basic combat beam drone" build="ARS">
+			<drone name="COMBAT_BEAM_OLD" />
+		</Asset>
+		<Asset metaData="basic combat beam drone" build="ARS">
+			<drone name="COMBAT_BEAM_2" />
+		</Asset>
+		<Asset metaData="basic combat beam drone" build="ARS">
+			<drone name="COMBAT_BEAM_3" />
+		</Asset>
+		<Asset metaData="basic combat beam drone" build="ARS">
+			<drone name="DE_DRONE_STEALTH_BEAM_1" />
+		</Asset>
+		<Asset metaData="hull combat beam drone" build="ARS">
+			<drone name="DE_DRONE_HULL_BEAM" />
+		</Asset>
+		<Asset metaData="hull combat beam drone" build="ARS">
+			<drone name="DE_DRONE_BEAM_FOCUS" />
+		</Asset>
+		<Asset metaData="hull combat beam drone" build="ARS">
+			<drone name="COMBAT_FIRE_3" />
+		</Asset>
+		<Asset metaData="hull combat beam drone" build="ARS">
+			<drone name="COMBAT_FIRE_2" />
+		</Asset>
+		<Asset metaData="hull combat beam drone" build="ARS">
+			<drone name="COMBAT_FIRE" />
+		</Asset>
+		<Asset metaData="hull combat beam drone" build="ARS">
+			<drone name="DE_DRONE_MINE_SMALL" />
+		</Asset>
+		<Asset metaData="hull combat beam drone" build="ARS">
+			<drone name="DE_DRONE_MINE_MEDIUM" />
+		</Asset>
+		<Asset metaData="combat missile drone" build="ARS">
+			<drone name="DE_DRONE_MISSILES_1" />
+		</Asset>
+		<Asset metaData="combat missile drone" build="ARS">
+			<drone name="DE_DRONE_LIGHT_MISSILE_FIRE" />
+		</Asset>
+		<Asset metaData="combat missile drone" build="ARS">
+			<drone name="DE_DRONE_LIGHT_MISSILE" />
+		</Asset>
+		<Asset metaData="combat heavy drone" build="ARS">
+			<drone name="DE_DRONE_HEAVY_1" />
+		</Asset>
+		<Asset metaData="combat heavy drone" build="ARS">
+			<drone name="DE_DRONE_HULL_1" />
+		</Asset>
+		<Asset metaData="combat heavy drone" build="ARS">
+			<drone name="DE_DRONE_HEAVY_SCATTER" />
+		</Asset>
+		<Asset metaData="combat heavy drone" build="ARS">
+			<drone name="DE_DRONE_SCATTER" />
+		</Asset>
+		<Asset metaData="combat heavy drone" build="ARS">
+			<drone name="DE_DRONE_LIGHT_SCATTER" />
+		</Asset>
+		<Asset metaData="combat heavy drone" build="ARS">
+			<drone name="DE_DRONE_LIGHT_2" />
+		</Asset>
+		<Asset metaData="combat heavy drone" build="ARS">
+			<drone name="DE_DRONE_LIGHT_1" />
+		</Asset>
+		<Asset metaData="combat heavy drone" build="ARS">
+			<drone name="DE_DRONE_LIGHT_MISSILE_STUN_2" />
+		</Asset>
+		<Asset metaData="combat heavy drone" build="ARS">
+			<drone name="DE_DRONE_LIGHT_MISSILE_STUN" />
+		</Asset>
+	</Hook>
+	<Hook id="DroneAux" metaDataId="DroneAuxData">
+		<Asset metaData="repair drone" build="ARS">
+			<drone name="REPAIR_OLD" />
+		</Asset>
+		<Asset metaData="repair drone" build="ARS">
+			<drone name="DE_REPAIR_2" />
+		</Asset>
+		<Asset metaData="repair drone" build="ARS">
+			<drone name="DE_REPAIR_3" />
+		</Asset>
+		<Asset metaData="repair drone" build="ARS">
+			<drone name="DE_REPAIR_4" />
+		</Asset>
+		<Asset metaData="repair drone" build="ARS">
+			<drone name="BOARDER_ION" />
+		</Asset>
+		<Asset metaData="security drone" build="ARS">
+			<drone name="BATTLE" />
+		</Asset>
+		<Asset metaData="security drone" build="ARS">
+			<drone name="DE_BATTLE_2" />
+		</Asset>
+		<Asset metaData="security drone" build="ARS">
+			<drone name="DE_BATTLE_3" />
+		</Asset>
+		<Asset metaData="security drone" build="ARS">
+			<drone name="DE_BATTLE_4" />
+		</Asset>
+		<Asset metaData="boarding drone" build="ARS">
+			<drone name="BOARDER" />
+		</Asset>
+		<Asset metaData="boarding drone" build="ARS">
+			<drone name="DE_BOARDER_4" />
+		</Asset>
+		<Asset metaData="boarding drone" build="ARS">
+			<drone name="DE_BOARDER_2" />
+		</Asset>
+		<Asset metaData="boarding drone" build="ARS">
+			<drone name="DE_BOARDER_3" />
+		</Asset>
+		<Asset metaData="boarding drone" build="ARS">
+			<drone name="SHIP_REPAIR" />
+		</Asset>
+		<Asset metaData="boarding drone" build="ARS">
+			<drone name="DE_SHIP_REPAIR_2" />
+		</Asset>
+		<Asset metaData="boarding drone" build="ARS">
+			<drone name="DE_DRONE_SHIELD_SMALL" />
+		</Asset>
+		<Asset metaData="boarding drone" build="ARS">
+			<drone name="DRONE_SHIELD" />
+		</Asset>
+		<Asset metaData="boarding drone" build="ARS">
+			<drone name="DE_DRONE_SHIELD_BIG" />
+		</Asset>
+	</Hook>
+	<Hook id="DroneDefense" metaDataId="DroneDefenseData">
+		<Asset metaData="defense drone" build="ARS">
+			<drone name="DEFENSE_1_OLD" />
+		</Asset>
+		<Asset metaData="defense light missile drone" build="ARS">
+			<drone name="DE_DRONE_DEFENSE_LIGHT_MISSILE" />
+		</Asset>
+		<Asset metaData="defense swarm missile drone" build="ARS">
+			<drone name="DE_DRONE_DEFENSE_SWARM_MISSILE" />
+		</Asset>
+		<Asset metaData="defense heavy drone" build="ARS">
+			<drone name="DE_DRONE_DEFENSE_HEAVY_SMALL" />
+		</Asset>
+		<Asset metaData="anti drone" build="ARS">
+			<drone name="ANTI_DRONE" />
+		</Asset>
+		<Asset metaData="anti drone" build="ARS">
+			<drone name="DE_ANTI_DRONE_2" />
+		</Asset>
+		<Asset metaData="anti drone" build="ARS">
+			<drone name="DE_ANTI_DRONE_EFFECTOR" />
+		</Asset>
+		<Asset metaData="anti drone" build="ARS">
+			<drone name="DE_ANTI_DRONE_MISSILES" />
+		</Asset>
+		<Asset metaData="anti drone" build="ARS">
+			<drone name="DE_ANTI_DRONE_LASER_HEAVY" />
+		</Asset>
+		<Asset metaData="anti drone" build="ARS">
+			<drone name="DE_DRONE_DEFENSE_LIGHT_1" />
+		</Asset>
+		<Asset metaData="anti drone" build="ARS">
+			<drone name="DE_DRONE_DEFENSE_LIGHT_2" />
+		</Asset>
+		<Asset metaData="anti drone" build="ARS">
+			<drone name="DE_DRONE_DEFENSE_SCATTER" />
+		</Asset>
+		<Asset metaData="anti drone" build="ARS">
+			<drone name="DE_DRONE_DEFENSE_GAUSS" />
+		</Asset>
+		<Asset metaData="anti drone" build="ARS">
+			<drone name="DE_DRONE_DEFENSE_HEAVY" />
+		</Asset>
+		<Asset metaData="anti drone" build="ARS">
+			<drone name="DE_DRONE_DEFENSE_MINESWEEPER" />
+		</Asset>
+		<Asset metaData="anti drone" build="ARS">
+			<drone name="DE_DRONE_DEFENSE_SVCH" />
+		</Asset>
+		<Asset metaData="anti drone" build="ARS">
+			<drone name="DRONE_CHAFF" />
+		</Asset>
+		<Asset metaData="anti drone" build="ARS">
+			<drone name="DEFENSE_2" />
+		</Asset>
+		<Asset metaData="anti drone" build="ARS">
+			<drone name="DE_DRONE_DEFENSE_3" />
+		</Asset>
+	</Hook>
+	<Hook id="AugEngi" metaDataId="AugEngiData">
+		<Asset metaData="nano med bay" build="ARS">
+			<aug name="NANO_MEDBAY" />
+		</Asset>
+		<Asset metaData="drone recovery arm" build="ARS">
+			<aug name="DRONE_RECOVERY" />
+		</Asset>
+		<Asset metaData="shield recharge booster" build="ARS">
+			<aug name="SHIELD_RECHARGE" />
+		</Asset>
+		<Asset metaData="ftl recharge booster" build="ARS">
+			<aug name="FTL_BOOSTER" />
+		</Asset>
+		<Asset metaData="weapon cooldown booster" build="ARS">
+			<aug name="AUTO_COOLDOWN" />
+		</Asset>
+		<Asset metaData="drone speed booster" build="ARS">
+			<aug name="DRONE_SPEED" />
+		</Asset>
+		<Asset metaData="system casing" build="ARS">
+			<aug name="SYSTEM_CASING" />
+		</Asset>
+		<Asset metaData="No drones, augment" build="ARS">
+			<aug name="INJECTOR_PRC"/>
+		</Asset>
+		<Asset metaData="No drones, augment" build="ARS">
+			<aug name="INJECTOR_FRC"/>
+		</Asset>
+		<Asset metaData="No drones, augment" build="ARS">
+			<aug name="INJECTOR_BRC"/>
+		</Asset>
+		<Asset metaData="No drones, augment" build="ARS">
+			<aug name="INJECTOR_CLD"/>
+		</Asset>
+		<Asset metaData="No drones, augment" build="ARS">
+			<aug name="INJECTOR_POW"/>
+		</Asset>
+		<Asset metaData="No drones, augment" build="ARS">
+			<aug name="INJECTOR_UNI"/>
+		</Asset>
+	</Hook>
+</HookBase>
