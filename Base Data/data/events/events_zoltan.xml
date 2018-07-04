@@ -4761,11 +4761,11 @@ shield research center — jams shields
 <event name="EVENT_CONTRABAND" unique="true"> 
 	<ship load="SHIP_CON_PARAM" hostile="false"/>
 	<text>A smuggling ship hails you: "We sell excellent weapons at very low prices. Will you buy any?"</text>
-	<choice req="slug" hidden="true" max_group="0" blue="true">
+	<choice req="slug" hidden="true" blue="true">
 		<text>(Slug Crew Member) Ask what exactly they are selling. Let your Slug control the goods' quality.</text>
 		<event load="EVENT_CONTRABAND_BUYSLUG"/>
 	</choice>
-	<choice req="slug" lvl="0" hidden="true" max_group="0" blue="false">
+	<choice req="slug" hidden="true" lvl="0" max_lvl="0" blue="false">
 		<text>Ask what exactly they are selling.</text>
 		<event>
 			<text>The smugglers show you their goods. What are you going to do?</text>
@@ -7092,22 +7092,22 @@ shield research center — jams shields
 
 
 
-<event name="ASTEROID_WITH_CONSTATION" unique="true"><!-- test max_group -->
+<event name="ASTEROID_WITH_CONSTATION" unique="true">
 	<text>This beacon is located right at the center of a dense asteroid field. </text>
 	<environment type="asteroid"/>
-	<choice req="sensors" lvl="0" hidden="true" max_group="0" blue="false">
+	<choice req="sensors" lvl="0" hidden="true" max_lvl="0" blue="false">
 		<text>Examine the surrounding asteroids.</text>
 		<event load="ASTEROID_WITH_CONSTATION_0"/>
 	</choice>
-	<choice req="sensors" lvl="1" hidden="true" max_group="0" blue="false">
+	<choice req="sensors" lvl="1" hidden="true" max_lvl="1" blue="false">
 		<text>Scan the surrounding asteroids.</text>
 		<event load="ASTEROID_WITH_CONSTATION_1"/>
 	</choice>
-	<choice req="sensors" lvl="2" hidden="true" max_group="0">
+	<choice req="sensors" lvl="2" hidden="true" max_lvl="2">
 		<text>(Improved Sensors) Thoroughly scan the surrounding asteroids.</text>
 		<event load="ASTEROID_WITH_CONSTATION_2"/>
 	</choice>  
-	<choice req="sensors" lvl="3" hidden="true" max_group="0"> 
+	<choice req="sensors" lvl="3" hidden="true" max_lvl="3"> 
 		<text>(Advanced Sensors) Thoroughly scan the surrounding asteroids.</text>
 		<event load="ASTEROID_WITH_CONSTATION_OK"/>
 	</choice>  

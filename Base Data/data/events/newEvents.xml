@@ -686,7 +686,7 @@
 	</event>
 	<event>
 		<text>They offer to upgrade your Piloting subsystem in exchange for some scrap.</text>
-		<choice req="pilot" max_lvl="1" max_group="0"  blue="false">
+		<choice req="pilot" max_lvl="1" max_lvl="1"  blue="false">
 			<text>Agree to the exchange.</text>
 			<event>
 				<text>You let their team on board and after a short time they finish their work.</text>
@@ -696,7 +696,7 @@
 				<upgrade amount="1" system="pilot"/>
 			</event>
 		</choice>
-		<choice req="pilot" max_lvl="2" max_group="0"  blue="false">
+		<choice req="pilot" max_lvl="2" max_lvl="2"  blue="false">
 			<text>Agree to the exchange.</text>
 			<event>
 				<text>You let their team on board and after a short time they finish their work.</text>
@@ -725,7 +725,7 @@
 				<system name="doors"/>
 			</event>
 		</choice>
-		<choice req="doors" max_lvl="1" max_group="0"  blue="false">
+		<choice req="doors" max_lvl="1" max_lvl="1"  blue="false">
 			<text>Agree to the exchange.</text>
 			<event>
 				<text>You let their team on board and after a short time they finish their work.</text>
@@ -735,7 +735,7 @@
 				<upgrade amount="1" system="doors"/>
 			</event>
 		</choice>
-		<choice req="doors" max_lvl="2" max_group="0"  blue="false">
+		<choice req="doors" max_lvl="2" max_lvl="2"  blue="false">
 			<text>Agree to the exchange.</text>
 			<event>
 				<text>You let their team on board and after a short time they finish their work.</text>
@@ -764,7 +764,7 @@
 				<system name="sensors"/>
 			</event>
 		</choice>
-		<choice req="sensors" max_lvl="1" max_group="0"  blue="false">
+		<choice req="sensors" max_lvl="1" max_lvl="1"  blue="false">
 			<text>Agree to the exchange.</text>
 			<event>
 				<text>You let their team on board and after a short time they finish their work.</text>
@@ -774,7 +774,7 @@
 				<upgrade amount="1" system="sensors"/>
 			</event>
 		</choice>
-		<choice req="sensors" max_lvl="2" max_group="0"  blue="false">
+		<choice req="sensors" max_lvl="2" max_lvl="2"  blue="false">
 			<text>Agree to the exchange.</text>
 			<event>
 				<text>You let their team on board and after a short time they finish their work.</text>
