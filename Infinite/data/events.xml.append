@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <eventList name="QUESTS_ALL">
+	<event load="ZOLTON_PLANET_IN_DANGER"/><!-- 1.26 -->
+	<event load="EVENT_CON_TRANSPORTTOPLANET"/><!-- 1.26 -->
+	<event load="EVENT_FED_DAMAGEDGOHOME"/><!-- 1.25 -->
+	<event load="EVENT_FEDHELP"/><!-- 1.25 -->
 	<event load="BORDER_NEED_HELP"/>
 	<event load="BORDER_BATTLE_HELP"/>
 	<event load="BORDER_PIRATE_QUEST"/>
@@ -38,12 +42,15 @@
 	<event load="ZOLTAN_QUEST_PRIMITIVES"/>
 	<event load="ZOLTAN_SCI_QUEST"/>
 	<event load="ZOLTAN_TRADE_HUB"/>
-	<!-- <event load="HAL_I_FORGOT_YOU_MAN"/> -->
+	<event load="HAL_I_FORGOT_YOU_MAN"/>
 	<event load="HAL_FED_NOFUEL"/>
 	<event load="HAL_QUEST_ESCORT"/>
 </eventList>
 
 <eventList name="BOARDING_ALL">
+	<event load="EVENT_LANIUS_EATME"/><!-- 1.26 -->
+	<event load="ZOLTON_BOARDERS"/><!-- 1.26 -->
+	<event load="ZOLTON_BOARDERS_MANTIS"/><!-- 1.26 -->
 	<event load="ASTEROID_BOARDERS_ORDEN"/>
 	<event load="BOARDERS"/>
 	<event load="BOARDERS_CRYSTAL"/>
@@ -69,6 +76,33 @@
 </eventList>
 
 <eventList name="NEBULA_ALL">
+	<event load="NEBULA_EVENT_DAMAGE_FTLJUMP"/><!-- 1.26 -->
+	<event load="STORM_EVENT_KILLAVATAR"/><!-- 1.26 -->
+	<event load="NEBULA_SLUG_STEAL_FUEL"/><!-- 1.26 -->
+	<event load="STORM_ZOLTON_FIGHT"/><!-- 1.26 -->
+	<event load="NEBULA_AUTO_ZOLTON_FIGHT"/><!-- 1.26 -->
+	<event load="NEBULA_BORDER_PDS_AFTERBATTLE"/><!-- 1.25.1 -->
+	<event load="NEBULA_STORE"/><!-- 1.25 -->
+	<event load="NEBULA_STORE_AVATAR"/><!-- 1.25 -->
+	<event load="NEBULA_STORE_SLUG"/><!-- 1.25 -->
+	<event load="STORM_STORE_UNSTABLE_STORM"/><!-- 1.25 -->
+	<event load="NEBULA_STORE_SLURM"/><!-- 1.25 -->
+	<event load="NEBULA_ITEMS"/><!-- 1.25 -->
+	<event load="NEBULA_SLURM_CRAZY_CAPTAIN"/><!-- 1.25 -->
+	<event load="NEBULA_EVENT_SLURM_BOARDING"/><!-- 1.25 -->
+	<event load="NEBULA_EVENT_SLURM_RISK"/><!-- 1.25 -->
+	<event load="NEBULA_NEUTRAL_SLURM_FIGHT"/><!-- 1.25 -->
+	<event load="NEBULA_NEUTRAL_SLURM_FIGHT"/><!-- 1.25 -->
+	<event load="NEBULA_SLURM_PLANET_TRADER"/><!-- 1.25 -->
+	<event load="NEBULA_SLURM_PIRATE_STEAL"/><!-- 1.25 -->
+	<event load="NEBULA_SLURM_RECEPT"/><!-- 1.25 -->
+	<event load="NEBULA_EVENT_SLURM_AUCTION"/><!-- 1.25 -->
+	<event load="NEBULA_SLURM_FIGHT"/><!-- 1.25 -->
+	<event load="NEBULA_SLURM_FIGHT"/><!-- 1.25 -->
+	<event load="NEBULA_SLURM_FIGHT_RANDOM"/><!-- 1.25 -->
+	<event load="NEBULA_SLURM_FIGHT_RANDOM"/><!-- 1.25 -->
+	<event load="NEBULA_AUTO_WARNING"/><!-- 1.25 -->
+	<event load="NEBULA_EVENT_ROCKSLUG_CRASH"/><!-- 1.25 -->
 	<event load="NEBULA_SLUG_DISTRESS_PILOTING"/>
 	<event load="NEBULA_SLUG_DISTRESS_PILOTING"/>
 	<event load="NEBULA_SLUG_DISTRESS_PILOTING"/>
@@ -150,7 +184,7 @@
 	<event load="NEBULA_MANTIS_FIGHT"/>
 	<event load="NEBULA_PIRATE"/>
 	<event load="NEBULA_REBEL"/>
-	<!-- <event load="NEBULA_REBEL_DREDNOUT_QUEST"/> -->
+	<!-- <event load="NEBULA_REBEL_DREDNOUT_QUEST"/> --><!-- 1.25 -->
 	<event load="NEBULA_SLUG_DOORS"/>
 	<event load="NEBULA_SLUG_FIGHT"/>
 	<event load="NEBULA_SLUG_FIGHT_UNLOCK"/>
@@ -250,6 +284,30 @@
 </eventList>
 
 <eventList name="HOSTILE_ALL">
+	<event load="SILVER_SHAMAN_EVENT"/><!-- 1.26.4 -->
+	<event load="EVENT_CON_LEADER"/><!-- 1.26 -->
+	<event load="ZOLTON_BOSS_EVENT"/><!-- 1.26 -->
+	<event load="EVENT_SOLARIS"/><!-- 1.26 -->
+	<event load="MOTILEK_EVENT"/><!-- 1.26 -->
+	<event load="CON_FIGHT"/><!-- 1.26 -->
+	<event load="CON_FIGHT"/><!-- 1.26 -->
+	<event load="ZOLTON_FIGHT"/><!-- 1.26 -->
+	<event load="ZOLTON_MANTIS"/><!-- 1.26 -->
+	<event load="DESTROYER_OF_FED_EVENT"/><!-- 1.26 -->
+	<event load="ABYSSEYE_EVENT"/><!-- 1.26 -->
+	<event load="ZOLTAN_BLINK_X2_EVENT"/><!-- 1.26 -->
+	<event load="EVENT_DONT_CLOAK_WITH_ZOLTONS"/><!-- 1.26 -->
+	<event load="EVENT_CON_VS_AUTOSHIP"/><!-- 1.26 -->
+	<event load="EVENT_ZOLTON_VS_CON"/><!-- 1.26 -->
+	<event load="SLURM_FIGHT"/><!-- 1.25 -->
+	<event load="SLURM_FIGHT"/><!-- 1.25 -->
+	<event load="SLURM_FIGHT_RANDOM"/><!-- 1.25 -->
+	<event load="SLURM_FIGHT_RANDOM"/><!-- 1.25 -->
+	<event load="EVENT_SLURM_TAMOZNA"/><!-- 1.25 -->
+	<event load="EVENT_PIRATE_DREDNOUT"/><!-- 1.25 -->
+	<event load="EVENT_REBEL_MINIBOSS"/><!-- 1.25 -->
+	<event load="DECEPTICON_EVENT"/><!-- 1.25 -->
+	<event load="REBEL_DREDNOUT_QUEST"/><!-- 1.25 -->
 	<event load="ZOLTAN_BOSS_EVENT"/>
 	<event load="BORDER_SECTOR_PDS_BAD"/>
 	<event load="BORDER_SECTOR_PDS_CHAOS"/>
@@ -427,6 +485,18 @@
 </eventList>
 
 <eventList name="DISTRESS_BEACON_ALL">
+	<event load="CAPSULE_EVENT_STANDARD"/><!-- 1.26.3 -->
+	<event load="CAPSULE_EVENT_SUN"/><!-- 1.26.3 -->
+	<event load="CAPSULE_EVENT_ASTEROID"/><!-- 1.26.3 -->
+	<event load="PIRATE_ATTACK_CIVIL_1"/><!-- 1.26 -->
+	<event load="ZOLTON_OXYGEN_PLEASE"/><!-- 1.26 -->
+	<event load="DISTRESS_ZOLTON_BASE_VS_AUTO"/><!-- 1.26 -->
+	<event load="EVENT_ITB_VEK"/><!-- 1.26 -->
+	<event load="DISTRESS_ZOLTON_MANTIS"/><!-- 1.26 -->
+	<event load="ZOLTAN_BLINK_EVENT"/><!-- 1.25 -->
+	<event load="DISTRESS_SLURM_MANTIS"/><!-- 1.25 -->
+	<event load="EVENT_3_CLONE_ON_SHIP"/><!-- 1.25 -->
+	<event load="EVENT_SLURM_ESCORT"/><!-- 1.25 -->
 	<event load="DISTRESS_BORDER_TRADERS"/>
 	<event load="BORDER_DISTRESS_TWO_FLEET_FIGHT"/>
 	<event load="BORDER_SUPPLY"/>
@@ -490,6 +560,10 @@
 	<event load="FRIENDLY_BEACON"/>
 	<event load="FRIENDLY_BEACON"/>
 	<event load="FRIENDLY_BEACON"/>
+	<event load="FRIENDLY_BEACON_BAD"/><!-- 1.25 -->
+	<event load="FRIENDLY_BEACON_BAD"/><!-- 1.25 -->
+	<event load="FRIENDLY_BEACON_BAD"/><!-- 1.25 -->
+	<event load="FRIENDLY_BEACON_BAD"/><!-- 1.25 -->
 	<event load="LANIUS_DISTRESS_EMPTY"/>
 	<event load="LANIUS_DISTRESS_EMPTY"/>
 	<event load="LANIUS_DISTRESS_EMPTY"/>
@@ -590,6 +664,8 @@
 </eventList>
 
 <eventList name="NOTHING_ALL">
+	<event load="NOTHING_ZOLTON"/><!-- 1.26 -->
+	<event load="NOTHING_SLURM"/><!-- 1.25 -->
 	<event load="BORDER_SECTOR_EMPTY"/>
 	<event load="NOTHING_HAL_1"/>
 	<event load="NOTHING"/>
@@ -606,6 +682,39 @@
 </eventList>
 
 <eventList name="NEUTRAL_ALL">
+	<event load="CON_NEUTRAL"/><!-- 1.26 -->
+	<event load="ZOLTON_NEUTRAL"/><!-- 1.26 -->
+	<event load="EVENT_QMULTI_ENTER"/><!-- 1.26 -->
+	<event load="CON_UWB_AND_SMASHER"/><!-- 1.26 -->
+	<event load="EVENT_FED_DANGERSCAN_ANOMALY"/><!-- 1.26 -->
+	<event load="CUBE_IN_SPACE"/><!-- 1.26 -->
+	<event load="EVENT_ZOLTON_LIFE_RESEARCH"/><!-- 1.26 -->
+	<event load="EVENT_CONTRABAND"/><!-- 1.26 -->
+	<event load="EVENT_ANTENN_ZOLTON"/><!-- 1.26 -->
+	<event load="EVENT_ENERGYX_BS"/><!-- 1.26 -->
+	<event load="ZOLTON_EYE"/><!-- 1.26 -->
+	<event load="ASTEROID_WITH_CONSTATION"/><!-- 1.26 -->
+	<event load="EVENT_TRADE_FUMIDRCON"/><!-- 1.26 -->
+	<event load="EVENT_TRADE_FUMIDR"/><!-- 1.26 -->
+	<event load="PSEVDO_NOTHING"/><!-- 1.26 -->
+	<event load="EVENT_TR_FED_MISSILES"/><!-- 1.25.1 -->
+	<event load="EVENT_TR_FED_FUEL"/><!-- 1.25.1 -->
+	<event load="EVENT_ETG_TRADER"/><!-- 1.25.1 -->
+	<event load="NEUTRAL_SLURM_FIGHT"/><!-- 1.25 -->
+	<event load="NEUTRAL_SLURM_FIGHT"/><!-- 1.25 -->
+	<event load="BOX_AND_BOMB"/><!-- 1.25 -->
+	<event load="PEACEFUL_MAN_EVENT"/><!-- 1.25 -->
+	<event load="SLURM_TEAMBOIL"/><!-- 1.25 -->
+	<event load="SLURM_4_BARRELS"/><!-- 1.25 -->
+	<event load="SLURM_3_CORPORATIONS"/><!-- 1.25 -->
+	<event load="EVENT_MANTIS_WRKD"/><!-- 1.25 -->
+	<event load="EVENT_SLURM_STORAGE_ALERT"/><!-- 1.25 -->
+	<event load="EVENT_SLURM_HALFMEBABY"/><!-- 1.25 -->
+	<event load="SLURM_BOSS_EVENT"/><!-- 1.25 -->
+	<event load="EVENT_ROCKSLUG_CRASH"/><!-- 1.25 -->
+	<event load="CRYSTAL_STATION_EVENT"/><!-- 1.25 -->
+	<event load="EVENT_CIV_STATION"/><!-- 1.25 -->
+	<event load="EVENT_PIRATE_RABSTVO"/><!-- 1.25 -->
 	<event load="BORDER_SECTOR_TWO_FLEET_FIGHT"/>
 	<event load="BORDER_REBEL_MINER"/>
 	<event load="BORDER_FED_MINER"/>
@@ -733,7 +842,7 @@
 	<event load="PIRATE_SALESMAN"/>
 	<event load="PIRATE_STATION_ASTEROID"/>
 	<event load="PIRATE_STATION_CROPS"/>
-	<!-- <event load="QUEST_SLUG_PIRATE_TRAP"/> -->
+	<event load="QUEST_SLUG_PIRATE_TRAP"/>
 	<event load="RADAR_REBEL"/>
 	<event load="REBEL_CHECKPOINT"/>
 	<event load="REBEL_HELPERS"/>
@@ -746,7 +855,7 @@
 	<event load="REFUGEE_NO_DISTRESS"/>
 	<event load="REFUGEE_NO_DISTRESS"/>
 	<event load="REFUGEE_NO_DISTRESS_PIRATE"/>
-	<!-- <event load="REFUGEE_NO_DISTRESS_SLUG"/> -->
+	<event load="REFUGEE_NO_DISTRESS_SLUG"/>
 	<event load="REFUGEE_NO_DISTRESS_ZOLTAN"/>
 	<event load="REPAIR_ENGI"/>
 	<event load="REPAIR_ENGI_HOME"/>
@@ -757,14 +866,14 @@
 	<event load="ROCK_MANTIS_HUNTER"/>
 	<event load="ROCK_NURSERY"/>
 	<event load="ROCK_SLUG_ARGUMENT"/>
-	<!-- <event load="ROCK_SLUG_ARGUMENT_NEBULA"/> -->
+	<event load="ROCK_SLUG_ARGUMENT_NEBULA"/>
 	<event load="ROCK_STARSHIP_MINE"/>
 	<event load="ROCK_ZOLTAN_HELP"/>
 	<event load="ROGUE_REBEL"/>
 	<event load="RUHLAD"/>
 	<event load="SHIPS_MANTIS_PRO_FIGHTSTATION_EVENT"/>
 	<event load="SKUP"/>
-	<!-- <event load="SLUG_DRINK"/> -->
+	<event load="SLUG_DRINK"/>
 	<event load="SQUAT_REFUEL_STATION"/>
 	<event load="TERRAFORMING_SCAN"/>
 	<event load="UNSTABLE_BLACKHOLE_RANDOMIZER_3000"/>
@@ -781,6 +890,8 @@
 </eventList>
 
 <eventList name="ITEMS_ALL">
+	<event load="POCHTA_EVENT"/><!-- 1.26.1 -->
+	<event load="ZOLTON_SCAN_ASTEROID"/><!-- 1.26 -->
 	<event load="BORDER_SECTOR_FLEET_FED"/>
 	<event load="BORDER_STUFF"/>
 	<event load="BORDER_RANDOM_STANDARD"/>
@@ -957,11 +1068,15 @@
 </eventList>
 
 <eventList name="STORE_ALL">
+	<event load="STORE_ZOLTON"/><!-- 1.26 -->
+	<event load="STORE_ZOLTON"/><!-- 1.26 -->
+	<event load="STORE_ZOLTON"/><!-- 1.26 -->
+	<event load="STORE_ZOLTON"/><!-- 1.26 -->
 	<event load="STORE_BORDER_1"/>
 	<event load="STORE_BORDER_1"/>
 	<event load="STORE_BORDER_1"/>
 	<event load="STORE_BORDER_1"/>
-	<event load="NEBULA_STORE"/>
+	<!-- <event load="NEBULA_STORE"/>
 	<event load="NEBULA_STORE"/>
 	<event load="NEBULA_STORE"/>
 	<event load="NEBULA_STORE"/>
@@ -972,7 +1087,7 @@
 	<event load="NEBULA_STORE_SLUG"/>
 	<event load="NEBULA_STORE_SLUG"/>
 	<event load="NEBULA_STORE_SLUG"/>
-	<event load="NEBULA_STORE_SLUG"/>
+	<event load="NEBULA_STORE_SLUG"/> --><!-- 1.25 -->
 	<event load="SPECIAL_STORE"/>
 	<event load="TRADERS_3_AUGMENTS"/>
 	<event load="TRADERS_3_WEAPONS"/>
@@ -1018,10 +1133,10 @@
 	<event load="STORE_ZOLTAN"/>
 	<event load="STORE_ZOLTAN"/>
 	<event load="STORE_ZOLTAN"/>
+	<!-- <event load="STORM_STORE_UNSTABLE_STORM"/>
 	<event load="STORM_STORE_UNSTABLE_STORM"/>
 	<event load="STORM_STORE_UNSTABLE_STORM"/>
-	<event load="STORM_STORE_UNSTABLE_STORM"/>
-	<event load="STORM_STORE_UNSTABLE_STORM"/>
+	<event load="STORM_STORE_UNSTABLE_STORM"/> --><!-- 1.25 -->
 </eventList>
 
 
@@ -1045,6 +1160,13 @@
 		<text id="continue" />
 		<event/>
 	</choice>
+	<!-- <choice req="pilot" lvl="3" hidden="true" blue="false" max_group="0">
+		<text id="continue" />
+		<event>
+			<text>It looks like your cockpit isn't suitable for long-distance FTL travel, as during the first jump it explodes! You chose the wrong ship...</text>
+			<damage amount="60"/>
+		</event>
+	</choice> -->
 </event>
 
 <event name="START_BEACON_NEW">
@@ -1108,168 +1230,67 @@
 	</choice>
 </event>
 
-<event name = "FLEET_EASY_BEACON">
-	<text>It seems the rebels have lost your trail, giving you a little bit of time to catch your breath. You notice a fuel cell floating nearby while the ship is preparing to jump.</text>
-	<item_modify>
-		<item type="fuel" min="1" max="1"/>
-	</item_modify>
-	<choice req="pilot" lvl="1" hidden="true" blue="false" max_group="0">
-		<text id="continue" />
-		<event/>
-	</choice>
-	<choice req="pilot" lvl="8" hidden="true" blue="true" max_group="0">
-		<text>(Hyper-Jump Module) Perform a hyper jump.</text>
-		<event>
-			<text>Select a destination.</text>
-			<choice hidden="true">
-				<text>Jump to a remote sector.</text>
-				<event>
-					<secretSector/>
-				</event>
-			</choice>
-			<choice hidden="true">
-				<text>Make a hyper-jump to the Federation base.</text>
-				<event/>
-			</choice>
-		</event>
-	</choice>
-</event>
-
-<event name = "FLEET_EASY_BEACON_DLC">
-	<text>It seems the rebels have lost your trail, giving you a little bit of time to catch your breath. You notice a fuel cell floating nearby while the ship is preparing to jump.</text>
-	<item_modify>
-		<item type="fuel" min="1" max="1"/>
-	</item_modify>
-	<choice req="pilot" lvl="1" hidden="true" blue="false" max_group="0">
-		<text id="continue" />
-		<event/>
-	</choice>
-	<choice req="pilot" lvl="8" hidden="true" blue="true" max_group="0">
-		<text>(Hyper-Jump Module) Perform a hyper jump.</text>
-		<event>
-			<text>Select a destination.</text>
-			<choice hidden="true">
-				<text>Jump to a remote sector.</text>
-				<event>
-					<secretSector/>
-				</event>
-			</choice>
-			<choice hidden="true">
-				<text>Make a hyper-jump to the Federation base.</text>
-				<event/>
-			</choice>
-		</event>
-	</choice>
-</event>
-
-<eventList name="TRADER_UPGRADES_LIST">
-	<event>
-		<text>They offer to upgrade your Oxygen system in exchange for some scrap.</text>
-		<choice req="oxygen" max_lvl="1" max_group="0" blue="false">
-			<text>Agree to the exchange.</text>
-			<event>
-				<text>You let their team on board and after a short time they finish their work.</text>
-				<item_modify>
-					<item type="scrap" min="-15" max="-5"/>
-				</item_modify>
-				<upgrade amount="1" system="oxygen"/>
-			</event>
-		</choice>
-		<choice req="oxygen" max_lvl="2" max_group="0" blue="false">
-			<text>Agree to the exchange.</text>
-			<event>
-				<text>You let their team on board and after a short time they finish their work.</text>
-				<item_modify>
-					<item type="scrap" min="-20" max="-10"/>
-				</item_modify>
-				<upgrade amount="1" system="oxygen"/>
-			</event>
-		</choice>
-		<choice hidden="true">
-			<text>Decline.</text>
-			<event>
-				<text>You thank them but prepare to move on.</text>
-			</event>
-		</choice>
-	</event>
-	<event>
-		<text>They offer to upgrade your Door subsystem in exchange for some scrap.</text>
-		<choice req="doors" max_lvl="1" max_group="0"  blue="false">
-			<text>Agree to the exchange.</text>
-			<event>
-				<text>You let their team on board and after a short time they finish their work.</text>
-				<item_modify>
-					<item type="scrap" min="-20" max="-10"/>
-				</item_modify>
-				<upgrade amount="1" system="doors"/>
-			</event>
-		</choice>
-		<choice req="doors" max_lvl="2" max_group="0"  blue="false">
-			<text>Agree to the exchange.</text>
-			<event>
-				<text>You let their team on board and after a short time they finish their work.</text>
-				<item_modify>
-					<item type="scrap" min="-25" max="-15"/>
-				</item_modify>
-				<upgrade amount="1" system="doors"/>
-			</event>
-		</choice>
-		<choice hidden="true">
-			<text>Decline.</text>
-			<event>
-				<text>You thank them but prepare to move on.</text>
-			</event>
-		</choice>
-	</event>
-	<event>
-		<text>They offer to upgrade your Sensors subsystem in exchange for some scrap.</text>
-		<choice req="sensors" max_lvl="1" max_group="0"  blue="false">
-			<text>Agree to the exchange.</text>
-			<event>
-				<text>You let their team on board and after a short time they finish their work.</text>
-				<item_modify>
-					<item type="scrap" min="-20" max="-10"/>
-				</item_modify>
-				<upgrade amount="1" system="sensors"/>
-			</event>
-		</choice>
-		<choice req="sensors" max_lvl="2" max_group="0"  blue="false">
-			<text>Agree to the exchange.</text>
-			<event>
-				<text>You let their team on board and after a short time they finish their work.</text>
-				<item_modify>
-					<item type="scrap" min="-25" max="-15"/>
-				</item_modify>
-				<upgrade amount="1" system="sensors"/>
-			</event>
-		</choice>
-		<choice hidden="true">
-			<text>Decline.</text>
-			<event>
-				<text>You thank them but prepare to move on.</text>
-			</event>
-		</choice>
-	</event>
-	<event>
-		<text>They offer to upgrade your reactor in exchange for some scrap.</text>
-		<choice req="reactor" max_lvl="24" blue="false">
-			<text>Agree to the exchange.</text>
-			<event>
-				<text>You let their team on board and after a short time they finish their work.</text>
-				<item_modify>
-					<item type="scrap" min="-20" max="-5"/>
-				</item_modify>
-				<upgrade amount="1" system="reactor"/>
-			</event>
-		</choice>
-		<choice hidden="true">
-			<text>Decline.</text>
-			<event>
-				<text>You thank them but prepare to move on.</text>
-			</event>
-		</choice>
-	</event>
+<eventList name="FLEET_EASY_BEACON"><!-- 1.25 -->
+	<event load="FLEET_EASY_BEACON_INF"/>
 </eventList>
+
+<event name="FLEET_EASY_BEACON_INF">
+	<text>It seems the rebels have lost your trail, giving you a little bit of time to catch your breath. You notice a fuel cell floating nearby while the ship is preparing to jump.</text>
+	<item_modify>
+		<item type="fuel" min="1" max="1"/>
+	</item_modify>
+	<choice req="pilot" lvl="1" hidden="true" blue="false" max_group="0">
+		<text id="continue" />
+		<event/>
+	</choice>
+	<choice req="pilot" lvl="8" hidden="true" blue="true" max_group="0">
+		<text>(Hyper-Jump Module) Perform a hyper jump.</text>
+		<event>
+			<text>Select a destination.</text>
+			<choice hidden="true">
+				<text>Jump to a remote sector.</text>
+				<event>
+					<secretSector/>
+				</event>
+			</choice>
+			<choice hidden="true">
+				<text>Make a hyper-jump to the Federation base.</text>
+				<event/>
+			</choice>
+		</event>
+	</choice>
+</event>
+
+<eventList name="FLEET_EASY_BEACON_DLC"><!-- 1.25 -->
+	<event load="FLEET_EASY_BEACON_DLC_INF"/>
+</eventList>
+
+<event name="FLEET_EASY_BEACON_DLC_INF">
+	<text>It seems the rebels have lost your trail, giving you a little bit of time to catch your breath. You notice a fuel cell floating nearby while the ship is preparing to jump.</text>
+	<item_modify>
+		<item type="fuel" min="1" max="1"/>
+	</item_modify>
+	<choice req="pilot" lvl="1" hidden="true" blue="false" max_group="0">
+		<text id="continue" />
+		<event/>
+	</choice>
+	<choice req="pilot" lvl="8" hidden="true" blue="true" max_group="0">
+		<text>(Hyper-Jump Module) Perform a hyper jump.</text>
+		<event>
+			<text>Select a destination.</text>
+			<choice hidden="true">
+				<text>Jump to a remote sector.</text>
+				<event>
+					<secretSector/>
+				</event>
+			</choice>
+			<choice hidden="true">
+				<text>Make a hyper-jump to the Federation base.</text>
+				<event/>
+			</choice>
+		</event>
+	</choice>
+</event>
 
 <event name="ROCK_CRYSTAL_BEACON">
 	<img planet="PLANET_GAS" back="CRYSTAL_CHERV"/>
@@ -1309,9 +1330,18 @@
 	</event>
 	<event>
 		<text>You carefully approach the monolith with your ship and notice how the ship's hull damage partially vanishes due to some unknown force.</text>
-		<damage amount="-10"/>
+		<damage amount="-30"/><!-- 1.23 was -10 -->
 	</event>
 </eventList>
+
+<!-- upgrades to piloting through event will mess with Arsenal+ Infinite progression -->
+<mod:findName type="eventList" name="EVENT_FED_DAMAGEDGOHOME_Q">
+	<!-- find the event with at least 1 child <choice req="pilot">, and then delete it altogether -->
+	<mod:findWithChildLike type="event" child-type="choice"><mod:selector req="pilot" />
+		<mod:removeTag />
+	</mod:findWithChildLike>
+</mod:findName>
+
 
 <event name="START_BEACON_CIVILIAN">
 	<text load="START_BEACON"/>
@@ -1478,6 +1508,21 @@
 	</choice>
 </event>
 
+<event name="START_BEACON_ZOLTON"> <!-- 1.26 -->
+	<text load="START_BEACON_ZOLTON"/>
+	<choice hidden="true">
+		<text id="continue" />
+		<event>
+			<text>Upgrading Piloting...</text>
+			<upgrade amount="1" system="pilot"/>
+			<choice hidden="true">
+				<text id="continue" />
+				<event load="AUGMENTS_ON_START_BEACON"/>
+			</choice>
+		</event>
+	</choice>
+</event>
+
 <event name="START_BEACON_ROCK">
 	<text load="START_BEACON_ROCK"/>
 	<choice hidden="true">
@@ -1508,17 +1553,24 @@
 	</choice>
 </event>
 
-<event name="START_BEACON_UNSTABLE">
+<event name="START_BEACON_UNSTABLE"><!-- 1.26 -->
 	<text load="START_BEACON_UNSTABLE"/>
 	<modifyPursuit amount="-3"/>
 	<choice hidden="true">
 		<text id="continue" />
 		<event>
-			<text>Upgrading Piloting...</text>
-			<upgrade amount="1" system="pilot"/>
+			<text load="START_BEACON_UNSTABLE_2"/>
+			<modifyPursuit amount="-3"/>
 			<choice hidden="true">
 				<text id="continue" />
-				<event load="AUGMENTS_ON_START_BEACON"/>
+				<event>
+					<text>Upgrading Piloting...</text>
+					<upgrade amount="1" system="pilot"/>
+					<choice hidden="true">
+						<text id="continue" />
+						<event load="AUGMENTS_ON_START_BEACON"/>
+					</choice>
+				</event>
 			</choice>
 		</event>
 	</choice>
@@ -1553,3 +1605,28 @@
 		</event>
 	</choice>
 </event>
+
+<event name="START_BEACON_SLURM"><!-- 1.25 -->
+	<text load="START_BEACON_SLURM"/>
+	<choice hidden="true">
+		<text id="continue" />
+		<event>
+			<text>Upgrading Piloting...</text>
+			<upgrade amount="1" system="pilot"/>
+			<choice hidden="true">
+				<text id="continue" />
+				<event load="SLURM_FUEL"/>
+			</choice>
+		</event>
+	</choice>
+</event>
+
+<eventList name="PEACEFUL_MAN_RANDOM_CHERVOTOCHINA"> <!-- 1.26 -->
+	<event>
+		<text load="NOTHING"/>
+		<choice hidden="true">
+			<text id="continue" />
+			<event load="TALK_WITH_CREW"/>
+		</choice>
+	</event>
+</eventList>
